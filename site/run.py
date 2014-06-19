@@ -10,6 +10,7 @@ sys.setdefaultencoding('utf-8')
 
 app = Flask(__name__)
 app.config['FREEZER_DESTINATION'] = "../gh_pages"
+app.config['FREEZER_BASE_URL']="http://sztanko.github.io/solsticestreets/"
 freezer = Freezer(app)
 
 def load_all_cities():
