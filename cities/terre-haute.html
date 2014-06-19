@@ -8,7 +8,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Winter solstice for Terre Haute</title>
+<title>Streets aligned the solstices in Terre Haute</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -27,7 +27,7 @@ var winter = {"features": [{"geometry": {"coordinates": [[-87.36785783112425, 39
 var summer = {"features": [{"geometry": {"coordinates": [[-87.38729823061168, 39.562158980918305], [-87.38502371736651, 39.56319288867477]], "type": "LineString"}, "properties": {"azimuth_d": 1.38, "length": 226, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.38514173456319, 39.563416182575295], [-87.38748062082473, 39.56233265395204]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 233, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.50519145894684, 39.44462785080028], [-87.50215947311186, 39.446036848723715]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 303, "name": "West National Ave"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.503789418003, 39.44554608829291], [-87.50534694325067, 39.44480613388075]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 157, "name": "W National Ave"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.50007330123103, 39.44724727936098], [-87.50189091693419, 39.44639249287537]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 182, "name": "W National Ave"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.50163057502164, 39.44627732552576], [-87.49993374254316, 39.44705994382509]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 169, "name": "West National Ave"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.44818403998796, 39.421275868558844], [-87.45134602914113, 39.419702920609296]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 323, "name": "Justice Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.49560633357275, 39.44639777347436], [-87.49399407449732, 39.447133956030086]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 160, "name": "West Old US Hwy 40"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.43250007422678, 39.527417920101826], [-87.43625013770661, 39.52560776429245]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 379, "name": "Bolton Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.41962806934222, 39.40319291829038], [-87.42312458025107, 39.4014210677785]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 359, "name": "West Rigney Drive"}, "type": "Feature"}], "type": "FeatureCollection"};
 
 var city = {"bottom": "39.367", "geonameid": "7164249", "group": "North America", "left": "-87.508", "name": "Terre Haute", "right": "-87.280", "slug": "terre-haute", "top": "39.578"};
-var streetIndex = ["Gannon Road", "McDaniel Road", "Yuma Road", "West National Ave", "Pennington Road", "West Old US Hwy 40", "West Oak Grove Drive", "West Rigney Drive", null, "Bolton Road", "Davidson", "Planett Road", "Justice Road", "Honey Creek Drive", "Old Paris Road", "W National Ave"];
+var streetIndex = ["Gannon Road", "McDaniel Road", null, "Yuma Road", "West National Ave", "Pennington Road", "West Old US Hwy 40", "West Oak Grove Drive", "West Rigney Drive", "Bolton Road", "Davidson", "Planett Road", "Justice Road", "Honey Creek Drive", "Old Paris Road", "W National Ave"];
 </script>
 
 
@@ -81,7 +81,7 @@ var streetIndex = ["Gannon Road", "McDaniel Road", "Yuma Road", "West National A
 	</script>
 
 	<!-- build:js scripts/plugins.js -->
-	<script src="..//static/bootstrap.min.js"></script>
+	<script src="../static/bootstrap.min.js"></script>
 	<!-- endbuild -->
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js?2"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
@@ -90,7 +90,7 @@ var streetIndex = ["Gannon Road", "McDaniel Road", "Yuma Road", "West National A
             var stats = {"hist": [144666, 22478, 8560, 5387, 5352, 4005, 3956, 2510, 2131, 2041, 2877, 1220, 2506, 2127, 2835, 2319, 3336, 2719, 2554, 957, 1301, 5123, 1741, 2202, 1651, 2178, 2187, 1865, 1924, 3107, 8540, 5329, 3507, 1993, 1662, 1410, 1343, 1951, 1152, 1638, 1130, 924, 1586, 1523, 1497, 1697, 1341, 1841, 1807, 1386, 873, 1264, 907, 1524, 1864, 1268, 1663, 1923, 1618, 1524, 1456, 1940, 2870, 2676, 6634, 2627, 2539, 2129, 2644, 3968, 2715, 1701, 2098, 3820, 2884, 1928, 1507, 3642, 3959, 2157, 2335, 1653, 2696, 3152, 3040, 3563, 6035, 11191, 30721, 197022, 186771, 34399, 11177, 4893, 3395, 3303, 3427, 2836, 1183, 2488, 1379, 1913, 3105, 1661, 2247, 1893, 1517, 1538, 1619, 1137, 780, 974, 941, 2276, 785, 1429, 1879, 1548, 1774, 2021, 1688, 1210, 1919, 1470, 642, 1961, 3341, 1958, 1800, 2085, 1368, 1373, 742, 1748, 5328, 3711, 2038, 1493, 2108, 1022, 2642, 2993, 1760, 2285, 1244, 1720, 2290, 2129, 1680, 1532, 1804, 997, 2468, 1386, 954, 1795, 2252, 1636, 1362, 1631, 1917, 1831, 1873, 3628, 2894, 1455, 2094, 1986, 2121, 2401, 2277, 3004, 2443, 3269, 3012, 4503, 5290, 14433, 42994, 223013, 33824], "ratio": 38, "solsticeLength": 5226.927522529706, "summer_sun_azimuth": 58.13415791294471, "sun_azimuth": 120.17354478573591, "totalLength": 1345008.6557878572}
 	</script>
 
-	<script src="..//static/city.js"></script>
+	<script src="../static/city.js"></script>
 
 </body>
 </html>

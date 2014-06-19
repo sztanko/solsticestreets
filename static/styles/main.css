@@ -7,8 +7,10 @@ body {
 }
 
 #head{
-background-image: url('/static/sunrise.jpg');
-height: 300px;
+padding: none;
+text-align: center;
+background-image: url('/static/stone.jpg');
+height: 460px;
 color: white;
 }
 
@@ -46,24 +48,18 @@ html, body, #map {
     height: 100%;
 }
 
-.description{
-	
-	/*height: 200px; */
-	/*text-align: right;
-	vertical-align: top;*/
-	
+@media  (max-width: 800px){
+#legendContent{
+display:none !important;	
 }
+}
+
 .colours {
 	display: inline-block;
 	width: 100px;
 }
 
 
-#legendContent{
-/*	display: none; */
-/*width: 450px;*/
-padding: 20px;
-}
 #pie{
 	fill: #CCCCCC;
 }
