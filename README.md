@@ -1,4 +1,4 @@
-solsticestreets
-===============
+solstreets
+==========
 
-A small project that shows all streets aligned towards the summer and winter solstice
+Map of all streets pointing to the direction of the sun at first sunrise after winter solstice

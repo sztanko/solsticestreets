@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Stonehenge in your city</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/bootstrap.min.css') }}"> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+        <script src="{{ url_for('static', filename='vendor/modernizr.min.js') }}"></script>
+    </head>
+    <body>
+    <!--    <div id="head" >
+            <div class="container">
+                  <h1>Stonehenge in your city</h1>
+              </div>
+          </div>
+          -->
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12 intro">
+     <p align="center">
+     <img src="http://community.novacaster.com/attach.pl/11160/765/Winter%20Solstice%20Sunrise%20Line%20(aerial%20view)%20640.jpg"> 
+     </p>
+            <h1>On Solstices and city planning</h1>
+   <article>
+      <p> 
+      Every year around 21st of December and 20th of June hundreds of people <a href='http://www.english-heritage.org.uk/daysout/properties/stonehenge/summer-solstice/?lang=en'>gather to Stonehenge</a> to spot the fabulous attraction happening only twice a year -  you can see how the central Altar stone aligns with the Slaughter stone, Heel stone and the rising sun to the northeast.
+      </p> 
+     <p>
+     Similar alignments can be found at <a href="http://en.wikipedia.org/wiki/Newgrange">Newgrange, Ireland</a>, <a href=http://en.wikipedia.org/wiki/Maeshowe>Maeshowe, Scotland</a> 
+     and other prehistoric monuments. Winter solstice was very important in the life of ancient communities since it was seen as the beginning of the deep winter, 
+     and in the same time the reversal of the days shrinking was giving some hope for people. Same is true for the <a href='http://www.timeanddate.com/calendar/june-solstice-customs.html'>Summer solstice</a></p>
+     
+     <p>There are many streets in the cities which are aligned along the direction of rising sun of the solstice. I have found all of them.
+     Unfortunately I don't know whether these alignments are intentional or just happen to be such on statistical basis. If you know the story of a such street, please send me a quick <a href='mailto:sztanko@gmail.com'>email</a> and I will add this information.
+     </p>
+     </article>
+
+ </div>
+    </div> 
+    <div class="row">
+        <h2>Choose your city to see the Stonehenge streets</h2>
+        {% for continent in continents %}
+        <div class="row-md-12 citylist">
+            <h3>{{continent}}</h3>
+            <ul>
+            {% for c in cbc[continent] %}
+            <li><a href='cities/{{c.slug}}.html'>{{c.name}}</a></li>
+            {% endfor %}
+        </ul>
+        </div>
+
+        {% endfor %}
+    </div>
+    <div class="row">
+    <div class="row-md-12">
+        <h2>Thank you,</h2>
+        <ul>
+        <li>OpenStreetMap contributors for being so awesome</li>
+
+        <li>Brandon Craig Rhodes for writing <a href='http://rhodesmill.org/pyephem/'>ephem</a> a python library which I used to calculate the sun directions</li>
+        <li><a href='https://www.mapbox.com/'>Mapbox</a> and  <a href='https://github.com/mourner'>Vladimir Agafonkin</a> for everything else map related</li>
+        <li>Sabine Leitner for general inspiration</li>
+
+    </div>
+    </div> 
+    </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
+        
+        
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    
+ </body>
+</html>
