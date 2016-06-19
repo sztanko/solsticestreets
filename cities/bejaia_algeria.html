@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Bejaia, Algeria</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2605, 3618, 3368, 2852, 3232, 2864, 3466, 3279, 4470, 3804, 3939, 3335, 4372, 4114, 4601, 3533, 6617, 3414, 3744, 4361, 4663, 3889, 3986, 4447, 4377, 4260, 4235, 5263, 6890, 7366, 5641, 4790, 3771, 3682, 4846, 3996, 4103, 4153, 4142, 4075, 4701, 3739, 3229, 3467, 3440, 4580, 3391, 3345, 4695, 4585, 4148, 3813, 6567, 5914, 4695, 4803, 4358, 4670, 5041, 5603, 4952, 4568, 4900, 5075, 4429, 5052, 4920, 7680, 4567, 5311, 6205, 6055, 7458, 7679, 5913, 8067, 7707, 5911, 5962, 7044, 5438, 8083, 8553, 4312, 4885, 4335, 4779, 4093, 6070, 3991, 8280, 4383, 5136, 4506, 4471, 3582, 6755, 6286, 5172, 4762, 4737, 4856, 4778, 4032, 5339, 4664, 4657, 4323, 4216, 3975, 5334, 6045, 6143, 6770, 8886, 5701, 7670, 8142, 11843, 6421, 3981, 4302, 3378, 3950, 4278, 4119, 4508, 4305, 4295, 3975, 4633, 4145, 4843, 8261, 4695, 3867, 3661, 3575, 5332, 5271, 4495, 4631, 4494, 4674, 5369, 4794, 3967, 4311, 3614, 4621, 3764, 4543, 3860, 4473, 4474, 4356, 4897, 4134, 4743, 4727, 4807, 5069, 5086, 5104, 4789, 4961, 8619, 5800, 4389, 3635, 4190, 5120, 3948, 4248, 3881, 4053, 3290, 3509, 4472, 2156, 3046], "ratio": 285, "solsticeLength": 25015.392730886782, "summer_sun_azimuth": 59.47070299011114, "sun_azimuth": 118.99774138049655, "totalLength": 875379.2687338999};
+var winter = {"features": [{"geometry": {"coordinates": [[5.072368594653256, 36.74772988524026], [5.070846357217931, 36.7483826678594]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 153, "name": "Rue Harfi Taous"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.064153826629024, 36.74850102033221], [5.062926799823458, 36.74905305247523]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.137701925672445, 36.676259492355484], [5.107542580768666, 36.6892616681963]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 3054, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.063151434828512, 36.73468336913163], [5.058661333117499, 36.73659083883683]], "type": "LineString"}, "properties": {"azimuth_d": 1.06, "length": 453, "name": "Rue des fr\u00e8res Mokhtari"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.064906437714967, 36.74738203625856], [5.062502172608674, 36.748443436657396]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 244, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.041317247613762, 36.74730978425319], [5.047138563186792, 36.744724050943205]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 593, "name": "Rue Tikamera Rachid"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.06342753471904, 36.74081841934046], [5.058447762224631, 36.742997546527505]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 505, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.046575718388681, 36.74711171988119], [5.048019417391288, 36.74649388979827]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 145, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.188981571097685, 36.65594737493802], [5.187673491288421, 36.656505777327425]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.138479347191776, 36.676030247303686], [5.135105128250245, 36.677527422848556]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 344, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.190448320334013, 36.65346147009481], [5.188083198715532, 36.65449797624126]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 240, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.137368996478386, 36.67667137907742], [5.134992559290623, 36.67769522855008]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 240, "name": "Village Touristique Capritour"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.140249688961063, 36.67690364161436], [5.143229874634414, 36.675622886809464]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 301, "name": "Village Touristique Capritour"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.105261781096118, 36.69010161871333], [5.107158773422356, 36.68928069511651]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 192, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.107246280491466, 36.689382786697166], [5.10510445277356, 36.69030588569365]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 216, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.108620493516781, 36.688671246936764], [5.112230495394584, 36.687090419998235]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 366, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.114171492712472, 36.686293133368366], [5.138069472126602, 36.67598481738849]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 2420, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[4.947068529940764, 36.82543934775222], [4.948856222249617, 36.824651784130026]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 181, "name": "Route de Boulimat"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.994947469610452, 36.81002033395035], [4.999478894104129, 36.807989147354306]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 462, "name": "Route de Boulimat"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.201682920433598, 36.6469706919153], [5.202998879231842, 36.646407763298186]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.072555343455974, 36.73904363516252], [5.07091617847135, 36.7397546720087]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 166, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.203051182307661, 36.646492336701186], [5.201758022286043, 36.6470395911594]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 130, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.065438772385534, 36.7378780477072], [5.057359455916583, 36.7414521750394]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 822, "name": "Rue des fr\u00e8res Tabet"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.039677663533979, 36.75173232782464], [5.040953975930221, 36.751177948748726]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 129, "name": "Rue vers L\u0027universit\u00e9 et Taghzouit Ain skhoun"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.062365044672759, 36.74496427628816], [5.061110357586728, 36.74553432952297]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.060385239143187, 36.74446152973579], [5.061624084432225, 36.743900528956395]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 126, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.065366017465976, 36.74469337317757], [5.067532990893426, 36.743715875629476]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 221, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[5.056917059067074, 36.733293146671286], [5.058100248519054, 36.73383629399691]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.057080673817012, 36.73305275368827], [5.058970290068459, 36.733963363649025]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 196, "name": "Rue Lekbour Boualem"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.052482529374088, 36.73885738927399], [5.050338354723294, 36.73780923228213]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 223, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.057911571878606, 36.71466076264977], [5.055969484913305, 36.71375635529736]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 200, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[4.95302655435458, 36.70365741925875], [4.951228636123858, 36.702812942514015]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 185, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[4.951697687425451, 36.702920482331734], [4.95332821904978, 36.70367678145507]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.068273280581707, 36.73605205010085], [5.067119427790856, 36.735484595256]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 120, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.068621045744379, 36.73557034212547], [5.072261138654568, 36.737370774927136]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 381, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.069071573039963, 36.73972474861438], [5.067465097477736, 36.73893517333545]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.072450569666302, 36.736003686519524], [5.068448629996111, 36.734051876546545]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 417, "name": "Route Arri\u00e8re Port"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.068234053274864, 36.7338713303522], [5.074510422371191, 36.736889234589825]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 652, "name": "Route Arri\u00e8re Port"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.920533771426307, 36.67017682904151], [4.922101690233944, 36.67089222447737]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 160, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.029226017009847, 36.70000332857026], [5.031077076506676, 36.7008404292402]], "type": "LineString"}, "properties": {"azimuth_d": 1.07, "length": 189, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.048389478416397, 36.71028364899353], [5.053068256767857, 36.71243704373785]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 481, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "36.600", "geonameid": "1", "group": "Africa", "left": "4.910", "name": "Bejaia, Algeria", "right": "5.220", "slug": "bejaia_algeria", "top": "36.890"};
+var streetIndex = ["Route de Boulimat", "Rue des fr\u00e8res Mokhtari", "Rue vers L\u0027universit\u00e9 et Taghzouit Ain skhoun", "Rue Tikamera Rachid", "Rue des fr\u00e8res Tabet", "Rue Harfi Taous", "Village Touristique Capritour", "Rue Lekbour Boualem", "Route Arri\u00e8re Port", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Bejaia, Algeria</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2605, 3618, 3368, 2852, 3232, 2864, 3466, 3279, 4470, 3804, 3939, 3335, 4372, 4114, 4601, 3533, 6617, 3414, 3744, 4361, 4663, 3889, 3986, 4447, 4377, 4260, 4235, 5263, 6890, 7366, 5641, 4790, 3771, 3682, 4846, 3996, 4103, 4153, 4142, 4075, 4701, 3739, 3229, 3467, 3440, 4580, 3391, 3345, 4695, 4585, 4148, 3813, 6567, 5914, 4695, 4803, 4358, 4670, 5041, 5603, 4952, 4568, 4900, 5075, 4429, 5052, 4920, 7680, 4567, 5311, 6205, 6055, 7458, 7679, 5913, 8067, 7707, 5911, 5962, 7044, 5438, 8083, 8553, 4312, 4885, 4335, 4779, 4093, 6070, 3991, 8280, 4383, 5136, 4506, 4471, 3582, 6755, 6286, 5172, 4762, 4737, 4856, 4778, 4032, 5339, 4664, 4657, 4323, 4216, 3975, 5334, 6045, 6143, 6770, 8886, 5701, 7670, 8142, 11843, 6421, 3981, 4302, 3378, 3950, 4278, 4119, 4508, 4305, 4295, 3975, 4633, 4145, 4843, 8261, 4695, 3867, 3661, 3575, 5332, 5271, 4495, 4631, 4494, 4674, 5369, 4794, 3967, 4311, 3614, 4621, 3764, 4543, 3860, 4473, 4474, 4356, 4897, 4134, 4743, 4727, 4807, 5069, 5086, 5104, 4789, 4961, 8619, 5800, 4389, 3635, 4190, 5120, 3948, 4248, 3881, 4053, 3290, 3509, 4472, 2156, 3046], "ratio": 285, "solsticeLength": 25015.392730886782, "summer_sun_azimuth": 59.47070299011114, "sun_azimuth": 118.99774138049655, "totalLength": 875379.2687338999}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

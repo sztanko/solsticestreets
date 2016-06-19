@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Salt Lake City, Utah</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [283583, 51158, 13753, 11744, 7028, 5058, 4784, 3366, 4325, 4512, 4873, 3941, 3501, 3379, 4613, 3369, 3688, 3718, 3974, 3636, 5035, 3994, 5066, 3477, 4241, 4162, 3933, 3611, 2604, 4899, 3617, 3985, 3223, 3651, 2903, 3598, 3380, 3693, 3608, 4669, 4185, 5094, 4369, 4664, 5717, 4850, 3820, 4423, 4144, 3714, 4468, 3483, 3113, 4187, 5180, 6524, 5976, 4786, 4490, 4264, 5240, 4443, 3080, 4161, 4341, 4067, 4765, 3432, 4304, 3987, 4326, 4445, 4016, 4130, 3810, 3269, 4353, 3748, 6528, 3786, 3694, 6497, 6095, 5440, 9843, 10743, 7622, 13785, 39689, 338696, 345734, 39802, 13640, 8476, 6335, 5551, 5473, 7150, 4138, 4594, 4022, 4091, 3971, 4036, 3545, 3402, 3757, 3297, 3674, 3170, 4383, 3776, 4709, 3806, 3298, 3234, 3819, 3566, 3984, 2861, 3309, 2924, 3788, 2516, 3457, 2786, 4252, 3694, 5025, 4067, 5850, 4452, 4208, 4741, 4501, 4303, 6526, 3229, 3487, 3000, 3713, 3399, 3724, 3867, 3002, 5547, 6090, 5625, 4797, 4925, 5073, 3607, 2656, 4478, 4005, 5004, 4213, 3158, 4136, 3429, 3217, 3383, 3592, 4833, 6272, 4460, 3659, 4596, 4615, 4265, 4746, 4574, 4835, 6410, 12820, 13063, 9348, 16416, 55846, 303216, 34756], "ratio": 38, "solsticeLength": 8939.234556006351, "summer_sun_azimuth": 57.43307314558875, "sun_azimuth": 120.77286656464784, "totalLength": 2312004.968123953};
+var winter = {"features": [{"geometry": {"coordinates": [[-111.87135171402568, 40.78565574796755], [-111.86923603784565, 40.78467866951462]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 208, "name": "Aloha Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.86854503374802, 40.787389544639005], [-111.86717702333107, 40.786743718999475]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 135, "name": "16th Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.86711600307596, 40.78570545265339], [-111.8698368526651, 40.786998696494]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 270, "name": "Sunrise Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.94175274370356, 40.71939328298159], [-111.9399547416538, 40.71859054811466]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 175, "name": "Alexander Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.80334095167578, 40.713278349340385], [-111.80476570757722, 40.713915960714786]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 139, "name": "Bonneville Shoreline Trail Connector"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.90725970340196, 40.83755707915117], [-111.90597844568288, 40.8369969165621]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 124, "name": "Eagle Ridge Drive"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-111.83593725110822, 40.76504925811062], [-111.83399415831452, 40.766021475059716]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 196, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.81948005477929, 40.742890188328886], [-111.81796401995229, 40.74366618492468]], "type": "LineString"}, "properties": {"azimuth_d": 1.48, "length": 154, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.83559585619197, 40.76470166058601], [-111.83365712198793, 40.765674296630294]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 195, "name": "De Trobriand Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.83495313185662, 40.763587454197165], [-111.83277308266022, 40.76465363228084]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 218, "name": "Potter Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.83927106927645, 40.76520952009932], [-111.84052667837184, 40.76457509384809]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 127, "name": "Student Life Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[-112.02781242579505, 40.77310602726004], [-112.03040913939819, 40.771899536117246]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 256, "name": "Apollo Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.94103743208672, 40.760262688484374], [-111.94314154124038, 40.759245628353284]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 210, "name": "470 South"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.95824380292132, 40.767932632802314], [-111.95582763551252, 40.76904759356245]], "type": "LineString"}, "properties": {"azimuth_d": 1.21, "length": 238, "name": "North Temple"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.8687203831624, 40.83774005609746], [-111.87044034969362, 40.836949139713994]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 169, "name": "pipeline path"}, "type": "Feature"}, {"geometry": {"coordinates": [[-112.05102836974795, 40.72052408553873], [-112.04875637107372, 40.72159462221205]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 225, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-112.04971517697774, 40.72036139279814], [-112.04337225557023, 40.72341223791523]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 633, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.97172961457524, 40.746692051970314], [-111.96797888054317, 40.74853229881205]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 376, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.8093920152148, 40.79147589007414], [-111.80796508001855, 40.79216228412503]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 142, "name": "deer trail"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.9566349804262, 40.76888305680316], [-111.95823986342683, 40.768144359676484]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 158, "name": "North Temple"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.84216005984327, 40.76118687712827], [-111.84020372364257, 40.76218599998657]], "type": "LineString"}, "properties": {"azimuth_d": 1.42, "length": 198, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.83464870113335, 40.762864766505544], [-111.8328034251497, 40.76376766511541]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 185, "name": "Hempstead Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.98012476115578, 40.77434403435876], [-111.981562173731, 40.77362922565612]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.97956552057605, 40.775503419205734], [-111.9811223752715, 40.774724656581895]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 157, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-111.80273033002959, 40.756443055208194], [-111.80090718227031, 40.75734327160902]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 183, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-112.04823417850601, 40.72090546213312], [-112.04690187499659, 40.721550281944275]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 133, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "40.700", "geonameid": "1", "group": "North, America", "left": "-112.102", "name": "Salt Lake City, Utah", "right": "-111.739", "slug": "salt-lake-city_utah", "top": "40.853"};
+var streetIndex = ["16th Avenue", "North Temple", "deer trail", "Sunrise Avenue", "Bonneville Shoreline Trail Connector", "Student Life Way", "Aloha Road", "Apollo Road", "470 South", "pipeline path", "De Trobriand Street", "Alexander Street", "Hempstead Road", "Eagle Ridge Drive", "Potter Street", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Salt Lake City, Utah</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [283583, 51158, 13753, 11744, 7028, 5058, 4784, 3366, 4325, 4512, 4873, 3941, 3501, 3379, 4613, 3369, 3688, 3718, 3974, 3636, 5035, 3994, 5066, 3477, 4241, 4162, 3933, 3611, 2604, 4899, 3617, 3985, 3223, 3651, 2903, 3598, 3380, 3693, 3608, 4669, 4185, 5094, 4369, 4664, 5717, 4850, 3820, 4423, 4144, 3714, 4468, 3483, 3113, 4187, 5180, 6524, 5976, 4786, 4490, 4264, 5240, 4443, 3080, 4161, 4341, 4067, 4765, 3432, 4304, 3987, 4326, 4445, 4016, 4130, 3810, 3269, 4353, 3748, 6528, 3786, 3694, 6497, 6095, 5440, 9843, 10743, 7622, 13785, 39689, 338696, 345734, 39802, 13640, 8476, 6335, 5551, 5473, 7150, 4138, 4594, 4022, 4091, 3971, 4036, 3545, 3402, 3757, 3297, 3674, 3170, 4383, 3776, 4709, 3806, 3298, 3234, 3819, 3566, 3984, 2861, 3309, 2924, 3788, 2516, 3457, 2786, 4252, 3694, 5025, 4067, 5850, 4452, 4208, 4741, 4501, 4303, 6526, 3229, 3487, 3000, 3713, 3399, 3724, 3867, 3002, 5547, 6090, 5625, 4797, 4925, 5073, 3607, 2656, 4478, 4005, 5004, 4213, 3158, 4136, 3429, 3217, 3383, 3592, 4833, 6272, 4460, 3659, 4596, 4615, 4265, 4746, 4574, 4835, 6410, 12820, 13063, 9348, 16416, 55846, 303216, 34756], "ratio": 38, "solsticeLength": 8939.234556006351, "summer_sun_azimuth": 57.43307314558875, "sun_azimuth": 120.77286656464784, "totalLength": 2312004.968123953}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

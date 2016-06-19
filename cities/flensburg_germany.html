@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Flensburg, Germany</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [18624, 13266, 13403, 14675, 15937, 11025, 8779, 10224, 8564, 9985, 8419, 10142, 9383, 6032, 8437, 8263, 7219, 9067, 6853, 8718, 7293, 7467, 7085, 7208, 5473, 5793, 8901, 7009, 6598, 6214, 5809, 6612, 6870, 6883, 6895, 6282, 7438, 7278, 7805, 8004, 11162, 5610, 5769, 6431, 7211, 7067, 8517, 7038, 6257, 6981, 7620, 8105, 7728, 8947, 8831, 7391, 8627, 8737, 8862, 8819, 9345, 8264, 10324, 9218, 13701, 13093, 11377, 11825, 13094, 13105, 17730, 16607, 13316, 12922, 16103, 15053, 14384, 13636, 20034, 15376, 14297, 15432, 13577, 14099, 15617, 12812, 12002, 18422, 16140, 15651, 18343, 15280, 14089, 12549, 14053, 16295, 14703, 13430, 11525, 8481, 7738, 7948, 8892, 8094, 8527, 9700, 8432, 8903, 7761, 8412, 6355, 6594, 9069, 7011, 6357, 5508, 5165, 7476, 6297, 6175, 6016, 6525, 6613, 6898, 6456, 4582, 5640, 5760, 4478, 6755, 6630, 5962, 5602, 7961, 8143, 5564, 6466, 6789, 5240, 6171, 9094, 9650, 8582, 9214, 9153, 9036, 10031, 10300, 9673, 7830, 7489, 9172, 9154, 9471, 10166, 10901, 12266, 10839, 12606, 13236, 15182, 13952, 13359, 13627, 14751, 13704, 13593, 14971, 15873, 14351, 12415, 14751, 14696, 15824, 13458, 16595, 11406, 16622, 15594, 16465, 2111], "ratio": 109, "solsticeLength": 19957.06807139082, "summer_sun_azimuth": 44.63325082966066, "sun_azimuth": 131.87853558903512, "totalLength": 1822868.2561830997};
+var winter = {"features": [{"geometry": {"coordinates": [[9.346067922100929, 54.780215983651004], [9.34069067975804, 54.783086534030836]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 470, "name": "Bodderweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.388347498993625, 54.80468443539513], [9.386934058661467, 54.80540066902131]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 120, "name": "Norderholm"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.405633917003513, 54.76779651771881], [9.407494867146113, 54.76687509510296]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 157, "name": "Friedensweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.38927436984656, 54.810267285822874], [9.39099685094871, 54.80939112548415]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 147, "name": "Himmernbogen"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.398866536019284, 54.82071784269962], [9.397237680775588, 54.821606156797934]], "type": "LineString"}, "properties": {"azimuth_d": 1.49, "length": 143, "name": "Niehuuser Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.38869006737633, 54.758178451465284], [9.385785318831552, 54.75962977799977]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 246, "name": "J\u00e4gerweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.365950634618825, 54.83495509197306], [9.363479649563288, 54.83624749762339]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 213, "name": "Hanvedsgade"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.297526225347326, 54.82149652150446], [9.28803313327009, 54.82667067033344]], "type": "LineString"}, "properties": {"azimuth_d": 1.47, "length": 837, "name": "Plusk\u00e6rvej"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.543153623076535, 54.718274892665185], [9.544944081413433, 54.71739278117522]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 151, "name": "Estruphof"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.332536345255676, 54.786070156284495], [9.330996254366568, 54.78686149176309]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 132, "name": "Meynautal"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.530695935665875, 54.78397786561433], [9.532310876950303, 54.78313347268863]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 139, "name": "B\u00f6ver Weg"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.377684796147577, 54.7675294702837], [9.376164654188017, 54.76830412577502]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 130, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.312870053477722, 54.822698654057604], [9.309427438206313, 54.82451559920852]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 299, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.338461847885156, 54.784287996031736], [9.334901969788348, 54.78619454372759]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 311, "name": "Bodderweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.41523815311683, 54.802432134193396], [9.413583062516182, 54.80327694621425]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 141, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.461683871162876, 54.78688202742588], [9.463357066674376, 54.786052135192676]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 141, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.470473721563849, 54.773946320077215], [9.472537681401292, 54.77291819583397]], "type": "LineString"}, "properties": {"azimuth_d": 1.06, "length": 174, "name": "Ringstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.467302177041063, 54.807692029891854], [9.465863674818422, 54.80842444059115]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 123, "name": "Osterallee"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.341185379683337, 54.83517117743688], [9.339238179757103, 54.83622763251287]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 171, "name": "Lejrvejen"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.376733282499316, 54.75688436943432], [9.374741826124307, 54.75790184866053]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 170, "name": "Burgweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.470950568035391, 54.77379586491526], [9.472612531796642, 54.772957926055]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 141, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[9.343524768859055, 54.83447321635961], [9.34573164014563, 54.83581004609675]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 205, "name": "Omfartsvejen"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.47700599016406, 54.79816616457322], [9.47454967343907, 54.79674568344239]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 223, "name": "Nordstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.393121076669983, 54.75440835523685], [9.394535690468558, 54.75527672040565]], "type": "LineString"}, "properties": {"azimuth_d": 1.45, "length": 132, "name": "L\u00e4ngs der Bahn"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.396529074681297, 54.75651657152306], [9.3979746177026, 54.757381081016376]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 133, "name": "L\u00e4ngs der Bahn"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.419271524923914, 54.81111939009952], [9.42096986614493, 54.81215556096981]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 158, "name": "Sonderburger Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.447780389273817, 54.78507002759784], [9.449218891496457, 54.78588541913854]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 129, "name": "Gl\u00fccksburger Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.549243494827266, 54.816203182012316], [9.550616869662235, 54.817009353459525]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 125, "name": "Blixberg"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.381919920364055, 54.820663360329], [9.379979761236484, 54.819469190583874]], "type": "LineString"}, "properties": {"azimuth_d": 1.48, "length": 181, "name": "Berghofstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.374959755606824, 54.76272965725042], [9.372738551265853, 54.7614258522118]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 203, "name": "Heidebogen"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.373745972208269, 54.76086107957596], [9.376015037216376, 54.76220251935984]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 208, "name": "Heidebogen"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.475228439958045, 54.77685836087775], [9.47044882731143, 54.77417154181549]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 428, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.341838581397639, 54.735282780032634], [9.343444637864735, 54.73620562757202]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 145, "name": "Bredstedter Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.327054329123115, 54.728778926084175], [9.32902348963566, 54.72992858792344]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 179, "name": "Haurup-West"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.376645691611145, 54.75980688761382], [9.37509353078147, 54.758893763082106]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 142, "name": "Rapsbogen"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.37404914564604, 54.75955308358572], [9.376023083843421, 54.76070702019564]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 180, "name": "Rapsbogen"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.357236472803521, 54.83700279091835], [9.355011328968061, 54.83573838082464]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 200, "name": "Istedvej"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.35680949865585, 54.8333842394993], [9.360189333472533, 54.83527142499884]], "type": "LineString"}, "properties": {"azimuth_d": 1.31, "length": 301, "name": "Visherredsvej"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.466290481328002, 54.755916594893904], [9.467659162297196, 54.756690076918744]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 122, "name": "Hummelroi"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.419564472439845, 54.74527945685253], [9.422016765851309, 54.746783589377]], "type": "LineString"}, "properties": {"azimuth_d": 1.44, "length": 229, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.49616517680002, 54.71963586228347], [9.49424572097328, 54.71856708580981]], "type": "LineString"}, "properties": {"azimuth_d": 1.31, "length": 171, "name": "Heidefelder Weg"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.416370799692658, 54.71304869221745], [9.418222865017896, 54.71412266547107]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 168, "name": "Sankelmarker Weg"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.465751524953959, 54.765439694184494], [9.459905566585576, 54.761961874919734]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 538, "name": "Ringstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.330989129748872, 54.787043127604875], [9.332782689389944, 54.78804602231958]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 160, "name": "Meynautal"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.395956590694539, 54.70970154682319], [9.393099535178804, 54.708111835067314]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 254, "name": "Am Linneberg"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.44717085727504, 54.76425432543768], [9.445873422482803, 54.763458044636195]], "type": "LineString"}, "properties": {"azimuth_d": 1.44, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.376484842889255, 54.69960638264101], [9.37433379507783, 54.69831816794226]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 199, "name": "Barderupfeld"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.518373532172433, 54.833397231449226], [9.521159090054084, 54.83502223101748]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 253, "name": "Uferstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.474898025334936, 54.77371824849186], [9.47731301927729, 54.775067986359915]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 215, "name": "Hochfelder Landstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.4751944932502, 54.773929640089904], [9.477179327921675, 54.775065136512836]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 179, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.388647654946254, 54.8232678691021], [9.390059251259714, 54.824116536798414]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 130, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.4751049745243, 54.79681533705778], [9.476694937737278, 54.79772971887499]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 144, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "54.697", "geonameid": "1", "group": "Western, Europe", "left": "9.261", "name": "Flensburg, Germany", "right": "9.578", "slug": "flensburg_germany", "top": "54.841"};
+var streetIndex = ["Hummelroi", "Ringstra\u00dfe", "Sankelmarker Weg", "Sonderburger Stra\u00dfe", "Uferstra\u00dfe", "Niehuuser Stra\u00dfe", "Blixberg", "Meynautal", "Haurup-West", "Lejrvejen", "Istedvej", "Gl\u00fccksburger Stra\u00dfe", "Burgweg", "Omfartsvejen", "Barderupfeld", "Am Linneberg", "Heidefelder Weg", "Friedensweg", "Norderholm", "Hanvedsgade", "Rapsbogen", "Plusk\u00e6rvej", "Bredstedter Stra\u00dfe", "J\u00e4gerweg", "Nordstra\u00dfe", "Hochfelder Landstra\u00dfe", "Bodderweg", "Heidebogen", "Himmernbogen", "L\u00e4ngs der Bahn", "Estruphof", "Visherredsvej", "Berghofstra\u00dfe", "B\u00f6ver Weg", "Osterallee", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Flensburg, Germany</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [18624, 13266, 13403, 14675, 15937, 11025, 8779, 10224, 8564, 9985, 8419, 10142, 9383, 6032, 8437, 8263, 7219, 9067, 6853, 8718, 7293, 7467, 7085, 7208, 5473, 5793, 8901, 7009, 6598, 6214, 5809, 6612, 6870, 6883, 6895, 6282, 7438, 7278, 7805, 8004, 11162, 5610, 5769, 6431, 7211, 7067, 8517, 7038, 6257, 6981, 7620, 8105, 7728, 8947, 8831, 7391, 8627, 8737, 8862, 8819, 9345, 8264, 10324, 9218, 13701, 13093, 11377, 11825, 13094, 13105, 17730, 16607, 13316, 12922, 16103, 15053, 14384, 13636, 20034, 15376, 14297, 15432, 13577, 14099, 15617, 12812, 12002, 18422, 16140, 15651, 18343, 15280, 14089, 12549, 14053, 16295, 14703, 13430, 11525, 8481, 7738, 7948, 8892, 8094, 8527, 9700, 8432, 8903, 7761, 8412, 6355, 6594, 9069, 7011, 6357, 5508, 5165, 7476, 6297, 6175, 6016, 6525, 6613, 6898, 6456, 4582, 5640, 5760, 4478, 6755, 6630, 5962, 5602, 7961, 8143, 5564, 6466, 6789, 5240, 6171, 9094, 9650, 8582, 9214, 9153, 9036, 10031, 10300, 9673, 7830, 7489, 9172, 9154, 9471, 10166, 10901, 12266, 10839, 12606, 13236, 15182, 13952, 13359, 13627, 14751, 13704, 13593, 14971, 15873, 14351, 12415, 14751, 14696, 15824, 13458, 16595, 11406, 16622, 15594, 16465, 2111], "ratio": 109, "solsticeLength": 19957.06807139082, "summer_sun_azimuth": 44.63325082966066, "sun_azimuth": 131.87853558903512, "totalLength": 1822868.2561830997}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

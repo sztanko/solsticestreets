@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Limerick, Ireland</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2862, 3871, 3049, 2746, 3559, 2654, 3019, 3592, 3330, 3051, 1974, 3253, 3821, 4183, 2631, 3140, 3141, 3969, 4189, 3266, 3593, 4004, 3334, 3264, 3408, 3608, 2969, 4307, 3665, 3526, 3276, 3222, 4902, 4093, 3138, 2458, 3292, 2825, 4261, 3180, 3858, 3892, 2901, 3001, 3374, 2898, 3233, 3910, 2629, 2500, 3649, 3372, 4737, 3336, 4857, 5487, 4523, 3800, 4046, 4489, 3492, 3286, 3743, 2392, 3195, 3265, 3972, 3583, 6258, 4150, 3560, 3430, 4120, 3757, 3008, 3464, 3535, 2583, 5186, 3852, 3752, 3567, 2941, 3206, 2806, 4224, 3361, 3296, 4561, 3874, 4278, 3535, 2763, 3199, 2612, 2569, 4289, 4246, 2964, 3239, 2526, 2592, 3382, 3388, 4690, 3282, 3545, 3913, 2972, 3200, 3561, 2747, 4688, 4085, 3847, 3799, 3522, 6793, 4843, 3796, 3600, 4485, 5102, 3536, 2642, 1959, 2752, 4094, 3934, 4007, 4204, 3986, 4258, 3137, 2794, 3444, 3045, 2822, 3891, 4109, 3213, 4098, 4091, 3725, 3936, 5292, 5021, 4857, 3815, 3526, 3429, 3102, 3061, 2090, 4059, 3946, 3933, 3927, 4705, 4363, 3144, 3319, 4270, 3087, 3286, 3399, 3606, 3267, 3489, 3434, 3282, 3460, 3462, 2828, 3705, 3112, 2932, 3858, 3775, 3084, 637], "ratio": 189, "solsticeLength": 12264.957817782193, "summer_sun_azimuth": 47.522297905170994, "sun_azimuth": 129.46731488748057, "totalLength": 646913.6157337122};
+var winter = {"features": [{"geometry": {"coordinates": [[-8.659787445004042, 52.628635083190204], [-8.656022042641382, 52.62681696457284]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 324, "name": "Ballycummin Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.660655558715717, 52.67392946301635], [-8.657907216484148, 52.67261291748488]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 236, "name": "Rossroe Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.659178751195583, 52.625096746584546], [-8.661734561111246, 52.62636526381081]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 222, "name": "Cloughkeating Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.655628931382552, 52.62748894175027], [-8.657528019184582, 52.62841354948932]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 164, "name": "Ballycummin Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.670666065675846, 52.64568177876932], [-8.669213900951036, 52.6449527208313]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 127, "name": "Limerick Southern Ring Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.675901067121885, 52.648292825426914], [-8.671448767794175, 52.646089893634866]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 387, "name": "Limerick Southern Ring Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.669084400547007, 52.64473755737686], [-8.670880810035158, 52.64561832776232]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 155, "name": "Limerick Southern Ring Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.671655130250315, 52.646004649679575], [-8.677634025603027, 52.64907359970755]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 528, "name": "Limerick Southern Ring Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.541974850577418, 52.67278969182279], [-8.544280125407226, 52.67397145635123]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 203, "name": "Plassey Park Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.59273884131943, 52.645758892278536], [-8.591030860909768, 52.64491516990509]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 148, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.629372032958285, 52.64996459601488], [-8.630806008953213, 52.65067445939465]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 124, "name": "Clarina Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.59470138012847, 52.64384639343143], [-8.596997351045756, 52.64500745465904]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 201, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.664777024325161, 52.62934293491321], [-8.663166273992317, 52.62850792971906]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 143, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.540438363906674, 52.62172479075687], [-8.53873482590569, 52.62087293793735]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 149, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-8.625820872040777, 52.69189129478394], [-8.623262044639972, 52.69336868903733]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 238, "name": "Kileely Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.656978082517355, 52.6212032687414], [-8.654834243142687, 52.62240246762843]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 196, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.58730376384463, 52.66287255926403], [-8.585731151171217, 52.663750395983385]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.585469971068306, 52.66377914591126], [-8.587523537345815, 52.66265605470505]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 186, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.658746244991818, 52.63347043549293], [-8.660051474954003, 52.63272486520566]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 121, "name": "Meadowvale"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.578305958425915, 52.62846291889903], [-8.579882259136724, 52.627547279796346]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 147, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.597032806496173, 52.613428047719594], [-8.593797978604442, 52.61524817799371]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 297, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.59312851599796, 52.61559627843252], [-8.583450519136733, 52.62095306893167]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 884, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.581201654515269, 52.619675750707074], [-8.578760173758894, 52.62097905283152]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 219, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.600520851682802, 52.64267527392002], [-8.602256911468118, 52.64166667951116]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 162, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "52.613", "geonameid": "1", "group": "Western, Europe", "left": "-8.680", "name": "Limerick, Ireland", "right": "-8.517", "slug": "limerick_ireland", "top": "52.694"};
+var streetIndex = ["Ballycummin Avenue", "Meadowvale", "Limerick Southern Ring Road", "Ballycummin Road", "Rossroe Avenue", "Kileely Road", "Cloughkeating Avenue", "Clarina Avenue", "Plassey Park Road", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Limerick, Ireland</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2862, 3871, 3049, 2746, 3559, 2654, 3019, 3592, 3330, 3051, 1974, 3253, 3821, 4183, 2631, 3140, 3141, 3969, 4189, 3266, 3593, 4004, 3334, 3264, 3408, 3608, 2969, 4307, 3665, 3526, 3276, 3222, 4902, 4093, 3138, 2458, 3292, 2825, 4261, 3180, 3858, 3892, 2901, 3001, 3374, 2898, 3233, 3910, 2629, 2500, 3649, 3372, 4737, 3336, 4857, 5487, 4523, 3800, 4046, 4489, 3492, 3286, 3743, 2392, 3195, 3265, 3972, 3583, 6258, 4150, 3560, 3430, 4120, 3757, 3008, 3464, 3535, 2583, 5186, 3852, 3752, 3567, 2941, 3206, 2806, 4224, 3361, 3296, 4561, 3874, 4278, 3535, 2763, 3199, 2612, 2569, 4289, 4246, 2964, 3239, 2526, 2592, 3382, 3388, 4690, 3282, 3545, 3913, 2972, 3200, 3561, 2747, 4688, 4085, 3847, 3799, 3522, 6793, 4843, 3796, 3600, 4485, 5102, 3536, 2642, 1959, 2752, 4094, 3934, 4007, 4204, 3986, 4258, 3137, 2794, 3444, 3045, 2822, 3891, 4109, 3213, 4098, 4091, 3725, 3936, 5292, 5021, 4857, 3815, 3526, 3429, 3102, 3061, 2090, 4059, 3946, 3933, 3927, 4705, 4363, 3144, 3319, 4270, 3087, 3286, 3399, 3606, 3267, 3489, 3434, 3282, 3460, 3462, 2828, 3705, 3112, 2932, 3858, 3775, 3084, 637], "ratio": 189, "solsticeLength": 12264.957817782193, "summer_sun_azimuth": 47.522297905170994, "sun_azimuth": 129.46731488748057, "totalLength": 646913.6157337122}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

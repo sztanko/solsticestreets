@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Cagayan De Oro, Philippines</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [11422, 12303, 9028, 9196, 9863, 9578, 11293, 9103, 10986, 8450, 9382, 9433, 19623, 15079, 11001, 8701, 11788, 9851, 8512, 9042, 9388, 10962, 7298, 5119, 7340, 6982, 8090, 7511, 9138, 9163, 7658, 8322, 7016, 6813, 7276, 6985, 6045, 7200, 6230, 9935, 9612, 5848, 6226, 4570, 4363, 6770, 5775, 5928, 7136, 7512, 6534, 6304, 5270, 4872, 5409, 5896, 4458, 4367, 6321, 6238, 7340, 9094, 6701, 5222, 5951, 4569, 3508, 4213, 5905, 5257, 7986, 5016, 3593, 2941, 4537, 4567, 4622, 5104, 6024, 6024, 6739, 6734, 5462, 5861, 5833, 7407, 12714, 15486, 11773, 15980, 17817, 9953, 8499, 9632, 10142, 8645, 9611, 9289, 9183, 13419, 12765, 11140, 18172, 18974, 13313, 13040, 8959, 10640, 10258, 10340, 8217, 7956, 6786, 6712, 7271, 7903, 7547, 6625, 6494, 5454, 6098, 4803, 6575, 5913, 6764, 9008, 6944, 7231, 6201, 7024, 4590, 6574, 6049, 6264, 5189, 4304, 4709, 5204, 5767, 7892, 5980, 6264, 5177, 3354, 5321, 5341, 5945, 5250, 5390, 5003, 5116, 8578, 7871, 7192, 8163, 5103, 5674, 5159, 5446, 4387, 4438, 5432, 4614, 5165, 5635, 5242, 4411, 5200, 6034, 4540, 5024, 6228, 9134, 8120, 9183, 8049, 9723, 9765, 16767, 13116, 2559], "ratio": 146, "solsticeLength": 20205.66895136936, "summer_sun_azimuth": 66.15337373442996, "sun_azimuth": 113.56590366944968, "totalLength": 1381721.430746659};
+var winter = {"features": [{"geometry": {"coordinates": [[124.6476399591899, 8.480343220462572], [124.64932564373714, 8.479595722337562]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 203, "name": "Justo Ramonal"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.64649934980605, 8.478507835124674], [124.64789434995123, 8.47793996118466]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 165, "name": "Mayor J.R Borja Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63099517586795, 8.468735541852737], [124.63286098751433, 8.467981086748097]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 221, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63864659617985, 8.463995156512965], [124.63992274093805, 8.463412949518526]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 154, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63603672298876, 8.468998482155286], [124.63498244720755, 8.469453368040519]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 126, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.61911382811951, 8.496161967226783], [124.62016902591, 8.495696687781646]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 127, "name": "Purita Velez"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63253644022348, 8.498763877609917], [124.63392699795997, 8.49812836171131]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 168, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63300624589635, 8.49616825365419], [124.63402498240804, 8.495728455194666]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 122, "name": "Dandelion Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63479586604296, 8.499567031572012], [124.63315535995385, 8.500309249098024]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 198, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63303608547163, 8.500011272440188], [124.6346264677798, 8.499286489272777]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 192, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.6327813594342, 8.499375253627392], [124.63427015307586, 8.498696570927422]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 180, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63410611923081, 8.498425081083639], [124.63265931892403, 8.499070739085113]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 174, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63444717887091, 8.498989686081416], [124.63290759089601, 8.499690329367695]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 186, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.60217064904454, 8.489545376680667], [124.60323104361503, 8.489116474695265]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 126, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.58709235960667, 8.505210483159686], [124.58858215907674, 8.504561472396972]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 179, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63341402548575, 8.490084165416647], [124.63457005757145, 8.489560380287344]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 139, "name": "Prefetiza Neri"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63358074153984, 8.497555290991329], [124.6322877491563, 8.498142946222828]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 156, "name": "St. Ignatius"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.57744696834878, 8.487913084856643], [124.57887055078379, 8.487302966124645]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 170, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.6013766313569, 8.490085171245028], [124.60295427317224, 8.489434148825552]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 188, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63434366236675, 8.48916701757139], [124.63323423366268, 8.48966875829538]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 134, "name": "Pedro Neri"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.5737658879321, 8.51947069884784], [124.57205908098881, 8.52019724221492]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 204, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.70692717199296, 8.462415335402824], [124.70552127537364, 8.463065268174887]], "type": "LineString"}, "properties": {"azimuth_d": 1.48, "length": 170, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.70507401702031, 8.462215091735999], [124.70613256757207, 8.461737323255107]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.6057197983053, 8.424336349285538], [124.60468119668307, 8.424801544911674]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.60457508178888, 8.42474312304654], [124.60567956517008, 8.42423526353326]], "type": "LineString"}, "properties": {"azimuth_d": 1.36, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.78277702546684, 8.540813119803403], [124.79084527782356, 8.537376958597406]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 966, "name": "Tagoloan-Malitbog Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.81848695047114, 8.53921066755467], [124.81950459733541, 8.538780675921885]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 121, "name": "Tagoloan-Malitbog Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.6141423537092, 8.515421652881798], [124.61305488559145, 8.515889530716947]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 130, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.56986184889092, 8.464247870893644], [124.56882115179292, 8.464693536685388]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 124, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.57590318942225, 8.519254948660148], [124.57161995308161, 8.521039958759985]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 511, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63037332247148, 8.476638251621836], [124.63154905202964, 8.476132739041418]], "type": "LineString"}, "properties": {"azimuth_d": 0.07, "length": 141, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.6376604652715, 8.462707696185504], [124.63653963717918, 8.463195690588263]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63780396345385, 8.46297004975483], [124.63613345015136, 8.46370983652892]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 201, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63799347828461, 8.46330448769146], [124.6363480268726, 8.464030863420476]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 198, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.63668984088399, 8.464585829229605], [124.63796925458443, 8.464007477910625]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 154, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.5772685176302, 8.498990188995606], [124.57853795686583, 8.498446287298663]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 152, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.6744965827862, 8.480327546303641], [124.67229222607062, 8.48134016402605]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 267, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.64390095982225, 8.482148347130021], [124.64218023891975, 8.482909340119164]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 207, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.6456745705338, 8.479771323209063], [124.64691157180414, 8.47923571959626]], "type": "LineString"}, "properties": {"azimuth_d": 0.07, "length": 148, "name": "Yacapin Street"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[124.64646481636497, 8.445717326995691], [124.64521264384989, 8.445155739483084]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 151, "name": "S Diversion Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.62541509146824, 8.438268078188287], [124.62641807000199, 8.438717767293554]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.62647808442868, 8.438846764783392], [124.62541266071632, 8.438404619391008]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.53161354832956, 8.55415954040754], [124.53288147882262, 8.554681984432364]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.79396376489927, 8.468694051432038], [124.7926095846226, 8.468119052874329]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 162, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.78836716815033, 8.468539489137498], [124.78952219440765, 8.469056149649134]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 139, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.7928784760764, 8.470446036833351], [124.7939746613734, 8.470939730930269]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.5944902273476, 8.488216258294441], [124.59299439290726, 8.487546544230867]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 180, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.59486045601079, 8.400013155923403], [124.59598044591286, 8.40053283392018]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 136, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.76192603549431, 8.60792165409569], [124.7629795569042, 8.608375953247702]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 126, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.82605354592293, 8.416149241541774], [124.82821004197143, 8.41705423562743]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 257, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.72223202427358, 8.478229639758354], [124.71685385992134, 8.475775167052035]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 651, "name": "Cagayan-Gingoog-Butuan National Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.6114131222169, 8.500151585499339], [124.61024066160098, 8.499609695459156]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 142, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.79725307516166, 8.457560285627608], [124.79605203225594, 8.457003643437872]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 145, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.5193597926231, 8.481844922235155], [124.5204988932644, 8.48233953834142]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 136, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "8.399", "geonameid": "1", "group": "Asia", "left": "124.497", "name": "Cagayan De Oro, Philippines", "right": "124.840", "slug": "cagayan-de-oro_philippines", "top": "8.629"};
+var streetIndex = ["Cagayan-Gingoog-Butuan National Highway", "Prefetiza Neri", "St. Ignatius", null, "Justo Ramonal", "Tagoloan-Malitbog Road", "Dandelion Street", "S Diversion Road", "Mayor J.R Borja Street", "Pedro Neri", "Yacapin Street", "Purita Velez"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Cagayan De Oro, Philippines</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [11422, 12303, 9028, 9196, 9863, 9578, 11293, 9103, 10986, 8450, 9382, 9433, 19623, 15079, 11001, 8701, 11788, 9851, 8512, 9042, 9388, 10962, 7298, 5119, 7340, 6982, 8090, 7511, 9138, 9163, 7658, 8322, 7016, 6813, 7276, 6985, 6045, 7200, 6230, 9935, 9612, 5848, 6226, 4570, 4363, 6770, 5775, 5928, 7136, 7512, 6534, 6304, 5270, 4872, 5409, 5896, 4458, 4367, 6321, 6238, 7340, 9094, 6701, 5222, 5951, 4569, 3508, 4213, 5905, 5257, 7986, 5016, 3593, 2941, 4537, 4567, 4622, 5104, 6024, 6024, 6739, 6734, 5462, 5861, 5833, 7407, 12714, 15486, 11773, 15980, 17817, 9953, 8499, 9632, 10142, 8645, 9611, 9289, 9183, 13419, 12765, 11140, 18172, 18974, 13313, 13040, 8959, 10640, 10258, 10340, 8217, 7956, 6786, 6712, 7271, 7903, 7547, 6625, 6494, 5454, 6098, 4803, 6575, 5913, 6764, 9008, 6944, 7231, 6201, 7024, 4590, 6574, 6049, 6264, 5189, 4304, 4709, 5204, 5767, 7892, 5980, 6264, 5177, 3354, 5321, 5341, 5945, 5250, 5390, 5003, 5116, 8578, 7871, 7192, 8163, 5103, 5674, 5159, 5446, 4387, 4438, 5432, 4614, 5165, 5635, 5242, 4411, 5200, 6034, 4540, 5024, 6228, 9134, 8120, 9183, 8049, 9723, 9765, 16767, 13116, 2559], "ratio": 146, "solsticeLength": 20205.66895136936, "summer_sun_azimuth": 66.15337373442996, "sun_azimuth": 113.56590366944968, "totalLength": 1381721.430746659}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

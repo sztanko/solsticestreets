@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Trinidad, Bolivia</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [11551, 10143, 6631, 10680, 17265, 11978, 8434, 5319, 4112, 3823, 2663, 1896, 1057, 1591, 3244, 1652, 1499, 662, 1116, 1107, 1061, 690, 645, 334, 694, 721, 1924, 1032, 1147, 443, 816, 1626, 845, 1067, 453, 542, 1232, 1215, 2034, 1229, 1167, 1439, 1268, 1217, 2774, 4856, 2467, 1029, 1190, 1103, 711, 732, 511, 907, 1149, 878, 1137, 1008, 798, 1100, 1427, 1171, 1692, 780, 1404, 1314, 1302, 1586, 3514, 3328, 1123, 1485, 2768, 1578, 2215, 2194, 2373, 7252, 4303, 5516, 3907, 1380, 1612, 4127, 6711, 3776, 9172, 10376, 10122, 4241, 10049, 9297, 6215, 7672, 10960, 20106, 10096, 6976, 5334, 3394, 4730, 1542, 1515, 1574, 2835, 3029, 1874, 1185, 668, 1661, 483, 1335, 155, 691, 599, 930, 3095, 2079, 940, 827, 842, 516, 1042, 892, 783, 342, 865, 1062, 2273, 1438, 1593, 1518, 2223, 4301, 2909, 5959, 1510, 1483, 1298, 996, 1392, 4593, 638, 974, 881, 1689, 789, 782, 1052, 1378, 1607, 1350, 1313, 811, 1357, 1465, 1731, 3219, 4161, 4111, 1453, 3577, 1977, 840, 810, 1306, 1678, 2626, 1185, 4146, 5389, 1314, 1531, 3041, 7471, 4777, 8046, 7435, 4880, 4409, 766], "ratio": 44, "solsticeLength": 2285.6471207263344, "summer_sun_azimuth": 65.95965590919006, "sun_azimuth": 114.55721683501783, "totalLength": 517093.93155246746};
+var winter = {"features": [{"geometry": {"coordinates": [[-64.91327156395005, -14.840383909842584], [-64.91183926433574, -14.840992771289109]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 168, "name": "El Mangal"}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.9553452813008, -14.806907845853031], [-64.95701805771712, -14.806152468739043]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 198, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.90092191927127, -14.789600053990057], [-64.89913414314341, -14.79042592290972]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 213, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.92793335661922, -14.836921010365472], [-64.92691135116527, -14.837375812431675]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 120, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-64.8943289656921, -14.828276669803584], [-64.89305223420071, -14.827731343183132]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 150, "name": "Horacio Rivero Eguez"}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.92658135563732, -14.850693315469869], [-64.92822286755484, -14.851424468883692]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 194, "name": "Anillo Protector Sur"}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.87723591818842, -14.817824017451073], [-64.87919954664487, -14.818722808928356]], "type": "LineString"}, "properties": {"azimuth_d": 1.29, "length": 233, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.95540713974621, -14.867176663336721], [-64.95365867474422, -14.86641231758631]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 206, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.92400677025856, -14.848593564905881], [-64.92853961967576, -14.85053791498504]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 533, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.9288276218688, -14.848706636779696], [-64.92595883168863, -14.84743946065791]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 339, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "-14.887", "geonameid": "1", "group": "South, America", "left": "-64.989", "name": "Trinidad, Bolivia", "right": "-64.825", "slug": "trinidad_bolivia", "top": "-14.768"};
+var streetIndex = ["Horacio Rivero Eguez", "Anillo Protector Sur", "El Mangal", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Trinidad, Bolivia</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [11551, 10143, 6631, 10680, 17265, 11978, 8434, 5319, 4112, 3823, 2663, 1896, 1057, 1591, 3244, 1652, 1499, 662, 1116, 1107, 1061, 690, 645, 334, 694, 721, 1924, 1032, 1147, 443, 816, 1626, 845, 1067, 453, 542, 1232, 1215, 2034, 1229, 1167, 1439, 1268, 1217, 2774, 4856, 2467, 1029, 1190, 1103, 711, 732, 511, 907, 1149, 878, 1137, 1008, 798, 1100, 1427, 1171, 1692, 780, 1404, 1314, 1302, 1586, 3514, 3328, 1123, 1485, 2768, 1578, 2215, 2194, 2373, 7252, 4303, 5516, 3907, 1380, 1612, 4127, 6711, 3776, 9172, 10376, 10122, 4241, 10049, 9297, 6215, 7672, 10960, 20106, 10096, 6976, 5334, 3394, 4730, 1542, 1515, 1574, 2835, 3029, 1874, 1185, 668, 1661, 483, 1335, 155, 691, 599, 930, 3095, 2079, 940, 827, 842, 516, 1042, 892, 783, 342, 865, 1062, 2273, 1438, 1593, 1518, 2223, 4301, 2909, 5959, 1510, 1483, 1298, 996, 1392, 4593, 638, 974, 881, 1689, 789, 782, 1052, 1378, 1607, 1350, 1313, 811, 1357, 1465, 1731, 3219, 4161, 4111, 1453, 3577, 1977, 840, 810, 1306, 1678, 2626, 1185, 4146, 5389, 1314, 1531, 3041, 7471, 4777, 8046, 7435, 4880, 4409, 766], "ratio": 44, "solsticeLength": 2285.6471207263344, "summer_sun_azimuth": 65.95965590919006, "sun_azimuth": 114.55721683501783, "totalLength": 517093.93155246746}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

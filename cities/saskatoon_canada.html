@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Saskatoon, Canada</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [269942, 26111, 9583, 5703, 5334, 4804, 7089, 4003, 4730, 12846, 5314, 4226, 4207, 8450, 4690, 9991, 13367, 5591, 5546, 3806, 4041, 5177, 3522, 5563, 3746, 4859, 5882, 5256, 2570, 3774, 4427, 3593, 3368, 4757, 3104, 2635, 3358, 3896, 2560, 4116, 3250, 3152, 2556, 2882, 4578, 4643, 4489, 6356, 10400, 5094, 4709, 5314, 11494, 7783, 6404, 4499, 2269, 2873, 2227, 3544, 3347, 3599, 5776, 3457, 2892, 2666, 3123, 4102, 3314, 3275, 2278, 2463, 3028, 3338, 2732, 3617, 2354, 2808, 2850, 5720, 5775, 4344, 3120, 3398, 5724, 5434, 7491, 11543, 30540, 248456, 255632, 30847, 11030, 5437, 7047, 5010, 4369, 4061, 4438, 4723, 5950, 3167, 4575, 8704, 4124, 5754, 7997, 5770, 3828, 3689, 2953, 1763, 2391, 5309, 4822, 3922, 3044, 4325, 2581, 2510, 4129, 2779, 1828, 1694, 1188, 2295, 2628, 2064, 1681, 1864, 3220, 4577, 2186, 2702, 3496, 9392, 2622, 4269, 14013, 4540, 4043, 3029, 2907, 3901, 4323, 3953, 2065, 1908, 1504, 1726, 2981, 3917, 3955, 2620, 2394, 2158, 2697, 2933, 3970, 2087, 2390, 2301, 3439, 2770, 2425, 2835, 1942, 2168, 3191, 3171, 3505, 2941, 2444, 2856, 4321, 3957, 5473, 11025, 32067, 270845, 15083], "ratio": 29, "solsticeLength": 5713.925506186668, "summer_sun_azimuth": 48.156761007362654, "sun_azimuth": 128.94098051003937, "totalLength": 1919870.2092767335};
+var winter = {"features": [{"geometry": {"coordinates": [[-106.59949344716004, 52.102728326546014], [-106.59806005789834, 52.10199029997159]], "type": "LineString"}, "properties": {"azimuth_d": 1.09, "length": 127, "name": "Costigan Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.68090620213214, 52.18749996157683], [-106.67816431396601, 52.18607646296087]], "type": "LineString"}, "properties": {"azimuth_d": 1.3, "length": 245, "name": "Trans-Canada Highway; Yellowhead Route"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-106.58420125155318, 52.13446237959899], [-106.58232093921427, 52.135495281527085]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 172, "name": "Berini Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.56676245054359, 52.128336130388504], [-106.55423452278434, 52.13522647389232]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 1148, "name": "College Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.55328435024059, 52.13612149351317], [-106.56687082855161, 52.1286707359632]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 1243, "name": "College Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.65758741222729, 52.12073768370462], [-106.65592712484667, 52.12166773968076]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 153, "name": "Saskatchewan Crescent East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.5924381478018, 52.099274982438544], [-106.59109000249536, 52.10002952136222]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 124, "name": "McKercher Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.65600767493618, 52.1201921894461], [-106.65410112724032, 52.121292062780526]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 178, "name": "University Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.5695035005194, 52.12019705094994], [-106.57092012597475, 52.11942465857251]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 129, "name": "Brock Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.57056657729889, 52.118503068318574], [-106.5690180206876, 52.11933312818985]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 140, "name": "Guelph Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.71275366233505, 52.110917194489446], [-106.7100312201843, 52.112455692816944]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 252, "name": "Dudley Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.55912863222832, 52.111206537786984], [-106.55777202119968, 52.111991419200166]], "type": "LineString"}, "properties": {"azimuth_d": 1.42, "length": 127, "name": "Beechmont Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.55414072928782, 52.10959838584412], [-106.55577511658763, 52.10871426269738]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 148, "name": "Beechmont Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.67885246821656, 52.1203385374755], [-106.67689252779748, 52.12147378244134]], "type": "LineString"}, "properties": {"azimuth_d": 1.45, "length": 184, "name": "Spadina Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.55681505931436, 52.14104552635149], [-106.55490038117244, 52.142056886788396]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 172, "name": "Bennion Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.58663393131124, 52.1361752215125], [-106.58469645439268, 52.13718758777781]], "type": "LineString"}, "properties": {"azimuth_d": 1.48, "length": 173, "name": "Armstrong Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.68604657189134, 52.15118142658309], [-106.68813550980025, 52.150016342041965]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 192, "name": "Circle Drive West"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.68736001611865, 52.150194792760544], [-106.6855427356916, 52.15122777850763]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 169, "name": "Circle Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.65604673460496, 52.12882487916254], [-106.65445853159164, 52.12972836450564]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 147, "name": "Spadina Crescent East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.59804513811069, 52.14229442992433], [-106.59518003596791, 52.14383552664182]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 260, "name": "Boyd Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.59646900503795, 52.14194716767585], [-106.5930057702847, 52.14383619719408]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 316, "name": "Cruise Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.59289714081959, 52.14259785481922], [-106.591493172038, 52.143390196126205]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 130, "name": "Dunlop Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.59445986284726, 52.14174952239903], [-106.59289714081959, 52.14259785481922]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 142, "name": "Dunlop Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.59506252168543, 52.14021286809023], [-106.59215257636068, 52.14179864035162]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 265, "name": "Evans Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.56350775754132, 52.1430182910824], [-106.56504240019336, 52.14218865030628]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 139, "name": "Cowley Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.56332771426115, 52.13370532610437], [-106.5614500003122, 52.134746274659506]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 172, "name": "Kenderdine Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.56475406272418, 52.13771464184936], [-106.56183866916238, 52.13931558535549]], "type": "LineString"}, "properties": {"azimuth_d": 0.07, "length": 267, "name": "Kerr Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.57027396505912, 52.13926873051676], [-106.56597262380754, 52.14162773334593]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 393, "name": "Cowley Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.59345721958964, 52.139865857298844], [-106.59168000465974, 52.14084293575178]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 162, "name": "Fitzgerald Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.56537356918774, 52.14121316441494], [-106.5637100128649, 52.14211639830094]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 151, "name": "Steiger Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.56848183034158, 52.13567792319722], [-106.5649690585406, 52.13759486445301]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 320, "name": "Kerr Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.59215618057902, 52.13821101815529], [-106.58983372284773, 52.139474170963545]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 211, "name": "Hedley Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.55955602547114, 52.14061754637544], [-106.56141756234695, 52.139584225352216]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 171, "name": "Kerr Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.56130373610185, 52.13953133554318], [-106.55946382453622, 52.14055409536843]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 169, "name": "Kerr Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.5574862821205, 52.1416773542127], [-106.55586974827446, 52.14257346348097]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 148, "name": "Stensrud Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.57047471164012, 52.13002273694508], [-106.56618770344298, 52.13234569759061]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 390, "name": "Kenderdine Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.5643272562146, 52.17115105943688], [-106.56050502454845, 52.17327738063395]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 352, "name": "Evergreen Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.5738554684661, 52.12189413488548], [-106.57219275033358, 52.122797536409536]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.57098592391466, 52.11880339190927], [-106.56843480786478, 52.12019503929318]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 233, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.57328801362125, 52.12112844803059], [-106.57130946537717, 52.12218884260105]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 179, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.59501474483733, 52.142146656971384], [-106.59343685156493, 52.14297721975685]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 141, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.59395066222946, 52.14140578054989], [-106.59240260853234, 52.142253861512984]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 141, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.57119991390269, 52.116165942256714], [-106.56986710747907, 52.11689407818539]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.5959736345604, 52.14280807295079], [-106.59441133162788, 52.14366545782644]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 143, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.59343685156493, 52.14297721975685], [-106.59203187695498, 52.14374257133562]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.68039783970465, 52.09916777789695], [-106.67899772659855, 52.099948719815615]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 129, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.559547727387, 52.17508803935749], [-106.55774260071955, 52.17611515777239]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 167, "name": "Link"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.56050502454845, 52.17327738063395], [-106.55879964252875, 52.174220428560005]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 156, "name": "Feheregyhazi Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-106.55630082955466, 52.09301856227176], [-106.55437383001508, 52.094106365665624]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 178, "name": "Rosewood Boulevard West"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "52.073", "geonameid": "1", "group": "North, America", "left": "-106.749", "name": "Saskatoon, Canada", "right": "-106.549", "slug": "saskatoon_canada", "top": "52.204"};
+var streetIndex = ["Circle Drive", "Cruise Street", "Spadina Crescent", "Dudley Street", "Cowley Road", "Beechmont Crescent", "McKercher Drive", "Costigan Crescent", "Hedley Street", "Feheregyhazi Boulevard", "Link", "College Drive", "Armstrong Crescent", "Bennion Crescent", "Evans Street", "Berini Drive", "Evergreen Boulevard", "Steiger Crescent", "Rosewood Boulevard West", "Fitzgerald Street", "Brock Crescent", "Kerr Road", "Trans-Canada Highway; Yellowhead Route", "Kenderdine Road", "Guelph Crescent", "Circle Drive West", "Boyd Street", "Spadina Crescent East", "Dunlop Street", "Stensrud Road", "University Drive", "Saskatchewan Crescent East", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Saskatoon, Canada</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [269942, 26111, 9583, 5703, 5334, 4804, 7089, 4003, 4730, 12846, 5314, 4226, 4207, 8450, 4690, 9991, 13367, 5591, 5546, 3806, 4041, 5177, 3522, 5563, 3746, 4859, 5882, 5256, 2570, 3774, 4427, 3593, 3368, 4757, 3104, 2635, 3358, 3896, 2560, 4116, 3250, 3152, 2556, 2882, 4578, 4643, 4489, 6356, 10400, 5094, 4709, 5314, 11494, 7783, 6404, 4499, 2269, 2873, 2227, 3544, 3347, 3599, 5776, 3457, 2892, 2666, 3123, 4102, 3314, 3275, 2278, 2463, 3028, 3338, 2732, 3617, 2354, 2808, 2850, 5720, 5775, 4344, 3120, 3398, 5724, 5434, 7491, 11543, 30540, 248456, 255632, 30847, 11030, 5437, 7047, 5010, 4369, 4061, 4438, 4723, 5950, 3167, 4575, 8704, 4124, 5754, 7997, 5770, 3828, 3689, 2953, 1763, 2391, 5309, 4822, 3922, 3044, 4325, 2581, 2510, 4129, 2779, 1828, 1694, 1188, 2295, 2628, 2064, 1681, 1864, 3220, 4577, 2186, 2702, 3496, 9392, 2622, 4269, 14013, 4540, 4043, 3029, 2907, 3901, 4323, 3953, 2065, 1908, 1504, 1726, 2981, 3917, 3955, 2620, 2394, 2158, 2697, 2933, 3970, 2087, 2390, 2301, 3439, 2770, 2425, 2835, 1942, 2168, 3191, 3171, 3505, 2941, 2444, 2856, 4321, 3957, 5473, 11025, 32067, 270845, 15083], "ratio": 29, "solsticeLength": 5713.925506186668, "summer_sun_azimuth": 48.156761007362654, "sun_azimuth": 128.94098051003937, "totalLength": 1919870.2092767335}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

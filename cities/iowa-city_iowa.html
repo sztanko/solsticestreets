@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Iowa City, Iowa</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [88442, 31795, 8728, 3979, 3747, 2566, 3510, 1922, 2621, 2245, 2368, 2836, 2139, 2281, 1958, 2078, 1841, 1787, 2182, 2769, 2224, 2012, 1572, 2041, 2114, 1792, 1599, 2024, 1680, 2142, 1445, 1603, 1539, 1257, 1846, 1966, 3062, 2376, 2608, 1929, 1904, 1688, 1246, 1714, 2605, 1737, 1870, 2009, 1553, 1408, 1443, 990, 1693, 1493, 1747, 2232, 3139, 1573, 1398, 1510, 1799, 1065, 1429, 1092, 1593, 1936, 1783, 1288, 2303, 1828, 2933, 2446, 2222, 3074, 2760, 2550, 2063, 1686, 1981, 2218, 1839, 2296, 3176, 2576, 2561, 2746, 2759, 3309, 13945, 44962, 74307, 27068, 7283, 4713, 2670, 2753, 3103, 4294, 3626, 2468, 2030, 2175, 2427, 1746, 2046, 2258, 1956, 1771, 3413, 3108, 2927, 3011, 3915, 2580, 1705, 1268, 1425, 1682, 3073, 1908, 1769, 1972, 2456, 2512, 5996, 2363, 1570, 1404, 1879, 4664, 2426, 1761, 2693, 3508, 2966, 1784, 2091, 2584, 1450, 1054, 3325, 948, 1723, 1775, 1043, 1180, 1324, 2175, 1994, 2226, 1563, 1481, 961, 1057, 1088, 1615, 2546, 1926, 1936, 1275, 2465, 2176, 2158, 1797, 2012, 2355, 2483, 2429, 3039, 2196, 2609, 2968, 5265, 3382, 2526, 3576, 3195, 6029, 14222, 43784, 4444], "ratio": 82, "solsticeLength": 6130.33666619724, "summer_sun_azimuth": 56.896107578704445, "sun_azimuth": 121.24286554181477, "totalLength": 741772.4968690692};
+var winter = {"features": [{"geometry": {"coordinates": [[-91.48664005809103, 41.665620967821575], [-91.4845980588399, 41.66466794543075]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 200, "name": "Tulane Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.4866500325558, 41.666580947192045], [-91.48357404172918, 41.665143953711976]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 301, "name": "Lower West Branch Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.48533382230046, 41.66697196297511], [-91.48393496647982, 41.66631364829985]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 137, "name": "Heron Circle"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.60864435847569, 41.68562479884034], [-91.61048041436584, 41.686447650274886]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 177, "name": "James Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.54172307590028, 41.68838797704052], [-91.5434650030178, 41.68919498667807]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 170, "name": "North Dubuque Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.56454590859434, 41.668567961158374], [-91.56298653932795, 41.66789095483904]], "type": "LineString"}, "properties": {"azimuth_d": 1.07, "length": 149, "name": "2nd Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.4866500325558, 41.666580947192045], [-91.48357404172918, 41.665143953711976]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 301, "name": "Lower West Branch Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-91.56790872814756, 41.6676481311041], [-91.56628565641704, 41.66847743660409]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 163, "name": "1st Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.60127867724292, 41.67400144607157], [-91.59965862299755, 41.67479881652045]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 161, "name": "Camp Cardinal Blvd"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.50930866376669, 41.68059465110784], [-91.50157543607978, 41.684441022655136]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 771, "name": "North Dodge Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.50166302696795, 41.684542695140635], [-91.50798851401686, 41.68139545813705]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 631, "name": "North Dodge Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.59968561272576, 41.674883222285416], [-91.60126903805427, 41.67413128175173]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 155, "name": "Camp Cardinal Blvd"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.52277201192013, 41.67445968471807], [-91.52118464709712, 41.675271891135566]], "type": "LineString"}, "properties": {"azimuth_d": 1.3, "length": 159, "name": "North Dodge Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.51690015347094, 41.676837965924506], [-91.50973404535276, 41.68042181626441]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 716, "name": "North Dodge Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.59961931187165, 41.674721786830304], [-91.6011785135, 41.67396775082082]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 154, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.61479307118668, 41.63713892556186], [-91.61289901252655, 41.638038974324644]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 186, "name": "Rohret Road Southwest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.61193400401419, 41.63854398399084], [-91.60914056714354, 41.639975696871915]], "type": "LineString"}, "properties": {"azimuth_d": 1.36, "length": 281, "name": "Rohret Road Southwest"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "41.599", "geonameid": "1", "group": "North, America", "left": "-91.616", "name": "Iowa City, Iowa", "right": "-91.463", "slug": "iowa-city_iowa", "top": "41.696"};
+var streetIndex = ["Tulane Avenue", "2nd Street", "Lower West Branch Road", "James Street", "North Dodge Street", "1st Avenue", "Rohret Road Southwest", "North Dubuque Street", "Camp Cardinal Blvd", "Heron Circle", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Iowa City, Iowa</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [88442, 31795, 8728, 3979, 3747, 2566, 3510, 1922, 2621, 2245, 2368, 2836, 2139, 2281, 1958, 2078, 1841, 1787, 2182, 2769, 2224, 2012, 1572, 2041, 2114, 1792, 1599, 2024, 1680, 2142, 1445, 1603, 1539, 1257, 1846, 1966, 3062, 2376, 2608, 1929, 1904, 1688, 1246, 1714, 2605, 1737, 1870, 2009, 1553, 1408, 1443, 990, 1693, 1493, 1747, 2232, 3139, 1573, 1398, 1510, 1799, 1065, 1429, 1092, 1593, 1936, 1783, 1288, 2303, 1828, 2933, 2446, 2222, 3074, 2760, 2550, 2063, 1686, 1981, 2218, 1839, 2296, 3176, 2576, 2561, 2746, 2759, 3309, 13945, 44962, 74307, 27068, 7283, 4713, 2670, 2753, 3103, 4294, 3626, 2468, 2030, 2175, 2427, 1746, 2046, 2258, 1956, 1771, 3413, 3108, 2927, 3011, 3915, 2580, 1705, 1268, 1425, 1682, 3073, 1908, 1769, 1972, 2456, 2512, 5996, 2363, 1570, 1404, 1879, 4664, 2426, 1761, 2693, 3508, 2966, 1784, 2091, 2584, 1450, 1054, 3325, 948, 1723, 1775, 1043, 1180, 1324, 2175, 1994, 2226, 1563, 1481, 961, 1057, 1088, 1615, 2546, 1926, 1936, 1275, 2465, 2176, 2158, 1797, 2012, 2355, 2483, 2429, 3039, 2196, 2609, 2968, 5265, 3382, 2526, 3576, 3195, 6029, 14222, 43784, 4444], "ratio": 82, "solsticeLength": 6130.33666619724, "summer_sun_azimuth": 56.896107578704445, "sun_azimuth": 121.24286554181477, "totalLength": 741772.4968690692}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

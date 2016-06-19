@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Lucca, Italy</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [11996, 14452, 16367, 18563, 18795, 20777, 21285, 16562, 14742, 12132, 11989, 12474, 10956, 9449, 8849, 10145, 10548, 9563, 9242, 8809, 10848, 8645, 7189, 8173, 7273, 7305, 8426, 8414, 7970, 8703, 7648, 5906, 7860, 7639, 6479, 6725, 7427, 7316, 8767, 6528, 8051, 7212, 5986, 6988, 6076, 7596, 6906, 7202, 8127, 7303, 8094, 6044, 5249, 6133, 6601, 7072, 6550, 6835, 6509, 7039, 5389, 5582, 6451, 6662, 7389, 7117, 6476, 7502, 7309, 6674, 5894, 7404, 7847, 5627, 7294, 7940, 9044, 7905, 8860, 7468, 10501, 8118, 6850, 8126, 7567, 9276, 9846, 10789, 10371, 10965, 18775, 14081, 16636, 20956, 20560, 19410, 15382, 15424, 13889, 13097, 10693, 11518, 11426, 10810, 10868, 9489, 9706, 13209, 9035, 9762, 9870, 8639, 7392, 9291, 8758, 8502, 9365, 9090, 8446, 8151, 8067, 10508, 7781, 7288, 7626, 7754, 8728, 7949, 6021, 8101, 7618, 7714, 8539, 7355, 7378, 7037, 8183, 7569, 6848, 6307, 7951, 7306, 6207, 7228, 6867, 6046, 6288, 6633, 6620, 6334, 8505, 6851, 6741, 6811, 6756, 6400, 6350, 5938, 5349, 6485, 6383, 6580, 9104, 8208, 7325, 7336, 7082, 7290, 8294, 7527, 6724, 7727, 8205, 8331, 8037, 9626, 9441, 8847, 9231, 9467, 3309], "ratio": 157, "solsticeLength": 25421.81324113464, "summer_sun_azimuth": 55.50716470532026, "sun_azimuth": 122.42327249455471, "totalLength": 1609182.7694864767};
+var winter = {"features": [{"geometry": {"coordinates": [[10.378157057022378, 43.78399276790893], [10.381422562679745, 43.78255233784855]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 307, "name": "Via Argine Vecchio"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.37622385487444, 43.766063793201766], [10.38139448330412, 43.763738317985286]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 489, "name": "Via Edmondo de Amicis"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.435753556136262, 43.75908191931532], [10.43777485208656, 43.7581474209305]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 192, "name": "Via Giorgio Vasari"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.438229570333732, 43.75870154854931], [10.435103371907104, 43.76016393919599]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 299, "name": "Via Masaccio"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.406148841765486, 43.77661384326916], [10.408077517685712, 43.77575427909872]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 182, "name": "Via Gaetano Donizetti"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.397410791526111, 43.77120525260838], [10.398969490240262, 43.77052246277588]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 146, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.53537867796183, 43.88582266554525], [10.537634583381958, 43.88477601729599]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 215, "name": "Via delle Piagge"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.514174390770563, 43.85839079193414], [10.515718253516098, 43.85769299849494]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 146, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.404473718416256, 43.88248574607286], [10.400795990760798, 43.88418081835163]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 349, "name": "Via delle Gavine"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.396650636727315, 43.88486788295478], [10.395230071777462, 43.88550725452885]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 134, "name": "Via delle Gavine"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.375697387536093, 43.78134316449674], [10.37732305765661, 43.780602790989434]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 154, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.414478944777384, 43.791807886789854], [10.415732374577942, 43.79121503477839]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 120, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.392061880015945, 43.94234133573008], [10.389272717915928, 43.94356039972763]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 261, "name": "Sentiero CAI 102"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.382525788775439, 43.94800456860926], [10.381015369823558, 43.948716024550635]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 144, "name": "Sentiero CAI 102"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.373334948126654, 43.95266163783151], [10.369943043369432, 43.95418521637134]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 320, "name": "Sentiero CAI 102"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.425975730808233, 43.77141203415968], [10.424634626300474, 43.77201921922557]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 127, "name": "Via Domenico Cimarosa"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.44480475427818, 43.79352114779851], [10.44652488844747, 43.79275018034462]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 162, "name": "CAI 120"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.543904163136716, 43.906645995237284], [10.545197490796397, 43.90607384652665]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 121, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[10.437879625876235, 43.76075788085487], [10.439242355694176, 43.76142348778586]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 132, "name": "Via Carlo Collodi"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.452464137398152, 43.771458218446156], [10.451046422295377, 43.77074642722866]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 138, "name": "Via del Monte"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.505721576696203, 43.855859289537676], [10.50233352761444, 43.85416958167693]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 330, "name": "Via della Scogliera"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.40433659048034, 43.834603034546745], [10.403053237285434, 43.83398377954028]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 123, "name": "Via di Balbano"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.414757978334023, 43.90483173229538], [10.41327144780621, 43.90409026914065]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.470571479004859, 43.78920689841609], [10.472009981227501, 43.78990393748398]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 139, "name": "Via Santa Maria del Giudice"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.52295225505, 43.85883629008782], [10.52524638194859, 43.86002341903429]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 226, "name": "Via delle Ville Prima"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.538271775661201, 43.89296522051555], [10.541056746809629, 43.89432954289509]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 269, "name": "Via dei Ceccotti"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.534293053862797, 43.9103619443712], [10.535902463091162, 43.911190327861846]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.562591364804973, 43.89648377582972], [10.564002542023246, 43.89720637970231]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 138, "name": "Via del Parco"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.514134325273403, 43.956998685990584], [10.512740498594695, 43.95631396832033]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 135, "name": "Via del Brennero Nord"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.533109529134691, 43.890400441963465], [10.535605659899772, 43.8916547937734]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 243, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.437762698326964, 43.843322728418144], [10.43286766687362, 43.84096297121772]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 472, "name": "Via di Poggio II"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.526940364579955, 43.86553711876084], [10.525636224265183, 43.86486396811699]], "type": "LineString"}, "properties": {"azimuth_d": 1.09, "length": 128, "name": "Via dell\u0027Acqua calda"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.572290986976384, 43.857814536090956], [10.574578324533405, 43.85891105666411]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 220, "name": "Via dei Banchieri"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "43.757", "geonameid": "1", "group": "Southern, Europe", "left": "10.361", "name": "Lucca, Italy", "right": "10.575", "slug": "lucca_italy", "top": "43.961"};
+var streetIndex = ["Via di Poggio II", "Via della Scogliera", "Via del Monte", "Via Carlo Collodi", "Via Giorgio Vasari", "Sentiero CAI 102", "Via Masaccio", "Via dell\u0027Acqua calda", "Via del Brennero Nord", "Via Santa Maria del Giudice", "Via delle Ville Prima", "Via dei Banchieri", "CAI 120", "Via Domenico Cimarosa", "Via delle Gavine", "Via Edmondo de Amicis", "Via Argine Vecchio", "Via Gaetano Donizetti", "Via di Balbano", "Via delle Piagge", "Via del Parco", "Via dei Ceccotti", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Lucca, Italy</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [11996, 14452, 16367, 18563, 18795, 20777, 21285, 16562, 14742, 12132, 11989, 12474, 10956, 9449, 8849, 10145, 10548, 9563, 9242, 8809, 10848, 8645, 7189, 8173, 7273, 7305, 8426, 8414, 7970, 8703, 7648, 5906, 7860, 7639, 6479, 6725, 7427, 7316, 8767, 6528, 8051, 7212, 5986, 6988, 6076, 7596, 6906, 7202, 8127, 7303, 8094, 6044, 5249, 6133, 6601, 7072, 6550, 6835, 6509, 7039, 5389, 5582, 6451, 6662, 7389, 7117, 6476, 7502, 7309, 6674, 5894, 7404, 7847, 5627, 7294, 7940, 9044, 7905, 8860, 7468, 10501, 8118, 6850, 8126, 7567, 9276, 9846, 10789, 10371, 10965, 18775, 14081, 16636, 20956, 20560, 19410, 15382, 15424, 13889, 13097, 10693, 11518, 11426, 10810, 10868, 9489, 9706, 13209, 9035, 9762, 9870, 8639, 7392, 9291, 8758, 8502, 9365, 9090, 8446, 8151, 8067, 10508, 7781, 7288, 7626, 7754, 8728, 7949, 6021, 8101, 7618, 7714, 8539, 7355, 7378, 7037, 8183, 7569, 6848, 6307, 7951, 7306, 6207, 7228, 6867, 6046, 6288, 6633, 6620, 6334, 8505, 6851, 6741, 6811, 6756, 6400, 6350, 5938, 5349, 6485, 6383, 6580, 9104, 8208, 7325, 7336, 7082, 7290, 8294, 7527, 6724, 7727, 8205, 8331, 8037, 9626, 9441, 8847, 9231, 9467, 3309], "ratio": 157, "solsticeLength": 25421.81324113464, "summer_sun_azimuth": 55.50716470532026, "sun_azimuth": 122.42327249455471, "totalLength": 1609182.7694864767}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

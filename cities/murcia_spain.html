@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Murcia, Spain</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2570, 2048, 2210, 2296, 1421, 1648, 1179, 996, 2051, 1544, 1720, 2484, 1565, 1466, 1038, 1089, 1316, 2691, 1277, 1621, 1881, 1845, 2788, 1713, 1350, 2670, 2440, 1537, 1485, 1263, 1742, 3006, 3554, 2519, 3486, 5653, 2717, 3190, 2410, 1611, 1980, 2329, 2098, 2859, 2626, 3571, 4809, 3408, 4949, 6683, 6985, 5616, 9907, 8577, 5884, 7400, 11230, 9549, 6607, 7793, 7116, 8104, 7483, 8184, 8266, 7175, 9693, 11439, 13085, 9638, 11407, 10927, 11207, 19365, 17087, 11851, 9990, 8142, 7087, 7775, 6865, 7242, 9302, 6314, 5592, 5192, 4551, 4910, 4187, 3491, 3652, 6185, 2865, 2690, 2231, 2081, 3340, 4914, 2190, 2143, 2578, 2339, 1766, 1401, 1661, 2550, 2693, 2442, 2413, 1744, 1540, 2074, 2353, 1998, 2136, 2009, 2308, 1986, 1634, 2317, 1251, 1115, 1656, 2287, 2380, 1906, 1494, 1119, 1172, 1656, 1544, 1590, 2034, 2219, 2502, 2157, 1744, 2933, 2991, 4970, 4995, 9251, 7808, 6197, 4367, 4470, 4233, 6621, 6148, 6699, 6217, 8631, 7994, 8212, 8804, 8356, 8957, 10531, 16684, 16823, 13183, 16986, 10761, 12928, 14145, 12487, 8247, 9156, 7610, 5793, 5516, 7460, 5109, 5108, 3461, 3681, 4871, 5241, 3359, 2354, 959], "ratio": 58, "solsticeLength": 5203.685522928426, "summer_sun_azimuth": 58.876114532294025, "sun_azimuth": 119.5172728895244, "totalLength": 896071.4245196037};
+var winter = {"features": [{"geometry": {"coordinates": [[-1.142921405610764, 37.99922195743193], [-1.140268281799251, 37.99801772940299]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 268, "name": "Avenida de los Pinos"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.140158059772546, 37.998162233413694], [-1.1428435377303, 37.99935749280624]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 270, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.140213631790573, 37.99812183264041], [-1.142853260737979, 37.99931508037619]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 266, "name": "Avenida de los Pinos"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.109829568062707, 37.984303175611444], [-1.111129517425894, 37.98487348030338]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 130, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.108775711376694, 37.9612379382776], [-1.110349581335583, 37.961915447511124]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 157, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.142391334054082, 37.99892565715472], [-1.140375570159875, 37.998009263680785]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 203, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.195155582169434, 37.96668558860716], [-1.193079552391396, 37.96572577687476]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 211, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.192384273523174, 37.96539159039523], [-1.189885209091983, 37.96425357940137]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 253, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.188838728480761, 37.96374932410646], [-1.186766051464019, 37.96284357564951]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 207, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-1.085232454104869, 38.01909226473313], [-1.082595255909382, 38.02031484913002]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 268, "name": "Orilla del Azarbe"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.102892034444068, 38.01054792027611], [-1.085210744975655, 38.01887743655479]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 1805, "name": "Avenida de Murcia"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.121152010507558, 37.992935949146954], [-1.119698337040177, 37.993605830848566]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 147, "name": "Calle Alonso de Ojeda"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.174467704032679, 37.99854771714063], [-1.173217878450487, 37.999140652971136]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 127, "name": "Calle Santa Gema"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.162515277745314, 37.995244660557056], [-1.164156705843794, 37.9944413389569]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 169, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.164006502138903, 38.00060488763651], [-1.165433437335167, 37.999886223258414]], "type": "LineString"}, "properties": {"azimuth_d": 1.46, "length": 148, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.171345026005383, 37.995768864781525], [-1.1727398585125, 37.995134689987424]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 141, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.173512250889928, 37.99477116684679], [-1.175711662282652, 37.99367196406462]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 228, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.164481504591748, 38.01393001820662], [-1.162860109241876, 38.01467164899941]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 164, "name": "Avenida Los Rectores"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.159794428156147, 38.00823032404861], [-1.158496658087813, 38.00883792820969]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 132, "name": "Calle Lope de Vega"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.15841091121834, 38.00872066538429], [-1.156933014050793, 38.0094370666485]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 152, "name": "Calle de Pizarro"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.160110425905799, 38.0087288796494], [-1.158807123781344, 38.00932852100242]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 132, "name": "Calle San Ferm\u00edn"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.076788524847871, 37.96504105920451], [-1.078164078977693, 37.964356844448474]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 142, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.078514610168412, 37.96473201843452], [-1.0768163527664, 37.96558479326338]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 176, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.173337907303932, 37.97001027050095], [-1.171911055926699, 37.97065307865532]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.075904317882106, 37.985878554312904], [-1.073657045822245, 37.98700935687006]], "type": "LineString"}, "properties": {"azimuth_d": 1.44, "length": 233, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.07921022431276, 38.01478907946287], [-1.082127126617138, 38.013348146488305]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 301, "name": "Camino de Cabecicos"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.094570732430498, 38.01244332004072], [-1.092776250780076, 38.013331131224874]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 185, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.112242466529267, 38.01894038464761], [-1.113637215217352, 38.01824728507421]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.181442537120461, 37.997302250148095], [-1.180099504774972, 37.99793676021832]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 137, "name": "Avenida Juan Carlos I"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.099673718901556, 38.01332786228264], [-1.096260356472214, 38.014998962318344]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 352, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.092700310737314, 38.016888746207826], [-1.091045806869886, 38.01771972808845]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 171, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.197437806765492, 37.98964739325583], [-1.196047332848053, 37.99033973845797]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.105715981442245, 37.99229498501125], [-1.107203182522312, 37.991621666729344]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 150, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.076746866789108, 38.00187717671923], [-1.078436323192761, 38.00108927782091]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 172, "name": "Calle Mayor"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.1236467163491, 38.00427934634973], [-1.120894769899166, 38.00565389465115]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 285, "name": "Avenida de Aranjuez"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.075573400344808, 37.972513777340794], [-1.074060634460068, 37.97322447891088]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 154, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.075292522769473, 37.993270889997746], [-1.076789111581093, 37.99259866136324]], "type": "LineString"}, "properties": {"azimuth_d": 1.42, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.121087134576982, 37.98435036572629], [-1.119799674249549, 37.98494237954745]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 130, "name": "Calle de la Gloria"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.177210849484283, 37.96945069464507], [-1.175857004483703, 37.97006198684352]], "type": "LineString"}, "properties": {"azimuth_d": 1.29, "length": 136, "name": "Carril Los P\u00e1rragas"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.174055062939459, 37.970957928473716], [-1.17265134561498, 37.97161062727386]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 142, "name": "Carril Los P\u00e1rragas"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.183510101176267, 37.9674125510694], [-1.181713272592958, 37.968235653961045]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 182, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.116194533875586, 38.0099575828356], [-1.114148427491898, 38.01089065629688]], "type": "LineString"}, "properties": {"azimuth_d": 1.05, "length": 207, "name": "Carril Lechas"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.084454864947475, 37.97831003102334], [-1.082711429087368, 37.979149227169074]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 179, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.081037730661677, 37.97785539659523], [-1.084089078692983, 37.97638294766472]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 313, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.112331230883882, 38.00670322510945], [-1.114790313636916, 38.00547158825714]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 255, "name": "Calle Jes\u00fas Hern\u00e1ndez Conesa"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.114709009176153, 38.0053684908481], [-1.112942020168134, 38.00623442526495]], "type": "LineString"}, "properties": {"azimuth_d": 0.76, "length": 182, "name": "Calle Paladeas"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.118883029318482, 38.020338234639866], [-1.122253560222617, 38.01872983123991]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 345, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.17663375545078, 37.99600934158357], [-1.178138558527507, 37.99532085205689]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 152, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.121059474296516, 38.01698036040952], [-1.119724237120977, 38.01758285160963]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 134, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "37.959", "geonameid": "1", "group": "Southern, Europe", "left": "-1.208", "name": "Murcia, Spain", "right": "-1.073", "slug": "murcia_spain", "top": "38.021"};
+var streetIndex = ["Calle Santa Gema", "Calle San Ferm\u00edn", "Calle de Pizarro", "Orilla del Azarbe", "Avenida de Aranjuez", "Calle de la Gloria", "Calle Mayor", "Avenida Los Rectores", "Calle Lope de Vega", "Calle Paladeas", "Carril Lechas", "Avenida Juan Carlos I", "Carril Los P\u00e1rragas", "Avenida de Murcia", "Calle Jes\u00fas Hern\u00e1ndez Conesa", "Avenida de los Pinos", "Calle Alonso de Ojeda", "Camino de Cabecicos", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Murcia, Spain</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2570, 2048, 2210, 2296, 1421, 1648, 1179, 996, 2051, 1544, 1720, 2484, 1565, 1466, 1038, 1089, 1316, 2691, 1277, 1621, 1881, 1845, 2788, 1713, 1350, 2670, 2440, 1537, 1485, 1263, 1742, 3006, 3554, 2519, 3486, 5653, 2717, 3190, 2410, 1611, 1980, 2329, 2098, 2859, 2626, 3571, 4809, 3408, 4949, 6683, 6985, 5616, 9907, 8577, 5884, 7400, 11230, 9549, 6607, 7793, 7116, 8104, 7483, 8184, 8266, 7175, 9693, 11439, 13085, 9638, 11407, 10927, 11207, 19365, 17087, 11851, 9990, 8142, 7087, 7775, 6865, 7242, 9302, 6314, 5592, 5192, 4551, 4910, 4187, 3491, 3652, 6185, 2865, 2690, 2231, 2081, 3340, 4914, 2190, 2143, 2578, 2339, 1766, 1401, 1661, 2550, 2693, 2442, 2413, 1744, 1540, 2074, 2353, 1998, 2136, 2009, 2308, 1986, 1634, 2317, 1251, 1115, 1656, 2287, 2380, 1906, 1494, 1119, 1172, 1656, 1544, 1590, 2034, 2219, 2502, 2157, 1744, 2933, 2991, 4970, 4995, 9251, 7808, 6197, 4367, 4470, 4233, 6621, 6148, 6699, 6217, 8631, 7994, 8212, 8804, 8356, 8957, 10531, 16684, 16823, 13183, 16986, 10761, 12928, 14145, 12487, 8247, 9156, 7610, 5793, 5516, 7460, 5109, 5108, 3461, 3681, 4871, 5241, 3359, 2354, 959], "ratio": 58, "solsticeLength": 5203.685522928426, "summer_sun_azimuth": 58.876114532294025, "sun_azimuth": 119.5172728895244, "totalLength": 896071.4245196037}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

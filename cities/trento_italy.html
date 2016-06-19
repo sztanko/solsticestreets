@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Trento, Italy</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [15051, 13603, 13727, 13837, 11051, 11762, 10368, 9765, 10423, 12811, 12155, 11683, 12041, 11182, 12617, 10326, 10444, 9838, 9899, 11277, 10041, 9818, 8154, 8694, 9915, 9302, 8683, 8489, 8408, 7022, 7798, 7154, 8143, 8167, 7988, 7351, 7340, 6584, 7159, 6901, 7508, 6966, 6449, 7768, 8160, 8141, 6902, 6502, 6562, 7106, 7109, 5934, 6078, 5866, 5363, 6228, 6073, 5785, 6280, 7750, 6317, 7744, 6941, 6225, 7082, 6459, 5685, 7855, 7313, 7171, 7321, 5713, 7125, 8485, 8825, 8766, 7190, 6665, 8042, 7359, 8042, 8162, 7963, 9708, 8586, 7975, 9018, 7944, 8869, 7485, 11664, 7965, 8381, 6878, 6705, 6015, 5635, 6740, 6085, 7031, 6806, 6208, 7477, 6606, 6568, 5959, 6124, 5783, 6724, 5433, 6341, 6264, 5411, 5679, 5646, 6273, 5338, 5042, 5181, 4832, 6065, 5748, 5083, 5090, 6189, 5772, 5278, 5808, 6594, 6159, 5652, 5737, 5887, 5126, 5494, 6642, 6131, 6003, 5886, 6091, 5151, 6440, 7990, 5948, 6337, 6795, 7891, 7459, 8225, 9825, 12696, 9300, 8810, 7871, 7643, 7842, 7820, 9606, 12893, 10115, 9806, 8382, 10134, 8127, 10939, 10211, 13656, 12123, 15173, 10521, 9975, 10586, 11106, 10390, 13414, 12725, 10971, 13093, 13493, 12503, 5477], "ratio": 116, "solsticeLength": 17147.86248250811, "summer_sun_azimuth": 53.96170463201064, "sun_azimuth": 123.80396791451611, "totalLength": 1468320.474390679};
+var winter = {"features": [{"geometry": {"coordinates": [[11.137172168453873, 46.07462231740063], [11.13892205837942, 46.073787060749396]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 163, "name": "Via Bassano"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.131182292808035, 46.03307506738824], [11.12837058338846, 46.03443595318748]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 264, "name": "Via dei Marinai d\u0027Italia"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.176266119226426, 46.11656284630996], [11.174129823564613, 46.117597173161585]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 200, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[11.060818562599252, 46.09092545434924], [11.062369298505388, 46.090218776092705]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 143, "name": "Strada del Bus de V\u00e9la"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.112772951229969, 46.08062032349258], [11.105989057896494, 46.08391323797332]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 638, "name": "Lungadige Louis Braille"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.084502635844416, 46.06684818602624], [11.086141046457726, 46.066102867196065]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 151, "name": "Via del Reflet\u00f2r - Candriai"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.080637572653046, 46.14168366157807], [11.078682661375865, 46.14259058350146]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 181, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[11.132582154457026, 46.07691493555666], [11.134321483184578, 46.07606601640324]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 164, "name": "Via Bassano"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.11048427256844, 46.01171035057024], [11.11224874700551, 46.01092236785288]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 162, "name": "Via delle Ischie"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.099553767915978, 46.12477887161967], [11.101084890168693, 46.12406599075476]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 142, "name": "Via Budapest"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.110852238117758, 46.14128627554862], [11.11214657160582, 46.140677078825966]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 120, "name": "Via monsignor Celestino Brig\u00e0"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.1059492438564, 46.08262787312167], [11.107665857626356, 46.081836034728866]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 159, "name": "Localit\u00e0 I Laghetti"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.10812937687183, 46.081591953708454], [11.111287845625696, 46.08005588613287]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 297, "name": "Localit\u00e0 I Laghetti"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[11.172360319985643, 46.08317948616951], [11.170493167234696, 46.082186985014744]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 181, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[11.125050343903382, 46.06102695427225], [11.12635129909495, 46.06166967860758]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 123, "name": "Via Bartolomeo Malfatti"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.184077969165116, 46.13464395255974], [11.182706941263033, 46.133986978988986]], "type": "LineString"}, "properties": {"azimuth_d": 1.48, "length": 128, "name": "Strada Provinciale 225"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.102269588363242, 46.1316767588363], [11.103531819162129, 46.1323264401513]], "type": "LineString"}, "properties": {"azimuth_d": 0.45, "length": 121, "name": "Lungavisio Luigi Tomasi"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.152987897732942, 46.07872157096668], [11.15165592949964, 46.07805814333051]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 126, "name": "Via Alla Veduta"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.153463989833197, 46.071249691020704], [11.155015647748684, 46.07204287051803]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 148, "name": "Via Vittorio Marchesoni"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.11324032615093, 46.105718256165034], [11.114840766742871, 46.10648612231474]], "type": "LineString"}, "properties": {"azimuth_d": 1.44, "length": 150, "name": "Via Francesco Mattedi"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.133221945126252, 46.148088525250046], [11.13181277956474, 46.14737229162387]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[11.160794886167793, 46.08297597356048], [11.16216817718373, 46.083696398138244]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 132, "name": "Via per Villamontagna"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.037305480178844, 46.07748456969633], [11.035162562813525, 46.07637715264906]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 206, "name": "Strada di Vigolo Baselga"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "45.977", "geonameid": "1", "group": "Southern, Europe", "left": "11.022", "name": "Trento, Italy", "right": "11.196", "slug": "trento_italy", "top": "46.155"};
+var streetIndex = ["Via del Reflet\u00f2r - Candriai", "Via monsignor Celestino Brig\u00e0", "Via Budapest", "Lungadige Louis Braille", "Localit\u00e0 I Laghetti", "Via Alla Veduta", "Strada di Vigolo Baselga", "Via Vittorio Marchesoni", "Via Francesco Mattedi", "Via delle Ischie", "Strada Provinciale 225", "Via per Villamontagna", "Via Bartolomeo Malfatti", "Lungavisio Luigi Tomasi", "Via Bassano", "Strada del Bus de V\u00e9la", "Via dei Marinai d\u0027Italia", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Trento, Italy</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [15051, 13603, 13727, 13837, 11051, 11762, 10368, 9765, 10423, 12811, 12155, 11683, 12041, 11182, 12617, 10326, 10444, 9838, 9899, 11277, 10041, 9818, 8154, 8694, 9915, 9302, 8683, 8489, 8408, 7022, 7798, 7154, 8143, 8167, 7988, 7351, 7340, 6584, 7159, 6901, 7508, 6966, 6449, 7768, 8160, 8141, 6902, 6502, 6562, 7106, 7109, 5934, 6078, 5866, 5363, 6228, 6073, 5785, 6280, 7750, 6317, 7744, 6941, 6225, 7082, 6459, 5685, 7855, 7313, 7171, 7321, 5713, 7125, 8485, 8825, 8766, 7190, 6665, 8042, 7359, 8042, 8162, 7963, 9708, 8586, 7975, 9018, 7944, 8869, 7485, 11664, 7965, 8381, 6878, 6705, 6015, 5635, 6740, 6085, 7031, 6806, 6208, 7477, 6606, 6568, 5959, 6124, 5783, 6724, 5433, 6341, 6264, 5411, 5679, 5646, 6273, 5338, 5042, 5181, 4832, 6065, 5748, 5083, 5090, 6189, 5772, 5278, 5808, 6594, 6159, 5652, 5737, 5887, 5126, 5494, 6642, 6131, 6003, 5886, 6091, 5151, 6440, 7990, 5948, 6337, 6795, 7891, 7459, 8225, 9825, 12696, 9300, 8810, 7871, 7643, 7842, 7820, 9606, 12893, 10115, 9806, 8382, 10134, 8127, 10939, 10211, 13656, 12123, 15173, 10521, 9975, 10586, 11106, 10390, 13414, 12725, 10971, 13093, 13493, 12503, 5477], "ratio": 116, "solsticeLength": 17147.86248250811, "summer_sun_azimuth": 53.96170463201064, "sun_azimuth": 123.80396791451611, "totalLength": 1468320.474390679}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

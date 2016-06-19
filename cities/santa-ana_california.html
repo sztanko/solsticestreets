@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Santa Ana, California</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [206152, 45965, 9610, 3871, 2831, 2110, 1744, 1932, 1593, 2342, 2017, 1892, 2339, 2719, 2904, 3468, 3547, 1558, 1470, 1541, 2666, 1404, 1680, 1701, 1403, 1386, 1869, 1823, 2965, 1736, 1326, 1580, 1051, 1247, 1472, 1420, 1270, 1122, 4809, 13392, 4081, 822, 1144, 1230, 1527, 1493, 971, 662, 654, 1120, 937, 515, 681, 836, 397, 651, 585, 842, 1108, 1016, 1312, 1794, 2175, 3695, 3081, 1792, 1366, 1097, 1099, 1558, 749, 1560, 2151, 1531, 1739, 1503, 1306, 1203, 1694, 1527, 1120, 1713, 1647, 2143, 1752, 3011, 4322, 10262, 60146, 297507, 194646, 29343, 6428, 3833, 2921, 1971, 1490, 2177, 2062, 2041, 1796, 1720, 1343, 1891, 1624, 1386, 1455, 1708, 1035, 1542, 1379, 1288, 1672, 1549, 1163, 1016, 1583, 1308, 1170, 1269, 1312, 959, 691, 1037, 1199, 1739, 2658, 1828, 2780, 11133, 7766, 1680, 1565, 1124, 1857, 1056, 780, 769, 795, 1003, 778, 751, 1121, 747, 689, 762, 954, 1071, 845, 699, 694, 2197, 1699, 2408, 2559, 1634, 1186, 1052, 1250, 771, 1278, 1220, 1440, 1546, 1061, 1829, 2663, 1452, 1176, 1540, 1346, 1334, 1572, 1400, 1956, 2537, 4479, 10277, 56046, 264290, 11595], "ratio": 24, "solsticeLength": 3734.2163808186697, "summer_sun_azimuth": 60.74448545899433, "sun_azimuth": 117.8981492260162, "totalLength": 1503286.1834342473};
+var winter = {"features": [{"geometry": {"coordinates": [[-117.93181773675302, 33.69486246636583], [-117.93313738358866, 33.69543159759132]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 137, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.9414662293151, 33.69762882968922], [-117.9401520307165, 33.69706908619531]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 136, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-117.87305833239284, 33.70770429639896], [-117.87454243216875, 33.70702234475675]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 156, "name": "Bradford Place"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.88165062133602, 33.70581216557656], [-117.8836967277197, 33.70483382983815]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 218, "name": "Moore Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.87937971230919, 33.705586440924094], [-117.8834688237724, 33.703704619842625]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 432, "name": "West Alton Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.9021656646293, 33.77673345998442], [-117.90033564370943, 33.777621271168556]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 195, "name": "Dunklee Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.86861391205412, 33.710373681102624], [-117.87039498265946, 33.709561558504134]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 187, "name": "South Sycamore Street"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "33.692", "geonameid": "1", "group": "North, America", "left": "-117.944", "name": "Santa Ana, California", "right": "-117.831", "slug": "santa-ana_california", "top": "33.784"};
+var streetIndex = ["West Alton Avenue", "Dunklee Avenue", "South Sycamore Street", "Bradford Place", "Moore Avenue", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Santa Ana, California</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [206152, 45965, 9610, 3871, 2831, 2110, 1744, 1932, 1593, 2342, 2017, 1892, 2339, 2719, 2904, 3468, 3547, 1558, 1470, 1541, 2666, 1404, 1680, 1701, 1403, 1386, 1869, 1823, 2965, 1736, 1326, 1580, 1051, 1247, 1472, 1420, 1270, 1122, 4809, 13392, 4081, 822, 1144, 1230, 1527, 1493, 971, 662, 654, 1120, 937, 515, 681, 836, 397, 651, 585, 842, 1108, 1016, 1312, 1794, 2175, 3695, 3081, 1792, 1366, 1097, 1099, 1558, 749, 1560, 2151, 1531, 1739, 1503, 1306, 1203, 1694, 1527, 1120, 1713, 1647, 2143, 1752, 3011, 4322, 10262, 60146, 297507, 194646, 29343, 6428, 3833, 2921, 1971, 1490, 2177, 2062, 2041, 1796, 1720, 1343, 1891, 1624, 1386, 1455, 1708, 1035, 1542, 1379, 1288, 1672, 1549, 1163, 1016, 1583, 1308, 1170, 1269, 1312, 959, 691, 1037, 1199, 1739, 2658, 1828, 2780, 11133, 7766, 1680, 1565, 1124, 1857, 1056, 780, 769, 795, 1003, 778, 751, 1121, 747, 689, 762, 954, 1071, 845, 699, 694, 2197, 1699, 2408, 2559, 1634, 1186, 1052, 1250, 771, 1278, 1220, 1440, 1546, 1061, 1829, 2663, 1452, 1176, 1540, 1346, 1334, 1572, 1400, 1956, 2537, 4479, 10277, 56046, 264290, 11595], "ratio": 24, "solsticeLength": 3734.2163808186697, "summer_sun_azimuth": 60.74448545899433, "sun_azimuth": 117.8981492260162, "totalLength": 1503286.1834342473}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

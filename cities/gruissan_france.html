@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Gruissan, France</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [1941, 2556, 2517, 5880, 1684, 2195, 1742, 1598, 1365, 1344, 1128, 1589, 1161, 1469, 1440, 1462, 1652, 1599, 872, 1281, 1281, 1621, 1714, 1631, 1185, 2230, 2034, 1670, 1049, 2410, 1413, 2562, 1470, 2092, 3860, 3168, 1919, 2197, 3842, 2338, 1271, 1235, 1919, 1701, 1658, 1861, 1108, 2171, 1162, 1197, 1138, 866, 1112, 986, 1406, 1294, 1483, 2793, 2283, 1212, 1067, 1518, 1283, 1525, 1010, 1548, 1259, 938, 1173, 1196, 896, 1635, 1150, 652, 1464, 1157, 1319, 1487, 3184, 2923, 1354, 1293, 917, 829, 902, 1118, 1186, 1338, 1443, 2254, 2345, 2913, 1226, 2140, 2287, 2057, 2470, 2166, 3794, 2449, 1858, 1305, 1244, 1388, 1351, 1690, 1247, 1590, 1046, 1111, 1518, 1172, 1372, 1182, 659, 1551, 2797, 1937, 1215, 1175, 1447, 1092, 1442, 2464, 1753, 1382, 1376, 1481, 2980, 1532, 1933, 1805, 1716, 1271, 1463, 1946, 720, 808, 1439, 968, 618, 931, 835, 672, 948, 1072, 1040, 2185, 1441, 1442, 751, 1064, 666, 1086, 692, 741, 806, 1193, 1248, 868, 1201, 949, 824, 936, 1011, 1122, 1898, 1415, 5764, 3961, 1808, 1050, 728, 797, 1148, 1409, 1251, 1535, 1210, 1052, 285], "ratio": 151, "solsticeLength": 4314.896508100858, "summer_sun_azimuth": 55.9877026643765, "sun_azimuth": 122.03134257960103, "totalLength": 284049.5949239177};
+var winter = {"features": [{"geometry": {"coordinates": [[3.095308138358519, 43.10794466775499], [3.093559421899414, 43.10878554028136]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 170, "name": "Quai du Ponant"}, "type": "Feature"}, {"geometry": {"coordinates": [[3.048058679617156, 43.05564678873222], [3.052078053645943, 43.053775864124866]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 387, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[3.109338773718719, 43.11609916989539], [3.106951020961674, 43.114983035668814]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 230, "name": "Avenue des Plages"}, "type": "Feature"}, {"geometry": {"coordinates": [[3.107018746739328, 43.11491095130151], [3.109403146735104, 43.11603664089773]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 230, "name": "Avenue des Plages"}, "type": "Feature"}, {"geometry": {"coordinates": [[3.091771478133467, 43.10955541808783], [3.090048075021969, 43.10867858719686]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 170, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[3.099104889039011, 43.11318017211522], [3.100585216958478, 43.113939153447575]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 146, "name": "Rue de la Hune"}, "type": "Feature"}, {"geometry": {"coordinates": [[3.104342824151189, 43.11202925299048], [3.105741260876641, 43.11268614274218]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 135, "name": "Avenue de P\u00e9rousse"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "43.050", "geonameid": "1", "group": "Western, Europe", "left": "3.023", "name": "Gruissan, France", "right": "3.152", "slug": "gruissan_france", "top": "43.149"};
+var streetIndex = ["Quai du Ponant", null, "Avenue de P\u00e9rousse", "Rue de la Hune", "Avenue des Plages"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Gruissan, France</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [1941, 2556, 2517, 5880, 1684, 2195, 1742, 1598, 1365, 1344, 1128, 1589, 1161, 1469, 1440, 1462, 1652, 1599, 872, 1281, 1281, 1621, 1714, 1631, 1185, 2230, 2034, 1670, 1049, 2410, 1413, 2562, 1470, 2092, 3860, 3168, 1919, 2197, 3842, 2338, 1271, 1235, 1919, 1701, 1658, 1861, 1108, 2171, 1162, 1197, 1138, 866, 1112, 986, 1406, 1294, 1483, 2793, 2283, 1212, 1067, 1518, 1283, 1525, 1010, 1548, 1259, 938, 1173, 1196, 896, 1635, 1150, 652, 1464, 1157, 1319, 1487, 3184, 2923, 1354, 1293, 917, 829, 902, 1118, 1186, 1338, 1443, 2254, 2345, 2913, 1226, 2140, 2287, 2057, 2470, 2166, 3794, 2449, 1858, 1305, 1244, 1388, 1351, 1690, 1247, 1590, 1046, 1111, 1518, 1172, 1372, 1182, 659, 1551, 2797, 1937, 1215, 1175, 1447, 1092, 1442, 2464, 1753, 1382, 1376, 1481, 2980, 1532, 1933, 1805, 1716, 1271, 1463, 1946, 720, 808, 1439, 968, 618, 931, 835, 672, 948, 1072, 1040, 2185, 1441, 1442, 751, 1064, 666, 1086, 692, 741, 806, 1193, 1248, 868, 1201, 949, 824, 936, 1011, 1122, 1898, 1415, 5764, 3961, 1808, 1050, 728, 797, 1148, 1409, 1251, 1535, 1210, 1052, 285], "ratio": 151, "solsticeLength": 4314.896508100858, "summer_sun_azimuth": 55.9877026643765, "sun_azimuth": 122.03134257960103, "totalLength": 284049.5949239177}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

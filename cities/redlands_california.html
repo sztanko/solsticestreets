@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Redlands, California</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [320394, 44717, 13263, 8425, 6907, 6259, 5399, 5594, 6724, 11007, 8752, 5812, 5303, 4687, 5203, 4606, 5114, 3909, 5614, 5795, 5611, 6010, 5617, 4317, 5636, 4253, 4775, 3895, 4560, 4169, 4609, 5198, 4482, 4849, 7375, 5982, 5445, 4007, 5608, 7768, 7224, 6648, 3937, 3582, 4952, 4853, 4718, 4453, 10173, 5663, 5299, 5863, 5248, 5619, 6092, 13984, 33859, 11300, 8109, 5729, 6716, 5726, 6517, 5573, 5658, 6044, 5994, 7258, 6772, 8993, 8540, 8312, 8461, 6859, 6133, 7065, 6537, 6810, 7309, 7636, 7143, 6744, 7712, 8365, 9446, 11134, 15223, 19176, 34784, 274096, 413534, 60998, 17460, 15102, 12614, 8788, 8500, 9044, 8470, 17585, 14153, 8024, 8251, 9749, 7871, 8215, 7549, 8019, 10368, 8295, 8188, 6547, 6387, 7078, 6815, 6553, 7571, 7081, 5455, 7093, 7011, 6672, 5446, 6540, 6842, 8746, 6242, 5715, 6523, 9019, 7971, 6162, 5891, 6317, 5325, 4820, 4060, 5738, 6861, 5152, 5496, 6059, 6052, 6794, 6574, 10014, 35092, 17379, 7378, 4292, 5661, 5387, 5187, 5277, 5337, 5036, 4167, 4854, 6227, 4451, 4459, 5170, 5260, 5458, 5281, 5552, 7375, 4958, 5449, 6204, 5710, 5570, 6847, 6961, 7478, 7234, 8619, 13085, 41024, 294607, 37021], "ratio": 73, "solsticeLength": 20375.996513918086, "summer_sun_azimuth": 60.63281186606462, "sun_azimuth": 118.00429036571819, "totalLength": 2782224.3298237654};
+var winter = {"features": [{"geometry": {"coordinates": [[-117.00293606525447, 34.01843896521876], [-117.00167903123555, 34.01789699135955]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 130, "name": "Scrub Oak Trail"}, "type": "Feature"}, {"geometry": {"coordinates": [[-116.97814566460949, 34.08133115075767], [-116.98153103148222, 34.082771999913206]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 350, "name": "Service Road 1S08"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.14684336827894, 33.98793663283712], [-117.14536697985397, 33.98727504921965]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 154, "name": "San Timoteo Canyon Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.13553710290722, 34.02496419302031], [-117.13673906782232, 34.02552033229588]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 126, "name": "Wabash Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.2072396745099, 34.13169465416607], [-117.20544795888753, 34.130899882107144]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 187, "name": "Lunt Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.27731925820108, 34.076443076283994], [-117.27566760418074, 34.07575995117534]], "type": "LineString"}, "properties": {"azimuth_d": 1.47, "length": 170, "name": "Parkcenter Circle North"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.15733332010059, 34.04129985175322], [-117.16105865696609, 34.043044963993964]], "type": "LineString"}, "properties": {"azimuth_d": 1.47, "length": 394, "name": "Redlands Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.16292874338312, 34.130619842722126], [-117.16429951982812, 34.13120464810655]], "type": "LineString"}, "properties": {"azimuth_d": 0.76, "length": 141, "name": "Bacon Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.23168784204834, 34.04985408685599], [-117.23425438080008, 34.05101942285421]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 269, "name": "Citron Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.04731380014958, 34.01543849533974], [-117.04567958048783, 34.01474095335763]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 169, "name": "3rd Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.04514766491242, 33.97490092938361], [-117.04190101853719, 33.97344893229686]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 340, "name": "Calimesa Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.23730354953652, 34.13704432004752], [-117.23580662544879, 34.136415761128546]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 154, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.27713041392258, 34.076135544256545], [-117.27588972461484, 34.07561276495562]], "type": "LineString"}, "properties": {"azimuth_d": 1.05, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.27354966488686, 34.06506346925948], [-117.27491180797158, 34.0656363723414]], "type": "LineString"}, "properties": {"azimuth_d": 1.09, "length": 140, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-117.26564100396652, 33.989989947657534], [-117.26372003939721, 33.99092394312816]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 205, "name": "Highview Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.01289435295784, 34.0044097547821], [-117.01157537667449, 34.00504485158555]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 140, "name": "County Line Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.30949193624716, 34.03511945544823], [-117.30793541682783, 34.03587097688677]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 166, "name": "Miriam Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.17553127008061, 34.10879135520153], [-117.17329363720943, 34.10982593351025]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 236, "name": "East 5th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.16788982423348, 34.02964062443888], [-117.16905633369812, 34.02911482765279]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 122, "name": "Ridge Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.30927476113592, 34.036205079547265], [-117.30750341353827, 34.03706833175511]], "type": "LineString"}, "properties": {"azimuth_d": 1.09, "length": 189, "name": "Fairburn Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.14029106693016, 34.01689879051062], [-117.13877025441835, 34.01758744767537]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 159, "name": "East Sunset Drive South"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.07143616311167, 34.03182117654947], [-117.0700169392663, 34.032466331636726]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 149, "name": "Washington Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.07134555473834, 34.038610182843875], [-117.07320080518677, 34.03773712380933]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 196, "name": "Warwick Hills Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.06557562023178, 34.03998682662112], [-117.0641911812846, 34.04064488983926]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 147, "name": "Bluegrass Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.24875406746187, 34.10472998783783], [-117.24465062294425, 34.10661692188026]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 432, "name": "3rd Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.30977700477408, 34.0342495815369], [-117.30853095104831, 34.03484377465287]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 132, "name": "Barton Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.24661173682975, 34.105484862037656], [-117.24487400066381, 34.10629027911358]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 183, "name": "Perimeter Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.04992493062618, 34.07782902397372], [-117.04873000650977, 34.07835825734011]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 124, "name": "Mill Creek Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-116.9953394625893, 34.05073988638338], [-116.99313342949307, 34.05173029206236]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 231, "name": "Oak Glen Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.03621121502496, 33.973675998053835], [-117.03471001616657, 33.974376725159146]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.28175362025601, 34.02437293357045], [-117.27968186524859, 34.02534615634792]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 219, "name": "Park Canyon Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.05106000795394, 33.988504925872284], [-117.04983222677707, 33.98907967297288]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 130, "name": "Buena Mesa Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.06737563393828, 34.03557869992312], [-117.06945778250562, 34.03464462063346]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 218, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.06935585856301, 34.03625629297568], [-117.06766732416872, 34.03704142584593]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 178, "name": "Oak Glen Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.06601290412033, 34.03774315877962], [-117.06241312816438, 34.03934577866639]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 376, "name": "Oak Glen Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.05724166154441, 34.0432962534511], [-117.05550182990268, 34.04407652481751]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 182, "name": "Oak Glen Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.18279896686526, 34.032320067426355], [-117.18513366217525, 34.03118415190829]], "type": "LineString"}, "properties": {"azimuth_d": 1.05, "length": 249, "name": "West Crescent Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.03730312555138, 34.05064986474329], [-117.03530722676771, 34.05161093376116]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 212, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.03776471695915, 34.05156852133112], [-117.03614323779024, 34.05234242245112]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 172, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.03503431200035, 34.05233353763376], [-117.03776706389202, 34.050991846392776]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 292, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.0741517321018, 34.08695448577777], [-117.07550540946433, 34.08632534012557]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 142, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-117.27925774094801, 34.051520241568824], [-117.28205830243635, 34.05022473461432]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 295, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "33.968", "geonameid": "1", "group": "North, America", "left": "-117.325", "name": "Redlands, California", "right": "-116.976", "slug": "redlands_california", "top": "34.138"};
+var streetIndex = ["County Line Road", "East Sunset Drive South", "West Crescent Avenue", "Park Canyon Road", "3rd Street", "Washington Drive", "Wabash Avenue", "Mill Creek Road", "Scrub Oak Trail", "San Timoteo Canyon Road", "Buena Mesa Drive", "Ridge Street", "Barton Road", "Miriam Way", "Parkcenter Circle North", "Highview Lane", "Fairburn Drive", "East 5th Street", "Perimeter Road", "Warwick Hills Road", "Citron Street", "Redlands Boulevard", "Bacon Lane", "Oak Glen Road", "Lunt Lane", "Bluegrass Road", "Calimesa Boulevard", "Service Road 1S08", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Redlands, California</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [320394, 44717, 13263, 8425, 6907, 6259, 5399, 5594, 6724, 11007, 8752, 5812, 5303, 4687, 5203, 4606, 5114, 3909, 5614, 5795, 5611, 6010, 5617, 4317, 5636, 4253, 4775, 3895, 4560, 4169, 4609, 5198, 4482, 4849, 7375, 5982, 5445, 4007, 5608, 7768, 7224, 6648, 3937, 3582, 4952, 4853, 4718, 4453, 10173, 5663, 5299, 5863, 5248, 5619, 6092, 13984, 33859, 11300, 8109, 5729, 6716, 5726, 6517, 5573, 5658, 6044, 5994, 7258, 6772, 8993, 8540, 8312, 8461, 6859, 6133, 7065, 6537, 6810, 7309, 7636, 7143, 6744, 7712, 8365, 9446, 11134, 15223, 19176, 34784, 274096, 413534, 60998, 17460, 15102, 12614, 8788, 8500, 9044, 8470, 17585, 14153, 8024, 8251, 9749, 7871, 8215, 7549, 8019, 10368, 8295, 8188, 6547, 6387, 7078, 6815, 6553, 7571, 7081, 5455, 7093, 7011, 6672, 5446, 6540, 6842, 8746, 6242, 5715, 6523, 9019, 7971, 6162, 5891, 6317, 5325, 4820, 4060, 5738, 6861, 5152, 5496, 6059, 6052, 6794, 6574, 10014, 35092, 17379, 7378, 4292, 5661, 5387, 5187, 5277, 5337, 5036, 4167, 4854, 6227, 4451, 4459, 5170, 5260, 5458, 5281, 5552, 7375, 4958, 5449, 6204, 5710, 5570, 6847, 6961, 7478, 7234, 8619, 13085, 41024, 294607, 37021], "ratio": 73, "solsticeLength": 20375.996513918086, "summer_sun_azimuth": 60.63281186606462, "sun_azimuth": 118.00429036571819, "totalLength": 2782224.3298237654}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

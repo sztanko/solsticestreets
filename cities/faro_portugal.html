@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Faro, Portugal</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2209, 1796, 2819, 2962, 3602, 2564, 2336, 2747, 2295, 4236, 2112, 2409, 2572, 1771, 2066, 2196, 1120, 1133, 1345, 721, 1274, 917, 859, 1495, 2237, 1319, 1464, 595, 775, 1318, 1158, 872, 862, 530, 1010, 931, 529, 699, 615, 396, 987, 1138, 800, 793, 847, 976, 1207, 1765, 2247, 1481, 1707, 2045, 1494, 2094, 1712, 2734, 1933, 1211, 1229, 1100, 1170, 825, 1942, 1455, 2015, 1765, 1209, 1245, 1857, 2156, 1302, 3420, 2544, 3119, 1987, 1456, 1244, 1447, 3644, 2247, 1736, 3375, 2135, 1023, 1681, 1387, 4120, 1845, 1661, 1754, 3563, 1628, 1656, 1791, 2967, 1798, 1194, 1759, 1892, 3158, 8862, 893, 807, 1235, 1862, 1704, 1303, 1064, 728, 2021, 1216, 853, 927, 1075, 1307, 1557, 1591, 1122, 1523, 812, 947, 772, 1212, 1270, 1180, 1290, 767, 958, 917, 797, 1186, 520, 1354, 1168, 744, 1811, 1273, 1190, 984, 1430, 1514, 1322, 1589, 2543, 1738, 1877, 1225, 1710, 1698, 1760, 2058, 1561, 1847, 1531, 1463, 1420, 1306, 1301, 2278, 2647, 2128, 1967, 2382, 1683, 1341, 1602, 2037, 1420, 1539, 1375, 1349, 2235, 2491, 1752, 1242, 2341, 2776, 2178, 1594, 1766, 537], "ratio": 107, "solsticeLength": 3226.3991469566145, "summer_sun_azimuth": 59.35196015139047, "sun_azimuth": 119.10367761452345, "totalLength": 300981.60971883155};
+var winter = {"features": [{"geometry": {"coordinates": [[-7.907667370942079, 37.05191644366283], [-7.905612882655219, 37.05101815509973]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 207, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.958556000584281, 37.04253013703206], [-7.960806625405411, 37.04357401925327]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 231, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.961708769643963, 37.044023624539506], [-7.963717911834663, 37.04489425282213]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 202, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.965610377933189, 37.04322348806255], [-7.967323638941849, 37.0439533841909]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 172, "name": "Rua da Universidade"}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.977351664079605, 37.04953992265606], [-7.978695869891538, 37.05012673969722]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 136, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.93827715932241, 37.017652564594016], [-7.936466165322741, 37.016821750351454]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 185, "name": "Avenida da Rep\u00fablica"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-7.939358508650826, 37.018193867900976], [-7.937364370066803, 37.01910984227976]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 204, "name": "Rua Francisco Barreto"}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.960627336496514, 37.035367716951235], [-7.959122701057851, 37.036083196206135]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 155, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.904921459462457, 37.03230488571262], [-7.903205264787658, 37.03313553231712]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 178, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "36.988", "geonameid": "1", "group": "Southern, Europe", "left": "-8.010", "name": "Faro, Portugal", "right": "-7.900", "slug": "faro_portugal", "top": "37.054"};
+var streetIndex = ["Rua Francisco Barreto", "Rua da Universidade", "Avenida da Rep\u00fablica", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Faro, Portugal</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2209, 1796, 2819, 2962, 3602, 2564, 2336, 2747, 2295, 4236, 2112, 2409, 2572, 1771, 2066, 2196, 1120, 1133, 1345, 721, 1274, 917, 859, 1495, 2237, 1319, 1464, 595, 775, 1318, 1158, 872, 862, 530, 1010, 931, 529, 699, 615, 396, 987, 1138, 800, 793, 847, 976, 1207, 1765, 2247, 1481, 1707, 2045, 1494, 2094, 1712, 2734, 1933, 1211, 1229, 1100, 1170, 825, 1942, 1455, 2015, 1765, 1209, 1245, 1857, 2156, 1302, 3420, 2544, 3119, 1987, 1456, 1244, 1447, 3644, 2247, 1736, 3375, 2135, 1023, 1681, 1387, 4120, 1845, 1661, 1754, 3563, 1628, 1656, 1791, 2967, 1798, 1194, 1759, 1892, 3158, 8862, 893, 807, 1235, 1862, 1704, 1303, 1064, 728, 2021, 1216, 853, 927, 1075, 1307, 1557, 1591, 1122, 1523, 812, 947, 772, 1212, 1270, 1180, 1290, 767, 958, 917, 797, 1186, 520, 1354, 1168, 744, 1811, 1273, 1190, 984, 1430, 1514, 1322, 1589, 2543, 1738, 1877, 1225, 1710, 1698, 1760, 2058, 1561, 1847, 1531, 1463, 1420, 1306, 1301, 2278, 2647, 2128, 1967, 2382, 1683, 1341, 1602, 2037, 1420, 1539, 1375, 1349, 2235, 2491, 1752, 1242, 2341, 2776, 2178, 1594, 1766, 537], "ratio": 107, "solsticeLength": 3226.3991469566145, "summer_sun_azimuth": 59.35196015139047, "sun_azimuth": 119.10367761452345, "totalLength": 300981.60971883155}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

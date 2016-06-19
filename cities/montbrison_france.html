@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Montbrison, France</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [1858, 2182, 1884, 1418, 1403, 1331, 1552, 1546, 1400, 1117, 895, 1051, 1132, 627, 948, 1184, 1086, 657, 558, 949, 998, 894, 1556, 776, 824, 943, 879, 699, 598, 786, 895, 738, 770, 510, 841, 486, 554, 724, 649, 670, 671, 489, 519, 647, 439, 590, 534, 768, 877, 619, 953, 964, 784, 856, 1121, 1147, 1050, 950, 668, 871, 822, 1438, 1036, 868, 1266, 668, 995, 1268, 1304, 1649, 1583, 1688, 1293, 2171, 1483, 1790, 1667, 1795, 2410, 2336, 1782, 1351, 2279, 1669, 2236, 2995, 2818, 1789, 1671, 1871, 2032, 2326, 1906, 1068, 1136, 1104, 992, 1103, 1233, 1085, 1680, 756, 1163, 774, 603, 1127, 936, 700, 773, 781, 798, 618, 926, 736, 808, 956, 749, 726, 894, 721, 694, 594, 598, 683, 1034, 818, 743, 2022, 707, 637, 569, 760, 764, 787, 711, 287, 479, 551, 596, 865, 734, 714, 1251, 1308, 1144, 1141, 883, 917, 773, 744, 772, 944, 918, 1182, 1331, 1342, 1130, 919, 1127, 1613, 1610, 1255, 1512, 1362, 1223, 1755, 1782, 2421, 2515, 2252, 3017, 2531, 2026, 1781, 1593, 1807, 2560, 2205, 1481, 2176, 247], "ratio": 108, "solsticeLength": 2308.7366723464347, "summer_sun_azimuth": 54.24876040735335, "sun_azimuth": 123.55952910449969, "totalLength": 212270.52643513153};
+var winter = {"features": [{"geometry": {"coordinates": [[4.086029898909629, 45.61232465047382], [4.087381564615384, 45.61168377015716]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[4.083072428193901, 45.61242489803578], [4.084572369766789, 45.61170413818189]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 141, "name": "Rue du Vizezy"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [], "type": "FeatureCollection"};
+
+var city = {"bottom": "45.591", "geonameid": "1", "group": "Western, Europe", "left": "4.042", "name": "Montbrison, France", "right": "4.088", "slug": "montbrison_france", "top": "45.627"};
+var streetIndex = ["Rue du Vizezy", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Montbrison, France</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [1858, 2182, 1884, 1418, 1403, 1331, 1552, 1546, 1400, 1117, 895, 1051, 1132, 627, 948, 1184, 1086, 657, 558, 949, 998, 894, 1556, 776, 824, 943, 879, 699, 598, 786, 895, 738, 770, 510, 841, 486, 554, 724, 649, 670, 671, 489, 519, 647, 439, 590, 534, 768, 877, 619, 953, 964, 784, 856, 1121, 1147, 1050, 950, 668, 871, 822, 1438, 1036, 868, 1266, 668, 995, 1268, 1304, 1649, 1583, 1688, 1293, 2171, 1483, 1790, 1667, 1795, 2410, 2336, 1782, 1351, 2279, 1669, 2236, 2995, 2818, 1789, 1671, 1871, 2032, 2326, 1906, 1068, 1136, 1104, 992, 1103, 1233, 1085, 1680, 756, 1163, 774, 603, 1127, 936, 700, 773, 781, 798, 618, 926, 736, 808, 956, 749, 726, 894, 721, 694, 594, 598, 683, 1034, 818, 743, 2022, 707, 637, 569, 760, 764, 787, 711, 287, 479, 551, 596, 865, 734, 714, 1251, 1308, 1144, 1141, 883, 917, 773, 744, 772, 944, 918, 1182, 1331, 1342, 1130, 919, 1127, 1613, 1610, 1255, 1512, 1362, 1223, 1755, 1782, 2421, 2515, 2252, 3017, 2531, 2026, 1781, 1593, 1807, 2560, 2205, 1481, 2176, 247], "ratio": 108, "solsticeLength": 2308.7366723464347, "summer_sun_azimuth": 54.24876040735335, "sun_azimuth": 123.55952910449969, "totalLength": 212270.52643513153}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

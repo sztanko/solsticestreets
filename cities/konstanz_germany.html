@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Konstanz, Germany</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2945, 2821, 3508, 1797, 1931, 2134, 3853, 4408, 3645, 3389, 3174, 3211, 4090, 3509, 3308, 3151, 3503, 2628, 3996, 4206, 4979, 3703, 5955, 4436, 6171, 9360, 5971, 4182, 4493, 4316, 4212, 2921, 2926, 2838, 3302, 2290, 1931, 2052, 2324, 2473, 1790, 2289, 1918, 2059, 1867, 2528, 2305, 2247, 1787, 1769, 1759, 2165, 1970, 2144, 2083, 2018, 1707, 1713, 2238, 1750, 1879, 1449, 2027, 2119, 2403, 2894, 2586, 2444, 2892, 2564, 2944, 2638, 2939, 2371, 2589, 3168, 2681, 2983, 2162, 2250, 2633, 2862, 3452, 3419, 3057, 3674, 3697, 3602, 3594, 3245, 3561, 3383, 2756, 3844, 2374, 2683, 2830, 3081, 3201, 3665, 4736, 4508, 4345, 4185, 4222, 5605, 4172, 5668, 5889, 6470, 5734, 5883, 5824, 6924, 11042, 17203, 10781, 7614, 8864, 6152, 5234, 5935, 4369, 3469, 3049, 4858, 4472, 3552, 3925, 3382, 3597, 3683, 4131, 3633, 4738, 3919, 3672, 4063, 3367, 2462, 3504, 2497, 3022, 3097, 2787, 3230, 2316, 3079, 1996, 2560, 2421, 2555, 2182, 2581, 2455, 2551, 2657, 2798, 2558, 2614, 3031, 2187, 2120, 2376, 2170, 2869, 3384, 2966, 2563, 1888, 2146, 2801, 2838, 2300, 2609, 2804, 2666, 2720, 2790, 3581, 205], "ratio": 191, "solsticeLength": 11901.210598668455, "summer_sun_azimuth": 52.59035291083382, "sun_azimuth": 125.05897419337093, "totalLength": 622639.7865800514};
+var winter = {"features": [{"geometry": {"coordinates": [[9.137398682396649, 47.6551828790426], [9.139140441876092, 47.654387184974325]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 157, "name": "Okenfinerstrasse"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.115484867101742, 47.74153944814449], [9.113814689075383, 47.74228979611658]], "type": "LineString"}, "properties": {"azimuth_d": 1.3, "length": 150, "name": "Zur Steig"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.122378982461953, 47.68763266280757], [9.127279462152359, 47.68527709655871]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 450, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.099179718496373, 47.70780773610815], [9.10063565507761, 47.707102818051254]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.129850778588889, 47.68401008807501], [9.13258269229024, 47.68270066716124]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 251, "name": "Reichenaustra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.096952143908965, 47.70888472684692], [9.099179718496373, 47.70780773610815]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 205, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.208028873307285, 47.76172189751986], [9.209501741332929, 47.76102879794643]], "type": "LineString"}, "properties": {"azimuth_d": 0.07, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.12747995727625, 47.68531305492331], [9.122492221973829, 47.68775378130843]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 461, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.127279462152359, 47.68527709655871], [9.129162289062208, 47.684365145493445]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 173, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.101278295593914, 47.70666947365717], [9.103566136065126, 47.70558192172041]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 209, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.17181326808452, 47.761426686890076], [9.173506747801696, 47.7606274724225]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 154, "name": "Schilfweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.101577026623033, 47.709502556929834], [9.103184340375577, 47.70873921700783]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 147, "name": "Konradistra\u00dfe"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[9.190410029017528, 47.67148643508636], [9.191898738840166, 47.67224843390386]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 140, "name": "Mainaustra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.136609693850914, 47.69080387205423], [9.13527512722763, 47.69012116604074]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 125, "name": "Kindlebildstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.136647747691313, 47.69076908715607], [9.135325753922785, 47.69008956626578]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 124, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "47.653", "geonameid": "1", "group": "Western, Europe", "left": "9.084", "name": "Konstanz, Germany", "right": "9.218", "slug": "konstanz_germany", "top": "47.762"};
+var streetIndex = ["Okenfinerstrasse", "Konradistra\u00dfe", "Mainaustra\u00dfe", "Reichenaustra\u00dfe", "Zur Steig", "Schilfweg", "Kindlebildstra\u00dfe", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Konstanz, Germany</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2945, 2821, 3508, 1797, 1931, 2134, 3853, 4408, 3645, 3389, 3174, 3211, 4090, 3509, 3308, 3151, 3503, 2628, 3996, 4206, 4979, 3703, 5955, 4436, 6171, 9360, 5971, 4182, 4493, 4316, 4212, 2921, 2926, 2838, 3302, 2290, 1931, 2052, 2324, 2473, 1790, 2289, 1918, 2059, 1867, 2528, 2305, 2247, 1787, 1769, 1759, 2165, 1970, 2144, 2083, 2018, 1707, 1713, 2238, 1750, 1879, 1449, 2027, 2119, 2403, 2894, 2586, 2444, 2892, 2564, 2944, 2638, 2939, 2371, 2589, 3168, 2681, 2983, 2162, 2250, 2633, 2862, 3452, 3419, 3057, 3674, 3697, 3602, 3594, 3245, 3561, 3383, 2756, 3844, 2374, 2683, 2830, 3081, 3201, 3665, 4736, 4508, 4345, 4185, 4222, 5605, 4172, 5668, 5889, 6470, 5734, 5883, 5824, 6924, 11042, 17203, 10781, 7614, 8864, 6152, 5234, 5935, 4369, 3469, 3049, 4858, 4472, 3552, 3925, 3382, 3597, 3683, 4131, 3633, 4738, 3919, 3672, 4063, 3367, 2462, 3504, 2497, 3022, 3097, 2787, 3230, 2316, 3079, 1996, 2560, 2421, 2555, 2182, 2581, 2455, 2551, 2657, 2798, 2558, 2614, 3031, 2187, 2120, 2376, 2170, 2869, 3384, 2966, 2563, 1888, 2146, 2801, 2838, 2300, 2609, 2804, 2666, 2720, 2790, 3581, 205], "ratio": 191, "solsticeLength": 11901.210598668455, "summer_sun_azimuth": 52.59035291083382, "sun_azimuth": 125.05897419337093, "totalLength": 622639.7865800514}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

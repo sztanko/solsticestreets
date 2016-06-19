@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Kamloops, Canada</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [47070, 17464, 9858, 11805, 10657, 7687, 10349, 6766, 6972, 5971, 6371, 6877, 8903, 8325, 7641, 7967, 6063, 8437, 9330, 8211, 9332, 15239, 11999, 8694, 5617, 7045, 7919, 6533, 5275, 6308, 6003, 6898, 5842, 8217, 6621, 6996, 4698, 6155, 7051, 5349, 6760, 7364, 4614, 5969, 5820, 4733, 4680, 5724, 5073, 5723, 5550, 4884, 5719, 5992, 5370, 7332, 5223, 6405, 4679, 6681, 6561, 6843, 6261, 7106, 6105, 6614, 6443, 5719, 7031, 5898, 8049, 9131, 7669, 8240, 8415, 7746, 6501, 7161, 7095, 8077, 8394, 9477, 8230, 12128, 9570, 9819, 13106, 12447, 13236, 33034, 81003, 25282, 16374, 15129, 10399, 14780, 14743, 17706, 12437, 11343, 10685, 8892, 10887, 14647, 16045, 12261, 14098, 14175, 20170, 11684, 11793, 11401, 13147, 12145, 8807, 10364, 8595, 10614, 7141, 9160, 7679, 7410, 9560, 10028, 9214, 10704, 8842, 9080, 8440, 6780, 7451, 7039, 6955, 7361, 8750, 8100, 8349, 9454, 10643, 7002, 6893, 7830, 6643, 6951, 7727, 7107, 8567, 7920, 6581, 7428, 7673, 8307, 9315, 7700, 7692, 6543, 7798, 9397, 7274, 7728, 8924, 8201, 6916, 6723, 9992, 11574, 7117, 6513, 6461, 8172, 7699, 6485, 7604, 8467, 6741, 6582, 8456, 9067, 10797, 19390, 3062], "ratio": 156, "solsticeLength": 26598.663032036256, "summer_sun_azimuth": 49.760072782942274, "sun_azimuth": 127.48511202807282, "totalLength": 1699773.7819093196};
+var winter = {"features": [{"geometry": {"coordinates": [[-120.31257160464216, 50.68923284147343], [-120.32018212126661, 50.69282993522034]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 669, "name": "Southern Yellowhead Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.39249665561998, 50.6605162735629], [-120.38945771280538, 50.659030162130215]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 270, "name": "Hillside Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.38858641397051, 50.65860067341163], [-120.38388022679567, 50.656299673352436]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 419, "name": "Hillside Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.368216042326, 50.694379832936164], [-120.36571186493386, 50.69322145391757]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 218, "name": "MacKenzie Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.33580774898172, 50.69822209735088], [-120.33373725125979, 50.69724267196506]], "type": "LineString"}, "properties": {"azimuth_d": 0.76, "length": 182, "name": "Cree Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.37946757386999, 50.64789983290612], [-120.37776722099221, 50.6470614749507]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 151, "name": "Howe Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.38717800278026, 50.65882874499698], [-120.38321143474145, 50.65687869522366]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 353, "name": "Mt Dufferin Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.36671660366727, 50.69588547420321], [-120.36530986885766, 50.69520871934097]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 124, "name": "Ivy Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.36694056812007, 50.681019498372734], [-120.36554104174716, 50.68032237548579]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 125, "name": "Victoria Street West"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.04721907417472, 50.734591761953986], [-120.04576355668861, 50.73386287165402]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 130, "name": "Pinantan-Pritchard Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.0997288477097, 50.749328991751725], [-120.0980873357922, 50.748529525827024]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 145, "name": "Pinantan-Pritchard Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.16207604190429, 50.736648345716645], [-120.16354471897834, 50.73736332205735]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 130, "name": "Paul Lake Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.14521928025107, 50.667991673908205], [-120.14668611330643, 50.66872324641719]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 131, "name": "Chukar Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.16575326664554, 50.65072906050332], [-120.16769451542051, 50.65165383588044]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 171, "name": "Belair Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.06317302103712, 50.731220979592756], [-120.06470280218531, 50.73198834282829]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 137, "name": "Hale-Vinnie Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.17340485459553, 50.64724076385959], [-120.17552597901263, 50.64825673434325]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 187, "name": "Todd Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.32032427834444, 50.69271853972717], [-120.31283990936274, 50.68916486423868]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 659, "name": "Southern Yellowhead Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.1732309301047, 50.66668543811763], [-120.17567894874553, 50.66781598921767]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 213, "name": "Dallas Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.46512492460914, 50.714896384972036], [-120.46690046315837, 50.71579081785967]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 159, "name": "Tranquille Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.53927375465298, 50.73431968537699], [-120.54109866261194, 50.73524672386796]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 164, "name": "Tranquille-Criss Creek Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.26151131362296, 50.86841856912682], [-120.25973233849341, 50.86758758724619]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 155, "name": "River Heights Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.14867698294819, 50.85818619318971], [-120.15088812900538, 50.85929402933214]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 198, "name": "Heffley-Louis Creek Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.05803172926855, 50.83849408514996], [-120.06083731989878, 50.83980677500597]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 245, "name": "Heffley-Louis Creek Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.08855107691363, 50.751880359258706], [-120.09026760686453, 50.75269482879008]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 150, "name": "Paul Lake Dump Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.3478120592497, 50.75122992357245], [-120.34968801299898, 50.75215495040666]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 167, "name": "Rivers trail"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.38398500058534, 50.65639799307666], [-120.38833302903755, 50.65852892432044]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 387, "name": "-"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.39135504040776, 50.65990892085895], [-120.38862362962058, 50.65857058237924]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 243, "name": "-"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.3884020121007, 50.65846899371277], [-120.38691900197219, 50.657741947431504]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 132, "name": "-"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.35198540883982, 50.67683307301368], [-120.35368911447887, 50.677661959418515]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 151, "name": "Strathcona Terrace"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.08215501423999, 50.81642897650278], [-120.08394035961594, 50.81733187511264]], "type": "LineString"}, "properties": {"azimuth_d": 1.05, "length": 160, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.38043316911559, 50.66075381669884], [-120.37726480971598, 50.659197967831766]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 282, "name": "Pacific Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.2565271825389, 50.638413194894355], [-120.25471526652989, 50.63757877643343]], "type": "LineString"}, "properties": {"azimuth_d": 1.47, "length": 157, "name": "Rose Hill Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.11713898261044, 50.74921851826789], [-120.11575672295808, 50.748538326825354]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 123, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.22208367928508, 50.65843395735748], [-120.22365402884462, 50.659234261472506]], "type": "LineString"}, "properties": {"azimuth_d": 1.31, "length": 142, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.27700400435373, 50.70989792083353], [-120.27848902613897, 50.710619937972886]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 131, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-120.35170520181671, 50.667204948476325], [-120.35039544562683, 50.667925624511184]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 122, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.35454163785063, 50.6905697550296], [-120.35667441311315, 50.689371142875785]], "type": "LineString"}, "properties": {"azimuth_d": 1.29, "length": 200, "name": "Wood Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.24444098107686, 50.73153144528629], [-120.24615985796068, 50.73060633463305]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 158, "name": "Paul Lake Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.46184005675543, 50.6623479708634], [-120.45988212799313, 50.66334885392135]], "type": "LineString"}, "properties": {"azimuth_d": 1.36, "length": 177, "name": "Sugarloaf Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.49647978036255, 50.663097396826146], [-120.49502116157232, 50.663854198863675]], "type": "LineString"}, "properties": {"azimuth_d": 0.95, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.51051435521725, 50.72304216993314], [-120.50712647377355, 50.72481066768373]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 309, "name": "Tranquille Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.3043319423655, 50.80740585773651], [-120.30599491195512, 50.80650916173499]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 153, "name": "Southern Yellowhead Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.28544927471523, 50.82851693816448], [-120.28857974791246, 50.8269064392887]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 283, "name": "Southern Yellowhead Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.38688170250308, 50.83354926519178], [-120.38412313434964, 50.83500528559204]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 252, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.37877548012494, 50.698165687142534], [-120.3801459212938, 50.697433360262266]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 126, "name": "Island Parkway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.48460262356566, 50.65507356855622], [-120.48646332225117, 50.654056256968026]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 173, "name": "Sugarloaf Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.15159204123387, 50.801839268200894], [-120.15363487867532, 50.800735371552946]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 188, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-120.31438620286019, 50.66477025706152], [-120.31569847362103, 50.664047317912804]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 122, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "50.610", "geonameid": "1", "group": "North, America", "left": "-120.550", "name": "Kamloops, Canada", "right": "-120.030", "slug": "kamloops_canada", "top": "50.870"};
+var streetIndex = ["Pacific Way", "Victoria Street West", "Howe Road", "Dallas Drive", "Hillside Drive", "Belair Drive", "Chukar Drive", "Mt Dufferin Avenue", "-", "River Heights Drive", "Pinantan-Pritchard Road", "Tranquille Road", "Sugarloaf Road", "Rose Hill Road", "Hale-Vinnie Road", "Rivers trail", "Ivy Avenue", "Paul Lake Dump Road", "Wood Street", "Southern Yellowhead Highway", "MacKenzie Avenue", "Strathcona Terrace", "Heffley-Louis Creek Road", "Paul Lake Road", "Todd Road", "Cree Drive", "Island Parkway", "Tranquille-Criss Creek Road", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Kamloops, Canada</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [47070, 17464, 9858, 11805, 10657, 7687, 10349, 6766, 6972, 5971, 6371, 6877, 8903, 8325, 7641, 7967, 6063, 8437, 9330, 8211, 9332, 15239, 11999, 8694, 5617, 7045, 7919, 6533, 5275, 6308, 6003, 6898, 5842, 8217, 6621, 6996, 4698, 6155, 7051, 5349, 6760, 7364, 4614, 5969, 5820, 4733, 4680, 5724, 5073, 5723, 5550, 4884, 5719, 5992, 5370, 7332, 5223, 6405, 4679, 6681, 6561, 6843, 6261, 7106, 6105, 6614, 6443, 5719, 7031, 5898, 8049, 9131, 7669, 8240, 8415, 7746, 6501, 7161, 7095, 8077, 8394, 9477, 8230, 12128, 9570, 9819, 13106, 12447, 13236, 33034, 81003, 25282, 16374, 15129, 10399, 14780, 14743, 17706, 12437, 11343, 10685, 8892, 10887, 14647, 16045, 12261, 14098, 14175, 20170, 11684, 11793, 11401, 13147, 12145, 8807, 10364, 8595, 10614, 7141, 9160, 7679, 7410, 9560, 10028, 9214, 10704, 8842, 9080, 8440, 6780, 7451, 7039, 6955, 7361, 8750, 8100, 8349, 9454, 10643, 7002, 6893, 7830, 6643, 6951, 7727, 7107, 8567, 7920, 6581, 7428, 7673, 8307, 9315, 7700, 7692, 6543, 7798, 9397, 7274, 7728, 8924, 8201, 6916, 6723, 9992, 11574, 7117, 6513, 6461, 8172, 7699, 6485, 7604, 8467, 6741, 6582, 8456, 9067, 10797, 19390, 3062], "ratio": 156, "solsticeLength": 26598.663032036256, "summer_sun_azimuth": 49.760072782942274, "sun_azimuth": 127.48511202807282, "totalLength": 1699773.7819093196}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

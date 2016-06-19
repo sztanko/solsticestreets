@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Cluj, Romania</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [7864, 7966, 7050, 7170, 5735, 6296, 5064, 5662, 4116, 3901, 3506, 5020, 3311, 3276, 4641, 4889, 2729, 3041, 5615, 4392, 4205, 2973, 2916, 3539, 3209, 2715, 2727, 2419, 3240, 3819, 3074, 3078, 3140, 4563, 4749, 3815, 3043, 3600, 4649, 3118, 6063, 4645, 4226, 5204, 4224, 4555, 4676, 4745, 4249, 4261, 4919, 5478, 5230, 4114, 5097, 4347, 5462, 4905, 4704, 3865, 4945, 4980, 6012, 7118, 8250, 8360, 7981, 7958, 6639, 7390, 11640, 11033, 9474, 7946, 11627, 14729, 13765, 11671, 8115, 7627, 5639, 8383, 7384, 7829, 12225, 13411, 9631, 9070, 10776, 7282, 9797, 8017, 9273, 7122, 8225, 8125, 6332, 4910, 5836, 5049, 4425, 2997, 3114, 3178, 2934, 4768, 4160, 3093, 3250, 3635, 3721, 4895, 3762, 3407, 4060, 2823, 3699, 4617, 4227, 4270, 3789, 4712, 3467, 4961, 2717, 2315, 4793, 3508, 3904, 4989, 6782, 4404, 4827, 4270, 5068, 4119, 4990, 3524, 3943, 4400, 4706, 4376, 4693, 5567, 4685, 4003, 6217, 5857, 4158, 5937, 6290, 5042, 7176, 5306, 7659, 7409, 5807, 8973, 7421, 9185, 9257, 9729, 10668, 9439, 7957, 8953, 8741, 8634, 7513, 7007, 7938, 8832, 6719, 8727, 7532, 6422, 5923, 7099, 8750, 8678, 2745], "ratio": 97, "solsticeLength": 10330.64999228153, "summer_sun_azimuth": 53.39075545891093, "sun_azimuth": 124.32968757493198, "totalLength": 1054714.284394981};
+var winter = {"features": [{"geometry": {"coordinates": [[23.583150395663946, 46.75187875271609], [23.58139296202557, 46.75273035407852]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 164, "name": "Strada Rapsodiei"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.75175162362791, 46.72676162548537], [23.746958264660066, 46.72894326724338]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 438, "name": "Strada Viilor"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.550406239459534, 46.803592161630576], [23.551865361163976, 46.80292387249054]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[23.72312943594713, 46.70412587687014], [23.714192986059658, 46.70813225894901]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 814, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[23.677472957903888, 46.71739342376542], [23.675257453257075, 46.718397491946575]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 202, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[23.632898080646186, 46.74734213144245], [23.634403386637103, 46.746665963313454]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 137, "name": "Strada Romul Ladea"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.63214722975988, 46.74928312876034], [23.63048434398931, 46.750047642148814]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 152, "name": "Aleea Tuf\u0103nelelor"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.631471396907017, 46.7487317671696], [23.629819156153445, 46.74948898830228]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 151, "name": "Aleea Tuf\u0103nelelor"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.648518595400333, 46.72151044696619], [23.651351762492027, 46.72012014068682]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 265, "name": "Centura Apahida-V\u00e2lcele"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.565761634616308, 46.72538322150848], [23.569679922892817, 46.723628218622025]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 356, "name": "Drumul Sf\u00e2ntul Ioan"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.54363575717113, 46.79021975712657], [23.545232174449552, 46.78949103446467]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 146, "name": "Strada Valea Seac\u0103"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.58037623717061, 46.74609104857478], [23.582073069649056, 46.74532687046246]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 154, "name": "Strada Victor Papilian"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.595545637895977, 46.764040056030545], [23.596876097386712, 46.763410994197386]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 123, "name": "Strada Aviator B\u0103descu"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.62533869363108, 46.69398637242017], [23.62343818090551, 46.69487678199428]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 175, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[23.623377998840738, 46.694812492796956], [23.62527683518564, 46.69392275377507]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 175, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[23.59145359276667, 46.75879508011971], [23.589590966243463, 46.75781238579165]], "type": "LineString"}, "properties": {"azimuth_d": 0.95, "length": 179, "name": "Strada Cire\u0219ilor"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.573573316916935, 46.753911280416645], [23.575414234310927, 46.75484854482951]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 174, "name": "Strada Louis Pasteur"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.56030677585002, 46.78619979636457], [23.558902220335227, 46.78549412393639]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 132, "name": "Strada Lombului"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.578901944221425, 46.77582895138701], [23.580242461995965, 46.77651148976241]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 127, "name": "Strada C\u0103l\u0103ra\u0219ilor"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.555032295640018, 46.76833033316989], [23.550940082872643, 46.76632462755953]], "type": "LineString"}, "properties": {"azimuth_d": 1.07, "length": 383, "name": "Strada Profesor T. Ciortea"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.609520785057185, 46.783907345846586], [23.607254821353248, 46.78272608423236]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 216, "name": "Strada Henri Barbuse"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.62081162772705, 46.78523805679444], [23.62287156425097, 46.786237179652716]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 192, "name": "Strada Garoafelor"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.72867657946736, 46.803936322574884], [23.732538960449716, 46.80596323440028]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 370, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[23.633579948469333, 46.81004329340805], [23.63172821842025, 46.80907493213442]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 177, "name": "Strada Giuseppe Verdi"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.581432021694354, 46.766956036325574], [23.58409503615161, 46.768296386462055]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 251, "name": "Calea Mo\u021bilor"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.549961495677138, 46.76701688894261], [23.555122652556232, 46.76958149985663]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 485, "name": "Strada F\u00e2nt\u00e2nele"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.72449308777442, 46.78058123902929], [23.722754932513336, 46.779655457823765]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 167, "name": "Strada Traian Darjan"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.724911428561796, 46.78031678998417], [23.723232365718076, 46.77942772151453]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 161, "name": "Strada Traian Vuia"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.714335729870697, 46.76142984756328], [23.71569477165124, 46.7621525352549]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[23.624209651273617, 46.73534192830701], [23.62548638276499, 46.73600736759994]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 122, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[23.552557790185144, 46.7711923340085], [23.55081158829699, 46.770342660483806]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 163, "name": "Strada Donath"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.63268518030557, 46.765649129982755], [23.63410985238798, 46.76637869083498]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 135, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[23.61994862697631, 46.79234264174331], [23.618253722335595, 46.79150369705468]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 159, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[23.456254835682387, 46.70079951859574], [23.458208489674064, 46.70179956346336]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 185, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[23.571423023476793, 46.796819835323475], [23.572879043877066, 46.79752416664712]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 135, "name": "Strada Mugurilor"}, "type": "Feature"}, {"geometry": {"coordinates": [[23.556407095398527, 46.704065694805365], [23.555083089973238, 46.70339061632376]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[23.70597436235994, 46.78396467806431], [23.70777672299934, 46.78485366271488]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 169, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[23.58703515632777, 46.77306032494977], [23.584447830456185, 46.77173028455419]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 246, "name": "Strada Gheorghe Bari\u021biu"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "46.680", "geonameid": "1", "group": "Eastern, Europe", "left": "23.454", "name": "Cluj, Romania", "right": "23.755", "slug": "cluj_romania", "top": "46.830"};
+var streetIndex = ["Aleea Tuf\u0103nelelor", "Strada Traian Vuia", "Strada Giuseppe Verdi", "Strada Valea Seac\u0103", "Strada Traian Darjan", "Strada Henri Barbuse", "Centura Apahida-V\u00e2lcele", "Strada Lombului", "Strada Donath", "Strada Rapsodiei", "Strada Gheorghe Bari\u021biu", "Calea Mo\u021bilor", "Strada Victor Papilian", "Drumul Sf\u00e2ntul Ioan", "Strada Mugurilor", "Strada Profesor T. Ciortea", "Strada F\u00e2nt\u00e2nele", "Strada Garoafelor", "Strada Romul Ladea", "Strada Louis Pasteur", "Strada Cire\u0219ilor", "Strada Viilor", "Strada Aviator B\u0103descu", "Strada C\u0103l\u0103ra\u0219ilor", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Cluj, Romania</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [7864, 7966, 7050, 7170, 5735, 6296, 5064, 5662, 4116, 3901, 3506, 5020, 3311, 3276, 4641, 4889, 2729, 3041, 5615, 4392, 4205, 2973, 2916, 3539, 3209, 2715, 2727, 2419, 3240, 3819, 3074, 3078, 3140, 4563, 4749, 3815, 3043, 3600, 4649, 3118, 6063, 4645, 4226, 5204, 4224, 4555, 4676, 4745, 4249, 4261, 4919, 5478, 5230, 4114, 5097, 4347, 5462, 4905, 4704, 3865, 4945, 4980, 6012, 7118, 8250, 8360, 7981, 7958, 6639, 7390, 11640, 11033, 9474, 7946, 11627, 14729, 13765, 11671, 8115, 7627, 5639, 8383, 7384, 7829, 12225, 13411, 9631, 9070, 10776, 7282, 9797, 8017, 9273, 7122, 8225, 8125, 6332, 4910, 5836, 5049, 4425, 2997, 3114, 3178, 2934, 4768, 4160, 3093, 3250, 3635, 3721, 4895, 3762, 3407, 4060, 2823, 3699, 4617, 4227, 4270, 3789, 4712, 3467, 4961, 2717, 2315, 4793, 3508, 3904, 4989, 6782, 4404, 4827, 4270, 5068, 4119, 4990, 3524, 3943, 4400, 4706, 4376, 4693, 5567, 4685, 4003, 6217, 5857, 4158, 5937, 6290, 5042, 7176, 5306, 7659, 7409, 5807, 8973, 7421, 9185, 9257, 9729, 10668, 9439, 7957, 8953, 8741, 8634, 7513, 7007, 7938, 8832, 6719, 8727, 7532, 6422, 5923, 7099, 8750, 8678, 2745], "ratio": 97, "solsticeLength": 10330.64999228153, "summer_sun_azimuth": 53.39075545891093, "sun_azimuth": 124.32968757493198, "totalLength": 1054714.284394981}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

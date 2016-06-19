@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Tirana, Albania</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [1682, 3018, 3251, 2573, 2389, 2273, 2338, 3118, 2346, 3253, 2606, 2333, 2350, 2147, 3195, 2779, 3039, 3245, 3056, 2821, 2632, 3724, 4244, 5224, 6323, 5438, 3749, 3536, 2697, 3087, 3003, 3555, 3343, 4457, 3079, 2923, 3551, 1890, 2644, 3050, 3519, 3115, 3337, 2372, 2995, 2370, 4022, 2954, 3292, 2494, 3271, 3303, 3907, 3056, 3507, 4620, 4797, 4403, 5222, 5462, 7579, 6504, 6762, 5487, 4573, 6553, 6121, 7230, 6977, 7123, 5680, 4977, 4043, 5501, 4629, 4836, 4790, 12570, 11517, 7824, 4052, 4010, 3870, 4317, 3283, 3304, 3853, 3567, 3742, 2581, 5484, 2683, 3566, 3552, 3463, 2444, 2890, 3124, 2529, 2552, 2765, 2915, 2946, 3071, 3389, 3224, 3684, 2391, 3632, 3263, 3298, 2969, 3330, 4761, 9220, 6861, 2941, 3138, 3369, 2978, 3394, 3326, 3209, 3344, 3659, 4209, 4560, 4163, 3373, 3863, 3098, 3771, 5092, 3792, 3646, 4111, 3934, 2997, 3869, 2763, 2713, 2849, 3219, 2719, 2889, 3511, 4122, 3384, 3930, 4661, 7635, 6965, 6467, 6653, 4539, 4680, 6856, 7387, 6415, 5864, 4847, 5888, 4527, 3981, 4362, 5086, 4733, 10490, 11562, 5905, 4263, 4113, 3231, 3124, 2873, 3297, 2518, 3482, 3280, 2023, 2744], "ratio": 133, "solsticeLength": 9899.002701949761, "summer_sun_azimuth": 57.11510393406256, "sun_azimuth": 121.05637405671673, "totalLength": 740318.6876171437};
+var winter = {"features": [{"geometry": {"coordinates": [[19.777600560843695, 41.35376429744298], [19.77586852437193, 41.35454482026648]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 168, "name": "Rruga Elez Isufi"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.803778669378115, 41.35805985518135], [19.80502103506649, 41.35748284496688]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.840200637057023, 41.3140997905214], [19.838567171766556, 41.3148612864247]], "type": "LineString"}, "properties": {"azimuth_d": 0.76, "length": 160, "name": "Rruga Tre V\u00ebllez\u00ebrit Kondi"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.77622198922876, 41.32395238242574], [19.774315944447093, 41.324848156417886]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 187, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.776635971426487, 41.33927642926466], [19.779518172651734, 41.337982431052716]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 280, "name": "Rruga Teodor Keko"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.779296722769885, 41.34773452393801], [19.781364873558914, 41.346834391356225]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 199, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.806015966973206, 41.31963142752076], [19.80743745393238, 41.318984763690935]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 138, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.84177433937785, 41.334039248523766], [19.843749786317773, 41.33314674347386]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 192, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.846415147707944, 41.3238600976718], [19.848133773134634, 41.323072366411566]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 168, "name": "Rruga Mihal Grameno"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.877300281607518, 41.318300884211], [19.875649884872644, 41.319021476426826]], "type": "LineString"}, "properties": {"azimuth_d": 0.88, "length": 159, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.817105560147894, 41.30571797116693], [19.814690147110355, 41.30681834741554]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 236, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[19.838889455943587, 41.32788709923247], [19.842509348467132, 41.32971502467657]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 364, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.842509348467132, 41.32971502467657], [19.844851671308987, 41.33089595101467]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 235, "name": "Rruga Dhimit\u00ebr Kamarda"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.855795167911335, 41.34727955423375], [19.857640276256944, 41.34818262048168]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 183, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.83510544575591, 41.30084297246216], [19.83673404954251, 41.30167512780923]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 164, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.809847586370893, 41.33260728418563], [19.816529220485677, 41.33568956143961]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 654, "name": "Haxhi Hysen Dalliu"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.829577580612977, 41.340202881022435], [19.832825065178525, 41.341821761801356]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 325, "name": "Rruga e Dibr\u00ebs"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.828757998120665, 41.3313265293807], [19.83477662369441, 41.33425659127306]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 599, "name": "Rruga Hoxha Tahsim"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.83620137959585, 41.33489805832295], [19.837454641758338, 41.335475236175455]], "type": "LineString"}, "properties": {"azimuth_d": 1.38, "length": 122, "name": "Rruga Hoxha Tahsim"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.834959768278765, 41.343017691746155], [19.829526031908443, 41.340275133027774]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 546, "name": "Rruga e Dibr\u00ebs"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.82763574510477, 41.333611436185805], [19.82627888261905, 41.33296787366015]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 134, "name": "Rruga Dervish Hekali"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.832861191181195, 41.33130171894731], [19.834081261007128, 41.331886943426895]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 120, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.825197533290634, 41.33471021987282], [19.826471163477834, 41.33534682541884]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.7856234671043, 41.36398426816342], [19.784327960149795, 41.36337448470755]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.835284399388655, 41.36321346834757], [19.832264148218144, 41.3618123494131]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 296, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[19.839211069568364, 41.30323617345627], [19.840647643953275, 41.303944360455404]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 143, "name": "Odhise Andruco"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.871810218847884, 41.31194798833869], [19.87334653788056, 41.31269573792079]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 152, "name": "Rruga e Daxhit"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.8245704831142, 41.33391528017583], [19.827435417618915, 41.33528689481116]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 283, "name": "Rruga 4 D\u00ebshmor\u00ebt"}, "type": "Feature"}, {"geometry": {"coordinates": [[19.83109537563962, 41.340725492685294], [19.834142197443214, 41.342197690158685]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 302, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "41.290", "geonameid": "1", "group": "Southern, Europe", "left": "19.755", "name": "Tirana, Albania", "right": "19.885", "slug": "tirana_albania", "top": "41.364"};
+var streetIndex = ["Odhise Andruco", "Rruga Teodor Keko", "Rruga 4 D\u00ebshmor\u00ebt", "Haxhi Hysen Dalliu", "Rruga e Dibr\u00ebs", "Rruga Elez Isufi", "Rruga e Daxhit", "Rruga Dervish Hekali", "Rruga Mihal Grameno", "Rruga Hoxha Tahsim", "Rruga Dhimit\u00ebr Kamarda", "Rruga Tre V\u00ebllez\u00ebrit Kondi", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Tirana, Albania</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [1682, 3018, 3251, 2573, 2389, 2273, 2338, 3118, 2346, 3253, 2606, 2333, 2350, 2147, 3195, 2779, 3039, 3245, 3056, 2821, 2632, 3724, 4244, 5224, 6323, 5438, 3749, 3536, 2697, 3087, 3003, 3555, 3343, 4457, 3079, 2923, 3551, 1890, 2644, 3050, 3519, 3115, 3337, 2372, 2995, 2370, 4022, 2954, 3292, 2494, 3271, 3303, 3907, 3056, 3507, 4620, 4797, 4403, 5222, 5462, 7579, 6504, 6762, 5487, 4573, 6553, 6121, 7230, 6977, 7123, 5680, 4977, 4043, 5501, 4629, 4836, 4790, 12570, 11517, 7824, 4052, 4010, 3870, 4317, 3283, 3304, 3853, 3567, 3742, 2581, 5484, 2683, 3566, 3552, 3463, 2444, 2890, 3124, 2529, 2552, 2765, 2915, 2946, 3071, 3389, 3224, 3684, 2391, 3632, 3263, 3298, 2969, 3330, 4761, 9220, 6861, 2941, 3138, 3369, 2978, 3394, 3326, 3209, 3344, 3659, 4209, 4560, 4163, 3373, 3863, 3098, 3771, 5092, 3792, 3646, 4111, 3934, 2997, 3869, 2763, 2713, 2849, 3219, 2719, 2889, 3511, 4122, 3384, 3930, 4661, 7635, 6965, 6467, 6653, 4539, 4680, 6856, 7387, 6415, 5864, 4847, 5888, 4527, 3981, 4362, 5086, 4733, 10490, 11562, 5905, 4263, 4113, 3231, 3124, 2873, 3297, 2518, 3482, 3280, 2023, 2744], "ratio": 133, "solsticeLength": 9899.002701949761, "summer_sun_azimuth": 57.11510393406256, "sun_azimuth": 121.05637405671673, "totalLength": 740318.6876171437}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Burgos, Spain</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [3030, 2441, 4192, 4442, 6559, 2161, 2687, 2953, 2533, 2319, 4177, 5073, 2534, 2579, 1633, 2727, 2342, 4916, 4036, 4421, 2568, 2017, 1780, 1658, 1809, 2442, 3274, 4153, 3033, 5712, 5858, 2270, 2378, 3464, 2577, 2200, 2684, 2697, 4194, 3271, 2337, 2716, 3577, 4997, 3226, 2483, 3052, 3499, 3530, 2571, 4216, 7129, 5665, 5394, 6792, 8820, 5519, 4597, 8569, 4894, 8120, 6439, 5952, 5071, 9208, 5868, 3681, 5550, 10228, 16378, 7072, 4301, 3806, 7800, 7070, 11509, 6115, 7159, 4881, 3376, 4446, 7183, 5829, 3445, 2968, 2950, 3911, 5667, 3856, 4278, 6111, 6407, 4123, 6356, 8336, 4228, 3652, 5622, 2775, 3976, 6600, 5082, 2813, 7400, 4518, 3857, 4780, 4983, 5092, 3199, 3371, 3717, 3086, 2565, 2966, 3282, 3811, 8048, 3886, 4946, 4399, 2493, 1788, 2465, 2290, 2407, 2460, 2433, 1888, 1703, 4283, 3797, 2587, 2506, 1918, 1806, 2426, 2714, 2205, 2100, 2766, 3700, 4572, 3818, 3839, 6478, 4798, 4216, 4369, 2680, 5208, 6091, 4806, 4751, 5047, 5095, 4932, 3825, 7031, 14965, 6725, 3206, 2798, 3590, 4328, 7573, 4062, 5608, 3650, 2673, 2578, 3790, 3290, 3260, 2661, 2198, 2793, 2198, 4155, 3348, 679], "ratio": 108, "solsticeLength": 8404.036490754193, "summer_sun_azimuth": 56.48580786997802, "sun_azimuth": 121.59916919005765, "totalLength": 773981.3162546287};
+var winter = {"features": [{"geometry": {"coordinates": [[-3.700296474058348, 42.361366037519105], [-3.702161279876378, 42.36217053258571]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 177, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.705516052802551, 42.35941313789871], [-3.704163045992289, 42.35882766196204]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.705812772174909, 42.35903226421851], [-3.704457502250761, 42.35844938667182]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.699724576804812, 42.362098951132594], [-3.698209128711056, 42.36144683906571]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.703702460412898, 42.36164213740966], [-3.699744777191455, 42.359938767046714]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 376, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.704650453661827, 42.36052424298339], [-3.703295351375772, 42.35994237126507]], "type": "LineString"}, "properties": {"azimuth_d": 1.44, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.704935522188748, 42.36015828909083], [-3.703580168445597, 42.359576585010586]], "type": "LineString"}, "properties": {"azimuth_d": 1.45, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.699718960929686, 42.35951866605967], [-3.702474679236047, 42.360709483043536]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 262, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.704259773154917, 42.36102589988832], [-3.702739128281166, 42.36036825576534]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.701732713167132, 42.35993457609513], [-3.699599602628496, 42.359015248955075]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 202, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.714125608466275, 42.33881402411657], [-3.71264234688067, 42.338153530146506]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 142, "name": "Paseo de los Comendadores"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.794779046829859, 42.36619937816508], [-3.791565676610247, 42.36473648460421]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 310, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-3.718655272760259, 42.349427022276814], [-3.720734822937601, 42.34835832962218]], "type": "LineString"}, "properties": {"azimuth_d": 1.29, "length": 208, "name": "Avenida Alcalde Valent\u00edn Ni\u00f1o"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.6819378429945, 42.358352659509194], [-3.684469010114839, 42.357151868060555]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 247, "name": "Calle Condesa Menc\u00eda"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.688267437175966, 42.35560515546797], [-3.689837870554555, 42.35480728210487]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 156, "name": "Calle Condesa Menc\u00eda"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.683313145667199, 42.35688968212929], [-3.681048271610678, 42.357979664817975]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 222, "name": "Calle R\u00edo Nela"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.679731055526957, 42.361119190470646], [-3.682777625873456, 42.3595758306393]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 303, "name": "Calle Victoria Balf\u00e9"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.722156477534866, 42.347527599198685], [-3.718214552291386, 42.34955493011923]], "type": "LineString"}, "properties": {"azimuth_d": 1.31, "length": 394, "name": "Avenida Alcalde Valent\u00edn Ni\u00f1o"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.679091264857731, 42.35743123689334], [-3.674458167878583, 42.35980708734786]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 463, "name": "Calle Francia"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.677210533423675, 42.3608113231671], [-3.674951778156469, 42.36195997917798]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 225, "name": "Calle Condesa Menc\u00eda"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.67499771098585, 42.362006079645454], [-3.67726057338561, 42.36086756573738]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 225, "name": "Calle Condesa Menc\u00eda"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.681602650686585, 42.35590246157352], [-3.67960013019939, 42.35693427385419]], "type": "LineString"}, "properties": {"azimuth_d": 1.36, "length": 200, "name": "Calle Pintor Fortunato Juli\u00e1n"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.675787621540934, 42.3585176991827], [-3.673591479090419, 42.35962293693515]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 218, "name": "Calle Pessac"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.666902720357967, 42.36029072316097], [-3.663895964051562, 42.36181069748247]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 299, "name": "Calle Jos\u00e9 Mar\u00eda Cod\u00f3n"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.670832156565723, 42.364016982035785], [-3.674237137091893, 42.36235317425584]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 335, "name": "Calle Conde Lucanor"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.669589623239261, 42.362857429550786], [-3.673502463278737, 42.36097728484992]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 383, "name": "Calle Lazarillo de Tormes"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.675476317657058, 42.363251546638], [-3.671569261130798, 42.36512724893015]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 382, "name": "Calle Fuenteovejuna"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.673679656711812, 42.36557073542706], [-3.675323683200276, 42.364807227867004]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 159, "name": "Calle Adolfo S\u00faarez"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.680912568598302, 42.35708087334069], [-3.682126268177825, 42.356469916418376]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 120, "name": "Calle Loud\u00fan"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.730040244202769, 42.37607108080866], [-3.732929653864744, 42.37465755665747]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 284, "name": "Calle Merindad de Montija"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.667037166084867, 42.36022106954562], [-3.669222160604135, 42.35916939215443]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 214, "name": "Calle Jos\u00e9 Mar\u00eda Cod\u00f3n"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.619499621331442, 42.36560208374493], [-3.616889245226105, 42.36691779108608]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 259, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.763015908572868, 42.363258252160534], [-3.765798868064536, 42.36197003746179]], "type": "LineString"}, "properties": {"azimuth_d": 1.45, "length": 269, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.731991467442554, 42.37341217348395], [-3.730524802025229, 42.37416327582732]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 146, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.730208468999479, 42.37383135246167], [-3.731724839102582, 42.37305828953197]], "type": "LineString"}, "properties": {"azimuth_d": 1.07, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.76224343237638, 42.35801897594388], [-3.757073139222854, 42.36049985164516]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 506, "name": "Calle Montes de Oca"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.68285356591619, 42.36106722267098], [-3.684261641830318, 42.36034512171258]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 140, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.681251868038771, 42.35875339829994], [-3.678818014814283, 42.35998805263739]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 242, "name": "Calle Condesa Menc\u00eda"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.679073159946881, 42.35993256443837], [-3.681466444760019, 42.35871182406018]], "type": "LineString"}, "properties": {"azimuth_d": 1.09, "length": 239, "name": "Calle Condesa Menc\u00eda"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.681757129162065, 42.3591621837177], [-3.678692537723776, 42.36074284301816]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 307, "name": "Calle Guiomar Fern\u00e1ndez"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.677698527826436, 42.361504422740495], [-3.675667341230394, 42.362528858946376]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 202, "name": "Calle Conde de Haro"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.698629648793258, 42.34191566356691], [-3.697065418023015, 42.34266726882447]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 153, "name": "Calle La Puebla"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.762755147565144, 42.36294854083826], [-3.764097760815474, 42.36232023337638]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 130, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "42.316", "geonameid": "1", "group": "Southern, Europe", "left": "-3.802", "name": "Burgos, Spain", "right": "-3.598", "slug": "burgos_spain", "top": "42.391"};
+var streetIndex = ["Calle Pessac", "Calle Montes de Oca", "Calle Guiomar Fern\u00e1ndez", "Calle Adolfo S\u00faarez", "Calle Conde Lucanor", "Paseo de los Comendadores", "Calle Fuenteovejuna", "Calle R\u00edo Nela", "Calle Victoria Balf\u00e9", "Calle Loud\u00fan", "Avenida Alcalde Valent\u00edn Ni\u00f1o", "Calle Francia", "Calle Pintor Fortunato Juli\u00e1n", "Calle La Puebla", "Calle Merindad de Montija", "Calle Jos\u00e9 Mar\u00eda Cod\u00f3n", "Calle Lazarillo de Tormes", "Calle Conde de Haro", "Calle Condesa Menc\u00eda", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Burgos, Spain</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [3030, 2441, 4192, 4442, 6559, 2161, 2687, 2953, 2533, 2319, 4177, 5073, 2534, 2579, 1633, 2727, 2342, 4916, 4036, 4421, 2568, 2017, 1780, 1658, 1809, 2442, 3274, 4153, 3033, 5712, 5858, 2270, 2378, 3464, 2577, 2200, 2684, 2697, 4194, 3271, 2337, 2716, 3577, 4997, 3226, 2483, 3052, 3499, 3530, 2571, 4216, 7129, 5665, 5394, 6792, 8820, 5519, 4597, 8569, 4894, 8120, 6439, 5952, 5071, 9208, 5868, 3681, 5550, 10228, 16378, 7072, 4301, 3806, 7800, 7070, 11509, 6115, 7159, 4881, 3376, 4446, 7183, 5829, 3445, 2968, 2950, 3911, 5667, 3856, 4278, 6111, 6407, 4123, 6356, 8336, 4228, 3652, 5622, 2775, 3976, 6600, 5082, 2813, 7400, 4518, 3857, 4780, 4983, 5092, 3199, 3371, 3717, 3086, 2565, 2966, 3282, 3811, 8048, 3886, 4946, 4399, 2493, 1788, 2465, 2290, 2407, 2460, 2433, 1888, 1703, 4283, 3797, 2587, 2506, 1918, 1806, 2426, 2714, 2205, 2100, 2766, 3700, 4572, 3818, 3839, 6478, 4798, 4216, 4369, 2680, 5208, 6091, 4806, 4751, 5047, 5095, 4932, 3825, 7031, 14965, 6725, 3206, 2798, 3590, 4328, 7573, 4062, 5608, 3650, 2673, 2578, 3790, 3290, 3260, 2661, 2198, 2793, 2198, 4155, 3348, 679], "ratio": 108, "solsticeLength": 8404.036490754193, "summer_sun_azimuth": 56.48580786997802, "sun_azimuth": 121.59916919005765, "totalLength": 773981.3162546287}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

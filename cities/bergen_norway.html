@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Bergen, Norway</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [23503, 25032, 25220, 20450, 22202, 24456, 24287, 21938, 19586, 22581, 21001, 19108, 20912, 21198, 19619, 20935, 19481, 20543, 21018, 19882, 18567, 20154, 18819, 17533, 19365, 18396, 20448, 18938, 19006, 17927, 19331, 20237, 18238, 18760, 17354, 16609, 18397, 17360, 16798, 16371, 13818, 16580, 13527, 14628, 14804, 14929, 14635, 13915, 14381, 13163, 13360, 13366, 13886, 13692, 13789, 13227, 13956, 13365, 13444, 14046, 12851, 13502, 12475, 12980, 12408, 12991, 12404, 12397, 12534, 12288, 12693, 13147, 11911, 12373, 13175, 13551, 12192, 11771, 12584, 14112, 13127, 12911, 12094, 12828, 12532, 12287, 13207, 12932, 14358, 13398, 22045, 14408, 13742, 13405, 12057, 12133, 12582, 12985, 13339, 13027, 13397, 12167, 12642, 12330, 13188, 13270, 12850, 15085, 14253, 13172, 14258, 14445, 16289, 16343, 16295, 17797, 18915, 18680, 17965, 18121, 16611, 18370, 19562, 17332, 19504, 19522, 20119, 19800, 20161, 19477, 20611, 19736, 20824, 20864, 20871, 21669, 21390, 21079, 21304, 19863, 21660, 23767, 20851, 21939, 21936, 21803, 22172, 22747, 22485, 22500, 21899, 21897, 21963, 23594, 23269, 23319, 23711, 21626, 22970, 23842, 25385, 24721, 24653, 24452, 25335, 24371, 24769, 23766, 25915, 24502, 28296, 26386, 25122, 23922, 25297, 24636, 25322, 27429, 26260, 24255, 8119], "ratio": 203, "solsticeLength": 66514.94323408228, "summer_sun_azimuth": 34.063440881512136, "sun_azimuth": 141.12662538561074, "totalLength": 3268884.5015025004};
+var winter = {"features": [{"geometry": {"coordinates": [[5.364406422616156, 60.49924048673949], [5.351565346954345, 60.507140262842455]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 1125, "name": "Steinest\u00f8vegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.316436287839963, 60.39963103907286], [5.315089399818987, 60.40049018414813]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 120, "name": "Skoltegrunnskaien"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.270977622711627, 60.327526639032044], [5.269607181542739, 60.32838377245056]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.185040567863552, 60.49610959444709], [5.183354128945041, 60.497132521910366]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 146, "name": "Askvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.306933221297953, 60.42193628924597], [5.309904270696819, 60.42007659638884]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 263, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.309461538571213, 60.42052536348475], [5.3064206679189, 60.42242151762068]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 268, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.276639179210179, 60.46890176910779], [5.275137142161469, 60.46982402991397]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 131, "name": "Morvikveien"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.270899335735976, 60.329388092088834], [5.272787694701947, 60.32823423929795]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 165, "name": "Bj\u00f8rgeveien"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.332289987140399, 60.4829070911204], [5.330904961460021, 60.48374687399936]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 120, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.435125461700466, 60.46260126013032], [5.433236599820304, 60.463764919747916]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 165, "name": "S\u00f8rfjordvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.105993772700258, 60.245755976794435], [5.108175833553418, 60.244449657184845]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 188, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.483086124926074, 60.509333555445856], [5.481500939397904, 60.510351537586295]], "type": "LineString"}, "properties": {"azimuth_d": 1.22, "length": 142, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.378356759343973, 60.46393959861004], [5.381177353580881, 60.46228258017167]], "type": "LineString"}, "properties": {"azimuth_d": 1.21, "length": 240, "name": "Arnavegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.317412863378706, 60.434388193143434], [5.319118496855481, 60.433377922353934]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 146, "name": "Eidsv\u00e5gbakken"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.140924683623638, 60.50549967293432], [5.142528644614913, 60.50449862223829]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 141, "name": "Skjelvikvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.128678387810993, 60.44776017855227], [5.130379830336182, 60.44673029410933]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 147, "name": "St. Hanshaugen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.506161672000815, 60.48446243707328], [5.504331483442883, 60.485578990395055]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 159, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.497220528247567, 60.489173653390026], [5.492980458708217, 60.491750920977836]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 368, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.525432757044143, 60.50697539080704], [5.52393306692835, 60.50792615008402]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 133, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[5.342901476558068, 60.35807892755662], [5.344178459506566, 60.35903153085227]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 127, "name": "Kanalveien"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.319316728865516, 60.38564591744687], [5.315312274624375, 60.38281384000262]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 384, "name": "Puddefjordsbroen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.091648061599756, 60.44901855367569], [5.09023034649698, 60.44796587045616]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 140, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.38932162979944, 60.333123654876175], [5.390874796457495, 60.334300474081715]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 156, "name": "Hardangervegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.382975942363856, 60.34267692901818], [5.384477644136439, 60.34380496554726]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 150, "name": "Nye S\u00e6dalsveien"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.276852750103017, 60.310933488233644], [5.275369572336472, 60.30984551720172]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 146, "name": "Dolvikvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.429350246594879, 60.26789593583697], [5.426241231069752, 60.26558789497911]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 308, "name": "Kismulvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.234174026981236, 60.3551432497891], [5.231984841510353, 60.35351347253606]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 217, "name": "Haakonsvernveien"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.376507962961, 60.328710750493364], [5.377849654201981, 60.32973049283345]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 135, "name": "Sanddalsringen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.446589055394753, 60.270179082442404], [5.448228555655476, 60.27132388277783]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 156, "name": "Hausdalsvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.449048221966819, 60.27189385219364], [5.451422647497822, 60.27360853812584]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 231, "name": "Hausdalsvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.473461269330954, 60.28785534276889], [5.475308054057194, 60.289279763394205]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 188, "name": "Hausdalsvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.365375035346887, 60.33114376552754], [5.366630979718423, 60.33204255700485]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 121, "name": "Rambj\u00f8llevegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.240143618421399, 60.319201146066895], [5.241698126183962, 60.3202861834327]], "type": "LineString"}, "properties": {"azimuth_d": 1.46, "length": 147, "name": "Stamsneset"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.230299743696349, 60.35259791725242], [5.228454635350772, 60.35124968812695]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 181, "name": "Mathopsveien"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.335375365698582, 60.47025988887901], [5.333901994758719, 60.46916873272385]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 145, "name": "Liamyrane"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.446714616304291, 60.300150840353155], [5.449266570544495, 60.30211807302799]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 260, "name": "Bontveitvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.497969367477111, 60.33630928099629], [5.499464782822286, 60.33744058646761]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 150, "name": "Bontveitvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.424992076039814, 60.30501276328897], [5.426416664303161, 60.30611682757498]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 145, "name": "Totlandsvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.468171282600082, 60.2507741384054], [5.474202816304711, 60.255219983667665]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 596, "name": "G\u00e5ssandvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.315526935164655, 60.38275466376621], [5.319272640054834, 60.38541851641378]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 360, "name": "Puddefjordsbroen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.477283584816149, 60.39049275295695], [5.478529051808692, 60.391393723729095]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.328966478713055, 60.34126667380923], [5.331070839323814, 60.34287097007663]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 212, "name": "Straumeveien"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.322409399679458, 60.3836233642111], [5.323829964629311, 60.38468526752416]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 141, "name": "Zetlitz\u2019 gate"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.336739939535221, 60.38511643262342], [5.338025974939143, 60.386023689822906]], "type": "LineString"}, "properties": {"azimuth_d": 1.3, "length": 123, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.156837894436592, 60.453116130861105], [5.158400365007168, 60.454251040550815]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 152, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.213223292360965, 60.403059824204036], [5.211838853413781, 60.40206363501187]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 134, "name": "Skarholmvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.456953362487808, 60.33336429931628], [5.458606357612666, 60.33452326506807]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 157, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.090878854345532, 60.34681985229974], [5.092115352701683, 60.34773406647889]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 122, "name": "Skj\u00e6rgardsvegen"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.358239772632372, 60.34088848233805], [5.356941248192726, 60.3399079673048]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 130, "name": "Birkelundsbakken"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "60.241", "geonameid": "1", "group": "Northern, Europe", "left": "5.075", "name": "Bergen, Norway", "right": "5.559", "slug": "bergen_norway", "top": "60.531"};
+var streetIndex = ["Totlandsvegen", "Skarholmvegen", "Rambj\u00f8llevegen", null, "Steinest\u00f8vegen", "Liamyrane", "Haakonsvernveien", "St. Hanshaugen", "Zetlitz\u2019 gate", "Askvegen", "Nye S\u00e6dalsveien", "Morvikveien", "Skoltegrunnskaien", "Kismulvegen", "Eidsv\u00e5gbakken", "G\u00e5ssandvegen", "Bj\u00f8rgeveien", "S\u00f8rfjordvegen", "Skj\u00e6rgardsvegen", "Skjelvikvegen", "Birkelundsbakken", "Dolvikvegen", "Hardangervegen", "Hausdalsvegen", "Arnavegen", "Straumeveien", "Kanalveien", "Sanddalsringen", "Stamsneset", "Bontveitvegen", "Puddefjordsbroen", "Mathopsveien"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Bergen, Norway</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [23503, 25032, 25220, 20450, 22202, 24456, 24287, 21938, 19586, 22581, 21001, 19108, 20912, 21198, 19619, 20935, 19481, 20543, 21018, 19882, 18567, 20154, 18819, 17533, 19365, 18396, 20448, 18938, 19006, 17927, 19331, 20237, 18238, 18760, 17354, 16609, 18397, 17360, 16798, 16371, 13818, 16580, 13527, 14628, 14804, 14929, 14635, 13915, 14381, 13163, 13360, 13366, 13886, 13692, 13789, 13227, 13956, 13365, 13444, 14046, 12851, 13502, 12475, 12980, 12408, 12991, 12404, 12397, 12534, 12288, 12693, 13147, 11911, 12373, 13175, 13551, 12192, 11771, 12584, 14112, 13127, 12911, 12094, 12828, 12532, 12287, 13207, 12932, 14358, 13398, 22045, 14408, 13742, 13405, 12057, 12133, 12582, 12985, 13339, 13027, 13397, 12167, 12642, 12330, 13188, 13270, 12850, 15085, 14253, 13172, 14258, 14445, 16289, 16343, 16295, 17797, 18915, 18680, 17965, 18121, 16611, 18370, 19562, 17332, 19504, 19522, 20119, 19800, 20161, 19477, 20611, 19736, 20824, 20864, 20871, 21669, 21390, 21079, 21304, 19863, 21660, 23767, 20851, 21939, 21936, 21803, 22172, 22747, 22485, 22500, 21899, 21897, 21963, 23594, 23269, 23319, 23711, 21626, 22970, 23842, 25385, 24721, 24653, 24452, 25335, 24371, 24769, 23766, 25915, 24502, 28296, 26386, 25122, 23922, 25297, 24636, 25322, 27429, 26260, 24255, 8119], "ratio": 203, "solsticeLength": 66514.94323408228, "summer_sun_azimuth": 34.063440881512136, "sun_azimuth": 141.12662538561074, "totalLength": 3268884.5015025004}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

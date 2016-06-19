@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Haldimand, Canada</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [14028, 8148, 1949, 2957, 2490, 2443, 1744, 1657, 2161, 1942, 1165, 1588, 2092, 2605, 2290, 5017, 30854, 82978, 19643, 4525, 3022, 2831, 7520, 5379, 5614, 49862, 26434, 6654, 22147, 22845, 6514, 3564, 7489, 18906, 8522, 2861, 1605, 1578, 1047, 1133, 5750, 1760, 3212, 2417, 5079, 1981, 661, 3105, 1666, 2418, 2292, 1730, 3936, 2026, 2363, 2209, 1945, 2062, 2638, 5735, 9146, 2468, 1743, 1248, 1646, 1247, 4420, 10261, 15276, 14032, 10480, 48736, 85164, 15956, 8222, 6854, 20100, 36351, 99800, 88519, 7688, 6478, 5292, 2741, 6559, 4220, 5237, 23892, 57130, 33996, 8922, 5545, 7028, 6382, 3444, 4190, 5196, 3071, 7160, 5812, 3705, 4894, 4092, 4109, 7550, 8088, 22887, 43732, 17035, 6267, 4788, 6828, 7482, 4515, 12715, 45359, 150304, 70828, 28688, 6523, 3681, 3908, 5098, 7593, 6484, 9123, 18849, 4363, 2510, 2448, 3332, 3102, 5048, 3739, 2564, 2822, 3872, 4013, 3861, 2406, 2434, 4122, 4407, 6485, 3253, 1384, 4343, 6241, 15868, 11160, 3302, 1715, 1999, 2364, 1923, 2258, 1484, 1425, 2892, 2146, 4109, 34858, 66740, 31708, 77685, 14568, 3765, 1727, 2683, 2639, 2494, 2705, 4184, 6925, 3826, 3372, 3567, 29847, 96592, 51651, 267], "ratio": 67, "solsticeLength": 14968.314176826405, "summer_sun_azimuth": 55.990701117422134, "sun_azimuth": 121.87844196484113, "totalLength": 2230855.81866771};
+var winter = {"features": [{"geometry": {"coordinates": [[-80.02958056024042, 43.08767513040564], [-80.02654362908258, 43.0862625282638]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 292, "name": "River Range Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.62331893351367, 42.904153528059595], [-79.62481250484015, 42.904799437518164]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 141, "name": "Lock Street West"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.61709235292217, 42.90734225548391], [-79.61854812186537, 42.90797609500188]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 137, "name": "Forest Street West"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.62104542609688, 42.907804768901], [-79.6224888736424, 42.90845243855923]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 137, "name": "North Cayuga Street North"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.55403018238691, 42.88769733755905], [-79.55601811836257, 42.888568971670054]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 188, "name": "North Shore Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.59086244422615, 42.911516443264304], [-79.59404077809052, 42.912897277993125]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 301, "name": "Logan Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.6570765456308, 42.91894859298924], [-79.66171115135253, 42.921064939721504]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 444, "name": "Haldimand Road 17"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.66423242782713, 42.92232809252976], [-79.66986154636038, 42.92494207285346]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 542, "name": "Haldimand Road 17"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.82504183860098, 42.9287473730752], [-79.83030450032751, 42.93104359544958]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 498, "name": "Haldimand Road 17"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.67090601531484, 42.90485492571716], [-79.6759503284637, 42.907263717051165]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 490, "name": "Old Hines Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.82618052014709, 42.890712559587655], [-79.82744325386018, 42.89129283874436]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 121, "name": "Mount Olivet Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.65987191033918, 42.89963844827713], [-79.66843251568835, 42.90367358028388]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 829, "name": "Haldimand Road 20"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.55195197331406, 42.966518743346], [-79.55693610439813, 42.968886966268656]], "type": "LineString"}, "properties": {"azimuth_d": 1.05, "length": 483, "name": "Young Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.56327760088212, 42.97196547166621], [-79.56456313337183, 42.97258489431073]], "type": "LineString"}, "properties": {"azimuth_d": 1.42, "length": 125, "name": "Young Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-80.04336166634315, 42.96779111624775], [-80.04510300672744, 42.968571052338035]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 166, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-80.04687938346702, 42.95835619457855], [-80.05038477919321, 42.96002419331006]], "type": "LineString"}, "properties": {"azimuth_d": 1.09, "length": 340, "name": "Elm Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-80.05031101844527, 42.96560679228074], [-80.05169872633466, 42.96626653187951]], "type": "LineString"}, "properties": {"azimuth_d": 1.06, "length": 134, "name": "Victoria Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-80.04656313426027, 42.96137015932169], [-80.05060421741827, 42.96328584329197]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 391, "name": "David Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-80.04843305303925, 42.965735286856386], [-80.05120880409419, 42.967027943963785]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 267, "name": "Oneida Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-80.04792276277405, 42.963047461965715], [-80.04985898240713, 42.963910043621325]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 184, "name": "Marathon Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-80.04968371681177, 42.96424825341435], [-80.05100906334157, 42.96487404630531]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 128, "name": "Railway Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.68128096742497, 43.04487604315426], [-79.68468393629438, 43.046500036894116]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 330, "name": "North Chippawa Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.71059407538435, 43.04982052783632], [-79.71194473526172, 43.05040307010688]], "type": "LineString"}, "properties": {"azimuth_d": 1.44, "length": 127, "name": "South Chippawa Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.65122765359632, 43.02574158313266], [-79.65298936200534, 43.02656376401495]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 169, "name": "South Chippawa Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.9621693554245, 43.0817167707157], [-79.9636811154809, 43.08239679452018]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 144, "name": "Morrison Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.9333545516088, 43.065116998213796], [-79.93524307821284, 43.0659899734293]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 181, "name": "Caithness Street East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.97477380995974, 43.08022747415984], [-79.97770018381472, 43.08155038993772]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 279, "name": "Highway 54 Haldimand"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.98405953375247, 43.08402933780127], [-79.98597320606602, 43.08494673710362]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 185, "name": "Highway 54 Haldimand"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.93986821238396, 43.08195355948035], [-79.9422076015597, 43.083073717020454]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 227, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.96796133433645, 43.07697856467075], [-79.9712542488172, 43.078475321120436]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 315, "name": "Highway 54 Haldimand"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.98853446421874, 43.08683341968896], [-79.99055844237806, 43.08776984591148]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 194, "name": "Highway 54"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.93974717770215, 43.07045316923114], [-79.94122180592747, 43.07112414058017]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 141, "name": "Haller Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.94119121198088, 43.07004337798497], [-79.9427511679805, 43.070760198344374]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 149, "name": "Caithness Street East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.6317870026518, 43.06271876807779], [-79.63347746488384, 43.06346836167859]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 160, "name": "Silver Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.95415223267712, 43.066983731869556], [-79.95605291304075, 43.06788369681331]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 184, "name": "Fife Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-80.00309927826821, 43.09024795558474], [-80.00093607669719, 43.089264255428304]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 206, "name": "Highway 54"}, "type": "Feature"}, {"geometry": {"coordinates": [[-80.04762847415363, 42.96661195010929], [-80.04940920948282, 42.96742926948775]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 171, "name": "MacNeil Court"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-80.12255933576357, 43.11449495744702], [-80.12081321769446, 43.11540003535168]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 173, "name": "Front Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.55775040629143, 42.87044612354248], [-79.55448045822538, 42.87207087165362]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 322, "name": "Feeder Canal Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.47070090525419, 42.860080391525855], [-79.46937170304894, 42.8607329226879]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 130, "name": "North Shore Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.94213073950759, 42.81031426635664], [-79.94080321368298, 42.810936790305334]], "type": "LineString"}, "properties": {"azimuth_d": 1.21, "length": 128, "name": "Fairwell Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.84250486331075, 42.822601549675795], [-79.84117147015391, 42.82325449993299]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 130, "name": "Turner Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.63366236966785, 42.83738244918908], [-79.63200518359142, 42.83818216657084]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 161, "name": "Sandy Bay Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.7069741828608, 42.92861812412826], [-79.7049306748671, 42.92964867912346]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 202, "name": "Old River Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.72049436031774, 42.9242945708333], [-79.71846451482621, 42.92527148164817]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 197, "name": "Haldimand Road 17"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.719023923044, 42.91606345809788], [-79.71655914059681, 42.91729869916855]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 243, "name": "River Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.72483040264844, 42.91308662518579], [-79.719023923044, 42.91606345809788]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 577, "name": "River Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.70842224045306, 42.927932149172534], [-79.7069741828608, 42.92861812412826]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 140, "name": "Old River Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.52179271222931, 42.997672181966145], [-79.51925551013868, 42.9989862967457]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 252, "name": "Canborough Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.52347646893881, 42.996800044940954], [-79.52179271222931, 42.997672181966145]], "type": "LineString"}, "properties": {"azimuth_d": 1.38, "length": 167, "name": "Canborough Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.50054031291384, 42.993690861777765], [-79.49765995570728, 42.995102961005415]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 282, "name": "Creek Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.81244191029344, 43.018721320129686], [-79.81107901283745, 43.01939153710745]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 133, "name": "Concession 2"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "42.801", "geonameid": "1", "group": "North, America", "left": "-80.132", "name": "Haldimand, Canada", "right": "-79.468", "slug": "haldimand_canada", "top": "43.127"};
+var streetIndex = ["Young Road", "MacNeil Court", "North Chippawa Road", "Old Hines Road", "Feeder Canal Road", "Railway Street", "Turner Lane", "Canborough Road", "Morrison Drive", "Haller Crescent", "North Shore Drive", "River Range Road", "Silver Street", "Old River Road", "Marathon Street", "Highway 54 Haldimand", "Haldimand Road 20", "Logan Road", "Front Street", "Fairwell Avenue", "River Road", "Oneida Street", "Elm Avenue", "Concession 2", "Creek Road", "Caithness Street East", "Sandy Bay Road", "Lock Street West", "David Street", "Haldimand Road 17", "Highway 54", "Forest Street West", "South Chippawa Road", "Mount Olivet Road", "North Cayuga Street North", "Victoria Street", "Fife Street", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Haldimand, Canada</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [14028, 8148, 1949, 2957, 2490, 2443, 1744, 1657, 2161, 1942, 1165, 1588, 2092, 2605, 2290, 5017, 30854, 82978, 19643, 4525, 3022, 2831, 7520, 5379, 5614, 49862, 26434, 6654, 22147, 22845, 6514, 3564, 7489, 18906, 8522, 2861, 1605, 1578, 1047, 1133, 5750, 1760, 3212, 2417, 5079, 1981, 661, 3105, 1666, 2418, 2292, 1730, 3936, 2026, 2363, 2209, 1945, 2062, 2638, 5735, 9146, 2468, 1743, 1248, 1646, 1247, 4420, 10261, 15276, 14032, 10480, 48736, 85164, 15956, 8222, 6854, 20100, 36351, 99800, 88519, 7688, 6478, 5292, 2741, 6559, 4220, 5237, 23892, 57130, 33996, 8922, 5545, 7028, 6382, 3444, 4190, 5196, 3071, 7160, 5812, 3705, 4894, 4092, 4109, 7550, 8088, 22887, 43732, 17035, 6267, 4788, 6828, 7482, 4515, 12715, 45359, 150304, 70828, 28688, 6523, 3681, 3908, 5098, 7593, 6484, 9123, 18849, 4363, 2510, 2448, 3332, 3102, 5048, 3739, 2564, 2822, 3872, 4013, 3861, 2406, 2434, 4122, 4407, 6485, 3253, 1384, 4343, 6241, 15868, 11160, 3302, 1715, 1999, 2364, 1923, 2258, 1484, 1425, 2892, 2146, 4109, 34858, 66740, 31708, 77685, 14568, 3765, 1727, 2683, 2639, 2494, 2705, 4184, 6925, 3826, 3372, 3567, 29847, 96592, 51651, 267], "ratio": 67, "solsticeLength": 14968.314176826405, "summer_sun_azimuth": 55.990701117422134, "sun_azimuth": 121.87844196484113, "totalLength": 2230855.81866771}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

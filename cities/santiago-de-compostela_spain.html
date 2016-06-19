@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Santiago De Compostela, Spain</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [5476, 6384, 5863, 5985, 6587, 6208, 4322, 6776, 5657, 5876, 6489, 6071, 6887, 4656, 4722, 3827, 6545, 5971, 7888, 6835, 5151, 6138, 7700, 10203, 6090, 5476, 6684, 6467, 8142, 6248, 5462, 4499, 5147, 4655, 5278, 5512, 6520, 6767, 5774, 5015, 4642, 5327, 5471, 5817, 6847, 6808, 9347, 8777, 4341, 4714, 5313, 9725, 5617, 4341, 4682, 4126, 4773, 4233, 3512, 4329, 4813, 4891, 3795, 3816, 3165, 5086, 5444, 5322, 5006, 4448, 4681, 4840, 3917, 3504, 4364, 7158, 3059, 4398, 4647, 4183, 5159, 5908, 5226, 3866, 5001, 5538, 3779, 6611, 4945, 5189, 5811, 4383, 5362, 6107, 4147, 4874, 4186, 4535, 3931, 3668, 3643, 5050, 3601, 4345, 3823, 4489, 4393, 4735, 4992, 3744, 4135, 4732, 5036, 7331, 5564, 4869, 4405, 4248, 5507, 6321, 5853, 4258, 4988, 4603, 3228, 4613, 4913, 3003, 4004, 4153, 3582, 5183, 4470, 4703, 7098, 6270, 7026, 4608, 4195, 4465, 4537, 4847, 3839, 5098, 4908, 4148, 3958, 4661, 3832, 4511, 4246, 5414, 4733, 4678, 7245, 6365, 4989, 4501, 4099, 4416, 4750, 5074, 4368, 5304, 3812, 5662, 4972, 5369, 5525, 5457, 6133, 5860, 5591, 5540, 6480, 5876, 5585, 5631, 5423, 5286, 1146], "ratio": 166, "solsticeLength": 15650.695566740993, "summer_sun_azimuth": 56.15319814796591, "sun_azimuth": 121.89181547523602, "totalLength": 937590.1367466018};
+var winter = {"features": [{"geometry": {"coordinates": [[-8.514112314781244, 42.88363907149951], [-8.516068734800967, 42.88449352270902]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 185, "name": "Avenida de Fernando de Casas Novoa"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.516313234916538, 42.88459695539419], [-8.517597677758857, 42.88516013546842]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 121, "name": "Avenida de Fernando de Casas Novoa"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.51760362891011, 42.885014374172215], [-8.514198816022002, 42.883532872786304]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 322, "name": "Avenida de Fernando de Casas Novoa"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.492093474239567, 42.91900785304466], [-8.487848375558315, 42.91708479299956]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 406, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.485906456231078, 42.88723038173325], [-8.484579181863552, 42.88659888914816]], "type": "LineString"}, "properties": {"azimuth_d": 1.09, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.515155023536039, 42.83869279211217], [-8.522146704249167, 42.841835083792915]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 668, "name": "R\u00faa das Baleixas"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.524085857548384, 42.84271233377904], [-8.526224081047928, 42.843671055864036]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 204, "name": "R\u00faa das Baleixas"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.480393007961595, 42.83641886560025], [-8.479094818798103, 42.83582081680882]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.546662765203337, 42.868099442110974], [-8.547942011265661, 42.86868483422862]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 122, "name": "R\u00faa de Amor Ruibal"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.521216815911117, 42.914529150721954], [-8.517084705284645, 42.91274145841311]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 390, "name": "V\u00eda Edison"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.589237804182886, 42.86667887716112], [-8.590545213439896, 42.86725613883269]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 124, "name": "Reib\u00f3"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.5003303704882, 42.83351495524579], [-8.499017680632193, 42.83290885982731]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 126, "name": "Pista da Veiga de Lama"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.511054177408397, 42.84083788877234], [-8.512730055128884, 42.84161673521524]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 161, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.553643130347211, 42.91408893316731], [-8.555091439396563, 42.914753785727015]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 139, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.568936331782425, 42.92128773070785], [-8.58642215526882, 42.92958229445031]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 1696, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.58061114943669, 42.84649827180445], [-8.582286524243017, 42.84723906440692]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 159, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.58237964718728, 42.847118029725095], [-8.580685832193977, 42.846364999543994]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 161, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.547933713181521, 42.86860964855714], [-8.545387542454506, 42.86747197283941]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 243, "name": "R\u00faa de Amor Ruibal"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.562505735667713, 42.874333063501126], [-8.560778057785598, 42.87354734389763]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 165, "name": "R\u00faa de Vicente Fraiz And\u00f3n"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.5182192796982, 42.901662929350636], [-8.519884512401688, 42.90243716574676]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 160, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-8.541815510598099, 42.875553887698345], [-8.543228448016038, 42.87489029242411]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 136, "name": "R\u00faa de P\u00e9rez Costanti"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.501416748958519, 42.83809382131142], [-8.500118559794998, 42.83873897639867]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.521484114803314, 42.88026795386216], [-8.523359649457433, 42.879339741904715]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 184, "name": "Avenida de Gonzalo Torrente Ballester"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.522924041949494, 42.8794112395388], [-8.521408929131837, 42.88016535936731]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 149, "name": "Avenida de Gonzalo Torrente Ballester"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.600676922719913, 42.8383565939759], [-8.602586655538943, 42.83744397235836]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 185, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.60045865796127, 42.86266369408392], [-8.60171032756216, 42.86201879045376]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 124, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.513517283474954, 42.91110614910397], [-8.51568014976985, 42.91007718667038]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 210, "name": "V\u00eda de Pasteur"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.515541261634269, 42.910039384287074], [-8.513770249312728, 42.91089224293498]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 172, "name": "V\u00eda de Pasteur"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.567406802091341, 42.889290150619104], [-8.565990679550168, 42.890013341224915]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 140, "name": "Estrada do Pedroso"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.605093431321052, 42.833126286395604], [-8.60275915510627, 42.83426957798849]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 228, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.522713739998864, 42.84538649616752], [-8.520916408501364, 42.84623206255966]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 174, "name": "O Eixo de Abaixo"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.508821406041022, 42.87893699145724], [-8.503383646357207, 42.88169421850617]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 538, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.536242466997038, 42.85203845834505], [-8.534809748287586, 42.85272359511046]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 139, "name": "R\u00faa do Mi\u00f1ato"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "42.829", "geonameid": "1", "group": "Southern, Europe", "left": "-8.614", "name": "Santiago De Compostela, Spain", "right": "-8.473", "slug": "santiago-de-compostela_spain", "top": "42.935"};
+var streetIndex = ["Reib\u00f3", "Pista da Veiga de Lama", "V\u00eda Edison", "V\u00eda de Pasteur", "R\u00faa de Vicente Fraiz And\u00f3n", "R\u00faa do Mi\u00f1ato", "R\u00faa das Baleixas", "Avenida de Gonzalo Torrente Ballester", "R\u00faa de Amor Ruibal", "Avenida de Fernando de Casas Novoa", "O Eixo de Abaixo", "Estrada do Pedroso", "R\u00faa de P\u00e9rez Costanti", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Santiago De Compostela, Spain</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [5476, 6384, 5863, 5985, 6587, 6208, 4322, 6776, 5657, 5876, 6489, 6071, 6887, 4656, 4722, 3827, 6545, 5971, 7888, 6835, 5151, 6138, 7700, 10203, 6090, 5476, 6684, 6467, 8142, 6248, 5462, 4499, 5147, 4655, 5278, 5512, 6520, 6767, 5774, 5015, 4642, 5327, 5471, 5817, 6847, 6808, 9347, 8777, 4341, 4714, 5313, 9725, 5617, 4341, 4682, 4126, 4773, 4233, 3512, 4329, 4813, 4891, 3795, 3816, 3165, 5086, 5444, 5322, 5006, 4448, 4681, 4840, 3917, 3504, 4364, 7158, 3059, 4398, 4647, 4183, 5159, 5908, 5226, 3866, 5001, 5538, 3779, 6611, 4945, 5189, 5811, 4383, 5362, 6107, 4147, 4874, 4186, 4535, 3931, 3668, 3643, 5050, 3601, 4345, 3823, 4489, 4393, 4735, 4992, 3744, 4135, 4732, 5036, 7331, 5564, 4869, 4405, 4248, 5507, 6321, 5853, 4258, 4988, 4603, 3228, 4613, 4913, 3003, 4004, 4153, 3582, 5183, 4470, 4703, 7098, 6270, 7026, 4608, 4195, 4465, 4537, 4847, 3839, 5098, 4908, 4148, 3958, 4661, 3832, 4511, 4246, 5414, 4733, 4678, 7245, 6365, 4989, 4501, 4099, 4416, 4750, 5074, 4368, 5304, 3812, 5662, 4972, 5369, 5525, 5457, 6133, 5860, 5591, 5540, 6480, 5876, 5585, 5631, 5423, 5286, 1146], "ratio": 166, "solsticeLength": 15650.695566740993, "summer_sun_azimuth": 56.15319814796591, "sun_azimuth": 121.89181547523602, "totalLength": 937590.1367466018}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

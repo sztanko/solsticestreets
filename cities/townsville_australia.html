@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Townsville, Australia</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [6261, 5175, 5019, 7394, 17704, 53581, 55120, 16806, 7451, 5844, 4283, 3494, 3858, 4031, 5367, 7255, 6610, 4948, 4081, 5366, 6433, 6210, 4589, 4839, 4974, 9129, 7167, 5046, 5243, 7439, 4889, 2633, 4034, 4685, 3428, 3829, 3366, 3286, 6801, 7111, 6807, 6377, 3764, 4233, 6142, 5902, 4790, 7888, 4657, 4066, 3883, 6104, 4005, 4198, 6807, 7888, 9520, 9192, 4857, 4512, 3600, 4306, 4116, 3740, 3119, 3379, 5742, 5999, 5940, 4836, 4800, 3788, 4315, 9810, 5494, 11856, 11110, 6588, 7732, 6130, 3485, 4162, 3444, 3044, 5451, 5779, 4905, 4744, 7865, 15114, 14336, 8102, 6869, 6702, 21352, 70204, 86664, 17985, 9643, 7857, 4422, 4681, 4038, 3508, 4069, 3666, 5370, 5505, 3245, 3936, 4339, 8275, 3858, 3763, 4334, 4859, 3900, 3727, 4139, 4925, 6153, 4652, 3245, 3346, 3045, 2958, 3624, 3936, 3875, 4345, 6597, 5759, 3597, 5290, 3815, 7372, 5981, 5398, 3288, 6005, 11725, 11150, 5357, 4798, 5288, 5556, 4053, 4011, 3338, 2855, 3302, 5651, 3258, 3068, 2836, 4777, 3885, 4700, 4292, 4458, 3587, 3579, 5435, 10015, 8108, 4797, 4931, 7536, 5812, 4093, 2572, 4007, 5097, 3099, 5163, 4479, 6374, 3994, 9481, 11217, 2425], "ratio": 101, "solsticeLength": 12888.883835896246, "summer_sun_azimuth": 65.41392379450603, "sun_azimuth": 115.26888156539813, "totalLength": 1269567.693672184};
+var winter = {"features": [{"geometry": {"coordinates": [[146.7772412325019, -19.310714555294823], [146.77844655017824, -19.31126155829594]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 140, "name": "Larkspur Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.8298003754466, -19.257722151775113], [146.8337914186427, -19.25951294538814]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 464, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[146.82798963290406, -19.260039245088393], [146.83582964603738, -19.263577414055987]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 912, "name": "Archer Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.8270117162608, -19.261929280434998], [146.83037411671887, -19.26347540629436]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 392, "name": "Cannan Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.82087398384294, -19.26376676124869], [146.8238078175917, -19.265095041444596]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 341, "name": "Morey Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.74657956014096, -19.29990977918996], [146.74819374705413, -19.300642022251196]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 188, "name": "Barcelona Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.7211191939753, -19.32948004393873], [146.7223066581979, -19.330025035283057]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 138, "name": "Teal Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.82741069485184, -19.2667458572746], [146.82958018285024, -19.267732910192336]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 252, "name": "Morey Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.79480006236497, -19.30448353229465], [146.79604242805334, -19.305009831994937]], "type": "LineString"}, "properties": {"azimuth_d": 1.09, "length": 142, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[146.73305167133307, -19.27536941071662], [146.7318132451392, -19.274805140994967]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 144, "name": "Perisher Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.73271983178648, -19.274374730267024], [146.73470734866697, -19.275248459853824]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 230, "name": "Timbury Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.74866019996574, -19.32592561407895], [146.75033389839143, -19.326687529077418]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 195, "name": "Girraween Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.77959545764628, -19.245910541461054], [146.77546426902916, -19.24416702178192]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 475, "name": "Old Common Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.72524996349728, -19.33024866445973], [146.72385085621954, -19.329585739737723]], "type": "LineString"}, "properties": {"azimuth_d": 1.38, "length": 164, "name": "Shoveler Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.83052943338464, -19.265863913422688], [146.82834997092147, -19.26486831096375]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 254, "name": "Allen Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.83148002502355, -19.263988630225697], [146.83037411671887, -19.26347540629436]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 129, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[146.82621049013642, -19.266205811253144], [146.82727222581144, -19.266679053506323]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 123, "name": "Morey Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.82275236834414, -19.254694105434652], [146.8209407876112, -19.253893466043504]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 210, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[146.7466304382932, -19.28569876527348], [146.7497891585042, -19.284411640222142]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 361, "name": "Dalrymple Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.77716738793495, -19.268582583717034], [146.78143302227903, -19.266824311888314]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 488, "name": "Dalrymple Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.7754040869644, -19.28223318358735], [146.77739596243453, -19.28134621059354]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 231, "name": "Tippett Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.79367034945523, -19.293193360177042], [146.78898218337224, -19.29514466723583]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 537, "name": "Ross River Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.79139977570458, -19.295336528999485], [146.79333674970894, -19.294547708091812]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 221, "name": "Camp Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.8010447478673, -19.302229722350347], [146.80268919345093, -19.301550955831345]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 188, "name": "Viles Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.80165168147607, -19.303005635127107], [146.80325153533482, -19.302326868608105]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 184, "name": "Tyack Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.82112074707237, -19.258559922997307], [146.82003294367854, -19.25901522797767]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 124, "name": "Tomlins Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.71243394972595, -19.262505117182997], [146.71098497012434, -19.26312663530331]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 167, "name": "Ingham Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.72534115860378, -19.289786451813143], [146.72401723699755, -19.29033387390939]], "type": "LineString"}, "properties": {"azimuth_d": 0.92, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[146.78999069396207, -19.297108882425505], [146.79184686641986, -19.296340178085472]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 212, "name": "Garden Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.79282302286344, -19.29595142541629], [146.79533591743484, -19.29491475163178]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 287, "name": "Garden Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.7908733921853, -19.294208324832308], [146.79350815962886, -19.29313066354129]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 301, "name": "Ross River Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[146.8371139212416, -19.259408003960402], [146.83908978727675, -19.258540644619984]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 228, "name": "Windlass Cross"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "-19.344", "geonameid": "1", "group": "Oceania", "left": "146.696", "name": "Townsville, Australia", "right": "146.851", "slug": "townsville_australia", "top": "-19.229"};
+var streetIndex = ["Teal Street", "Tippett Street", "Ross River Road", "Old Common Road", "Tomlins Street", "Girraween Avenue", "Morey Street", "Garden Street", "Viles Street", "Archer Street", "Allen Street", "Barcelona Street", "Camp Street", "Tyack Street", "Windlass Cross", "Timbury Way", "Shoveler Court", "Ingham Road", "Larkspur Crescent", "Dalrymple Road", "Cannan Street", "Perisher Court", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Townsville, Australia</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [6261, 5175, 5019, 7394, 17704, 53581, 55120, 16806, 7451, 5844, 4283, 3494, 3858, 4031, 5367, 7255, 6610, 4948, 4081, 5366, 6433, 6210, 4589, 4839, 4974, 9129, 7167, 5046, 5243, 7439, 4889, 2633, 4034, 4685, 3428, 3829, 3366, 3286, 6801, 7111, 6807, 6377, 3764, 4233, 6142, 5902, 4790, 7888, 4657, 4066, 3883, 6104, 4005, 4198, 6807, 7888, 9520, 9192, 4857, 4512, 3600, 4306, 4116, 3740, 3119, 3379, 5742, 5999, 5940, 4836, 4800, 3788, 4315, 9810, 5494, 11856, 11110, 6588, 7732, 6130, 3485, 4162, 3444, 3044, 5451, 5779, 4905, 4744, 7865, 15114, 14336, 8102, 6869, 6702, 21352, 70204, 86664, 17985, 9643, 7857, 4422, 4681, 4038, 3508, 4069, 3666, 5370, 5505, 3245, 3936, 4339, 8275, 3858, 3763, 4334, 4859, 3900, 3727, 4139, 4925, 6153, 4652, 3245, 3346, 3045, 2958, 3624, 3936, 3875, 4345, 6597, 5759, 3597, 5290, 3815, 7372, 5981, 5398, 3288, 6005, 11725, 11150, 5357, 4798, 5288, 5556, 4053, 4011, 3338, 2855, 3302, 5651, 3258, 3068, 2836, 4777, 3885, 4700, 4292, 4458, 3587, 3579, 5435, 10015, 8108, 4797, 4931, 7536, 5812, 4093, 2572, 4007, 5097, 3099, 5163, 4479, 6374, 3994, 9481, 11217, 2425], "ratio": 101, "solsticeLength": 12888.883835896246, "summer_sun_azimuth": 65.41392379450603, "sun_azimuth": 115.26888156539813, "totalLength": 1269567.693672184}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

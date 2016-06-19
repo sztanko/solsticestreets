@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Papeete, French Polynesia</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [5291, 5702, 5173, 6317, 8675, 6474, 5756, 5475, 4076, 5603, 3922, 4926, 5825, 4895, 5972, 4314, 4921, 5637, 3752, 4012, 3278, 3071, 3945, 3221, 3313, 4500, 4808, 3882, 4369, 3810, 2718, 2937, 3152, 2823, 3354, 3158, 3578, 2680, 3001, 2956, 2840, 2995, 3633, 3047, 3813, 3135, 3076, 2943, 2567, 3102, 4635, 3684, 3657, 3904, 3740, 3983, 3764, 5207, 4465, 4432, 3312, 4412, 4864, 5021, 4813, 5885, 5445, 7259, 7180, 11606, 7860, 5897, 4803, 6562, 5804, 5631, 5622, 6294, 5670, 5668, 4455, 5812, 6373, 6982, 5898, 5073, 7136, 6736, 7997, 8389, 10592, 7913, 7300, 5732, 5625, 5565, 5083, 5305, 5749, 5028, 5149, 4875, 5355, 5136, 6030, 5214, 4959, 5415, 4970, 5260, 4994, 3923, 6435, 8090, 4833, 5357, 6319, 5403, 5118, 4546, 5966, 5267, 4852, 4005, 6384, 5146, 3998, 4044, 7700, 4791, 4157, 5146, 4582, 5334, 5105, 7239, 5294, 5606, 4860, 4587, 5986, 5044, 4767, 5603, 5794, 5123, 5170, 6414, 5100, 6050, 6227, 6479, 7110, 9604, 7463, 6720, 5843, 5172, 6812, 7268, 7682, 8534, 6059, 6007, 7989, 6428, 7770, 7405, 6096, 6743, 5535, 6511, 6928, 6580, 6871, 7028, 5918, 6611, 6967, 5725, 2889], "ratio": 170, "solsticeLength": 16489.130886084495, "summer_sun_azimuth": 65.62538645120964, "sun_azimuth": 114.99944426301947, "totalLength": 969807.5096283042};
+var winter = {"features": [{"geometry": {"coordinates": [[-149.3287151048334, -17.748277847608847], [-149.32735262647253, -17.748921661591595]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 161, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.58842971576925, -17.550984610710657], [-149.58717913581575, -17.551518370304763]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 145, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.59102466917273, -17.552563174535322], [-149.58998782775018, -17.553033818398518]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 121, "name": "Aro\u0101 TEGANAHAU"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.5914495478446, -17.55188197726443], [-149.58925591996507, -17.552823432628884]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 255, "name": "Aro\u0101 MARITERANGI"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.3249498701088, -17.74782614684682], [-149.32625401042358, -17.74724536477592]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 152, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.34285520784906, -17.544107175337757], [-149.34478648215926, -17.543247862624412]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 226, "name": "Route de Ceinture Est"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.47342531036284, -17.768687530379253], [-149.4760539590171, -17.76757902368456]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 304, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.4825500177956, -17.763867600778354], [-149.48024943683157, -17.764944759155185]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 271, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.24527434838848, -17.736451820421337], [-149.2441303024243, -17.73694040155732]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 132, "name": "Route de Tautira"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.22402681057685, -17.738124932113806], [-149.2229834312698, -17.738608400288854]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 122, "name": "Route de Tautira"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.472514448945, -17.773593542125752], [-149.4677040747137, -17.775590111461664]], "type": "LineString"}, "properties": {"azimuth_d": 1.45, "length": 555, "name": "Route de Ceinture Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.50051620815285, -17.762736379126068], [-149.49829265687902, -17.763758216941937]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 261, "name": "Route de Ceinture Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.51442740139285, -17.75946165337521], [-149.51198340606553, -17.76057217172666]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 286, "name": "Route de Ceinture Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.47249693076736, -17.766478144521756], [-149.47000272784, -17.767522781114252]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 288, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.47169805157588, -17.76245533391264], [-149.4705851024725, -17.76292170300522]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.47181891861965, -17.76297316789072], [-149.47404892395897, -17.762006734454815]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 259, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.47274486746323, -17.766938311005987], [-149.47032375473157, -17.767971464391138]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 281, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.4689211270545, -17.765223457435695], [-149.47202670599933, -17.763863326007733]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 362, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.4735038487956, -17.76325823641764], [-149.4747671692419, -17.762730344155784]], "type": "LineString"}, "properties": {"azimuth_d": 1.3, "length": 146, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.47229006539703, -17.761263930195582], [-149.4736389650747, -17.760682226115332]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 156, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.30613802954036, -17.71987593634344], [-149.3080947010172, -17.718959459050467]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 231, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.3000144625389, -17.73894468224418], [-149.29560717403123, -17.740948376197792]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 517, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-149.54634024044054, -17.53328270176047], [-149.54313097735346, -17.531861214801268]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 375, "name": "Avenue Ari\u0027ipaea P\u014dmare"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.57432205071888, -17.54514443585549], [-149.57187780393446, -17.544105750414218]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 283, "name": "Avenue des Poilus Tahitiens"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.57652003718806, -17.54601866835648], [-149.57537372811007, -17.545529081392118]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 133, "name": "Avenue des Poilus Tahitiens"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.5705811235135, -17.54354206742582], [-149.57187780393446, -17.544105750414218]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 151, "name": "Avenue des Poilus Tahitiens"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.5613297655238, -17.534006646737566], [-149.56245805351, -17.534461364984708]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 129, "name": "Avenue du Prince H\u012bnoi"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.33629561424448, -17.734567317130825], [-149.33515844144094, -17.734072617205527]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 132, "name": "Route de Ceinture Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.59189806348343, -17.663616602242826], [-149.59415036468516, -17.66453743812548]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 259, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.56638145474741, -17.540943006889762], [-149.5674428551463, -17.541395378204044]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 123, "name": "Rue Anne-Marie Javouhey"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.58355932711123, -17.710464064907963], [-149.58204438193167, -17.70979493757764]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 176, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.59123363001885, -17.672181482362618], [-149.59277296653667, -17.672829319658888]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 178, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.39397593239013, -17.762331868478892], [-149.39137963788212, -17.76120073064564]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 302, "name": "Route de Ceinture Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.59589220798367, -17.656055455028053], [-149.59702351345499, -17.65654621545886]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.58517552568117, -17.68207430740219], [-149.58631831435983, -17.68256925878458]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.59970102860473, -17.65442475576566], [-149.5984783603888, -17.65390155736958]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 142, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.5836922640956, -17.681156908099837], [-149.5848380702594, -17.681651608025163]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.4399679380174, -17.772698354866804], [-149.4386336228512, -17.77208655975417]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 156, "name": "Rt 1 - Route de Ceinture Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.55760685941024, -17.529101137905258], [-149.55651603853124, -17.528654717742228]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.30604867845256, -17.738651064175997], [-149.30715374856692, -17.73912665336206]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.60763894236715, -17.599642983556464], [-149.60645323834422, -17.599124562845162]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 138, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.60798653989175, -17.599090616137318], [-149.606550468421, -17.598487202927856]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 166, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.59721336356188, -17.655827048166568], [-149.59878220437886, -17.65646172587489]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 180, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.60154856770225, -17.65017202955252], [-149.6003921165214, -17.64964673568062]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 135, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.60143381944778, -17.650371770305128], [-149.6001158489928, -17.649797107023545]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 153, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.39852018119564, -17.76174345887614], [-149.39968006895677, -17.76223916462982]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-149.49148277964565, -17.49715384923553], [-149.4926364647985, -17.49767394632744]], "type": "LineString"}, "properties": {"azimuth_d": 0.95, "length": 135, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "-17.888", "geonameid": "1", "group": "Polynesia", "left": "-149.635", "name": "Papeete, French Polynesia", "right": "-149.114", "slug": "papeete_french-polynesia", "top": "-17.485"};
+var streetIndex = ["Avenue Ari\u0027ipaea P\u014dmare", "Rue Anne-Marie Javouhey", "Route de Ceinture Est", "Aro\u0101 TEGANAHAU", "Rt 1 - Route de Ceinture Ouest", "Avenue des Poilus Tahitiens", "Route de Tautira", "Route de Ceinture Ouest", "Aro\u0101 MARITERANGI", "Avenue du Prince H\u012bnoi", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Papeete, French Polynesia</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [5291, 5702, 5173, 6317, 8675, 6474, 5756, 5475, 4076, 5603, 3922, 4926, 5825, 4895, 5972, 4314, 4921, 5637, 3752, 4012, 3278, 3071, 3945, 3221, 3313, 4500, 4808, 3882, 4369, 3810, 2718, 2937, 3152, 2823, 3354, 3158, 3578, 2680, 3001, 2956, 2840, 2995, 3633, 3047, 3813, 3135, 3076, 2943, 2567, 3102, 4635, 3684, 3657, 3904, 3740, 3983, 3764, 5207, 4465, 4432, 3312, 4412, 4864, 5021, 4813, 5885, 5445, 7259, 7180, 11606, 7860, 5897, 4803, 6562, 5804, 5631, 5622, 6294, 5670, 5668, 4455, 5812, 6373, 6982, 5898, 5073, 7136, 6736, 7997, 8389, 10592, 7913, 7300, 5732, 5625, 5565, 5083, 5305, 5749, 5028, 5149, 4875, 5355, 5136, 6030, 5214, 4959, 5415, 4970, 5260, 4994, 3923, 6435, 8090, 4833, 5357, 6319, 5403, 5118, 4546, 5966, 5267, 4852, 4005, 6384, 5146, 3998, 4044, 7700, 4791, 4157, 5146, 4582, 5334, 5105, 7239, 5294, 5606, 4860, 4587, 5986, 5044, 4767, 5603, 5794, 5123, 5170, 6414, 5100, 6050, 6227, 6479, 7110, 9604, 7463, 6720, 5843, 5172, 6812, 7268, 7682, 8534, 6059, 6007, 7989, 6428, 7770, 7405, 6096, 6743, 5535, 6511, 6928, 6580, 6871, 7028, 5918, 6611, 6967, 5725, 2889], "ratio": 170, "solsticeLength": 16489.130886084495, "summer_sun_azimuth": 65.62538645120964, "sun_azimuth": 114.99944426301947, "totalLength": 969807.5096283042}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

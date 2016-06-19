@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Asti, Italy</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [4821, 4876, 6090, 5205, 4494, 4551, 7198, 4302, 5163, 4624, 5487, 6100, 5108, 4886, 5225, 4122, 4678, 4330, 4889, 5244, 4747, 2985, 4419, 4275, 4929, 4623, 4139, 4280, 5755, 5370, 5298, 7438, 4877, 3902, 3745, 3950, 5452, 4192, 4221, 3685, 3692, 6061, 4892, 4896, 3489, 5583, 4404, 5327, 4969, 5814, 4866, 4644, 4372, 4943, 5048, 5628, 5170, 5351, 5855, 5905, 8279, 4963, 5228, 4661, 4162, 5954, 5860, 3600, 4501, 6304, 5070, 4886, 7956, 6847, 6088, 7783, 7273, 6776, 5721, 6525, 8042, 4854, 5559, 4624, 4795, 5563, 5388, 9251, 5764, 4374, 6388, 4909, 4315, 3767, 4206, 4618, 5120, 4678, 4593, 5027, 4666, 5297, 4619, 4377, 5320, 3867, 4771, 4443, 4852, 5639, 4513, 4536, 4604, 5086, 5215, 5760, 4972, 4162, 5404, 5227, 5464, 5282, 4047, 3938, 4506, 3485, 4717, 4018, 4728, 3786, 4111, 4215, 5553, 6820, 7628, 6850, 4124, 5553, 5029, 5713, 6704, 5299, 4990, 6118, 5619, 5986, 5445, 5765, 7643, 6235, 5705, 5550, 5272, 4878, 5096, 5458, 6178, 7605, 5529, 5665, 4994, 5755, 6224, 6547, 8316, 8308, 8546, 6359, 6875, 6153, 7356, 3847, 4890, 6237, 6222, 8169, 8650, 4143, 6728, 4640, 2117], "ratio": 129, "solsticeLength": 12478.882021223742, "summer_sun_azimuth": 54.78746767247601, "sun_azimuth": 123.08287752308118, "totalLength": 963661.8712248348};
+var winter = {"features": [{"geometry": {"coordinates": [[8.27305305528742, 44.9527245265553], [8.270652645856586, 44.95384879122798]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 226, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.193476942938702, 44.906288447697904], [8.194842522603722, 44.90566868977726]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 127, "name": "Corso 25 Aprile"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.121002733329874, 44.96536007795132], [8.119607984641815, 44.965971118692664]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 129, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.15657888315954, 44.915916823692356], [8.154204792904693, 44.91704519549759]], "type": "LineString"}, "properties": {"azimuth_d": 0.76, "length": 225, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.218529445695964, 44.89547436768055], [8.220173639822463, 44.89471153067271]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 154, "name": "Via Giuseppe Cecchin"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.20648322591208, 44.88649491862978], [8.204899884402607, 44.88724979282961]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 150, "name": "Strada del Borbore"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.228286986818318, 44.9874901463481], [8.22545457409791, 44.98878003742746]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 265, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.159934578095061, 44.97569789823037], [8.16124299318045, 44.97509062934546]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 123, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.131110973281011, 44.89900029906951], [8.129418080297057, 44.89981325985832]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 161, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.267405328929101, 44.92495553279855], [8.26885405707361, 44.92427475462281]], "type": "LineString"}, "properties": {"azimuth_d": 0.45, "length": 136, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.186407561983117, 44.87792366826357], [8.18484802507868, 44.8786703281983]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 148, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.160451992977954, 44.911264951250104], [8.163048036028869, 44.910090059882265]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 242, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[8.123747890438239, 44.87603899733503], [8.126196831088436, 44.87722009131118]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 233, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.221971558053184, 44.87098437444527], [8.223711138237832, 44.87184234605411]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.098932344083693, 44.88685626247559], [8.100696567063665, 44.887744492754905]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 170, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.161383976791825, 44.850221226818036], [8.164044476678129, 44.85153701797821]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 255, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.285552149299747, 44.98250391978823], [8.283794380385245, 44.98165324043515]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.154177551719357, 44.93505078079977], [8.157021699104206, 44.93644075180301]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 272, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.187329655151245, 44.90483376840214], [8.189386238913897, 44.90585342692321]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 197, "name": "Via monsignor Lorenzo Perosi"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.240282076992827, 44.974301221704565], [8.23781318741308, 44.97310202281753]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 235, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.229782569801557, 44.98105586219597], [8.228502066453727, 44.98039528440688]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 124, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.126196831088436, 44.87722009131118], [8.12832784615128, 44.87833345950975]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 208, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.232058675608329, 44.947688762947706], [8.233412352970845, 44.948395189747174]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.20951462501381, 44.896516489702094], [8.21091448666283, 44.89724194342176]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 136, "name": "Corso Luigi Einaudi"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.158378058675737, 44.94605596820949], [8.156755992773611, 44.94523496079364]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 156, "name": "Strada Valmanera"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.21460202114497, 44.9063351348986], [8.212588352726584, 44.90535688297922]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 192, "name": "Corso Alessandro Volta"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.191197819646789, 44.90617344798639], [8.1878231816101, 44.90448985891495]], "type": "LineString"}, "properties": {"azimuth_d": 0.07, "length": 325, "name": "Via Giacomo Puccini"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.211162171901606, 44.903672120441335], [8.20975568854908, 44.902955970634196]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 136, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "44.841", "geonameid": "1", "group": "Southern, Europe", "left": "8.087", "name": "Asti, Italy", "right": "8.318", "slug": "asti_italy", "top": "44.996"};
+var streetIndex = ["Via Giacomo Puccini", "Corso Luigi Einaudi", "Via monsignor Lorenzo Perosi", "Strada Valmanera", "Corso Alessandro Volta", "Strada del Borbore", "Via Giuseppe Cecchin", "Corso 25 Aprile", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Asti, Italy</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [4821, 4876, 6090, 5205, 4494, 4551, 7198, 4302, 5163, 4624, 5487, 6100, 5108, 4886, 5225, 4122, 4678, 4330, 4889, 5244, 4747, 2985, 4419, 4275, 4929, 4623, 4139, 4280, 5755, 5370, 5298, 7438, 4877, 3902, 3745, 3950, 5452, 4192, 4221, 3685, 3692, 6061, 4892, 4896, 3489, 5583, 4404, 5327, 4969, 5814, 4866, 4644, 4372, 4943, 5048, 5628, 5170, 5351, 5855, 5905, 8279, 4963, 5228, 4661, 4162, 5954, 5860, 3600, 4501, 6304, 5070, 4886, 7956, 6847, 6088, 7783, 7273, 6776, 5721, 6525, 8042, 4854, 5559, 4624, 4795, 5563, 5388, 9251, 5764, 4374, 6388, 4909, 4315, 3767, 4206, 4618, 5120, 4678, 4593, 5027, 4666, 5297, 4619, 4377, 5320, 3867, 4771, 4443, 4852, 5639, 4513, 4536, 4604, 5086, 5215, 5760, 4972, 4162, 5404, 5227, 5464, 5282, 4047, 3938, 4506, 3485, 4717, 4018, 4728, 3786, 4111, 4215, 5553, 6820, 7628, 6850, 4124, 5553, 5029, 5713, 6704, 5299, 4990, 6118, 5619, 5986, 5445, 5765, 7643, 6235, 5705, 5550, 5272, 4878, 5096, 5458, 6178, 7605, 5529, 5665, 4994, 5755, 6224, 6547, 8316, 8308, 8546, 6359, 6875, 6153, 7356, 3847, 4890, 6237, 6222, 8169, 8650, 4143, 6728, 4640, 2117], "ratio": 129, "solsticeLength": 12478.882021223742, "summer_sun_azimuth": 54.78746767247601, "sun_azimuth": 123.08287752308118, "totalLength": 963661.8712248348}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

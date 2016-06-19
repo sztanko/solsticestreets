@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Brampton</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [8905, 5196, 4744, 5348, 4981, 5179, 5342, 4900, 6124, 4827, 4788, 4120, 4977, 5137, 5480, 6748, 5074, 6619, 8040, 8557, 8404, 9135, 9253, 8836, 9421, 7696, 9486, 9896, 9653, 9407, 10723, 12023, 13683, 12377, 18212, 25323, 49518, 118196, 256431, 239043, 93151, 46621, 36154, 42107, 62612, 91624, 51712, 26993, 17438, 16165, 12794, 10769, 11193, 10952, 11400, 9571, 11666, 11081, 10137, 10003, 7844, 8957, 8265, 9501, 8014, 9398, 9635, 9620, 8523, 9328, 6960, 9609, 17526, 14573, 16450, 12467, 9134, 9839, 7950, 7634, 6994, 8763, 8607, 9046, 8229, 6941, 5869, 6097, 8906, 6387, 11364, 7036, 6027, 6572, 6321, 5924, 4939, 7064, 5495, 5532, 6113, 5340, 5525, 5621, 7149, 7385, 6088, 6004, 7673, 8704, 8118, 7816, 7678, 7866, 9254, 9492, 7689, 8871, 8794, 9706, 11286, 11246, 9984, 11047, 12820, 15623, 25099, 37733, 73024, 72461, 44256, 33935, 41348, 55693, 122027, 444292, 177163, 50100, 27113, 18342, 15098, 14703, 11875, 11650, 9385, 10650, 9100, 9195, 7886, 8457, 7735, 7594, 7990, 6863, 9084, 7808, 12099, 22074, 11377, 8120, 7184, 8436, 9185, 8182, 12941, 9361, 7636, 7168, 7956, 10520, 15203, 7835, 6255, 6286, 6540, 5538, 5544, 6951, 8681, 6236, 1866], "ratio": 86, "solsticeLength": 32241.259539290106, "summer_sun_azimuth": 55.51240346041365, "sun_azimuth": 122.33652909209555, "totalLength": 3719109.02471888};
+var winter = {"features": [{"geometry": {"coordinates": [[-79.73320283427137, 43.63993324952284], [-79.73189550883339, 43.639341822434915]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 124, "name": "Mavis Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.65245753024898, 43.64697186889375], [-79.65383082126493, 43.647630183569014]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 132, "name": "Shawson Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.731569620438, 43.638884589616794], [-79.73286445684025, 43.639483644236606]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 123, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.73001913598895, 43.72292942982344], [-79.73130810505897, 43.7235206892733]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 122, "name": "Horton Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.73195108085143, 43.72291031908421], [-79.73048433161509, 43.72227522228076]], "type": "LineString"}, "properties": {"azimuth_d": 1.45, "length": 137, "name": "Horton Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.65090645906672, 43.842460817314816], [-79.64839901273236, 43.841354322276885]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 235, "name": "Kleins Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.78104330100548, 43.69250018763748], [-79.7790772417971, 43.691641042562196]], "type": "LineString"}, "properties": {"azimuth_d": 1.21, "length": 184, "name": "Martindale Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.71339941455749, 43.801332075727856], [-79.7167833565067, 43.802954728363204]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 326, "name": "Fenton Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.81712420904425, 43.66120995635751], [-79.81844880120276, 43.661798449779326]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 125, "name": "Royalwest Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.83485285626558, 43.74100366291262], [-79.83612631881473, 43.74159676638117]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 121, "name": "Hutchinson Farm Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.71791726036801, 43.70220668296949], [-79.72093742771949, 43.70353622045087]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 284, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.7207768304547, 43.70368072446158], [-79.71780167392325, 43.70232998076517]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 282, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.71424732788252, 43.701171853203704], [-79.71593150368717, 43.70190786812137]], "type": "LineString"}, "properties": {"azimuth_d": 1.21, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.71370912587975, 43.70180636327393], [-79.71512927173444, 43.70242478009007]], "type": "LineString"}, "properties": {"azimuth_d": 1.3, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.71489843412104, 43.7026937553629], [-79.71347853972344, 43.70207818839384]], "type": "LineString"}, "properties": {"azimuth_d": 1.41, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.7147749686873, 43.70283784027845], [-79.71337141900088, 43.7022043360366]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.7206680333515, 43.703778792728706], [-79.71771140082608, 43.70246249865434]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 279, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.71465343109128, 43.702979578261136], [-79.71325197688067, 43.70234523582894]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.67481273656499, 43.71253654044054], [-79.67259186750015, 43.711489221639]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 213, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.77846905090283, 43.75007925239276], [-79.78023847066275, 43.75092096310945]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 170, "name": "Naperton Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.66899133717293, 43.70294127296361], [-79.6702582618376, 43.703511996750706]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 120, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.81838660748122, 43.662559778044596], [-79.8166882662602, 43.661766682366306]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 162, "name": "Lilestone Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.71368683001731, 43.84583168349508], [-79.71592387615529, 43.84681814967956]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 210, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-79.6403550678948, 43.61507034541537], [-79.63864893150384, 43.61588556931803]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 164, "name": "Mallorytown Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.67790406627442, 43.65184049735211], [-79.6795605817986, 43.65101404169919]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 161, "name": "Courtneypark Drive East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.6694939160872, 43.65506208183683], [-79.66781267394866, 43.65590597184834]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 164, "name": "Courtneypark Drive East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.72543792299045, 43.648770457676726], [-79.72859010531691, 43.647223074531865]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 306, "name": "Timberlane Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.69706794677614, 43.622504758254166], [-79.694983618914, 43.62358602376352]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 206, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.72704632639041, 43.76469678861318], [-79.72895631066656, 43.763771845598]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 184, "name": "Snow Leopard Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.68004195449785, 43.64962256195335], [-79.68159554025107, 43.648883445731514]], "type": "LineString"}, "properties": {"azimuth_d": 1.03, "length": 149, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.81998805390155, 43.6705312194197], [-79.8186546607447, 43.67115676085353]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 127, "name": "Fallgate Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.70080225227801, 43.72118197064984], [-79.70273361040725, 43.72027647364999]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 185, "name": "Epsom Downs Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.73394094466482, 43.676777581302645], [-79.73254904582383, 43.67748249935954]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 136, "name": "Watson Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.87435207205658, 43.631747566702614], [-79.87301683488104, 43.63243664296252]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 132, "name": "Serenity Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.8348436361721, 43.692567661958], [-79.8334232388603, 43.69330493416115]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 140, "name": "Ranchero Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.66101914142652, 43.779116847194835], [-79.6597504565622, 43.779718416385606]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 121, "name": "Brunetta Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.71432301646817, 43.777392522073995], [-79.7118229462086, 43.7786608716622]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 245, "name": "Leone Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.67413640079792, 43.76107957829865], [-79.6718128534192, 43.76226922181607]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 228, "name": "Queen Street East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.72822968348044, 43.6399870613412], [-79.72977078019794, 43.63922087157212]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 150, "name": "Magistrate Terrace"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.71515676437684, 43.62186052517623], [-79.71386645420232, 43.622504255339976]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 126, "name": "Sombrero Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.78864954285932, 43.73108938020093], [-79.78736191489381, 43.731719447862474]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 124, "name": "Sandalwood Parkway East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.71146411693375, 43.65179372633238], [-79.71290027222351, 43.65111579800373]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 138, "name": "Hurontario/407 GO Park and Ride"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.74731628283493, 43.73056584652869], [-79.74565691746366, 43.73137612510848]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 160, "name": "North Park Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.73594564444683, 43.729517773355894], [-79.73774926237171, 43.728614790927]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 176, "name": "Williams Parkway East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.82008243413128, 43.75543847364386], [-79.82189988219639, 43.75457773600695]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 174, "name": "Kearny Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.65341147464916, 43.62707859517786], [-79.65133452286179, 43.62815801666855]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 205, "name": "Matheson Boulevard East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.65190826413402, 43.627981242330634], [-79.65347140525685, 43.627164761142495]], "type": "LineString"}, "properties": {"azimuth_d": 1.47, "length": 155, "name": "Matheson Boulevard East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.64700015691173, 43.63047033229705], [-79.64876974430973, 43.62958285638902]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 173, "name": "Matheson Boulevard East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.63919702415235, 43.63451367856891], [-79.64089620356368, 43.633674985337365]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 165, "name": "Matheson Boulevard East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.69932611531013, 43.69410104732458], [-79.69779390341, 43.69483211691937]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 147, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.7115215329705, 43.65153933557107], [-79.71002972184367, 43.65224634910376]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 143, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.65327116159003, 43.831640031774896], [-79.65547166263018, 43.83059212624016]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 211, "name": "Danby Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.65547166263018, 43.83059212624016], [-79.6573266616215, 43.82972065976719]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 177, "name": "Secord Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-79.65219827798381, 43.829782518212625], [-79.65618932117988, 43.82786306238589]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 384, "name": "Richler Avenue"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "43.602", "geonameid": "1", "group": "North, America", "left": "-79.889", "name": "Brampton", "right": "-79.630", "slug": "brampton_ontario_canada", "top": "43.848"};
+var streetIndex = ["Horton Crescent", "Matheson Boulevard East", "Mavis Road", "Kleins Crescent", "Royalwest Drive", "Ranchero Drive", "Mallorytown Avenue", "Serenity Street", "Hurontario/407 GO Park and Ride", "Sombrero Way", "Courtneypark Drive East", "Timberlane Drive", "Fenton Way", "North Park Drive", "Snow Leopard Court", "Sandalwood Parkway East", "Watson Crescent", "Lilestone Drive", "Williams Parkway East", "Epsom Downs Drive", "Fallgate Drive", "Brunetta Way", "Secord Avenue", "Richler Avenue", "Shawson Drive", "Hutchinson Farm Lane", "Kearny Avenue", "Leone Lane", "Danby Street", "Naperton Drive", "Martindale Crescent", "Queen Street East", null, "Magistrate Terrace"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Brampton</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [8905, 5196, 4744, 5348, 4981, 5179, 5342, 4900, 6124, 4827, 4788, 4120, 4977, 5137, 5480, 6748, 5074, 6619, 8040, 8557, 8404, 9135, 9253, 8836, 9421, 7696, 9486, 9896, 9653, 9407, 10723, 12023, 13683, 12377, 18212, 25323, 49518, 118196, 256431, 239043, 93151, 46621, 36154, 42107, 62612, 91624, 51712, 26993, 17438, 16165, 12794, 10769, 11193, 10952, 11400, 9571, 11666, 11081, 10137, 10003, 7844, 8957, 8265, 9501, 8014, 9398, 9635, 9620, 8523, 9328, 6960, 9609, 17526, 14573, 16450, 12467, 9134, 9839, 7950, 7634, 6994, 8763, 8607, 9046, 8229, 6941, 5869, 6097, 8906, 6387, 11364, 7036, 6027, 6572, 6321, 5924, 4939, 7064, 5495, 5532, 6113, 5340, 5525, 5621, 7149, 7385, 6088, 6004, 7673, 8704, 8118, 7816, 7678, 7866, 9254, 9492, 7689, 8871, 8794, 9706, 11286, 11246, 9984, 11047, 12820, 15623, 25099, 37733, 73024, 72461, 44256, 33935, 41348, 55693, 122027, 444292, 177163, 50100, 27113, 18342, 15098, 14703, 11875, 11650, 9385, 10650, 9100, 9195, 7886, 8457, 7735, 7594, 7990, 6863, 9084, 7808, 12099, 22074, 11377, 8120, 7184, 8436, 9185, 8182, 12941, 9361, 7636, 7168, 7956, 10520, 15203, 7835, 6255, 6286, 6540, 5538, 5544, 6951, 8681, 6236, 1866], "ratio": 86, "solsticeLength": 32241.259539290106, "summer_sun_azimuth": 55.51240346041365, "sun_azimuth": 122.33652909209555, "totalLength": 3719109.02471888}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

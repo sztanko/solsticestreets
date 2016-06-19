@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Mandalay, Myanmar</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [114635, 270580, 161313, 112795, 36129, 20298, 11850, 11370, 8039, 7355, 9008, 6449, 6764, 4929, 5770, 5226, 5659, 3201, 2693, 2739, 3815, 1388, 3221, 2997, 2462, 2239, 2457, 1853, 2281, 1925, 2011, 1761, 1200, 1198, 1531, 1857, 4026, 3561, 1709, 526, 1357, 700, 1431, 1800, 2018, 1403, 1536, 2053, 689, 839, 950, 1588, 1014, 1653, 1159, 1157, 672, 873, 789, 824, 1945, 1997, 1139, 2805, 2197, 778, 727, 575, 870, 919, 867, 2462, 2441, 1294, 1143, 946, 1088, 1066, 1522, 1804, 2174, 1850, 2335, 4095, 3882, 5146, 5883, 7650, 13761, 22026, 74267, 179973, 107315, 114248, 50794, 25099, 13437, 11270, 7371, 6019, 4960, 3891, 5273, 5119, 3662, 3098, 1849, 2548, 2652, 1450, 1084, 1616, 1270, 1332, 893, 5045, 1606, 1869, 749, 1886, 527, 704, 1852, 1207, 805, 1628, 2617, 1649, 1531, 1769, 1843, 1305, 2320, 1561, 972, 1129, 706, 833, 1157, 751, 992, 754, 436, 1752, 774, 556, 512, 693, 919, 811, 766, 964, 1189, 1049, 960, 960, 1128, 1108, 1146, 1258, 1025, 1064, 1155, 748, 1453, 1429, 1358, 1294, 1621, 2069, 1836, 2558, 2692, 3541, 3620, 4982, 6991, 8073, 12369, 22069, 2683], "ratio": 40, "solsticeLength": 7014.182715013942, "summer_sun_azimuth": 64.22405019957645, "sun_azimuth": 114.98746411121526, "totalLength": 1744666.3933875572};
+var winter = {"features": [{"geometry": {"coordinates": [[96.09438748085114, 21.890903237348795], [96.09669292331904, 21.88990553941406]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 262, "name": "Thakhin Pho Hla Gyi Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[96.12335726605652, 21.918724282724266], [96.12484337748919, 21.91807736743732]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 169, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.14469549606054, 21.940543969246505], [96.14356259802759, 21.9410454585134]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 129, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.1436741611588, 21.940838425505007], [96.1450044530115, 21.940289159390034]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 150, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.05145771972929, 21.908474388609505], [96.04978469185585, 21.909188862036014]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 190, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.06412151813902, 21.973501947800912], [96.06305458568403, 21.973941578622345]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 120, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.11381413401739, 21.92189599488512], [96.11023355261972, 21.923490819601938]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 409, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.10096476027138, 21.92756341871589], [96.10369885326759, 21.92637712795974]], "type": "LineString"}, "properties": {"azimuth_d": 0.07, "length": 311, "name": "Myawaddy Min Gyi St"}, "type": "Feature"}, {"geometry": {"coordinates": [[96.10417963923362, 21.926154169335316], [96.11023355261972, 21.923490819601938]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 691, "name": "Myawaddy Min Gyi St"}, "type": "Feature"}, {"geometry": {"coordinates": [[96.10327866846148, 21.874385356040875], [96.10180689008325, 21.8750441736303]], "type": "LineString"}, "properties": {"azimuth_d": 0.76, "length": 168, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.08323569395492, 21.90021687287907], [96.08160935328213, 21.900935872533292]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 185, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.09576337025709, 21.88801919210485], [96.09345172518084, 21.889051591118744]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 264, "name": "Yaw Min Gyi Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[96.11723755473054, 21.920407033605386], [96.11381413401739, 21.92189599488512]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 390, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.1384220606303, 21.93050203014948], [96.14877555506831, 21.925972030579373]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 1181, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[96.14220045494284, 22.02240389875291], [96.14089505734262, 22.021817668444953]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 149, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.06596444718974, 21.87406675990124], [96.0760925522514, 21.878586868825636]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 1160, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.112062148616, 21.877112743514516], [96.10735202194672, 21.8749371367268]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 543, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.1065463534137, 21.87460487808499], [96.10506904297931, 21.873952263103888]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 168, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.14779554294927, 21.919243373987793], [96.1428912914024, 21.917000879612743]], "type": "LineString"}, "properties": {"azimuth_d": 0.45, "length": 564, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.07595307738262, 21.87870882551681], [96.06655998141025, 21.874460038798162]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 1078, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.13988218816313, 22.006773577172055], [96.1410542296839, 22.00728084995211]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[96.06640625730603, 21.896821531541548], [96.06511343256055, 21.89623924072808]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 148, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "21.871", "geonameid": "1", "group": "Asia", "left": "96.048", "name": "Mandalay, Myanmar", "right": "96.150", "slug": "mandalay_myanmar", "top": "22.034"};
+var streetIndex = ["Myawaddy Min Gyi St", "Yaw Min Gyi Road", "Thakhin Pho Hla Gyi Road", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Mandalay, Myanmar</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [114635, 270580, 161313, 112795, 36129, 20298, 11850, 11370, 8039, 7355, 9008, 6449, 6764, 4929, 5770, 5226, 5659, 3201, 2693, 2739, 3815, 1388, 3221, 2997, 2462, 2239, 2457, 1853, 2281, 1925, 2011, 1761, 1200, 1198, 1531, 1857, 4026, 3561, 1709, 526, 1357, 700, 1431, 1800, 2018, 1403, 1536, 2053, 689, 839, 950, 1588, 1014, 1653, 1159, 1157, 672, 873, 789, 824, 1945, 1997, 1139, 2805, 2197, 778, 727, 575, 870, 919, 867, 2462, 2441, 1294, 1143, 946, 1088, 1066, 1522, 1804, 2174, 1850, 2335, 4095, 3882, 5146, 5883, 7650, 13761, 22026, 74267, 179973, 107315, 114248, 50794, 25099, 13437, 11270, 7371, 6019, 4960, 3891, 5273, 5119, 3662, 3098, 1849, 2548, 2652, 1450, 1084, 1616, 1270, 1332, 893, 5045, 1606, 1869, 749, 1886, 527, 704, 1852, 1207, 805, 1628, 2617, 1649, 1531, 1769, 1843, 1305, 2320, 1561, 972, 1129, 706, 833, 1157, 751, 992, 754, 436, 1752, 774, 556, 512, 693, 919, 811, 766, 964, 1189, 1049, 960, 960, 1128, 1108, 1146, 1258, 1025, 1064, 1155, 748, 1453, 1429, 1358, 1294, 1621, 2069, 1836, 2558, 2692, 3541, 3620, 4982, 6991, 8073, 12369, 22069, 2683], "ratio": 40, "solsticeLength": 7014.182715013942, "summer_sun_azimuth": 64.22405019957645, "sun_azimuth": 114.98746411121526, "totalLength": 1744666.3933875572}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

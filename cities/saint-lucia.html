@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Saint Lucia</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [6133, 6632, 7331, 6795, 8395, 6561, 7276, 6960, 6619, 6196, 6873, 8099, 5759, 5932, 6818, 7642, 6862, 5394, 4923, 5804, 4700, 6091, 4892, 6048, 5351, 4990, 4902, 5138, 6077, 7358, 5993, 4718, 4708, 4803, 4594, 4320, 5025, 3852, 5013, 4644, 4928, 5217, 5508, 4715, 5124, 4808, 4326, 6123, 5165, 4146, 4892, 4969, 4147, 5188, 5156, 5795, 5013, 4409, 4454, 5441, 5118, 5576, 5308, 4964, 6819, 5443, 5594, 6184, 4408, 6092, 6440, 5589, 6078, 5978, 7691, 8817, 5116, 5899, 5641, 5943, 6309, 6229, 6160, 6142, 6224, 7405, 7911, 8001, 8373, 7444, 16548, 7667, 8816, 7270, 8788, 8943, 7060, 7204, 7431, 8565, 7450, 7543, 6951, 6818, 6697, 6835, 6980, 7384, 8593, 9042, 7650, 7501, 8154, 9087, 7347, 7033, 8269, 7488, 7953, 7197, 9244, 7199, 6289, 6882, 8470, 6907, 6615, 7461, 6609, 5882, 8017, 6646, 5530, 7381, 6533, 6923, 7236, 5666, 5886, 5510, 6067, 4532, 6063, 8241, 7286, 5636, 6974, 6940, 6062, 6316, 7051, 6385, 6552, 6882, 7042, 5509, 7624, 6816, 5357, 4722, 5434, 5402, 5134, 6216, 5449, 6842, 7008, 6797, 5789, 5318, 5975, 5957, 5206, 7149, 6757, 7133, 6012, 6639, 6831, 7364, 7604], "ratio": 211, "solsticeLength": 24607.013069640703, "summer_sun_azimuth": 65.5610050880931, "sun_azimuth": 113.96630984916334, "totalLength": 1161955.3495169648};
+var winter = {"features": [{"geometry": {"coordinates": [[-60.99653041911509, 13.99638744916868], [-60.99501983252515, 13.995737851672743]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 178, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.05707114553772, 13.912577888984117], [-61.05816121204543, 13.913027745727447]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.05300106099472, 13.859335453292744], [-61.05137857599743, 13.858632463073574]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 191, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.06930067754401, 13.860622494525018], [-61.070829117587685, 13.86127443895387]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 180, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.07420870094726, 13.862638928971478], [-61.07551233834783, 13.863185093782278]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 153, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.93896887253743, 13.751892027463041], [-60.93732367258252, 13.751227761636557]], "type": "LineString"}, "properties": {"azimuth_d": 1.36, "length": 192, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.94559040840644, 13.802254441224022], [-60.94441451121022, 13.801729231171151]], "type": "LineString"}, "properties": {"azimuth_d": 0.76, "length": 139, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.902241971221066, 13.827647081612042], [-60.90106707985323, 13.82713762953716]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 138, "name": "Castries Vieux Fort Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.06146736993319, 13.82192249320164], [-61.06268500900721, 13.822427754324934]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 143, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.94039932813302, 13.743939864465233], [-60.93932870764067, 13.74348254782808]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 126, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.908521944535764, 13.939621093745075], [-60.91483904968151, 13.94226164470183]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 742, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.95308911044256, 14.013236080375833], [-60.9519632532083, 14.012764430684257]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.052571907552235, 13.857393785422602], [-61.05416430151715, 13.858117898037762]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 189, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.95720730710976, 13.744417046212902], [-60.955748017767256, 13.74378865493199]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 172, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.01010248055267, 13.98775467563317], [-61.01147577156862, 13.988312742746473]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 160, "name": "Millenium Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.0298379230318, 13.763893320245927], [-61.02849153792504, 13.763296780197066]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 159, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.99818215695446, 13.948361323279272], [-61.000974252720596, 13.949587847170646]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 330, "name": "Millet Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.0083358268208, 13.951151826483793], [-61.010541776097995, 13.952143070353088]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 262, "name": "Millet Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-60.97187513474923, 13.748433989489769], [-60.970713570607444, 13.748911674151627]], "type": "LineString"}, "properties": {"azimuth_d": 1.46, "length": 136, "name": "Spartan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.059329649347816, 13.852892787237435], [-61.05761026954984, 13.85367968030738]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 205, "name": "High Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.91428534115786, 13.784108542862697], [-60.91134564007686, 13.785447551894663]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 350, "name": "Bean Field Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.948931015916244, 14.069380833860066], [-60.9506590290745, 14.068661834205841]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 202, "name": "Gros Islet Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.914568230389975, 13.856487534051467], [-60.913506075619836, 13.856945856517001]], "type": "LineString"}, "properties": {"azimuth_d": 0.45, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.987172610955085, 13.984523619597866], [-60.98528441962719, 13.985304477697497]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 221, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.922752655924725, 13.93426455470302], [-60.92377407464546, 13.93382307986286]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 120, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.0456772054588, 13.776857945160515], [-61.04711160054888, 13.776187644363716]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 171, "name": "Laborie Vieux-Fort Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.93796715128915, 14.01920734819663], [-60.93918822694347, 14.018635534762124]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 146, "name": "La Guerre to Desrameau Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-60.99334445771883, 13.752941860835534], [-60.994385406273956, 13.752471049334275]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 124, "name": "Martin Luther King Street"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "13.706", "geonameid": "1", "group": "North, America", "left": "-61.086", "name": "Saint Lucia", "right": "-60.870", "slug": "saint-lucia", "top": "14.115"};
+var streetIndex = ["Castries Vieux Fort Highway", "High Street", "Spartan Drive", "Martin Luther King Street", "Bean Field Road", "Laborie Vieux-Fort Highway", "Gros Islet Highway", "Millet Road", "La Guerre to Desrameau Road", "Millenium Highway", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Saint Lucia</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [6133, 6632, 7331, 6795, 8395, 6561, 7276, 6960, 6619, 6196, 6873, 8099, 5759, 5932, 6818, 7642, 6862, 5394, 4923, 5804, 4700, 6091, 4892, 6048, 5351, 4990, 4902, 5138, 6077, 7358, 5993, 4718, 4708, 4803, 4594, 4320, 5025, 3852, 5013, 4644, 4928, 5217, 5508, 4715, 5124, 4808, 4326, 6123, 5165, 4146, 4892, 4969, 4147, 5188, 5156, 5795, 5013, 4409, 4454, 5441, 5118, 5576, 5308, 4964, 6819, 5443, 5594, 6184, 4408, 6092, 6440, 5589, 6078, 5978, 7691, 8817, 5116, 5899, 5641, 5943, 6309, 6229, 6160, 6142, 6224, 7405, 7911, 8001, 8373, 7444, 16548, 7667, 8816, 7270, 8788, 8943, 7060, 7204, 7431, 8565, 7450, 7543, 6951, 6818, 6697, 6835, 6980, 7384, 8593, 9042, 7650, 7501, 8154, 9087, 7347, 7033, 8269, 7488, 7953, 7197, 9244, 7199, 6289, 6882, 8470, 6907, 6615, 7461, 6609, 5882, 8017, 6646, 5530, 7381, 6533, 6923, 7236, 5666, 5886, 5510, 6067, 4532, 6063, 8241, 7286, 5636, 6974, 6940, 6062, 6316, 7051, 6385, 6552, 6882, 7042, 5509, 7624, 6816, 5357, 4722, 5434, 5402, 5134, 6216, 5449, 6842, 7008, 6797, 5789, 5318, 5975, 5957, 5206, 7149, 6757, 7133, 6012, 6639, 6831, 7364, 7604], "ratio": 211, "solsticeLength": 24607.013069640703, "summer_sun_azimuth": 65.5610050880931, "sun_azimuth": 113.96630984916334, "totalLength": 1161955.3495169648}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

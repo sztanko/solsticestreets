@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Tamale, Ghana</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [5077, 6980, 6617, 6298, 4496, 3996, 3829, 2658, 2122, 1928, 2001, 2597, 1813, 1410, 2862, 2887, 3119, 3616, 4092, 5389, 5248, 3084, 3152, 2721, 2366, 1663, 2505, 2485, 2431, 1804, 2054, 1836, 1575, 2525, 3640, 3401, 2819, 4430, 4122, 3542, 2084, 2171, 1965, 2790, 2958, 2694, 1909, 2494, 2587, 3683, 10991, 5423, 3188, 2686, 2698, 2822, 4437, 2369, 3000, 2415, 2837, 3812, 2501, 3063, 2056, 2205, 3538, 3587, 5188, 2663, 2545, 2232, 2174, 1912, 3070, 2330, 3573, 3491, 3550, 2499, 3330, 4502, 4869, 3626, 4622, 3726, 4630, 5117, 6838, 10908, 14108, 9236, 8822, 6310, 4297, 4084, 5194, 3907, 2793, 2566, 2852, 2955, 2576, 3860, 3446, 2850, 2198, 3616, 5493, 4752, 4378, 2691, 4231, 3240, 2394, 3645, 3316, 3995, 2985, 2306, 3650, 2219, 2220, 2403, 4098, 4681, 5651, 2971, 2739, 2700, 3749, 2923, 2952, 2995, 1865, 2374, 2192, 1687, 3084, 3961, 5661, 5156, 3391, 3199, 2695, 2102, 2506, 1714, 2473, 1827, 1806, 1803, 2655, 2153, 1890, 2750, 2496, 1860, 2766, 2301, 2672, 2445, 2485, 1727, 2373, 4101, 3134, 3561, 2310, 2541, 1679, 2082, 2411, 7471, 4538, 3641, 3274, 8261, 5360, 5844, 1807], "ratio": 164, "solsticeLength": 10254.458710315013, "summer_sun_azimuth": 66.06205410522689, "sun_azimuth": 113.61486929560951, "totalLength": 624767.8414849273};
+var winter = {"features": [{"geometry": {"coordinates": [[-0.835776035367928, 9.400756236089762], [-0.832033934696113, 9.399237770510837]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 444, "name": "Hospital/Salaga Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.814181905860067, 9.389632780026261], [-0.81295772890158, 9.389084771196764]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 147, "name": "Hospital/Salaga Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.830962643651503, 9.398890675900418], [-0.834156651674817, 9.40023789919752]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 381, "name": "Hospital/Salaga Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.859467233230788, 9.457236098062879], [-0.858380351846279, 9.456734944072139]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.858972365667398, 9.45509359979269], [-0.85794818091864, 9.45466779911149]], "type": "LineString"}, "properties": {"azimuth_d": 0.76, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.899712103128081, 9.424548938800028], [-0.906927329198879, 9.42762099013217]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 862, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.803042859456667, 9.394484896135339], [-0.801739222056085, 9.393939653333888]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 155, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.807876032464577, 9.36766163251363], [-0.806009214989757, 9.366888821041044]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 222, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.863587106278629, 9.455489896174754], [-0.857128346969233, 9.452780529792932]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 770, "name": "Jisonayili Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.850487281265828, 9.45046284974643], [-0.849478770676001, 9.450028834800092]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 120, "name": "Jisonayili Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.903158071160789, 9.458672756266822], [-0.90525421750641, 9.459630891618588]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 253, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.85585211839205, 9.358000986191968], [-0.85412167448186, 9.357286848041582]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 205, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.784364374967708, 9.480348525511602], [-0.782942720370443, 9.479707477556872]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 171, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-0.841061076775929, 9.41647699840587], [-0.838802405327755, 9.417422477083846]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 269, "name": "Sakaseka Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.846247714640668, 9.392648924064218], [-0.844644508020679, 9.393342191275678]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 192, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.836906502648958, 9.420412134307782], [-0.839531882360944, 9.41931192569723]], "type": "LineString"}, "properties": {"azimuth_d": 0.92, "length": 312, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.82913337710292, 9.400428336037606], [-0.828024618951133, 9.400891855283106]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.820831102009549, 9.382380338305353], [-0.822150581207126, 9.381825623953345]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 157, "name": "Second Ring Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.838728225484687, 9.421121578592391], [-0.837400867298129, 9.421681741181459]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.826841261861091, 9.414027722479544], [-0.825274851796024, 9.414689222277985]], "type": "LineString"}, "properties": {"azimuth_d": 0.76, "length": 186, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.839337003112178, 9.418728880512475], [-0.838005956888225, 9.419282589036099]], "type": "LineString"}, "properties": {"azimuth_d": 1.07, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.836059259876151, 9.404377888812974], [-0.834798118724677, 9.404935453012058]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.84027485425824, 9.40385209202688], [-0.838002604126956, 9.404807293712535]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 271, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.838232016816818, 9.42204509668403], [-0.835914169132224, 9.42302443825082]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 276, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.827146614593715, 9.377494359307462], [-0.82821413378187, 9.377007454552112]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 129, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.816190964231737, 9.375537352554517], [-0.815103579933037, 9.376028280623387]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.821694773312544, 9.37386482759527], [-0.820509236927705, 9.37437293856564]], "type": "LineString"}, "properties": {"azimuth_d": 0.45, "length": 141, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.804201573751357, 9.413807026968982], [-0.805553323276172, 9.413224987612608]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 161, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.813170880699289, 9.40624445483067], [-0.8118209751932, 9.406840994879529]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 162, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.814377371842085, 9.421162063184708], [-0.812630918496836, 9.42191308170905]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 209, "name": "Foa - Taha Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.811429372676912, 9.422352293435353], [-0.809878972046903, 9.423019073832789]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 185, "name": "Foa - Taha Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.809315708153662, 9.42322543628893], [-0.80784585761316, 9.42385516867435]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 175, "name": "Foa - Taha Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.790737555045695, 9.432658346301366], [-0.787516976389327, 9.434034738621506]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 385, "name": "Foa - Taha Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.874122152739346, 9.429767260258757], [-0.875764335209112, 9.42905211627999]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 196, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.881360429043866, 9.399176917893811], [-0.882514449472808, 9.398639721719404]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 140, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.872355079912296, 9.42954639711013], [-0.873407930769929, 9.42910249151808]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 125, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "9.353", "geonameid": "1", "group": "Africa", "left": "-0.908", "name": "Tamale, Ghana", "right": "-0.773", "slug": "tamale_ghana", "top": "9.483"};
+var streetIndex = ["Foa - Taha Road", "Second Ring Road", "Jisonayili Road", "Sakaseka Road", "Hospital/Salaga Road", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Tamale, Ghana</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [5077, 6980, 6617, 6298, 4496, 3996, 3829, 2658, 2122, 1928, 2001, 2597, 1813, 1410, 2862, 2887, 3119, 3616, 4092, 5389, 5248, 3084, 3152, 2721, 2366, 1663, 2505, 2485, 2431, 1804, 2054, 1836, 1575, 2525, 3640, 3401, 2819, 4430, 4122, 3542, 2084, 2171, 1965, 2790, 2958, 2694, 1909, 2494, 2587, 3683, 10991, 5423, 3188, 2686, 2698, 2822, 4437, 2369, 3000, 2415, 2837, 3812, 2501, 3063, 2056, 2205, 3538, 3587, 5188, 2663, 2545, 2232, 2174, 1912, 3070, 2330, 3573, 3491, 3550, 2499, 3330, 4502, 4869, 3626, 4622, 3726, 4630, 5117, 6838, 10908, 14108, 9236, 8822, 6310, 4297, 4084, 5194, 3907, 2793, 2566, 2852, 2955, 2576, 3860, 3446, 2850, 2198, 3616, 5493, 4752, 4378, 2691, 4231, 3240, 2394, 3645, 3316, 3995, 2985, 2306, 3650, 2219, 2220, 2403, 4098, 4681, 5651, 2971, 2739, 2700, 3749, 2923, 2952, 2995, 1865, 2374, 2192, 1687, 3084, 3961, 5661, 5156, 3391, 3199, 2695, 2102, 2506, 1714, 2473, 1827, 1806, 1803, 2655, 2153, 1890, 2750, 2496, 1860, 2766, 2301, 2672, 2445, 2485, 1727, 2373, 4101, 3134, 3561, 2310, 2541, 1679, 2082, 2411, 7471, 4538, 3641, 3274, 8261, 5360, 5844, 1807], "ratio": 164, "solsticeLength": 10254.458710315013, "summer_sun_azimuth": 66.06205410522689, "sun_azimuth": 113.61486929560951, "totalLength": 624767.8414849273}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

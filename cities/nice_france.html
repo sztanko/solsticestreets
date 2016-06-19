@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Nice, France</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [9397, 8162, 6934, 8089, 8209, 7860, 9692, 8608, 6546, 7346, 6224, 6059, 5769, 5428, 5332, 4743, 5528, 5626, 5295, 5240, 4741, 6250, 7924, 5813, 6429, 4534, 5209, 5670, 5138, 5297, 4566, 4256, 4964, 5243, 4481, 4716, 6872, 5054, 4839, 4004, 4676, 4652, 4942, 6598, 6944, 5931, 4793, 6643, 6228, 4096, 3558, 3969, 3697, 4074, 4694, 4344, 3277, 4293, 3952, 5280, 4943, 5870, 8766, 8248, 8490, 6333, 5492, 4727, 4662, 3758, 3835, 6624, 6712, 7932, 6501, 4779, 5438, 4697, 5722, 7529, 9386, 5535, 5200, 6287, 7215, 6088, 5075, 5381, 7446, 6359, 4871, 4644, 4347, 3746, 3623, 4669, 6551, 6345, 6070, 7228, 6239, 3418, 3946, 3097, 3975, 4467, 4003, 3758, 3577, 4027, 3309, 4208, 7205, 5161, 4066, 4258, 4999, 4227, 3485, 3381, 4136, 4286, 4166, 4079, 3880, 3904, 4915, 5079, 5295, 4381, 4886, 4476, 4004, 4647, 4872, 5061, 4709, 4512, 4677, 6279, 4753, 5379, 4804, 4250, 5095, 4787, 5637, 4688, 6372, 6759, 7632, 5454, 6286, 7232, 8079, 9388, 7538, 8907, 7939, 6971, 8460, 8847, 9577, 11439, 9379, 10583, 9138, 8579, 9431, 7990, 8635, 10126, 9613, 13396, 14449, 11326, 8678, 9382, 10753, 11760, 2392], "ratio": 114, "solsticeLength": 12442.150976967128, "summer_sun_azimuth": 55.63050767644693, "sun_azimuth": 122.374190755179, "totalLength": 1084871.9894194824};
+var winter = {"features": [{"geometry": {"coordinates": [[7.228494665928935, 43.689154634804794], [7.229890336626369, 43.6885144250404]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 132, "name": "Avenue de Fabron"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.244885226127649, 43.713624762929555], [7.243627521556476, 43.71422624830129]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 121, "name": "Chemin des Sabli\u00e8res"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.224575288005012, 43.67588717172853], [7.226168771617324, 43.675150989172806]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 152, "name": "Avenue des Pins"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.225041321821436, 43.676306853620446], [7.226981816225162, 43.67539406436484]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 186, "name": "Avenue du Docteur Emile Roux"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.189138948320277, 43.6963197370946], [7.187632385043854, 43.69700688551677]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 143, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.229552462109439, 43.69808194841781], [7.226264828227698, 43.699569065678844]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 311, "name": "Route de Canta Galet"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[7.267635387721214, 43.70840803403242], [7.265146716849954, 43.70715435277475]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 243, "name": "Rue Marceau"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.196865470484653, 43.69120895545359], [7.198261979372376, 43.691863498272426]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.266619836332693, 43.697493119719866], [7.265109668837937, 43.696766576352786]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 145, "name": "Rue Massena"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.258196526557498, 43.715212882123836], [7.256587871700447, 43.714424731768446]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 156, "name": "Avenue S\u00e9vign\u00e9"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.305360322248418, 43.73790059853874], [7.301851573760956, 43.736082731378474]], "type": "LineString"}, "properties": {"azimuth_d": 1.22, "length": 346, "name": "Avenue \u00c9mile Ripert"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.305841192033482, 43.73737119753431], [7.303807071771331, 43.73633687068269]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 199, "name": "Avenue des P\u00e2querettes"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.265461624952195, 43.70628699343436], [7.267563051896816, 43.7073102561738]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 203, "name": "Voie Pierre Mathis"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.215564071541223, 43.67631154748622], [7.212388838981041, 43.674755447162056]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 308, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.236126891682602, 43.693198819266996], [7.237375962893538, 43.69383693355559]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 123, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.202643367799253, 43.72983955461871], [7.203922865318675, 43.730476998355066]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 124, "name": "Chemin de la Ra\u00efola"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.237038675109829, 43.69177087824235], [7.238295541490685, 43.69241611714864]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 123, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.268585979360097, 43.707934121227], [7.265415859760851, 43.706348768060764]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 309, "name": "Voie Pierre Mathis"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "43.636", "geonameid": "1", "group": "Western, Europe", "left": "7.182", "name": "Nice, France", "right": "7.311", "slug": "nice_france", "top": "43.756"};
+var streetIndex = ["Avenue de Fabron", "Avenue du Docteur Emile Roux", "Rue Marceau", "Route de Canta Galet", "Chemin des Sabli\u00e8res", "Rue Massena", "Voie Pierre Mathis", "Avenue des Pins", "Chemin de la Ra\u00efola", "Avenue S\u00e9vign\u00e9", "Avenue des P\u00e2querettes", null, "Avenue \u00c9mile Ripert"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Nice, France</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [9397, 8162, 6934, 8089, 8209, 7860, 9692, 8608, 6546, 7346, 6224, 6059, 5769, 5428, 5332, 4743, 5528, 5626, 5295, 5240, 4741, 6250, 7924, 5813, 6429, 4534, 5209, 5670, 5138, 5297, 4566, 4256, 4964, 5243, 4481, 4716, 6872, 5054, 4839, 4004, 4676, 4652, 4942, 6598, 6944, 5931, 4793, 6643, 6228, 4096, 3558, 3969, 3697, 4074, 4694, 4344, 3277, 4293, 3952, 5280, 4943, 5870, 8766, 8248, 8490, 6333, 5492, 4727, 4662, 3758, 3835, 6624, 6712, 7932, 6501, 4779, 5438, 4697, 5722, 7529, 9386, 5535, 5200, 6287, 7215, 6088, 5075, 5381, 7446, 6359, 4871, 4644, 4347, 3746, 3623, 4669, 6551, 6345, 6070, 7228, 6239, 3418, 3946, 3097, 3975, 4467, 4003, 3758, 3577, 4027, 3309, 4208, 7205, 5161, 4066, 4258, 4999, 4227, 3485, 3381, 4136, 4286, 4166, 4079, 3880, 3904, 4915, 5079, 5295, 4381, 4886, 4476, 4004, 4647, 4872, 5061, 4709, 4512, 4677, 6279, 4753, 5379, 4804, 4250, 5095, 4787, 5637, 4688, 6372, 6759, 7632, 5454, 6286, 7232, 8079, 9388, 7538, 8907, 7939, 6971, 8460, 8847, 9577, 11439, 9379, 10583, 9138, 8579, 9431, 7990, 8635, 10126, 9613, 13396, 14449, 11326, 8678, 9382, 10753, 11760, 2392], "ratio": 114, "solsticeLength": 12442.150976967128, "summer_sun_azimuth": 55.63050767644693, "sun_azimuth": 122.374190755179, "totalLength": 1084871.9894194824}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

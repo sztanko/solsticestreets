@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Cambridge, England</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [1949, 2394, 2606, 2747, 4176, 2739, 3048, 3366, 3398, 3080, 4048, 5049, 7430, 6641, 7077, 4540, 4339, 4347, 3372, 2569, 4047, 4492, 4482, 4906, 4151, 2804, 3457, 4199, 5005, 4056, 4195, 3112, 3990, 2354, 2711, 4464, 3429, 3201, 4423, 4888, 4902, 2838, 2890, 2759, 2144, 2682, 2893, 4359, 3649, 3964, 3041, 3030, 2413, 1762, 1525, 1757, 1579, 1505, 1143, 1496, 1798, 1643, 1923, 1848, 1604, 1792, 2489, 1892, 1921, 1758, 2429, 2569, 1990, 1767, 1556, 1127, 1725, 1975, 2050, 4339, 4710, 10729, 5099, 2625, 2806, 2229, 1439, 2032, 2469, 1884, 3033, 2438, 1384, 2173, 2362, 3407, 4576, 4458, 3408, 2938, 4287, 5501, 7602, 6030, 5633, 3572, 3259, 4374, 3820, 3028, 3912, 2342, 4398, 5433, 4756, 3961, 2781, 3732, 4562, 3614, 2566, 2858, 3172, 2829, 2338, 4084, 3274, 4382, 4918, 4370, 4037, 3433, 2864, 3488, 3713, 3711, 3462, 4150, 4162, 3033, 3944, 2992, 2480, 2180, 1614, 1483, 1577, 1305, 2285, 1294, 2178, 1511, 1621, 1889, 1190, 1994, 1537, 1586, 2912, 2086, 2270, 1665, 2134, 1675, 1400, 1485, 1856, 2452, 2361, 2488, 2324, 3337, 3051, 2595, 3143, 3385, 2441, 1953, 2078, 2223, 440], "ratio": 249, "solsticeLength": 13945.171891322449, "summer_sun_azimuth": 47.98646048569214, "sun_azimuth": 128.99769840090715, "totalLength": 559948.9953549005};
+var winter = {"features": [{"geometry": {"coordinates": [[0.155779976006045, 52.22072138334794], [0.154278274233491, 52.221430157080306]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 129, "name": "Cheney Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.089580794389036, 52.230228640841545], [0.091776182468266, 52.22917419742231]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 190, "name": "Wellbrook Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.087260599771582, 52.231369836958635], [0.089580794389036, 52.230228640841545]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 202, "name": "Wellbrook Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.087361685523859, 52.22962933476464], [0.092144148017582, 52.227367729650354]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 411, "name": "Thornton Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.11016297672677, 52.21582366968561], [0.108620957999932, 52.21658776397891]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 135, "name": "Canterbury Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.076462026275095, 52.19215904245584], [0.074491692296078, 52.19316403264634]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 174, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[0.078607542030397, 52.23004558007625], [0.076218364349842, 52.23127813893791]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 212, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[0.070588659083342, 52.23414986278419], [0.072133024743067, 52.23340756143915]], "type": "LineString"}, "properties": {"azimuth_d": 0.88, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[0.069123167132489, 52.23673769156997], [0.065206639055617, 52.238741888437794]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 347, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[0.073640677666873, 52.19356636399865], [0.069378396084119, 52.19576367991558]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 379, "name": "Grantchester Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.086714267322748, 52.22581313806879], [0.083447336741813, 52.22743201884771]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 286, "name": "Huntingdon Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.089226323703826, 52.224801358536695], [0.093127680535957, 52.222841753393766]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 343, "name": "Huntingdon Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.096095377173555, 52.22137751872839], [0.101462561232665, 52.218681647210666]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 472, "name": "Huntingdon Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.152544142285905, 52.22995832446421], [0.155120571683398, 52.22868452663891]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 225, "name": "Cowley Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.073233820086841, 52.232897271173925], [0.075542363858887, 52.23177879001446]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 200, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[0.07699712697368, 52.193756046467485], [0.079252697117681, 52.19266698578815]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 195, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[0.15165649873984, 52.229332783030365], [0.154553033019511, 52.227929568620084]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 251, "name": "Cowley Park Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.087697548384028, 52.22043673391619], [0.084540588372761, 52.222042119831]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 279, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[0.139054558775541, 52.22093218821277], [0.137494435137882, 52.22008695709675]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 141, "name": "Kinross Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.131212785442528, 52.2287679265755], [0.132633769487541, 52.229530428307186]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 128, "name": "Crowland Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.127555677268901, 52.2259265452187], [0.130080725599925, 52.2273395664557]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 233, "name": "Campkin Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.14665811842039, 52.210891338763155], [0.144806136914184, 52.20990411820739]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 167, "name": "Newmarket Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.138971661753175, 52.22379008191882], [0.143493949972367, 52.22628705087419]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 414, "name": "Milton Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.140322740725708, 52.228671367050936], [0.142114456348082, 52.229664287300864]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 164, "name": "Campkin Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.150082042047728, 52.176678254027564], [0.147454818317016, 52.17528182895887]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 237, "name": "Nightingale Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[0.101873023031061, 52.22436457756234], [0.106321550502344, 52.22681837971638]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 407, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[0.135354199981549, 52.223519346446324], [0.13692765084528, 52.224388549805404]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 144, "name": "Woodhead Drive"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "52.175", "geonameid": "1", "group": "Western, Europe", "left": "0.059", "name": "Cambridge, England", "right": "0.168", "slug": "cambridge_england", "top": "52.243"};
+var streetIndex = ["Kinross Road", "Nightingale Avenue", "Milton Road", "Woodhead Drive", "Canterbury Street", "Huntingdon Road", "Campkin Road", "Thornton Road", "Grantchester Road", "Cowley Road", "Cowley Park Road", "Wellbrook Way", "Newmarket Road", "Crowland Way", "Cheney Way", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Cambridge, England</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [1949, 2394, 2606, 2747, 4176, 2739, 3048, 3366, 3398, 3080, 4048, 5049, 7430, 6641, 7077, 4540, 4339, 4347, 3372, 2569, 4047, 4492, 4482, 4906, 4151, 2804, 3457, 4199, 5005, 4056, 4195, 3112, 3990, 2354, 2711, 4464, 3429, 3201, 4423, 4888, 4902, 2838, 2890, 2759, 2144, 2682, 2893, 4359, 3649, 3964, 3041, 3030, 2413, 1762, 1525, 1757, 1579, 1505, 1143, 1496, 1798, 1643, 1923, 1848, 1604, 1792, 2489, 1892, 1921, 1758, 2429, 2569, 1990, 1767, 1556, 1127, 1725, 1975, 2050, 4339, 4710, 10729, 5099, 2625, 2806, 2229, 1439, 2032, 2469, 1884, 3033, 2438, 1384, 2173, 2362, 3407, 4576, 4458, 3408, 2938, 4287, 5501, 7602, 6030, 5633, 3572, 3259, 4374, 3820, 3028, 3912, 2342, 4398, 5433, 4756, 3961, 2781, 3732, 4562, 3614, 2566, 2858, 3172, 2829, 2338, 4084, 3274, 4382, 4918, 4370, 4037, 3433, 2864, 3488, 3713, 3711, 3462, 4150, 4162, 3033, 3944, 2992, 2480, 2180, 1614, 1483, 1577, 1305, 2285, 1294, 2178, 1511, 1621, 1889, 1190, 1994, 1537, 1586, 2912, 2086, 2270, 1665, 2134, 1675, 1400, 1485, 1856, 2452, 2361, 2488, 2324, 3337, 3051, 2595, 3143, 3385, 2441, 1953, 2078, 2223, 440], "ratio": 249, "solsticeLength": 13945.171891322449, "summer_sun_azimuth": 47.98646048569214, "sun_azimuth": 128.99769840090715, "totalLength": 559948.9953549005}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Saint Jean Bonnefonds, France</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [1223, 2298, 1624, 1668, 1912, 1850, 2186, 1810, 1618, 1256, 2276, 1156, 2058, 1341, 2020, 1825, 2113, 1534, 1812, 2124, 1587, 1563, 1893, 2316, 1960, 1196, 2429, 1403, 1673, 1752, 2155, 1989, 1551, 1475, 2446, 1188, 2087, 2353, 2147, 3698, 2368, 2108, 1790, 1732, 1976, 2560, 2877, 1788, 1883, 1874, 1390, 2147, 2700, 1733, 2795, 2525, 2480, 2453, 2225, 2721, 1863, 2302, 2025, 2689, 1907, 2344, 2097, 1350, 1648, 2270, 2310, 2485, 2064, 2138, 1657, 1369, 1987, 1862, 2087, 2335, 1339, 1989, 1850, 2589, 2696, 2867, 1985, 2104, 1537, 2036, 1295, 2098, 1449, 1990, 1589, 2470, 2204, 1665, 1422, 1480, 1392, 1489, 1945, 1292, 1357, 1917, 1335, 1707, 1306, 1452, 1545, 2135, 1941, 1339, 1991, 1553, 1567, 1559, 1431, 2142, 1487, 1461, 1735, 910, 1513, 1935, 1523, 1859, 2032, 1701, 1418, 2951, 2057, 2044, 1590, 1338, 1532, 1372, 860, 1991, 1397, 831, 1659, 1454, 1973, 1648, 1700, 960, 1355, 1711, 1831, 1575, 1177, 1891, 1145, 1014, 969, 2094, 990, 1575, 1653, 2024, 2314, 1744, 2625, 1323, 1136, 1431, 1356, 1218, 1337, 1900, 1305, 1944, 1780, 1793, 2891, 1449, 2251, 1326, 384], "ratio": 127, "solsticeLength": 4183.460156231343, "summer_sun_azimuth": 54.357012075508884, "sun_azimuth": 123.45637958765415, "totalLength": 328059.75481708214};
+var winter = {"features": [{"geometry": {"coordinates": [[4.412085597083205, 45.454133159518136], [4.415198887378949, 45.452729190736584]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 288, "name": "Rue Jean Huss"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.422516875582658, 45.46377209671058], [4.424768757689236, 45.46269468687665]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 212, "name": "Rue des Fr\u00e8res Lumi\u00e8re"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.503878920040535, 45.48091275342429], [4.502468078098389, 45.48155212499838]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 131, "name": "Rue du Parterre"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.453551542634841, 45.47405669190448], [4.455087694029459, 45.4733747402623]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 141, "name": "Rue de la Grande Chemin\u00e9e"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.495954920237409, 45.455999893173924], [4.497264173513088, 45.45542414024493]], "type": "LineString"}, "properties": {"azimuth_d": 1.36, "length": 120, "name": "Chemin de la Martini\u00e8re"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.469585033758363, 45.46904892385348], [4.471008364736264, 45.46836973823932]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 134, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[4.428076843414743, 45.43340814955033], [4.433200617005667, 45.435984578947824]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 491, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[4.44069227824312, 45.475498295431294], [4.438822694740281, 45.47457175985451]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 178, "name": "Rue Marc Seguin"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.424453095215739, 45.46997545943029], [4.426646555457211, 45.47104666665584]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 208, "name": "Rue du Ch\u00e2teau de la Chazotte"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.441041049234173, 45.476702188184106], [4.438391026726833, 45.475377093111405]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 253, "name": "Rue Gustave Eiffel"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.433497755473183, 45.482183282307346], [4.435013035928876, 45.48292575129045]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 144, "name": "Rue Voltaire"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.4323441541394, 45.43567034139784], [4.428368366007106, 45.43364963218076]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 383, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[4.436915644130238, 45.46049636513135], [4.435197186341611, 45.459621462078104]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 165, "name": "Rue de Reveux"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.496717421969094, 45.46110061653113], [4.498386426529009, 45.46190309994097]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 157, "name": "Route de la Chabure"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "45.430", "geonameid": "1", "group": "Western, Europe", "left": "4.410", "name": "Saint Jean Bonnefonds, France", "right": "4.504", "slug": "saint-jean-bonnefonds_france", "top": "45.484"};
+var streetIndex = ["Route de la Chabure", "Rue du Ch\u00e2teau de la Chazotte", "Rue Voltaire", "Rue de Reveux", "Rue des Fr\u00e8res Lumi\u00e8re", "Rue Jean Huss", "Rue du Parterre", "Rue de la Grande Chemin\u00e9e", null, "Rue Gustave Eiffel", "Chemin de la Martini\u00e8re", "Rue Marc Seguin"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Saint Jean Bonnefonds, France</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [1223, 2298, 1624, 1668, 1912, 1850, 2186, 1810, 1618, 1256, 2276, 1156, 2058, 1341, 2020, 1825, 2113, 1534, 1812, 2124, 1587, 1563, 1893, 2316, 1960, 1196, 2429, 1403, 1673, 1752, 2155, 1989, 1551, 1475, 2446, 1188, 2087, 2353, 2147, 3698, 2368, 2108, 1790, 1732, 1976, 2560, 2877, 1788, 1883, 1874, 1390, 2147, 2700, 1733, 2795, 2525, 2480, 2453, 2225, 2721, 1863, 2302, 2025, 2689, 1907, 2344, 2097, 1350, 1648, 2270, 2310, 2485, 2064, 2138, 1657, 1369, 1987, 1862, 2087, 2335, 1339, 1989, 1850, 2589, 2696, 2867, 1985, 2104, 1537, 2036, 1295, 2098, 1449, 1990, 1589, 2470, 2204, 1665, 1422, 1480, 1392, 1489, 1945, 1292, 1357, 1917, 1335, 1707, 1306, 1452, 1545, 2135, 1941, 1339, 1991, 1553, 1567, 1559, 1431, 2142, 1487, 1461, 1735, 910, 1513, 1935, 1523, 1859, 2032, 1701, 1418, 2951, 2057, 2044, 1590, 1338, 1532, 1372, 860, 1991, 1397, 831, 1659, 1454, 1973, 1648, 1700, 960, 1355, 1711, 1831, 1575, 1177, 1891, 1145, 1014, 969, 2094, 990, 1575, 1653, 2024, 2314, 1744, 2625, 1323, 1136, 1431, 1356, 1218, 1337, 1900, 1305, 1944, 1780, 1793, 2891, 1449, 2251, 1326, 384], "ratio": 127, "solsticeLength": 4183.460156231343, "summer_sun_azimuth": 54.357012075508884, "sun_azimuth": 123.45637958765415, "totalLength": 328059.75481708214}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

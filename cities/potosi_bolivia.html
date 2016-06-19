@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Potosi, Bolivia</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [3452, 2999, 2887, 2423, 1857, 2503, 3255, 2948, 3892, 3647, 5289, 4529, 3188, 2686, 2395, 3666, 4055, 4002, 3734, 2471, 3512, 3988, 3491, 3142, 2591, 2640, 2525, 2937, 2734, 3267, 2263, 3427, 3829, 3784, 4778, 2797, 2178, 1434, 1262, 1541, 2002, 2553, 3537, 3341, 2333, 2417, 3443, 3309, 1941, 2759, 1961, 2513, 1922, 1924, 2406, 3009, 2425, 2010, 3553, 3786, 2891, 2499, 2112, 3030, 3066, 3119, 1931, 1583, 3471, 1719, 2190, 2957, 3804, 3271, 5689, 9963, 5745, 2092, 2621, 2538, 1635, 1462, 1606, 2399, 3204, 2657, 2728, 2753, 4526, 5396, 3480, 1994, 1999, 2642, 1711, 2258, 2213, 2185, 2643, 2387, 2183, 2627, 2484, 1487, 2546, 2604, 2922, 2606, 2002, 2161, 3100, 3308, 3063, 2894, 3667, 5219, 3478, 2770, 2535, 3068, 1954, 2420, 3025, 2298, 2831, 2386, 2177, 1583, 1418, 1609, 2303, 2554, 3228, 4449, 3426, 2395, 2307, 2415, 1589, 1842, 1761, 1081, 1750, 2142, 2022, 1504, 1873, 2596, 2012, 1706, 2328, 3132, 2754, 3013, 2359, 2485, 2288, 1955, 3924, 3909, 2674, 3615, 6566, 4090, 6931, 20892, 8982, 4013, 4547, 3378, 2512, 2439, 2538, 1999, 2033, 2833, 3129, 5358, 4859, 3875, 972], "ratio": 238, "solsticeLength": 12986.805043277236, "summer_sun_azimuth": 65.3781950749577, "sun_azimuth": 115.32031288984832, "totalLength": 545162.3400209821};
+var winter = {"features": [{"geometry": {"coordinates": [[-65.7500676355276, -19.582345634153427], [-65.75164242749582, -19.58168036249853]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 180, "name": "Vanguardia"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.7566212779809, -19.579295375769558], [-65.75525821288683, -19.579883114820063]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 157, "name": "Av. Litoral"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.75468380106234, -19.580112024595735], [-65.75347471152956, -19.5806340495254]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 139, "name": "Av. Litoral"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.74994391863676, -19.581880606165356], [-65.75176103142574, -19.581121205737844]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 208, "name": "Claudio Llano"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.75552375157936, -19.569276738363357], [-65.75442622517782, -19.56975165699714]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 126, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.75667274286639, -19.56933993791327], [-65.75506132198127, -19.570051980587863]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 186, "name": "Av. Las Banderas"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.76335965758015, -19.58620692548837], [-65.76229163547778, -19.586709252945553]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.74484805678338, -19.58246314843592], [-65.74341944520648, -19.583091204440706]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 165, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.74210080419924, -19.59095057977038], [-65.74091635746177, -19.591479813136772]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 137, "name": "Omasuyo"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.74653751318704, -19.542487505268525], [-65.74531392296177, -19.543033837717388]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 141, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77436677282762, -19.591430527546095], [-65.77241580104494, -19.592304843866117]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 226, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77421832932241, -19.591147303037868], [-65.77547293258942, -19.59056920317599]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 146, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77506976304677, -19.58975372781623], [-65.77331484397934, -19.59055067916998]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 204, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.7550082645342, -19.569996911484026], [-65.7576368293694, -19.568835514980293]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 304, "name": "Av. Las Banderas"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77414867570704, -19.591020903938013], [-65.77186360126387, -19.592049112000296]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 265, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.7424345715836, -19.59822607172501], [-65.7435056111711, -19.597747632691863]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 124, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77371927080746, -19.592440882154648], [-65.7720353464599, -19.593198941477652]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 195, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77570712296409, -19.585651708222144], [-65.77686600489686, -19.585149213126897]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.74467052807417, -19.59589690847113], [-65.743492116307, -19.59644583930998]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 137, "name": "Canate"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.75347471152956, -19.5806340495254], [-65.75186127898769, -19.581332932612014]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 186, "name": "Av. Litoral"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77884270912227, -19.5839807758245], [-65.77998206122065, -19.58347325158735]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.68426391210231, -19.53171097617738], [-65.68594146620346, -19.53098158296322]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 193, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.7763254559612, -19.591890610211294], [-65.7800033512547, -19.590197465770245]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 428, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77885184539673, -19.591263811491984], [-65.77635320006071, -19.592382627927577]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 289, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77903482234301, -19.58957871367798], [-65.77584567582355, -19.59108360057374]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 373, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.7637139606273, -19.586519319019654], [-65.7626656359974, -19.586983257360288]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77251303112176, -19.585769809237856], [-65.77514276942341, -19.584614782980566]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 304, "name": "RN5: Potosi-Uyuni"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.7779075401852, -19.583905757791115], [-65.77915527029161, -19.583383229947287]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 143, "name": "RN5: Potosi-Uyuni"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.78027710421235, -19.589568739213206], [-65.77517772195964, -19.591949702628682]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 596, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.74413743903233, -19.554012454494057], [-65.74564182301391, -19.55331826527322]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 175, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77556773191432, -19.59057708216497], [-65.77872636830622, -19.589117709003432]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 368, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-65.77369580147857, -19.5785868534943], [-65.77186502618741, -19.577802139719182]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 210, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.76175167327534, -19.565643350975677], [-65.76300694709461, -19.566174176903672]], "type": "LineString"}, "properties": {"azimuth_d": 0.45, "length": 144, "name": "14 de Septiembre"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.76152477515645, -19.566028331788456], [-65.76277091270123, -19.566538035320434]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 142, "name": "Ismael P\u00e9rez Alcal\u00e1"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.76201285337824, -19.565247808964926], [-65.76321071116077, -19.565789950462204]], "type": "LineString"}, "properties": {"azimuth_d": 1.03, "length": 139, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.76130667803587, -19.566398225175504], [-65.76255633598, -19.56693232004571]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 143, "name": "21 de Septiembre"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.76233094660365, -19.567323168190683], [-65.76108145629759, -19.56678027232215]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 144, "name": "14 de Abril"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.70287240769977, -19.529465631955276], [-65.70457686771009, -19.530153953843865]], "type": "LineString"}, "properties": {"azimuth_d": 1.42, "length": 194, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.70612827416849, -19.530328716525048], [-65.70841971885807, -19.531313841605026]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 264, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77791500007902, -19.594399900564355], [-65.77927194638379, -19.59498546032006]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 156, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.78012363156525, -19.59540991989675], [-65.78138795783994, -19.59594233838635]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 145, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.78132190844293, -19.596372246200104], [-65.77789262039755, -19.59486476091436]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 396, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.78145115738987, -19.59551393931514], [-65.78028942561002, -19.594978754797523]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 135, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77984543619891, -19.596217432448498], [-65.78092016382382, -19.59668690284525]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 124, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.74521937509397, -19.567485609474204], [-65.74630927396362, -19.567960947203172]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.77984543619891, -19.596217432448498], [-65.77797937309539, -19.595384774187234]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 216, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.78078496372564, -19.597107171470356], [-65.77798356404699, -19.59587813300803]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 323, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.73496244018052, -19.557133372321687], [-65.7361738766462, -19.55767157432444]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 140, "name": "RN5: Potosi-Puente Mendez-Sucre"}, "type": "Feature"}, {"geometry": {"coordinates": [[-65.7210141151095, -19.57107524332727], [-65.72209160876245, -19.57153876257277]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 124, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "-19.636", "geonameid": "1", "group": "South, America", "left": "-65.832", "name": "Potosi, Bolivia", "right": "-65.683", "slug": "potosi_bolivia", "top": "-19.527"};
+var streetIndex = ["RN5: Potosi-Puente Mendez-Sucre", "14 de Septiembre", "Omasuyo", "21 de Septiembre", "RN5: Potosi-Uyuni", "Canate", "14 de Abril", "Claudio Llano", "Ismael P\u00e9rez Alcal\u00e1", "Av. Las Banderas", "Av. Litoral", "Vanguardia", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Potosi, Bolivia</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [3452, 2999, 2887, 2423, 1857, 2503, 3255, 2948, 3892, 3647, 5289, 4529, 3188, 2686, 2395, 3666, 4055, 4002, 3734, 2471, 3512, 3988, 3491, 3142, 2591, 2640, 2525, 2937, 2734, 3267, 2263, 3427, 3829, 3784, 4778, 2797, 2178, 1434, 1262, 1541, 2002, 2553, 3537, 3341, 2333, 2417, 3443, 3309, 1941, 2759, 1961, 2513, 1922, 1924, 2406, 3009, 2425, 2010, 3553, 3786, 2891, 2499, 2112, 3030, 3066, 3119, 1931, 1583, 3471, 1719, 2190, 2957, 3804, 3271, 5689, 9963, 5745, 2092, 2621, 2538, 1635, 1462, 1606, 2399, 3204, 2657, 2728, 2753, 4526, 5396, 3480, 1994, 1999, 2642, 1711, 2258, 2213, 2185, 2643, 2387, 2183, 2627, 2484, 1487, 2546, 2604, 2922, 2606, 2002, 2161, 3100, 3308, 3063, 2894, 3667, 5219, 3478, 2770, 2535, 3068, 1954, 2420, 3025, 2298, 2831, 2386, 2177, 1583, 1418, 1609, 2303, 2554, 3228, 4449, 3426, 2395, 2307, 2415, 1589, 1842, 1761, 1081, 1750, 2142, 2022, 1504, 1873, 2596, 2012, 1706, 2328, 3132, 2754, 3013, 2359, 2485, 2288, 1955, 3924, 3909, 2674, 3615, 6566, 4090, 6931, 20892, 8982, 4013, 4547, 3378, 2512, 2439, 2538, 1999, 2033, 2833, 3129, 5358, 4859, 3875, 972], "ratio": 238, "solsticeLength": 12986.805043277236, "summer_sun_azimuth": 65.3781950749577, "sun_azimuth": 115.32031288984832, "totalLength": 545162.3400209821}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

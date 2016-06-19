@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Iquique, Chile</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [5519, 6038, 9904, 15932, 12420, 7791, 5790, 4104, 4063, 3802, 2912, 3088, 954, 1062, 1046, 1301, 1093, 1317, 10658, 5028, 1182, 717, 685, 468, 952, 560, 582, 1089, 912, 451, 467, 492, 447, 76, 121, 568, 282, 250, 511, 658, 798, 398, 404, 212, 224, 918, 331, 774, 300, 439, 488, 762, 506, 295, 579, 955, 426, 237, 783, 928, 1277, 774, 2263, 1448, 837, 321, 796, 116, 677, 1190, 525, 502, 808, 879, 948, 997, 1487, 3982, 3722, 2762, 1524, 235, 499, 455, 501, 1000, 1527, 1789, 1718, 5210, 5464, 5428, 16061, 15612, 5845, 1694, 2117, 2330, 1312, 1389, 724, 784, 939, 680, 587, 1148, 1456, 1767, 4038, 7688, 1316, 1057, 1042, 1089, 1509, 1011, 1062, 1020, 706, 448, 600, 1178, 726, 498, 339, 466, 425, 625, 1599, 689, 1207, 761, 877, 501, 630, 1228, 780, 795, 771, 1484, 1043, 1168, 1747, 1098, 567, 454, 657, 1677, 2408, 3104, 2196, 2388, 4713, 2838, 518, 625, 1765, 3148, 1654, 3445, 3034, 2797, 2088, 4401, 1807, 1360, 4217, 10838, 7734, 6414, 6811, 964, 758, 1092, 818, 1903, 2720, 2278, 4654, 6241, 1618], "ratio": 93, "solsticeLength": 3581.1000146437204, "summer_sun_azimuth": 65.28072827550162, "sun_azimuth": 115.44760029522068, "totalLength": 382164.2565382719};
+var winter = {"features": [{"geometry": {"coordinates": [[-70.13743110206421, -20.206754337597914], [-70.13864815440502, -20.20617833321185]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 142, "name": "Las Naciones"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.1531990544952, -20.216632075211777], [-70.15528254416705, -20.21574242000895]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 238, "name": "Grumete Bolados"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.15640697647777, -20.215184939628866], [-70.15749637243324, -20.214708009338292]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 125, "name": "Grum Bolados"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.13355983626451, -20.207823700804795], [-70.13513915446046, -20.207074610118184]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 184, "name": "Barranquilla"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.13388597611699, -20.208435747374523], [-70.1369619669436, -20.207113418329868]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 353, "name": "Barcelona"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.15285070259932, -20.21450743039537], [-70.15464962665841, -20.21369472106366]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 208, "name": "Thompson"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.13506690245511, -20.208813519750578], [-70.13810886275483, -20.20749345381978]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 349, "name": "Oruro"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.13258493710639, -20.23627296982312], [-70.13365790453163, -20.235807355101823]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 123, "name": "Ej\u00e9rcito De Chile"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.13324601780968, -20.232323081771625], [-70.13213021885923, -20.232790121416457]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 127, "name": "Berthie Humberstone"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.13262625988904, -20.23658544717344], [-70.13384607825786, -20.236054537426412]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 140, "name": "Graneros"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.14422807116667, -20.208575306062386], [-70.14305276070365, -20.20912851167182]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 137, "name": "Ferrocarril"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.13403190505123, -20.23391446990817], [-70.13292926568876, -20.234391400198746]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 126, "name": "Las Zampo\u00f1as"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.13384331222983, -20.233505935947477], [-70.13229333069498, -20.234159137661806]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 177, "name": "Ignacio Carrera Pinto"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-70.13687655535027, -20.247885342298726], [-70.13810835984064, -20.24844131393624]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 142, "name": "Avenida Santiago Polanco Nu\u00f1o"}, "type": "Feature"}, {"geometry": {"coordinates": [[-70.1382331663789, -20.248596965878164], [-70.13627121430308, -20.24770295208569]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 227, "name": "Avenida Santiago Polanco Nu\u00f1o"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "-20.300", "geonameid": "1", "group": "South, America", "left": "-70.186", "name": "Iquique, Chile", "right": "-70.113", "slug": "iquique_chile", "top": "-20.186"};
+var streetIndex = ["Grumete Bolados", "Ignacio Carrera Pinto", "Avenida Santiago Polanco Nu\u00f1o", "Las Zampo\u00f1as", "Berthie Humberstone", "Barcelona", "Graneros", "Las Naciones", "Barranquilla", "Thompson", "Oruro", "Ej\u00e9rcito De Chile", "Grum Bolados", "Ferrocarril"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Iquique, Chile</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [5519, 6038, 9904, 15932, 12420, 7791, 5790, 4104, 4063, 3802, 2912, 3088, 954, 1062, 1046, 1301, 1093, 1317, 10658, 5028, 1182, 717, 685, 468, 952, 560, 582, 1089, 912, 451, 467, 492, 447, 76, 121, 568, 282, 250, 511, 658, 798, 398, 404, 212, 224, 918, 331, 774, 300, 439, 488, 762, 506, 295, 579, 955, 426, 237, 783, 928, 1277, 774, 2263, 1448, 837, 321, 796, 116, 677, 1190, 525, 502, 808, 879, 948, 997, 1487, 3982, 3722, 2762, 1524, 235, 499, 455, 501, 1000, 1527, 1789, 1718, 5210, 5464, 5428, 16061, 15612, 5845, 1694, 2117, 2330, 1312, 1389, 724, 784, 939, 680, 587, 1148, 1456, 1767, 4038, 7688, 1316, 1057, 1042, 1089, 1509, 1011, 1062, 1020, 706, 448, 600, 1178, 726, 498, 339, 466, 425, 625, 1599, 689, 1207, 761, 877, 501, 630, 1228, 780, 795, 771, 1484, 1043, 1168, 1747, 1098, 567, 454, 657, 1677, 2408, 3104, 2196, 2388, 4713, 2838, 518, 625, 1765, 3148, 1654, 3445, 3034, 2797, 2088, 4401, 1807, 1360, 4217, 10838, 7734, 6414, 6811, 964, 758, 1092, 818, 1903, 2720, 2278, 4654, 6241, 1618], "ratio": 93, "solsticeLength": 3581.1000146437204, "summer_sun_azimuth": 65.28072827550162, "sun_azimuth": 115.44760029522068, "totalLength": 382164.2565382719}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

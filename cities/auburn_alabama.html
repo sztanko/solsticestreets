@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Auburn, Alabama</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [26217, 13874, 7381, 7160, 3740, 2957, 2811, 2133, 1788, 2105, 2231, 2750, 1940, 2909, 2177, 1917, 2179, 1630, 1330, 1477, 1514, 2767, 1834, 1102, 2386, 1409, 2145, 1349, 1156, 1718, 1722, 1795, 1529, 1782, 1859, 2340, 2175, 2891, 2047, 2057, 2050, 1679, 3074, 2639, 2244, 2930, 2234, 2018, 2481, 2123, 2207, 2593, 1512, 2158, 3237, 2347, 2673, 1975, 1700, 1649, 2088, 3343, 2186, 2920, 1723, 3378, 2898, 2071, 2144, 1958, 1877, 3374, 6658, 4696, 2816, 3148, 2468, 2171, 2415, 3961, 3263, 4066, 3427, 2406, 3315, 3684, 4575, 8815, 18056, 36630, 34500, 13048, 7710, 3989, 3320, 3352, 2439, 1846, 1669, 1741, 1820, 2861, 2771, 1660, 1739, 1342, 3368, 2053, 1682, 2101, 1397, 1898, 1257, 1607, 1598, 1212, 1204, 2090, 2250, 1202, 1399, 1170, 1550, 1328, 1659, 1803, 1902, 2280, 1574, 1694, 1856, 2177, 2726, 3107, 2341, 1160, 1653, 1450, 1206, 1933, 2354, 1907, 1962, 1715, 1445, 1645, 1481, 1873, 1888, 1982, 2013, 3062, 2892, 2273, 1891, 2896, 2334, 2350, 2065, 1586, 1919, 2830, 3100, 4389, 2022, 3162, 2214, 2627, 2725, 2469, 2535, 2869, 4030, 3722, 3708, 4641, 5412, 8388, 20734, 44442, 4628], "ratio": 86, "solsticeLength": 5528.20459108558, "summer_sun_azimuth": 61.17330522565524, "sun_azimuth": 117.53817093599984, "totalLength": 641301.7698176267};
+var winter = {"features": [{"geometry": {"coordinates": [[-85.46238100722616, 32.592651922056405], [-85.46115607589638, 32.592096956247275]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 130, "name": "Terrace Acres Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.48478901953217, 32.63448398913863], [-85.4863590338156, 32.635134927739095]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 163, "name": "North Cedarbrook Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.47209990777488, 32.63112452234671], [-85.4749960229594, 32.63243193160369]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 307, "name": "East University Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.46950906150394, 32.6299549953969], [-85.47209990777488, 32.63112452234671]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 275, "name": "East University Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.41900105408486, 32.57390797490365], [-85.41218908137576, 32.57095695825336]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 717, "name": "Moores Mill Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.41179404227918, 32.57079694772176], [-85.4089370705825, 32.56953295672321]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 302, "name": "Moores Mill Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-85.44747605554593, 32.62544896806986], [-85.44882705069942, 32.62483993898527]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 143, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.47198105238789, 32.62339297104043], [-85.46985037260119, 32.62435412387731]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 226, "name": "Sundilla Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.46859350622032, 32.614833790614796], [-85.4666292072116, 32.615710872962865]], "type": "LineString"}, "properties": {"azimuth_d": 0.88, "length": 208, "name": "Opelika Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.4666292072116, 32.615710872962865], [-85.46275500774577, 32.61746495383997]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 412, "name": "Opelika Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.45169307485156, 32.622407929779456], [-85.44910105511418, 32.62359296325013]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 276, "name": "Opelika Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.44897004596757, 32.623647948534966], [-85.44730623818764, 32.62439133952742]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 176, "name": "Opelika Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.44599706873095, 32.62504697199364], [-85.44313900738685, 32.626361924963504]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 305, "name": "Opelika Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.4478465356662, 32.62884715925446], [-85.44915964461737, 32.62825682181395]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 139, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.44798751927758, 32.62669368069112], [-85.44949265763044, 32.626004520612184]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 160, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-85.44622790634436, 32.62747353296237], [-85.44502585761023, 32.62800343688101]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 127, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "32.568", "geonameid": "1", "group": "North, America", "left": "-85.543", "name": "Auburn, Alabama", "right": "-85.408", "slug": "auburn_alabama", "top": "32.644"};
+var streetIndex = ["Sundilla Court", "East University Drive", "Opelika Road", "Terrace Acres Drive", "Moores Mill Road", null, "North Cedarbrook Drive"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Auburn, Alabama</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [26217, 13874, 7381, 7160, 3740, 2957, 2811, 2133, 1788, 2105, 2231, 2750, 1940, 2909, 2177, 1917, 2179, 1630, 1330, 1477, 1514, 2767, 1834, 1102, 2386, 1409, 2145, 1349, 1156, 1718, 1722, 1795, 1529, 1782, 1859, 2340, 2175, 2891, 2047, 2057, 2050, 1679, 3074, 2639, 2244, 2930, 2234, 2018, 2481, 2123, 2207, 2593, 1512, 2158, 3237, 2347, 2673, 1975, 1700, 1649, 2088, 3343, 2186, 2920, 1723, 3378, 2898, 2071, 2144, 1958, 1877, 3374, 6658, 4696, 2816, 3148, 2468, 2171, 2415, 3961, 3263, 4066, 3427, 2406, 3315, 3684, 4575, 8815, 18056, 36630, 34500, 13048, 7710, 3989, 3320, 3352, 2439, 1846, 1669, 1741, 1820, 2861, 2771, 1660, 1739, 1342, 3368, 2053, 1682, 2101, 1397, 1898, 1257, 1607, 1598, 1212, 1204, 2090, 2250, 1202, 1399, 1170, 1550, 1328, 1659, 1803, 1902, 2280, 1574, 1694, 1856, 2177, 2726, 3107, 2341, 1160, 1653, 1450, 1206, 1933, 2354, 1907, 1962, 1715, 1445, 1645, 1481, 1873, 1888, 1982, 2013, 3062, 2892, 2273, 1891, 2896, 2334, 2350, 2065, 1586, 1919, 2830, 3100, 4389, 2022, 3162, 2214, 2627, 2725, 2469, 2535, 2869, 4030, 3722, 3708, 4641, 5412, 8388, 20734, 44442, 4628], "ratio": 86, "solsticeLength": 5528.20459108558, "summer_sun_azimuth": 61.17330522565524, "sun_azimuth": 117.53817093599984, "totalLength": 641301.7698176267}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

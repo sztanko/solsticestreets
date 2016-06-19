@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Bochum, Germany</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [6046, 4223, 4773, 3728, 3611, 4485, 4770, 4462, 4318, 3293, 3170, 3008, 2626, 2815, 3011, 2807, 2734, 2934, 3069, 2862, 3135, 2631, 3943, 3965, 4191, 2621, 2763, 2877, 2618, 3042, 2533, 3394, 3046, 2469, 3882, 3374, 2826, 4190, 3485, 3172, 2697, 2990, 2032, 3375, 3434, 2699, 3072, 4490, 3211, 4213, 4403, 4528, 5670, 5067, 6420, 4850, 4400, 6986, 6608, 5425, 5981, 6773, 5538, 6579, 6665, 7099, 6044, 7706, 8586, 14161, 9140, 6157, 6673, 5693, 5359, 5950, 6172, 6490, 5579, 4814, 5558, 4708, 4504, 5726, 5529, 4781, 4403, 4224, 4335, 4337, 4563, 4156, 3872, 4109, 4890, 3132, 4382, 4202, 3178, 2904, 3060, 4261, 3641, 2384, 2509, 2825, 2737, 2839, 2515, 2901, 3181, 2356, 2543, 2403, 2333, 2303, 2669, 2233, 3099, 2500, 3220, 3170, 4012, 2382, 3283, 3335, 2808, 3199, 3035, 4274, 3608, 2703, 3180, 3134, 2700, 2815, 3564, 2231, 2868, 2970, 3585, 2706, 3661, 4152, 4030, 4781, 4343, 3978, 5629, 5287, 6290, 5732, 6244, 6565, 7219, 4606, 5599, 6226, 6195, 9156, 8380, 5987, 5643, 5678, 5655, 5437, 7054, 7175, 5405, 5196, 6239, 5618, 5008, 6040, 6455, 4478, 4075, 4112, 4029, 3864, 442], "ratio": 126, "solsticeLength": 9892.184596310093, "summer_sun_azimuth": 48.86987715294159, "sun_azimuth": 128.25828944211827, "totalLength": 783947.5448644749};
+var winter = {"features": [{"geometry": {"coordinates": [[7.27343507798406, 51.466149770245835], [7.274811973218362, 51.46548064291548]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 121, "name": "Wittener Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.265558519752858, 51.45459456234985], [7.267134652825603, 51.45385552994705]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 136, "name": "Auf dem Aspei"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.240149618472685, 51.49657524057537], [7.241701695483329, 51.49578709021995]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 138, "name": "Schwalbengrund"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.181771590706887, 51.49915904604762], [7.18807075857984, 51.49604156480032]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 557, "name": "Dinnendahlstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.188273349179553, 51.49619872548482], [7.18551804996835, 51.49751937814884]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 240, "name": "Dinnendahlstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.185389052478513, 51.497590959601915], [7.181950963434787, 51.49933548510944]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 307, "name": "Dinnendahlstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.216244933536018, 51.48567683861208], [7.214799222876649, 51.48636122100618]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 125, "name": "Kanalstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.214307456617433, 51.4855567259396], [7.215672533368291, 51.484877121230284]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.205326079728962, 51.475407330843865], [7.207125171426127, 51.47450175002501]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 160, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.205624224024858, 51.47282511793321], [7.202934052201299, 51.47419849276818]], "type": "LineString"}, "properties": {"azimuth_d": 1.09, "length": 240, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.274753383715194, 51.46570552937763], [7.273237851802378, 51.466454787702304]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 134, "name": "Wittener Stra\u00dfe"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[7.256380922511084, 51.45491818763139], [7.254173967405506, 51.453660650698254]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 207, "name": "Schinkelstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.26517437713042, 51.46117494307427], [7.263207563550765, 51.46008018270078]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 182, "name": "Untere Heintzmannstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.252022416679892, 51.46872485853879], [7.250574359087636, 51.46789982780942]], "type": "LineString"}, "properties": {"azimuth_d": 1.31, "length": 135, "name": "Theoderichstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.177764454256731, 51.49623493530651], [7.180675237771794, 51.49776446499762]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 263, "name": "Wehlaustra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.176780586462201, 51.49723908730669], [7.178225123655125, 51.49803427846078]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 133, "name": "Sechs-Schwestern-Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.265074045749428, 51.45073251664362], [7.263287191630922, 51.44977044179736]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 163, "name": "Overbergstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.256768166437723, 51.45262841932245], [7.25854865030982, 51.45356937177269]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 161, "name": "Laerholzstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.233206385159861, 51.48801488668328], [7.23181197174793, 51.487237381344926]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 129, "name": "Castroper Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.229501919233285, 51.48753569327886], [7.230924495839901, 51.48831269570302]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 131, "name": "K\u00fcppersstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.169462095344328, 51.448035052564336], [7.171658237794816, 51.449185971689076]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 198, "name": "Ruhrstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.231477533811301, 51.48687427729945], [7.233295820066728, 51.4878831231654]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 168, "name": "Castroper Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.262877651841847, 51.44874567031536], [7.265001877563122, 51.449846046564005]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 191, "name": "Universit\u00e4tsstra\u00dfe"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "51.448", "geonameid": "1", "group": "Western, Europe", "left": "7.168", "name": "Bochum, Germany", "right": "7.276", "slug": "bochum_germany", "top": "51.506"};
+var streetIndex = ["Dinnendahlstra\u00dfe", "K\u00fcppersstra\u00dfe", "Laerholzstra\u00dfe", "Untere Heintzmannstra\u00dfe", "Wehlaustra\u00dfe", "Wittener Stra\u00dfe", "Overbergstra\u00dfe", "Sechs-Schwestern-Stra\u00dfe", "Kanalstra\u00dfe", "Schwalbengrund", "Ruhrstra\u00dfe", "Castroper Stra\u00dfe", "Schinkelstra\u00dfe", "Universit\u00e4tsstra\u00dfe", null, "Theoderichstra\u00dfe", "Auf dem Aspei"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Bochum, Germany</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [6046, 4223, 4773, 3728, 3611, 4485, 4770, 4462, 4318, 3293, 3170, 3008, 2626, 2815, 3011, 2807, 2734, 2934, 3069, 2862, 3135, 2631, 3943, 3965, 4191, 2621, 2763, 2877, 2618, 3042, 2533, 3394, 3046, 2469, 3882, 3374, 2826, 4190, 3485, 3172, 2697, 2990, 2032, 3375, 3434, 2699, 3072, 4490, 3211, 4213, 4403, 4528, 5670, 5067, 6420, 4850, 4400, 6986, 6608, 5425, 5981, 6773, 5538, 6579, 6665, 7099, 6044, 7706, 8586, 14161, 9140, 6157, 6673, 5693, 5359, 5950, 6172, 6490, 5579, 4814, 5558, 4708, 4504, 5726, 5529, 4781, 4403, 4224, 4335, 4337, 4563, 4156, 3872, 4109, 4890, 3132, 4382, 4202, 3178, 2904, 3060, 4261, 3641, 2384, 2509, 2825, 2737, 2839, 2515, 2901, 3181, 2356, 2543, 2403, 2333, 2303, 2669, 2233, 3099, 2500, 3220, 3170, 4012, 2382, 3283, 3335, 2808, 3199, 3035, 4274, 3608, 2703, 3180, 3134, 2700, 2815, 3564, 2231, 2868, 2970, 3585, 2706, 3661, 4152, 4030, 4781, 4343, 3978, 5629, 5287, 6290, 5732, 6244, 6565, 7219, 4606, 5599, 6226, 6195, 9156, 8380, 5987, 5643, 5678, 5655, 5437, 7054, 7175, 5405, 5196, 6239, 5618, 5008, 6040, 6455, 4478, 4075, 4112, 4029, 3864, 442], "ratio": 126, "solsticeLength": 9892.184596310093, "summer_sun_azimuth": 48.86987715294159, "sun_azimuth": 128.25828944211827, "totalLength": 783947.5448644749}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

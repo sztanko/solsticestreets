@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Phi Phi, Thailand</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [97, 67, 138, 121, 238, 54, 38, 159, 201, 53, 110, 202, 104, 40, 287, 141, 236, 71, 53, 156, 32, 25, 105, 73, 22, 142, 64, 73, 11, 121, 92, 165, 86, 67, 215, 59, 174, 129, 99, 132, 140, 40, 104, 55, 96, 73, 57, 230, 46, 56, 26, 98, 127, 107, 53, 64, 83, 59, 76, 51, 131, 55, 187, 95, 210, 48, 81, 33, 36, 11, 15, 68, 125, 311, 85, 67, 79, 72, 142, 70, 93, 54, 189, 209, 254, 81, 86, 25, 118, 47, 199, 78, 243, 205, 114, 35, 186, 359, 22, 196, 282, 188, 34, 188, 82, 113, 523, 253, 257, 38, 249, 141, 166, 136, 243, 212, 261, 259, 178, 124, 143, 281, 98, 128, 303, 315, 150, 12, 177, 220, 123, 16, 202, 263, 136, 69, 258, 164, 350, 284, 141, 448, 206, 226, 237, 456, 165, 180, 44, 114, 456, 101, 101, 172, 74, 21, 273, 45, 190, 186, 213, 245, 143, 195, 55, 98, 75, 60, 96, 387, 368, 61, 101, 67, 78, 148, 74, 156, 217, 87, 71], "ratio": 215, "solsticeLength": 546.5179601087219, "summer_sun_azimuth": 66.2031999644252, "sun_azimuth": 113.53178687454546, "totalLength": 25345.931178902865};
+var winter = {"features": [], "type": "FeatureCollection"};
+var summer = {"features": [], "type": "FeatureCollection"};
+
+var city = {"bottom": "7.663", "geonameid": "1", "group": "Asia", "left": "98.739", "name": "Phi Phi, Thailand", "right": "98.813", "slug": "phi-phi_thailand", "top": "7.794"};
+var streetIndex = [];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Phi Phi, Thailand</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [97, 67, 138, 121, 238, 54, 38, 159, 201, 53, 110, 202, 104, 40, 287, 141, 236, 71, 53, 156, 32, 25, 105, 73, 22, 142, 64, 73, 11, 121, 92, 165, 86, 67, 215, 59, 174, 129, 99, 132, 140, 40, 104, 55, 96, 73, 57, 230, 46, 56, 26, 98, 127, 107, 53, 64, 83, 59, 76, 51, 131, 55, 187, 95, 210, 48, 81, 33, 36, 11, 15, 68, 125, 311, 85, 67, 79, 72, 142, 70, 93, 54, 189, 209, 254, 81, 86, 25, 118, 47, 199, 78, 243, 205, 114, 35, 186, 359, 22, 196, 282, 188, 34, 188, 82, 113, 523, 253, 257, 38, 249, 141, 166, 136, 243, 212, 261, 259, 178, 124, 143, 281, 98, 128, 303, 315, 150, 12, 177, 220, 123, 16, 202, 263, 136, 69, 258, 164, 350, 284, 141, 448, 206, 226, 237, 456, 165, 180, 44, 114, 456, 101, 101, 172, 74, 21, 273, 45, 190, 186, 213, 245, 143, 195, 55, 98, 75, 60, 96, 387, 368, 61, 101, 67, 78, 148, 74, 156, 217, 87, 71], "ratio": 215, "solsticeLength": 546.5179601087219, "summer_sun_azimuth": 66.2031999644252, "sun_azimuth": 113.53178687454546, "totalLength": 25345.931178902865}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

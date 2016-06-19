@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Yellowknife, Canada</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [1566, 2268, 1445, 1841, 2011, 1979, 2871, 1333, 1698, 1881, 1450, 1096, 1446, 1394, 1209, 1621, 1134, 1616, 1526, 1853, 2990, 2013, 1650, 1702, 1891, 1908, 1167, 2139, 2064, 3188, 1481, 1529, 1912, 1669, 1095, 1856, 1994, 2637, 2190, 2266, 1853, 3278, 1793, 2912, 3885, 2578, 2838, 2221, 1860, 1618, 1693, 1685, 1688, 1285, 1521, 1071, 1109, 1594, 1663, 3521, 1544, 1371, 1773, 1827, 1302, 776, 1196, 1365, 789, 1451, 1686, 1143, 926, 2112, 1866, 1915, 959, 880, 1412, 1308, 1136, 1521, 1017, 1043, 1156, 2507, 2160, 2417, 1244, 999, 1084, 1119, 1167, 1614, 1574, 1234, 1253, 1329, 1079, 1217, 1594, 1382, 1470, 1795, 1663, 1572, 1579, 1062, 1506, 1126, 1710, 1167, 1584, 1590, 1328, 1809, 2832, 2385, 2131, 3066, 1844, 1350, 1359, 1633, 1758, 1354, 2048, 1378, 906, 1325, 1316, 1707, 2071, 4478, 9308, 3407, 1858, 2521, 1350, 1124, 1294, 899, 1087, 851, 1060, 1425, 1338, 662, 1006, 1414, 1134, 1711, 1437, 1359, 1132, 1852, 1051, 1400, 916, 996, 1086, 956, 1210, 1503, 1878, 1550, 514, 1351, 766, 1000, 1988, 1404, 1604, 1905, 1713, 4577, 3830, 2242, 1471, 1820, 564], "ratio": 117, "solsticeLength": 3618.4681983555465, "summer_sun_azimuth": 27.046377735807837, "sun_azimuth": 146.1555843884644, "totalLength": 307213.6975125565};
+var winter = {"features": [{"geometry": {"coordinates": [[-114.49682555480646, 62.44694089641709], [-114.4951421333731, 62.44580707637479]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 152, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-114.4108359454255, 62.44574228426327], [-114.41302337069669, 62.44382651647393]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 240, "name": "Range Lake Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-114.42510806341612, 62.44279185434618], [-114.42690204215235, 62.44125402657095]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 194, "name": "Braathen Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-114.34585322941606, 62.470728150890295], [-114.34698595981094, 62.469738583401636]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 124, "name": "Morrison Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-114.41896471512318, 62.43207207073954], [-114.42008470502522, 62.43110505057041]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 122, "name": "Melville Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-114.2976130297196, 62.4301217695091], [-114.2988287409559, 62.42903723505747]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 135, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "62.402", "geonameid": "1", "group": "North, America", "left": "-114.516", "name": "Yellowknife, Canada", "right": "-114.241", "slug": "yellowknife_canada", "top": "62.526"};
+var streetIndex = ["Melville Drive", "Range Lake Road", null, "Braathen Avenue", "Morrison Drive"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Yellowknife, Canada</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [1566, 2268, 1445, 1841, 2011, 1979, 2871, 1333, 1698, 1881, 1450, 1096, 1446, 1394, 1209, 1621, 1134, 1616, 1526, 1853, 2990, 2013, 1650, 1702, 1891, 1908, 1167, 2139, 2064, 3188, 1481, 1529, 1912, 1669, 1095, 1856, 1994, 2637, 2190, 2266, 1853, 3278, 1793, 2912, 3885, 2578, 2838, 2221, 1860, 1618, 1693, 1685, 1688, 1285, 1521, 1071, 1109, 1594, 1663, 3521, 1544, 1371, 1773, 1827, 1302, 776, 1196, 1365, 789, 1451, 1686, 1143, 926, 2112, 1866, 1915, 959, 880, 1412, 1308, 1136, 1521, 1017, 1043, 1156, 2507, 2160, 2417, 1244, 999, 1084, 1119, 1167, 1614, 1574, 1234, 1253, 1329, 1079, 1217, 1594, 1382, 1470, 1795, 1663, 1572, 1579, 1062, 1506, 1126, 1710, 1167, 1584, 1590, 1328, 1809, 2832, 2385, 2131, 3066, 1844, 1350, 1359, 1633, 1758, 1354, 2048, 1378, 906, 1325, 1316, 1707, 2071, 4478, 9308, 3407, 1858, 2521, 1350, 1124, 1294, 899, 1087, 851, 1060, 1425, 1338, 662, 1006, 1414, 1134, 1711, 1437, 1359, 1132, 1852, 1051, 1400, 916, 996, 1086, 956, 1210, 1503, 1878, 1550, 514, 1351, 766, 1000, 1988, 1404, 1604, 1905, 1713, 4577, 3830, 2242, 1471, 1820, 564], "ratio": 117, "solsticeLength": 3618.4681983555465, "summer_sun_azimuth": 27.046377735807837, "sun_azimuth": 146.1555843884644, "totalLength": 307213.6975125565}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

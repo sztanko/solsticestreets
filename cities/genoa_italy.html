@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Genoa, Italy</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [28475, 32079, 33169, 33222, 34240, 35163, 33773, 33666, 31367, 31521, 32601, 36490, 32990, 32915, 34883, 32521, 34375, 36605, 45088, 38973, 36380, 33788, 33555, 32796, 32255, 32361, 30515, 30561, 31207, 30914, 31307, 31487, 32631, 33321, 29982, 29673, 30264, 30398, 32274, 30661, 29799, 32639, 29742, 29996, 29391, 28505, 28031, 29308, 29548, 27628, 29819, 28784, 30948, 30435, 30092, 29054, 29276, 29052, 27831, 30600, 30240, 28990, 27761, 28281, 29298, 25867, 28761, 27034, 30641, 31674, 28591, 29489, 31274, 30414, 30892, 29940, 28305, 28742, 25784, 25313, 28019, 26234, 27729, 26713, 25196, 28666, 28981, 30408, 30088, 26767, 41118, 30368, 28451, 29724, 30093, 29136, 28382, 29081, 28194, 28920, 28913, 33026, 32041, 28948, 33527, 39214, 31306, 33472, 40917, 40279, 35779, 33749, 30534, 30103, 28332, 27635, 28749, 27122, 28679, 29171, 28311, 26118, 27487, 28522, 29631, 28795, 27417, 28225, 26339, 29256, 28687, 27782, 28657, 27296, 27450, 26958, 28860, 27954, 27045, 27539, 30161, 29803, 28920, 29906, 28654, 28208, 29219, 29127, 28736, 30061, 29920, 28364, 28530, 28291, 28468, 27995, 28426, 27571, 28814, 28128, 29238, 27996, 29682, 33089, 33916, 31464, 30137, 30116, 29457, 30167, 29837, 31052, 32673, 30543, 29317, 31511, 29800, 31801, 33849, 28438, 17896], "ratio": 150, "solsticeLength": 82456.02997003186, "summer_sun_azimuth": 55.12778526296648, "sun_azimuth": 122.78621508667085, "totalLength": 5479679.500758526};
+var winter = {"features": [{"geometry": {"coordinates": [[8.970468470649365, 44.39291137901264], [8.968369474456635, 44.3939095798616]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 200, "name": "Via Oreste De Gaspari"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.856527393479553, 44.42652683405197], [8.855260133538735, 44.427135779317524]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.885531963583105, 44.43667673206187], [8.88689595068655, 44.4360825389459]], "type": "LineString"}, "properties": {"azimuth_d": 1.42, "length": 126, "name": "Via Borzoli"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.670393738647562, 44.46662602647214], [8.66848484401882, 44.467499923697]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 180, "name": "Strada Provinciale del Faiallo"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.883957758348089, 44.42790481893371], [8.886104363750832, 44.42691843656823]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 202, "name": "Via Nicol\u00f2 Lorenzi"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.014929437842937, 44.50243737250483], [9.013488337230314, 44.50309694446557]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 135, "name": "Via Brigata Balilla"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.46249823242519, 44.330806673276896], [8.460895193443264, 44.33156506787602]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 152, "name": "Via Santuario"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.019190629778308, 44.52343093865031], [9.020669029860045, 44.5227399345527]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 140, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.803871020458047, 44.42529578393288], [8.802466297305216, 44.425961893778066]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 133, "name": "Via Alberto Guglielmotti"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.753588150958223, 44.441318127125186], [8.75222776807314, 44.441950290262525]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.568733993645651, 44.35435873154705], [8.567205050687761, 44.35507697682999]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 145, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.923625031297718, 44.40656549928232], [8.925935083812334, 44.40550812219697]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 218, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.989344935691264, 44.5405683264218], [8.987987318834257, 44.541216918089354]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 129, "name": "Strada Provinciale della Valle Scrivia"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.922828163763029, 44.41300355529086], [8.92436783555695, 44.412331159018265]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 143, "name": "Calata Darsena"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.888007642504446, 44.50839606747089], [8.88534739407524, 44.5096213340768]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 251, "name": "Via Alcide de Gasperi"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.0782358570367, 44.43841455204685], [9.076864242401399, 44.439061634971836]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 130, "name": "Via Giovanni Cevasco"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.854354217443756, 44.42285966759454], [8.855814931709801, 44.422195485587054]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 137, "name": "Via Luciano Manara"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.490995362110652, 44.34683195013528], [8.488728560216401, 44.347870635576555]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 214, "name": "Via Riccardo Poggi"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.924666818043162, 44.413035657980004], [8.923387991075968, 44.41365248223454]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 122, "name": "Calata Andal\u00f2 di Negro"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.923180036058255, 44.413397588559036], [8.924536982363009, 44.41277489697228]], "type": "LineString"}, "properties": {"azimuth_d": 0.07, "length": 128, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[8.955757643846624, 44.414826786869156], [8.954088136372519, 44.4140144966326]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 160, "name": "Via Monticelli"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.952648628321498, 44.41527354230831], [8.954150497732115, 44.41605264020828]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 147, "name": "Via Casata Centuriona"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.694951122384339, 44.40963822116669], [8.692360024656324, 44.40828789656544]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 254, "name": "Strada Statale 1 Via Aurelia"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.922456593995348, 44.53766902611406], [8.92377833630678, 44.53831149899233]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 126, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[9.021273867993045, 44.54020421654795], [9.022750340237053, 44.540937884532724]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 142, "name": "Via Firpo"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.924106990730195, 44.41935326603996], [8.92272556926818, 44.41866209430427]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 133, "name": "Via Sant\u0027Ugo"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.928332978672216, 44.42622944412739], [8.924730855783395, 44.42451475819516]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 343, "name": "Via Paolo della Cella"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.923830220287414, 44.42788545673736], [8.920270928923799, 44.42619038445858]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 339, "name": "Via Vesuvio"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.47616023168385, 44.31640991638605], [8.473382971886338, 44.315016257345405]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 269, "name": "Via Alessandria"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.519307084097873, 44.413139258303225], [8.52168167726694, 44.41431507168041]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 229, "name": "Via Monte Beigua"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.473839031237986, 44.31448626960772], [8.476839752574108, 44.315976571991996]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 290, "name": "Via Milano"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.558160893344507, 44.468191849803986], [8.555927451424907, 44.46708879134633]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 215, "name": "Strada provinciale Urbe - Piampaludo - La Carta"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.568621257047965, 44.357649382913934], [8.570306690138096, 44.358517748082704]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 165, "name": "Via Carlo Nocelli"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.459714350924173, 44.517885639148766], [8.458373833149636, 44.51718683988122]], "type": "LineString"}, "properties": {"azimuth_d": 1.21, "length": 131, "name": "Strada provinciale Mioglia - Miogliola"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.598371229800762, 44.36357522081954], [8.599715435612694, 44.36424476724505]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 130, "name": "Via Helvetia"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.689260229224686, 44.406579580879644], [8.691294349486839, 44.40761055496998]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 198, "name": "Lungomare Olanda"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.952779469830034, 44.40713287030812], [8.950732944351188, 44.406126455194084]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 197, "name": "Via Archimede"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.602781619612585, 44.49731913097], [8.604091962535705, 44.49794123582353]], "type": "LineString"}, "properties": {"azimuth_d": 1.29, "length": 124, "name": "Strada provinciale Urbe - Martina - Acquabianca"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.970791760654748, 44.40624472384786], [8.969321742476183, 44.40547995900232]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 144, "name": "Corso Europa"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.951658222642521, 44.52143688388534], [8.952999075693185, 44.522140377018694]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.498473947579157, 44.48274342044641], [8.499883532235827, 44.48342755138344]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 135, "name": "Strada provinciale Sassello Urbe"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.58316117684501, 44.45368864274283], [8.581256054072696, 44.452776943134666]], "type": "LineString"}, "properties": {"azimuth_d": 1.07, "length": 182, "name": "Piampaludo-Pratorotondo"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.113975286340178, 44.46744695006893], [9.112331762765933, 44.46664471811621]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.933319121413064, 44.507136518881], [8.931885564513294, 44.50638927221308]], "type": "LineString"}, "properties": {"azimuth_d": 1.21, "length": 140, "name": "Strada Provinciale Genova-Casella"}, "type": "Feature"}, {"geometry": {"coordinates": [[8.95057804678055, 44.51400272250365], [8.947777150016066, 44.51263638846734]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 269, "name": "Strada Provinciale Genova-Casella"}, "type": "Feature"}, {"geometry": {"coordinates": [[9.070734724248666, 44.39776869190172], [9.072149673323395, 44.39849749838265]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 138, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.488102599687407, 44.30476384865969], [8.486037634021583, 44.303727091056146]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 200, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.49146114446998, 44.30653528007636], [8.48871188022909, 44.30515126022436]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 267, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.496291299992775, 44.31377305346669], [8.494714664005812, 44.31301482650562]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.489653754688675, 44.30701967026076], [8.487942086241615, 44.306166643974784]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 166, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.448119580445221, 44.53276108652986], [8.449484824834116, 44.533418395376714]], "type": "LineString"}, "properties": {"azimuth_d": 0.92, "length": 130, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[8.975030069994432, 44.451869434478056], [8.972583392458091, 44.45058624892124]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 241, "name": "Via Molassana"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "44.291", "geonameid": "1", "group": "Southern, Europe", "left": "8.444", "name": "Genoa, Italy", "right": "9.114", "slug": "genoa_italy", "top": "44.561"};
+var streetIndex = ["Via Vesuvio", "Strada Provinciale del Faiallo", "Via Sant\u0027Ugo", "Via Riccardo Poggi", "Via Firpo", "Via Luciano Manara", "Via Alessandria", "Via Alberto Guglielmotti", "Lungomare Olanda", "Via Brigata Balilla", "Strada provinciale Sassello Urbe", "Via Monticelli", "Calata Darsena", "Via Casata Centuriona", "Via Nicol\u00f2 Lorenzi", "Via Borzoli", "Strada provinciale Urbe - Martina - Acquabianca", "Via Milano", "Strada Provinciale della Valle Scrivia", "Via Helvetia", "Via Paolo della Cella", "Strada provinciale Mioglia - Miogliola", "Corso Europa", "Via Archimede", "Strada provinciale Urbe - Piampaludo - La Carta", "Piampaludo-Pratorotondo", "Strada Statale 1 Via Aurelia", "Via Monte Beigua", "Calata Andal\u00f2 di Negro", "Via Santuario", "Via Molassana", "Via Giovanni Cevasco", "Via Alcide de Gasperi", "Via Carlo Nocelli", "Strada Provinciale Genova-Casella", "Via Oreste De Gaspari", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Genoa, Italy</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [28475, 32079, 33169, 33222, 34240, 35163, 33773, 33666, 31367, 31521, 32601, 36490, 32990, 32915, 34883, 32521, 34375, 36605, 45088, 38973, 36380, 33788, 33555, 32796, 32255, 32361, 30515, 30561, 31207, 30914, 31307, 31487, 32631, 33321, 29982, 29673, 30264, 30398, 32274, 30661, 29799, 32639, 29742, 29996, 29391, 28505, 28031, 29308, 29548, 27628, 29819, 28784, 30948, 30435, 30092, 29054, 29276, 29052, 27831, 30600, 30240, 28990, 27761, 28281, 29298, 25867, 28761, 27034, 30641, 31674, 28591, 29489, 31274, 30414, 30892, 29940, 28305, 28742, 25784, 25313, 28019, 26234, 27729, 26713, 25196, 28666, 28981, 30408, 30088, 26767, 41118, 30368, 28451, 29724, 30093, 29136, 28382, 29081, 28194, 28920, 28913, 33026, 32041, 28948, 33527, 39214, 31306, 33472, 40917, 40279, 35779, 33749, 30534, 30103, 28332, 27635, 28749, 27122, 28679, 29171, 28311, 26118, 27487, 28522, 29631, 28795, 27417, 28225, 26339, 29256, 28687, 27782, 28657, 27296, 27450, 26958, 28860, 27954, 27045, 27539, 30161, 29803, 28920, 29906, 28654, 28208, 29219, 29127, 28736, 30061, 29920, 28364, 28530, 28291, 28468, 27995, 28426, 27571, 28814, 28128, 29238, 27996, 29682, 33089, 33916, 31464, 30137, 30116, 29457, 30167, 29837, 31052, 32673, 30543, 29317, 31511, 29800, 31801, 33849, 28438, 17896], "ratio": 150, "solsticeLength": 82456.02997003186, "summer_sun_azimuth": 55.12778526296648, "sun_azimuth": 122.78621508667085, "totalLength": 5479679.500758526}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

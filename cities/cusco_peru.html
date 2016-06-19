@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Cusco, Peru</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2260, 2617, 2815, 2946, 2295, 1993, 9380, 2995, 2199, 1748, 1881, 1816, 2167, 1986, 2630, 2585, 2374, 2627, 2592, 2157, 3373, 2334, 2906, 3384, 2411, 3210, 2229, 2673, 3063, 1967, 2768, 2280, 2387, 1658, 2015, 1873, 2005, 2161, 2195, 2585, 2319, 2448, 1738, 4476, 2579, 1798, 2330, 2222, 1848, 1998, 1964, 2358, 2436, 2610, 1973, 1826, 1861, 1889, 1683, 2131, 1734, 2323, 1949, 2543, 1760, 1912, 2409, 1992, 1887, 2225, 2017, 2372, 2674, 2483, 2377, 1718, 2695, 1858, 2425, 2439, 2113, 2251, 2109, 1867, 1830, 2294, 1927, 2149, 2565, 4135, 5590, 2788, 2998, 2571, 2715, 2824, 2073, 2596, 2402, 2164, 2049, 2248, 1961, 1990, 2053, 2418, 3197, 2946, 1973, 2919, 4114, 1826, 2748, 2537, 3143, 5308, 3474, 3045, 2618, 3610, 3129, 2267, 2679, 2574, 2072, 3242, 2557, 2561, 1836, 2394, 2700, 3212, 2706, 2580, 3003, 2744, 2871, 3149, 3345, 3013, 3307, 3037, 3146, 2743, 2723, 2627, 3097, 3025, 2909, 2155, 2699, 2598, 2447, 3135, 2837, 3024, 2909, 4055, 2272, 3081, 3765, 2984, 2673, 2505, 3824, 5321, 2296, 2831, 2803, 3329, 2459, 2288, 2052, 2708, 2579, 2520, 2990, 2260, 2922, 1824, 2321], "ratio": 234, "solsticeLength": 11045.849744235627, "summer_sun_azimuth": 66.08643105037467, "sun_azimuth": 114.37980267132674, "totalLength": 471765.81685185333};
+var winter = {"features": [{"geometry": {"coordinates": [[-71.81251983403094, -13.569124711577755], [-71.81439092627637, -13.56825701696124]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 224, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.82325277722559, -13.571655459602935], [-71.81865002273592, -13.573803825205346]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 552, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.77404823956903, -13.498881010222448], [-71.77696790790145, -13.49752775195509]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 349, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.81174081995, -13.571423029427962], [-71.81313816702806, -13.570773934846187]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.83122597880038, -13.567851249028621], [-71.83569588012473, -13.565805729378154]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 534, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.83635033912454, -13.565495431322658], [-71.85243143945809, -13.55815942202716]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 1920, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.39201190557534, -13.56144605008052], [-71.39012564208517, -13.562237050282988]], "type": "LineString"}, "properties": {"azimuth_d": 1.05, "length": 222, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.37170381147139, -13.5622914488346], [-71.37030654821235, -13.562937945026361]], "type": "LineString"}, "properties": {"azimuth_d": 1.06, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.596596140949, -13.57519220364702], [-71.5953043220319, -13.575781451440122]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 154, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.62628903294117, -13.493101101251083], [-71.62758806029501, -13.492525683598217]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 154, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-71.76085713563067, -13.500450773048783], [-71.76212322210503, -13.500976569834876]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 148, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.60130107083836, -13.560919834199268], [-71.60249180400318, -13.561424927684527]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 140, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.03492430637762, -13.573338461941148], [-71.03600406314443, -13.573806842690487]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.60624597461558, -13.488756425560124], [-71.60829551757956, -13.48964063252592]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 242, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.70488831829404, -13.55044354487981], [-71.70360454600397, -13.549877850234623]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 152, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "-13.582", "geonameid": "1", "group": "South, America", "left": "-71.855", "name": "Cusco, Peru", "right": "-70.047", "slug": "cusco_peru", "top": "-13.473"};
+var streetIndex = [null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Cusco, Peru</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2260, 2617, 2815, 2946, 2295, 1993, 9380, 2995, 2199, 1748, 1881, 1816, 2167, 1986, 2630, 2585, 2374, 2627, 2592, 2157, 3373, 2334, 2906, 3384, 2411, 3210, 2229, 2673, 3063, 1967, 2768, 2280, 2387, 1658, 2015, 1873, 2005, 2161, 2195, 2585, 2319, 2448, 1738, 4476, 2579, 1798, 2330, 2222, 1848, 1998, 1964, 2358, 2436, 2610, 1973, 1826, 1861, 1889, 1683, 2131, 1734, 2323, 1949, 2543, 1760, 1912, 2409, 1992, 1887, 2225, 2017, 2372, 2674, 2483, 2377, 1718, 2695, 1858, 2425, 2439, 2113, 2251, 2109, 1867, 1830, 2294, 1927, 2149, 2565, 4135, 5590, 2788, 2998, 2571, 2715, 2824, 2073, 2596, 2402, 2164, 2049, 2248, 1961, 1990, 2053, 2418, 3197, 2946, 1973, 2919, 4114, 1826, 2748, 2537, 3143, 5308, 3474, 3045, 2618, 3610, 3129, 2267, 2679, 2574, 2072, 3242, 2557, 2561, 1836, 2394, 2700, 3212, 2706, 2580, 3003, 2744, 2871, 3149, 3345, 3013, 3307, 3037, 3146, 2743, 2723, 2627, 3097, 3025, 2909, 2155, 2699, 2598, 2447, 3135, 2837, 3024, 2909, 4055, 2272, 3081, 3765, 2984, 2673, 2505, 3824, 5321, 2296, 2831, 2803, 3329, 2459, 2288, 2052, 2708, 2579, 2520, 2990, 2260, 2922, 1824, 2321], "ratio": 234, "solsticeLength": 11045.849744235627, "summer_sun_azimuth": 66.08643105037467, "sun_azimuth": 114.37980267132674, "totalLength": 471765.81685185333}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

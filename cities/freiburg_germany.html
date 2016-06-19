@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Freiburg, Germany</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [12597, 14483, 12631, 12976, 13553, 13459, 13493, 15044, 17938, 14593, 12568, 14400, 13739, 17362, 16799, 16925, 13651, 15490, 15458, 15700, 15759, 16641, 18371, 17922, 17789, 16111, 21322, 18300, 17141, 16438, 16323, 17195, 16733, 15395, 13249, 14737, 15811, 14836, 15338, 18871, 18950, 20194, 18641, 17047, 14971, 14038, 16799, 13966, 12505, 10815, 11048, 9909, 9465, 9516, 9880, 9530, 9854, 9430, 8590, 9124, 10291, 9355, 10985, 12329, 11105, 10978, 12263, 11082, 9732, 10366, 9555, 8450, 7466, 8503, 9934, 9287, 8925, 9078, 9792, 10353, 9947, 10390, 10394, 9900, 10371, 11016, 11736, 13363, 12685, 15605, 15609, 11951, 12821, 14513, 13645, 13005, 14326, 13716, 13941, 13619, 15231, 13697, 14618, 13894, 15751, 16464, 15002, 15565, 17725, 15030, 16661, 14996, 17952, 16438, 17483, 18565, 16068, 15783, 15592, 18609, 20834, 15308, 14564, 17552, 13540, 13139, 12143, 13913, 14305, 15023, 14884, 14053, 13938, 13109, 12534, 13849, 13540, 15285, 12890, 11087, 11799, 11346, 10857, 9124, 9166, 8877, 9440, 11197, 11460, 8890, 8635, 9001, 9943, 10946, 12666, 9768, 13927, 10511, 9703, 9280, 9326, 7755, 8506, 8271, 7949, 7158, 8634, 9293, 11402, 12462, 10518, 10829, 9247, 9709, 10834, 10776, 10789, 13275, 14634, 14243, 1670], "ratio": 164, "solsticeLength": 38713.76656759289, "summer_sun_azimuth": 52.29155945540244, "sun_azimuth": 125.25468643384848, "totalLength": 2354316.9905454465};
+var winter = {"features": [{"geometry": {"coordinates": [[7.813771448579502, 47.996867138597366], [7.81201225474146, 47.99770432308634]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 160, "name": "Unterer M\u00fchlenweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.789868272385404, 48.00081643991563], [7.788218797659879, 48.00156846426835]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 148, "name": "Willy-Brandt-Allee"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.797384995513341, 47.99641116306475], [7.795412230782432, 47.99736452073168]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 181, "name": "Rieselfeldallee"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.764772183731651, 48.040514725907], [7.762975355148343, 48.04134822235858]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 162, "name": "Im Brunnenfeld"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.710471197488487, 48.0005012803563], [7.712320999699841, 47.99958765291041]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 171, "name": "Am Dreschschopf"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.822494327574133, 47.964924040879225], [7.820677298604154, 47.9657678470717]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 164, "name": "Dorfstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.687429094207403, 48.006451844876295], [7.688947056872109, 48.00575388379903]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 137, "name": "Tunibergh\u00f6henweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.724660166999627, 48.05022977078028], [7.723039358382978, 48.05099596054936]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 147, "name": "Kaiserstuhlstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.686189662185142, 48.02086553321152], [7.688648828757209, 48.01971436262968]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 223, "name": "Sellingerstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.690251197186881, 48.0211525295762], [7.688493595910444, 48.02197093860204]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 159, "name": "Neunkircherweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.783800445040043, 48.06009049313067], [7.785210532610904, 48.059407619479146]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 129, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.726329255378573, 47.920866829961504], [7.724638038775253, 47.921702086612754]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 156, "name": "Niedermattenstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.73131439229104, 47.9290751439203], [7.73293277015577, 47.928334183679766]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 146, "name": "Kirchhofener Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.858057820729981, 47.963241960550384], [7.856601884148746, 47.963940759817945]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 133, "name": "Maximilian-Kolbe-Weg"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.795412230782432, 47.99736452073168], [7.793329244024791, 47.99836934328414]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 191, "name": "Rieselfeldallee"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.765277361035912, 48.04555853614167], [7.7672647940974, 48.04461247073047]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 181, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.793670974217178, 47.99802283540694], [7.797331267514011, 47.99625752277956]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 335, "name": "Rieselfeldallee"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.668376022465622, 48.02535379090383], [7.670325485505713, 48.02442163945193]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 178, "name": "Ihringer Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.673493761086263, 48.02302169398388], [7.675326380396115, 48.02213019476235]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 168, "name": "Ihringer Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.675809764752131, 48.02191444457466], [7.677287242824547, 48.02121153817452]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 134, "name": "Ihringer Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.738297188186835, 47.920901363402606], [7.736625752875, 47.92169596782344]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 152, "name": "Hans-Scherlin-Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.661524235716428, 47.92994837059294], [7.665069696939781, 47.928229158433]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 326, "name": "Hardtstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.785758122345242, 48.056182095499906], [7.783202144791517, 48.05735187390681]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 230, "name": "Kaiserstuhlstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.829861517549459, 47.99649037204972], [7.828521251232018, 47.997108537408764]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 121, "name": "Ferdinand-Wei\u00df-Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.882371626360565, 47.911119430941994], [7.880633219642391, 47.91193415193047]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.821473998500807, 47.99613355443162], [7.822827675863323, 47.995514718520326]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 122, "name": "Mathias-Blank-Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.734281166919287, 48.04854986974623], [7.735949836203075, 48.04772391700751]], "type": "LineString"}, "properties": {"azimuth_d": 1.22, "length": 154, "name": "Umkircher Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.877385986533938, 47.922310361326055], [7.879175271404363, 47.921426321998354]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 165, "name": "Schauinslandstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.72737154503821, 47.95192622362808], [7.724572743749547, 47.953195746682724]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 251, "name": "Scherzinger Weg"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.779412351090627, 48.026306645656604], [7.777420643258552, 48.027209292809374]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 178, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[7.842261286009175, 48.01255906716656], [7.84002415605218, 48.01138836675034]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 211, "name": "Hartmannstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.789017090118137, 48.02661996119724], [7.787531649237735, 48.0258615665981]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 139, "name": "Rotackerweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.844451393489407, 48.02904015191955], [7.842822622064715, 48.02815812424862]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 155, "name": "Guerickestra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.840572248700681, 47.98898303665333], [7.838951356265, 47.988150294573046]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 152, "name": "Kronenmattenstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.915699665940053, 47.97569964796105], [7.912479254921777, 47.97402544662116]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 303, "name": "Bahnhofstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.713397655162482, 48.065701171476974], [7.71501745795078, 48.06652058633122]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 151, "name": "Lessingstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.67910033230001, 47.96287508464846], [7.677633834520776, 47.96210713467971]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 138, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.711212325367086, 47.90335527403238], [7.713703762266391, 47.90460216594846]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 231, "name": "S\u00fcdostumfahrung Bad Krozingen"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.799520452984865, 48.070279199352285], [7.800898270228545, 48.07098294394274]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 128, "name": "V\u00f6rstetter Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.69097086739336, 47.97633005089872], [7.692371986327855, 47.97704955346714]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.842929323692118, 47.98926877573251], [7.841614538360318, 47.988596128002854]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 123, "name": "Kronenstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.780885722030489, 47.982314645945586], [7.779554927263633, 47.981633029579505]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 124, "name": "Matsuyamaallee"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.872527248721326, 48.010641958272714], [7.87020646737065, 48.00946245685816]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 216, "name": "Eichhalde"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.689775943276942, 48.00626291677875], [7.69107647937335, 48.006949562286735]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 123, "name": "Tunibergh\u00f6henweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.832462925018376, 47.97022148750392], [7.833903941811967, 47.97096412412512]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 135, "name": "B\u00e4chelhurst"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.769286844418957, 48.014398056722854], [7.767910535917878, 48.013684672943754]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 129, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.875702565100567, 48.0313698180876], [7.874131293531661, 48.030587283607325]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 145, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[7.779666490394844, 47.98156287304994], [7.780984963764041, 47.98223954409314]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 123, "name": "Matsuyamaallee"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.715362540904408, 47.94450698203403], [7.717689021949268, 47.94568053229736]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 216, "name": "Horner"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.759520753755368, 47.96206354878322], [7.760866133033772, 47.962784057180016]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 128, "name": "Gewerbestra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[7.855492623082767, 48.029334272901906], [7.857542752779977, 48.03035367996588]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 190, "name": "Hans-Bunte-Stra\u00dfe"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "47.902", "geonameid": "1", "group": "Western, Europe", "left": "7.661", "name": "Freiburg, Germany", "right": "7.931", "slug": "freiburg_germany", "top": "48.071"};
+var streetIndex = ["Dorfstra\u00dfe", "Am Dreschschopf", "Ferdinand-Wei\u00df-Stra\u00dfe", "Gewerbestra\u00dfe", "Neunkircherweg", "Lessingstra\u00dfe", "Matsuyamaallee", "Hans-Scherlin-Stra\u00dfe", "Scherzinger Weg", "Ihringer Stra\u00dfe", "Sellingerstra\u00dfe", "Maximilian-Kolbe-Weg", "V\u00f6rstetter Stra\u00dfe", "Im Brunnenfeld", "Hartmannstra\u00dfe", "Hardtstra\u00dfe", "Rotackerweg", "Kronenmattenstra\u00dfe", "Unterer M\u00fchlenweg", "Rieselfeldallee", "Hans-Bunte-Stra\u00dfe", "Tunibergh\u00f6henweg", "Kirchhofener Stra\u00dfe", "Niedermattenstra\u00dfe", "Umkircher Stra\u00dfe", "Willy-Brandt-Allee", "Kaiserstuhlstra\u00dfe", "Mathias-Blank-Stra\u00dfe", "Horner", "B\u00e4chelhurst", "S\u00fcdostumfahrung Bad Krozingen", "Guerickestra\u00dfe", "Bahnhofstra\u00dfe", "Kronenstra\u00dfe", "Eichhalde", "Schauinslandstra\u00dfe", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Freiburg, Germany</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [12597, 14483, 12631, 12976, 13553, 13459, 13493, 15044, 17938, 14593, 12568, 14400, 13739, 17362, 16799, 16925, 13651, 15490, 15458, 15700, 15759, 16641, 18371, 17922, 17789, 16111, 21322, 18300, 17141, 16438, 16323, 17195, 16733, 15395, 13249, 14737, 15811, 14836, 15338, 18871, 18950, 20194, 18641, 17047, 14971, 14038, 16799, 13966, 12505, 10815, 11048, 9909, 9465, 9516, 9880, 9530, 9854, 9430, 8590, 9124, 10291, 9355, 10985, 12329, 11105, 10978, 12263, 11082, 9732, 10366, 9555, 8450, 7466, 8503, 9934, 9287, 8925, 9078, 9792, 10353, 9947, 10390, 10394, 9900, 10371, 11016, 11736, 13363, 12685, 15605, 15609, 11951, 12821, 14513, 13645, 13005, 14326, 13716, 13941, 13619, 15231, 13697, 14618, 13894, 15751, 16464, 15002, 15565, 17725, 15030, 16661, 14996, 17952, 16438, 17483, 18565, 16068, 15783, 15592, 18609, 20834, 15308, 14564, 17552, 13540, 13139, 12143, 13913, 14305, 15023, 14884, 14053, 13938, 13109, 12534, 13849, 13540, 15285, 12890, 11087, 11799, 11346, 10857, 9124, 9166, 8877, 9440, 11197, 11460, 8890, 8635, 9001, 9943, 10946, 12666, 9768, 13927, 10511, 9703, 9280, 9326, 7755, 8506, 8271, 7949, 7158, 8634, 9293, 11402, 12462, 10518, 10829, 9247, 9709, 10834, 10776, 10789, 13275, 14634, 14243, 1670], "ratio": 164, "solsticeLength": 38713.76656759289, "summer_sun_azimuth": 52.29155945540244, "sun_azimuth": 125.25468643384848, "totalLength": 2354316.9905454465}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

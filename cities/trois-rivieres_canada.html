@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Trois Rivieres, Canada</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [3544, 5307, 2138, 1510, 1613, 1881, 2107, 3201, 2687, 1372, 1338, 1918, 1715, 2392, 4542, 2362, 1197, 1445, 2607, 3036, 3055, 3599, 2656, 2175, 2687, 2576, 2537, 3909, 4009, 3653, 2833, 4021, 1829, 5491, 2328, 2946, 3078, 5853, 5592, 3277, 4084, 6456, 10140, 20575, 45669, 44242, 35458, 18596, 11996, 13036, 6130, 5448, 4443, 3561, 3227, 4706, 2390, 2750, 2986, 2861, 3266, 2231, 1755, 2618, 1609, 2907, 2717, 2747, 2450, 2551, 2166, 2469, 1273, 1761, 2553, 1963, 1720, 1934, 1475, 1386, 1696, 2479, 1675, 1599, 1834, 1780, 2280, 2329, 2062, 4196, 3449, 3075, 1464, 1689, 3894, 2926, 3126, 2310, 3477, 2844, 2602, 2653, 3075, 2160, 2569, 2698, 2663, 2376, 2926, 2614, 2947, 2776, 3462, 4842, 6061, 3938, 5815, 6957, 3928, 2820, 2995, 2543, 3822, 2768, 2304, 2358, 3606, 3822, 2589, 4129, 4660, 8529, 22931, 34063, 52719, 64566, 63966, 28981, 11188, 9879, 10881, 4710, 3659, 2379, 1783, 2477, 1521, 2871, 1823, 1841, 2402, 2339, 2291, 3144, 1723, 1823, 2403, 1782, 2886, 3242, 2055, 1644, 1541, 1651, 2070, 1661, 1916, 1094, 1551, 2038, 2134, 2038, 2254, 2022, 1657, 1979, 1249, 3001, 1774, 3171, 724], "ratio": 86, "solsticeLength": 8246.791394513863, "summer_sun_azimuth": 53.67014776200489, "sun_azimuth": 124.05941698947458, "totalLength": 958104.1718863896};
+var winter = {"features": [{"geometry": {"coordinates": [[-72.54047496506269, 46.36299809186704], [-72.54189117142288, 46.3636717454251]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 132, "name": "Rue des \u00celes"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.57540252322478, 46.36420223607695], [-72.57681562828078, 46.36488024822466]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 132, "name": "Rue N\u00e9r\u00e9e Beauchemin"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.60686441588173, 46.3659814626636], [-72.60835672992273, 46.36664262718591]], "type": "LineString"}, "properties": {"azimuth_d": 1.36, "length": 136, "name": "Rue Bouchard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.60201690981938, 46.39651631682955], [-72.60473482574243, 46.39772532254329]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 248, "name": "Rue Laval"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.69070540820319, 46.407181869522674], [-72.69294563946437, 46.40825307674825]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 209, "name": "Boulevard des Forges"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.60160996842029, 46.34821291758314], [-72.60341903458223, 46.349052197547906]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 167, "name": "C\u00f4te Rosemont"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.6248296004106, 46.37642489492262], [-72.62741885411994, 46.377576065504485]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 236, "name": "Rue J.-A.-Vincent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.62436851191703, 46.37382407418693], [-72.62206441055368, 46.37279435738204]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 210, "name": "Rue P.-A.-Gouin"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.61403823535082, 46.37103952213366], [-72.6115775600362, 46.369926992125414]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 225, "name": "Rue Bayard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.6115775600362, 46.369926992125414], [-72.6102403112039, 46.36931704103148]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 123, "name": "Rue Bayard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.62976855303657, 46.33695375850726], [-72.63147971856945, 46.33774266323397]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 158, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-72.5718218580081, 46.315264242941275], [-72.57512457931554, 46.31355483760808]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 317, "name": "Rue Notre-Dame Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.57402554417143, 46.313959934988446], [-72.57170417608754, 46.3151960980685]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 225, "name": "Rue Notre-Dame Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.55786758178579, 46.35802686891387], [-72.55912285560505, 46.357380791817235]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 120, "name": "Boulevard Laviolette"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.54850248137002, 46.35683253153067], [-72.55145693460062, 46.35529948144023]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 283, "name": "Rue Saint-Christophe"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.57785850467364, 46.312006532453864], [-72.5751860186658, 46.313330956974305]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 252, "name": "Rue Notre-Dame Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.5509024717057, 46.35484778067819], [-72.54788096324971, 46.35633196427315]], "type": "LineString"}, "properties": {"azimuth_d": 0.88, "length": 284, "name": "Rue Whitehead"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.54787626938392, 46.347277916284156], [-72.5453498799484, 46.34857945820892]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 242, "name": "Rue Saint-Thomas"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.55047180952064, 46.356191232118874], [-72.54904981964725, 46.35692523537978]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 136, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.5501103818558, 46.355616736475355], [-72.54847406671824, 46.356463643972006]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 157, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.57825027482798, 46.35425928725641], [-72.57682577038364, 46.35495339265819]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 133, "name": "Boulevard Chanoine-Moreau"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.54415780567906, 46.38859994455828], [-72.54277420492221, 46.38933595947594]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 134, "name": "Rue de Ch\u00e2teaudun"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.46984276249528, 46.35974557815959], [-72.4718570176469, 46.35874117470232]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 190, "name": "Boulevard B\u00e9cancour"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.5857331350671, 46.30774223921434], [-72.58218080068313, 46.30955172447145]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 339, "name": "Rue Notre-Dame Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.54553612583692, 46.34527832946306], [-72.54398354591208, 46.34608056141582]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 148, "name": "Rue Sainte-Genevi\u00e8ve"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.56300543697405, 46.33729238739548], [-72.56171026529567, 46.33797249501899]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 124, "name": "Rue Chanoine Chamberland"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.5615824412723, 46.38556351631465], [-72.5634902462536, 46.384604458953525]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 181, "name": "Rue de Paris"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.5928276617322, 46.30425872025543], [-72.58693300450639, 46.30717889150205]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 557, "name": "Rue Notre-Dame Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.57394097076842, 46.332015560252586], [-72.57257455291307, 46.332701954303474]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 129, "name": "Rue R\u00e9al-Proulx"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.58198994474787, 46.341592471361565], [-72.58332970815113, 46.34089559993171]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 128, "name": "Rue Sainte-Marguerite"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.58026654163636, 46.3424435698098], [-72.58186815569476, 46.341656425282764]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 150, "name": "Rue Sainte-Marguerite"}, "type": "Feature"}, {"geometry": {"coordinates": [[-72.54133955837503, 46.34525536304838], [-72.53995771781784, 46.34599556891762]], "type": "LineString"}, "properties": {"azimuth_d": 1.49, "length": 134, "name": "Rue de Tonnancour"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "46.294", "geonameid": "1", "group": "North, America", "left": "-72.701", "name": "Trois Rivieres, Canada", "right": "-72.467", "slug": "trois-rivieres_canada", "top": "46.428"};
+var streetIndex = ["Rue Bouchard", "Rue J.-A.-Vincent", "Boulevard Chanoine-Moreau", "Rue N\u00e9r\u00e9e Beauchemin", "Rue P.-A.-Gouin", "Rue Saint-Thomas", "Rue des \u00celes", "Rue Notre-Dame Ouest", "Rue Sainte-Genevi\u00e8ve", "Rue de Tonnancour", "Boulevard des Forges", "Boulevard Laviolette", "Rue Whitehead", "Rue Chanoine Chamberland", "Rue Bayard", "Rue de Paris", "Rue Sainte-Marguerite", "Rue de Ch\u00e2teaudun", "Rue R\u00e9al-Proulx", "Rue Laval", "Rue Saint-Christophe", "C\u00f4te Rosemont", null, "Boulevard B\u00e9cancour"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Trois Rivieres, Canada</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [3544, 5307, 2138, 1510, 1613, 1881, 2107, 3201, 2687, 1372, 1338, 1918, 1715, 2392, 4542, 2362, 1197, 1445, 2607, 3036, 3055, 3599, 2656, 2175, 2687, 2576, 2537, 3909, 4009, 3653, 2833, 4021, 1829, 5491, 2328, 2946, 3078, 5853, 5592, 3277, 4084, 6456, 10140, 20575, 45669, 44242, 35458, 18596, 11996, 13036, 6130, 5448, 4443, 3561, 3227, 4706, 2390, 2750, 2986, 2861, 3266, 2231, 1755, 2618, 1609, 2907, 2717, 2747, 2450, 2551, 2166, 2469, 1273, 1761, 2553, 1963, 1720, 1934, 1475, 1386, 1696, 2479, 1675, 1599, 1834, 1780, 2280, 2329, 2062, 4196, 3449, 3075, 1464, 1689, 3894, 2926, 3126, 2310, 3477, 2844, 2602, 2653, 3075, 2160, 2569, 2698, 2663, 2376, 2926, 2614, 2947, 2776, 3462, 4842, 6061, 3938, 5815, 6957, 3928, 2820, 2995, 2543, 3822, 2768, 2304, 2358, 3606, 3822, 2589, 4129, 4660, 8529, 22931, 34063, 52719, 64566, 63966, 28981, 11188, 9879, 10881, 4710, 3659, 2379, 1783, 2477, 1521, 2871, 1823, 1841, 2402, 2339, 2291, 3144, 1723, 1823, 2403, 1782, 2886, 3242, 2055, 1644, 1541, 1651, 2070, 1661, 1916, 1094, 1551, 2038, 2134, 2038, 2254, 2022, 1657, 1979, 1249, 3001, 1774, 3171, 724], "ratio": 86, "solsticeLength": 8246.791394513863, "summer_sun_azimuth": 53.67014776200489, "sun_azimuth": 124.05941698947458, "totalLength": 958104.1718863896}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

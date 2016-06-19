@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Evora, Portugal</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [3360, 2328, 1276, 3284, 5574, 563, 1578, 1815, 2028, 3569, 1830, 1176, 2055, 1890, 1361, 807, 1607, 427, 1820, 1173, 1514, 825, 712, 636, 1811, 653, 775, 862, 2237, 547, 1796, 1002, 1200, 1454, 1051, 1876, 5854, 3735, 1472, 1143, 1157, 1251, 1055, 2580, 1311, 2239, 1887, 2350, 2074, 1960, 953, 1387, 2391, 1543, 2141, 1070, 2997, 1532, 1192, 589, 1643, 1635, 1594, 1645, 2756, 1768, 1505, 1222, 1924, 1786, 5104, 1349, 2107, 2336, 2603, 1485, 2344, 1275, 827, 1194, 1968, 2302, 3696, 2798, 3936, 1999, 2558, 2062, 2383, 3377, 2546, 770, 2319, 853, 1630, 2169, 1271, 2143, 2744, 3548, 1207, 1357, 1400, 2290, 1568, 1752, 1960, 1099, 1003, 1255, 1550, 611, 608, 599, 246, 462, 434, 1150, 1511, 805, 1579, 1442, 1189, 802, 2558, 1973, 3113, 3105, 2385, 794, 1119, 1419, 931, 661, 1756, 1658, 1452, 2062, 1445, 1186, 1518, 1989, 1555, 2251, 2062, 1466, 2536, 1222, 1271, 1001, 1054, 1528, 1851, 1843, 3298, 1600, 1844, 1467, 2570, 1397, 1878, 2322, 2287, 2794, 1840, 2031, 1053, 1533, 981, 894, 1808, 2732, 3672, 2366, 2212, 2081, 1494, 2785, 1676, 2292, 480], "ratio": 127, "solsticeLength": 4114.479359784063, "summer_sun_azimuth": 58.599409908638464, "sun_azimuth": 119.75363841594186, "totalLength": 321634.41870370257};
+var winter = {"features": [{"geometry": {"coordinates": [[-7.900943575854369, 38.58920895057085], [-7.902210249061937, 38.58979903655427]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 128, "name": "Rua Onofre da Silva"}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.899788214320921, 38.59222366968527], [-7.905355306770701, 38.59475466916754]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 559, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.902880801315831, 38.59071584912337], [-7.900533030236915, 38.58963173376691]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 237, "name": "Rua Professor Alfredo Reis"}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.902566228489719, 38.58936879346436], [-7.901275750677114, 38.588769571206484]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 130, "name": "Rua Maria de Lurdes Braamcamp Freire"}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.925473131672618, 38.55178677038626], [-7.928125836388972, 38.55291732148629]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 262, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.926003370867363, 38.55396447264977], [-7.924428327442031, 38.553280760807894]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 156, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.928142600195314, 38.55376523481132], [-7.925022520558001, 38.55243703843445]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 309, "name": "Rua Frei Manuel Cardoso"}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.925655605704691, 38.55446126805085], [-7.924075616956486, 38.55378157952251]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 156, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.925918378369203, 38.55115745709597], [-7.929056646736399, 38.55249663376602]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 310, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-7.889644938014527, 38.5911831402253], [-7.891818365507419, 38.590101539439786]], "type": "LineString"}, "properties": {"azimuth_d": 1.07, "length": 224, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.918228233664593, 38.57523405486674], [-7.916997267364536, 38.57584417359874]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 126, "name": "Avenida Batalha do Salado"}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.920429656714077, 38.56761549161524], [-7.91900397880329, 38.56830414877999]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 145, "name": "Avenida de S\u00e3o Sebasti\u00e3o"}, "type": "Feature"}, {"geometry": {"coordinates": [[-7.918132679968409, 38.568698182048166], [-7.916616728960434, 38.56941517004563]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 154, "name": "Avenida de S\u00e3o Sebasti\u00e3o"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "38.518", "geonameid": "1", "group": "Southern, Europe", "left": "-7.957", "name": "Evora, Portugal", "right": "-7.873", "slug": "evora_portugal", "top": "38.606"};
+var streetIndex = ["Avenida Batalha do Salado", "Rua Frei Manuel Cardoso", "Avenida de S\u00e3o Sebasti\u00e3o", "Rua Maria de Lurdes Braamcamp Freire", "Rua Onofre da Silva", "Rua Professor Alfredo Reis", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Evora, Portugal</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [3360, 2328, 1276, 3284, 5574, 563, 1578, 1815, 2028, 3569, 1830, 1176, 2055, 1890, 1361, 807, 1607, 427, 1820, 1173, 1514, 825, 712, 636, 1811, 653, 775, 862, 2237, 547, 1796, 1002, 1200, 1454, 1051, 1876, 5854, 3735, 1472, 1143, 1157, 1251, 1055, 2580, 1311, 2239, 1887, 2350, 2074, 1960, 953, 1387, 2391, 1543, 2141, 1070, 2997, 1532, 1192, 589, 1643, 1635, 1594, 1645, 2756, 1768, 1505, 1222, 1924, 1786, 5104, 1349, 2107, 2336, 2603, 1485, 2344, 1275, 827, 1194, 1968, 2302, 3696, 2798, 3936, 1999, 2558, 2062, 2383, 3377, 2546, 770, 2319, 853, 1630, 2169, 1271, 2143, 2744, 3548, 1207, 1357, 1400, 2290, 1568, 1752, 1960, 1099, 1003, 1255, 1550, 611, 608, 599, 246, 462, 434, 1150, 1511, 805, 1579, 1442, 1189, 802, 2558, 1973, 3113, 3105, 2385, 794, 1119, 1419, 931, 661, 1756, 1658, 1452, 2062, 1445, 1186, 1518, 1989, 1555, 2251, 2062, 1466, 2536, 1222, 1271, 1001, 1054, 1528, 1851, 1843, 3298, 1600, 1844, 1467, 2570, 1397, 1878, 2322, 2287, 2794, 1840, 2031, 1053, 1533, 981, 894, 1808, 2732, 3672, 2366, 2212, 2081, 1494, 2785, 1676, 2292, 480], "ratio": 127, "solsticeLength": 4114.479359784063, "summer_sun_azimuth": 58.599409908638464, "sun_azimuth": 119.75363841594186, "totalLength": 321634.41870370257}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

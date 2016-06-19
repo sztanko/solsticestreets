@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Plauen, Germany</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [4146, 4945, 4842, 4890, 4561, 4018, 4175, 4234, 4082, 3237, 3389, 3225, 4587, 3380, 4354, 4801, 4168, 5070, 3699, 3233, 4812, 5668, 5296, 5070, 4293, 4829, 4545, 6029, 5614, 5152, 4822, 4733, 7006, 5563, 6292, 4360, 5851, 4675, 5946, 5408, 5029, 4880, 5609, 5847, 5985, 7772, 9883, 8500, 8591, 6586, 5225, 5136, 5098, 5148, 6583, 5657, 5526, 5662, 6271, 6089, 5512, 4720, 4747, 4507, 3602, 5194, 4291, 3512, 3762, 5176, 5467, 4792, 4464, 4377, 4749, 4371, 4341, 4403, 4198, 5022, 4249, 4230, 4761, 4441, 3479, 4077, 3658, 4472, 5766, 6039, 3608, 4257, 3610, 3690, 3400, 4753, 3883, 3692, 3074, 3549, 2483, 2991, 3491, 3163, 3945, 3473, 3216, 4692, 3577, 3942, 3150, 3698, 3861, 3468, 5039, 3781, 4246, 4238, 4053, 5192, 3726, 4159, 3489, 4266, 4400, 3437, 4262, 4750, 3955, 4555, 3824, 7488, 4534, 4926, 3915, 5175, 7841, 8636, 6591, 5749, 5549, 4439, 4618, 3425, 3667, 5822, 5600, 4950, 4793, 4974, 4096, 3814, 4103, 3550, 5504, 4662, 3381, 3902, 4891, 4059, 5128, 5137, 4015, 4133, 4046, 3742, 3682, 4160, 3137, 4641, 5128, 5045, 3469, 2981, 3730, 3607, 3679, 4558, 4906, 4643, 1056], "ratio": 149, "solsticeLength": 12525.864810821251, "summer_sun_azimuth": 49.87815992350262, "sun_azimuth": 127.3379077910807, "totalLength": 837860.404815664};
+var winter = {"features": [{"geometry": {"coordinates": [[12.095732650347259, 50.50794769853215], [12.093433829582892, 50.50907305285221]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 205, "name": "Talstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.08602581973912, 50.45629145419733], [12.084122960080663, 50.457182199047566]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 167, "name": "Taltitzer Berg"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.192078017280066, 50.49251326202843], [12.194192939088794, 50.4914434797264]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 191, "name": "Falkensteiner Landstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.196601059870545, 50.43635786352715], [12.194460154161959, 50.437388418522346]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 190, "name": "Dro\u00dfdorfer Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.119142635358628, 50.56226159290619], [12.117597096232458, 50.563011186507]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 137, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[12.097813290172013, 50.570633773072046], [12.095698284544254, 50.571682852073224]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 189, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[12.123813367083045, 50.497382896315145], [12.126620969370038, 50.496014382984015]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 250, "name": "Engelstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.097023966350179, 50.5229147601149], [12.095565934293147, 50.523658570202514]], "type": "LineString"}, "properties": {"azimuth_d": 1.38, "length": 132, "name": "Plauener Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.125179784938382, 50.495560083832004], [12.126879131987778, 50.49474519520547]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 150, "name": "Gartenstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.079242932233996, 50.44001815682401], [12.081483163495191, 50.43897008365118]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 196, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[12.206457172174225, 50.52015644341856], [12.208439743731844, 50.51923912793526]], "type": "LineString"}, "properties": {"azimuth_d": 1.3, "length": 173, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[12.206642496053377, 50.52027152694913], [12.20864149614124, 50.519334849269484]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 175, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[12.208101869214941, 50.519078782127536], [12.206172941837622, 50.51997992053773]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 169, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[12.206306968469361, 50.52006315283622], [12.208255760957199, 50.51915187232322]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 171, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[12.126139345213687, 50.49295624561116], [12.123673389300052, 50.49412443145644]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 217, "name": "Antonstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.127136540234233, 50.493519258047314], [12.12537189815913, 50.49436155549722]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 156, "name": "Trockentalstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.123631563603197, 50.494146978776], [12.12221426759561, 50.49483337282686]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 126, "name": "Antonstra\u00dfe"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[12.12520023678212, 50.50098066061431], [12.126524828940632, 50.501718268093576]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 124, "name": "Schmidstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.098280162178781, 50.53027482547253], [12.10174767170264, 50.532187240500605]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 324, "name": "Alte J\u00f6\u00dfnitzer Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.120861931337572, 50.53742492415566], [12.118192881910034, 50.535965718632184]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 248, "name": "Oberj\u00f6\u00dfnitzer Weg"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.076078679966969, 50.47238713904238], [12.074736988725988, 50.47165539889534]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 125, "name": "K\u00fcrbitzer Landstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.110967094641238, 50.47995373449422], [12.108383456807047, 50.47856334439578]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 239, "name": "Nussertweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.110513717498606, 50.49519119627334], [12.111882063191672, 50.49593198887581]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 127, "name": "Neundorfer Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.129152387947471, 50.51339023590077], [12.125911022171238, 50.51157915808207]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 305, "name": "Geibelstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.128690628901637, 50.493704162831335], [12.130093843311926, 50.49442014500042]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 127, "name": "Seminarstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.120207053242638, 50.48646085738491], [12.118710380611958, 50.485622499429496]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 141, "name": "Holbeinstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.126948031231876, 50.510899218096625], [12.129821850553952, 50.512492282613806]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 269, "name": "Lange Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.223989263766127, 50.51441106788829], [12.222360324703402, 50.51351898193351]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 152, "name": "Zum Friedhof"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.178614669126631, 50.53221045837239], [12.176216690447715, 50.53089827143057]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 223, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[12.07336906212808, 50.46497368096155], [12.074770097243514, 50.46575437142312]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 131, "name": "Uferweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.091178427076954, 50.47889082535278], [12.095354961790262, 50.481106916732806]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 384, "name": "Am Glockenberg"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.102565493995286, 50.48450502409841], [12.10402905810841, 50.485260987945615]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 133, "name": "Am Glockenberg"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.198434265913619, 50.508616322948285], [12.196908759536056, 50.50776681706165]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 143, "name": "Untere Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.171887688915689, 50.56346665912545], [12.170481037925128, 50.56273642772098]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[12.184775619416257, 50.49949086114427], [12.18315254768575, 50.49860606744525]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 151, "name": "Voigtsgr\u00fcner Weg"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.12612677235893, 50.51272848464524], [12.128941331625553, 50.51429263159645]], "type": "LineString"}, "properties": {"azimuth_d": 1.05, "length": 264, "name": "Morgenbergstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.124235647364912, 50.51166599459896], [12.12612677235893, 50.51272848464524]], "type": "LineString"}, "properties": {"azimuth_d": 1.36, "length": 178, "name": "Morgenbergstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.180082675648435, 50.430436970944406], [12.187342661082168, 50.43427848098787]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 668, "name": "Theumaer Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.130690886274976, 50.48903996899139], [12.129348859757869, 50.48831275507206]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 124, "name": "D\u00fcrerstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.12495623958074, 50.4898529297802], [12.12358085308901, 50.48908632091596]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 129, "name": "Stra\u00dfberger Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[12.109673264067396, 50.53737555474598], [12.108031333054726, 50.53650224425433]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 151, "name": "Zum Plattenteich"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "50.430", "geonameid": "1", "group": "Western, Europe", "left": "12.059", "name": "Plauen, Germany", "right": "12.226", "slug": "plauen_germany", "top": "50.574"};
+var streetIndex = ["Lange Stra\u00dfe", "Theumaer Stra\u00dfe", "Talstra\u00dfe", "D\u00fcrerstra\u00dfe", "Uferweg", "Stra\u00dfberger Stra\u00dfe", "Zum Friedhof", "Falkensteiner Landstra\u00dfe", "Holbeinstra\u00dfe", "Schmidstra\u00dfe", "Engelstra\u00dfe", "Am Glockenberg", "Neundorfer Stra\u00dfe", "Taltitzer Berg", "Seminarstra\u00dfe", "Trockentalstra\u00dfe", "Dro\u00dfdorfer Stra\u00dfe", "Untere Stra\u00dfe", "Alte J\u00f6\u00dfnitzer Stra\u00dfe", "Morgenbergstra\u00dfe", "Voigtsgr\u00fcner Weg", "Geibelstra\u00dfe", "K\u00fcrbitzer Landstra\u00dfe", "Antonstra\u00dfe", "Nussertweg", "Oberj\u00f6\u00dfnitzer Weg", "Zum Plattenteich", "Gartenstra\u00dfe", "Plauener Stra\u00dfe", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Plauen, Germany</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [4146, 4945, 4842, 4890, 4561, 4018, 4175, 4234, 4082, 3237, 3389, 3225, 4587, 3380, 4354, 4801, 4168, 5070, 3699, 3233, 4812, 5668, 5296, 5070, 4293, 4829, 4545, 6029, 5614, 5152, 4822, 4733, 7006, 5563, 6292, 4360, 5851, 4675, 5946, 5408, 5029, 4880, 5609, 5847, 5985, 7772, 9883, 8500, 8591, 6586, 5225, 5136, 5098, 5148, 6583, 5657, 5526, 5662, 6271, 6089, 5512, 4720, 4747, 4507, 3602, 5194, 4291, 3512, 3762, 5176, 5467, 4792, 4464, 4377, 4749, 4371, 4341, 4403, 4198, 5022, 4249, 4230, 4761, 4441, 3479, 4077, 3658, 4472, 5766, 6039, 3608, 4257, 3610, 3690, 3400, 4753, 3883, 3692, 3074, 3549, 2483, 2991, 3491, 3163, 3945, 3473, 3216, 4692, 3577, 3942, 3150, 3698, 3861, 3468, 5039, 3781, 4246, 4238, 4053, 5192, 3726, 4159, 3489, 4266, 4400, 3437, 4262, 4750, 3955, 4555, 3824, 7488, 4534, 4926, 3915, 5175, 7841, 8636, 6591, 5749, 5549, 4439, 4618, 3425, 3667, 5822, 5600, 4950, 4793, 4974, 4096, 3814, 4103, 3550, 5504, 4662, 3381, 3902, 4891, 4059, 5128, 5137, 4015, 4133, 4046, 3742, 3682, 4160, 3137, 4641, 5128, 5045, 3469, 2981, 3730, 3607, 3679, 4558, 4906, 4643, 1056], "ratio": 149, "solsticeLength": 12525.864810821251, "summer_sun_azimuth": 49.87815992350262, "sun_azimuth": 127.3379077910807, "totalLength": 837860.404815664}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

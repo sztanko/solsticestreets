@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Vancouver, Canada</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [276305, 349038, 58168, 10170, 5343, 4632, 4138, 2957, 3452, 4616, 4467, 3491, 2613, 3534, 4477, 3006, 3300, 1837, 2633, 2515, 3081, 2440, 2494, 3294, 2331, 1841, 2461, 3220, 2769, 2182, 3337, 8955, 13144, 8569, 3807, 3628, 2767, 1945, 2285, 2041, 1818, 2039, 3019, 6980, 30819, 7961, 3243, 2390, 2294, 2207, 2336, 2297, 3125, 3380, 4165, 9390, 4522, 4230, 5095, 4876, 3889, 11282, 6862, 5330, 2653, 2796, 2541, 2097, 2568, 2994, 3558, 3286, 3210, 3203, 4055, 4233, 4870, 4448, 4470, 3806, 4362, 4559, 7523, 4306, 5855, 6630, 5547, 8968, 13991, 109416, 462658, 486244, 79427, 31028, 9097, 6974, 4810, 5712, 5077, 11532, 7525, 6442, 5245, 5341, 10777, 6908, 4649, 3609, 3909, 6693, 4767, 5719, 8730, 8868, 6055, 3645, 5345, 6187, 4999, 4872, 7026, 12769, 15354, 18935, 14294, 11436, 7249, 3603, 4640, 3715, 5515, 4433, 4275, 6677, 35331, 15385, 4040, 3210, 3031, 2976, 2675, 3400, 3214, 4530, 3490, 3134, 4937, 3753, 3138, 4619, 5989, 10735, 7209, 4825, 3310, 3156, 2264, 2268, 2847, 2535, 3593, 3034, 2754, 2353, 2373, 2445, 4037, 3627, 3827, 2605, 2683, 2328, 3079, 3236, 4085, 3278, 4252, 6626, 17625, 88633, 5244], "ratio": 84, "solsticeLength": 23968.14517467447, "summer_sun_azimuth": 51.1803935453735, "sun_azimuth": 126.21238823851098, "totalLength": 2847347.2749491143};
+var winter = {"features": [{"geometry": {"coordinates": [[-123.07121326736828, 49.31647533366183], [-123.0730664223409, 49.31731603855013]], "type": "LineString"}, "properties": {"azimuth_d": 1.46, "length": 163, "name": "East Keith Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.07850661277665, 49.31643359178403], [-123.07608466185467, 49.31533279644026]], "type": "LineString"}, "properties": {"azimuth_d": 1.41, "length": 214, "name": "West 5th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.08581873364811, 49.31722509490069], [-123.08737257085843, 49.31794719585909]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 138, "name": "West 3rd Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.02619523888977, 49.235633721571986], [-123.0316335014878, 49.238139994439905]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 483, "name": "Vanness Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.05896211005181, 49.243995843454], [-123.06049624978965, 49.24473152309554]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 138, "name": "Wenonah Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.05592492743689, 49.243085149674215], [-123.05450805052442, 49.24243404343567]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 125, "name": "Saint Lawrence Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.02712495958978, 49.23503927699891], [-123.02887811845757, 49.23585299215901]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 156, "name": "Crowley Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.05686780772487, 49.2399473842212], [-123.05825828164232, 49.2406219597886]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 125, "name": "East 30th Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.2196704350734, 49.26623546332527], [-123.2236679323349, 49.26813245565148]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 358, "name": "Chancellor Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.22378092038967, 49.26804142818304], [-123.21967797878625, 49.26608165540202]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 369, "name": "Chancellor Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.14583592639855, 49.205638997246524], [-123.14427295291377, 49.204912872974596]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 139, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.23748667318289, 49.24674091674333], [-123.23614003661902, 49.246085284277115]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 121, "name": "Southwest Marine Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.22183724086277, 49.26659554988561], [-123.22418761033165, 49.26775392890417]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 213, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.0541881132803, 49.240627659482755], [-123.05710468030856, 49.24197815172209]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 259, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.05451936609373, 49.24189634434711], [-123.05632030180958, 49.242714082820726]], "type": "LineString"}, "properties": {"azimuth_d": 1.42, "length": 159, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.06037731058362, 49.24408041685703], [-123.05890326909153, 49.24337399005756]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 132, "name": "Galt Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.05671341306841, 49.24234527908109], [-123.05451651624664, 49.24134439602312]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 194, "name": "Galt Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.0848533060406, 49.25498862564706], [-123.08682540021925, 49.25592496805055]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 177, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.20121801051303, 49.24746628664397], [-123.20457622001949, 49.24910276941957]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 304, "name": "West 29th Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.04403737708009, 49.21595066598769], [-123.04712384528565, 49.21741305663437]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 277, "name": "Rosemont Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.07228045128034, 49.24841386079773], [-123.06517553105532, 49.245122538878604]], "type": "LineString"}, "properties": {"azimuth_d": 0.88, "length": 632, "name": "Kingsway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.06070621646414, 49.24310627207021], [-123.06517502814111, 49.24523225799115]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 401, "name": "Kingsway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.0580892186553, 49.241815291343414], [-123.05646824240058, 49.241054465992356]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 144, "name": "Kingsway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.04882344379216, 49.23766775801511], [-123.05743744186455, 49.24166584200984]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 767, "name": "Kingsway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.05171310491124, 49.23885857499897], [-123.05027493796473, 49.238175617528384]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 129, "name": "Kingsway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.05412097423586, 49.239978229624874], [-123.05211493334936, 49.23905563354256]], "type": "LineString"}, "properties": {"azimuth_d": 1.07, "length": 178, "name": "Kingsway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.22595116275937, 49.269265018408305], [-123.22729084234358, 49.269914364447146]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 121, "name": "Chancellor Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.02084968014086, 49.23319425247237], [-123.0223679780817, 49.23391476086916]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 136, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.07810151539626, 49.2518365271396], [-123.08178142234657, 49.25358826108384]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 330, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.23545163091141, 49.2460049856447], [-123.23734786886632, 49.246899837627495]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 169, "name": "Southwest Marine Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.06517427376983, 49.24461073987081], [-123.06221780888247, 49.243202496318645]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 265, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.11155067347661, 49.238502260295064], [-123.11439607814694, 49.239838922394135]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 254, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.22896454076927, 49.27053739131003], [-123.22607856768761, 49.26917927153883]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 258, "name": "Chancellor Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.05843656472283, 49.241369457913635], [-123.05694056264443, 49.24067769944472]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.05869380533123, 49.240842152384964], [-123.06211462765441, 49.24247989244605]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 308, "name": "East 30th Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.06271887905417, 49.24287979304645], [-123.06519967093642, 49.24407563917222]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 223, "name": "East 30th Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.05778034552337, 49.24227763712247], [-123.06031687706175, 49.24345504306126]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 226, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.07820897139494, 49.25131877698058], [-123.08973333388724, 49.25672636181298]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 1030, "name": "Kingsway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.06517502814111, 49.24523225799115], [-123.07129742167615, 49.24807263351954]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 545, "name": "Kingsway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.06517553105532, 49.245122538878604], [-123.05920652634836, 49.24230739287873]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 534, "name": "Kingsway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.08977583013635, 49.25663776509643], [-123.07988057434486, 49.25198756903481]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 885, "name": "Kingsway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.23694914173237, 49.26627351716567], [-123.23540821265293, 49.26551327854784]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 140, "name": "University Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.08857990019155, 49.318982528539095], [-123.08718481622734, 49.318348437564026]], "type": "LineString"}, "properties": {"azimuth_d": 1.41, "length": 123, "name": "West 4th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.14909766019947, 49.20737245864185], [-123.14738934451368, 49.20653653143836]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 155, "name": "West 75th Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.14704627321679, 49.20638557336221], [-123.14417957851242, 49.20502284354424]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 257, "name": "West 75th Avenue"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-123.11742420830642, 49.26684264839116], [-123.11579065919695, 49.26768813096427]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 151, "name": "Commodore Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.19967875781424, 49.19650481826321], [-123.19786315376783, 49.197438562276716]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.11187505312944, 49.275363858795394], [-123.1101050466363, 49.276252424350844]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 162, "name": "Pacific Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.112465558208, 49.26909209974582], [-123.11399827302233, 49.26832465269126]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 140, "name": "West 1st Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-123.12318374925307, 49.24405895918491], [-123.12190676630458, 49.244753986596066]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 120, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "49.195", "geonameid": "1", "group": "North, America", "left": "-123.290", "name": "Vancouver, Canada", "right": "-123.020", "slug": "vancouver_canada", "top": "49.320"};
+var streetIndex = ["University Boulevard", "Wenonah Street", "Pacific Boulevard", "Rosemont Drive", "West 4th Street", "Commodore Road", "West 75th Avenue", "Vanness Avenue", "West 5th Street", "West 29th Avenue", "Chancellor Boulevard", "East 30th Avenue", "East Keith Road", "Saint Lawrence Street", "West 1st Avenue", "Kingsway", "Crowley Drive", "Southwest Marine Drive", "Galt Street", "West 3rd Street", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Vancouver, Canada</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [276305, 349038, 58168, 10170, 5343, 4632, 4138, 2957, 3452, 4616, 4467, 3491, 2613, 3534, 4477, 3006, 3300, 1837, 2633, 2515, 3081, 2440, 2494, 3294, 2331, 1841, 2461, 3220, 2769, 2182, 3337, 8955, 13144, 8569, 3807, 3628, 2767, 1945, 2285, 2041, 1818, 2039, 3019, 6980, 30819, 7961, 3243, 2390, 2294, 2207, 2336, 2297, 3125, 3380, 4165, 9390, 4522, 4230, 5095, 4876, 3889, 11282, 6862, 5330, 2653, 2796, 2541, 2097, 2568, 2994, 3558, 3286, 3210, 3203, 4055, 4233, 4870, 4448, 4470, 3806, 4362, 4559, 7523, 4306, 5855, 6630, 5547, 8968, 13991, 109416, 462658, 486244, 79427, 31028, 9097, 6974, 4810, 5712, 5077, 11532, 7525, 6442, 5245, 5341, 10777, 6908, 4649, 3609, 3909, 6693, 4767, 5719, 8730, 8868, 6055, 3645, 5345, 6187, 4999, 4872, 7026, 12769, 15354, 18935, 14294, 11436, 7249, 3603, 4640, 3715, 5515, 4433, 4275, 6677, 35331, 15385, 4040, 3210, 3031, 2976, 2675, 3400, 3214, 4530, 3490, 3134, 4937, 3753, 3138, 4619, 5989, 10735, 7209, 4825, 3310, 3156, 2264, 2268, 2847, 2535, 3593, 3034, 2754, 2353, 2373, 2445, 4037, 3627, 3827, 2605, 2683, 2328, 3079, 3236, 4085, 3278, 4252, 6626, 17625, 88633, 5244], "ratio": 84, "solsticeLength": 23968.14517467447, "summer_sun_azimuth": 51.1803935453735, "sun_azimuth": 126.21238823851098, "totalLength": 2847347.2749491143}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

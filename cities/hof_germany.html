@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Hof, Germany</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2437, 2615, 2786, 2613, 2404, 3458, 2514, 2021, 2386, 2676, 2098, 2595, 2171, 1815, 2416, 2263, 2317, 1988, 2323, 2836, 1980, 2013, 2597, 1997, 2928, 2628, 1827, 2382, 3456, 2853, 2558, 1952, 1473, 2300, 1919, 2130, 2448, 2108, 2043, 2501, 2303, 3621, 2030, 2471, 3193, 1920, 3079, 2167, 2762, 1877, 2506, 2737, 1967, 2052, 2519, 2641, 2856, 2859, 3508, 4464, 4202, 4372, 4108, 4569, 3909, 4261, 3348, 3435, 4495, 3594, 4578, 3478, 4835, 3318, 3684, 3151, 4222, 3325, 4207, 2680, 3353, 4474, 4167, 3633, 4538, 4008, 3970, 3593, 3465, 4007, 4757, 5167, 4266, 3470, 3322, 3131, 2618, 2949, 2348, 1928, 2856, 3214, 2898, 2766, 3616, 3685, 2688, 2059, 2031, 2430, 2814, 2497, 3028, 2237, 1948, 3207, 3040, 3907, 5446, 3479, 2392, 2424, 1518, 2370, 1865, 2463, 2926, 3277, 2087, 2597, 2339, 2370, 2739, 2838, 3009, 3529, 2791, 2483, 3468, 1884, 1978, 2692, 2900, 2189, 3043, 3178, 3120, 3710, 3254, 2812, 3344, 2766, 2441, 2887, 1940, 2628, 3491, 3013, 2538, 3131, 3892, 3542, 2783, 2956, 3589, 3239, 2723, 2969, 3429, 2947, 3252, 3277, 3137, 2911, 3069, 2890, 3050, 3606, 2835, 2826, 576], "ratio": 165, "solsticeLength": 8770.666221061907, "summer_sun_azimuth": 50.11019169489171, "sun_azimuth": 127.1650766843227, "totalLength": 531154.5633825265};
+var winter = {"features": [{"geometry": {"coordinates": [[11.932788452654137, 50.31199372212302], [11.935270920917047, 50.310831152152865]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 218, "name": "Ascher Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.92955085873433, 50.310509454709056], [11.928039350135066, 50.31127908105844]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 137, "name": "Rauschenbachstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.888973478738137, 50.29751658278076], [11.890894946221636, 50.296600692221]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 170, "name": "S\u00fcdring"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.959691344355974, 50.3022222670414], [11.955582367782256, 50.304206095884524]], "type": "LineString"}, "properties": {"azimuth_d": 0.07, "length": 365, "name": "Hauptstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.967246121324337, 50.29888484465482], [11.965755232206845, 50.2996288223805]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 134, "name": "Ringstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.841110464684476, 50.3363091203152], [11.842810482286124, 50.33548383812873]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[11.92194537125178, 50.28722503060723], [11.920451045554016, 50.287939084938586]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[11.879139746115925, 50.28801175603911], [11.885319220411589, 50.28505596170398]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 548, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[11.914784292275499, 50.307966552924285], [11.912188333043616, 50.30918226416057]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 228, "name": "Hans-B\u00f6ckler-Stra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.894406963651333, 50.28275403963545], [11.892900316555881, 50.28347815225061]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 133, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[11.917573454375514, 50.288976680732446], [11.916181890810634, 50.28825717816403]], "type": "LineString"}, "properties": {"azimuth_d": 0.88, "length": 127, "name": "Stelzenhofstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.889171459291106, 50.30102667237273], [11.887112863871662, 50.299971977496426]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 187, "name": "Faunapark"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.902067771694815, 50.309766398992736], [11.8990907711447, 50.30822035695237]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 272, "name": "Mozartstra\u00dfe"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.843258327372695, 50.33146077606255], [11.841715218998445, 50.33060976143335]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 144, "name": "Am Steinbruch"}, "type": "Feature"}, {"geometry": {"coordinates": [[11.941534465701523, 50.33881178896476], [11.943046896310136, 50.33960999760396]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 139, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[11.906209437690933, 50.33890642065159], [11.907707451426091, 50.33972348857293]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 139, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[11.966623765013708, 50.347611949106636], [11.96845839598032, 50.34859036866408]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 169, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "50.267", "geonameid": "1", "group": "Western, Europe", "left": "11.806", "name": "Hof, Germany", "right": "11.972", "slug": "hof_germany", "top": "50.355"};
+var streetIndex = ["Stelzenhofstra\u00dfe", "Mozartstra\u00dfe", "Faunapark", "Ringstra\u00dfe", "Hauptstra\u00dfe", "Rauschenbachstra\u00dfe", "Ascher Stra\u00dfe", "Hans-B\u00f6ckler-Stra\u00dfe", "S\u00fcdring", "Am Steinbruch", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Hof, Germany</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2437, 2615, 2786, 2613, 2404, 3458, 2514, 2021, 2386, 2676, 2098, 2595, 2171, 1815, 2416, 2263, 2317, 1988, 2323, 2836, 1980, 2013, 2597, 1997, 2928, 2628, 1827, 2382, 3456, 2853, 2558, 1952, 1473, 2300, 1919, 2130, 2448, 2108, 2043, 2501, 2303, 3621, 2030, 2471, 3193, 1920, 3079, 2167, 2762, 1877, 2506, 2737, 1967, 2052, 2519, 2641, 2856, 2859, 3508, 4464, 4202, 4372, 4108, 4569, 3909, 4261, 3348, 3435, 4495, 3594, 4578, 3478, 4835, 3318, 3684, 3151, 4222, 3325, 4207, 2680, 3353, 4474, 4167, 3633, 4538, 4008, 3970, 3593, 3465, 4007, 4757, 5167, 4266, 3470, 3322, 3131, 2618, 2949, 2348, 1928, 2856, 3214, 2898, 2766, 3616, 3685, 2688, 2059, 2031, 2430, 2814, 2497, 3028, 2237, 1948, 3207, 3040, 3907, 5446, 3479, 2392, 2424, 1518, 2370, 1865, 2463, 2926, 3277, 2087, 2597, 2339, 2370, 2739, 2838, 3009, 3529, 2791, 2483, 3468, 1884, 1978, 2692, 2900, 2189, 3043, 3178, 3120, 3710, 3254, 2812, 3344, 2766, 2441, 2887, 1940, 2628, 3491, 3013, 2538, 3131, 3892, 3542, 2783, 2956, 3589, 3239, 2723, 2969, 3429, 2947, 3252, 3277, 3137, 2911, 3069, 2890, 3050, 3606, 2835, 2826, 576], "ratio": 165, "solsticeLength": 8770.666221061907, "summer_sun_azimuth": 50.11019169489171, "sun_azimuth": 127.1650766843227, "totalLength": 531154.5633825265}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

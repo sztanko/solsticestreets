@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Maastricht, Netherlands</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [11902, 13192, 15405, 10879, 9301, 7492, 7606, 7040, 6174, 8664, 6010, 6791, 8399, 7988, 6705, 7237, 6595, 6269, 5781, 5654, 6448, 6105, 5982, 5275, 5618, 8622, 12038, 9422, 6149, 5058, 6406, 8177, 5374, 7208, 7852, 5422, 5775, 5397, 5658, 5314, 4625, 6785, 6383, 6140, 5223, 5526, 5612, 6470, 4965, 5905, 6114, 7458, 3501, 7250, 6543, 5736, 7373, 10623, 5235, 7508, 6394, 6966, 6150, 6460, 4866, 5322, 4221, 4381, 3605, 3759, 4934, 5289, 6132, 4230, 4674, 4794, 5641, 5911, 5784, 5098, 5525, 5326, 5350, 6628, 6701, 5609, 7356, 7122, 6041, 7207, 12603, 12690, 7423, 7831, 5185, 5061, 4865, 4747, 7015, 6337, 4338, 3517, 4219, 5817, 5226, 5515, 4298, 4352, 4753, 4375, 5643, 5325, 5119, 4780, 5319, 5483, 6527, 7886, 6264, 6575, 5569, 7354, 4769, 5696, 5100, 7195, 6262, 5602, 4537, 5191, 5775, 5412, 3755, 4888, 4718, 5483, 5753, 7739, 5229, 6322, 5736, 5367, 4831, 5806, 4463, 5299, 8340, 7697, 5124, 7351, 8831, 6456, 7125, 7833, 7505, 5621, 5662, 4845, 8385, 5628, 5637, 5158, 6923, 8190, 5300, 5337, 5979, 6484, 6134, 7013, 6616, 7379, 7289, 7049, 7174, 7064, 7175, 7631, 9071, 11703, 2701], "ratio": 140, "solsticeLength": 16215.931431418965, "summer_sun_azimuth": 49.493323160002014, "sun_azimuth": 127.69382894873007, "totalLength": 1153274.5202931543};
+var winter = {"features": [{"geometry": {"coordinates": [[5.735529937773094, 50.89299992510669], [5.734129992305043, 50.89367994891117]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 123, "name": "Prunislaan"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.722969991143714, 50.80597992836862], [5.721509947429921, 50.80670999213503]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 130, "name": "Veilingweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.733009918583974, 50.812269959967125], [5.730879993168542, 50.81332993544245]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 190, "name": "Pius XII straat"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.733419626011083, 50.813131032880136], [5.731952038584438, 50.81381667255974]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 128, "name": "Kampweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.71474826613985, 50.81088686212445], [5.712988653206622, 50.81172714791759]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 155, "name": "Schaapbroekweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.707439833305756, 50.865061533086816], [5.705979957230028, 50.86577994600779]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 129, "name": "Populierweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.672489979281209, 50.844869947436955], [5.670899932249199, 50.84567997455966]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 143, "name": "Resedastraat"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.733571170820483, 50.89466934876176], [5.73121233562938, 50.8957911826825]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 207, "name": "Papenweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.665142151502209, 50.81271998434852], [5.653823564732846, 50.81814282424468]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 998, "name": "Trekweg Cavei"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.661703224268194, 50.881268445786986], [5.663345825833118, 50.88050535732208]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 143, "name": "Europark"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.669845572648995, 50.81162069774729], [5.655431884313771, 50.81855873428014]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 1273, "name": "Trekweg Neercanne"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.733105639918221, 50.89119396024892], [5.735257023005772, 50.890172960623374]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 188, "name": "Iepenlaan"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.634953050842171, 50.797517139829495], [5.637007958224189, 50.796568559847344]], "type": "LineString"}, "properties": {"azimuth_d": 1.46, "length": 178, "name": "Kalderstraat"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.657502298216656, 50.815556085106294], [5.659143223400946, 50.814768018569936]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.656033285866471, 50.892538333698916], [5.652473994502856, 50.894230639949654]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 312, "name": "Maastrichterweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.721464433695672, 50.871572679291006], [5.718649622971952, 50.87292828449127]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 248, "name": "Limmelderweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.768771476111851, 50.8799925524859], [5.767277066595028, 50.88070886993111]], "type": "LineString"}, "properties": {"azimuth_d": 0.45, "length": 131, "name": "Houthemerweg"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[5.735369927241521, 50.89185998627511], [5.736649927675131, 50.892579991757714]], "type": "LineString"}, "properties": {"azimuth_d": 1.22, "length": 120, "name": "Lindenlaan"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.729420536187973, 50.86772505045826], [5.731969975857226, 50.86906992682244]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 233, "name": "Westrand"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.687009950148706, 50.879759954672835], [5.688739974963709, 50.88073996679188]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 163, "name": "Van Hamalstraat"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.687439941781491, 50.87908998915219], [5.689569951015955, 50.88019992077042]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 193, "name": "Adam van Harenstraat"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.659519989948592, 50.86411999390332], [5.660959917094772, 50.86488995552884]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 132, "name": "Escalijnruwe"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.660399922143739, 50.863239977889116], [5.661869940322304, 50.86403994672801]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 136, "name": "Roosnobelruwe"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.661779918682242, 50.86213993691663], [5.663099984613041, 50.862869916864014]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 123, "name": "Reaalruwe"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.661049938734863, 50.862869916864014], [5.662359946381827, 50.863579947881846]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 121, "name": "Peerdekensruwe"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.643285584605991, 50.89094912485723], [5.640637825212507, 50.889538618191175]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 243, "name": "Pieter Paul Rubensstraat"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.748454581009554, 50.81501369215195], [5.749896519812495, 50.815777954083295]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.665587398198795, 50.84362657592021], [5.667116424975716, 50.844477925825544]], "type": "LineString"}, "properties": {"azimuth_d": 0.95, "length": 143, "name": "Palembangweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.676570876479303, 50.897838043437474], [5.674602470338044, 50.89680849427069]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 179, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.753162193107926, 50.82097138128961], [5.7566651580822, 50.82283182851799]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 321, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.679704283342659, 50.8578298784858], [5.681100456954282, 50.85858483650463]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 129, "name": "Fort Willemweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.690037493574977, 50.85855206326323], [5.688178555089138, 50.8575163953071]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 174, "name": "Noorderbrug"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.688289950582316, 50.85745998509873], [5.690681223738692, 50.85877485424955]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 222, "name": "Noorderbrug"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.735290382980395, 50.8878849525141], [5.738213823169247, 50.88942956963091]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 267, "name": "Oude Rijksweg"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.683979975970516, 50.88176993505385], [5.685699942501714, 50.88266998381661]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 156, "name": "Baron de Rosenstraat"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.661572550397722, 50.890169524043074], [5.659561564188323, 50.88909119219979]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 185, "name": "Europalaan"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.659952999066519, 50.86367541775899], [5.661419999759971, 50.86446993836083]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 135, "name": "Oboolruwe"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.660163384836181, 50.895574175209326], [5.658768719967155, 50.89482885637915]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 128, "name": "De Merodelaan"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.657227790887731, 50.887475999458246], [5.65532476359121, 50.88642826156157]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 177, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.654242324615382, 50.88498799913926], [5.652948074946352, 50.8842781357595]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 120, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.759815747847057, 50.88834947758798], [5.761297333052028, 50.889159420891616]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 137, "name": "Vogelzang"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.663087579396318, 50.889235696210505], [5.659359057407642, 50.887159498794425]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 348, "name": "Industrieweg"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "50.789", "geonameid": "1", "group": "Western, Europe", "left": "5.631", "name": "Maastricht, Netherlands", "right": "5.773", "slug": "maastricht_netherlands", "top": "50.914"};
+var streetIndex = ["Houthemerweg", "Baron de Rosenstraat", "Oude Rijksweg", "Resedastraat", "Veilingweg", "Limmelderweg", "Papenweg", "Roosnobelruwe", "Vogelzang", "Schaapbroekweg", "Westrand", "De Merodelaan", "Prunislaan", "Populierweg", "Maastrichterweg", "Kalderstraat", "Pius XII straat", "Trekweg Cavei", "Escalijnruwe", "Fort Willemweg", "Industrieweg", "Iepenlaan", "Peerdekensruwe", "Trekweg Neercanne", "Lindenlaan", "Reaalruwe", "Kampweg", "Europark", "Noorderbrug", "Palembangweg", "Pieter Paul Rubensstraat", "Adam van Harenstraat", "Europalaan", "Van Hamalstraat", "Oboolruwe", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Maastricht, Netherlands</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [11902, 13192, 15405, 10879, 9301, 7492, 7606, 7040, 6174, 8664, 6010, 6791, 8399, 7988, 6705, 7237, 6595, 6269, 5781, 5654, 6448, 6105, 5982, 5275, 5618, 8622, 12038, 9422, 6149, 5058, 6406, 8177, 5374, 7208, 7852, 5422, 5775, 5397, 5658, 5314, 4625, 6785, 6383, 6140, 5223, 5526, 5612, 6470, 4965, 5905, 6114, 7458, 3501, 7250, 6543, 5736, 7373, 10623, 5235, 7508, 6394, 6966, 6150, 6460, 4866, 5322, 4221, 4381, 3605, 3759, 4934, 5289, 6132, 4230, 4674, 4794, 5641, 5911, 5784, 5098, 5525, 5326, 5350, 6628, 6701, 5609, 7356, 7122, 6041, 7207, 12603, 12690, 7423, 7831, 5185, 5061, 4865, 4747, 7015, 6337, 4338, 3517, 4219, 5817, 5226, 5515, 4298, 4352, 4753, 4375, 5643, 5325, 5119, 4780, 5319, 5483, 6527, 7886, 6264, 6575, 5569, 7354, 4769, 5696, 5100, 7195, 6262, 5602, 4537, 5191, 5775, 5412, 3755, 4888, 4718, 5483, 5753, 7739, 5229, 6322, 5736, 5367, 4831, 5806, 4463, 5299, 8340, 7697, 5124, 7351, 8831, 6456, 7125, 7833, 7505, 5621, 5662, 4845, 8385, 5628, 5637, 5158, 6923, 8190, 5300, 5337, 5979, 6484, 6134, 7013, 6616, 7379, 7289, 7049, 7174, 7064, 7175, 7631, 9071, 11703, 2701], "ratio": 140, "solsticeLength": 16215.931431418965, "summer_sun_azimuth": 49.493323160002014, "sun_azimuth": 127.69382894873007, "totalLength": 1153274.5202931543}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

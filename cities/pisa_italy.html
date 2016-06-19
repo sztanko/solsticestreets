@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Pisa, Italy</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [3340, 3284, 3713, 3396, 2837, 3757, 2608, 2352, 1923, 3222, 2711, 2696, 2365, 1845, 2556, 2003, 2256, 2318, 3377, 4035, 4071, 7531, 4239, 5091, 5637, 7497, 7114, 4993, 3088, 2417, 5731, 3475, 2100, 2287, 2006, 1755, 1842, 2175, 1478, 2108, 2542, 942, 970, 1285, 1000, 2016, 2386, 1127, 1775, 1636, 1840, 1844, 1457, 1166, 1191, 1318, 1797, 1290, 1370, 1125, 2130, 1347, 1502, 1289, 1678, 2082, 1217, 832, 744, 1250, 1062, 934, 2229, 2099, 1447, 918, 1688, 2158, 3762, 3208, 7776, 2572, 2406, 3278, 2110, 1656, 1179, 1440, 2996, 2232, 2956, 2544, 3180, 2398, 2916, 4556, 2986, 2531, 2668, 3783, 2002, 2488, 2175, 2359, 3643, 2538, 3675, 2704, 2412, 2893, 5806, 5923, 6291, 6029, 5987, 9149, 10104, 4434, 4129, 2937, 3295, 4490, 4353, 1975, 1451, 1630, 3093, 1346, 1719, 2409, 1441, 877, 1506, 1406, 1292, 1239, 1112, 1222, 1327, 1879, 1796, 2875, 1601, 1277, 1249, 1158, 1628, 1129, 1469, 1757, 1162, 2093, 1595, 1694, 2222, 1576, 1179, 1448, 1599, 1236, 1648, 1286, 1813, 3841, 1846, 1893, 2089, 2201, 2056, 2892, 2578, 3116, 4744, 5439, 3049, 1878, 3142, 2624, 2761, 2531, 194], "ratio": 239, "solsticeLength": 11188.863824703414, "summer_sun_azimuth": 55.61307703368506, "sun_azimuth": 122.3650792828262, "totalLength": 467232.8568316837};
+var winter = {"features": [{"geometry": {"coordinates": [[10.405520199027478, 43.71389625277333], [10.403735775660863, 43.714716589636936]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 170, "name": "Lungarno Galileo Galilei"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.409465393213168, 43.712909283674655], [10.410828374488233, 43.712269828281556]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 130, "name": "Via del Borghetto"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.432837072927043, 43.713813439569975], [10.435142096299757, 43.712720187939055]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 221, "name": "Via Pungilupo"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.426165664734155, 43.72144893426591], [10.427558234127389, 43.72081777695694]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 132, "name": "Via Ugo Foscolo"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.425721256227888, 43.720996479132594], [10.42699899354767, 43.72041586469976]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 121, "name": "Via Galileo Galilei"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.427841123359514, 43.721211055853836], [10.426516447381971, 43.72181597780587]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 125, "name": "Via G. Giusti"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.415858186944575, 43.69848251957046], [10.418669141992865, 43.69712548944667]], "type": "LineString"}, "properties": {"azimuth_d": 1.36, "length": 271, "name": "Via Ettore Socci"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.417029138817924, 43.703176552985695], [10.419105168595932, 43.70224188696284]], "type": "LineString"}, "properties": {"azimuth_d": 0.45, "length": 196, "name": "Lungarno Guadalongo"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.43565272184108, 43.69675341676481], [10.43800409713836, 43.69571079182904]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 221, "name": "Lungarno Guadalongo"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.370132893476296, 43.68704558032828], [10.372126780603223, 43.68616053517217]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 188, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.428211184384622, 43.7222093405218], [10.429693440141818, 43.721554881522025]], "type": "LineString"}, "properties": {"azimuth_d": 0.95, "length": 139, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.438784536142833, 43.729288947399255], [10.43747058900135, 43.72988129649653]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 124, "name": "Via Giacomo Puccini"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.407208398145656, 43.71447477173038], [10.408494517368581, 43.71388862524145]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 122, "name": "Lungarno Mediceo"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.436741363425256, 43.69611748177104], [10.432977972719385, 43.69778522904548]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 354, "name": "Via Fiorentina"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.421365432605711, 43.70106205027213], [10.416910031973826, 43.70310086440006]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 424, "name": "Via Fiorentina"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.426322993056715, 43.71968689058076], [10.428314617069788, 43.71881835777393]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 186, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.428402124138897, 43.718941990845735], [10.426572857590315, 43.71974422279848]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 172, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.428488625379657, 43.71906185206112], [10.426665142344262, 43.719852265530385]], "type": "LineString"}, "properties": {"azimuth_d": 1.42, "length": 170, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.358851941452173, 43.7205517353502], [10.360563190804072, 43.7197569632913]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 163, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.436035774816132, 43.688881384761345], [10.434651754964108, 43.689521426887666]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 132, "name": "Strada di Grande Comunicazione Firenze-Pisa-Livorno"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.439759686758038, 43.68718505519709], [10.43711662123036, 43.68838936704506]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 251, "name": "Strada di Grande Comunicazione Firenze-Pisa-Livorno"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.435663199220071, 43.68895003254832], [10.438157821242555, 43.687813446478]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 237, "name": "Strada di Grande Comunicazione Firenze-Pisa-Livorno"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.439562963490573, 43.68716954867622], [10.442309461703443, 43.68587705920686]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 263, "name": "Strada di Grande Comunicazione Firenze-Pisa-Livorno"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.438157821242555, 43.687813446478], [10.439562963490573, 43.68716954867622]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 133, "name": "Strada di Grande Comunicazione Firenze-Pisa-Livorno"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.435247037727493, 43.69668912756748], [10.436705991793872, 43.69604129027118]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 137, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[10.442393448373224, 43.68599407057516], [10.440762581472768, 43.68673327061603]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 154, "name": "Strada di Grande Comunicazione Firenze-Pisa-Livorno"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[10.38959449917877, 43.72286849338738], [10.388213077716728, 43.72214781735252]], "type": "LineString"}, "properties": {"azimuth_d": 1.41, "length": 136, "name": "Via Andrea Pisano"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.372021922994518, 43.70550647061085], [10.36483687177514, 43.702111632187496]], "type": "LineString"}, "properties": {"azimuth_d": 1.22, "length": 690, "name": "Lungarno Gabriele D\u0027Annunzio"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.358403174356255, 43.69612058307521], [10.356588073224032, 43.69522103722662]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 176, "name": "Lungarno Gabriele D\u0027Annunzio"}, "type": "Feature"}, {"geometry": {"coordinates": [[10.39448726751823, 43.71536769587544], [10.392756823608067, 43.71449187081285]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 169, "name": "Lungarno Ranieri Simonelli"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "43.670", "geonameid": "1", "group": "Southern, Europe", "left": "10.356", "name": "Pisa, Italy", "right": "10.444", "slug": "pisa_italy", "top": "43.737"};
+var streetIndex = ["Lungarno Gabriele D\u0027Annunzio", "Via Galileo Galilei", "Lungarno Galileo Galilei", "Via Giacomo Puccini", "Lungarno Mediceo", "Lungarno Ranieri Simonelli", "Via Pungilupo", "Strada di Grande Comunicazione Firenze-Pisa-Livorno", "Via del Borghetto", "Via Andrea Pisano", "Via Fiorentina", "Via Ugo Foscolo", "Via Ettore Socci", "Via G. Giusti", "Lungarno Guadalongo", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Pisa, Italy</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [3340, 3284, 3713, 3396, 2837, 3757, 2608, 2352, 1923, 3222, 2711, 2696, 2365, 1845, 2556, 2003, 2256, 2318, 3377, 4035, 4071, 7531, 4239, 5091, 5637, 7497, 7114, 4993, 3088, 2417, 5731, 3475, 2100, 2287, 2006, 1755, 1842, 2175, 1478, 2108, 2542, 942, 970, 1285, 1000, 2016, 2386, 1127, 1775, 1636, 1840, 1844, 1457, 1166, 1191, 1318, 1797, 1290, 1370, 1125, 2130, 1347, 1502, 1289, 1678, 2082, 1217, 832, 744, 1250, 1062, 934, 2229, 2099, 1447, 918, 1688, 2158, 3762, 3208, 7776, 2572, 2406, 3278, 2110, 1656, 1179, 1440, 2996, 2232, 2956, 2544, 3180, 2398, 2916, 4556, 2986, 2531, 2668, 3783, 2002, 2488, 2175, 2359, 3643, 2538, 3675, 2704, 2412, 2893, 5806, 5923, 6291, 6029, 5987, 9149, 10104, 4434, 4129, 2937, 3295, 4490, 4353, 1975, 1451, 1630, 3093, 1346, 1719, 2409, 1441, 877, 1506, 1406, 1292, 1239, 1112, 1222, 1327, 1879, 1796, 2875, 1601, 1277, 1249, 1158, 1628, 1129, 1469, 1757, 1162, 2093, 1595, 1694, 2222, 1576, 1179, 1448, 1599, 1236, 1648, 1286, 1813, 3841, 1846, 1893, 2089, 2201, 2056, 2892, 2578, 3116, 4744, 5439, 3049, 1878, 3142, 2624, 2761, 2531, 194], "ratio": 239, "solsticeLength": 11188.863824703414, "summer_sun_azimuth": 55.61307703368506, "sun_azimuth": 122.3650792828262, "totalLength": 467232.8568316837}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

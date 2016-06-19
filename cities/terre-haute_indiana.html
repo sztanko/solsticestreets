@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Terre Haute, Indiana</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [160502, 30326, 10806, 5715, 5745, 4952, 4468, 2793, 2351, 2770, 3550, 2259, 4023, 2755, 3844, 3550, 3233, 2750, 2943, 1330, 1755, 5837, 2976, 2854, 1923, 2657, 2509, 2458, 2196, 3197, 8760, 5848, 4689, 2714, 2425, 2126, 2943, 2238, 1843, 2179, 1430, 1277, 2085, 1682, 1844, 1872, 1574, 2144, 1760, 1466, 910, 1841, 1066, 1822, 2505, 1782, 2410, 2445, 2539, 2015, 1854, 2141, 3060, 2747, 6918, 2821, 2437, 2711, 3234, 4798, 3095, 2509, 2944, 4647, 4594, 2314, 1911, 4464, 5092, 2882, 2619, 1700, 2643, 3587, 3101, 4151, 6653, 12233, 36347, 223081, 210160, 37421, 13372, 4410, 3620, 4413, 3472, 3039, 1589, 2765, 1795, 1948, 3552, 3489, 2322, 2391, 1613, 1738, 2148, 1615, 861, 1155, 1345, 2724, 895, 2027, 2103, 2025, 2173, 2407, 1213, 1222, 2306, 1658, 957, 2233, 4000, 1929, 2740, 2689, 1943, 1298, 1049, 2265, 5860, 4279, 2373, 1897, 2027, 1662, 2761, 3281, 1799, 2924, 1824, 1950, 2545, 2487, 1767, 1696, 1557, 1210, 2572, 1770, 2286, 2624, 2762, 2144, 1861, 1948, 2316, 2174, 1940, 4487, 3248, 1882, 2684, 2893, 4801, 2622, 2513, 3051, 3039, 4267, 3839, 5345, 6361, 16693, 53065, 250862, 29974], "ratio": 34, "solsticeLength": 5258.69489800504, "summer_sun_azimuth": 58.18026852003146, "sun_azimuth": 120.11745527227176, "totalLength": 1546651.3597420496};
+var winter = {"features": [{"geometry": {"coordinates": [[-87.33237002655406, 39.539961941115195], [-87.3302790769884, 39.539045966736374]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 206, "name": "Planett Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.49107901621167, 39.52900394382033], [-87.48958401996164, 39.528354933057614]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 147, "name": "Yuma Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.48500607590536, 39.4931759178003], [-87.48341904635849, 39.49244392619616]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 158, "name": "Gannon Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.48401022198932, 39.47488157593378], [-87.48276844303416, 39.47433147162852]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 122, "name": "Old Paris Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.4347200212823, 39.54733592043209], [-87.43052001724013, 39.54553599054461]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 412, "name": "Pennington Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.44856575185851, 39.40720483242535], [-87.4455964626593, 39.40586062661342]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 295, "name": "West Oak Grove Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.42363151775503, 39.43096853375064], [-87.4221555484252, 39.4302829778901]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 147, "name": "Honey Creek Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.37672923744313, 39.400723777253546], [-87.37501153402577, 39.39999002544974]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 168, "name": "Davidson"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.36785783112428, 39.397183261353035], [-87.36656601220717, 39.39662192529752]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 127, "name": "McDaniel Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-87.49560633357278, 39.44639777347439], [-87.49399407449735, 39.447133956030115]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 160, "name": "West Old US Hwy 40"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.44818403998799, 39.421275868558865], [-87.45134602914116, 39.419702920609325]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 323, "name": "Justice Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.4877680806391, 39.5078319269563], [-87.48972106407852, 39.506934979497686]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 195, "name": "West Concannon Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.43250007422681, 39.52741792010184], [-87.43625013770664, 39.52560776429249]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 379, "name": "Bolton Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.41962806934227, 39.40319291829039], [-87.4231245802511, 39.40142106777853]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 359, "name": "West Rigney Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.29622306911828, 39.57795878458137], [-87.29783692075532, 39.577151858762846]], "type": "LineString"}, "properties": {"azimuth_d": 1.05, "length": 164, "name": "Greencastle Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.30656801401504, 39.57259998242545], [-87.31281001730835, 39.569618288009536]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 629, "name": "Greencastle Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.50519145894685, 39.44462785080029], [-87.5021594731119, 39.446036848723736]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 303, "name": "West National Ave"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.3872982306117, 39.562158980918326], [-87.38502371736652, 39.563192888674784]], "type": "LineString"}, "properties": {"azimuth_d": 1.38, "length": 226, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.3851417345632, 39.56341618257531], [-87.38748062082476, 39.56233265395207]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 233, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.50378941800302, 39.44554608829293], [-87.50534694325071, 39.444806133880775]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 157, "name": "W National Ave"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.50007330123104, 39.44724727936102], [-87.5018909169342, 39.44639249287539]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 182, "name": "W National Ave"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.50163057502164, 39.44627732552578], [-87.4999337425432, 39.44705994382511]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 169, "name": "West National Ave"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.46852105165789, 39.37593698082688], [-87.47012107315467, 39.375136928168985]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 163, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.29124312898578, 39.433541526567836], [-87.29443680173297, 39.43204686559392]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 320, "name": "East Margaret Drive"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "39.367", "geonameid": "1", "group": "North, America", "left": "-87.508", "name": "Terre Haute, Indiana", "right": "-87.280", "slug": "terre-haute_indiana", "top": "39.578"};
+var streetIndex = ["Planett Road", "Greencastle Road", "McDaniel Road", "Yuma Road", "Gannon Road", "West National Ave", "Pennington Road", "West Old US Hwy 40", "West Concannon Avenue", "West Oak Grove Drive", "West Rigney Drive", "W National Ave", "Bolton Road", "Davidson", "East Margaret Drive", "Justice Road", "Honey Creek Drive", "Old Paris Road", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Terre Haute, Indiana</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [160502, 30326, 10806, 5715, 5745, 4952, 4468, 2793, 2351, 2770, 3550, 2259, 4023, 2755, 3844, 3550, 3233, 2750, 2943, 1330, 1755, 5837, 2976, 2854, 1923, 2657, 2509, 2458, 2196, 3197, 8760, 5848, 4689, 2714, 2425, 2126, 2943, 2238, 1843, 2179, 1430, 1277, 2085, 1682, 1844, 1872, 1574, 2144, 1760, 1466, 910, 1841, 1066, 1822, 2505, 1782, 2410, 2445, 2539, 2015, 1854, 2141, 3060, 2747, 6918, 2821, 2437, 2711, 3234, 4798, 3095, 2509, 2944, 4647, 4594, 2314, 1911, 4464, 5092, 2882, 2619, 1700, 2643, 3587, 3101, 4151, 6653, 12233, 36347, 223081, 210160, 37421, 13372, 4410, 3620, 4413, 3472, 3039, 1589, 2765, 1795, 1948, 3552, 3489, 2322, 2391, 1613, 1738, 2148, 1615, 861, 1155, 1345, 2724, 895, 2027, 2103, 2025, 2173, 2407, 1213, 1222, 2306, 1658, 957, 2233, 4000, 1929, 2740, 2689, 1943, 1298, 1049, 2265, 5860, 4279, 2373, 1897, 2027, 1662, 2761, 3281, 1799, 2924, 1824, 1950, 2545, 2487, 1767, 1696, 1557, 1210, 2572, 1770, 2286, 2624, 2762, 2144, 1861, 1948, 2316, 2174, 1940, 4487, 3248, 1882, 2684, 2893, 4801, 2622, 2513, 3051, 3039, 4267, 3839, 5345, 6361, 16693, 53065, 250862, 29974], "ratio": 34, "solsticeLength": 5258.69489800504, "summer_sun_azimuth": 58.18026852003146, "sun_azimuth": 120.11745527227176, "totalLength": 1546651.3597420496}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Santander, Spain</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [4026, 4362, 4454, 4938, 4874, 6334, 4431, 3937, 3659, 3436, 3743, 3238, 4200, 3759, 3818, 4332, 3172, 2767, 3530, 3908, 4109, 4225, 4522, 3426, 3148, 3442, 4103, 5757, 4757, 4002, 2946, 3414, 2940, 4424, 4369, 4256, 4055, 3748, 4783, 4801, 3934, 4668, 4588, 6335, 5084, 4111, 5010, 5174, 5374, 4443, 5824, 5164, 5063, 7536, 7079, 6152, 7703, 6185, 4701, 6086, 7407, 8065, 8623, 8849, 8846, 9918, 13709, 11636, 14793, 19072, 11507, 9812, 10263, 12437, 13858, 15943, 9229, 7784, 8223, 7652, 8233, 9500, 9677, 8824, 9031, 9544, 8383, 8322, 7735, 5866, 6250, 4922, 7159, 10164, 5518, 9834, 7009, 4589, 4469, 4902, 4160, 4375, 4949, 4016, 4088, 3964, 4019, 4312, 3142, 4520, 10819, 3824, 3439, 3557, 2920, 3419, 4343, 5895, 3933, 3246, 3187, 3358, 3896, 2646, 3104, 3100, 2700, 3124, 3719, 4004, 3034, 3170, 4034, 4609, 3572, 3709, 3567, 3759, 4176, 3455, 4208, 3500, 3636, 3685, 4224, 4199, 4026, 3527, 3886, 4425, 4654, 6229, 7192, 5315, 5639, 5982, 5457, 6853, 9079, 10686, 8537, 6722, 6322, 6688, 8278, 8140, 6356, 5194, 6032, 4631, 6014, 6601, 6517, 5891, 5796, 5780, 5536, 4957, 5675, 3960, 1045], "ratio": 95, "solsticeLength": 9816.446078185845, "summer_sun_azimuth": 55.75895621397819, "sun_azimuth": 122.23279217898138, "totalLength": 1027943.8963398075};
+var winter = {"features": [{"geometry": {"coordinates": [[-3.849536343881794, 43.41935667817023], [-3.850815422306084, 43.419942070287874]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 122, "name": "Calle del Marqu\u00e9s de Villapuente"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.865161301044651, 43.42337999169354], [-3.863881049153918, 43.42280809444]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.832369870906319, 43.410751062001026], [-3.829002441306358, 43.40918046098437]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 323, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.859400251355424, 43.42174677786016], [-3.858097368326127, 43.421159876999944]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 123, "name": "Las Portillonas-Santa Cruz de Bezana"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.740518880455141, 43.396635769418765], [-3.743094723119412, 43.397828765697454]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 246, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.833996965950348, 43.46127063644649], [-3.832729119276337, 43.46069186603236]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 120, "name": "Calle de Emilio Diaz Caneja"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.739634170575187, 43.38437908004619], [-3.742114040448115, 43.38547995920902]], "type": "LineString"}, "properties": {"azimuth_d": 0.76, "length": 234, "name": "Avenida de Santander"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.747000438541164, 43.3876520455974], [-3.74565665182439, 43.38704486053149]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 127, "name": "Avenida de Santander"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-3.833616511365307, 43.44403459367467], [-3.829236631681027, 43.446140043932814]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 424, "name": "Calle de Pe\u00f1a Prieta"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.821710604640543, 43.4173093983201], [-3.823086074951334, 43.41662577029729]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.847566345178933, 43.418314472329655], [-3.846299001419084, 43.418929033470334]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 123, "name": "Calle del Marqu\u00e9s de Villapuente"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.84976885787583, 43.41732171971776], [-3.847704143667102, 43.418376079317966]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 203, "name": "Calle de Jos\u00e9 Palazuelos"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.797672982719547, 43.47362371770555], [-3.796370267328314, 43.47426493329834]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 127, "name": "Calle de Marino Fern\u00e1ndez Fontecha"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.837338076374351, 43.430639725670176], [-3.839200702897557, 43.4296731245962]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 184, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.838401656068044, 43.42878288266013], [-3.836860475531523, 43.42957195502489]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 152, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.872651118263406, 43.451430952673036], [-3.875008528530941, 43.450250277792]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 231, "name": "Avenida de Albert Einstein"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.860696428862183, 43.40912572715666], [-3.859328250807152, 43.40983148340385]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 135, "name": "Barrio El Crucero"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.77689902243722, 43.46758589757354], [-3.778746980629876, 43.46669599091362]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 179, "name": "Avenida de la Reina Victoria"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.829098833192859, 43.446070138860364], [-3.832843113159498, 43.44426224616487]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 363, "name": "Calle de Pe\u00f1a Prieta"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.779656752400342, 43.46621579168081], [-3.776467270604741, 43.46773216178391]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 307, "name": "Avenida de la Reina Victoria"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.823739528122729, 43.44854405758201], [-3.821060755687511, 43.44983428393752]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 259, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.821092271643436, 43.44989698057327], [-3.82378755642793, 43.44859108005883]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 261, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.827840709526498, 43.446712192643446], [-3.824825319859826, 43.448153544713165]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 291, "name": "Calle de Pe\u00f1a Prieta"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.824451403159258, 43.44843987052556], [-3.827996110011355, 43.446712192643446]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 344, "name": "Calle de Pe\u00f1a Prieta"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.827752951000292, 43.444632642466104], [-3.824589117828395, 43.44615798120563]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 306, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.87390010565528, 43.38419694129024], [-3.87097867712319, 43.38563955064543]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 285, "name": "Barrio Cianca"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.836158155864609, 43.384884592626605], [-3.831724380542909, 43.387133960162224]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 437, "name": "Barrio Santa Ana"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.875806904808229, 43.449738227327146], [-3.874453562721839, 43.450430572529285]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 133, "name": "Avenida de Albert Einstein"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.874453562721839, 43.450430572529285], [-3.872611555680407, 43.451361466695744]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 181, "name": "Avenida de Albert Einstein"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.869424504636754, 43.4048539740233], [-3.867479735462439, 43.40585049849159]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 192, "name": "Malia\u00f1o-Puente Arce"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.827003441218494, 43.413138563300976], [-3.825607183787866, 43.41382671755153]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 136, "name": "Avenida de Juan Carlos I"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.821378178360703, 43.4161268794204], [-3.82013656704359, 43.41674957100716]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 121, "name": "Avenida de Juan Carlos I"}, "type": "Feature"}, {"geometry": {"coordinates": [[-3.8329532513672, 43.4441239447625], [-3.829187765185509, 43.44594709252178]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 365, "name": "Calle de Pe\u00f1a Prieta"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "43.383", "geonameid": "1", "group": "Southern, Europe", "left": "-3.886", "name": "Santander, Spain", "right": "-3.737", "slug": "santander_spain", "top": "43.500"};
+var streetIndex = ["Calle de Emilio Diaz Caneja", "Barrio El Crucero", "Calle de Marino Fern\u00e1ndez Fontecha", "Avenida de Santander", "Calle de Jos\u00e9 Palazuelos", "Las Portillonas-Santa Cruz de Bezana", "Avenida de Juan Carlos I", "Avenida de Albert Einstein", "Avenida de la Reina Victoria", "Malia\u00f1o-Puente Arce", "Barrio Cianca", "Calle de Pe\u00f1a Prieta", "Calle del Marqu\u00e9s de Villapuente", "Barrio Santa Ana", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Santander, Spain</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [4026, 4362, 4454, 4938, 4874, 6334, 4431, 3937, 3659, 3436, 3743, 3238, 4200, 3759, 3818, 4332, 3172, 2767, 3530, 3908, 4109, 4225, 4522, 3426, 3148, 3442, 4103, 5757, 4757, 4002, 2946, 3414, 2940, 4424, 4369, 4256, 4055, 3748, 4783, 4801, 3934, 4668, 4588, 6335, 5084, 4111, 5010, 5174, 5374, 4443, 5824, 5164, 5063, 7536, 7079, 6152, 7703, 6185, 4701, 6086, 7407, 8065, 8623, 8849, 8846, 9918, 13709, 11636, 14793, 19072, 11507, 9812, 10263, 12437, 13858, 15943, 9229, 7784, 8223, 7652, 8233, 9500, 9677, 8824, 9031, 9544, 8383, 8322, 7735, 5866, 6250, 4922, 7159, 10164, 5518, 9834, 7009, 4589, 4469, 4902, 4160, 4375, 4949, 4016, 4088, 3964, 4019, 4312, 3142, 4520, 10819, 3824, 3439, 3557, 2920, 3419, 4343, 5895, 3933, 3246, 3187, 3358, 3896, 2646, 3104, 3100, 2700, 3124, 3719, 4004, 3034, 3170, 4034, 4609, 3572, 3709, 3567, 3759, 4176, 3455, 4208, 3500, 3636, 3685, 4224, 4199, 4026, 3527, 3886, 4425, 4654, 6229, 7192, 5315, 5639, 5982, 5457, 6853, 9079, 10686, 8537, 6722, 6322, 6688, 8278, 8140, 6356, 5194, 6032, 4631, 6014, 6601, 6517, 5891, 5796, 5780, 5536, 4957, 5675, 3960, 1045], "ratio": 95, "solsticeLength": 9816.446078185845, "summer_sun_azimuth": 55.75895621397819, "sun_azimuth": 122.23279217898138, "totalLength": 1027943.8963398075}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

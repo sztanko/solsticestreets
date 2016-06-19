@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Bahia Blanca, Argentina</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [6996, 6594, 3734, 1730, 2583, 3019, 2032, 2711, 3004, 1143, 2414, 2441, 3968, 3693, 10655, 9127, 2169, 10124, 1535, 2626, 3020, 2717, 2256, 2304, 1680, 3368, 3540, 5335, 3054, 2351, 2177, 2179, 3315, 4820, 4570, 3166, 6230, 2697, 2185, 3587, 5405, 14070, 49117, 237500, 446890, 69355, 16128, 6345, 6771, 4451, 2838, 3998, 4005, 6485, 4784, 3686, 3685, 4016, 3533, 3098, 4179, 5894, 1707, 4830, 3000, 4269, 2171, 5195, 20786, 4327, 4759, 4038, 4421, 7256, 1977, 11783, 7073, 25092, 31409, 4615, 5609, 5479, 3132, 4197, 4620, 2489, 3077, 3149, 10433, 13720, 6534, 5823, 2438, 3915, 3770, 4767, 9029, 7800, 7613, 3358, 6574, 2095, 6437, 4801, 11171, 6158, 9504, 3573, 1730, 2411, 4998, 8154, 4920, 5322, 10075, 4281, 6668, 9084, 6449, 4173, 3407, 5427, 5806, 3015, 7471, 2410, 2390, 2211, 2981, 2988, 5746, 17097, 35272, 152056, 518828, 116900, 22014, 9003, 5484, 5803, 6729, 2953, 3712, 3301, 4177, 3559, 8496, 6040, 3983, 2249, 2551, 2792, 6988, 3952, 2780, 2534, 2396, 1964, 3052, 7083, 2733, 1924, 4019, 4459, 3999, 2718, 7848, 30357, 30914, 10354, 4194, 2769, 6876, 16301, 2084, 1807, 3245, 4622, 6398, 10135, 592], "ratio": 56, "solsticeLength": 14704.930127947031, "summer_sun_azimuth": 60.098247110673576, "sun_azimuth": 121.52965152468526, "totalLength": 2597359.9441761547};
+var winter = {"features": [{"geometry": {"coordinates": [[-62.31369134990997, -38.72178023146151], [-62.31521484463081, -38.72107707360428]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 153, "name": "Sargento Mayor Iturra"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.31642653255356, -38.72043460072601], [-62.318972535642516, -38.71923456364868]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 258, "name": "Sargento Mayor Iturra"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.32023376061303, -38.71862570220213], [-62.32671448050872, -38.715485338359144]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 662, "name": "Colorados del Monte"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.314077923284344, -38.72204283648793], [-62.31555523371867, -38.72133925953554]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 150, "name": "Colorados del Monte"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.174968505455425, -38.758873505765564], [-62.16756016033552, -38.762540504584955]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 761, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.16672507132235, -38.762822723264804], [-62.17443977500324, -38.7590215301756]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 791, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.33719303294207, -38.70600842335506], [-62.33602224870679, -38.70659716823397]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 120, "name": "Camino Acceso a Puertos"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.501171473667775, -38.712371880425366], [-62.492652777834465, -38.716222778200375]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 854, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.483597640198056, -38.66416830964576], [-62.48589361111534, -38.66304572135374]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 235, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.17198940942949, -38.76092874842371], [-62.17442108335916, -38.759775063270915]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 246, "name": "El Benteveo"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.16757130826674, -38.74328400405315], [-62.16564380581296, -38.74420215772679]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 195, "name": "Capit\u00e1n Osvaldo Bruno Poletti"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.25696807746869, -38.655630670711275], [-62.262343140516776, -38.65309187605905]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 545, "name": "Camino de Circunvalaci\u00f3n"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.158596553081765, -38.762616947541886], [-62.155458033257474, -38.76420380945069]], "type": "LineString"}, "properties": {"azimuth_d": 1.45, "length": 324, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.4695536776118, -38.65212913066054], [-62.47107700469455, -38.65142530225105]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 153, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.04916401780996, -38.92570095537994], [-62.05356812119442, -38.92356885066971]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 448, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.04435800216834, -38.92440586752059], [-62.04806062407619, -38.92260803310892]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 377, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.04270911417603, -38.92760230629582], [-62.05208284795208, -38.92305822512835]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 955, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.04353171415349, -38.92321471526063], [-62.04545628294115, -38.92224283358766]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 198, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.052822215631004, -38.925252439741115], [-62.04430284924546, -38.92940475075425]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 869, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.04199883170112, -38.926531015251214], [-62.0449226071661, -38.9251203409471]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 297, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.925093243016896, -38.955278847660566], [-61.923880800722856, -38.95588787674515]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 124, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.91995563928573, -38.95790070697324], [-61.91152126539834, -38.96211982175467]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 867, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-62.29152331149183, -38.705865847182075], [-62.29294924085971, -38.7065077333271]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 142, "name": "Francia"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.13947357626752, -38.62564583703158], [-62.1375668609336, -38.624831283681175]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 188, "name": "Camino de la Carrindanga"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.281218264454175, -38.69542694115074], [-62.28241193128512, -38.695988444844346]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 120, "name": "Cuyo"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.24790304918655, -38.760542342687415], [-62.24669337292054, -38.759998105714345]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 121, "name": "Magallanes"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.24519217406217, -38.759460741901904], [-62.24385802653404, -38.75889856765605]], "type": "LineString"}, "properties": {"azimuth_d": 1.46, "length": 131, "name": "Magallanes"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.24247333612977, -38.75833354356314], [-62.24001618121445, -38.75726577291786]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 243, "name": "Magallanes"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.24342451450189, -38.75956518041545], [-62.2447546387165, -38.760140011335096]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 131, "name": "Juan Plunkett"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.02928943573815, -38.652656268551134], [-62.027683211633004, -38.65194472879073]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 160, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.98813932029811, -38.62979404091214], [-61.986862840263804, -38.629190962978804]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 129, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.454093341027274, -38.741951281448564], [-62.456582430993684, -38.7431227362361]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 252, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.41451022238552, -38.714874129979734], [-62.429884644462504, -38.72148736776461]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 1523, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.26869603638907, -38.70023865648653], [-62.27088262346995, -38.70126242214016]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 221, "name": "C\u00f3rdoba"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.17762313800951, -38.683570739111815], [-62.17908225971396, -38.68421974987453]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 145, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.23860408198681, -38.67889682226419], [-62.23731393945034, -38.678287709360575]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 130, "name": "Trelew"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.35471305459342, -38.841270463808286], [-62.35225263073586, -38.840228425605765]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 242, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.30911826735754, -38.727345144616464], [-62.311344836116554, -38.728381650762884]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 224, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.38068572268105, -38.711590016497325], [-62.37573696322837, -38.709335871276856]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 497, "name": "Joaqu\u00edn Gonz\u00e1lez"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.13517240265403, -38.75852431567935], [-62.13348403589779, -38.75777472207855]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 168, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.29256266748535, -38.77991627368269], [-62.29467624818958, -38.780836271374994]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 209, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.022671923182656, -38.71125423745619], [-62.02902012518918, -38.71396033489577]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 627, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.22356342729419, -38.678208919470734], [-62.22189308162977, -38.67746301390733]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.22190590594163, -38.67454351321296], [-62.219378259220626, -38.67338085942376]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 254, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.249999530808296, -38.68703724280729], [-62.24059402961923, -38.68274671421082]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 945, "name": "Camino de la Carrindanga"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.24044231717179, -38.7692384834109], [-62.238570051459924, -38.76839735942744]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 187, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.239075815497415, -38.76721358324224], [-62.2369316408466, -38.76630020725344]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 211, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.29419705478514, -38.688043071188105], [-62.29551787508723, -38.68861102894715]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 130, "name": "Mar\u00eda Mazzarello"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.293230872806326, -38.695279419654895], [-62.29201365282747, -38.69470936642005]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 123, "name": "Jos\u00e9 Hern\u00e1ndez"}, "type": "Feature"}, {"geometry": {"coordinates": [[-62.64684182620574, -38.785457801327794], [-62.64382643653908, -38.78408953945373]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 302, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "-38.964", "geonameid": "1", "group": "South, America", "left": "-62.652", "name": "Bahia Blanca, Argentina", "right": "-61.845", "slug": "bahia-blanca_argentina", "top": "-38.608"};
+var streetIndex = ["Magallanes", "Trelew", "Jos\u00e9 Hern\u00e1ndez", "Juan Plunkett", "Mar\u00eda Mazzarello", "Francia", "Colorados del Monte", "Cuyo", "El Benteveo", "Camino de la Carrindanga", "Joaqu\u00edn Gonz\u00e1lez", "Camino Acceso a Puertos", "Camino de Circunvalaci\u00f3n", "C\u00f3rdoba", "Capit\u00e1n Osvaldo Bruno Poletti", "Sargento Mayor Iturra", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Bahia Blanca, Argentina</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [6996, 6594, 3734, 1730, 2583, 3019, 2032, 2711, 3004, 1143, 2414, 2441, 3968, 3693, 10655, 9127, 2169, 10124, 1535, 2626, 3020, 2717, 2256, 2304, 1680, 3368, 3540, 5335, 3054, 2351, 2177, 2179, 3315, 4820, 4570, 3166, 6230, 2697, 2185, 3587, 5405, 14070, 49117, 237500, 446890, 69355, 16128, 6345, 6771, 4451, 2838, 3998, 4005, 6485, 4784, 3686, 3685, 4016, 3533, 3098, 4179, 5894, 1707, 4830, 3000, 4269, 2171, 5195, 20786, 4327, 4759, 4038, 4421, 7256, 1977, 11783, 7073, 25092, 31409, 4615, 5609, 5479, 3132, 4197, 4620, 2489, 3077, 3149, 10433, 13720, 6534, 5823, 2438, 3915, 3770, 4767, 9029, 7800, 7613, 3358, 6574, 2095, 6437, 4801, 11171, 6158, 9504, 3573, 1730, 2411, 4998, 8154, 4920, 5322, 10075, 4281, 6668, 9084, 6449, 4173, 3407, 5427, 5806, 3015, 7471, 2410, 2390, 2211, 2981, 2988, 5746, 17097, 35272, 152056, 518828, 116900, 22014, 9003, 5484, 5803, 6729, 2953, 3712, 3301, 4177, 3559, 8496, 6040, 3983, 2249, 2551, 2792, 6988, 3952, 2780, 2534, 2396, 1964, 3052, 7083, 2733, 1924, 4019, 4459, 3999, 2718, 7848, 30357, 30914, 10354, 4194, 2769, 6876, 16301, 2084, 1807, 3245, 4622, 6398, 10135, 592], "ratio": 56, "solsticeLength": 14704.930127947031, "summer_sun_azimuth": 60.098247110673576, "sun_azimuth": 121.52965152468526, "totalLength": 2597359.9441761547}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

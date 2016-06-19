@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Algiers, Algeria</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [544, 353, 230, 472, 731, 430, 632, 760, 301, 560, 426, 546, 330, 448, 454, 568, 456, 761, 462, 278, 334, 336, 242, 417, 422, 218, 361, 383, 255, 438, 361, 570, 460, 597, 561, 427, 504, 495, 439, 270, 676, 602, 195, 427, 398, 650, 675, 811, 401, 513, 796, 542, 452, 564, 652, 503, 806, 555, 616, 594, 694, 577, 386, 641, 918, 281, 460, 1202, 952, 550, 349, 380, 456, 362, 389, 499, 475, 998, 583, 322, 718, 602, 787, 513, 410, 522, 950, 656, 376, 457, 970, 450, 832, 781, 793, 746, 375, 520, 654, 549, 697, 505, 411, 669, 721, 757, 449, 865, 736, 968, 565, 834, 647, 1091, 801, 774, 868, 856, 469, 629, 400, 654, 663, 743, 581, 772, 907, 778, 853, 617, 755, 684, 1185, 887, 839, 401, 1077, 764, 438, 462, 529, 576, 430, 832, 575, 644, 519, 475, 995, 571, 676, 550, 428, 619, 578, 830, 1151, 869, 1264, 532, 974, 556, 753, 480, 153, 543, 464, 739, 412, 577, 401, 454, 651, 200, 386, 773, 381, 532, 467, 352, 100], "ratio": 184, "solsticeLength": 1957.2020765381465, "summer_sun_azimuth": 59.47509480174746, "sun_azimuth": 119.00254983367223, "totalLength": 106249.50054479133};
+var winter = {"features": [{"geometry": {"coordinates": [[3.034933457437745, 36.7605382714797], [3.033037219482793, 36.76135441739168]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 191, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[3.056209996634379, 36.76170025471663], [3.055000571825474, 36.76114604327881]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 124, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "36.744", "geonameid": "1", "group": "Africa", "left": "3.026", "name": "Algiers, Algeria", "right": "3.058", "slug": "algiers_algeria", "top": "36.762"};
+var streetIndex = [null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Algiers, Algeria</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [544, 353, 230, 472, 731, 430, 632, 760, 301, 560, 426, 546, 330, 448, 454, 568, 456, 761, 462, 278, 334, 336, 242, 417, 422, 218, 361, 383, 255, 438, 361, 570, 460, 597, 561, 427, 504, 495, 439, 270, 676, 602, 195, 427, 398, 650, 675, 811, 401, 513, 796, 542, 452, 564, 652, 503, 806, 555, 616, 594, 694, 577, 386, 641, 918, 281, 460, 1202, 952, 550, 349, 380, 456, 362, 389, 499, 475, 998, 583, 322, 718, 602, 787, 513, 410, 522, 950, 656, 376, 457, 970, 450, 832, 781, 793, 746, 375, 520, 654, 549, 697, 505, 411, 669, 721, 757, 449, 865, 736, 968, 565, 834, 647, 1091, 801, 774, 868, 856, 469, 629, 400, 654, 663, 743, 581, 772, 907, 778, 853, 617, 755, 684, 1185, 887, 839, 401, 1077, 764, 438, 462, 529, 576, 430, 832, 575, 644, 519, 475, 995, 571, 676, 550, 428, 619, 578, 830, 1151, 869, 1264, 532, 974, 556, 753, 480, 153, 543, 464, 739, 412, 577, 401, 454, 651, 200, 386, 773, 381, 532, 467, 352, 100], "ratio": 184, "solsticeLength": 1957.2020765381465, "summer_sun_azimuth": 59.47509480174746, "sun_azimuth": 119.00254983367223, "totalLength": 106249.50054479133}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

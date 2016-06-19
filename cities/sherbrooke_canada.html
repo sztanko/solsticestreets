@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Sherbrooke, Canada</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [53590, 26841, 6864, 6322, 4927, 7920, 6143, 4692, 4089, 2566, 3148, 4227, 2439, 2729, 3565, 3695, 4143, 3712, 3676, 3648, 2065, 2613, 4305, 3111, 3694, 5275, 3926, 5006, 3697, 3930, 3945, 2886, 2999, 3373, 4258, 4767, 7086, 5193, 5067, 4336, 5459, 3452, 3317, 3264, 4129, 3596, 3335, 4270, 4091, 6495, 9628, 11928, 3487, 2858, 3111, 3247, 3990, 2854, 2759, 3527, 6121, 4425, 4457, 4707, 4908, 3952, 4454, 7039, 4946, 3011, 4172, 4701, 5297, 3991, 3429, 3246, 3393, 3401, 4079, 3241, 4009, 3061, 4210, 4217, 6417, 9509, 17662, 21848, 45138, 50035, 53542, 22196, 13426, 12366, 12488, 19160, 17100, 9890, 3917, 3229, 2642, 3056, 2587, 1883, 2033, 1768, 3177, 2924, 3196, 2594, 1927, 2449, 1688, 1446, 2271, 2617, 3405, 2718, 2297, 2771, 1803, 3236, 2374, 2171, 2648, 3629, 5414, 7382, 3859, 2496, 2985, 3199, 3385, 2600, 2405, 2629, 2594, 2778, 2582, 3913, 5432, 5961, 3483, 2944, 2907, 2942, 2531, 4060, 2871, 2997, 4233, 4882, 4757, 6685, 4110, 5361, 4860, 3383, 7003, 4829, 3476, 5192, 3812, 3702, 4736, 3887, 5388, 2555, 2914, 3535, 3502, 4313, 3784, 4376, 4638, 9834, 19874, 23336, 45543, 61088, 2649], "ratio": 60, "solsticeLength": 7139.937712589584, "summer_sun_azimuth": 54.38484509637669, "sun_azimuth": 123.38992184702992, "totalLength": 1171639.2966109943};
+var winter = {"features": [{"geometry": {"coordinates": [[-71.98906006540473, 45.383940671591205], [-71.99070845048281, 45.38471691964411]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 155, "name": "Rue Magloire"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.90981646315491, 45.458276753351974], [-71.90711044953437, 45.45695836380182]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 257, "name": "C\u00f4te de Beauvoir"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.84709082603204, 45.379719628972055], [-71.84563162050857, 45.379056536612005]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 135, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.96351101870347, 45.395723699615445], [-71.96140322151243, 45.39479439801059]], "type": "LineString"}, "properties": {"azimuth_d": 1.29, "length": 194, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.87599892043008, 45.38271942829883], [-71.87469846815272, 45.382125738097045]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 121, "name": "Rue Wellington Sud"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.87202480867842, 45.35324387905595], [-71.8733052282072, 45.35385559034955]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.85788235872988, 45.42899549662465], [-71.85543425626999, 45.42789545565216]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 226, "name": "Rue George-Povey"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.82564472093422, 45.40421414843504], [-71.82329041197085, 45.40307043774703]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 223, "name": "Chemin Galvin"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.9046792785189, 45.375591960754264], [-71.90737590440789, 45.37680314576283]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 250, "name": "Rue Thibault"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-71.95601843545667, 45.40813947751025], [-71.95359346704954, 45.409341023330164]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 231, "name": "Rue Thomas-Chapais"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.95416192772277, 45.40808038509286], [-71.95230793455983, 45.40899275525331]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 176, "name": "Rue Rousseau"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.89699332476587, 45.40525585136146], [-71.89524653614451, 45.40614366254559]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 168, "name": "Rue Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.84339608311316, 45.423986471288146], [-71.84019595630055, 45.42555137261064]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 304, "name": "Chemin Lemire"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.79925128130728, 45.39430749325524], [-71.80135052895709, 45.39324357828542]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 202, "name": "Chemin Spring"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.92216133014887, 45.45044864252114], [-71.92090756507217, 45.451089019923586]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 121, "name": "Rue de Savoie"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.83475760988351, 45.37755877433392], [-71.83217346913511, 45.37883349416856]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 246, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.92385003218122, 45.35667014961618], [-71.92554602646936, 45.35578736757395]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 164, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.90158593715272, 45.403941233667716], [-71.89670297563994, 45.406416744951]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 470, "name": "Rue de Montr\u00e9al"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.89028042615227, 45.40128266161914], [-71.88835376188881, 45.4022378633048]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 184, "name": "Rue King Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.9475220354858, 45.38650846762843], [-71.94887520993414, 45.38585861867537]], "type": "LineString"}, "properties": {"azimuth_d": 1.21, "length": 128, "name": "Rue Galt Ouest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.86579588115406, 45.3500827280931], [-71.86762883574004, 45.34918795992931]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 174, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.98817443351541, 45.35425306019803], [-71.98989096346632, 45.353373044183854]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 166, "name": "Rue Bertrand-Fabi"}, "type": "Feature"}, {"geometry": {"coordinates": [[-71.89217867576399, 45.40031036085102], [-71.89028042615227, 45.40128266161914]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 183, "name": "Rue King Ouest"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "45.343", "geonameid": "1", "group": "North, America", "left": "-72.014", "name": "Sherbrooke, Canada", "right": "-71.792", "slug": "sherbrooke_canada", "top": "45.465"};
+var streetIndex = ["Rue Bertrand-Fabi", "Rue Wellington Sud", "Rue de Montr\u00e9al", "Rue Thibault", "Rue Rousseau", "Chemin Galvin", "C\u00f4te de Beauvoir", "Rue George-Povey", "Chemin Lemire", "Rue Magloire", "Rue de Savoie", "Rue Galt Ouest", "Chemin Spring", "Rue King Ouest", "Rue Court", "Rue Thomas-Chapais", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Sherbrooke, Canada</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [53590, 26841, 6864, 6322, 4927, 7920, 6143, 4692, 4089, 2566, 3148, 4227, 2439, 2729, 3565, 3695, 4143, 3712, 3676, 3648, 2065, 2613, 4305, 3111, 3694, 5275, 3926, 5006, 3697, 3930, 3945, 2886, 2999, 3373, 4258, 4767, 7086, 5193, 5067, 4336, 5459, 3452, 3317, 3264, 4129, 3596, 3335, 4270, 4091, 6495, 9628, 11928, 3487, 2858, 3111, 3247, 3990, 2854, 2759, 3527, 6121, 4425, 4457, 4707, 4908, 3952, 4454, 7039, 4946, 3011, 4172, 4701, 5297, 3991, 3429, 3246, 3393, 3401, 4079, 3241, 4009, 3061, 4210, 4217, 6417, 9509, 17662, 21848, 45138, 50035, 53542, 22196, 13426, 12366, 12488, 19160, 17100, 9890, 3917, 3229, 2642, 3056, 2587, 1883, 2033, 1768, 3177, 2924, 3196, 2594, 1927, 2449, 1688, 1446, 2271, 2617, 3405, 2718, 2297, 2771, 1803, 3236, 2374, 2171, 2648, 3629, 5414, 7382, 3859, 2496, 2985, 3199, 3385, 2600, 2405, 2629, 2594, 2778, 2582, 3913, 5432, 5961, 3483, 2944, 2907, 2942, 2531, 4060, 2871, 2997, 4233, 4882, 4757, 6685, 4110, 5361, 4860, 3383, 7003, 4829, 3476, 5192, 3812, 3702, 4736, 3887, 5388, 2555, 2914, 3535, 3502, 4313, 3784, 4376, 4638, 9834, 19874, 23336, 45543, 61088, 2649], "ratio": 60, "solsticeLength": 7139.937712589584, "summer_sun_azimuth": 54.38484509637669, "sun_azimuth": 123.38992184702992, "totalLength": 1171639.2966109943}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

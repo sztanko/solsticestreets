@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Springfield, Missouri</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [203518, 465739, 146451, 26728, 8365, 5871, 5042, 5003, 4834, 4316, 4389, 3836, 3684, 3289, 3155, 3955, 2446, 3148, 3234, 3180, 3570, 6978, 3803, 2057, 2244, 2473, 2632, 3424, 2265, 2167, 2206, 2668, 2619, 2690, 2017, 2945, 2281, 1574, 2084, 2363, 2325, 3616, 3318, 2966, 3092, 6362, 3789, 3483, 3008, 2539, 1950, 2134, 2549, 4009, 2875, 3150, 12985, 3910, 3639, 6786, 3275, 3327, 2842, 2398, 2983, 3401, 3002, 3098, 2957, 2662, 2937, 2445, 3040, 3680, 2641, 4633, 3256, 2757, 2707, 3081, 3427, 3113, 3940, 5486, 7055, 5573, 6767, 8345, 14172, 62085, 338540, 291325, 150918, 39459, 13590, 6544, 5648, 6073, 4883, 4909, 4676, 3041, 3413, 3324, 2720, 3246, 2488, 2900, 2358, 3135, 3010, 4509, 3811, 3046, 2391, 3645, 2731, 2392, 2062, 1839, 2841, 2085, 2592, 2004, 1827, 2355, 2050, 2343, 3049, 2949, 1787, 3026, 2925, 2330, 4933, 5639, 4372, 5942, 2834, 3777, 2681, 2528, 1930, 3231, 5548, 3805, 5484, 3800, 2478, 4364, 2653, 3312, 4054, 3494, 3072, 4237, 3140, 3486, 2947, 2619, 3297, 3779, 3171, 3753, 3443, 4171, 3292, 4174, 3838, 4196, 3513, 4271, 3941, 5525, 6017, 6957, 7255, 8260, 12737, 32757, 8483], "ratio": 27, "solsticeLength": 6535.568686816029, "summer_sun_azimuth": 59.271391239941, "sun_azimuth": 119.16262214706066, "totalLength": 2414885.6462708414};
+var winter = {"features": [{"geometry": {"coordinates": [[-93.20940472003255, 37.133046141764765], [-93.21064314622645, 37.133619631579904]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 127, "name": "East Farm Road 172"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.24005692084295, 37.20200472972553], [-93.23831943613412, 37.201242144174785]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 175, "name": "East Rockaway Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.23641003859119, 37.20120853274307], [-93.2346037384573, 37.20042306459666]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 182, "name": "East Southeast Circle"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.34555490694606, 37.261211224800974], [-93.34711192927958, 37.261904156736335]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 157, "name": "North Farm Road 127"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.2340731639864, 37.19857971645075], [-93.23191800904243, 37.19762015617545]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 218, "name": "East Lombard Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.38152685024359, 37.269755066343805], [-93.38347111650371, 37.270615049609404]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 196, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.2382766046089, 37.12381272104784], [-93.23543296013824, 37.12250765872374]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 290, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-93.39064770200086, 37.19257383136983], [-93.39197112069294, 37.191964886104266]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 135, "name": "West Skyler Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.24322083783385, 37.16706753237477], [-93.23678504493917, 37.1700489753336]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 659, "name": "East Glenwood Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.23826771979152, 37.16818936629551], [-93.23959952038676, 37.167526273935465]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 139, "name": "East Skyline Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.24352803458517, 37.16808526305808], [-93.23752491553229, 37.17087526334844]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 615, "name": "East Crestview Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.25427396972974, 37.16310599347787], [-93.25121507798558, 37.16454399278632]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 314, "name": "East Mirabeau Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.37580720715604, 37.12295894039059], [-93.37429201051935, 37.123677520949656]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 156, "name": "South Old Wire Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.38472655796103, 37.168008233367935], [-93.38649522334968, 37.16716224788064]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 182, "name": "South Briarwood Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.23204390522811, 37.11890922387232], [-93.2288467120816, 37.120486195135385]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 333, "name": "East Redbud Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.28429576760244, 37.161821718273615], [-93.2830170244543, 37.1624462538791]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 132, "name": "East Cambridge Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.23654406522293, 37.154582436140714], [-93.23528191824305, 37.15520848048877]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 131, "name": "East Lolo Trail"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.25624053185231, 37.163308164982425], [-93.2518389430388, 37.16537757305693]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 452, "name": "East Claiborne Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.23359086927779, 37.17377573712261], [-93.22791933831448, 37.17646322673713]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 584, "name": "East Southern Hills Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.24342426662388, 37.169310445844985], [-93.23866108250746, 37.17155034183003]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 490, "name": "East Southern Hills Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.21056385342243, 37.18457447825716], [-93.20753505271068, 37.18606645702204]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 315, "name": "East Oak Knoll Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.23073138301017, 37.120578563708364], [-93.22878376398876, 37.121526556957264]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 202, "name": "East Timbercrest Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.40057782650958, 37.21375531978447], [-93.4017603454093, 37.21319264262442]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 122, "name": "State Highway 266"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.25435820785664, 37.165313786773766], [-93.256910581192, 37.164107044173875]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 263, "name": "South Luster Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.21715093966941, 37.11864594829365], [-93.2193254568097, 37.11765587789077]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 222, "name": "South Highland Springs Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.21924624782471, 37.11755747434753], [-93.21673343707234, 37.11869799991234]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 256, "name": "South Highland Springs Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.2228089757686, 37.11600682226043], [-93.22160055678809, 37.116577043133304]], "type": "LineString"}, "properties": {"azimuth_d": 0.07, "length": 124, "name": "East Kingswood Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-93.3218388148308, 37.14910176111266], [-93.32301152690381, 37.14855819469187]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 120, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "37.092", "geonameid": "1", "group": "North, America", "left": "-93.417", "name": "Springfield, Missouri", "right": "-93.207", "slug": "springfield_missouri", "top": "37.271"};
+var streetIndex = ["South Old Wire Road", "East Cambridge Street", "East Kingswood Drive", "South Luster Avenue", "South Highland Springs Boulevard", "West Skyler Drive", "South Briarwood Avenue", "East Southeast Circle", "East Lombard Street", "East Rockaway Street", "State Highway 266", "East Mirabeau Street", "East Timbercrest Street", "East Skyline Drive", "East Redbud Street", "North Farm Road 127", "East Lolo Trail", "East Claiborne Street", "East Crestview Street", "East Southern Hills Boulevard", "East Oak Knoll Street", "East Glenwood Street", "East Farm Road 172", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Springfield, Missouri</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [203518, 465739, 146451, 26728, 8365, 5871, 5042, 5003, 4834, 4316, 4389, 3836, 3684, 3289, 3155, 3955, 2446, 3148, 3234, 3180, 3570, 6978, 3803, 2057, 2244, 2473, 2632, 3424, 2265, 2167, 2206, 2668, 2619, 2690, 2017, 2945, 2281, 1574, 2084, 2363, 2325, 3616, 3318, 2966, 3092, 6362, 3789, 3483, 3008, 2539, 1950, 2134, 2549, 4009, 2875, 3150, 12985, 3910, 3639, 6786, 3275, 3327, 2842, 2398, 2983, 3401, 3002, 3098, 2957, 2662, 2937, 2445, 3040, 3680, 2641, 4633, 3256, 2757, 2707, 3081, 3427, 3113, 3940, 5486, 7055, 5573, 6767, 8345, 14172, 62085, 338540, 291325, 150918, 39459, 13590, 6544, 5648, 6073, 4883, 4909, 4676, 3041, 3413, 3324, 2720, 3246, 2488, 2900, 2358, 3135, 3010, 4509, 3811, 3046, 2391, 3645, 2731, 2392, 2062, 1839, 2841, 2085, 2592, 2004, 1827, 2355, 2050, 2343, 3049, 2949, 1787, 3026, 2925, 2330, 4933, 5639, 4372, 5942, 2834, 3777, 2681, 2528, 1930, 3231, 5548, 3805, 5484, 3800, 2478, 4364, 2653, 3312, 4054, 3494, 3072, 4237, 3140, 3486, 2947, 2619, 3297, 3779, 3171, 3753, 3443, 4171, 3292, 4174, 3838, 4196, 3513, 4271, 3941, 5525, 6017, 6957, 7255, 8260, 12737, 32757, 8483], "ratio": 27, "solsticeLength": 6535.568686816029, "summer_sun_azimuth": 59.271391239941, "sun_azimuth": 119.16262214706066, "totalLength": 2414885.6462708414}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

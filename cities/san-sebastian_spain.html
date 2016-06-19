@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in San Sebastian, Spain</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [5557, 7426, 7618, 6943, 8750, 7259, 7175, 6329, 6333, 5943, 6669, 7935, 6313, 5325, 6269, 6639, 6779, 6452, 6469, 6321, 6844, 6678, 6327, 6948, 7730, 6568, 7471, 6105, 6363, 5637, 5580, 6313, 6615, 5424, 5875, 5309, 6226, 6704, 6319, 5503, 6720, 6704, 7103, 6282, 5458, 6256, 7082, 6473, 6385, 7202, 5850, 6795, 6574, 7865, 8501, 11056, 7806, 7567, 7430, 7843, 6614, 6708, 12144, 10450, 8291, 7190, 7349, 6661, 7522, 7144, 6696, 6923, 7271, 7325, 7144, 7505, 7445, 7065, 8205, 6277, 6006, 7060, 6593, 6696, 7921, 6865, 8044, 9277, 7403, 7642, 9308, 9769, 8610, 9375, 8527, 7493, 6515, 7200, 7927, 8017, 7125, 7718, 6863, 6571, 6558, 6009, 7046, 8159, 6624, 6388, 6169, 6573, 7533, 7356, 6659, 6120, 7472, 6756, 6667, 5420, 6334, 5868, 5984, 5823, 5181, 5741, 5407, 5986, 6666, 6190, 6707, 5002, 4942, 5571, 5144, 7355, 8073, 6719, 5868, 4614, 5070, 5224, 5597, 6254, 6644, 10752, 8131, 6323, 6309, 6111, 5876, 4806, 7720, 10173, 7477, 5962, 4839, 5520, 5948, 5574, 6512, 5604, 6022, 7157, 7291, 5792, 4886, 5544, 6272, 6196, 5762, 6990, 5642, 7237, 6346, 5940, 7173, 8881, 7207, 5959, 2300], "ratio": 146, "solsticeLength": 18051.05053516342, "summer_sun_azimuth": 55.889856789421486, "sun_azimuth": 122.13077647353808, "totalLength": 1228250.4448730098};
+var winter = {"features": [{"geometry": {"coordinates": [[-1.8974951141887, 43.31298487866127], [-1.896172868963077, 43.312347686382026]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 128, "name": "Nafarroako etorbidea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.91284003196651, 43.311762378083415], [-1.911518457293141, 43.31117254355709]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 125, "name": "Galtzaraborda etorbidea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.911982227995736, 43.31063903542011], [-1.913773273065857, 43.31146515579689]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 171, "name": "Aita Donostia kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.913400446012702, 43.32234444702095], [-1.915395255148979, 43.32327576028257]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 191, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.990599534440435, 43.24758097201737], [-1.988827935385672, 43.24680774144963]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 167, "name": "Geltoki kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.956030302638993, 43.31352567905403], [-1.954421815420005, 43.31278069549998]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 154, "name": "Baratzategi Kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.956917862366055, 43.311637236269036], [-1.958562307949649, 43.312410969751]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 158, "name": "Calle Castilla"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.955982358152852, 43.31358049670078], [-1.954381079370592, 43.31283886590799]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 153, "name": "Baratzategi Kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.95773174516421, 43.313540682660715], [-1.955061354632136, 43.312309967817754]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 255, "name": "Galizia pasealekua"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.00085831337256, 43.267643727815454], [-2.002210481992506, 43.26829433113977]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.915375473857466, 43.31877199606936], [-1.920715752007396, 43.32109797420003]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 503, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.913594403252148, 43.32277401955861], [-1.915593822435142, 43.32370566809632]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 192, "name": "Lezo-Bide Kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.95697284765086, 43.312424380796074], [-1.955412472556077, 43.31171217048342]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 149, "name": "Ubako Andre Mariaren Pasealekua"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-2.004354069910107, 43.31435917550561], [-2.005828111402195, 43.313612096475765]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 145, "name": "Calle Vitoria/Gasteiz Kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.011364609905399, 43.31180235976157], [-2.006436721391623, 43.31427443446452]], "type": "LineString"}, "properties": {"azimuth_d": 0.45, "length": 484, "name": "Paseo de Ondarreta Pasealekua"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.000544578736765, 43.31477265478915], [-2.001910577496971, 43.314069245474826]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 135, "name": "Calle Matia kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.001834050720987, 43.31502059148502], [-2.005294351808118, 43.31326139764698]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 341, "name": "Zumalakarregi hiribidea/Avenida de Zumalac\u00e1rregui"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.009179112471941, 43.31122635537548], [-2.007317072681957, 43.312152052761974]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 182, "name": "Avenida de Tolosa hiribidea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.006507548473451, 43.30953857535246], [-2.008100612990603, 43.30874522821707]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 156, "name": "Calle Xalbador bertsolaria kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.011719332047704, 43.30765893356579], [-2.010407228924919, 43.30831448221301]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 128, "name": "Berio pasealekua"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.008056272722825, 43.30674606049118], [-2.006797478504211, 43.30737143428695]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 123, "name": "Calle Eugenio Imaz kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.007909924693394, 43.30342054040707], [-2.006435883201306, 43.304135852023904]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 143, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.010119981103173, 43.30575615772639], [-2.008343520544571, 43.30664589674825]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 174, "name": "Maria de Maeztu kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.006221809394247, 43.30433173710108], [-2.007962479226308, 43.303467981979054]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 170, "name": "Bernardo Estorn\u00e9s Lasa kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.029121923235579, 43.27636283495363], [-2.027586442393243, 43.277112093278305]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 149, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.966105434072603, 43.3116321233081], [-1.968042156619873, 43.31063308426886]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 192, "name": "Urbia kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.004824043221049, 43.30269936145802], [-2.006075545183876, 43.30205537983721]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 124, "name": "Urretxu kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.98926890731164, 43.23233923546763], [-1.991135138053209, 43.23137783117363]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 185, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.011167802818903, 43.22464372634499], [-2.009755452134158, 43.22536222308503]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 139, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.030977928055307, 43.275453063183164], [-2.029667082217997, 43.276098553546575]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.006666804633738, 43.31319124111741], [-2.008903264038508, 43.312078543471124]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 219, "name": "Calle Vitoria/Gasteiz Kalea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.026376682308211, 43.27708795339717], [-2.028458747056504, 43.27611347333422]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 200, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.987945572438605, 43.28473719441428], [-1.986002479644924, 43.285718379999764]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 191, "name": "Oriamendi Pasealekua"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.009626119368193, 43.312840961383785], [-2.011472317361182, 43.31192456790984]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 180, "name": "Paseo de Ondarreta Pasealekua"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.030577859816816, 43.312335448803395], [-2.03229086936841, 43.311517291234615]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 165, "name": "Kristobal Balenziaga pasealekua"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.003502217090585, 43.314093636813084], [-2.001022347217656, 43.315336086320485]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 243, "name": "Zumalakarregi hiribidea"}, "type": "Feature"}, {"geometry": {"coordinates": [[-2.007317072681957, 43.312152052761974], [-2.005381439782099, 43.313131394328764]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 190, "name": "Avenida de Tolosa hiribidea"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "43.218", "geonameid": "1", "group": "Southern, Europe", "left": "-2.087", "name": "San Sebastian, Spain", "right": "-1.888", "slug": "san-sebastian_spain", "top": "43.338"};
+var streetIndex = ["Galtzaraborda etorbidea", "Paseo de Ondarreta Pasealekua", "Aita Donostia kalea", "Galizia pasealekua", "Kristobal Balenziaga pasealekua", "Bernardo Estorn\u00e9s Lasa kalea", "Urretxu kalea", "Geltoki kalea", "Avenida de Tolosa hiribidea", "Calle Matia kalea", "Calle Castilla", "Nafarroako etorbidea", "Baratzategi Kalea", "Oriamendi Pasealekua", "Urbia kalea", "Zumalakarregi hiribidea/Avenida de Zumalac\u00e1rregui", "Calle Eugenio Imaz kalea", "Zumalakarregi hiribidea", "Maria de Maeztu kalea", "Calle Vitoria/Gasteiz Kalea", "Berio pasealekua", "Ubako Andre Mariaren Pasealekua", "Calle Xalbador bertsolaria kalea", "Lezo-Bide Kalea", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>San Sebastian, Spain</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [5557, 7426, 7618, 6943, 8750, 7259, 7175, 6329, 6333, 5943, 6669, 7935, 6313, 5325, 6269, 6639, 6779, 6452, 6469, 6321, 6844, 6678, 6327, 6948, 7730, 6568, 7471, 6105, 6363, 5637, 5580, 6313, 6615, 5424, 5875, 5309, 6226, 6704, 6319, 5503, 6720, 6704, 7103, 6282, 5458, 6256, 7082, 6473, 6385, 7202, 5850, 6795, 6574, 7865, 8501, 11056, 7806, 7567, 7430, 7843, 6614, 6708, 12144, 10450, 8291, 7190, 7349, 6661, 7522, 7144, 6696, 6923, 7271, 7325, 7144, 7505, 7445, 7065, 8205, 6277, 6006, 7060, 6593, 6696, 7921, 6865, 8044, 9277, 7403, 7642, 9308, 9769, 8610, 9375, 8527, 7493, 6515, 7200, 7927, 8017, 7125, 7718, 6863, 6571, 6558, 6009, 7046, 8159, 6624, 6388, 6169, 6573, 7533, 7356, 6659, 6120, 7472, 6756, 6667, 5420, 6334, 5868, 5984, 5823, 5181, 5741, 5407, 5986, 6666, 6190, 6707, 5002, 4942, 5571, 5144, 7355, 8073, 6719, 5868, 4614, 5070, 5224, 5597, 6254, 6644, 10752, 8131, 6323, 6309, 6111, 5876, 4806, 7720, 10173, 7477, 5962, 4839, 5520, 5948, 5574, 6512, 5604, 6022, 7157, 7291, 5792, 4886, 5544, 6272, 6196, 5762, 6990, 5642, 7237, 6346, 5940, 7173, 8881, 7207, 5959, 2300], "ratio": 146, "solsticeLength": 18051.05053516342, "summer_sun_azimuth": 55.889856789421486, "sun_azimuth": 122.13077647353808, "totalLength": 1228250.4448730098}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

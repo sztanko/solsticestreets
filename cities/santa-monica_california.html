@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Santa Monica, California</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2977, 1059, 868, 970, 858, 992, 816, 543, 739, 864, 1348, 4942, 2368, 1941, 2682, 1778, 1373, 1477, 1269, 907, 1099, 1254, 926, 1335, 1526, 1248, 1034, 1121, 1715, 10976, 10743, 2913, 1192, 1503, 1105, 1784, 1132, 974, 1491, 1245, 1211, 1045, 5382, 4145, 8084, 60143, 16319, 4433, 1492, 3807, 6590, 7314, 8980, 10002, 41302, 19668, 11993, 38047, 11984, 9168, 3805, 2656, 2837, 764, 1956, 1512, 1539, 831, 951, 1162, 1159, 1540, 708, 823, 1391, 2435, 7960, 1564, 1247, 2209, 1072, 883, 729, 704, 1356, 5373, 2346, 722, 678, 3645, 4118, 1418, 1118, 1007, 874, 647, 292, 289, 529, 849, 579, 2150, 2504, 1849, 1292, 913, 2687, 2797, 1361, 773, 468, 420, 413, 878, 568, 741, 1820, 909, 1836, 3524, 5681, 3546, 946, 1134, 2144, 1848, 746, 1110, 912, 1593, 1492, 1577, 1432, 3319, 6666, 114239, 51313, 7459, 3331, 10615, 18811, 5155, 5523, 13614, 41264, 22227, 11459, 27442, 8688, 2609, 1695, 1402, 606, 711, 801, 990, 1527, 939, 548, 604, 776, 729, 428, 566, 745, 783, 1776, 1360, 834, 5018, 794, 836, 654, 869, 1585, 3926, 1278, 714, 917, 3102, 900], "ratio": 75, "solsticeLength": 6510.373900462189, "summer_sun_azimuth": 60.65078209377093, "sun_azimuth": 117.99741919541316, "totalLength": 860773.4490521809};
+var winter = {"features": [{"geometry": {"coordinates": [[-118.53526464146509, 34.037471082202615], [-118.53668084782528, 34.03810408353027]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 148, "name": "Copra Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.45301101396663, 33.993010953199324], [-118.45184710289195, 33.9924730864727]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 122, "name": "Naples Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.4605365380929, 34.00036355866314], [-118.45894841889861, 33.99962092204197]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 168, "name": "Doreen Place"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.53448043060416, 34.03471259786821], [-118.52845375840336, 34.03215838051415]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 623, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.52886623185854, 34.0325309561102], [-118.53421497573066, 34.034759368887904]], "type": "LineString"}, "properties": {"azimuth_d": 1.3, "length": 551, "name": "Pacific Coast Highway"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-118.44768054264341, 33.98706432817386], [-118.44649341369697, 33.987647876272796]], "type": "LineString"}, "properties": {"azimuth_d": 1.31, "length": 127, "name": "Berkeley Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.45535585137941, 33.96823446651359], [-118.45422605465066, 33.9687910248843]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 121, "name": "Voyage Mall"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.45164082425485, 33.989181261639345], [-118.44817457201648, 33.99089184043902]], "type": "LineString"}, "properties": {"azimuth_d": 1.41, "length": 372, "name": "Harrison Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.45068394618856, 33.990572741385186], [-118.44867698329269, 33.991515537854156]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 212, "name": "Grant Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.45735795277145, 34.026372520391526], [-118.45866502675233, 34.02572837113263]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 140, "name": "Pico Place North"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.45894816744152, 34.02611871636344], [-118.45661204720803, 34.0272099563376]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 247, "name": "Urban Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.4621904552271, 34.020101431894204], [-118.45893735478643, 34.021605899694805]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 343, "name": "Pearl Place North"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.44809318373665, 34.030978460004405], [-118.44947301263709, 34.03030354916086]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 147, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.4465989418579, 34.02484969622296], [-118.44829803745024, 34.02402969463549]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 181, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.45031195732572, 33.988709947223896], [-118.44869844096482, 33.98948602763875]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 172, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.44832083622686, 34.027009628851744], [-118.44607364798604, 34.028102964301695]], "type": "LineString"}, "properties": {"azimuth_d": 1.05, "length": 240, "name": "Pearl Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.44367357383133, 33.9748720956367], [-118.445040829877, 33.974250074602196]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 143, "name": "Fiji Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.4629609197668, 34.01922342753676], [-118.458627224369, 34.02124866298155]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 458, "name": "Pearl Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.45051882269604, 34.02593925981648], [-118.44832083622686, 34.027009628851744]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 235, "name": "Pearl Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.44835847097208, 34.03135564564721], [-118.4497374616822, 34.030680148070445]], "type": "LineString"}, "properties": {"azimuth_d": 1.22, "length": 147, "name": "Tennessee Place"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.45607602450008, 33.968632355457224], [-118.45460273737928, 33.9693509360163]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 157, "name": "Union Jack Mall"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.44323226662925, 33.98140243639918], [-118.44440556543547, 33.98084738677102]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 124, "name": "Bali Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.44435192125516, 33.98074722302809], [-118.44317786807764, 33.98132666399448]], "type": "LineString"}, "properties": {"azimuth_d": 1.42, "length": 126, "name": "Bali Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.44427195789888, 33.978227120019966], [-118.44541491421563, 33.97767106456342]], "type": "LineString"}, "properties": {"azimuth_d": 1.06, "length": 122, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.44431990238505, 33.97444956389771], [-118.44302556889697, 33.97503688385308]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 136, "name": "Fiji Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.44378706480029, 33.975035291291476], [-118.44536747264367, 33.97429776763124]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.46533794368779, 34.029800132056266], [-118.46701340231314, 34.029031427716234]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 176, "name": "Olympic Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.44469868058945, 33.982653938362], [-118.44634346144917, 33.98186293815954]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 175, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.46068825054034, 33.98997863208825], [-118.45954982045131, 33.99054005196282]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 122, "name": "Venice Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.44475266004588, 33.99196396967391], [-118.44612787889957, 33.991294339429395]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 147, "name": "W Washington Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.4554908000205, 33.99258314086137], [-118.45338560121945, 33.99361947936973]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 225, "name": "Venice Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-118.45292065705041, 34.02804362042724], [-118.4542338498206, 34.02743903375131]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 138, "name": "Pico Boulevard"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "33.967", "geonameid": "1", "group": "North, America", "left": "-118.551", "name": "Santa Monica, California", "right": "-118.443", "slug": "santa-monica_california", "top": "34.051"};
+var streetIndex = ["Berkeley Drive", "Urban Avenue", "Harrison Avenue", "Pacific Coast Highway", "Pearl Place North", "W Washington Boulevard", "Tennessee Place", "Naples Avenue", "Pico Boulevard", "Grant Avenue", "Pearl Street", "Olympic Boulevard", "Union Jack Mall", "Doreen Place", "Copra Lane", "Fiji Way", "Pico Place North", "Bali Way", "Voyage Mall", "Venice Boulevard", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Santa Monica, California</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2977, 1059, 868, 970, 858, 992, 816, 543, 739, 864, 1348, 4942, 2368, 1941, 2682, 1778, 1373, 1477, 1269, 907, 1099, 1254, 926, 1335, 1526, 1248, 1034, 1121, 1715, 10976, 10743, 2913, 1192, 1503, 1105, 1784, 1132, 974, 1491, 1245, 1211, 1045, 5382, 4145, 8084, 60143, 16319, 4433, 1492, 3807, 6590, 7314, 8980, 10002, 41302, 19668, 11993, 38047, 11984, 9168, 3805, 2656, 2837, 764, 1956, 1512, 1539, 831, 951, 1162, 1159, 1540, 708, 823, 1391, 2435, 7960, 1564, 1247, 2209, 1072, 883, 729, 704, 1356, 5373, 2346, 722, 678, 3645, 4118, 1418, 1118, 1007, 874, 647, 292, 289, 529, 849, 579, 2150, 2504, 1849, 1292, 913, 2687, 2797, 1361, 773, 468, 420, 413, 878, 568, 741, 1820, 909, 1836, 3524, 5681, 3546, 946, 1134, 2144, 1848, 746, 1110, 912, 1593, 1492, 1577, 1432, 3319, 6666, 114239, 51313, 7459, 3331, 10615, 18811, 5155, 5523, 13614, 41264, 22227, 11459, 27442, 8688, 2609, 1695, 1402, 606, 711, 801, 990, 1527, 939, 548, 604, 776, 729, 428, 566, 745, 783, 1776, 1360, 834, 5018, 794, 836, 654, 869, 1585, 3926, 1278, 714, 917, 3102, 900], "ratio": 75, "solsticeLength": 6510.373900462189, "summer_sun_azimuth": 60.65078209377093, "sun_azimuth": 117.99741919541316, "totalLength": 860773.4490521809}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

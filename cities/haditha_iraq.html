@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Haditha, Iraq</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [597, 1159, 841, 2821, 3608, 1524, 1121, 1308, 846, 789, 782, 647, 1159, 1446, 402, 268, 761, 582, 357, 292, 403, 572, 717, 423, 592, 322, 393, 622, 597, 428, 397, 350, 727, 671, 1132, 1048, 1337, 1075, 701, 435, 906, 479, 767, 368, 195, 1570, 818, 785, 763, 649, 462, 802, 807, 1168, 939, 813, 255, 439, 752, 1000, 614, 505, 716, 485, 995, 282, 443, 507, 293, 531, 752, 508, 273, 1431, 432, 270, 627, 450, 595, 488, 676, 383, 1379, 1024, 2131, 458, 872, 750, 635, 514, 1865, 874, 2070, 3129, 3401, 2199, 779, 1740, 927, 536, 425, 748, 599, 761, 240, 305, 643, 1056, 296, 342, 293, 537, 390, 442, 340, 299, 529, 488, 743, 468, 310, 742, 288, 695, 593, 1388, 1919, 780, 1012, 1201, 368, 598, 729, 781, 276, 1284, 1254, 1123, 1322, 1105, 944, 981, 410, 422, 746, 417, 772, 450, 742, 802, 852, 307, 604, 997, 1439, 921, 846, 997, 325, 836, 428, 986, 744, 1943, 1398, 919, 875, 723, 598, 750, 814, 1277, 835, 469, 1269, 1300, 924, 629, 751, 980, 365], "ratio": 119, "solsticeLength": 1763.3409965566282, "summer_sun_azimuth": 60.62046288404524, "sun_azimuth": 118.02228108399201, "totalLength": 148127.0828511797};
+var winter = {"features": [{"geometry": {"coordinates": [[42.38304046565938, 34.11878291906049], [42.38114934066536, 34.11963946574579]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 198, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[42.38052463742184, 34.12041856364576], [42.37797016861069, 34.12151198291474]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 264, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[42.37727237517148, 34.12662863188799], [42.37546884106564, 34.12576638550854]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 191, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[42.3749660945133, 34.125428762448706], [42.378373421972356, 34.12705895879691]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 362, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[42.37843963900744, 34.128400398580794], [42.37696836354339, 34.1276811474695]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 157, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[42.37869771780615, 34.127914834929946], [42.37688144320748, 34.12701696546202]], "type": "LineString"}, "properties": {"azimuth_d": 1.44, "length": 194, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "34.075", "geonameid": "1", "group": "Middle, East", "left": "42.347", "name": "Haditha, Iraq", "right": "42.400", "slug": "haditha_iraq", "top": "34.157"};
+var streetIndex = [null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Haditha, Iraq</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [597, 1159, 841, 2821, 3608, 1524, 1121, 1308, 846, 789, 782, 647, 1159, 1446, 402, 268, 761, 582, 357, 292, 403, 572, 717, 423, 592, 322, 393, 622, 597, 428, 397, 350, 727, 671, 1132, 1048, 1337, 1075, 701, 435, 906, 479, 767, 368, 195, 1570, 818, 785, 763, 649, 462, 802, 807, 1168, 939, 813, 255, 439, 752, 1000, 614, 505, 716, 485, 995, 282, 443, 507, 293, 531, 752, 508, 273, 1431, 432, 270, 627, 450, 595, 488, 676, 383, 1379, 1024, 2131, 458, 872, 750, 635, 514, 1865, 874, 2070, 3129, 3401, 2199, 779, 1740, 927, 536, 425, 748, 599, 761, 240, 305, 643, 1056, 296, 342, 293, 537, 390, 442, 340, 299, 529, 488, 743, 468, 310, 742, 288, 695, 593, 1388, 1919, 780, 1012, 1201, 368, 598, 729, 781, 276, 1284, 1254, 1123, 1322, 1105, 944, 981, 410, 422, 746, 417, 772, 450, 742, 802, 852, 307, 604, 997, 1439, 921, 846, 997, 325, 836, 428, 986, 744, 1943, 1398, 919, 875, 723, 598, 750, 814, 1277, 835, 469, 1269, 1300, 924, 629, 751, 980, 365], "ratio": 119, "solsticeLength": 1763.3409965566282, "summer_sun_azimuth": 60.62046288404524, "sun_azimuth": 118.02228108399201, "totalLength": 148127.0828511797}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

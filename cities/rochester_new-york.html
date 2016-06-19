@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Rochester, New York</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [96045, 17486, 6719, 5228, 5564, 3876, 4763, 6212, 6665, 6779, 5439, 6016, 4758, 6219, 4909, 5461, 7974, 6902, 10131, 10702, 31206, 62234, 37717, 13008, 6592, 5667, 6869, 4825, 5091, 8664, 3568, 4463, 2838, 3998, 3953, 3811, 3382, 4105, 3370, 3256, 2924, 2576, 1827, 2403, 3966, 5738, 3154, 3377, 2179, 3061, 3811, 5006, 3279, 2434, 2632, 3014, 2993, 2433, 4442, 8829, 5755, 3706, 2556, 4307, 5242, 5370, 3122, 3236, 4792, 5805, 4133, 4816, 8117, 7649, 5934, 3867, 4003, 3816, 4095, 4416, 4822, 4991, 5611, 4232, 6091, 12611, 60776, 208199, 79547, 106330, 119092, 18537, 9458, 6253, 5889, 4626, 4019, 5787, 5369, 6946, 5457, 6623, 6488, 6456, 10003, 5596, 5606, 5907, 7653, 8516, 10144, 16009, 23529, 7375, 5248, 4261, 3605, 4551, 3015, 2925, 3055, 2455, 3326, 2362, 5891, 4239, 3796, 4351, 4611, 3425, 2881, 1977, 2287, 2160, 4833, 7569, 3532, 3596, 2072, 2597, 4894, 7451, 4475, 2690, 2264, 1833, 2300, 2777, 2737, 3720, 5499, 8541, 4445, 3406, 1759, 1928, 2563, 2065, 2869, 5303, 3310, 4576, 6565, 7519, 5802, 3803, 4382, 3936, 4550, 4329, 4098, 3604, 3913, 3422, 4492, 8562, 31730, 115686, 53361, 107408, 16892], "ratio": 41, "solsticeLength": 8189.802611667328, "summer_sun_azimuth": 56.010351571664266, "sun_azimuth": 122.02184861665472, "totalLength": 1985993.5427143483};
+var winter = {"features": [{"geometry": {"coordinates": [[-77.54921204790467, 43.16054295418749], [-77.55261401094572, 43.162120931278935]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 327, "name": "Merchants Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.55020304031689, 43.109991947605124], [-77.55181806542036, 43.110724945037646]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 154, "name": "Towpath Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.70156403455744, 43.16954025669199], [-77.69215803045418, 43.16520488491355]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 902, "name": "Spencerport Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.62263316111502, 43.12915834267781], [-77.62425614902651, 43.129885388959075]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 154, "name": "Grove"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.55958901167156, 43.147796929307646], [-77.56160200953771, 43.14874098306208]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 194, "name": "University Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.66243135939222, 43.1273015834868], [-77.65860250602253, 43.12563676987847]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 361, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.69219558138037, 43.16551778135903], [-77.69403021234702, 43.166359072980555]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 175, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-77.59895503902112, 43.168085996491385], [-77.59746708356975, 43.168815976438765]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 145, "name": "Concord Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.61386703150004, 43.15715892841925], [-77.61567500801456, 43.15629299400237]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 175, "name": "Church Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.62129105077888, 43.18931693813474], [-77.61982606174222, 43.19007591946712]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 145, "name": "Seth Green Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.59895503902112, 43.16723699351894], [-77.59628506758423, 43.16855999311585]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 261, "name": "Portland Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.64934452632934, 43.116269993082085], [-77.65057901302873, 43.11563053768895]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 122, "name": "Genesee Valley Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.66137004281238, 43.15150298779582], [-77.66423003199422, 43.150047973223934]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 282, "name": "Buffalo Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.70721201237284, 43.12376995240368], [-77.70316237967359, 43.12573626306914]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 394, "name": "Chili Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.65777035067549, 43.09181009087919], [-77.65620804774298, 43.09254811745362]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.7014746834696, 43.126542099240254], [-77.69548061687215, 43.129486997101225]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 586, "name": "Chili Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.70316237967359, 43.12573626306914], [-77.70188724074379, 43.12635224913336]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 124, "name": "Chili Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-77.53433701961877, 43.121773969800955], [-77.53104603297574, 43.123390922742175]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 322, "name": "Allens Creek Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "43.089", "geonameid": "1", "group": "North, America", "left": "-77.710", "name": "Rochester, New York", "right": "-77.528", "slug": "rochester_new-york", "top": "43.213"};
+var streetIndex = ["Seth Green Drive", "University Avenue", "Buffalo Road", "Genesee Valley Park", "Allens Creek Road", "Church Street", null, "Towpath Lane", "Grove", "Spencerport Road", "Merchants Road", "Chili Avenue", "Concord Street", "Portland Avenue"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Rochester, New York</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [96045, 17486, 6719, 5228, 5564, 3876, 4763, 6212, 6665, 6779, 5439, 6016, 4758, 6219, 4909, 5461, 7974, 6902, 10131, 10702, 31206, 62234, 37717, 13008, 6592, 5667, 6869, 4825, 5091, 8664, 3568, 4463, 2838, 3998, 3953, 3811, 3382, 4105, 3370, 3256, 2924, 2576, 1827, 2403, 3966, 5738, 3154, 3377, 2179, 3061, 3811, 5006, 3279, 2434, 2632, 3014, 2993, 2433, 4442, 8829, 5755, 3706, 2556, 4307, 5242, 5370, 3122, 3236, 4792, 5805, 4133, 4816, 8117, 7649, 5934, 3867, 4003, 3816, 4095, 4416, 4822, 4991, 5611, 4232, 6091, 12611, 60776, 208199, 79547, 106330, 119092, 18537, 9458, 6253, 5889, 4626, 4019, 5787, 5369, 6946, 5457, 6623, 6488, 6456, 10003, 5596, 5606, 5907, 7653, 8516, 10144, 16009, 23529, 7375, 5248, 4261, 3605, 4551, 3015, 2925, 3055, 2455, 3326, 2362, 5891, 4239, 3796, 4351, 4611, 3425, 2881, 1977, 2287, 2160, 4833, 7569, 3532, 3596, 2072, 2597, 4894, 7451, 4475, 2690, 2264, 1833, 2300, 2777, 2737, 3720, 5499, 8541, 4445, 3406, 1759, 1928, 2563, 2065, 2869, 5303, 3310, 4576, 6565, 7519, 5802, 3803, 4382, 3936, 4550, 4329, 4098, 3604, 3913, 3422, 4492, 8562, 31730, 115686, 53361, 107408, 16892], "ratio": 41, "solsticeLength": 8189.802611667328, "summer_sun_azimuth": 56.010351571664266, "sun_azimuth": 122.02184861665472, "totalLength": 1985993.5427143483}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

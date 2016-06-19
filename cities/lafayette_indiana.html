@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Lafayette, Indiana</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [89293, 32913, 11287, 8243, 4900, 3482, 4083, 3986, 6846, 4737, 4338, 4058, 3102, 2886, 4061, 3746, 3296, 3922, 3365, 3511, 3689, 2579, 4086, 3528, 2709, 2578, 3363, 2806, 2598, 2867, 3100, 4292, 3908, 4946, 5966, 3861, 4689, 2749, 2970, 2881, 4712, 3488, 4944, 4042, 5826, 4216, 5813, 3993, 4738, 7965, 4878, 5620, 4876, 3126, 3866, 4468, 5323, 3089, 4723, 5953, 4940, 13190, 4567, 6086, 6277, 4784, 2462, 2927, 3123, 3443, 2475, 3013, 2483, 2355, 3354, 3618, 3982, 3403, 2627, 2704, 2815, 3320, 3556, 4237, 4949, 5775, 7307, 17871, 63100, 219738, 162039, 48486, 18425, 9018, 6532, 4918, 4112, 5403, 4973, 6383, 3830, 2820, 2767, 2768, 4398, 3800, 2289, 2773, 2671, 3842, 3553, 3734, 3387, 2578, 3069, 2647, 3006, 2685, 3243, 4568, 4048, 4692, 4737, 5410, 3912, 4142, 2993, 2480, 2474, 2570, 3506, 4692, 9282, 4486, 5341, 8014, 4947, 3000, 4587, 14195, 5899, 3144, 4178, 5164, 5575, 3401, 4116, 4233, 5510, 5382, 3719, 7145, 5315, 3123, 4750, 5027, 4441, 3396, 5260, 5277, 3682, 3634, 2886, 3806, 5172, 4814, 5421, 3291, 3458, 3586, 3137, 5050, 3521, 4234, 5058, 6778, 10723, 29109, 118879, 218628, 14501], "ratio": 75, "solsticeLength": 13460.103835073789, "summer_sun_azimuth": 57.59106225128031, "sun_azimuth": 120.63918610221235, "totalLength": 1774101.3005339876};
+var winter = {"features": [{"geometry": {"coordinates": [[-86.95734926169757, 40.41042686045526], [-86.9554822765847, 40.40953661851921]], "type": "LineString"}, "properties": {"azimuth_d": 1.44, "length": 186, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.94774653432684, 40.4094974750314], [-86.94588843403133, 40.40867856309134]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 181, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.88380434777737, 40.38389838836818], [-86.88030062843181, 40.38229845069043]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 346, "name": "Southlea Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.87176416296377, 40.3757930879994], [-86.8692754082735, 40.374678630153454]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 244, "name": "Drexel Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.86858893040359, 40.375203337292106], [-86.8720439508917, 40.37680972903533]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 342, "name": "Southaven Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.8647103723481, 40.44186628961171], [-86.86885170306807, 40.44374425501775]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 408, "name": "Sagamore Pkwy"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.95248926659951, 40.43292942062908], [-86.96194011388474, 40.4371054524282]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 925, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.9664580435143, 40.43901719690399], [-86.9789710514859, 40.44456199349133]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 1225, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.8992937695659, 40.41865889520005], [-86.8966866624028, 40.417458187570446]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 258, "name": "South Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.81695724504506, 40.37779803923851], [-86.8157556154061, 40.37722597434691]], "type": "LineString"}, "properties": {"azimuth_d": 1.41, "length": 120, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.86616454872967, 40.489419340886], [-86.8639119122518, 40.48834654109882]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 224, "name": "Burnetts Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.81524063127512, 40.377193284924545], [-86.81732202547117, 40.378165837149766]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 206, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.82811523454963, 40.38388673752277], [-86.82999286467954, 40.38476935192696]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 186, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.90434755426533, 40.422086423045755], [-86.90579770733339, 40.42272084929695]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 141, "name": "State Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.83159171270988, 40.38548307098219], [-86.83490507903437, 40.387035986183115]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 329, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.84171948249539, 40.39037533640746], [-86.84406901377398, 40.39147847868412]], "type": "LineString"}, "properties": {"azimuth_d": 1.05, "length": 233, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.8554452680372, 40.513097546798946], [-86.85680783021708, 40.51370313930323]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.96455375893231, 40.38554987475047], [-86.96679600185024, 40.38661638811027]], "type": "LineString"}, "properties": {"azimuth_d": 1.38, "length": 223, "name": "Lilly Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.92351562571865, 40.41677665502339], [-86.92503350456434, 40.41745684646594]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 149, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.86921564530387, 40.4436377210284], [-86.8674427051446, 40.4428453797214]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 174, "name": "Sagamore Pkwy"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-86.92776156259023, 40.40836172715137], [-86.92532754172767, 40.40947492771187]], "type": "LineString"}, "properties": {"azimuth_d": 1.38, "length": 240, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.86708236712717, 40.403101831452915], [-86.86498102400158, 40.40408435814291]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 208, "name": "South Earl Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.81384806188186, 40.436210935721505], [-86.81213605815867, 40.43705893286557]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 172, "name": "Eisenhower Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.94408674394418, 40.422587577036495], [-86.94241413516592, 40.42335552700527]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 165, "name": "Newman Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.91436434765284, 40.3932353255893], [-86.91982532520845, 40.390530569254224]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 551, "name": "Lilly Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.92682698038638, 40.433821925678984], [-86.9255928289631, 40.43440815598694]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 123, "name": "David Ross Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.92176112574637, 40.444005686577725], [-86.92369533372269, 40.44310655982429]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 191, "name": "Oakhurst Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.90610901121724, 40.40343492828501], [-86.90924015496675, 40.40185862757419]], "type": "LineString"}, "properties": {"azimuth_d": 1.09, "length": 317, "name": "Wabash Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.76257503816014, 40.356188989943], [-86.7638390291587, 40.35555196530179]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 128, "name": "Schlie Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.91156537872611, 40.380048328783516], [-86.9127737138876, 40.379451285820466]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 122, "name": "Old Romney Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.90063420352139, 40.39491589717559], [-86.89883477654811, 40.39575366839779]], "type": "LineString"}, "properties": {"azimuth_d": 0.92, "length": 178, "name": "Durkees Run Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.86606631282449, 40.43211076014612], [-86.87172661203756, 40.42926342763809]], "type": "LineString"}, "properties": {"azimuth_d": 1.07, "length": 574, "name": "Elmwood Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.87295782979471, 40.428614668332436], [-86.87736184936014, 40.42647845648963]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 442, "name": "Elmwood Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.7892933603541, 40.361430780730615], [-86.79127811120654, 40.360421180493375]], "type": "LineString"}, "properties": {"azimuth_d": 1.38, "length": 202, "name": "East 400 South"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.91634624865821, 40.40909355111745], [-86.91781635065583, 40.40842023283554]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 145, "name": "South River Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.95112653678156, 40.449211435181695], [-86.94973455412153, 40.449867067647915]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 138, "name": "Robin Hood Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.77561023869946, 40.34121086424807], [-86.78223915064325, 40.33811542740608]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 659, "name": "Wyandotte Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.82397608312449, 40.48435935357821], [-86.82267730722775, 40.48501708152025]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 132, "name": "Old State Road 25"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.9520492166829, 40.384176919010656], [-86.95370145743647, 40.38338013529496]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 165, "name": "Lilly Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.93410356198841, 40.45990867146884], [-86.93533477974556, 40.45929402650913]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 124, "name": "Cumberland Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.9504026756235, 40.455712439283076], [-86.95601343778881, 40.45312888526789]], "type": "LineString"}, "properties": {"azimuth_d": 1.21, "length": 555, "name": "Cumberland Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.94210895007137, 40.37696035183535], [-86.9443459123903, 40.375869279499256]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 225, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-86.94591777069245, 40.37505598343432], [-86.94868572657744, 40.37368286005645]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 279, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "40.330", "geonameid": "1", "group": "North, America", "left": "-87.000", "name": "Lafayette, Indiana", "right": "-86.750", "slug": "lafayette_indiana", "top": "40.520"};
+var streetIndex = ["South Street", "Oakhurst Drive", "Durkees Run Drive", "Southlea Drive", "Wabash Avenue", "Sagamore Pkwy", "Newman Road", "Elmwood Avenue", "David Ross Road", "Old State Road 25", "Southaven Boulevard", "Wyandotte Road", "Robin Hood Lane", "State Street", "Drexel Drive", "South River Road", "Schlie Lane", "Old Romney Drive", "Eisenhower Road", "East 400 South", "Burnetts Road", "South Earl Avenue", "Cumberland Avenue", "Lilly Road", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Lafayette, Indiana</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [89293, 32913, 11287, 8243, 4900, 3482, 4083, 3986, 6846, 4737, 4338, 4058, 3102, 2886, 4061, 3746, 3296, 3922, 3365, 3511, 3689, 2579, 4086, 3528, 2709, 2578, 3363, 2806, 2598, 2867, 3100, 4292, 3908, 4946, 5966, 3861, 4689, 2749, 2970, 2881, 4712, 3488, 4944, 4042, 5826, 4216, 5813, 3993, 4738, 7965, 4878, 5620, 4876, 3126, 3866, 4468, 5323, 3089, 4723, 5953, 4940, 13190, 4567, 6086, 6277, 4784, 2462, 2927, 3123, 3443, 2475, 3013, 2483, 2355, 3354, 3618, 3982, 3403, 2627, 2704, 2815, 3320, 3556, 4237, 4949, 5775, 7307, 17871, 63100, 219738, 162039, 48486, 18425, 9018, 6532, 4918, 4112, 5403, 4973, 6383, 3830, 2820, 2767, 2768, 4398, 3800, 2289, 2773, 2671, 3842, 3553, 3734, 3387, 2578, 3069, 2647, 3006, 2685, 3243, 4568, 4048, 4692, 4737, 5410, 3912, 4142, 2993, 2480, 2474, 2570, 3506, 4692, 9282, 4486, 5341, 8014, 4947, 3000, 4587, 14195, 5899, 3144, 4178, 5164, 5575, 3401, 4116, 4233, 5510, 5382, 3719, 7145, 5315, 3123, 4750, 5027, 4441, 3396, 5260, 5277, 3682, 3634, 2886, 3806, 5172, 4814, 5421, 3291, 3458, 3586, 3137, 5050, 3521, 4234, 5058, 6778, 10723, 29109, 118879, 218628, 14501], "ratio": 75, "solsticeLength": 13460.103835073789, "summer_sun_azimuth": 57.59106225128031, "sun_azimuth": 120.63918610221235, "totalLength": 1774101.3005339876}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

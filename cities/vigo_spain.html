@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Vigo, Spain</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [10257, 10774, 10241, 10586, 10642, 10129, 8668, 11120, 10065, 8632, 10086, 11254, 8378, 10950, 10388, 11500, 10133, 10508, 9814, 13526, 10853, 10304, 9187, 10604, 10315, 11823, 13843, 11697, 11150, 7982, 8786, 8619, 8712, 8107, 8998, 8853, 9461, 9176, 8221, 8136, 7860, 7865, 9273, 8867, 9946, 8230, 8939, 8937, 10479, 8575, 8202, 6965, 9467, 6742, 8088, 7742, 9374, 8175, 8039, 7346, 8465, 9075, 9090, 7391, 8178, 8189, 10396, 8775, 7042, 7780, 7374, 6966, 8537, 6825, 7952, 6255, 7840, 6796, 6771, 7795, 9333, 7676, 7865, 7711, 7262, 7549, 7542, 7649, 9235, 6866, 13423, 7742, 8714, 6792, 6020, 7413, 7849, 6839, 8886, 8262, 7043, 8608, 7922, 7311, 8053, 7547, 6325, 7768, 6899, 6676, 6317, 6861, 6398, 7008, 7650, 7340, 9283, 7978, 7298, 7652, 5764, 6484, 8531, 6922, 6159, 7291, 9257, 7359, 8003, 7321, 6037, 6868, 7250, 7515, 7916, 7500, 8212, 7751, 10778, 7798, 7216, 7593, 7566, 7180, 8931, 7090, 8514, 8583, 8612, 9276, 8884, 8712, 9524, 7334, 8909, 9833, 7887, 8797, 9978, 9271, 9061, 11596, 11997, 8519, 9269, 9662, 9723, 8702, 9022, 9007, 8305, 8996, 10815, 10949, 10439, 11717, 9664, 10199, 11965, 8868, 4877], "ratio": 134, "solsticeLength": 20977.08137283117, "summer_sun_azimuth": 56.587273745193144, "sun_azimuth": 121.5723948485112, "totalLength": 1561496.93705931};
+var winter = {"features": [{"geometry": {"coordinates": [[-8.723226214448914, 42.232415486336485], [-8.721431816617525, 42.23163487969395]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 171, "name": "R\u00faa Nicaragua"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.662735025074028, 42.25057228117194], [-8.66408945680783, 42.25121944791596]], "type": "LineString"}, "properties": {"azimuth_d": 1.29, "length": 132, "name": "Cami\u00f1o do Monte Vixiador"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.795243777972843, 42.197046620972316], [-8.796528220815134, 42.19763025289029]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 124, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.714095220588774, 42.22725365890514], [-8.712746153273, 42.22664136087832]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 130, "name": "Rua Filipinas"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.71188994186383, 42.2248843463351], [-8.717506152266195, 42.22750796584745]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 546, "name": "Avenida de Madrid"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.7117642133162, 42.2249102464159], [-8.717304064580674, 42.22747712044375]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 538, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.717452843362025, 42.22731417624607], [-8.712063614897573, 42.22481083704425]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 523, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.673546506701427, 42.26641282088439], [-8.67499096007532, 42.26708932428954]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 140, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.717572620758375, 42.22743026560502], [-8.711990776158984, 42.22484495139017]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 542, "name": "Avenida de Madrid"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-8.80068606388437, 42.18996248786715], [-8.805280855566025, 42.18774924633419]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 451, "name": "Avenida de Ricardo Mella"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.79181465756551, 42.25487915447957], [-8.793533031535105, 42.254032079344846]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 169, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.780746522062941, 42.19399627876942], [-8.782729261258652, 42.19299782646337]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 197, "name": "Avenida de Ricardo Mella"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.723458476985826, 42.22064301951028], [-8.72489572192299, 42.219963330981926]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 140, "name": "R\u00faa do Miradoiro"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.72747542026272, 42.219068981913324], [-8.725424033280035, 42.220063075629696]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 201, "name": "R\u00faa do Conde"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.732701117796239, 42.28653316035726], [-8.73045686322152, 42.287588777242945]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 218, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.711549720414013, 42.2389857249581], [-8.710240467138306, 42.23960808126872]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 128, "name": "R\u00faa Areal"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.650750160821389, 42.23219822740623], [-8.646391068256975, 42.23433091884971]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 430, "name": "Avenida do Aeroporto"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.710310623667851, 42.23980329579362], [-8.711561538897485, 42.2391785925501]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 124, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.793073954698315, 42.25675309657208], [-8.791526571553446, 42.25749816394517]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 151, "name": "R\u00faa Tobal"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.70411614576554, 42.225844744800725], [-8.701800812651925, 42.22693548186069]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 226, "name": "Avenida Mart\u00ednez Garrido"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.670401448992664, 42.26136264040331], [-8.668975268167683, 42.262055739976745]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 140, "name": "Cami\u00f1o de Leit\u00f3n"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.67073177979671, 42.24994824848068], [-8.67267336384782, 42.24898164740671]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 192, "name": "Cami\u00f1o do Monte Vixiador"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.666350223731797, 42.182658078346606], [-8.664081829275943, 42.18382056449772]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 227, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.645052813596266, 42.21483754573424], [-8.642764134934737, 42.2159668395488]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 226, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.639062518855269, 42.21787984131009], [-8.637264013891325, 42.21875055341175]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 177, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.645628482706229, 42.28292324229849], [-8.643668458468142, 42.28389587834275]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 194, "name": "Senda del agua"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.709150652087686, 42.241557795765914], [-8.707873250044031, 42.24218266664749]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 126, "name": "Avenida de Beiramar"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "42.169", "geonameid": "1", "group": "Southern, Europe", "left": "-8.827", "name": "Vigo, Spain", "right": "-8.609", "slug": "vigo_spain", "top": "42.307"};
+var streetIndex = ["Rua Filipinas", "Avenida de Madrid", "R\u00faa Tobal", "Avenida de Ricardo Mella", "R\u00faa do Miradoiro", "Senda del agua", "Cami\u00f1o de Leit\u00f3n", "R\u00faa Nicaragua", "R\u00faa do Conde", "Avenida de Beiramar", "R\u00faa Areal", "Avenida do Aeroporto", "Cami\u00f1o do Monte Vixiador", "Avenida Mart\u00ednez Garrido", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Vigo, Spain</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [10257, 10774, 10241, 10586, 10642, 10129, 8668, 11120, 10065, 8632, 10086, 11254, 8378, 10950, 10388, 11500, 10133, 10508, 9814, 13526, 10853, 10304, 9187, 10604, 10315, 11823, 13843, 11697, 11150, 7982, 8786, 8619, 8712, 8107, 8998, 8853, 9461, 9176, 8221, 8136, 7860, 7865, 9273, 8867, 9946, 8230, 8939, 8937, 10479, 8575, 8202, 6965, 9467, 6742, 8088, 7742, 9374, 8175, 8039, 7346, 8465, 9075, 9090, 7391, 8178, 8189, 10396, 8775, 7042, 7780, 7374, 6966, 8537, 6825, 7952, 6255, 7840, 6796, 6771, 7795, 9333, 7676, 7865, 7711, 7262, 7549, 7542, 7649, 9235, 6866, 13423, 7742, 8714, 6792, 6020, 7413, 7849, 6839, 8886, 8262, 7043, 8608, 7922, 7311, 8053, 7547, 6325, 7768, 6899, 6676, 6317, 6861, 6398, 7008, 7650, 7340, 9283, 7978, 7298, 7652, 5764, 6484, 8531, 6922, 6159, 7291, 9257, 7359, 8003, 7321, 6037, 6868, 7250, 7515, 7916, 7500, 8212, 7751, 10778, 7798, 7216, 7593, 7566, 7180, 8931, 7090, 8514, 8583, 8612, 9276, 8884, 8712, 9524, 7334, 8909, 9833, 7887, 8797, 9978, 9271, 9061, 11596, 11997, 8519, 9269, 9662, 9723, 8702, 9022, 9007, 8305, 8996, 10815, 10949, 10439, 11717, 9664, 10199, 11965, 8868, 4877], "ratio": 134, "solsticeLength": 20977.08137283117, "summer_sun_azimuth": 56.587273745193144, "sun_azimuth": 121.5723948485112, "totalLength": 1561496.93705931}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

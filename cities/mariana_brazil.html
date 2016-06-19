@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Mariana, Brazil</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [457, 1081, 1110, 1121, 1044, 1040, 636, 826, 1059, 668, 909, 1073, 651, 673, 729, 1338, 798, 1084, 1111, 1811, 915, 902, 947, 2392, 1230, 1127, 1224, 819, 1018, 1017, 913, 728, 677, 401, 724, 593, 494, 648, 377, 1434, 687, 486, 241, 926, 745, 252, 626, 510, 299, 655, 380, 805, 402, 637, 371, 252, 549, 433, 821, 323, 411, 240, 398, 327, 504, 548, 954, 256, 702, 511, 665, 464, 449, 419, 476, 527, 171, 571, 508, 531, 363, 591, 600, 415, 624, 471, 470, 410, 999, 758, 869, 725, 964, 1063, 818, 926, 1240, 1136, 937, 741, 952, 487, 742, 573, 561, 642, 801, 695, 909, 574, 1136, 411, 577, 288, 666, 798, 553, 264, 706, 929, 576, 356, 503, 734, 355, 369, 862, 866, 1121, 545, 478, 260, 766, 1003, 579, 600, 636, 474, 378, 296, 484, 411, 665, 601, 611, 377, 535, 469, 531, 486, 136, 404, 672, 550, 999, 556, 666, 565, 1262, 1297, 1482, 1404, 448, 1473, 705, 377, 625, 290, 338, 519, 1071, 713, 347, 249, 760, 823, 375, 409, 483, 501, 86], "ratio": 164, "solsticeLength": 2037.228421665932, "summer_sun_azimuth": 65.255634160491, "sun_azimuth": 115.47207969320601, "totalLength": 123814.7112544838};
+var winter = {"features": [{"geometry": {"coordinates": [[-43.4220213680023, -20.372238335771637], [-43.42314923689332, -20.371766350803938]], "type": "LineString"}, "properties": {"azimuth_d": 1.41, "length": 128, "name": "Rua Perimetral Sucupira"}, "type": "Feature"}, {"geometry": {"coordinates": [[-43.42615280807652, -20.36645993554285], [-43.42768082902506, -20.365751413267617]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 177, "name": "Rua Pau Brasil"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-43.41282742604935, -20.36272990481163], [-43.41164624825413, -20.362241742770777]], "type": "LineString"}, "properties": {"azimuth_d": 0.95, "length": 134, "name": "Rua Diamante"}, "type": "Feature"}, {"geometry": {"coordinates": [[-43.41346403159536, -20.387291228042898], [-43.41534627177202, -20.38806588353421]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 214, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-43.411503336805026, -20.362550029169512], [-43.41267881490609, -20.363049339141554]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 134, "name": "Rua Rubi"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "-20.403", "geonameid": "1", "group": "South, America", "left": "-43.431", "name": "Mariana, Brazil", "right": "-43.407", "slug": "mariana_brazil", "top": "-20.351"};
+var streetIndex = ["Rua Rubi", null, "Rua Pau Brasil", "Rua Perimetral Sucupira", "Rua Diamante"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Mariana, Brazil</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [457, 1081, 1110, 1121, 1044, 1040, 636, 826, 1059, 668, 909, 1073, 651, 673, 729, 1338, 798, 1084, 1111, 1811, 915, 902, 947, 2392, 1230, 1127, 1224, 819, 1018, 1017, 913, 728, 677, 401, 724, 593, 494, 648, 377, 1434, 687, 486, 241, 926, 745, 252, 626, 510, 299, 655, 380, 805, 402, 637, 371, 252, 549, 433, 821, 323, 411, 240, 398, 327, 504, 548, 954, 256, 702, 511, 665, 464, 449, 419, 476, 527, 171, 571, 508, 531, 363, 591, 600, 415, 624, 471, 470, 410, 999, 758, 869, 725, 964, 1063, 818, 926, 1240, 1136, 937, 741, 952, 487, 742, 573, 561, 642, 801, 695, 909, 574, 1136, 411, 577, 288, 666, 798, 553, 264, 706, 929, 576, 356, 503, 734, 355, 369, 862, 866, 1121, 545, 478, 260, 766, 1003, 579, 600, 636, 474, 378, 296, 484, 411, 665, 601, 611, 377, 535, 469, 531, 486, 136, 404, 672, 550, 999, 556, 666, 565, 1262, 1297, 1482, 1404, 448, 1473, 705, 377, 625, 290, 338, 519, 1071, 713, 347, 249, 760, 823, 375, 409, 483, 501, 86], "ratio": 164, "solsticeLength": 2037.228421665932, "summer_sun_azimuth": 65.255634160491, "sun_azimuth": 115.47207969320601, "totalLength": 123814.7112544838}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

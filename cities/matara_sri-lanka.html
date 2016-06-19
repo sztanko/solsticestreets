@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Matara, Sri Lanka</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2551, 3471, 1953, 2292, 2797, 2239, 1236, 1707, 909, 1593, 1835, 1230, 1177, 1285, 1390, 673, 1100, 1018, 1099, 701, 758, 688, 1109, 730, 745, 421, 640, 646, 410, 626, 715, 771, 958, 358, 504, 639, 524, 525, 338, 620, 538, 533, 355, 338, 476, 403, 316, 812, 824, 282, 451, 371, 439, 259, 462, 721, 714, 591, 1374, 873, 1024, 687, 1253, 932, 731, 858, 558, 610, 589, 1781, 1467, 1777, 1190, 1404, 1329, 1320, 1645, 2699, 3184, 3216, 2735, 2789, 2448, 1677, 2863, 2744, 2210, 2922, 2510, 2052, 2752, 2283, 2242, 1774, 2221, 2624, 1758, 2235, 2282, 1365, 1283, 1444, 1377, 968, 1329, 1237, 1022, 769, 896, 1044, 1229, 1230, 1008, 1025, 795, 737, 809, 1187, 602, 1042, 1265, 815, 678, 473, 654, 387, 489, 670, 632, 629, 438, 448, 845, 337, 550, 486, 454, 440, 774, 714, 465, 591, 373, 601, 586, 523, 347, 547, 548, 419, 481, 510, 524, 740, 847, 911, 1445, 853, 1133, 886, 912, 1444, 1476, 1603, 2269, 1447, 1444, 1811, 986, 1536, 1680, 1887, 1950, 2090, 3131, 1578, 2061, 3270, 2025, 2062, 1273], "ratio": 132, "solsticeLength": 2860.716797779777, "summer_sun_azimuth": 66.32729084126599, "sun_azimuth": 113.46873056812791, "totalLength": 215423.05119671562};
+var winter = {"features": [{"geometry": {"coordinates": [[80.55928214073322, 5.951765689110204], [80.56030255362555, 5.951345085208942]], "type": "LineString"}, "properties": {"azimuth_d": 0.95, "length": 122, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[80.5307628828234, 5.957680546722656], [80.53222678221266, 5.957027093551233]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 177, "name": "Saram Mudali Mawatha"}, "type": "Feature"}, {"geometry": {"coordinates": [[80.53279172248654, 5.956763147420304], [80.53392638071915, 5.956269537142418]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 137, "name": "Saram Mudali Mawatha"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[80.55041961923172, 5.954514618074967], [80.55198854386775, 5.955200257754569]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 189, "name": "Sri Dharmawansa Mawatha"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "5.924", "geonameid": "1", "group": "Asia", "left": "80.497", "name": "Matara, Sri Lanka", "right": "80.576", "slug": "matara_sri-lanka", "top": "5.983"};
+var streetIndex = ["Saram Mudali Mawatha", null, "Sri Dharmawansa Mawatha"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Matara, Sri Lanka</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2551, 3471, 1953, 2292, 2797, 2239, 1236, 1707, 909, 1593, 1835, 1230, 1177, 1285, 1390, 673, 1100, 1018, 1099, 701, 758, 688, 1109, 730, 745, 421, 640, 646, 410, 626, 715, 771, 958, 358, 504, 639, 524, 525, 338, 620, 538, 533, 355, 338, 476, 403, 316, 812, 824, 282, 451, 371, 439, 259, 462, 721, 714, 591, 1374, 873, 1024, 687, 1253, 932, 731, 858, 558, 610, 589, 1781, 1467, 1777, 1190, 1404, 1329, 1320, 1645, 2699, 3184, 3216, 2735, 2789, 2448, 1677, 2863, 2744, 2210, 2922, 2510, 2052, 2752, 2283, 2242, 1774, 2221, 2624, 1758, 2235, 2282, 1365, 1283, 1444, 1377, 968, 1329, 1237, 1022, 769, 896, 1044, 1229, 1230, 1008, 1025, 795, 737, 809, 1187, 602, 1042, 1265, 815, 678, 473, 654, 387, 489, 670, 632, 629, 438, 448, 845, 337, 550, 486, 454, 440, 774, 714, 465, 591, 373, 601, 586, 523, 347, 547, 548, 419, 481, 510, 524, 740, 847, 911, 1445, 853, 1133, 886, 912, 1444, 1476, 1603, 2269, 1447, 1444, 1811, 986, 1536, 1680, 1887, 1950, 2090, 3131, 1578, 2061, 3270, 2025, 2062, 1273], "ratio": 132, "solsticeLength": 2860.716797779777, "summer_sun_azimuth": 66.32729084126599, "sun_azimuth": 113.46873056812791, "totalLength": 215423.05119671562}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

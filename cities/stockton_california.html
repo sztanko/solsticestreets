@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Stockton, California</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [51547, 12250, 10412, 9669, 5180, 4025, 4920, 2870, 3419, 3500, 2856, 2858, 2603, 3339, 3792, 2665, 3437, 2820, 2425, 2870, 3277, 3789, 2949, 4780, 3284, 3088, 2728, 4192, 6011, 7578, 5337, 3295, 3636, 2992, 3609, 2721, 2629, 3305, 3041, 4032, 6848, 6083, 3822, 2645, 3095, 3479, 4361, 4720, 9140, 4650, 7243, 2706, 3321, 3578, 2743, 3734, 2419, 3549, 3652, 5361, 6326, 5175, 6033, 5054, 6251, 6219, 9390, 8689, 9138, 11042, 24853, 103548, 153564, 35453, 18143, 14906, 12485, 85000, 32227, 8782, 8493, 7033, 6189, 8060, 8663, 14265, 8523, 8833, 22820, 122156, 117593, 17624, 9345, 8834, 6438, 5106, 3573, 4790, 4144, 3538, 3592, 3431, 3668, 2858, 4087, 2648, 3573, 3162, 4312, 2952, 3273, 4604, 4728, 2804, 3879, 2445, 2905, 4222, 4936, 10594, 4850, 3637, 3468, 4459, 2800, 2663, 4167, 3934, 3574, 4188, 2333, 2784, 4710, 2388, 2224, 2853, 5057, 4613, 3608, 4698, 5127, 3917, 2549, 3026, 3385, 3029, 3519, 3770, 3832, 4815, 4976, 3511, 3831, 3144, 4273, 5760, 15746, 6239, 9402, 10269, 16925, 77584, 159769, 35984, 15980, 11362, 11266, 81309, 37498, 9691, 7106, 5821, 5445, 5979, 7839, 16185, 13661, 9751, 23374, 113676, 6675], "ratio": 93, "solsticeLength": 20442.73745954054, "summer_sun_azimuth": 58.87686585310272, "sun_azimuth": 119.51216390802523, "totalLength": 2187945.0274997456};
+var winter = {"features": [{"geometry": {"coordinates": [[-121.3992870274689, 38.00740495804314], [-121.41433002909442, 38.01425498459264]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 1522, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.38930803646471, 38.012217930664406], [-121.40191802305604, 38.01791695427013]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 1273, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.41609307860794, 38.015042967309995], [-121.4173110529581, 38.01557999584631]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 122, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.18886504799201, 37.900838949837635], [-121.18744708143214, 37.90019195073168]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 143, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.41704207768527, 38.01567697446603], [-121.4156740672683, 38.01507791984622]], "type": "LineString"}, "properties": {"azimuth_d": 0.45, "length": 137, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.4151830553804, 38.01487398814203], [-121.407430046402, 38.01131293657875]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 786, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.40654005592305, 38.01089794855264], [-121.398788052773, 38.00735491808118]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 785, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.24476823502677, 37.97924159574205], [-121.24597304978893, 37.9797799653829]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.23221306608221, 37.97363393488092], [-121.22612612799762, 37.97107267672817]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 604, "name": "Cardinal Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.3165010652999, 37.91022592702068], [-121.3144530310785, 37.909307940985116]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 206, "name": "Lydia Bradley Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.3111520699707, 37.90704499476635], [-121.30888803410451, 37.90602894046364]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 228, "name": "Alcira Nunez Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.27194094019178, 37.98992718118379], [-121.27367901163383, 37.99067669096556]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 173, "name": "Higgins Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.26100901061578, 37.9851429584904], [-121.25956908346963, 37.984534935234194]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 143, "name": "Robindale Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.2561560563164, 37.985838991729935], [-121.25328600885075, 37.984618921904]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 285, "name": "Wigwam Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.31671907860147, 37.90788896859689], [-121.31322005312167, 37.906321971798604]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 353, "name": "Van Gogh Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.31609605173855, 37.91092497774537], [-121.31474807407021, 37.910320977802684]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 136, "name": "England Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.40489804109134, 38.028743942418394], [-121.4035390831298, 38.028151928597254]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 136, "name": "West Rindge Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.4023467574034, 38.02758573103787], [-121.38824470822813, 38.021243647820654]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 1422, "name": "West Rindge Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.31335617522922, 37.94775464119462], [-121.31638505976, 37.949137990494386]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 307, "name": "Harbor Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.31665705251797, 37.90950499952873], [-121.31238303627077, 37.90759199776744]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 431, "name": "Flatboat Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.24373306998486, 38.02420095089835], [-121.24221703515785, 38.023553951792394]], "type": "LineString"}, "properties": {"azimuth_d": 1.07, "length": 151, "name": "East Foppiano Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.31187308128168, 37.905702968249216], [-121.30903203520103, 37.90442992479524]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 286, "name": "Pisa Circle"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.30878803799963, 37.90515998856164], [-121.31683500032234, 37.90875699848954]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 811, "name": "William Moss Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.31694706636779, 37.91115095385493], [-121.31953808027679, 37.91232693487015]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 262, "name": "Kay Bridges Place"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.27556301201015, 37.99064416918125], [-121.27723092692266, 37.991375238776044]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 167, "name": "Oak Forest Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.2762741326754, 37.99177161897711], [-121.27833918216024, 37.99264836604905]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 205, "name": "Red Oak Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.21154203557084, 37.92642596656026], [-121.19251905486146, 37.91786795960107]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 1921, "name": "East Mariposa Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.34144200492592, 38.01682998906659], [-121.34337805692094, 38.017718973717166]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 196, "name": "Meadow Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.25323504687944, 37.94341097133204], [-121.25155397237897, 37.94266758033959]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 169, "name": "East Mariposa Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.22954703413983, 37.90704398893797], [-121.23163605586775, 37.90798695304497]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 211, "name": "Transworld Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.25489508280295, 37.94412896515788], [-121.25323504687944, 37.94341097133204]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 166, "name": "East Mariposa Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-121.18634603463127, 37.90034299262686], [-121.1850910122691, 37.90091799118457]], "type": "LineString"}, "properties": {"azimuth_d": 0.92, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.1875330797587, 37.90389398590631], [-121.18895004049017, 37.90323592268817]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.41550902759482, 38.025673986562055], [-121.41897502837608, 38.024040940366774]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 353, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.25184800954229, 38.008167962689015], [-121.25331107074123, 38.007478970248144]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 149, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.34667004939236, 37.979958919015644], [-121.34842102896528, 37.97914595822684]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 178, "name": "Boulder Creek Circle"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.385280951085, 38.01296953592197], [-121.38746091646236, 38.01194032203128]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 222, "name": "West Rindge Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.38795502965445, 38.011681991775475], [-121.39196300429492, 38.009847947542085]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 406, "name": "West Rindge Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.39372001883818, 38.00907195094626], [-121.39490907562237, 38.00851698513716]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 121, "name": "West Rindge Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.21812602051364, 38.037170940230965], [-121.21605007455466, 38.03818791654302]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 214, "name": "East Foppiano Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.34968200247872, 37.98003594870582], [-121.3471580437951, 37.98120195525627]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 256, "name": "Winding River Circle"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.36184900548733, 38.00448696609132], [-121.36312104311293, 38.00390995587688]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 128, "name": "North Merrimac Circle"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.34109608378195, 37.98254892709627], [-121.33837406072634, 37.98380093197329]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 276, "name": "Grand Canal Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.35361604873323, 37.97666198122138], [-121.35505907718354, 37.9759959551952]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 146, "name": "Gleneagles Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.24711382681089, 37.969505931386976], [-121.24833012478038, 37.96896085622361]], "type": "LineString"}, "properties": {"azimuth_d": 1.48, "length": 122, "name": "East Fremont Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.2498726464214, 37.96831452766992], [-121.25153310144007, 37.96755906673687]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 168, "name": "East Fremont Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-121.22337602556637, 37.957431967503595], [-121.22639200196626, 37.9559999193464]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 308, "name": "East Main Street"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "37.888", "geonameid": "1", "group": "North, America", "left": "-121.420", "name": "Stockton, California", "right": "-121.184", "slug": "stockton_california", "top": "38.058"};
+var streetIndex = ["Wigwam Drive", "Harbor Street", "Kay Bridges Place", "Gleneagles Drive", "Transworld Drive", "North Merrimac Circle", "Boulder Creek Circle", "Cardinal Avenue", "East Fremont Street", "East Mariposa Road", "England Court", "Flatboat Street", "William Moss Boulevard", "Pisa Circle", "Robindale Avenue", "Lydia Bradley Street", "Red Oak Lane", "Van Gogh Lane", "Grand Canal Boulevard", "Higgins Avenue", "Winding River Circle", "Meadow Avenue", "Oak Forest Avenue", "East Foppiano Lane", "East Main Street", "Alcira Nunez Street", "West Rindge Road", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Stockton, California</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [51547, 12250, 10412, 9669, 5180, 4025, 4920, 2870, 3419, 3500, 2856, 2858, 2603, 3339, 3792, 2665, 3437, 2820, 2425, 2870, 3277, 3789, 2949, 4780, 3284, 3088, 2728, 4192, 6011, 7578, 5337, 3295, 3636, 2992, 3609, 2721, 2629, 3305, 3041, 4032, 6848, 6083, 3822, 2645, 3095, 3479, 4361, 4720, 9140, 4650, 7243, 2706, 3321, 3578, 2743, 3734, 2419, 3549, 3652, 5361, 6326, 5175, 6033, 5054, 6251, 6219, 9390, 8689, 9138, 11042, 24853, 103548, 153564, 35453, 18143, 14906, 12485, 85000, 32227, 8782, 8493, 7033, 6189, 8060, 8663, 14265, 8523, 8833, 22820, 122156, 117593, 17624, 9345, 8834, 6438, 5106, 3573, 4790, 4144, 3538, 3592, 3431, 3668, 2858, 4087, 2648, 3573, 3162, 4312, 2952, 3273, 4604, 4728, 2804, 3879, 2445, 2905, 4222, 4936, 10594, 4850, 3637, 3468, 4459, 2800, 2663, 4167, 3934, 3574, 4188, 2333, 2784, 4710, 2388, 2224, 2853, 5057, 4613, 3608, 4698, 5127, 3917, 2549, 3026, 3385, 3029, 3519, 3770, 3832, 4815, 4976, 3511, 3831, 3144, 4273, 5760, 15746, 6239, 9402, 10269, 16925, 77584, 159769, 35984, 15980, 11362, 11266, 81309, 37498, 9691, 7106, 5821, 5445, 5979, 7839, 16185, 13661, 9751, 23374, 113676, 6675], "ratio": 93, "solsticeLength": 20442.73745954054, "summer_sun_azimuth": 58.87686585310272, "sun_azimuth": 119.51216390802523, "totalLength": 2187945.0274997456}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

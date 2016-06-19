@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Grenada</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [3851, 5950, 6439, 5987, 6074, 6603, 5831, 5225, 6132, 5417, 5546, 5547, 4947, 4620, 6183, 5817, 4463, 3836, 4855, 5747, 4545, 4329, 4424, 4715, 4929, 5853, 3592, 4272, 3158, 4000, 4956, 4626, 4330, 5084, 5154, 4175, 5163, 4764, 4388, 3697, 5110, 4804, 4742, 4804, 4573, 4633, 4158, 4499, 4532, 5090, 4688, 6545, 4386, 5105, 4385, 4432, 4739, 4897, 4233, 4829, 5147, 6340, 6045, 4976, 5966, 4754, 5330, 4867, 5618, 4605, 4881, 5131, 5303, 4685, 5820, 7289, 4872, 4976, 4687, 4845, 5081, 4568, 5495, 7001, 5521, 6317, 6454, 7528, 6158, 3996, 15544, 7945, 7285, 6968, 6537, 6001, 6497, 5471, 6647, 6373, 5740, 6242, 5243, 4719, 6230, 6190, 4160, 5762, 4280, 4630, 6001, 6621, 5813, 6122, 4194, 6136, 5254, 5723, 4527, 5309, 5308, 4655, 5046, 4549, 5455, 4799, 5072, 4693, 5443, 4708, 5005, 5501, 4753, 4510, 4904, 4971, 4778, 4582, 5536, 5301, 6077, 5486, 6240, 5067, 5748, 5367, 5421, 5589, 4781, 5005, 5612, 7384, 5393, 6151, 5189, 5885, 6143, 6019, 6878, 5908, 5126, 4868, 4840, 4614, 5062, 6440, 4358, 4826, 5316, 5493, 5351, 4995, 4636, 5307, 5220, 5790, 6033, 5774, 5876, 3503, 9928], "ratio": 167, "solsticeLength": 16311.390622967505, "summer_sun_azimuth": 65.7928285387125, "sun_azimuth": 113.78869760998633, "totalLength": 971184.8570532337};
+var winter = {"features": [{"geometry": {"coordinates": [[-61.46043824964155, 12.473605776853702], [-61.46149973385945, 12.474091759599702]], "type": "LineString"}, "properties": {"azimuth_d": 1.29, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.6277495027071, 12.147424769227683], [-61.62656472069354, 12.14689209928099]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 141, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.71901174827935, 12.161825130336865], [-61.721037319000274, 12.162697770276253]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 240, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.639058115011714, 12.049806861755059], [-61.6376289167016, 12.049205124926232]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 169, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.634699106266325, 12.049787918653891], [-61.63650155072476, 12.05054086501596]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 213, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-61.626177560585944, 12.193836372927791], [-61.62513040942248, 12.194272650987983]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 123, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.658088136519765, 12.175190996956388], [-61.65619986137284, 12.17605508735454]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 226, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.69233617379159, 12.210721633051804], [-61.691197576064496, 12.211229995479272]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 136, "name": "Western Main Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.61492217336648, 12.191167491138314], [-61.61600352269489, 12.190714449271779]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.643967814795595, 12.142991664458236], [-61.64505796512235, 12.142488163534608]], "type": "LineString"}, "properties": {"azimuth_d": 1.07, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.646698471211465, 12.142686060268517], [-61.64559122180224, 12.143191656667936]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.627544732812574, 12.184017643912284], [-61.62625266243837, 12.184584595842948]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 153, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.73531480140895, 12.071544489445245], [-61.73413253396632, 12.072099958168565]], "type": "LineString"}, "properties": {"azimuth_d": 1.45, "length": 142, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.76951623529912, 12.008294648097916], [-61.767796520225005, 12.009078020768527]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 206, "name": "Maurice Bishop Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.41184844076372, 12.60109519467511], [-61.41325626522075, 12.60045993023357]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 168, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.413985742253935, 12.599597264758955], [-61.41517882235166, 12.599052776328818]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 142, "name": "Front Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.625527041080645, 12.226921337315275], [-61.624359777244706, 12.22742467060084]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 138, "name": "Mainstone Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-61.75806513064057, 12.087856595030274], [-61.7566595692974, 12.08847685586511]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 167, "name": "Western Main Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "11.980", "geonameid": "1", "group": "South, America", "left": "-61.815", "name": "Grenada", "right": "-61.250", "slug": "grenada", "top": "12.667"};
+var streetIndex = ["Maurice Bishop Highway", "Mainstone Road", "Western Main Road", "Front Street", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Grenada</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [3851, 5950, 6439, 5987, 6074, 6603, 5831, 5225, 6132, 5417, 5546, 5547, 4947, 4620, 6183, 5817, 4463, 3836, 4855, 5747, 4545, 4329, 4424, 4715, 4929, 5853, 3592, 4272, 3158, 4000, 4956, 4626, 4330, 5084, 5154, 4175, 5163, 4764, 4388, 3697, 5110, 4804, 4742, 4804, 4573, 4633, 4158, 4499, 4532, 5090, 4688, 6545, 4386, 5105, 4385, 4432, 4739, 4897, 4233, 4829, 5147, 6340, 6045, 4976, 5966, 4754, 5330, 4867, 5618, 4605, 4881, 5131, 5303, 4685, 5820, 7289, 4872, 4976, 4687, 4845, 5081, 4568, 5495, 7001, 5521, 6317, 6454, 7528, 6158, 3996, 15544, 7945, 7285, 6968, 6537, 6001, 6497, 5471, 6647, 6373, 5740, 6242, 5243, 4719, 6230, 6190, 4160, 5762, 4280, 4630, 6001, 6621, 5813, 6122, 4194, 6136, 5254, 5723, 4527, 5309, 5308, 4655, 5046, 4549, 5455, 4799, 5072, 4693, 5443, 4708, 5005, 5501, 4753, 4510, 4904, 4971, 4778, 4582, 5536, 5301, 6077, 5486, 6240, 5067, 5748, 5367, 5421, 5589, 4781, 5005, 5612, 7384, 5393, 6151, 5189, 5885, 6143, 6019, 6878, 5908, 5126, 4868, 4840, 4614, 5062, 6440, 4358, 4826, 5316, 5493, 5351, 4995, 4636, 5307, 5220, 5790, 6033, 5774, 5876, 3503, 9928], "ratio": 167, "solsticeLength": 16311.390622967505, "summer_sun_azimuth": 65.7928285387125, "sun_azimuth": 113.78869760998633, "totalLength": 971184.8570532337}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

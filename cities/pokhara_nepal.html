@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Pokhara, Nepal</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [9128, 13323, 13279, 13505, 13104, 12267, 13145, 12361, 14025, 14653, 13710, 12761, 13247, 12768, 14381, 13022, 12084, 12545, 13579, 12091, 12189, 12749, 13869, 14266, 13473, 13250, 13096, 13620, 14371, 15091, 13084, 11742, 12092, 14355, 13649, 12965, 16459, 11573, 13351, 12649, 13190, 11712, 12753, 11935, 12925, 13007, 11441, 12461, 12892, 11934, 13225, 11925, 13290, 12708, 13623, 13279, 11379, 13225, 11032, 12375, 11737, 11750, 12078, 12435, 12883, 12992, 12543, 11720, 13242, 11957, 13596, 12921, 11922, 12754, 12626, 12823, 12628, 12642, 12770, 12367, 12949, 13705, 12492, 13154, 13264, 14640, 14289, 13668, 13894, 9080, 22079, 12014, 14781, 14338, 14661, 12187, 13582, 13966, 12198, 14295, 14774, 13988, 16791, 13426, 15361, 15439, 15948, 13643, 12891, 15629, 13529, 15877, 14509, 14103, 15204, 15941, 16808, 15463, 16766, 15808, 15803, 15241, 16098, 15596, 14840, 17101, 15404, 15434, 15474, 14910, 16779, 15863, 14200, 14462, 14154, 14199, 15465, 14090, 13598, 15593, 14403, 13011, 13931, 12849, 15799, 16152, 13663, 15097, 14333, 14518, 13928, 14086, 14996, 14158, 14759, 14304, 14218, 13314, 14650, 13078, 14174, 13994, 14306, 14886, 13480, 12042, 12620, 13597, 13526, 15155, 12874, 12544, 14957, 12388, 13849, 14032, 12471, 13562, 13761, 9111, 10158], "ratio": 193, "solsticeLength": 47772.765081774065, "summer_sun_azimuth": 62.64774499197507, "sun_azimuth": 116.28644314794663, "totalLength": 2471830.7727568485};
+var winter = {"features": [{"geometry": {"coordinates": [[83.98906647860001, 28.207977537695882], [83.99106547868786, 28.20708662520758]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 219, "name": "Seti Bridge"}, "type": "Feature"}, {"geometry": {"coordinates": [[83.89906956513084, 28.28713212413402], [83.89661383513908, 28.288209785425035]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 268, "name": "Pokhara Baglung Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[83.9898392900726, 28.217280444390127], [83.9913064584041, 28.216604695356267]], "type": "LineString"}, "properties": {"azimuth_d": 1.3, "length": 162, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.00940634011698, 28.201317780348404], [84.011411123718, 28.20045067246511]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 218, "name": "Prithvi Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[84.01086085177468, 28.206940780092367], [84.01315958872004, 28.20588382210218]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 254, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[83.97414887024598, 28.18052873264037], [83.97288286759067, 28.18108663211558]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 138, "name": "Rameshwor Marg"}, "type": "Feature"}, {"geometry": {"coordinates": [[83.97691372482677, 28.21319158438402], [83.97558854593507, 28.213757865762403]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.00314849502666, 28.191975478709278], [84.00146959982101, 28.19269959132444]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 183, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.00127564258156, 28.18787379439132], [84.00247852950599, 28.187355457499052]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[83.91580084969354, 28.260716137187526], [83.91698579934518, 28.260189921306278]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 130, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[83.85908252257514, 28.077631231996833], [83.86049219105087, 28.077048941183364]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 152, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.02651053555188, 28.152640883496616], [84.0249200694247, 28.153357620036985]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 175, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.02401348277749, 28.15385919312288], [84.02287932745907, 28.154384822270885]], "type": "LineString"}, "properties": {"azimuth_d": 1.44, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.05096624680317, 28.155051351211256], [84.04943604655983, 28.155686531833734]], "type": "LineString"}, "properties": {"azimuth_d": 1.06, "length": 165, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.05140269250143, 28.146164941285715], [84.04861218929693, 28.147405127679264]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 306, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[83.89030159149712, 28.33778002551705], [83.88878773596497, 28.338435071250075]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 165, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[83.9583458814597, 28.40834542431619], [83.95703696346014, 28.408930564976714]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 143, "name": "Mardi Himal East ascent trail"}, "type": "Feature"}, {"geometry": {"coordinates": [[83.9414924725678, 28.32732117055619], [83.94286014770859, 28.326746088179444]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 148, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[83.99328148624885, 28.251121875538985], [83.99439192078131, 28.250642263039396]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.0703090809377, 28.127199376613074], [84.0688311837701, 28.127849896118363]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 162, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.08983673603711, 28.140324263516362], [84.09154739865585, 28.139583470913863]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 186, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.11182305479451, 28.093046557761312], [84.11311034748388, 28.09248262331579]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 141, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.04798555821566, 28.13857219429599], [84.04908853285428, 28.138093922900904]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 120, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[83.97039126305327, 28.217152536547673], [83.9722359523037, 28.21633647445472]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 202, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[83.86865214142836, 28.101441369065697], [83.87018477242361, 28.100813564518006]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 165, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[83.80357043514243, 28.29400335689857], [83.80227853240632, 28.294552623013516]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 140, "name": "Pokhara Baglung Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[84.0040819875831, 28.18661173123047], [84.00594578757278, 28.185781671359194]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 204, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.00115804448006, 28.204899451393487], [84.00418575554437, 28.203596233088064]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 330, "name": "Prithvi Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[84.0057794906138, 28.202921322244517], [84.00924976616568, 28.20139397184826]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 380, "name": "Prithvi Highway"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[83.9711714506007, 28.202363087493183], [83.97008297665455, 28.201842655125148]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 121, "name": "Shanti path"}, "type": "Feature"}, {"geometry": {"coordinates": [[83.99981392248714, 28.21249873626769], [84.00133113078061, 28.213205582162317]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 168, "name": "Hospital Marg"}, "type": "Feature"}, {"geometry": {"coordinates": [[84.00659773200158, 28.20090128357972], [84.00785929224827, 28.201467564958108]], "type": "LineString"}, "properties": {"azimuth_d": 0.36, "length": 138, "name": "Ram Bazaar"}, "type": "Feature"}, {"geometry": {"coordinates": [[84.02197357900212, 28.16634018222436], [84.02317495718397, 28.166872935990085]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.05087404586828, 28.180185242248314], [84.05253047757344, 28.180984372896884]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 185, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.05312014446167, 28.181377819431845], [84.05512015037795, 28.182315167663745]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 222, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.03923937753024, 28.22823575947595], [84.03799667656574, 28.22765933599473]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 137, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.09784665034783, 28.206711786497664], [84.09642516338863, 28.206088256720587]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 155, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[83.94170797129834, 28.456182454469996], [83.94023753402462, 28.455551129522973]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 160, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.04491325542642, 28.218591290227405], [84.04672374651193, 28.21941137563391]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 199, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.07965398096678, 28.136180585863485], [84.08322215714776, 28.13779535950988]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 393, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.07248099968801, 28.14282282503333], [84.07410264649496, 28.14352137284382]], "type": "LineString"}, "properties": {"azimuth_d": 1.3, "length": 177, "name": "University Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[83.97891264109562, 28.341709880819963], [83.98013078308384, 28.342278341493195]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.07847297080963, 28.345518785260083], [84.07959572673974, 28.346005522377368]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 122, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[84.11171585025289, 28.357433744440243], [84.11287498364277, 28.35796322926373]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[83.99938803798693, 28.180315664661688], [84.00051515250664, 28.18083752195326]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 124, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "28.077", "geonameid": "1", "group": "Asia", "left": "83.749", "name": "Pokhara, Nepal", "right": "84.143", "slug": "pokhara_nepal", "top": "28.466"};
+var streetIndex = ["Rameshwor Marg", "Prithvi Highway", "Shanti path", "Mardi Himal East ascent trail", "Ram Bazaar", "Pokhara Baglung Highway", "University Road", "Seti Bridge", "Hospital Marg", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Pokhara, Nepal</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [9128, 13323, 13279, 13505, 13104, 12267, 13145, 12361, 14025, 14653, 13710, 12761, 13247, 12768, 14381, 13022, 12084, 12545, 13579, 12091, 12189, 12749, 13869, 14266, 13473, 13250, 13096, 13620, 14371, 15091, 13084, 11742, 12092, 14355, 13649, 12965, 16459, 11573, 13351, 12649, 13190, 11712, 12753, 11935, 12925, 13007, 11441, 12461, 12892, 11934, 13225, 11925, 13290, 12708, 13623, 13279, 11379, 13225, 11032, 12375, 11737, 11750, 12078, 12435, 12883, 12992, 12543, 11720, 13242, 11957, 13596, 12921, 11922, 12754, 12626, 12823, 12628, 12642, 12770, 12367, 12949, 13705, 12492, 13154, 13264, 14640, 14289, 13668, 13894, 9080, 22079, 12014, 14781, 14338, 14661, 12187, 13582, 13966, 12198, 14295, 14774, 13988, 16791, 13426, 15361, 15439, 15948, 13643, 12891, 15629, 13529, 15877, 14509, 14103, 15204, 15941, 16808, 15463, 16766, 15808, 15803, 15241, 16098, 15596, 14840, 17101, 15404, 15434, 15474, 14910, 16779, 15863, 14200, 14462, 14154, 14199, 15465, 14090, 13598, 15593, 14403, 13011, 13931, 12849, 15799, 16152, 13663, 15097, 14333, 14518, 13928, 14086, 14996, 14158, 14759, 14304, 14218, 13314, 14650, 13078, 14174, 13994, 14306, 14886, 13480, 12042, 12620, 13597, 13526, 15155, 12874, 12544, 14957, 12388, 13849, 14032, 12471, 13562, 13761, 9111, 10158], "ratio": 193, "solsticeLength": 47772.765081774065, "summer_sun_azimuth": 62.64774499197507, "sun_azimuth": 116.28644314794663, "totalLength": 2471830.7727568485}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

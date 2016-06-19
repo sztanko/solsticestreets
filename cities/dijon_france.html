@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Dijon, France</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [6290, 8123, 6530, 11126, 7016, 6346, 9428, 9661, 10636, 8486, 9880, 11693, 9064, 8623, 9725, 9992, 7966, 9426, 8447, 9637, 12115, 13892, 9876, 9159, 12173, 9717, 8408, 9612, 7828, 7695, 7847, 9242, 8956, 9559, 6575, 7180, 5572, 7129, 9759, 6344, 6476, 8483, 5450, 5190, 5974, 5029, 5839, 7380, 5852, 8959, 7394, 6418, 6094, 4795, 3912, 4886, 4564, 4352, 4682, 4408, 4051, 3535, 4143, 4221, 4457, 4830, 3731, 5622, 3684, 3929, 3643, 2918, 4522, 4557, 4053, 5722, 4420, 6025, 6730, 6154, 7329, 5639, 6799, 7512, 6286, 6142, 7688, 5887, 7703, 12661, 8049, 6736, 8121, 8430, 10861, 7312, 8847, 9677, 7888, 7536, 8605, 9784, 9794, 10352, 10702, 10145, 7417, 8607, 8174, 7754, 10435, 10402, 9998, 9071, 9281, 10885, 11165, 9375, 8093, 9226, 10375, 9152, 8615, 8758, 6975, 5656, 5545, 5783, 5715, 7338, 8425, 7850, 7341, 7243, 7687, 5396, 7355, 8826, 9358, 10549, 11657, 6668, 5565, 5105, 5201, 9936, 5774, 5925, 4705, 4424, 3555, 3847, 5294, 4516, 4335, 4567, 4415, 3526, 5979, 5041, 3240, 3383, 4535, 6682, 4702, 5153, 4458, 5345, 4941, 6530, 5822, 6418, 5685, 5381, 5420, 6580, 6438, 7435, 11686, 8453, 1351], "ratio": 155, "solsticeLength": 20172.314012415238, "summer_sun_azimuth": 52.91570555685279, "sun_azimuth": 124.74772247289344, "totalLength": 1293885.7333825682};
+var winter = {"features": [{"geometry": {"coordinates": [[5.088288175712648, 47.29350224836287], [5.091088318105818, 47.29214873863842]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 259, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.093910085809199, 47.29125363519853], [5.095261919153018, 47.290649635255846]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 122, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.045365287751395, 47.31559208362441], [5.047612978906415, 47.31451442233338]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 207, "name": "Rue d\u0027Auxonne"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.062654639427421, 47.301703856799115], [5.061213622633829, 47.30234632967739]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 130, "name": "Rue Ernest Champeaux"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.010606373481152, 47.29443481890996], [5.008459851897442, 47.295456237630674]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 197, "name": "Rue Raymond Bougeot"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.040651221587581, 47.31336903526474], [5.042367751538478, 47.31256864733069]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 157, "name": "Rue Ren\u00e9 Fleutelot"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.041277349754637, 47.31831636979388], [5.043180796146316, 47.317392097330924]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 176, "name": "Rue Pasteur"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.062275777403954, 47.309095354293646], [5.060791929085156, 47.309782837991946]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 135, "name": "Rue des P\u00e9joces"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.050919136794164, 47.328891565570814], [5.048399452881171, 47.33004952549421]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 229, "name": "Boulevard de la Marne"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.010082253075723, 47.29499389185165], [5.008736035607029, 47.29561733780969]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 122, "name": "Rue Raymond Bougeot"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.015297473230277, 47.29610306909859], [5.013658559702747, 47.29687093524831]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 150, "name": "Rue Jules Ferry"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.998720834781125, 47.348727423249954], [4.997278476883025, 47.349432089849756]], "type": "LineString"}, "properties": {"azimuth_d": 1.03, "length": 134, "name": "Rue des Champs Viaux"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.065575565045321, 47.35208571657546], [5.064254493286143, 47.35268887832782]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 120, "name": "Rue de Malines"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.007164344942964, 47.2690824954762], [5.005578321224447, 47.26983594475246]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 146, "name": "Impasse du Poron"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.003688872611092, 47.26562278112229], [5.002309127529685, 47.266282269263996]], "type": "LineString"}, "properties": {"azimuth_d": 0.45, "length": 127, "name": "Chemin de la Ruellette"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.995036485422162, 47.29549571639464], [4.993589098382159, 47.296154533984065]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.0772068806221, 47.329151236931125], [5.079840390780191, 47.32789814240666]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 242, "name": "Rue du Midi"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.99389428347672, 47.35254387140292], [4.996300476420743, 47.35137996032824]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 222, "name": "Rue des Combottes"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.065797936936519, 47.311525351842704], [5.067125965675331, 47.31092185481421]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 120, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.067041224634238, 47.31066126144452], [5.06557061972245, 47.311320498129135]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 132, "name": "Boulevard Docteur Petitjean"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.027081087987739, 47.32761164895621], [5.025214438150982, 47.32845227002548]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 168, "name": "Rue de Talant"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.049371334554166, 47.32939883835087], [5.05074638576977, 47.32878276846762]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 124, "name": "Boulevard de la Marne"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.979636079445328, 47.28083786321994], [4.982263219357009, 47.27961569791821]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 240, "name": "Rue du Carr\u00e9"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.012050156302791, 47.268546975682426], [5.010558596633075, 47.26926773553632]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 138, "name": "Rue Jean Truffin"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.979292253777174, 47.332986041452045], [4.975207249446527, 47.3348477459659]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 371, "name": "Voie Verte du Canal de Bourgogne"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[5.019726889962328, 47.311862220531225], [5.021056092167584, 47.31258163928061]], "type": "LineString"}, "properties": {"azimuth_d": 1.49, "length": 128, "name": "Rue Pierre-Joseph Antoine"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.049167486668978, 47.28752033552504], [5.050433489324291, 47.28820446646205]], "type": "LineString"}, "properties": {"azimuth_d": 1.45, "length": 122, "name": "Boulevard des Industries"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.014647540458213, 47.308501328815765], [5.015917817884144, 47.30916785775611]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 121, "name": "Boulevard Eug\u00e8ne Fyot"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.078423597686765, 47.34701843701191], [5.075810371734376, 47.34562058701965]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 250, "name": "Rue de la Breuchilli\u00e8re"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.102664899854886, 47.33686099528915], [5.105164299562204, 47.33814376175081]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 236, "name": "Route de Gray"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.025359025980719, 47.29947242653628], [5.027338244777098, 47.300497784751485]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 187, "name": "Chemin des Ateliers"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.045249449849535, 47.3181360750566], [5.043670550748743, 47.31733241818034]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 148, "name": "Rue Berlier"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.065952834507157, 47.331637393231404], [5.064423640092173, 47.330824264804555]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 146, "name": "Avenue des Gr\u00e9silles"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.990569182487775, 47.31391888811291], [4.988936220111498, 47.31310542440994]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 152, "name": "Chemin des \u00c9cayennes"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.989186084645126, 47.3148599243822], [4.987781780587426, 47.314131872272554]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.026482452463085, 47.303566734779444], [5.028308198612336, 47.304540376652085]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 175, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.026654616754257, 47.303187369841794], [5.028275257732871, 47.30400125263995]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 152, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.024630638594942, 47.26566385244783], [5.026583873491489, 47.266653252298454]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 183, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[5.008476196608626, 47.347984283714595], [5.006846167898487, 47.34713268235217]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 155, "name": "LINO"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.100940993829198, 47.336936432417694], [5.103021717472984, 47.33800445452007]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 196, "name": "Rue de la Goulette"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.102524335338671, 47.338605269339546], [5.104563065647568, 47.33962325147999]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 190, "name": "Rue de la Combe d\u0027Enfer"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.095872456980174, 47.343218082113026], [5.097185565931341, 47.34389726772718]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 124, "name": "Chemin de Saint-Apollinaire \u00e0 Ruffey"}, "type": "Feature"}, {"geometry": {"coordinates": [[4.990755176919207, 47.30343463598544], [4.989173176514213, 47.30263039237593]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 149, "name": "Rue Chanoine Bordet"}, "type": "Feature"}, {"geometry": {"coordinates": [[5.016435568043163, 47.30950766011077], [5.014558524646503, 47.30857039569789]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 175, "name": "Boulevard Eug\u00e8ne Fyot"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "47.256", "geonameid": "1", "group": "Western, Europe", "left": "4.974", "name": "Dijon, France", "right": "5.114", "slug": "dijon_france", "top": "47.364"};
+var streetIndex = ["Rue de la Goulette", "Rue de la Breuchilli\u00e8re", "Boulevard de la Marne", "Boulevard Eug\u00e8ne Fyot", "Rue des Combottes", "Rue Ren\u00e9 Fleutelot", "Boulevard Docteur Petitjean", "Voie Verte du Canal de Bourgogne", "Rue du Carr\u00e9", "Rue de la Combe d\u0027Enfer", "Rue Pasteur", "Rue des P\u00e9joces", "Chemin des \u00c9cayennes", "Boulevard des Industries", "Rue des Champs Viaux", "Rue Ernest Champeaux", "Rue Jules Ferry", "Rue de Talant", "Avenue des Gr\u00e9silles", "Rue Jean Truffin", "Rue du Midi", "Chemin de Saint-Apollinaire \u00e0 Ruffey", "Route de Gray", "Rue Chanoine Bordet", "LINO", "Rue de Malines", "Chemin des Ateliers", "Chemin de la Ruellette", "Rue d\u0027Auxonne", "Rue Berlier", "Impasse du Poron", "Rue Pierre-Joseph Antoine", "Rue Raymond Bougeot", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Dijon, France</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [6290, 8123, 6530, 11126, 7016, 6346, 9428, 9661, 10636, 8486, 9880, 11693, 9064, 8623, 9725, 9992, 7966, 9426, 8447, 9637, 12115, 13892, 9876, 9159, 12173, 9717, 8408, 9612, 7828, 7695, 7847, 9242, 8956, 9559, 6575, 7180, 5572, 7129, 9759, 6344, 6476, 8483, 5450, 5190, 5974, 5029, 5839, 7380, 5852, 8959, 7394, 6418, 6094, 4795, 3912, 4886, 4564, 4352, 4682, 4408, 4051, 3535, 4143, 4221, 4457, 4830, 3731, 5622, 3684, 3929, 3643, 2918, 4522, 4557, 4053, 5722, 4420, 6025, 6730, 6154, 7329, 5639, 6799, 7512, 6286, 6142, 7688, 5887, 7703, 12661, 8049, 6736, 8121, 8430, 10861, 7312, 8847, 9677, 7888, 7536, 8605, 9784, 9794, 10352, 10702, 10145, 7417, 8607, 8174, 7754, 10435, 10402, 9998, 9071, 9281, 10885, 11165, 9375, 8093, 9226, 10375, 9152, 8615, 8758, 6975, 5656, 5545, 5783, 5715, 7338, 8425, 7850, 7341, 7243, 7687, 5396, 7355, 8826, 9358, 10549, 11657, 6668, 5565, 5105, 5201, 9936, 5774, 5925, 4705, 4424, 3555, 3847, 5294, 4516, 4335, 4567, 4415, 3526, 5979, 5041, 3240, 3383, 4535, 6682, 4702, 5153, 4458, 5345, 4941, 6530, 5822, 6418, 5685, 5381, 5420, 6580, 6438, 7435, 11686, 8453, 1351], "ratio": 155, "solsticeLength": 20172.314012415238, "summer_sun_azimuth": 52.91570555685279, "sun_azimuth": 124.74772247289344, "totalLength": 1293885.7333825682}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

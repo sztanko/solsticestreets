@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Reading, England</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [6123, 7110, 6313, 6601, 7843, 5606, 6547, 5867, 4832, 6117, 5062, 5856, 5350, 4420, 6496, 4873, 5274, 6622, 5708, 5515, 8457, 5327, 5648, 5621, 4352, 4697, 4589, 4445, 4440, 5480, 3564, 4288, 3649, 4906, 5003, 5005, 5781, 4777, 5505, 4166, 4438, 4602, 4483, 4163, 5157, 5419, 5992, 5078, 4908, 4965, 5992, 5705, 5395, 6322, 4587, 5774, 5426, 4830, 5920, 6370, 6470, 5932, 5969, 5781, 6246, 6196, 6869, 5958, 6024, 8134, 8035, 7776, 5973, 7844, 6338, 8321, 7073, 6551, 7775, 8490, 8626, 8188, 9433, 7563, 7157, 6851, 8026, 7391, 9222, 6717, 9263, 7272, 6766, 5855, 7031, 7459, 7320, 5772, 7276, 7577, 8458, 6657, 5260, 6028, 5216, 4676, 6840, 6062, 5901, 6558, 8422, 6374, 6007, 4885, 5871, 5060, 4720, 5417, 4696, 4386, 5848, 5598, 4075, 4429, 5307, 5125, 5160, 6038, 4687, 4579, 4370, 4806, 4566, 4739, 3742, 5128, 4497, 4764, 4193, 4832, 4082, 4321, 4931, 6248, 6141, 7318, 6320, 6134, 7218, 6108, 5669, 5634, 5942, 6380, 6346, 6419, 5622, 6257, 5234, 6696, 6174, 6041, 8812, 8834, 7496, 6509, 6879, 7051, 6453, 6102, 6994, 7195, 7397, 7232, 6992, 5936, 7756, 6871, 5762, 5560, 1898], "ratio": 140, "solsticeLength": 15197.882573774803, "summer_sun_azimuth": 48.88088058769448, "sun_azimuth": 128.1820918517376, "totalLength": 1084916.1908675346};
+var winter = {"features": [{"geometry": {"coordinates": [[-0.927856270870904, 51.45302136294322], [-0.930512160710464, 51.45432944275248]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 234, "name": "Whitegates Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.022112783713823, 51.47831333667415], [-1.023736023082392, 51.479137948308335]], "type": "LineString"}, "properties": {"azimuth_d": 0.95, "length": 145, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.910847126217987, 51.46053993008985], [-0.908600273253285, 51.459440475850585]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 197, "name": "Warren Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.06569197469355, 51.41404442353897], [-1.064262105831176, 51.413336823273056]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 126, "name": "Jaques\u0027s Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.072298674593952, 51.40636819279362], [-1.07021375999858, 51.405356832356716]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 183, "name": "Sulhumstead Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.019783620459975, 51.46362698502867], [-1.017966842947118, 51.462773958742694]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 157, "name": "Romsey Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.036054319443309, 51.46091552317105], [-1.034436360673709, 51.46012779191082]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 142, "name": "Norcot Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.032596700565193, 51.470940195547534], [-1.035812082441595, 51.472535355540515]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 284, "name": "Clevedon Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.027395059093777, 51.46803938649725], [-1.025491612702098, 51.46706398442495]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 170, "name": "Rydal Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.033276305274484, 51.47273216262701], [-1.030583451241938, 51.47135459684045]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 241, "name": "Oxford Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.039837826716791, 51.49150846392601], [-1.037266677918325, 51.49025495030642]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 226, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.046933443029303, 51.41251514530495], [-1.045165867288063, 51.41167812845404]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 153, "name": "Theale Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.032750340850356, 51.48564171843776], [-1.034893342034735, 51.48671979882394]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 190, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.01900100216065, 51.48535715282503], [-1.020519300101512, 51.48607137479445]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 131, "name": "Pond Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.910043134065575, 51.433037648492075], [-0.911635528030473, 51.433802916251835]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 139, "name": "Silverdale Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.969329257221176, 51.4816313968644], [-0.967860077232927, 51.480909966458256]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 129, "name": "Evesham Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.011141962107104, 51.461216433495], [-1.009747045780955, 51.460550826563974]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 121, "name": "Oxford Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.957607752366243, 51.47444148414118], [-0.955782257674088, 51.47358124941849]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 158, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-0.930834277249403, 51.453025134799645], [-0.929406839138949, 51.45376416720245]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 128, "name": "Byron Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.906833870978488, 51.42422684333317], [-0.904592550069907, 51.42538639581821]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 201, "name": "Lower Earley Way"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.006403336966997, 51.49932651647305], [-1.00499333321514, 51.500095053175016]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 129, "name": "Mill Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.952207627427669, 51.475438176247565], [-0.953755010572536, 51.47456059098528]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.954860080686927, 51.491973659552144], [-0.952741219383711, 51.493138324998085]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 195, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.973579468863392, 51.450697731745464], [-0.972130405442755, 51.45148655265311]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 133, "name": "Inner Distribution Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.074419882830085, 51.407538474114716], [-1.072156768973229, 51.40873415260242]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 205, "name": "Folly Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.047826618631461, 51.46858085744228], [-1.04653086021986, 51.46930161729617]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 120, "name": "Fairford Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.948428981658026, 51.4760460318657], [-0.946965836640061, 51.476832170564336]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 133, "name": "Woods Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.927915782383422, 51.46276985161014], [-0.926237306272924, 51.46367166057257]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 153, "name": "Thames Valley Park Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.906942416624588, 51.49544737168435], [-0.905543812261072, 51.496185482077806]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 126, "name": "Henley Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.911897043409482, 51.46371197752683], [-0.910585443200887, 51.4644537759577]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 122, "name": "Old Bath Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-1.058570877395397, 51.44591744854657], [-1.060856622390816, 51.44464775785383]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 212, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-0.97289190134606, 51.41986104524622], [-0.974312969210104, 51.41908949105911]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 130, "name": "Imperial Way"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "51.404", "geonameid": "1", "group": "Western, Europe", "left": "-1.086", "name": "Reading, England", "right": "-0.901", "slug": "reading_england", "top": "51.505"};
+var streetIndex = ["Silverdale Road", "Old Bath Road", "Theale Road", "Imperial Way", "Jaques\u0027s Lane", "Byron Road", "Folly Lane", "Romsey Road", "Henley Road", "Mill Lane", "Fairford Road", "Norcot Road", "Rydal Avenue", "Lower Earley Way", "Thames Valley Park Drive", "Clevedon Road", "Oxford Road", "Sulhumstead Road", "Warren Road", "Woods Road", "Inner Distribution Road", "Pond Lane", "Evesham Road", "Whitegates Lane", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Reading, England</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [6123, 7110, 6313, 6601, 7843, 5606, 6547, 5867, 4832, 6117, 5062, 5856, 5350, 4420, 6496, 4873, 5274, 6622, 5708, 5515, 8457, 5327, 5648, 5621, 4352, 4697, 4589, 4445, 4440, 5480, 3564, 4288, 3649, 4906, 5003, 5005, 5781, 4777, 5505, 4166, 4438, 4602, 4483, 4163, 5157, 5419, 5992, 5078, 4908, 4965, 5992, 5705, 5395, 6322, 4587, 5774, 5426, 4830, 5920, 6370, 6470, 5932, 5969, 5781, 6246, 6196, 6869, 5958, 6024, 8134, 8035, 7776, 5973, 7844, 6338, 8321, 7073, 6551, 7775, 8490, 8626, 8188, 9433, 7563, 7157, 6851, 8026, 7391, 9222, 6717, 9263, 7272, 6766, 5855, 7031, 7459, 7320, 5772, 7276, 7577, 8458, 6657, 5260, 6028, 5216, 4676, 6840, 6062, 5901, 6558, 8422, 6374, 6007, 4885, 5871, 5060, 4720, 5417, 4696, 4386, 5848, 5598, 4075, 4429, 5307, 5125, 5160, 6038, 4687, 4579, 4370, 4806, 4566, 4739, 3742, 5128, 4497, 4764, 4193, 4832, 4082, 4321, 4931, 6248, 6141, 7318, 6320, 6134, 7218, 6108, 5669, 5634, 5942, 6380, 6346, 6419, 5622, 6257, 5234, 6696, 6174, 6041, 8812, 8834, 7496, 6509, 6879, 7051, 6453, 6102, 6994, 7195, 7397, 7232, 6992, 5936, 7756, 6871, 5762, 5560, 1898], "ratio": 140, "solsticeLength": 15197.882573774803, "summer_sun_azimuth": 48.88088058769448, "sun_azimuth": 128.1820918517376, "totalLength": 1084916.1908675346}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

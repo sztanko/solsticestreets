@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Belfast, Ireland</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [9495, 9361, 9223, 9299, 8459, 10511, 10410, 10345, 11588, 11869, 10703, 10381, 12398, 11476, 9951, 9203, 11006, 10617, 13261, 11515, 12207, 13485, 11095, 10259, 10208, 9424, 12503, 12350, 12258, 12106, 12252, 11421, 15238, 10583, 17341, 13491, 12423, 13811, 15113, 15794, 12423, 9154, 8888, 9573, 7059, 9330, 9429, 8470, 8459, 7218, 10071, 11166, 9225, 9377, 7698, 7943, 7467, 8546, 7820, 8663, 8649, 10768, 9632, 8787, 8445, 11233, 9393, 8933, 7353, 9355, 9242, 8257, 8520, 8320, 6864, 10520, 11249, 7180, 7559, 8225, 6772, 10058, 9083, 7959, 7762, 11305, 11178, 10100, 12114, 9686, 10325, 9198, 10353, 9239, 10158, 9979, 8784, 10517, 10453, 10900, 9317, 8633, 9603, 9297, 8616, 8010, 8456, 8704, 14003, 11912, 10927, 12994, 12644, 11165, 10114, 10883, 12109, 11497, 11273, 10548, 11414, 10907, 12371, 12189, 12405, 13178, 10992, 10043, 10566, 11700, 11127, 7254, 7086, 7790, 7721, 6485, 7583, 10675, 9411, 8961, 9173, 8357, 8617, 7299, 8112, 8561, 7939, 7357, 7802, 9699, 9665, 8359, 10593, 9186, 6532, 8017, 10326, 8095, 6370, 7103, 6146, 7044, 6582, 8127, 11410, 9180, 8900, 9539, 10225, 8988, 8742, 8715, 8451, 8061, 8528, 9862, 10283, 9012, 8751, 7447, 3214], "ratio": 138, "solsticeLength": 24544.7694958864, "summer_sun_azimuth": 44.90907435891329, "sun_azimuth": 131.6645321019603, "totalLength": 1771834.3746911888};
+var winter = {"features": [{"geometry": {"coordinates": [[-5.969383358927672, 54.56978956176541], [-5.971615711199887, 54.570902259411696]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 189, "name": "Stockman\u0027s Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.888513080728984, 54.59773843116429], [-5.890196502162354, 54.59864828675376]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 148, "name": "Comber Greenway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.913188816938571, 54.54042842550083], [-5.91475531082267, 54.54122386811201]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.969215469407118, 54.59643856562013], [-5.965988269047244, 54.594832425334005]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 274, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.951118102265183, 54.56739962971355], [-5.953016435695929, 54.56837897128034]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 163, "name": "Osborne Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.856848765110385, 54.59806985161575], [-5.854960573782506, 54.597065448158475]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 165, "name": "Knocklofty Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.900813523636117, 54.55251772826704], [-5.89924024041045, 54.55172865590228]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 134, "name": "Cairnshill Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.913788709748701, 54.55064076868939], [-5.915780836675964, 54.55166076248659]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 171, "name": "Beechill Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.943905306946306, 54.57631395137665], [-5.94202507842644, 54.575342321160775]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 162, "name": "Beechlands"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.893269643141878, 54.614236028266504], [-5.894848961337829, 54.61505619749204]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 136, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.891880761786041, 54.61534026019058], [-5.894396673842607, 54.61659343853407]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 213, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-6.010799683612532, 54.57866532667389], [-6.008818620797456, 54.57762404284267]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 172, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.831306843026852, 54.63839066155583], [-5.833407934695344, 54.639430688101584]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 177, "name": "Spencer Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.933431616016803, 54.60586896106162], [-5.934888642245454, 54.60660489216024]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 124, "name": "Clifton Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.936174174735186, 54.6255234343561], [-5.934056067803226, 54.62443998955189]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 182, "name": "Skegoneill Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.955584483190222, 54.57404136596921], [-5.953820176391218, 54.57311684204915]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 153, "name": "Cranmore Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-6.01809504067765, 54.56991369775142], [-6.015971653146721, 54.56886319382667]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 180, "name": "Glengoland Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.988393766782309, 54.55822898945141], [-5.98621120301496, 54.55707605866988]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 190, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-6.008606223371032, 54.56521086333785], [-6.010092334803716, 54.565963390604765]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 127, "name": "Blacks Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.895036967426023, 54.58776958226292], [-5.892810063390868, 54.5866195851475]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 192, "name": "Castlereagh Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.988721666834465, 54.63459717981755], [-5.991333467863313, 54.63588799290627]], "type": "LineString"}, "properties": {"azimuth_d": 1.21, "length": 221, "name": "Ballyutoag Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.998220626243892, 54.63793812260349], [-6.00210035776584, 54.639874761331725]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 329, "name": "Ballyutoag Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-5.885967329097127, 54.5730347832171], [-5.887559052509772, 54.57214328399556]], "type": "LineString"}, "properties": {"azimuth_d": 1.03, "length": 142, "name": "Tudor Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.884590433862797, 54.573020785438814], [-5.883012540590386, 54.573933155599235]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 143, "name": "Rochester Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.962582031235598, 54.570935954662446], [-5.960586551547066, 54.57208628705399]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 181, "name": "Lisburn Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.967356447102276, 54.57449197708382], [-5.964716315240679, 54.57598596750546]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 237, "name": "Boucher Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.978326849613808, 54.62694726824819], [-5.976858340177813, 54.62783692345101]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 136, "name": "Squires Hill Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.976147470969664, 54.621551585718294], [-5.974552310976719, 54.622503686099776]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 147, "name": "Glenbank Place"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.899508964226186, 54.548922227081725], [-5.901148380667905, 54.54800625270292]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 146, "name": "Gracemount Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.909716362091871, 54.552677487341526], [-5.911495421040428, 54.551609046143994]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 165, "name": "Lenaghan Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.947902552750719, 54.61086792811429], [-5.946587180685697, 54.61166555002029]], "type": "LineString"}, "properties": {"azimuth_d": 1.21, "length": 122, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.994456145890608, 54.56764773404748], [-5.992164114467812, 54.568948437781955]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 206, "name": "Ladybrook Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.968193547772188, 54.57252114019062], [-5.969519061940048, 54.571755872430884]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 120, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.885212119621201, 54.572301953422645], [-5.886985227418506, 54.57129763378438]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 159, "name": "Upper Knockbreda Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.887988625047427, 54.570882226663116], [-5.882630241986647, 54.57392167239189]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 483, "name": "Upper Knockbreda Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.882978845339636, 54.57357189557246], [-5.885212119621201, 54.572301953422645]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 201, "name": "Upper Knockbreda Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.917539946695001, 54.64622095168147], [-5.919249603485297, 54.64524445996176]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 154, "name": "Shore Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.919940859039997, 54.6448771649647], [-5.921244328802516, 54.64410527550146]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 120, "name": "Shore Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.909673362928571, 54.561230046063656], [-5.912602335173545, 54.55954519970675]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 266, "name": "Upper Knockbreda Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.873989421824092, 54.61129724919484], [-5.871201517009552, 54.612957033661274]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 257, "name": "Sydenham Bypass"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.91656974140264, 54.653718564070196], [-5.917943367694733, 54.65288439706637]], "type": "LineString"}, "properties": {"azimuth_d": 1.22, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-6.004268923754893, 54.574464232984326], [-6.005901634674045, 54.57353996052137]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 147, "name": "Rosgoill Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.955026583714982, 54.59697274430937], [-5.956332148953294, 54.59618266611625]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 121, "name": "Colligan Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.955592362179203, 54.597343559705756], [-5.957094063951757, 54.596462537863204]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 137, "name": "Malcolmson Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.986234923800936, 54.558581951394046], [-5.984856436005032, 54.5594098319705]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 128, "name": "Potter Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.985443001589089, 54.56005523851485], [-5.987590026086991, 54.558762749045485]], "type": "LineString"}, "properties": {"azimuth_d": 1.03, "length": 199, "name": "Orpen Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.898951819122232, 54.56541848307946], [-5.900317063511153, 54.564605187014536]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 126, "name": "Glencregagh Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.992884036131386, 54.54010396202901], [-5.991293570004217, 54.54104533357443]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 146, "name": "Lagan Towpath"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.988125713518825, 54.55949088497417], [-5.985174026316258, 54.56120632527768]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 269, "name": "Upper Lisburn Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.925088269597893, 54.54961976906384], [-5.9274624436718, 54.548276736718314]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 213, "name": "Upper Knockbreda Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.912402426782847, 54.55980269177223], [-5.910503255161785, 54.560884292557745]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 171, "name": "Upper Knockbreda Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.906127063514901, 54.56428256756138], [-5.904242308767294, 54.56543164266745]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 176, "name": "Upper Knockbreda Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-5.904242308767294, 54.56543164266745], [-5.902588223995052, 54.56640654182556]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 152, "name": "Upper Knockbreda Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "54.532", "geonameid": "1", "group": "Western, Europe", "left": "-6.046", "name": "Belfast, Ireland", "right": "-5.816", "slug": "belfast_ireland", "top": "54.663"};
+var streetIndex = ["Ladybrook Park", "Tudor Avenue", "Sydenham Bypass", "Skegoneill Avenue", "Rochester Road", "Orpen Road", "Cranmore Park", "Lisburn Road", "Upper Knockbreda Road", "Stockman\u0027s Lane", "Upper Lisburn Road", "Blacks Road", "Beechill Road", "Malcolmson Street", "Clifton Street", "Comber Greenway", "Glengoland Park", "Squires Hill Park", "Ballyutoag Road", "Glencregagh Drive", "Potter Park", "Spencer Street", "Lagan Towpath", "Shore Road", "Osborne Park", "Rosgoill Park", "Glenbank Place", "Knocklofty Park", "Beechlands", "Cairnshill Park", "Gracemount Park", "Castlereagh Road", "Colligan Street", "Boucher Road", "Lenaghan Park", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Belfast, Ireland</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [9495, 9361, 9223, 9299, 8459, 10511, 10410, 10345, 11588, 11869, 10703, 10381, 12398, 11476, 9951, 9203, 11006, 10617, 13261, 11515, 12207, 13485, 11095, 10259, 10208, 9424, 12503, 12350, 12258, 12106, 12252, 11421, 15238, 10583, 17341, 13491, 12423, 13811, 15113, 15794, 12423, 9154, 8888, 9573, 7059, 9330, 9429, 8470, 8459, 7218, 10071, 11166, 9225, 9377, 7698, 7943, 7467, 8546, 7820, 8663, 8649, 10768, 9632, 8787, 8445, 11233, 9393, 8933, 7353, 9355, 9242, 8257, 8520, 8320, 6864, 10520, 11249, 7180, 7559, 8225, 6772, 10058, 9083, 7959, 7762, 11305, 11178, 10100, 12114, 9686, 10325, 9198, 10353, 9239, 10158, 9979, 8784, 10517, 10453, 10900, 9317, 8633, 9603, 9297, 8616, 8010, 8456, 8704, 14003, 11912, 10927, 12994, 12644, 11165, 10114, 10883, 12109, 11497, 11273, 10548, 11414, 10907, 12371, 12189, 12405, 13178, 10992, 10043, 10566, 11700, 11127, 7254, 7086, 7790, 7721, 6485, 7583, 10675, 9411, 8961, 9173, 8357, 8617, 7299, 8112, 8561, 7939, 7357, 7802, 9699, 9665, 8359, 10593, 9186, 6532, 8017, 10326, 8095, 6370, 7103, 6146, 7044, 6582, 8127, 11410, 9180, 8900, 9539, 10225, 8988, 8742, 8715, 8451, 8061, 8528, 9862, 10283, 9012, 8751, 7447, 3214], "ratio": 138, "solsticeLength": 24544.7694958864, "summer_sun_azimuth": 44.90907435891329, "sun_azimuth": 131.6645321019603, "totalLength": 1771834.3746911888}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

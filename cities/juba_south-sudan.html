@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Juba, South Sudan</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [41948, 33541, 23136, 21486, 20842, 18275, 16550, 19336, 18237, 19843, 19459, 19925, 18971, 22593, 28717, 23144, 16134, 15344, 12103, 10379, 9091, 8202, 8206, 7083, 6612, 6023, 5799, 6051, 5900, 5221, 5218, 4688, 4365, 4341, 5035, 4114, 4754, 5709, 5233, 5906, 6562, 6002, 5770, 5541, 5270, 7557, 6059, 5109, 4541, 4840, 4614, 4474, 3268, 3640, 4043, 4502, 4351, 4782, 4542, 4374, 4562, 5057, 4017, 5023, 4631, 5622, 6260, 5240, 6812, 6277, 7159, 9145, 11002, 9040, 8585, 8164, 7219, 8171, 8100, 10380, 9858, 11632, 11763, 13676, 16829, 20578, 30284, 49703, 54236, 60767, 73772, 44731, 33923, 26331, 25810, 24458, 24133, 21393, 19523, 22434, 24428, 25001, 25340, 32606, 52543, 47611, 27796, 17820, 14476, 10721, 10976, 10295, 8473, 8236, 8999, 7692, 7686, 7787, 7845, 7561, 5142, 5176, 5570, 5373, 5112, 5075, 4617, 4647, 5092, 6747, 9890, 9029, 6596, 5526, 4664, 5565, 6376, 5272, 5797, 4795, 4782, 4465, 5081, 4577, 4823, 3686, 4839, 4708, 4421, 4683, 4210, 5010, 4768, 4795, 4706, 4942, 5942, 5299, 5853, 6425, 6188, 6656, 8175, 7824, 6746, 7605, 7031, 7511, 8239, 8520, 10230, 10464, 10812, 12654, 13646, 17483, 21897, 29728, 39618, 41646, 5060], "ratio": 113, "solsticeLength": 25423.34764048643, "summer_sun_azimuth": 66.39329095921583, "sun_azimuth": 113.44035113212651, "totalLength": 2239446.2460503895};
+var winter = {"features": [{"geometry": {"coordinates": [[31.62821027780132, 4.809660386998985], [31.629616593515777, 4.809039874707053]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 170, "name": "Torit-Juba"}, "type": "Feature"}, {"geometry": {"coordinates": [[31.57812354483573, 4.856144075066425], [31.576754193314287, 4.856759474397421]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 166, "name": "Gudele Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[31.570107427916696, 4.859899083869124], [31.568994059718165, 4.860406272830147]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 135, "name": "Gudele Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[31.591926946800896, 4.890950682365712], [31.59484183744854, 4.889654672497016]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 353, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[31.55941999845629, 4.817492269686255], [31.556748937371992, 4.818631621784647]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 322, "name": "Juba-Lainya"}, "type": "Feature"}, {"geometry": {"coordinates": [[31.53738439410827, 4.81623842079054], [31.53841813422667, 4.815784792190783]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[31.618147467765397, 4.845457819072436], [31.619438364673126, 4.844916683403568]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 155, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[31.585061162273405, 4.835761884938421], [31.58650243052409, 4.835165847803751]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 172, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[31.57198765643659, 4.858864673198468], [31.57308719449489, 4.858355221123588]], "type": "LineString"}, "properties": {"azimuth_d": 1.49, "length": 134, "name": "Gudele Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[31.57702618607226, 4.85649385188583], [31.57803503193821, 4.856040139467068]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 122, "name": "Gudele Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[31.5177019252572, 4.841896599871092], [31.51657313435683, 4.842408650335983]], "type": "LineString"}, "properties": {"azimuth_d": 1.03, "length": 137, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[31.574607923187667, 4.889213281475918], [31.57236668609809, 4.890188432091121]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 271, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[31.631993365979667, 4.845144587350831], [31.630973288363432, 4.845607184586981]], "type": "LineString"}, "properties": {"azimuth_d": 1.03, "length": 124, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[31.58699587316391, 4.916097984447873], [31.585723751719286, 4.916647753477007]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 153, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[31.58761378706589, 4.915367753043398], [31.5865000835912, 4.915840827658513]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[31.54015855260161, 4.796799362407625], [31.542996748835204, 4.79551751795529]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 345, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[31.613232990296694, 4.845301496578258], [31.615650079714836, 4.846397346599161]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 294, "name": "Adis Ababa Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[31.57675142728624, 4.84963603016638], [31.579936466673132, 4.851022229313201]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 385, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[31.534927742107158, 4.822907733507633], [31.533411288184993, 4.822276743836738]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 182, "name": "Juba-Lainya"}, "type": "Feature"}, {"geometry": {"coordinates": [[31.526319862824064, 4.822864147611142], [31.52475605114898, 4.822152440212676]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 190, "name": "Juba-Lainya"}, "type": "Feature"}, {"geometry": {"coordinates": [[31.58117732361893, 4.832105363497988], [31.578462257542977, 4.83092175495085]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 328, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[31.58180873238498, 4.90187548732402], [31.583195434446022, 4.902470937725468]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[31.591746149149454, 4.850192756175146], [31.59439885386581, 4.851384327530297]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 322, "name": "Ministries Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[31.569649859822476, 4.844031386790362], [31.570938158340226, 4.844575875220528]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 155, "name": "Yei Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "4.786", "geonameid": "1", "group": "Africa", "left": "31.491", "name": "Juba, South Sudan", "right": "31.653", "slug": "juba_south-sudan", "top": "4.928"};
+var streetIndex = ["Adis Ababa Street", "Torit-Juba", "Ministries Road", "Juba-Lainya", "Gudele Road", "Yei Road", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Juba, South Sudan</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [41948, 33541, 23136, 21486, 20842, 18275, 16550, 19336, 18237, 19843, 19459, 19925, 18971, 22593, 28717, 23144, 16134, 15344, 12103, 10379, 9091, 8202, 8206, 7083, 6612, 6023, 5799, 6051, 5900, 5221, 5218, 4688, 4365, 4341, 5035, 4114, 4754, 5709, 5233, 5906, 6562, 6002, 5770, 5541, 5270, 7557, 6059, 5109, 4541, 4840, 4614, 4474, 3268, 3640, 4043, 4502, 4351, 4782, 4542, 4374, 4562, 5057, 4017, 5023, 4631, 5622, 6260, 5240, 6812, 6277, 7159, 9145, 11002, 9040, 8585, 8164, 7219, 8171, 8100, 10380, 9858, 11632, 11763, 13676, 16829, 20578, 30284, 49703, 54236, 60767, 73772, 44731, 33923, 26331, 25810, 24458, 24133, 21393, 19523, 22434, 24428, 25001, 25340, 32606, 52543, 47611, 27796, 17820, 14476, 10721, 10976, 10295, 8473, 8236, 8999, 7692, 7686, 7787, 7845, 7561, 5142, 5176, 5570, 5373, 5112, 5075, 4617, 4647, 5092, 6747, 9890, 9029, 6596, 5526, 4664, 5565, 6376, 5272, 5797, 4795, 4782, 4465, 5081, 4577, 4823, 3686, 4839, 4708, 4421, 4683, 4210, 5010, 4768, 4795, 4706, 4942, 5942, 5299, 5853, 6425, 6188, 6656, 8175, 7824, 6746, 7605, 7031, 7511, 8239, 8520, 10230, 10464, 10812, 12654, 13646, 17483, 21897, 29728, 39618, 41646, 5060], "ratio": 113, "solsticeLength": 25423.34764048643, "summer_sun_azimuth": 66.39329095921583, "sun_azimuth": 113.44035113212651, "totalLength": 2239446.2460503895}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

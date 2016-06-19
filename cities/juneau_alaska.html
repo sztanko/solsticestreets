@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Juneau, Alaska</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [6952, 5152, 3602, 1694, 2462, 2377, 1937, 2546, 1623, 2420, 3543, 1761, 2775, 988, 1602, 1480, 1714, 2355, 816, 2038, 2105, 1495, 1546, 2017, 2268, 1737, 3149, 2033, 1515, 2046, 1657, 1433, 1547, 2095, 1484, 1021, 1020, 1117, 1382, 1252, 1097, 1847, 1631, 1465, 1086, 1305, 1445, 1383, 1913, 1272, 1467, 1600, 2422, 1009, 1128, 1725, 3994, 2754, 2174, 1880, 1658, 1849, 2163, 1420, 1137, 1088, 1495, 1677, 1269, 2833, 2465, 1189, 1390, 1018, 1221, 658, 1174, 1176, 1319, 3053, 1483, 1371, 960, 1628, 3847, 2254, 3304, 3543, 5817, 16153, 12292, 4984, 3746, 3020, 3147, 1866, 4343, 1822, 1891, 2036, 2737, 768, 2656, 2091, 1810, 999, 1238, 2391, 3802, 2214, 1868, 2489, 1272, 1241, 2362, 4178, 2944, 2012, 2196, 2594, 2777, 2494, 3255, 3556, 3112, 2901, 3109, 3117, 3319, 2980, 6071, 4356, 6340, 4180, 4814, 4258, 4697, 5541, 4575, 3922, 4530, 6348, 3599, 4594, 4002, 4102, 3465, 6691, 5158, 3361, 2687, 2362, 1621, 3467, 1676, 2575, 3014, 2586, 2479, 1108, 2125, 2500, 2104, 2113, 2458, 2782, 4815, 4890, 2465, 3058, 2196, 2767, 3187, 2886, 2241, 2845, 3662, 3854, 4357, 8721, 771], "ratio": 288, "solsticeLength": 14116.816269981475, "summer_sun_azimuth": 38.61886969939799, "sun_azimuth": 137.00860871236168, "totalLength": 488656.3989660025};
+var winter = {"features": [{"geometry": {"coordinates": [[-134.41880284665893, 58.30672932815886], [-134.4171403799835, 58.305787956613436]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 142, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.4545210697474, 58.320800951025596], [-134.45288131802954, 58.319851951948294]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 142, "name": "Channel Vista Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.4072882071743, 58.30348544781168], [-134.4056846652782, 58.30257416729867]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 138, "name": "Harris Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.4130523581677, 58.303123265775554], [-134.41146884902017, 58.302202597530986]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 138, "name": "Main Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.46401365891043, 58.32654515308942], [-134.461696146502, 58.3252741212922]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 195, "name": "Channel Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.6450418127004, 58.43736003183262], [-134.64311062220924, 58.43630424730887]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 162, "name": "National Forest Development Road 8452"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.42400180592134, 58.289217856048765], [-134.42202770008592, 58.2881096846302]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 168, "name": "Simpson Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.43689116134544, 58.30930709866086], [-134.4342475090845, 58.30783255425455]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 225, "name": "Glacier Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.37582866145027, 58.28357826013652], [-134.37328324509454, 58.282139925551945]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 218, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.3597462200122, 58.277037777271204], [-134.35817452934816, 58.276194390173885]], "type": "LineString"}, "properties": {"azimuth_d": 1.41, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.4985948768334, 58.33017543917294], [-134.49704992444046, 58.3293191439447]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 131, "name": "Gray Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.39562043031873, 58.27514866393395], [-134.3935037483103, 58.27399313476247]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 178, "name": "5th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.76694712280857, 58.389494335569935], [-134.76318775541623, 58.3873484845385]], "type": "LineString"}, "properties": {"azimuth_d": 0.25, "length": 324, "name": "Point Lena Loop Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.3984475624401, 58.27758561846264], [-134.39665375134194, 58.276592865850745]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 152, "name": "4th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.46177577458212, 58.32566178431397], [-134.45943881615833, 58.324282625965814]], "type": "LineString"}, "properties": {"azimuth_d": 1.26, "length": 205, "name": "Channel Vista Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-135.15458147847477, 57.90345895121766], [-135.1564697536217, 57.90449646319249]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 160, "name": "Kennel Creek 8502/8508"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.95076703708855, 57.96201895010133], [-134.94234003927596, 57.95715895500327]], "type": "LineString"}, "properties": {"azimuth_d": 0.92, "length": 734, "name": "Whitestone Harbor - Iyouktuk C Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.43109272836807, 58.29246441860496], [-134.42920923090594, 58.2914289182869]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 159, "name": "Foster Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-135.16317745545533, 57.84636234880903], [-135.16651194417582, 57.84828876161541]], "type": "LineString"}, "properties": {"azimuth_d": 1.07, "length": 291, "name": "National Forest Development Road 8510"}, "type": "Feature"}, {"geometry": {"coordinates": [[-135.17635020302572, 57.913620248615864], [-135.17415942499326, 57.91237553599462]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 189, "name": "Kennel Creek 8502/8508"}, "type": "Feature"}, {"geometry": {"coordinates": [[-135.16307444186532, 57.90246879699577], [-135.15898885080145, 57.90013527515225]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 354, "name": "Kennel Creek 8502/8508"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.40736146500802, 58.2830900980957], [-134.40571995309057, 58.282142440122904]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 142, "name": "Douglas Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.48131122485154, 58.322698949180214], [-134.48282876842111, 58.32352682975665]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 127, "name": "North Douglas Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.56691987673327, 58.35977269364989], [-134.57479886571636, 58.36425583838126]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 678, "name": "Egan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.46407375715617, 58.32675386247845], [-134.45957837484616, 58.32411733483523]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 393, "name": "Egan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.48778440103436, 58.33703904440557], [-134.4897156753446, 58.33812592579008]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 165, "name": "Egan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.46009335897713, 58.32459627678256], [-134.46388063810707, 58.326770793922854]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 327, "name": "Egan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.5722811096411, 58.36221735952946], [-134.5670438450812, 58.35926047554696]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 448, "name": "Old Dairy Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.57505711215316, 58.364148550020644], [-134.56714702630927, 58.359647887111635]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 680, "name": "Egan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-135.0360453581662, 58.83233886251653], [-135.03742560616178, 58.83317437062487]], "type": "LineString"}, "properties": {"azimuth_d": 1.49, "length": 122, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-134.56867764564777, 58.39020713261581], [-134.571129268507, 58.38851524546023]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 236, "name": "Mendenhall Loop Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.59038333828684, 58.417427027895684], [-134.59181295569215, 58.41647475987613]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 134, "name": "Skaters Cabin Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-134.59613734717743, 58.32763999728198], [-134.59783510166523, 58.326557893582276]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 155, "name": "North Douglas Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-133.74055290436033, 58.14033564203373], [-133.74227488254832, 58.13921154499912]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 160, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "57.809", "geonameid": "1", "group": "North, America", "left": "-135.200", "name": "Juneau, Alaska", "right": "-133.030", "slug": "juneau_alaska", "top": "58.982"};
+var streetIndex = ["5th Street", "Egan Drive", "Old Dairy Road", "Douglas Highway", "Mendenhall Loop Road", "Simpson Avenue", "Foster Avenue", "Skaters Cabin Road", "Main Street", "Glacier Avenue", "Point Lena Loop Road", "Kennel Creek 8502/8508", "Harris Street", "4th Street", "North Douglas Highway", "Whitestone Harbor - Iyouktuk C Road", "Channel Drive", "National Forest Development Road 8510", "Channel Vista Drive", "Gray Street", "National Forest Development Road 8452", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Juneau, Alaska</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [6952, 5152, 3602, 1694, 2462, 2377, 1937, 2546, 1623, 2420, 3543, 1761, 2775, 988, 1602, 1480, 1714, 2355, 816, 2038, 2105, 1495, 1546, 2017, 2268, 1737, 3149, 2033, 1515, 2046, 1657, 1433, 1547, 2095, 1484, 1021, 1020, 1117, 1382, 1252, 1097, 1847, 1631, 1465, 1086, 1305, 1445, 1383, 1913, 1272, 1467, 1600, 2422, 1009, 1128, 1725, 3994, 2754, 2174, 1880, 1658, 1849, 2163, 1420, 1137, 1088, 1495, 1677, 1269, 2833, 2465, 1189, 1390, 1018, 1221, 658, 1174, 1176, 1319, 3053, 1483, 1371, 960, 1628, 3847, 2254, 3304, 3543, 5817, 16153, 12292, 4984, 3746, 3020, 3147, 1866, 4343, 1822, 1891, 2036, 2737, 768, 2656, 2091, 1810, 999, 1238, 2391, 3802, 2214, 1868, 2489, 1272, 1241, 2362, 4178, 2944, 2012, 2196, 2594, 2777, 2494, 3255, 3556, 3112, 2901, 3109, 3117, 3319, 2980, 6071, 4356, 6340, 4180, 4814, 4258, 4697, 5541, 4575, 3922, 4530, 6348, 3599, 4594, 4002, 4102, 3465, 6691, 5158, 3361, 2687, 2362, 1621, 3467, 1676, 2575, 3014, 2586, 2479, 1108, 2125, 2500, 2104, 2113, 2458, 2782, 4815, 4890, 2465, 3058, 2196, 2767, 3187, 2886, 2241, 2845, 3662, 3854, 4357, 8721, 771], "ratio": 288, "solsticeLength": 14116.816269981475, "summer_sun_azimuth": 38.61886969939799, "sun_azimuth": 137.00860871236168, "totalLength": 488656.3989660025}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

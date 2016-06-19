@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Matera, Italy</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [5284, 4917, 5391, 5106, 6029, 7770, 6827, 6252, 4583, 7011, 5403, 6033, 4628, 6085, 5656, 6429, 4258, 4386, 4853, 6152, 5401, 4391, 4481, 4750, 3852, 4455, 4044, 6506, 5149, 4154, 5462, 6308, 5240, 5208, 5114, 4842, 5740, 4545, 8539, 4614, 4402, 4889, 4231, 4155, 6449, 5442, 7238, 5768, 6700, 5038, 3763, 3900, 6511, 3807, 3469, 4018, 4653, 4709, 4288, 4759, 4917, 5142, 5157, 4414, 4281, 4650, 3122, 3699, 4958, 4406, 3840, 3354, 4003, 4536, 4113, 5515, 3576, 3074, 5356, 5956, 5029, 3683, 4891, 4590, 4749, 4862, 5319, 4829, 5469, 5054, 9361, 6503, 4251, 4829, 5219, 4935, 5563, 7051, 5234, 5947, 4963, 6040, 5090, 4259, 5374, 5079, 3418, 6951, 5881, 4306, 6825, 5089, 6355, 6484, 7412, 5047, 5344, 6342, 5748, 5132, 7146, 8222, 11038, 6057, 6736, 5110, 4397, 5988, 7761, 10864, 6236, 5731, 5042, 4125, 4829, 6091, 4881, 9744, 6017, 5225, 4945, 6138, 5393, 7293, 5284, 5217, 4718, 5955, 6255, 8874, 10288, 7460, 4695, 4990, 8193, 6943, 9673, 6336, 6644, 6302, 5177, 7499, 6971, 9326, 8533, 6968, 4780, 5308, 5151, 5728, 5963, 5150, 4671, 5192, 5167, 5076, 5433, 5935, 5858, 4095, 1152], "ratio": 237, "solsticeLength": 23849.534041166316, "summer_sun_azimuth": 57.477257639329565, "sun_azimuth": 120.73102482579235, "totalLength": 1002677.8414321621};
+var winter = {"features": [{"geometry": {"coordinates": [[16.60191864682389, 40.67264623551645], [16.599006857480447, 40.674027154064305]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 289, "name": "Via Nazionale"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.506235366422743, 40.69771759755585], [16.508076870549985, 40.69688954934133]], "type": "LineString"}, "properties": {"azimuth_d": 0.07, "length": 180, "name": "SP Matera Gravina"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.611793618409706, 40.652224231348384], [16.60995094081602, 40.653054039762566]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 180, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.540446271863516, 40.60619794373713], [16.539030149322343, 40.606872016390355]], "type": "LineString"}, "properties": {"azimuth_d": 1.38, "length": 141, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.55555565816215, 40.57793232221734], [16.551803918301687, 40.57961716857425]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 368, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.446727541928194, 40.65123047290813], [16.445375540946316, 40.65185919946518]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.596131864691927, 40.67400008051706], [16.594802327210544, 40.67462771742669]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 132, "name": "Via Edmondo Semeraro"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.595877557749645, 40.67533707789226], [16.598947932701122, 40.67390335335443]], "type": "LineString"}, "properties": {"azimuth_d": 0.88, "length": 304, "name": "Via Nazionale"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.595133244747814, 40.673919530427554], [16.596452891583453, 40.67332709751125]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 129, "name": "Viale Giuseppe Parini"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.632681572575194, 40.668172059421465], [16.63033153838242, 40.66925089417893]], "type": "LineString"}, "properties": {"azimuth_d": 0.45, "length": 231, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.520268683991986, 40.66798179021944], [16.5140196399, 40.67078419572647]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 612, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.663843141641422, 40.73944966853324], [16.66256783507356, 40.739994073144366]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 123, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.669598743093587, 40.73343506627302], [16.667137145769573, 40.734589924892276]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 244, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.666244389262573, 40.735027879333074], [16.664078421663504, 40.736038653036786]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 214, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.67266006558964, 40.752697769413174], [16.67448866158597, 40.75186553024707]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 179, "name": "Matine di Santeramo"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.42106751882892, 40.638958779928885], [16.42357823410552, 40.63777533901981]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 249, "name": "Via Appia"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.67771426938424, 40.73611895166917], [16.693227328139724, 40.72895066425616]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 1531, "name": "Strada Provinciale Altamura verso Laterza II tratto"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.69475593582146, 40.72831498071949], [16.696582687799093, 40.72746622920414]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 180, "name": "Strada Provinciale Altamura verso Laterza II tratto"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.702054058914655, 40.724628116789575], [16.72103546538429, 40.715623354391255]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 1887, "name": "Strada Provinciale Altamura verso Laterza II tratto"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.634691217680057, 40.75317126312345], [16.637764274840578, 40.751823536912184]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 299, "name": "Strada Provinciale Altamura verso Laterza I tratto"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.661517834063034, 40.70770907759578], [16.65214418410602, 40.711868680864654]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 915, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.611461192129838, 40.6607447712004], [16.61286004795045, 40.66012518091778]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 136, "name": "Via Lucana"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.56686544393321, 40.67563798821618], [16.565050175162924, 40.67645849271784]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 178, "name": "Via della Tecnica"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.584146916620227, 40.67493449508282], [16.585502018906308, 40.674294117680375]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 134, "name": "Via Giovanni Maria Trabaci"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.594799896458625, 40.67221775262624], [16.593181099498707, 40.672978158882124]], "type": "LineString"}, "properties": {"azimuth_d": 1.03, "length": 160, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.444467445556484, 40.673576375311626], [16.442710850108426, 40.674411799600925]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 174, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.492948122054997, 40.68485565095514], [16.494272462756413, 40.68427771873132]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.540455156680878, 40.62250669656089], [16.542020225641433, 40.62184184400115]], "type": "LineString"}, "properties": {"azimuth_d": 1.47, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.620008889348128, 40.64817116206882], [16.621908731521415, 40.647275639533774]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 188, "name": "Via Salvatore e Michele Frangione"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.502004768433977, 40.60533737373831], [16.500734071912888, 40.60592016746596]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.605373332035864, 40.58193727937268], [16.606939742100934, 40.581244682713475]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 153, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.676608193441467, 40.57462482322509], [16.674828463940628, 40.57540341821087]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 173, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.479331971806715, 40.67163847929791], [16.487477756767845, 40.66776268727048]], "type": "LineString"}, "properties": {"azimuth_d": 1.36, "length": 811, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.487477756767845, 40.66776268727048], [16.490764552459265, 40.66624447314865]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 324, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.599006857480447, 40.674027154064305], [16.595954168344633, 40.675417125067554]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 300, "name": "Via Nazionale"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.567607996735347, 40.60327282716764], [16.565648643049514, 40.604182934214236]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 193, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[16.552844950675848, 40.59224316460065], [16.555873332292435, 40.59376858715919]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 306, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.600313093270984, 40.66346696189404], [16.603989479821934, 40.665226742465336]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 366, "name": "Via Antonio Passarelli"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.503225173536034, 40.567869260724336], [16.50446971851926, 40.568488180454665]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.58215336476945, 40.61309834552475], [16.58348315370793, 40.61372933519564]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.532414229328452, 40.66590835883139], [16.533803362141413, 40.66659869237676]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 140, "name": "Viale Piero della Francesca"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.532789822409683, 40.66561423784904], [16.534078791479683, 40.66621278955466]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 127, "name": "Viale Andrea Mantegna"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.587622556590162, 40.70335015266943], [16.586139127366522, 40.70260106198282]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 150, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.67659872189088, 40.73871105522559], [16.67875572085356, 40.73977471873832]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 216, "name": "Strada Provinciale di Cassano"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.725289029787746, 40.62857259606852], [16.723550287793444, 40.627705320547165]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 175, "name": "Via Verdazzi"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.59922964846677, 40.75160854109578], [16.597878988589397, 40.75098082036712]], "type": "LineString"}, "properties": {"azimuth_d": 1.03, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.606013625619312, 40.66266506521745], [16.60300703695097, 40.66126218608329]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 297, "name": "Via Lanera"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.603989479821934, 40.665226742465336], [16.605271575731336, 40.665837867025715]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 127, "name": "Via Antonio Passarelli"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.689943549933417, 40.748575046518255], [16.691879266652307, 40.749496217677006]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 192, "name": "Strada Provinciale di Cassano"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.72249207251778, 40.76256603547645], [16.727267829488966, 40.76483367556102]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 474, "name": "Strada Provinciale di Cassano"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.718407487282292, 40.70104135744029], [16.71668978386495, 40.70016896895797]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 174, "name": "Strada Provinciale Matera - Gioia del Colle"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.715064784296715, 40.69914964571305], [16.712573682673536, 40.69794893808344]], "type": "LineString"}, "properties": {"azimuth_d": 0.09, "length": 248, "name": "Strada Provinciale Matera - Gioia del Colle"}, "type": "Feature"}, {"geometry": {"coordinates": [[16.509518138800672, 40.69612327575322], [16.5053913925922, 40.69422075137089]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 407, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.48148452836071, 40.681119752891675], [16.486730593918963, 40.68361345290481]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 522, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[16.634142957393493, 40.70769139178008], [16.639576023211532, 40.71039363354418]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 547, "name": "Via Matera"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "40.567", "geonameid": "1", "group": "Southern, Europe", "left": "16.412", "name": "Matera, Italy", "right": "16.731", "slug": "matera_italy", "top": "40.766"};
+var streetIndex = ["Strada Provinciale Altamura verso Laterza II tratto", "Strada Provinciale Matera - Gioia del Colle", "Viale Giuseppe Parini", "Via Edmondo Semeraro", "Via Antonio Passarelli", "Strada Provinciale di Cassano", "Via Lucana", "Via Lanera", "Viale Andrea Mantegna", null, "Via Matera", "Strada Provinciale Altamura verso Laterza I tratto", "Via Giovanni Maria Trabaci", "Via Salvatore e Michele Frangione", "SP Matera Gravina", "Matine di Santeramo", "Via della Tecnica", "Viale Piero della Francesca", "Via Nazionale", "Via Appia", "Via Verdazzi"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Matera, Italy</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [5284, 4917, 5391, 5106, 6029, 7770, 6827, 6252, 4583, 7011, 5403, 6033, 4628, 6085, 5656, 6429, 4258, 4386, 4853, 6152, 5401, 4391, 4481, 4750, 3852, 4455, 4044, 6506, 5149, 4154, 5462, 6308, 5240, 5208, 5114, 4842, 5740, 4545, 8539, 4614, 4402, 4889, 4231, 4155, 6449, 5442, 7238, 5768, 6700, 5038, 3763, 3900, 6511, 3807, 3469, 4018, 4653, 4709, 4288, 4759, 4917, 5142, 5157, 4414, 4281, 4650, 3122, 3699, 4958, 4406, 3840, 3354, 4003, 4536, 4113, 5515, 3576, 3074, 5356, 5956, 5029, 3683, 4891, 4590, 4749, 4862, 5319, 4829, 5469, 5054, 9361, 6503, 4251, 4829, 5219, 4935, 5563, 7051, 5234, 5947, 4963, 6040, 5090, 4259, 5374, 5079, 3418, 6951, 5881, 4306, 6825, 5089, 6355, 6484, 7412, 5047, 5344, 6342, 5748, 5132, 7146, 8222, 11038, 6057, 6736, 5110, 4397, 5988, 7761, 10864, 6236, 5731, 5042, 4125, 4829, 6091, 4881, 9744, 6017, 5225, 4945, 6138, 5393, 7293, 5284, 5217, 4718, 5955, 6255, 8874, 10288, 7460, 4695, 4990, 8193, 6943, 9673, 6336, 6644, 6302, 5177, 7499, 6971, 9326, 8533, 6968, 4780, 5308, 5151, 5728, 5963, 5150, 4671, 5192, 5167, 5076, 5433, 5935, 5858, 4095, 1152], "ratio": 237, "solsticeLength": 23849.534041166316, "summer_sun_azimuth": 57.477257639329565, "sun_azimuth": 120.73102482579235, "totalLength": 1002677.8414321621}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

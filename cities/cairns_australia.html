@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Cairns, Australia</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [7216, 9050, 10654, 9093, 21409, 43787, 38899, 21334, 10380, 8381, 7766, 7602, 5777, 4586, 6807, 5921, 4693, 5495, 5761, 4632, 4197, 3230, 4367, 5415, 5061, 6040, 4975, 4026, 5347, 4502, 4823, 4049, 3722, 3839, 4169, 4204, 4323, 6714, 3704, 5598, 4861, 3946, 4003, 5548, 5473, 4482, 5528, 5903, 10387, 18349, 35095, 19791, 10069, 8027, 8534, 7577, 6128, 5819, 5951, 6461, 5043, 6636, 4905, 6980, 6358, 4472, 5352, 6643, 5683, 4692, 8045, 6975, 7437, 4759, 5163, 4755, 4915, 6936, 7663, 4436, 6376, 4718, 5221, 3856, 3984, 3902, 5934, 7162, 5804, 3581, 9095, 6002, 7172, 11709, 21814, 54313, 48189, 19272, 9005, 6922, 4881, 5861, 5502, 6030, 3772, 3314, 5700, 4000, 4764, 5564, 4632, 4197, 5521, 6189, 4708, 4836, 4321, 5126, 5789, 7422, 5625, 5861, 5088, 5227, 4578, 5019, 6066, 4968, 5932, 6900, 7149, 5387, 5578, 5836, 7083, 7874, 8248, 7890, 10034, 16387, 33839, 24966, 14191, 11171, 10165, 7658, 8189, 6973, 7381, 7404, 8321, 7882, 7266, 7112, 6609, 6481, 7964, 7361, 6407, 5796, 12017, 6848, 6187, 6672, 6822, 9460, 7042, 7648, 8241, 4636, 5369, 5816, 5077, 5859, 6858, 6445, 5861, 6823, 6592, 7926, 5923], "ratio": 105, "solsticeLength": 15370.119205731065, "summer_sun_azimuth": 65.73531834590099, "sun_azimuth": 114.89302991575067, "totalLength": 1461564.661468376};
+var winter = {"features": [{"geometry": {"coordinates": [[145.7065069977229, -16.894297281963986], [145.70756269842758, -16.894773541702307]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 124, "name": "Reservoir Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.68798894286067, -16.781013010726866], [145.686555637418, -16.780388475121413]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 167, "name": "Kewarra Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.77025371829035, -16.94604815798564], [145.7715669948796, -16.94665567832766]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 155, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.7377798784633, -16.9794397323912], [145.73594717533436, -16.978632303658486]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 214, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.62687321788036, -16.88541095585748], [145.629439588994, -16.88656086915387]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 301, "name": "Stoney Creek Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.64383349603776, -16.810131742351643], [145.64486338048067, -16.81057548030566]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 120, "name": "Gregory Terrace"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.71337336898355, -16.909703555273037], [145.71130488291845, -16.90877551095366]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 243, "name": "Brinsmead Terrace"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.69625484049425, -16.86086170256678], [145.69905732982033, -16.862081269478523]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 327, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.6958188977102, -16.93761085043215], [145.69476654976677, -16.937155880727886]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 122, "name": "McBride Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.7310384813789, -16.915763671267484], [145.73217037358341, -16.916231968197792]], "type": "LineString"}, "properties": {"azimuth_d": 1.47, "length": 131, "name": "Reservoir Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.6230903811591, -17.086482838525313], [145.62413057534292, -17.08696571996714]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 122, "name": "Mount Edith Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.8222786825458, -17.109643881012428], [145.8112979702933, -17.105024027440294]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 1275, "name": "Anderson Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[145.74792122693196, -16.882347034971446], [145.746856976686, -16.882798735733473]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 123, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.75473613330718, -16.86933698014164], [145.75083947034085, -16.870971451260488]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 452, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.6970998201532, -16.887012569915896], [145.69895029291683, -16.886258701544477]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 214, "name": "Brinsmead Kamerunga Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.75063285642761, -16.93782936664789], [145.75248676577155, -16.93706577526879]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 214, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.74097874799043, -17.019136174363865], [145.74270567150123, -17.018441901323996]], "type": "LineString"}, "properties": {"azimuth_d": 1.47, "length": 199, "name": "Hartill Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.73074578532004, -16.99751857552712], [145.72963007018865, -16.997996260188984]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 130, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.78501668053082, -17.05243278180646], [145.7864499859735, -17.05182551292154]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 166, "name": "Warner Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.6690414830989, -16.782764828490144], [145.66791705078816, -16.78324972158873]], "type": "LineString"}, "properties": {"azimuth_d": 0.0, "length": 131, "name": "Paradise Palms Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.66766819208294, -16.78324972158873], [145.6693246237881, -16.78254304333217]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 193, "name": "Paradise Palms Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.67547492906067, -16.77592033399671], [145.67668896391632, -16.77539520776287]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 141, "name": "Rudder Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.7132785696587, -16.829270141867738], [145.71838549562426, -16.82692874103526]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 602, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.73603191637545, -16.85981555723168], [145.7379717402269, -16.858961357479274]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 227, "name": "Machan Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.80466335865538, -17.036151353987066], [145.8063971553268, -17.035388181703127]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 202, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.71662923545233, -17.024793204634705], [145.71784167774638, -17.02429825325231]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 140, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.72022867613214, -17.022931248663753], [145.72141706236408, -17.02241576161856]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 138, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.7541089993117, -16.93535787867816], [145.75117357300132, -16.936564872735147]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 339, "name": "Mulgrave Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.75523242579408, -16.875517963179846], [145.75677385778766, -16.87482352250194]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 181, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.79416225890247, -16.923429508452898], [145.80260585288335, -16.919754965920646]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 987, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[145.75108832904607, -16.93644760990975], [145.75276915208946, -16.935725508951347]], "type": "LineString"}, "properties": {"azimuth_d": 0.08, "length": 196, "name": "Mulgrave Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[145.69276972897376, -16.79596012338007], [145.6940915551042, -16.795352100123864]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 156, "name": "Kokopo Close"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "-17.131", "geonameid": "1", "group": "Oceania", "left": "145.606", "name": "Cairns, Australia", "right": "145.838", "slug": "cairns_australia", "top": "-16.732"};
+var streetIndex = ["McBride Street", "Mulgrave Road", "Warner Road", "Gregory Terrace", "Rudder Street", "Kokopo Close", "Brinsmead Terrace", "Stoney Creek Road", "Paradise Palms Drive", "Machan Street", "Mount Edith Road", "Kewarra Street", "Anderson Road", "Hartill Street", "Reservoir Road", "Brinsmead Kamerunga Road", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Cairns, Australia</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [7216, 9050, 10654, 9093, 21409, 43787, 38899, 21334, 10380, 8381, 7766, 7602, 5777, 4586, 6807, 5921, 4693, 5495, 5761, 4632, 4197, 3230, 4367, 5415, 5061, 6040, 4975, 4026, 5347, 4502, 4823, 4049, 3722, 3839, 4169, 4204, 4323, 6714, 3704, 5598, 4861, 3946, 4003, 5548, 5473, 4482, 5528, 5903, 10387, 18349, 35095, 19791, 10069, 8027, 8534, 7577, 6128, 5819, 5951, 6461, 5043, 6636, 4905, 6980, 6358, 4472, 5352, 6643, 5683, 4692, 8045, 6975, 7437, 4759, 5163, 4755, 4915, 6936, 7663, 4436, 6376, 4718, 5221, 3856, 3984, 3902, 5934, 7162, 5804, 3581, 9095, 6002, 7172, 11709, 21814, 54313, 48189, 19272, 9005, 6922, 4881, 5861, 5502, 6030, 3772, 3314, 5700, 4000, 4764, 5564, 4632, 4197, 5521, 6189, 4708, 4836, 4321, 5126, 5789, 7422, 5625, 5861, 5088, 5227, 4578, 5019, 6066, 4968, 5932, 6900, 7149, 5387, 5578, 5836, 7083, 7874, 8248, 7890, 10034, 16387, 33839, 24966, 14191, 11171, 10165, 7658, 8189, 6973, 7381, 7404, 8321, 7882, 7266, 7112, 6609, 6481, 7964, 7361, 6407, 5796, 12017, 6848, 6187, 6672, 6822, 9460, 7042, 7648, 8241, 4636, 5369, 5816, 5077, 5859, 6858, 6445, 5861, 6823, 6592, 7926, 5923], "ratio": 105, "solsticeLength": 15370.119205731065, "summer_sun_azimuth": 65.73531834590099, "sun_azimuth": 114.89302991575067, "totalLength": 1461564.661468376}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

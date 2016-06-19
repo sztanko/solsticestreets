@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Manado, Indonesia</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2528, 4085, 3469, 4877, 2669, 2176, 1824, 3414, 2850, 3206, 2983, 2995, 4409, 3463, 2575, 2840, 2554, 3596, 4332, 3380, 3359, 3264, 3787, 3428, 2452, 3791, 1536, 2422, 2433, 1405, 1159, 1408, 1467, 1392, 948, 1368, 1047, 904, 1803, 1316, 1264, 1219, 1260, 969, 1555, 997, 1590, 1594, 1117, 1553, 937, 1223, 2014, 2088, 1144, 1316, 1880, 1097, 1476, 987, 1100, 2282, 2239, 1165, 1207, 1039, 1518, 3019, 1319, 1751, 1355, 2033, 1125, 1864, 2729, 1786, 1413, 1676, 2145, 1904, 2372, 2354, 1837, 1993, 2814, 2102, 1786, 2843, 2656, 2651, 2599, 2956, 3698, 2977, 2491, 1907, 2109, 2296, 2869, 2844, 2632, 2757, 2223, 1514, 2858, 2690, 2516, 2874, 2511, 2079, 1811, 2714, 1507, 2054, 2773, 2661, 2292, 1603, 961, 1701, 2209, 1400, 1230, 1599, 1880, 1048, 1305, 1512, 1514, 869, 2937, 2603, 2819, 1910, 1745, 2084, 1917, 1710, 1173, 2603, 1353, 1909, 2178, 1308, 1265, 1512, 2372, 2172, 2439, 2244, 1628, 2258, 989, 1389, 1750, 1212, 1496, 1359, 2316, 3023, 1713, 2020, 1127, 2130, 1740, 2044, 1819, 1170, 1567, 1650, 1952, 1965, 2940, 1725, 2069, 3586, 2786, 2911, 2671, 1987, 520], "ratio": 175, "solsticeLength": 6591.278268408707, "summer_sun_azimuth": 66.53391772403722, "sun_azimuth": 113.41916388532113, "totalLength": 376171.77024593094};
+var winter = {"features": [{"geometry": {"coordinates": [[124.83775376074385, 1.462471155365932], [124.83903049223521, 1.461956338873023]], "type": "LineString"}, "properties": {"azimuth_d": 1.45, "length": 153, "name": "Bethesda"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.88305861794898, 1.494596643297115], [124.87991037511699, 1.496024332864664]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 384, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.84884125844275, 1.520578363840201], [124.85004406154815, 1.520058937300518]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 145, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.87330157974075, 1.464592950335287], [124.87459968508527, 1.464055921798945]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 156, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.85810083069754, 1.463349075904318], [124.85931587138155, 1.462799390694215]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 148, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.84473261714516, 1.509677447305933], [124.84700964496125, 1.50862224951544]], "type": "LineString"}, "properties": {"azimuth_d": 1.45, "length": 279, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.84433757804855, 1.507805181594079], [124.84620917320818, 1.506946371794925]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 228, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.86744028248961, 1.501633418649362], [124.8687643717339, 1.501100497245573]], "type": "LineString"}, "properties": {"azimuth_d": 1.48, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.84864688210814, 1.519858358357595], [124.84976636909602, 1.519403975386552]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.84470269375083, 1.509279893638421], [124.84687494777728, 1.508340282292664]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 263, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.8817755162111, 1.495226375682563], [124.88303648972459, 1.494691861717172]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 152, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.82738098792856, 1.456873133693449], [124.82864573329842, 1.456355886448591]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.82911897555158, 1.456611199219253], [124.83049679279526, 1.455999990839842]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.84859985963134, 1.509662695156351], [124.85040624358425, 1.508862391041362]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 219, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.83634912141002, 1.461419729431839], [124.83745687373347, 1.460963418623095]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.82853425398622, 1.465143641373771], [124.83007333904692, 1.464461186817402]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 187, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.84942933276938, 1.532608490369967], [124.84828495152908, 1.533086175031826]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 137, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.87267679267825, 1.43700207202096], [124.87154506811174, 1.437513451933569]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 138, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[124.85016694024864, 1.465206086552428], [124.8446094869875, 1.462953785350663]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 666, "name": "Jl Babe Palar"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.81873069621541, 1.458142824386158], [124.81714274465918, 1.457473697055832]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 191, "name": "R.W. Monginsidi"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.88562599489099, 1.495445646269559], [124.88359044970531, 1.4946008342487]], "type": "LineString"}, "properties": {"azimuth_d": 0.92, "length": 245, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.84290502697719, 1.458374248732781], [124.84101675183024, 1.45756983748521]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 228, "name": "Jl Arnold Mononutu"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.83869932324085, 1.4428331944207], [124.83726165920854, 1.442221734584194]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 173, "name": "Jl. Harapan"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.85127486021014, 1.505153231249011], [124.85392932512615, 1.506291828976088]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 321, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.85446124070153, 1.506328960807167], [124.85554082983032, 1.506779488102723]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 130, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.84984834410902, 1.50078743316206], [124.84855602227775, 1.500195838436071]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.83380412414941, 1.47120057224501], [124.83602105371983, 1.47210464432132]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 266, "name": "Ahmad Yani"}, "type": "Feature"}, {"geometry": {"coordinates": [[124.83604469068678, 1.472046893008439], [124.83384662039855, 1.471150448464044]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 263, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.83719192177409, 1.438954384908129], [124.83612549223334, 1.438482819035585]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 129, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[124.82944142736665, 1.44815578675491], [124.8305946934243, 1.448688959615794]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 141, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "1.426", "geonameid": "1", "group": "Asia", "left": "124.816", "name": "Manado, Indonesia", "right": "124.886", "slug": "manado_indonesia", "top": "1.546"};
+var streetIndex = ["R.W. Monginsidi", "Jl Babe Palar", "Ahmad Yani", "Jl. Harapan", "Bethesda", "Jl Arnold Mononutu", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Manado, Indonesia</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2528, 4085, 3469, 4877, 2669, 2176, 1824, 3414, 2850, 3206, 2983, 2995, 4409, 3463, 2575, 2840, 2554, 3596, 4332, 3380, 3359, 3264, 3787, 3428, 2452, 3791, 1536, 2422, 2433, 1405, 1159, 1408, 1467, 1392, 948, 1368, 1047, 904, 1803, 1316, 1264, 1219, 1260, 969, 1555, 997, 1590, 1594, 1117, 1553, 937, 1223, 2014, 2088, 1144, 1316, 1880, 1097, 1476, 987, 1100, 2282, 2239, 1165, 1207, 1039, 1518, 3019, 1319, 1751, 1355, 2033, 1125, 1864, 2729, 1786, 1413, 1676, 2145, 1904, 2372, 2354, 1837, 1993, 2814, 2102, 1786, 2843, 2656, 2651, 2599, 2956, 3698, 2977, 2491, 1907, 2109, 2296, 2869, 2844, 2632, 2757, 2223, 1514, 2858, 2690, 2516, 2874, 2511, 2079, 1811, 2714, 1507, 2054, 2773, 2661, 2292, 1603, 961, 1701, 2209, 1400, 1230, 1599, 1880, 1048, 1305, 1512, 1514, 869, 2937, 2603, 2819, 1910, 1745, 2084, 1917, 1710, 1173, 2603, 1353, 1909, 2178, 1308, 1265, 1512, 2372, 2172, 2439, 2244, 1628, 2258, 989, 1389, 1750, 1212, 1496, 1359, 2316, 3023, 1713, 2020, 1127, 2130, 1740, 2044, 1819, 1170, 1567, 1650, 1952, 1965, 2940, 1725, 2069, 3586, 2786, 2911, 2671, 1987, 520], "ratio": 175, "solsticeLength": 6591.278268408707, "summer_sun_azimuth": 66.53391772403722, "sun_azimuth": 113.41916388532113, "totalLength": 376171.77024593094}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

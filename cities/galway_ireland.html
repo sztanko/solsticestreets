@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Galway, Ireland</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [4596, 3139, 3259, 3306, 2283, 3420, 3673, 3402, 2891, 3002, 3294, 3076, 3314, 2401, 1776, 2417, 2996, 2942, 3572, 4265, 3363, 3882, 3218, 2794, 2629, 1912, 2563, 3583, 2945, 3124, 2915, 3026, 2475, 4413, 3568, 4173, 2629, 3528, 3307, 3112, 3111, 2794, 2812, 3077, 4953, 3025, 2021, 2252, 1962, 2472, 3248, 3446, 2864, 3278, 3988, 5669, 4600, 3046, 3217, 4460, 4612, 3148, 4213, 3128, 3655, 3103, 3666, 2912, 2811, 2529, 3493, 4870, 4206, 3135, 3069, 2714, 3508, 3296, 2496, 4451, 5092, 5123, 3585, 3458, 3204, 2751, 4409, 3948, 4278, 4332, 5233, 3246, 2975, 7183, 3134, 2327, 3728, 3949, 2920, 3607, 3074, 3297, 3507, 2407, 3033, 3116, 2584, 3321, 2447, 3132, 2318, 3022, 2959, 3646, 2875, 2419, 3377, 3841, 3778, 2911, 3573, 3126, 2569, 3722, 2723, 2945, 2611, 2493, 2112, 2665, 2206, 3148, 2048, 2730, 2649, 2828, 1953, 2613, 2538, 2429, 3398, 2493, 2659, 2930, 3583, 3736, 4119, 5262, 2668, 2975, 3025, 2578, 2818, 2577, 2300, 2392, 2844, 3056, 2791, 1897, 3304, 3020, 3377, 3525, 3902, 2621, 3030, 2824, 2361, 3597, 3371, 5127, 2963, 2813, 2616, 2504, 3264, 3611, 3664, 3778, 1007], "ratio": 133, "solsticeLength": 7740.517739364069, "summer_sun_azimuth": 46.72150262121661, "sun_azimuth": 130.1029459520203, "totalLength": 581192.5971481678};
+var winter = {"features": [{"geometry": {"coordinates": [[-9.029492323048856, 53.2755653737287], [-9.027733045391756, 53.27467546706879]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 153, "name": "Lough Atalia Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-9.051932438044018, 53.269842629337], [-9.049882811261, 53.26880235133413]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 178, "name": "Dock Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-9.046736412447729, 53.28739919608617], [-9.048633656231033, 53.288366551531425]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 165, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-9.02538636396028, 53.277858746256015], [-9.023677042446081, 53.277031368593754]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 146, "name": "Renmore Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.980786424812065, 53.2655488317983], [-8.979033768858471, 53.26462665481117]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 155, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-8.941002475770262, 53.25610938390139], [-8.94265454888577, 53.25695838687383]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 144, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-9.00865524703562, 53.29875382503923], [-9.007053130063042, 53.297972799301505]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 137, "name": "City North Business Park"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-9.070666075455847, 53.27863876616536], [-9.072006174135225, 53.27787316312947]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 123, "name": "Corrib Park"}, "type": "Feature"}, {"geometry": {"coordinates": [[-9.002778862358724, 53.30383811986621], [-9.000566375197053, 53.305076546060086]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 201, "name": "Tuam Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-9.038232720221089, 53.278785198013786], [-9.039543314601303, 53.278025043214996]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 121, "name": "College Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-9.10065987777196, 53.264478881858196], [-9.102966577525306, 53.26319368464462]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 209, "name": "Kingston Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-9.10347225774376, 53.2628862364362], [-9.105077308382446, 53.26196548437261]], "type": "LineString"}, "properties": {"azimuth_d": 0.52, "length": 147, "name": "Kingston Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "53.252", "geonameid": "1", "group": "Western, Europe", "left": "-9.138", "name": "Galway, Ireland", "right": "-8.934", "slug": "galway_ireland", "top": "53.306"};
+var streetIndex = ["Renmore Park", "Dock Street", "Lough Atalia Avenue", "College Road", "City North Business Park", "Tuam Road", "Corrib Park", "Kingston Road", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Galway, Ireland</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [4596, 3139, 3259, 3306, 2283, 3420, 3673, 3402, 2891, 3002, 3294, 3076, 3314, 2401, 1776, 2417, 2996, 2942, 3572, 4265, 3363, 3882, 3218, 2794, 2629, 1912, 2563, 3583, 2945, 3124, 2915, 3026, 2475, 4413, 3568, 4173, 2629, 3528, 3307, 3112, 3111, 2794, 2812, 3077, 4953, 3025, 2021, 2252, 1962, 2472, 3248, 3446, 2864, 3278, 3988, 5669, 4600, 3046, 3217, 4460, 4612, 3148, 4213, 3128, 3655, 3103, 3666, 2912, 2811, 2529, 3493, 4870, 4206, 3135, 3069, 2714, 3508, 3296, 2496, 4451, 5092, 5123, 3585, 3458, 3204, 2751, 4409, 3948, 4278, 4332, 5233, 3246, 2975, 7183, 3134, 2327, 3728, 3949, 2920, 3607, 3074, 3297, 3507, 2407, 3033, 3116, 2584, 3321, 2447, 3132, 2318, 3022, 2959, 3646, 2875, 2419, 3377, 3841, 3778, 2911, 3573, 3126, 2569, 3722, 2723, 2945, 2611, 2493, 2112, 2665, 2206, 3148, 2048, 2730, 2649, 2828, 1953, 2613, 2538, 2429, 3398, 2493, 2659, 2930, 3583, 3736, 4119, 5262, 2668, 2975, 3025, 2578, 2818, 2577, 2300, 2392, 2844, 3056, 2791, 1897, 3304, 3020, 3377, 3525, 3902, 2621, 3030, 2824, 2361, 3597, 3371, 5127, 2963, 2813, 2616, 2504, 3264, 3611, 3664, 3778, 1007], "ratio": 133, "solsticeLength": 7740.517739364069, "summer_sun_azimuth": 46.72150262121661, "sun_azimuth": 130.1029459520203, "totalLength": 581192.5971481678}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

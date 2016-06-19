@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Windsor, Canada</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2553, 9267, 32391, 21711, 3947, 2888, 4601, 5489, 2040, 1674, 2164, 1819, 1431, 1361, 1805, 3856, 2983, 5053, 16816, 4327, 2599, 1885, 1833, 4675, 10199, 6328, 2881, 2812, 2041, 4418, 2489, 1628, 1579, 2195, 2072, 1979, 1599, 1189, 1022, 1424, 1765, 1995, 1798, 1338, 2246, 1567, 2157, 4220, 4085, 2957, 3953, 3349, 2412, 2338, 2359, 2992, 3577, 3930, 7220, 50983, 27107, 42822, 21619, 28716, 91443, 39606, 31704, 41941, 7783, 5631, 5816, 6540, 4242, 6234, 10298, 22464, 23075, 9263, 5297, 5647, 5940, 4778, 3638, 5752, 3441, 3074, 3148, 3294, 7460, 15377, 8088, 10784, 32270, 12448, 4643, 2941, 3961, 5364, 4126, 2489, 2571, 2227, 2481, 2443, 1771, 3424, 5629, 11340, 35238, 16274, 5274, 3996, 2023, 3784, 5346, 5340, 3032, 2705, 4446, 3427, 2480, 2352, 2699, 2965, 2268, 3046, 9176, 2404, 1784, 1231, 1965, 1983, 1986, 1284, 1662, 1834, 2026, 1448, 1869, 2417, 1972, 2641, 2276, 2016, 2080, 2287, 1726, 3002, 4266, 13971, 15031, 66442, 50412, 72063, 366111, 123717, 42666, 60120, 7127, 4671, 4608, 4561, 4570, 2996, 3565, 2391, 2950, 2906, 5972, 31956, 22244, 4946, 3155, 2997, 1942, 2040, 2497, 2915, 3933, 4209, 1774], "ratio": 36, "solsticeLength": 7317.345149120931, "summer_sun_azimuth": 56.50669458845992, "sun_azimuth": 121.57902013200611, "totalLength": 2007999.4184466365};
+var winter = {"features": [{"geometry": {"coordinates": [[-83.0455547808395, 42.33477218658728], [-83.04701960223811, 42.33540434972463]], "type": "LineString"}, "properties": {"azimuth_d": 1.31, "length": 139, "name": "Broadway Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-82.99246238121492, 42.26579105130699], [-82.99094408327407, 42.26507465004275]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 148, "name": "Provincial Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-82.98939913088113, 42.26429337284796], [-82.98568267883303, 42.2625973785598]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 359, "name": "Provincial Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.04693528029216, 42.29458238579383], [-83.04517432625445, 42.29374863788515]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 172, "name": "Campbell Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.04346290926448, 42.29290851973008], [-83.04079503330338, 42.291628435477406]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 261, "name": "Campbell Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.03130554544452, 42.29350095264638], [-83.0335354669648, 42.29456813655844]], "type": "LineString"}, "properties": {"azimuth_d": 1.33, "length": 218, "name": "South Pacific Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.07024057533292, 42.25246617219398], [-83.06809790942467, 42.251446262215836]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 209, "name": "Conte Crescent"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.06096482600498, 42.243403574663745], [-83.0585951781588, 42.242311831775396]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 229, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-82.91477974079311, 42.33637665049275], [-82.91612294077666, 42.336964976276505]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 128, "name": "Riverside Drive East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.04427570241522, 42.2640069632165], [-83.04288103754618, 42.26336381978601]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 135, "name": "Huron Church Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-83.10863002714373, 42.305129921290266], [-83.10733502310343, 42.30576493427469]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 127, "name": "Fisher Freeway Service Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-82.97705702991523, 42.33727996819778], [-82.97582505778678, 42.337874999504066]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 120, "name": "The Strand"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.04883076387584, 42.34204767854189], [-83.05056816476565, 42.34121787012771]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 170, "name": "Fisher Drive East"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.04928430865654, 42.29469294309669], [-83.05600860665848, 42.291465491279716]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 659, "name": "Tecumseh Road West"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.01410613158957, 42.273402657578856], [-83.012754968798, 42.27404387317162]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 132, "name": "West Grand Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.0178913152437, 42.27151077821355], [-83.01410613158957, 42.273402657578856]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 375, "name": "West Grand Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.05650674316408, 42.30250303283569], [-83.05851605299283, 42.30155654832933]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 195, "name": "College Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.06139045904813, 42.300243020283034], [-83.06555425326859, 42.29823639266328]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 408, "name": "College Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.05438050578604, 42.29237434104081], [-83.05198587986841, 42.293536240458735]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 235, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.05442191238772, 42.338784352179346], [-83.05267235773832, 42.33963654027499]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 172, "name": "Fisher Drive West"}, "type": "Feature"}, {"geometry": {"coordinates": [[-83.02123527551477, 42.270985819617806], [-83.02409895273401, 42.269591238567784]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 282, "name": "Grand Marais Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "42.233", "geonameid": "1", "group": "North, America", "left": "-83.114", "name": "Windsor, Canada", "right": "-82.890", "slug": "windsor_canada", "top": "42.348"};
+var streetIndex = ["Fisher Drive West", "Campbell Avenue", "The Strand", "Huron Church Road", "South Pacific Street", "Conte Crescent", "Fisher Freeway Service Drive", "Riverside Drive East", "College Avenue", "Grand Marais Road", "Tecumseh Road West", "Provincial Road", "West Grand Boulevard", "Fisher Drive East", "Broadway Street", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Windsor, Canada</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2553, 9267, 32391, 21711, 3947, 2888, 4601, 5489, 2040, 1674, 2164, 1819, 1431, 1361, 1805, 3856, 2983, 5053, 16816, 4327, 2599, 1885, 1833, 4675, 10199, 6328, 2881, 2812, 2041, 4418, 2489, 1628, 1579, 2195, 2072, 1979, 1599, 1189, 1022, 1424, 1765, 1995, 1798, 1338, 2246, 1567, 2157, 4220, 4085, 2957, 3953, 3349, 2412, 2338, 2359, 2992, 3577, 3930, 7220, 50983, 27107, 42822, 21619, 28716, 91443, 39606, 31704, 41941, 7783, 5631, 5816, 6540, 4242, 6234, 10298, 22464, 23075, 9263, 5297, 5647, 5940, 4778, 3638, 5752, 3441, 3074, 3148, 3294, 7460, 15377, 8088, 10784, 32270, 12448, 4643, 2941, 3961, 5364, 4126, 2489, 2571, 2227, 2481, 2443, 1771, 3424, 5629, 11340, 35238, 16274, 5274, 3996, 2023, 3784, 5346, 5340, 3032, 2705, 4446, 3427, 2480, 2352, 2699, 2965, 2268, 3046, 9176, 2404, 1784, 1231, 1965, 1983, 1986, 1284, 1662, 1834, 2026, 1448, 1869, 2417, 1972, 2641, 2276, 2016, 2080, 2287, 1726, 3002, 4266, 13971, 15031, 66442, 50412, 72063, 366111, 123717, 42666, 60120, 7127, 4671, 4608, 4561, 4570, 2996, 3565, 2391, 2950, 2906, 5972, 31956, 22244, 4946, 3155, 2997, 1942, 2040, 2497, 2915, 3933, 4209, 1774], "ratio": 36, "solsticeLength": 7317.345149120931, "summer_sun_azimuth": 56.50669458845992, "sun_azimuth": 121.57902013200611, "totalLength": 2007999.4184466365}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

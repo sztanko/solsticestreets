@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Dharamshala, India</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [4744, 11722, 8312, 9044, 7899, 7309, 8985, 7879, 8352, 8035, 8139, 7932, 7003, 7689, 8852, 8441, 6068, 9129, 7592, 7711, 9313, 7031, 8252, 9591, 8478, 7853, 7626, 8043, 8250, 9870, 8591, 7493, 7960, 8391, 9749, 8384, 9122, 6574, 7989, 6860, 8262, 7593, 7820, 9017, 6861, 7216, 7871, 7603, 7252, 6466, 7452, 7244, 6459, 5963, 9039, 6813, 9322, 7787, 6797, 5871, 7419, 7210, 7040, 5419, 6762, 6817, 6057, 6317, 7236, 5842, 7756, 4737, 7234, 6236, 7627, 6095, 5924, 5763, 6359, 6696, 5905, 5422, 6242, 6638, 4885, 5005, 5809, 6510, 5441, 2890, 10804, 5399, 5671, 5111, 5197, 4727, 5893, 5146, 4972, 5339, 5102, 5243, 5480, 5732, 5178, 5347, 5113, 7205, 5897, 4953, 4811, 5325, 5585, 5622, 4700, 5300, 4618, 5030, 6310, 5269, 5973, 5215, 5224, 5801, 6816, 6941, 4988, 7923, 6810, 4710, 4368, 6119, 5300, 5787, 10818, 6208, 13491, 6412, 8014, 4898, 5570, 7422, 5784, 4848, 8974, 5363, 6054, 6029, 7529, 6505, 5908, 6957, 5677, 6983, 4501, 5125, 6639, 6730, 6072, 5738, 7172, 7919, 6858, 7330, 7052, 7577, 6211, 7243, 6096, 6594, 8025, 6499, 7676, 6076, 7029, 6897, 7849, 7509, 6799, 5681, 8207], "ratio": 127, "solsticeLength": 15659.874969531153, "summer_sun_azimuth": 61.363437201580886, "sun_azimuth": 117.3722519806819, "totalLength": 1230952.8319481937};
+var winter = {"features": [{"geometry": {"coordinates": [[76.6323167504072, 32.05502122980536], [76.63388927926155, 32.0543058343695]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 168, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.553359976884, 32.10457998669003], [76.55541999722692, 32.10370994514062]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 216, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.56121993894686, 32.101839942542625], [76.56323997761172, 32.10091994485029]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 216, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.23280683050575, 31.985969937995492], [76.23404684926123, 31.98541991750926]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.4328299694485, 32.103979926241834], [76.43415992602507, 32.10341993129083]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 139, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.31790996980709, 32.10166995754625], [76.31906994138723, 32.101149944273374]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 123, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.46206303023257, 31.972999864843842], [76.46013519250266, 31.97383378039055]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 204, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.37844935512521, 32.10872433489516], [76.37713733582143, 32.10930042310028]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 139, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.37788718087931, 32.15747675269455], [76.38040476931656, 32.156340753357455]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 268, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.38727767846171, 32.153615796635734], [76.38852448655877, 32.15308304287003]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.38763893848852, 32.16469155967019], [76.38878549902358, 32.16418453834722]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.39441562338527, 32.177505058870565], [76.3959561333695, 32.176833249331196]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 163, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.39794599718289, 32.22028956161043], [76.39947217411276, 32.21964398742798]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 160, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.34462418486845, 32.23797604785877], [76.3434530653571, 32.23850712524387]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.67384715279422, 32.03442446295611], [76.67825016653126, 32.03241783533636]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 471, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[76.27619868594957, 32.09664215674667], [76.27469287704446, 32.095944195669404]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 161, "name": "Kangra Bypass"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.3404699460176, 32.09236998451814], [76.34170996477309, 32.09295998668253]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.63738185067592, 32.052131233410165], [76.63862329435494, 32.05270648342494]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.15280994661771, 32.22504997969878], [76.15584997907973, 32.2263999690239]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 323, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.32811367963535, 32.165702920107094], [76.3306047812585, 32.166888624130024]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 269, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.22603995243571, 32.193729992662554], [76.2248899553203, 32.19322992831923]], "type": "LineString"}, "properties": {"azimuth_d": 1.46, "length": 121, "name": "Dharamshala Shahpur Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.38279889232001, 32.145118977569695], [76.38396347394689, 32.145638739385504]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 123, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.37457456892616, 32.11227063430883], [76.37666442884438, 32.11323849266827]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 224, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.37714295169656, 32.1135610283024], [76.37890088824912, 32.1143468317249]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 187, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.39119856512819, 32.115194828868965], [76.39323318830458, 32.11609068668017]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 216, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.41630856774128, 32.14458639144206], [76.41755143634384, 32.14514906860211]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 132, "name": "Malan Chamunda Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.35117933606438, 32.09860695866956], [76.35332803694286, 32.09965276872853]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 233, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.45130108565297, 32.15640948496346], [76.45011052012619, 32.1558335643964]], "type": "LineString"}, "properties": {"azimuth_d": 1.09, "length": 129, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.51173661919074, 32.08368582991619], [76.513211163597, 32.084379935318]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.4234040164157, 32.24044728437144], [76.42520813725474, 32.24131657154956]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 195, "name": "Toral Pass Trail"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.38809667422083, 32.19468335032951], [76.38661232298779, 32.19398178503391]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 160, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.34220525143161, 32.23529945471839], [76.34339187746389, 32.23584469751983]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.25834598656127, 32.169924968554625], [76.2596842412219, 32.170518574937375]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 142, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.28484093103565, 32.10378035312729], [76.28690472323501, 32.10473924285034]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 221, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.27181872244626, 32.12457929148107], [76.27065338644802, 32.124055925446925]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 124, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "31.970", "geonameid": "1", "group": "Asia", "left": "76.123", "name": "Dharamshala, India", "right": "76.701", "slug": "dharamshala_india", "top": "32.300"};
+var streetIndex = ["Dharamshala Shahpur Road", "Malan Chamunda Road", "Kangra Bypass", "Toral Pass Trail", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Dharamshala, India</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [4744, 11722, 8312, 9044, 7899, 7309, 8985, 7879, 8352, 8035, 8139, 7932, 7003, 7689, 8852, 8441, 6068, 9129, 7592, 7711, 9313, 7031, 8252, 9591, 8478, 7853, 7626, 8043, 8250, 9870, 8591, 7493, 7960, 8391, 9749, 8384, 9122, 6574, 7989, 6860, 8262, 7593, 7820, 9017, 6861, 7216, 7871, 7603, 7252, 6466, 7452, 7244, 6459, 5963, 9039, 6813, 9322, 7787, 6797, 5871, 7419, 7210, 7040, 5419, 6762, 6817, 6057, 6317, 7236, 5842, 7756, 4737, 7234, 6236, 7627, 6095, 5924, 5763, 6359, 6696, 5905, 5422, 6242, 6638, 4885, 5005, 5809, 6510, 5441, 2890, 10804, 5399, 5671, 5111, 5197, 4727, 5893, 5146, 4972, 5339, 5102, 5243, 5480, 5732, 5178, 5347, 5113, 7205, 5897, 4953, 4811, 5325, 5585, 5622, 4700, 5300, 4618, 5030, 6310, 5269, 5973, 5215, 5224, 5801, 6816, 6941, 4988, 7923, 6810, 4710, 4368, 6119, 5300, 5787, 10818, 6208, 13491, 6412, 8014, 4898, 5570, 7422, 5784, 4848, 8974, 5363, 6054, 6029, 7529, 6505, 5908, 6957, 5677, 6983, 4501, 5125, 6639, 6730, 6072, 5738, 7172, 7919, 6858, 7330, 7052, 7577, 6211, 7243, 6096, 6594, 8025, 6499, 7676, 6076, 7029, 6897, 7849, 7509, 6799, 5681, 8207], "ratio": 127, "solsticeLength": 15659.874969531153, "summer_sun_azimuth": 61.363437201580886, "sun_azimuth": 117.3722519806819, "totalLength": 1230952.8319481937}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

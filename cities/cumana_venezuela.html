@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Cumana, Venezuela</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2028, 2806, 6088, 3016, 1980, 1577, 1780, 1496, 2599, 1990, 1929, 943, 567, 567, 849, 1440, 529, 2260, 4756, 3567, 2903, 1839, 2036, 1837, 1374, 1990, 1486, 1567, 1478, 1687, 1510, 969, 1456, 2642, 1731, 2399, 2978, 3074, 3745, 3468, 2291, 4163, 2514, 2210, 1960, 2571, 2405, 1229, 2440, 3498, 2726, 3214, 3967, 2521, 2759, 3476, 3494, 3523, 2598, 4993, 2574, 7519, 3526, 1709, 2104, 1938, 4707, 4726, 2785, 2085, 3158, 3510, 2546, 1923, 2419, 3034, 3103, 2932, 2676, 4538, 4880, 6198, 6667, 3687, 5785, 4089, 3571, 4400, 3709, 2755, 3931, 4495, 6973, 4911, 3265, 3337, 2570, 2563, 1949, 3049, 2977, 1155, 2132, 1045, 1689, 1259, 2897, 2607, 3688, 3688, 2451, 2496, 1561, 1888, 1338, 1904, 1622, 1766, 1042, 1387, 2016, 2637, 3352, 1927, 1496, 1337, 1980, 1453, 2991, 3873, 4419, 2400, 3327, 2765, 2465, 2116, 2171, 1602, 3941, 5242, 2868, 2094, 3624, 2951, 4011, 3170, 4068, 2344, 2011, 1693, 1364, 1620, 1168, 351, 1543, 1694, 2632, 3215, 3924, 1421, 2489, 1645, 882, 926, 1764, 1809, 1741, 1536, 3053, 3130, 5428, 4683, 2626, 3385, 6575, 4888, 2835, 3587, 3145, 2990, 869], "ratio": 94, "solsticeLength": 4637.3078718737115, "summer_sun_azimuth": 65.96701885311533, "sun_azimuth": 113.67802122467545, "totalLength": 491721.49287387624};
+var winter = {"features": [{"geometry": {"coordinates": [[-64.19145114785101, 10.450723719023186], [-64.1900946206414, 10.450169256128277]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 160, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.1627161397535, 10.47755645419548], [-64.16111754318024, 10.476859163670467]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 191, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.13368575338816, 10.430616120043169], [-64.13501864363081, 10.431221544909391]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 160, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.17804387462982, 10.455032939263731], [-64.17951221642775, 10.455651020803742]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 174, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.17961824750289, 10.45577121729525], [-64.17804655683884, 10.455085577615677]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 188, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.17968882312762, 10.455695863985738], [-64.18109932979365, 10.456292823129758]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 167, "name": "Calle La Pascua"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-64.16272100125735, 10.471347978514842], [-64.161613416572, 10.471816359264182]], "type": "LineString"}, "properties": {"azimuth_d": 0.76, "length": 131, "name": "Av. Bomplant"}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.17982947146287, 10.475717464639217], [-64.17762796459434, 10.476709462879796]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 264, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.16537345451661, 10.46941754239495], [-64.16338032176097, 10.470301749360743]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 239, "name": "Calle. Bolivar"}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.1719521588604, 10.476490779025994], [-64.17070836824848, 10.477021269677834]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 148, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.16988417570943, 10.471686942679185], [-64.17091665854234, 10.471227027652048]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 123, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.17051357281873, 10.470316417691294], [-64.16946457763656, 10.470758563083677]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 124, "name": "Calle Santa Rosa"}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.16745644127425, 10.471524836671819], [-64.16546330851862, 10.472379455519388]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 237, "name": "Calle Santa Rosa"}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.17264400114834, 10.471267428425364], [-64.1711848794439, 10.471912834969714]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 174, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.16913483356572, 10.472777344463026], [-64.16811584559692, 10.473204737705855]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.16243626800654, 10.470640629706024], [-64.16137235303673, 10.471112279397602]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 127, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.17326577072575, 10.444909444248822], [-64.17196917412384, 10.445479916578819]], "type": "LineString"}, "properties": {"azimuth_d": 0.06, "length": 155, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.16837006872017, 10.441576967185114], [-64.16951000755176, 10.4410608934067]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 137, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.17090240930695, 10.468796527188827], [-64.16500087892054, 10.47123155387976]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 700, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.16300104064237, 10.472134452489627], [-64.16402162117276, 10.471708065075177]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 121, "name": "Av. Gran Mariscal"}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.16805038293313, 10.470075521794085], [-64.16906526376938, 10.469651062217364]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 120, "name": "Av. Gran Mariscal"}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.1730384535117, 10.471825495538639], [-64.1706373735286, 10.472827049148862]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 285, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.17041164887614, 10.472917238426987], [-64.16834123497325, 10.473772695464872]], "type": "LineString"}, "properties": {"azimuth_d": 1.24, "length": 245, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.16834123497325, 10.473882246939352], [-64.17308270996044, 10.471891293478564]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 563, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.13844960805683, 10.436996089462724], [-64.14074021455609, 10.436051784251191]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 271, "name": "Villa Virgen Del Valle"}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.16716475104381, 10.467962695461125], [-64.16514865187348, 10.468813374814204]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 239, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.14965897862787, 10.428582418876175], [-64.14861283329279, 10.429030850695966]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 124, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.14862674725205, 10.428724827411088], [-64.14726686728117, 10.429307872595842]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 162, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-64.18523596664785, 10.45398997905184], [-64.18634422188545, 10.453485472299832]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 133, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "10.407", "geonameid": "1", "group": "South, America", "left": "-64.221", "name": "Cumana, Venezuela", "right": "-64.086", "slug": "cumana_venezuela", "top": "10.483"};
+var streetIndex = ["Villa Virgen Del Valle", "Av. Bomplant", "Calle La Pascua", "Calle. Bolivar", "Calle Santa Rosa", "Av. Gran Mariscal", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Cumana, Venezuela</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2028, 2806, 6088, 3016, 1980, 1577, 1780, 1496, 2599, 1990, 1929, 943, 567, 567, 849, 1440, 529, 2260, 4756, 3567, 2903, 1839, 2036, 1837, 1374, 1990, 1486, 1567, 1478, 1687, 1510, 969, 1456, 2642, 1731, 2399, 2978, 3074, 3745, 3468, 2291, 4163, 2514, 2210, 1960, 2571, 2405, 1229, 2440, 3498, 2726, 3214, 3967, 2521, 2759, 3476, 3494, 3523, 2598, 4993, 2574, 7519, 3526, 1709, 2104, 1938, 4707, 4726, 2785, 2085, 3158, 3510, 2546, 1923, 2419, 3034, 3103, 2932, 2676, 4538, 4880, 6198, 6667, 3687, 5785, 4089, 3571, 4400, 3709, 2755, 3931, 4495, 6973, 4911, 3265, 3337, 2570, 2563, 1949, 3049, 2977, 1155, 2132, 1045, 1689, 1259, 2897, 2607, 3688, 3688, 2451, 2496, 1561, 1888, 1338, 1904, 1622, 1766, 1042, 1387, 2016, 2637, 3352, 1927, 1496, 1337, 1980, 1453, 2991, 3873, 4419, 2400, 3327, 2765, 2465, 2116, 2171, 1602, 3941, 5242, 2868, 2094, 3624, 2951, 4011, 3170, 4068, 2344, 2011, 1693, 1364, 1620, 1168, 351, 1543, 1694, 2632, 3215, 3924, 1421, 2489, 1645, 882, 926, 1764, 1809, 1741, 1536, 3053, 3130, 5428, 4683, 2626, 3385, 6575, 4888, 2835, 3587, 3145, 2990, 869], "ratio": 94, "solsticeLength": 4637.3078718737115, "summer_sun_azimuth": 65.96701885311533, "sun_azimuth": 113.67802122467545, "totalLength": 491721.49287387624}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

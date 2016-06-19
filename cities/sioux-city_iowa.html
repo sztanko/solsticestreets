@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Sioux City, Iowa</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [162723, 51429, 16455, 10685, 7111, 4996, 6101, 4817, 4818, 4235, 3759, 4087, 3756, 3488, 3423, 3303, 3616, 3853, 3497, 3918, 3237, 4015, 5184, 5978, 8416, 5412, 5246, 4309, 3362, 3680, 4936, 4910, 9916, 7610, 4439, 4341, 3943, 3657, 4782, 5142, 3508, 3755, 4311, 3037, 4988, 4247, 2949, 3488, 5463, 4168, 3379, 3784, 2512, 3037, 3509, 3580, 4118, 3587, 3170, 3384, 3400, 3659, 4534, 3745, 3445, 3051, 3006, 3253, 2713, 2276, 2492, 2652, 3092, 3254, 3362, 3898, 3731, 6299, 3906, 5202, 5990, 5715, 4414, 5152, 9977, 10307, 19265, 39246, 72584, 143545, 204508, 74634, 24109, 10974, 7311, 5451, 6232, 5526, 5725, 5887, 5476, 4721, 3939, 5179, 4678, 4445, 4281, 4210, 4497, 4220, 4621, 5264, 4753, 4455, 4769, 4791, 5869, 5364, 4641, 5098, 4406, 5326, 10339, 9881, 6610, 5661, 4554, 4364, 5051, 4606, 4448, 6021, 5942, 5384, 5126, 7478, 6670, 5762, 6196, 5567, 4410, 3684, 5604, 10994, 5639, 4993, 4996, 4529, 5358, 4551, 8579, 8042, 4413, 5553, 4953, 3843, 4442, 3778, 3579, 4239, 3717, 3735, 3854, 4460, 4440, 3805, 6690, 10863, 7024, 4880, 8628, 8810, 8918, 6999, 9659, 8161, 11042, 25705, 85586, 249668, 12978], "ratio": 107, "solsticeLength": 21835.680851514357, "summer_sun_azimuth": 56.355583483262556, "sun_azimuth": 121.69221002693156, "totalLength": 2034637.8219658036};
+var winter = {"features": [{"geometry": {"coordinates": [[-96.48658695525593, 42.49366406937213], [-96.4849351335975, 42.49290366311623]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 159, "name": "West Sawgrass Trail"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.46255302137232, 42.44000798675913], [-96.46390401652583, 42.440649956723206]], "type": "LineString"}, "properties": {"azimuth_d": 1.12, "length": 131, "name": "Likuwanta Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41720902067941, 42.50066094686525], [-96.41592793059836, 42.50006725666347]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 124, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.4136880346133, 42.4965159281079], [-96.41244801585782, 42.49592198644902]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.36892406161998, 42.44846298012831], [-96.3664020307741, 42.447367968297726]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 240, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.3667910349004, 42.446238925940264], [-96.36924106519801, 42.44731097135616]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 233, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.36349166635421, 42.48797803771632], [-96.36485607255278, 42.488596957446646]], "type": "LineString"}, "properties": {"azimuth_d": 0.07, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.4188352775331, 42.49780665737756], [-96.42101507527244, 42.498826986450894]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 211, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41670971070735, 42.49913384792606], [-96.41864006300821, 42.500044960801034]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 187, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41441508089457, 42.49569307667335], [-96.41193018187975, 42.494509216669115]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 242, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.42024033596209, 42.497004844520006], [-96.41841987041184, 42.49614569944472]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 177, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41781503227885, 42.49583883796952], [-96.41532200281794, 42.49466696408683]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 242, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.4156570274878, 42.49630093229149], [-96.41690651779388, 42.49688104381013]], "type": "LineString"}, "properties": {"azimuth_d": 0.51, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41824167115038, 42.50051987943485], [-96.41947976206814, 42.50110284080057]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 120, "name": "West 5th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41295394753337, 42.494345769557235], [-96.41481716078981, 42.49523257491299]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 181, "name": "West 2nd Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41545100030777, 42.495539939302375], [-96.41668825303523, 42.496117368611976]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 120, "name": "West 2nd Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41729786885303, 42.496421966973315], [-96.41924087782769, 42.49733894718051]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 189, "name": "West 2nd Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41267835055702, 42.50175897618098], [-96.4145950403557, 42.50265491781121]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 186, "name": "West 8th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41644325000547, 42.50358262685444], [-96.41893904549441, 42.504748968681035]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 242, "name": "West 8th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41619707350927, 42.49412792389375], [-96.41903501828575, 42.49544991766228]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 275, "name": "West 1st Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41277113822515, 42.49554538753944], [-96.41529107359524, 42.496706951681205]], "type": "LineString"}, "properties": {"azimuth_d": 0.33, "length": 243, "name": "West 3rd Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.37349806618178, 42.47312999915863], [-96.37052307728838, 42.471707925466205]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 290, "name": "Transit Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41199983549512, 42.49631987539266], [-96.41335091446767, 42.496912392127996]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 128, "name": "West 4th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41398031157695, 42.49721883450803], [-96.4172705438487, 42.49877627593667]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 320, "name": "West 4th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41731505175454, 42.49879999672268], [-96.41902554673517, 42.499614382435]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 166, "name": "West 4th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.40973588344796, 42.4990660383294], [-96.41222606306178, 42.500228943575706]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 241, "name": "West 7th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41345074293446, 42.500836128641595], [-96.41538905804333, 42.501753863220046]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 188, "name": "West 7th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41601342601072, 42.50205536027721], [-96.41845524204324, 42.50319538292783]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 237, "name": "West 7th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41114236680046, 42.49843479720141], [-96.41300750789463, 42.49932084818587]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 181, "name": "West 6th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41363237877621, 42.49962217760495], [-96.41553138275921, 42.50051803541615]], "type": "LineString"}, "properties": {"azimuth_d": 0.92, "length": 184, "name": "West 6th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41618114789323, 42.500838559393515], [-96.41868197252408, 42.50202233557869]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 243, "name": "West 6th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41083827135334, 42.5008963945254], [-96.41230124873324, 42.50158195038597]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 142, "name": "West 8th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.43676106711709, 42.54924396640152], [-96.43883206775321, 42.55021894937866]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 201, "name": "Stone Park Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41171887410076, 42.501613466341894], [-96.41009664056055, 42.50089077865027]], "type": "LineString"}, "properties": {"azimuth_d": 0.54, "length": 155, "name": "Wesley Parkway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41136490632974, 42.499184474621245], [-96.41384427328846, 42.50037177120578]], "type": "LineString"}, "properties": {"azimuth_d": 1.32, "length": 242, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41640192722282, 42.50159083520333], [-96.41764932205311, 42.502180585910615]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41057046954694, 42.50010992055064], [-96.41243393426046, 42.50098876309837]], "type": "LineString"}, "properties": {"azimuth_d": 0.92, "length": 181, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41685941149804, 42.50310343345001], [-96.41561210048677, 42.502514185656906]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.41326156337983, 42.503457652678115], [-96.41499745552707, 42.504274888237546]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 168, "name": "Wesley Parkway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.310152000586, 42.44455592360205], [-96.31148732158059, 42.44516444977245]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 128, "name": "Old Highway 141"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.35710901472564, 42.451297991238704], [-96.35584200624193, 42.45071192856881]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 122, "name": "Sergeant Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.31352102274757, 42.445974979809336], [-96.31523503812753, 42.44674292977808]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 164, "name": "Old Highway 141"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.39738934007337, 42.48387484465579], [-96.39906161357553, 42.48465494838413]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 162, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.45789503014073, 42.50896297050153], [-96.46099801069558, 42.51041195010313]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 301, "name": "West 19th Street"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-96.43621708160114, 42.46123498890799], [-96.44039805872312, 42.45915392998808]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 413, "name": "Old Highway 20"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.44051305843465, 42.45909894470327], [-96.454264073505, 42.45232795950065]], "type": "LineString"}, "properties": {"azimuth_d": 0.13, "length": 1356, "name": "Old Highway 20 West"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.34138607311469, 42.55615895270063], [-96.3390380505787, 42.55727299145141]], "type": "LineString"}, "properties": {"azimuth_d": 0.85, "length": 228, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.35491203408483, 42.48457993035074], [-96.35329306948687, 42.4853629677452]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.35291202816859, 42.48498293225532], [-96.3545860618704, 42.48416795980975]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 164, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.45284904061124, 42.5069909601419], [-96.4540990338315, 42.506370950764136]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 123, "name": "Texas Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.48127106844426, 42.52277098251343], [-96.47932001284255, 42.523693997690906]], "type": "LineString"}, "properties": {"azimuth_d": 0.92, "length": 190, "name": "River Drive"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "42.367", "geonameid": "1", "group": "North, America", "left": "-96.507", "name": "Sioux City, Iowa", "right": "-96.283", "slug": "sioux-city_iowa", "top": "42.578"};
+var streetIndex = ["West 1st Street", "Old Highway 20 West", "West 4th Street", "Stone Park Boulevard", "Wesley Parkway", "West 8th Street", "Texas Avenue", "West 2nd Street", "West 5th Street", "West Sawgrass Trail", "West 7th Street", "Likuwanta Drive", "Sergeant Road", "Transit Avenue", "West 6th Street", "Old Highway 20", "Old Highway 141", "West 19th Street", "River Drive", "West 3rd Street", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Sioux City, Iowa</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [162723, 51429, 16455, 10685, 7111, 4996, 6101, 4817, 4818, 4235, 3759, 4087, 3756, 3488, 3423, 3303, 3616, 3853, 3497, 3918, 3237, 4015, 5184, 5978, 8416, 5412, 5246, 4309, 3362, 3680, 4936, 4910, 9916, 7610, 4439, 4341, 3943, 3657, 4782, 5142, 3508, 3755, 4311, 3037, 4988, 4247, 2949, 3488, 5463, 4168, 3379, 3784, 2512, 3037, 3509, 3580, 4118, 3587, 3170, 3384, 3400, 3659, 4534, 3745, 3445, 3051, 3006, 3253, 2713, 2276, 2492, 2652, 3092, 3254, 3362, 3898, 3731, 6299, 3906, 5202, 5990, 5715, 4414, 5152, 9977, 10307, 19265, 39246, 72584, 143545, 204508, 74634, 24109, 10974, 7311, 5451, 6232, 5526, 5725, 5887, 5476, 4721, 3939, 5179, 4678, 4445, 4281, 4210, 4497, 4220, 4621, 5264, 4753, 4455, 4769, 4791, 5869, 5364, 4641, 5098, 4406, 5326, 10339, 9881, 6610, 5661, 4554, 4364, 5051, 4606, 4448, 6021, 5942, 5384, 5126, 7478, 6670, 5762, 6196, 5567, 4410, 3684, 5604, 10994, 5639, 4993, 4996, 4529, 5358, 4551, 8579, 8042, 4413, 5553, 4953, 3843, 4442, 3778, 3579, 4239, 3717, 3735, 3854, 4460, 4440, 3805, 6690, 10863, 7024, 4880, 8628, 8810, 8918, 6999, 9659, 8161, 11042, 25705, 85586, 249668, 12978], "ratio": 107, "solsticeLength": 21835.680851514357, "summer_sun_azimuth": 56.355583483262556, "sun_azimuth": 121.69221002693156, "totalLength": 2034637.8219658036}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

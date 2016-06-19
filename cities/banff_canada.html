@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Banff, Canada</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [1459, 780, 2650, 3348, 658, 537, 498, 580, 628, 834, 625, 400, 233, 542, 1085, 577, 433, 324, 514, 464, 676, 254, 429, 416, 586, 236, 460, 570, 624, 474, 426, 1386, 2158, 548, 692, 594, 683, 739, 673, 364, 723, 339, 378, 410, 1032, 434, 501, 220, 802, 552, 591, 714, 1021, 1015, 631, 867, 1063, 550, 798, 1077, 829, 2166, 2557, 619, 650, 1032, 1038, 981, 1004, 1345, 1055, 711, 884, 1016, 392, 517, 591, 473, 769, 677, 1033, 788, 835, 761, 1151, 618, 626, 728, 476, 749, 2612, 1449, 2102, 1719, 825, 1131, 745, 768, 427, 631, 616, 645, 600, 837, 944, 673, 891, 1072, 593, 562, 458, 746, 538, 1204, 497, 707, 721, 814, 339, 403, 731, 1195, 1312, 765, 1443, 1119, 545, 732, 658, 542, 507, 566, 999, 1247, 882, 908, 745, 1030, 673, 878, 780, 1242, 777, 894, 767, 773, 409, 1328, 1468, 1061, 404, 1435, 904, 931, 1599, 1551, 751, 787, 720, 1680, 1738, 969, 666, 1160, 288, 701, 470, 866, 401, 767, 746, 1036, 578, 965, 761, 536, 371, 553, 527, 947, 552], "ratio": 128, "solsticeLength": 1942.4179620267319, "summer_sun_azimuth": 49.225094801106444, "sun_azimuth": 127.96467327007775, "totalLength": 150642.68082491143};
+var winter = {"features": [{"geometry": {"coordinates": [[-115.54358000279639, 51.1579999965457], [-115.54138000467044, 51.15695996999992]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 192, "name": "Mt Rundle Route"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [], "type": "FeatureCollection"};
+
+var city = {"bottom": "51.128", "geonameid": "1", "group": "North, America", "left": "-115.698", "name": "Banff, Canada", "right": "-115.439", "slug": "banff_canada", "top": "51.228"};
+var streetIndex = ["Mt Rundle Route"];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Banff, Canada</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [1459, 780, 2650, 3348, 658, 537, 498, 580, 628, 834, 625, 400, 233, 542, 1085, 577, 433, 324, 514, 464, 676, 254, 429, 416, 586, 236, 460, 570, 624, 474, 426, 1386, 2158, 548, 692, 594, 683, 739, 673, 364, 723, 339, 378, 410, 1032, 434, 501, 220, 802, 552, 591, 714, 1021, 1015, 631, 867, 1063, 550, 798, 1077, 829, 2166, 2557, 619, 650, 1032, 1038, 981, 1004, 1345, 1055, 711, 884, 1016, 392, 517, 591, 473, 769, 677, 1033, 788, 835, 761, 1151, 618, 626, 728, 476, 749, 2612, 1449, 2102, 1719, 825, 1131, 745, 768, 427, 631, 616, 645, 600, 837, 944, 673, 891, 1072, 593, 562, 458, 746, 538, 1204, 497, 707, 721, 814, 339, 403, 731, 1195, 1312, 765, 1443, 1119, 545, 732, 658, 542, 507, 566, 999, 1247, 882, 908, 745, 1030, 673, 878, 780, 1242, 777, 894, 767, 773, 409, 1328, 1468, 1061, 404, 1435, 904, 931, 1599, 1551, 751, 787, 720, 1680, 1738, 969, 666, 1160, 288, 701, 470, 866, 401, 767, 746, 1036, 578, 965, 761, 536, 371, 553, 527, 947, 552], "ratio": 128, "solsticeLength": 1942.4179620267319, "summer_sun_azimuth": 49.225094801106444, "sun_azimuth": 127.96467327007775, "totalLength": 150642.68082491143}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Baji, Iraq</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [12175, 11005, 4705, 3124, 3768, 4625, 4353, 7287, 3022, 2592, 2802, 2209, 3225, 2296, 1516, 1949, 1445, 4143, 3669, 729, 823, 412, 614, 550, 486, 552, 317, 271, 50, 62, 409, 252, 256, 443, 353, 430, 216, 233, 121, 488, 86, 499, 147, 515, 176, 269, 210, 264, 41, 112, 212, 39, 72, 7, 123, 117, 294, 114, 333, 86, 118, 216, 215, 140, 269, 154, 224, 52, 933, 560, 233, 603, 389, 1221, 866, 1330, 982, 985, 1219, 821, 1154, 823, 819, 1058, 1930, 1338, 1299, 3744, 6039, 2989, 5336, 7599, 6402, 3983, 3296, 4244, 3292, 3496, 3606, 2571, 3676, 2716, 2850, 1667, 2970, 1499, 1688, 891, 704, 1457, 407, 204, 377, 658, 1430, 926, 404, 319, 290, 423, 367, 193, 211, 352, 156, 1443, 481, 184, 252, 419, 650, 347, 387, 331, 296, 269, 172, 292, 111, 170, 509, 208, 434, 307, 194, 296, 464, 198, 121, 238, 373, 1345, 256, 725, 560, 915, 740, 498, 623, 431, 343, 840, 422, 502, 368, 1080, 1588, 1240, 515, 834, 871, 688, 674, 881, 1737, 1785, 1231, 2175, 5754, 2315, 460], "ratio": 44, "solsticeLength": 1048.8698447898169, "summer_sun_azimuth": 60.281801614428495, "sun_azimuth": 118.30589785908762, "totalLength": 236715.668145127};
+var winter = {"features": [{"geometry": {"coordinates": [[43.5037311786287, 34.918846557265596], [43.501907276498144, 34.91962942702199]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 187, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[43.47960739074307, 34.929925840699354], [43.478244577106096, 34.930555656903834]], "type": "LineString"}, "properties": {"azimuth_d": 1.1, "length": 142, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [], "type": "FeatureCollection"};
+
+var city = {"bottom": "34.894", "geonameid": "1", "group": "Middle, East", "left": "43.460", "name": "Baji, Iraq", "right": "43.520", "slug": "baji_iraq", "top": "34.959"};
+var streetIndex = [null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Baji, Iraq</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [12175, 11005, 4705, 3124, 3768, 4625, 4353, 7287, 3022, 2592, 2802, 2209, 3225, 2296, 1516, 1949, 1445, 4143, 3669, 729, 823, 412, 614, 550, 486, 552, 317, 271, 50, 62, 409, 252, 256, 443, 353, 430, 216, 233, 121, 488, 86, 499, 147, 515, 176, 269, 210, 264, 41, 112, 212, 39, 72, 7, 123, 117, 294, 114, 333, 86, 118, 216, 215, 140, 269, 154, 224, 52, 933, 560, 233, 603, 389, 1221, 866, 1330, 982, 985, 1219, 821, 1154, 823, 819, 1058, 1930, 1338, 1299, 3744, 6039, 2989, 5336, 7599, 6402, 3983, 3296, 4244, 3292, 3496, 3606, 2571, 3676, 2716, 2850, 1667, 2970, 1499, 1688, 891, 704, 1457, 407, 204, 377, 658, 1430, 926, 404, 319, 290, 423, 367, 193, 211, 352, 156, 1443, 481, 184, 252, 419, 650, 347, 387, 331, 296, 269, 172, 292, 111, 170, 509, 208, 434, 307, 194, 296, 464, 198, 121, 238, 373, 1345, 256, 725, 560, 915, 740, 498, 623, 431, 343, 840, 422, 502, 368, 1080, 1588, 1240, 515, 834, 871, 688, 674, 881, 1737, 1785, 1231, 2175, 5754, 2315, 460], "ratio": 44, "solsticeLength": 1048.8698447898169, "summer_sun_azimuth": 60.281801614428495, "sun_azimuth": 118.30589785908762, "totalLength": 236715.668145127}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

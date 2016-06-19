@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Darwin, Australia</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [28260, 9763, 5340, 4748, 4587, 6215, 5263, 5325, 6332, 3655, 3242, 4044, 5731, 6823, 7160, 6164, 5747, 6096, 6788, 5884, 6161, 3458, 4345, 4702, 3836, 4797, 3815, 3590, 4408, 7475, 6701, 3807, 3364, 3174, 3546, 5597, 4201, 4351, 3903, 3898, 3023, 6314, 5230, 5271, 10621, 6525, 4381, 7265, 6579, 6047, 4504, 4402, 4813, 3686, 3606, 3240, 3376, 4043, 5848, 9548, 6429, 5291, 4474, 5056, 6592, 6374, 4033, 4515, 5514, 5373, 4966, 3562, 4300, 3863, 4809, 3377, 4847, 4749, 4424, 3935, 5365, 4850, 4458, 4199, 4919, 4758, 7605, 6384, 14973, 66271, 32976, 9304, 5512, 7602, 8924, 4021, 5567, 5775, 5065, 5539, 4371, 4118, 6380, 6422, 7668, 6596, 5582, 10787, 10370, 5650, 14928, 8328, 4233, 4859, 5260, 5934, 3371, 5471, 6256, 6836, 8569, 7206, 5328, 4016, 6119, 4285, 4905, 6679, 10932, 8624, 6683, 3905, 5395, 5721, 12975, 9204, 4644, 7779, 7507, 7130, 4431, 2835, 3919, 4713, 3447, 2454, 3220, 5710, 4018, 7165, 6134, 5182, 4763, 4219, 4287, 4114, 4431, 3073, 3013, 4463, 4426, 4454, 3599, 5078, 4265, 4261, 5193, 5819, 6155, 5080, 3560, 4521, 3692, 4564, 4440, 4473, 6749, 8329, 16703, 56456, 4324], "ratio": 133, "solsticeLength": 15642.815038276296, "summer_sun_azimuth": 66.1814458119187, "sun_azimuth": 114.24969439782717, "totalLength": 1168019.6289533165};
+var winter = {"features": [{"geometry": {"coordinates": [[130.89964353354424, -12.397762711715558], [130.89840753810228, -12.397184276577546]], "type": "LineString"}, "properties": {"azimuth_d": 1.35, "length": 148, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[130.89404014745372, -12.39036761000264], [130.892564429581, -12.389699404681664]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 176, "name": "Yanyula Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.89663015553435, -12.374533524355627], [130.89891916947198, -12.375520158178176]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 271, "name": "Gotham Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.96875224139086, -12.494313519095128], [130.97000994596203, -12.494883069415776]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 150, "name": "Tilston Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.9913017402224, -12.481466911377197], [130.99435032222567, -12.482898875715364]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 367, "name": "Roystonea Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.99419366445534, -12.473647182449554], [130.99248166073215, -12.472943773135226]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 201, "name": "McCourt Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.99588546779188, -12.485232146101794], [130.99709564697207, -12.485768420266822]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 144, "name": "Wilton Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.9961343264971, -12.484704170020876], [130.99717292811937, -12.485131563263707]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 122, "name": "Hull Place"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.99668174859332, -12.486349034699657], [130.99776167299825, -12.486839878949496]], "type": "LineString"}, "properties": {"azimuth_d": 0.7, "length": 129, "name": "Buckingham Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.95077087978882, -12.459161912661214], [130.94096346634262, -12.454721850912136]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 1174, "name": "Tiger Brennan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.9410287613683, -12.45455438048671], [130.94607005703205, -12.456847501556922]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 604, "name": "Tiger Brennan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.94638228292524, -12.45699753762375], [130.95025807495267, -12.458718258526233]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 462, "name": "Tiger Brennan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.95653184565901, -12.462541915115935], [130.95754412810527, -12.462988335278936]], "type": "LineString"}, "properties": {"azimuth_d": 0.05, "length": 120, "name": "Tiger Brennan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.9912533766411, -12.483885760995037], [130.99256983835352, -12.484505016001492]], "type": "LineString"}, "properties": {"azimuth_d": 1.46, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[130.88057218925354, -12.409528473019236], [130.88169888467814, -12.41002057455455]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 134, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[130.92976918319727, -12.436144452175455], [130.9273184823474, -12.435064024856388]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 292, "name": "Stuart Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.90190564157274, -12.438252836099707], [130.90297626206507, -12.43871794790681]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 127, "name": "Tiger Brennan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.89427995370352, -12.433231321727503], [130.89534906545327, -12.433711018046125]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 127, "name": "Tiger Brennan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.94628848942875, -12.46122645923188], [130.9541978209013, -12.464601432544697]], "type": "LineString"}, "properties": {"azimuth_d": 0.64, "length": 937, "name": "Kirkland Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.94583838122833, -12.46104750559911], [130.94425612936624, -12.460342000808991]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 188, "name": "Wishhart Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.99462625447813, -12.472432644679714], [130.99349335644519, -12.471946578114682]], "type": "LineString"}, "properties": {"azimuth_d": 0.53, "length": 134, "name": "Stuart Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[131.0003411198809, -12.441271159432489], [131.00180803675528, -12.441941376410256]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 175, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[130.85358078465418, -12.43042606637337], [130.85137483537696, -12.431431978573244]], "type": "LineString"}, "properties": {"azimuth_d": 1.21, "length": 264, "name": "Broadbent Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.84264072463213, -12.38134465887441], [130.84162995092845, -12.38180910012926]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[130.8654253358477, -12.391388861085318], [130.8672191469459, -12.390600878367962]], "type": "LineString"}, "properties": {"azimuth_d": 0.39, "length": 213, "name": "Carrington Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.86334016979526, -12.39117822385856], [130.86654976815845, -12.389871401334773]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 377, "name": "Robinson Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.86470943749765, -12.389738129074317], [130.865948953339, -12.38922591097139]], "type": "LineString"}, "properties": {"azimuth_d": 0.88, "length": 146, "name": "Aldridge Place"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.859385671697, -12.387199334422093], [130.8610834261848, -12.386446052783896]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 202, "name": "Trower Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.98251666750627, -12.477563123793175], [130.98386732738362, -12.47698938252094]], "type": "LineString"}, "properties": {"azimuth_d": 0.31, "length": 159, "name": "University Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.99114064004345, -12.477456841260931], [130.9926605305459, -12.476761813849777]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 182, "name": "Temple Terrace"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.9690534869909, -12.474455281734492], [130.97020759123888, -12.473923952892335]], "type": "LineString"}, "properties": {"azimuth_d": 1.42, "length": 138, "name": "Alexandra Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.98665003541822, -12.486815906706425], [130.98827226895844, -12.486086848768394]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 193, "name": "Raffles Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.94861547338775, -12.508027150877325], [130.9543456776733, -12.505539066739289]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 681, "name": "Catalina Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.90509118387382, -12.44453884438468], [130.90685079680702, -12.443818000711758]], "type": "LineString"}, "properties": {"azimuth_d": 1.06, "length": 207, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[130.86119155273573, -12.386577564844686], [130.8594703289191, -12.387346772098908]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 205, "name": "Trower Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.98023469436725, -12.479229027048916], [130.98131629515277, -12.478745810330963]], "type": "LineString"}, "properties": {"azimuth_d": 0.76, "length": 129, "name": "Emma Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.84912806623134, -12.432955054198885], [130.85333117157768, -12.431035849829241]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 503, "name": "Stuart Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.85704661779744, -12.429293335978514], [130.86227943994862, -12.426902481917296]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 627, "name": "Stuart Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.86041547232094, -12.427879476551198], [130.8570834981714, -12.429383525256666]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 398, "name": "Stuart Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.85480957165942, -12.430515166004113], [130.8479933241797, -12.433595515420393]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 815, "name": "Stuart Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.8510531379332, -12.433791232859477], [130.854237925863, -12.432342001800777]], "type": "LineString"}, "properties": {"azimuth_d": 1.16, "length": 381, "name": "Bishop Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.85613416381796, -12.432345522200109], [130.85780626968202, -12.431576482583948]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 200, "name": "Bishop Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.85359159730925, -12.435379352053758], [130.85531407841148, -12.434654401248281]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 203, "name": "Tiger Brennan Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.94359597067228, -12.458690011512543], [130.94477547208686, -12.458199502538832]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 139, "name": "Tivendale Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[131.00729969207651, -12.490316524747811], [131.00866267335152, -12.489718559775412]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 162, "name": "Teasdale Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[130.93995797323788, -12.468855583681375], [130.93813331673607, -12.469669717936625]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 217, "name": "Tivendale Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "-12.520", "geonameid": "1", "group": "Oceania", "left": "130.804", "name": "Darwin, Australia", "right": "131.019", "slug": "darwin_australia", "top": "-12.317"};
+var streetIndex = ["Tilston Avenue", "Catalina Road", "University Avenue", "Gotham Street", "Aldridge Place", "Teasdale Street", "Tivendale Road", "Yanyula Drive", "Raffles Road", "Trower Road", "Alexandra Court", "Wishhart Road", "Emma Court", "Stuart Highway", "Temple Terrace", "McCourt Road", "Hull Place", "Kirkland Road", "Robinson Road", "Carrington Street", "Bishop Street", "Tiger Brennan Drive", "Buckingham Street", "Broadbent Street", "Roystonea Avenue", "Wilton Court", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Darwin, Australia</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [28260, 9763, 5340, 4748, 4587, 6215, 5263, 5325, 6332, 3655, 3242, 4044, 5731, 6823, 7160, 6164, 5747, 6096, 6788, 5884, 6161, 3458, 4345, 4702, 3836, 4797, 3815, 3590, 4408, 7475, 6701, 3807, 3364, 3174, 3546, 5597, 4201, 4351, 3903, 3898, 3023, 6314, 5230, 5271, 10621, 6525, 4381, 7265, 6579, 6047, 4504, 4402, 4813, 3686, 3606, 3240, 3376, 4043, 5848, 9548, 6429, 5291, 4474, 5056, 6592, 6374, 4033, 4515, 5514, 5373, 4966, 3562, 4300, 3863, 4809, 3377, 4847, 4749, 4424, 3935, 5365, 4850, 4458, 4199, 4919, 4758, 7605, 6384, 14973, 66271, 32976, 9304, 5512, 7602, 8924, 4021, 5567, 5775, 5065, 5539, 4371, 4118, 6380, 6422, 7668, 6596, 5582, 10787, 10370, 5650, 14928, 8328, 4233, 4859, 5260, 5934, 3371, 5471, 6256, 6836, 8569, 7206, 5328, 4016, 6119, 4285, 4905, 6679, 10932, 8624, 6683, 3905, 5395, 5721, 12975, 9204, 4644, 7779, 7507, 7130, 4431, 2835, 3919, 4713, 3447, 2454, 3220, 5710, 4018, 7165, 6134, 5182, 4763, 4219, 4287, 4114, 4431, 3073, 3013, 4463, 4426, 4454, 3599, 5078, 4265, 4261, 5193, 5819, 6155, 5080, 3560, 4521, 3692, 4564, 4440, 4473, 6749, 8329, 16703, 56456, 4324], "ratio": 133, "solsticeLength": 15642.815038276296, "summer_sun_azimuth": 66.1814458119187, "sun_azimuth": 114.24969439782717, "totalLength": 1168019.6289533165}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Allentown, Pennsylvania</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2521, 2906, 2326, 2061, 1639, 1933, 2130, 1764, 1278, 1759, 1561, 1528, 1421, 1828, 917, 1195, 1281, 2269, 1984, 2736, 1958, 11469, 5077, 3882, 3962, 4879, 6201, 3217, 1746, 2514, 1826, 2303, 1895, 1815, 3243, 2030, 3083, 2676, 3521, 3277, 1667, 1594, 1918, 2159, 2278, 3205, 4043, 3942, 3256, 3033, 3865, 3444, 3592, 4982, 6082, 3584, 4008, 3498, 3318, 6530, 6663, 5521, 3225, 3304, 4260, 3770, 3761, 4411, 7822, 92066, 109851, 9063, 5522, 3587, 5104, 5908, 4199, 4972, 6055, 3104, 2407, 6092, 5993, 14098, 35694, 16889, 5525, 2224, 2832, 4081, 4174, 4557, 1743, 2760, 1751, 1654, 2018, 2414, 2351, 1375, 1385, 1881, 1619, 1400, 2365, 1878, 6891, 3160, 3666, 1668, 2041, 5050, 4565, 2787, 4151, 2524, 2672, 2836, 1484, 4095, 3307, 2600, 1774, 1518, 1855, 3338, 1421, 1668, 2102, 1250, 1950, 2808, 1879, 1438, 2272, 3061, 4832, 3976, 1610, 1372, 2607, 3051, 4513, 2187, 4648, 2775, 3126, 3010, 2960, 4231, 4354, 1818, 2003, 3302, 5718, 3508, 2933, 2795, 6776, 62131, 136988, 10226, 5488, 3040, 3669, 5535, 7324, 6186, 6565, 2558, 2173, 6410, 7308, 20284, 19818, 14641, 5507, 1942, 2329, 3328, 670], "ratio": 90, "solsticeLength": 9958.592763646724, "summer_sun_azimuth": 57.516374132706225, "sun_azimuth": 120.67828210502151, "totalLength": 1095079.214227743};
+var winter = {"features": [{"geometry": {"coordinates": [[-75.50655305717434, 40.616755956612565], [-75.51026900630826, 40.61837793869565]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 361, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.50846505310726, 40.61654791777579], [-75.5068265586749, 40.61580477824043]], "type": "LineString"}, "properties": {"azimuth_d": 0.15, "length": 161, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.52783504460803, 40.581737957715234], [-75.52941503335623, 40.58248294126929]], "type": "LineString"}, "properties": {"azimuth_d": 1.14, "length": 157, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.51375705149489, 40.585937961757395], [-75.5121060680268, 40.58521099929516]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 161, "name": "College Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.51140106615088, 40.61774594319638], [-75.51384405564983, 40.61883693171344]], "type": "LineString"}, "properties": {"azimuth_d": 0.23, "length": 239, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.51025802601511, 40.618393948130745], [-75.51203406747854, 40.6191909833035]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 174, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.48345906991261, 40.621593991124314], [-75.48574305470835, 40.622612979093105]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 223, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.48609400499424, 40.621685940602134], [-75.48789401870076, 40.62252899242332]], "type": "LineString"}, "properties": {"azimuth_d": 0.96, "length": 178, "name": "Hawthorn Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.48771506506799, 40.621971931138404], [-75.4863630640861, 40.62134194729589]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 133, "name": "Hill Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.53775603284227, 40.56784193571997], [-75.53934607987428, 40.568520953696066]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 154, "name": "Hill Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.50630604248782, 40.61612094362815], [-75.50815307867114, 40.61693993938721]], "type": "LineString"}, "properties": {"azimuth_d": 0.41, "length": 180, "name": "Walbert Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.48270905721664, 40.62182893587027], [-75.48496705811256, 40.62282898073789]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 220, "name": "Ohio Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.50728907209201, 40.615538988090805], [-75.50874903198678, 40.616181963883236]], "type": "LineString"}, "properties": {"azimuth_d": 0.58, "length": 142, "name": "Grove Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.50684005353901, 40.61736599152553], [-75.50944204774116, 40.61852898059087]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 254, "name": "Harold Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.47002908173383, 40.57645291630723], [-75.46779706473775, 40.575395958317046]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 222, "name": "Vine Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.50150405015971, 40.613943995735916], [-75.50530608143922, 40.61561199446743]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 370, "name": "Roth Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.47976130950859, 40.619290225037076], [-75.48411503765497, 40.621329961174354]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 431, "name": "Mickley Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.4860196575131, 40.55795078706103], [-75.48323300998402, 40.55666299145747]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 275, "name": "31st Street Southwest"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.50815307867114, 40.61693993938721], [-75.51222601306121, 40.61871799250741]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 396, "name": "Huckleberry Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.5127230599194, 40.61892795918192], [-75.514304054496, 40.619630949401085]], "type": "LineString"}, "properties": {"azimuth_d": 0.34, "length": 154, "name": "Huckleberry Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.54226608348283, 40.59605198522172], [-75.54025400762603, 40.5951879786426]], "type": "LineString"}, "properties": {"azimuth_d": 1.2, "length": 195, "name": "North 38th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.54104106833402, 40.59486192260914], [-75.54263706651729, 40.5955479813839]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 154, "name": "Springhouse Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.5267370152923, 40.59754203614889], [-75.52494580258411, 40.596765452819845]], "type": "LineString"}, "properties": {"azimuth_d": 0.97, "length": 174, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.50989902910219, 40.55941996704931], [-75.51260403689433, 40.56058999691327]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 263, "name": "Keystone Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-75.45024200673113, 40.57873899657878], [-75.45179408374177, 40.57796794530583]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 156, "name": "Martin Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.49980000924454, 40.56753499042577], [-75.50375601608535, 40.56563095730087]], "type": "LineString"}, "properties": {"azimuth_d": 0.1, "length": 395, "name": "Fish Hatchery Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.45215106899794, 40.57838997413063], [-75.45360507774144, 40.57766493950612]], "type": "LineString"}, "properties": {"azimuth_d": 0.81, "length": 146, "name": "Watson Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.44900802294592, 40.57990793679533], [-75.45105002219707, 40.57888492551302]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 206, "name": "Watson Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.47913006838058, 40.58698796276794], [-75.48051400441356, 40.58634892647001]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 136, "name": "West Cumberland Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.4935510489716, 40.58853593264604], [-75.4949770621585, 40.5878419948823]], "type": "LineString"}, "properties": {"azimuth_d": 0.17, "length": 143, "name": "Martin Luther King Jr Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.49543907266143, 40.56328997556355], [-75.49685804504965, 40.56259494815239]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 142, "name": "Devonshire Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.45131606380377, 40.57997599784912], [-75.45382200139558, 40.57872198131534]], "type": "LineString"}, "properties": {"azimuth_d": 0.91, "length": 253, "name": "Baker Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.45043202447609, 40.579767959012344], [-75.45343702058281, 40.57826198246917]], "type": "LineString"}, "properties": {"azimuth_d": 0.95, "length": 304, "name": "West Emaus Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.45043202447609, 40.579767959012344], [-75.44919108371124, 40.58038293924818]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 125, "name": "E. Emmaus Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.43237908142096, 40.583796972229806], [-75.43109807515894, 40.584412958294024]], "type": "LineString"}, "properties": {"azimuth_d": 0.12, "length": 128, "name": "E. Emmaus Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.42362108225204, 40.58785398100383], [-75.42204805048348, 40.58860793319431]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 157, "name": "E. Emmaus Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.53677400906645, 40.58276893180556], [-75.54034302343773, 40.58106195722428]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 356, "name": "West Walnut Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.43582354071108, 40.606893054967315], [-75.43448243620333, 40.60755681787964]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 135, "name": "River Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.48465600568579, 40.58420793694239], [-75.48611202608606, 40.58351198752189]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 145, "name": "Lehigh Parkway North"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.4683460793956, 40.59874995221523], [-75.46970503735713, 40.59808099252294]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 136, "name": "Lawrence Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.45261006201572, 40.61482099426496], [-75.4510390419039, 40.61555793119197]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 155, "name": "East Liberty Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.436473054388, 40.60109596309445], [-75.44084203759817, 40.598936952475015]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 440, "name": "Constitution Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.48048005770572, 40.58432897162422], [-75.4788480173388, 40.58509097044171]], "type": "LineString"}, "properties": {"azimuth_d": 0.88, "length": 161, "name": "Park Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.46515601086679, 40.61620694195469], [-75.46318307849782, 40.61712869984669]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 195, "name": "American Parkway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.52441246208518, 40.57865266297608], [-75.52290321659974, 40.579353473900426]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 149, "name": "West Hamilton Boulevard"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.43297201725146, 40.618768954478725], [-75.43080504382401, 40.61983395909593]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 217, "name": "Hanover Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.45432701106178, 40.577800977794624], [-75.45637605111156, 40.576786935148704]], "type": "LineString"}, "properties": {"azimuth_d": 0.61, "length": 206, "name": "West Emaus Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.41912662195139, 40.5539474224673], [-75.42035096654794, 40.55337066370993]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 121, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-75.41886502275334, 40.553628323413506], [-75.42008911589281, 40.55304485913359]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 122, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "40.550", "geonameid": "1", "group": "North, America", "left": "-75.543", "name": "Allentown, Pennsylvania", "right": "-75.418", "slug": "allentown_pennsylvania", "top": "40.623"};
+var streetIndex = ["Fish Hatchery Road", "Mickley Road", "Ohio Avenue", "Watson Street", "Park Drive", "North 38th Street", "American Parkway", "Devonshire Road", "Roth Avenue", "River Drive", "Hill Drive", "Grove Street", "Martin Street", "Hill Road", "West Walnut Street", "31st Street Southwest", "College Drive", "Walbert Avenue", "E. Emmaus Avenue", "Baker Street", "Lawrence Court", "West Cumberland Street", "Keystone Road", "Harold Avenue", "Hawthorn Lane", "Hanover Avenue", "Springhouse Road", "Lehigh Parkway North", "Constitution Road", "West Hamilton Boulevard", "Vine Street", "Huckleberry Road", "West Emaus Avenue", "Martin Luther King Jr Drive", "East Liberty Street", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Allentown, Pennsylvania</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2521, 2906, 2326, 2061, 1639, 1933, 2130, 1764, 1278, 1759, 1561, 1528, 1421, 1828, 917, 1195, 1281, 2269, 1984, 2736, 1958, 11469, 5077, 3882, 3962, 4879, 6201, 3217, 1746, 2514, 1826, 2303, 1895, 1815, 3243, 2030, 3083, 2676, 3521, 3277, 1667, 1594, 1918, 2159, 2278, 3205, 4043, 3942, 3256, 3033, 3865, 3444, 3592, 4982, 6082, 3584, 4008, 3498, 3318, 6530, 6663, 5521, 3225, 3304, 4260, 3770, 3761, 4411, 7822, 92066, 109851, 9063, 5522, 3587, 5104, 5908, 4199, 4972, 6055, 3104, 2407, 6092, 5993, 14098, 35694, 16889, 5525, 2224, 2832, 4081, 4174, 4557, 1743, 2760, 1751, 1654, 2018, 2414, 2351, 1375, 1385, 1881, 1619, 1400, 2365, 1878, 6891, 3160, 3666, 1668, 2041, 5050, 4565, 2787, 4151, 2524, 2672, 2836, 1484, 4095, 3307, 2600, 1774, 1518, 1855, 3338, 1421, 1668, 2102, 1250, 1950, 2808, 1879, 1438, 2272, 3061, 4832, 3976, 1610, 1372, 2607, 3051, 4513, 2187, 4648, 2775, 3126, 3010, 2960, 4231, 4354, 1818, 2003, 3302, 5718, 3508, 2933, 2795, 6776, 62131, 136988, 10226, 5488, 3040, 3669, 5535, 7324, 6186, 6565, 2558, 2173, 6410, 7308, 20284, 19818, 14641, 5507, 1942, 2329, 3328, 670], "ratio": 90, "solsticeLength": 9958.592763646724, "summer_sun_azimuth": 57.516374132706225, "sun_azimuth": 120.67828210502151, "totalLength": 1095079.214227743}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

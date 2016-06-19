@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Fort Collins, Colorado</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [329939, 62934, 19199, 10740, 7369, 6074, 6450, 6099, 4834, 5657, 5240, 4753, 4975, 5136, 5234, 5466, 4597, 4231, 4248, 3717, 4255, 4313, 4442, 3538, 3418, 3227, 4130, 4034, 3579, 4027, 5519, 3979, 4653, 4282, 3555, 2917, 3195, 2814, 3816, 4170, 5983, 4967, 4341, 5115, 6450, 4758, 3392, 3486, 3384, 3242, 3321, 2474, 2719, 3567, 3128, 3413, 2591, 3720, 3653, 4208, 4081, 4339, 4988, 3231, 4797, 4393, 4585, 3591, 3937, 3678, 5454, 4044, 4301, 4763, 3798, 4257, 4756, 4813, 5436, 5091, 6498, 5703, 4519, 5704, 6298, 11298, 9489, 12053, 32908, 100359, 315262, 83548, 20404, 15028, 8912, 7613, 6869, 6148, 5345, 6073, 5803, 5341, 4818, 5636, 5041, 5246, 5290, 5385, 6108, 4908, 5745, 5455, 5297, 5056, 4210, 4343, 5102, 5501, 4894, 5641, 6802, 5143, 4836, 5027, 4347, 5601, 3736, 3743, 4509, 4070, 5421, 5436, 4834, 4916, 7806, 7341, 4466, 3710, 3799, 3291, 3813, 3705, 4217, 5595, 5999, 4210, 4094, 4058, 3477, 5079, 5084, 3871, 4781, 6537, 5068, 5930, 5091, 4843, 3766, 4225, 4750, 4684, 4528, 4747, 5188, 4301, 3908, 6738, 5699, 4994, 5148, 4799, 5065, 4943, 6580, 7721, 8441, 11058, 27761, 105562, 14447], "ratio": 90, "solsticeLength": 17799.63705789229, "summer_sun_azimuth": 57.56410349462627, "sun_azimuth": 120.66871984018348, "totalLength": 1969276.8629363154};
+var winter = {"features": [{"geometry": {"coordinates": [[-105.0127210570762, 40.50660299676301], [-105.0111550661063, 40.505907969351846]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 153, "name": "Copper Spring Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.05520607441566, 40.491432925485384], [-105.05241104498342, 40.4902309605703]], "type": "LineString"}, "properties": {"azimuth_d": 1.15, "length": 271, "name": "Basseterre Place"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.05003502689084, 40.61594794114662], [-105.0487420345073, 40.61535098200261]], "type": "LineString"}, "properties": {"azimuth_d": 0.6, "length": 127, "name": "Hillside Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.01646600759508, 40.50618297959497], [-105.01455904080409, 40.505332970794136]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 186, "name": "Ledgestone Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.05239000640647, 40.5885189173826], [-105.04933446742358, 40.587218968019414]], "type": "LineString"}, "properties": {"azimuth_d": 1.43, "length": 295, "name": "Webster Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.04736304379719, 40.61296599527364], [-105.04536706119447, 40.61209796538097]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 194, "name": "Miramont Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.0426210658958, 40.508147949155955], [-105.04132304437036, 40.50756792145634]], "type": "LineString"}, "properties": {"azimuth_d": 0.21, "length": 127, "name": "Pacific Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.09001201116273, 40.50463693755461], [-105.09214302622556, 40.505558946903705]], "type": "LineString"}, "properties": {"azimuth_d": 1.01, "length": 207, "name": "Plateau Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.01353007837052, 40.50492795723281], [-105.01151305719084, 40.50403092595516]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 197, "name": "Green Spring Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-104.98897805905176, 40.57698097620715], [-104.98774700893266, 40.57639591936564]], "type": "LineString"}, "properties": {"azimuth_d": 1.34, "length": 122, "name": "Messara Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.11905606003023, 40.52502591702418], [-105.11734807962057, 40.52424992042839]], "type": "LineString"}, "properties": {"azimuth_d": 0.2, "length": 168, "name": "Grosvenor Court"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.10992204868496, 40.53661197032386], [-105.10769606665917, 40.535579990405125]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 220, "name": "Imperial Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.01245501546948, 40.50740195977349], [-105.01073504893827, 40.50663694347085]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 168, "name": "Muskrat Creek Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.03823448068897, 40.556155634858385], [-105.03563835381904, 40.55499608237335]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 254, "name": "Katahdin Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.05494900144535, 40.492123929583016], [-105.05196403808719, 40.49083898382651]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 290, "name": "Saint John Place"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.01720805748305, 40.50554796661055], [-105.01204807407039, 40.50325291770261]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 505, "name": "Shallow Pond Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.0129870148639, 40.505667995463995], [-105.0112660425043, 40.50490197333297]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 168, "name": "Wild View Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.05291404299288, 40.59050299768279], [-105.0494950646884, 40.58904999476766]], "type": "LineString"}, "properties": {"azimuth_d": 1.46, "length": 330, "name": "Duff Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.0380388470689, 40.55434547904903], [-105.03628811895305, 40.55355707723652]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 171, "name": "Krisron Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.03724482938127, 40.5565909909092], [-105.03563122920134, 40.555874422006895]], "type": "LineString"}, "properties": {"azimuth_d": 0.37, "length": 157, "name": "Trestle Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.03808972522117, 40.55491578374094], [-105.03653764821051, 40.554237017221965]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.03669112085764, 40.55297813918432], [-105.03822861335675, 40.55368179995574]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 151, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.03812031916775, 40.55383493732671], [-105.036832104469, 40.5532480364665]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 126, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.04977904356792, 40.51541799287349], [-105.04775808289375, 40.514491960210876]], "type": "LineString"}, "properties": {"azimuth_d": 0.42, "length": 199, "name": "Keenland Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.05269971772873, 40.58758282643617], [-105.04992522395925, 40.58638278935882]], "type": "LineString"}, "properties": {"azimuth_d": 1.02, "length": 269, "name": "East Lincoln Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.03492924481057, 40.50508704575503], [-105.03324481754882, 40.50428766364939]], "type": "LineString"}, "properties": {"azimuth_d": 1.31, "length": 167, "name": "Lodgepole Creek Drive"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-105.01515868215714, 40.59932872262934], [-105.013813973431, 40.599990557703926]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 135, "name": "Wagon Trail Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-105.12283093394345, 40.58688318897828], [-105.12098951363528, 40.587785249397825]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 185, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "40.478", "geonameid": "1", "group": "North, America", "left": "-105.144", "name": "Fort Collins, Colorado", "right": "-104.987", "slug": "fort-collins_colorado", "top": "40.618"};
+var streetIndex = ["Basseterre Place", "East Lincoln Avenue", "Grosvenor Court", "Copper Spring Drive", "Lodgepole Creek Drive", "Trestle Road", "Plateau Court", "Hillside Drive", "Pacific Court", "Wagon Trail Road", "Saint John Place", "Muskrat Creek Drive", "Miramont Drive", "Shallow Pond Drive", "Wild View Drive", "Green Spring Drive", "Imperial Drive", "Krisron Road", "Katahdin Drive", "Messara Drive", "Webster Avenue", "Ledgestone Court", "Keenland Drive", "Duff Drive", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Fort Collins, Colorado</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [329939, 62934, 19199, 10740, 7369, 6074, 6450, 6099, 4834, 5657, 5240, 4753, 4975, 5136, 5234, 5466, 4597, 4231, 4248, 3717, 4255, 4313, 4442, 3538, 3418, 3227, 4130, 4034, 3579, 4027, 5519, 3979, 4653, 4282, 3555, 2917, 3195, 2814, 3816, 4170, 5983, 4967, 4341, 5115, 6450, 4758, 3392, 3486, 3384, 3242, 3321, 2474, 2719, 3567, 3128, 3413, 2591, 3720, 3653, 4208, 4081, 4339, 4988, 3231, 4797, 4393, 4585, 3591, 3937, 3678, 5454, 4044, 4301, 4763, 3798, 4257, 4756, 4813, 5436, 5091, 6498, 5703, 4519, 5704, 6298, 11298, 9489, 12053, 32908, 100359, 315262, 83548, 20404, 15028, 8912, 7613, 6869, 6148, 5345, 6073, 5803, 5341, 4818, 5636, 5041, 5246, 5290, 5385, 6108, 4908, 5745, 5455, 5297, 5056, 4210, 4343, 5102, 5501, 4894, 5641, 6802, 5143, 4836, 5027, 4347, 5601, 3736, 3743, 4509, 4070, 5421, 5436, 4834, 4916, 7806, 7341, 4466, 3710, 3799, 3291, 3813, 3705, 4217, 5595, 5999, 4210, 4094, 4058, 3477, 5079, 5084, 3871, 4781, 6537, 5068, 5930, 5091, 4843, 3766, 4225, 4750, 4684, 4528, 4747, 5188, 4301, 3908, 6738, 5699, 4994, 5148, 4799, 5065, 4943, 6580, 7721, 8441, 11058, 27761, 105562, 14447], "ratio": 90, "solsticeLength": 17799.63705789229, "summer_sun_azimuth": 57.56410349462627, "sun_azimuth": 120.66871984018348, "totalLength": 1969276.8629363154}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

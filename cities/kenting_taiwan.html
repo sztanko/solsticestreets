@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Kenting, Taiwan</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [85, 319, 203, 205, 623, 595, 185, 83, 216, 189, 309, 256, 224, 242, 85, 161, 120, 289, 256, 319, 279, 219, 614, 608, 652, 1004, 347, 412, 564, 201, 363, 271, 237, 232, 453, 408, 340, 596, 357, 447, 386, 312, 327, 234, 286, 206, 425, 290, 339, 450, 318, 268, 273, 255, 444, 176, 369, 146, 357, 463, 291, 229, 247, 233, 363, 359, 369, 311, 253, 195, 199, 214, 115, 193, 439, 211, 290, 619, 166, 304, 166, 342, 549, 219, 176, 449, 176, 209, 258, 202, 519, 794, 183, 290, 260, 286, 395, 996, 241, 310, 296, 615, 203, 317, 387, 401, 243, 293, 425, 453, 311, 851, 368, 853, 251, 620, 141, 289, 473, 709, 386, 465, 475, 845, 590, 776, 790, 431, 684, 702, 431, 660, 857, 861, 1037, 1114, 761, 225, 654, 709, 459, 360, 527, 504, 362, 1068, 458, 811, 476, 399, 222, 565, 455, 474, 386, 383, 475, 815, 302, 349, 226, 410, 654, 311, 414, 256, 414, 252, 206, 311, 414, 118, 266, 539, 207, 287, 64, 371, 249, 111, 317], "ratio": 153, "solsticeLength": 1085.2621638696862, "summer_sun_azimuth": 64.21411910452326, "sun_azimuth": 114.99634335713628, "totalLength": 70798.74541489381};
+var winter = {"features": [], "type": "FeatureCollection"};
+var summer = {"features": [], "type": "FeatureCollection"};
+
+var city = {"bottom": "21.923", "geonameid": "1", "group": "Asia", "left": "120.761", "name": "Kenting, Taiwan", "right": "120.838", "slug": "kenting_taiwan", "top": "21.968"};
+var streetIndex = [];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Kenting, Taiwan</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [85, 319, 203, 205, 623, 595, 185, 83, 216, 189, 309, 256, 224, 242, 85, 161, 120, 289, 256, 319, 279, 219, 614, 608, 652, 1004, 347, 412, 564, 201, 363, 271, 237, 232, 453, 408, 340, 596, 357, 447, 386, 312, 327, 234, 286, 206, 425, 290, 339, 450, 318, 268, 273, 255, 444, 176, 369, 146, 357, 463, 291, 229, 247, 233, 363, 359, 369, 311, 253, 195, 199, 214, 115, 193, 439, 211, 290, 619, 166, 304, 166, 342, 549, 219, 176, 449, 176, 209, 258, 202, 519, 794, 183, 290, 260, 286, 395, 996, 241, 310, 296, 615, 203, 317, 387, 401, 243, 293, 425, 453, 311, 851, 368, 853, 251, 620, 141, 289, 473, 709, 386, 465, 475, 845, 590, 776, 790, 431, 684, 702, 431, 660, 857, 861, 1037, 1114, 761, 225, 654, 709, 459, 360, 527, 504, 362, 1068, 458, 811, 476, 399, 222, 565, 455, 474, 386, 383, 475, 815, 302, 349, 226, 410, 654, 311, 414, 256, 414, 252, 206, 311, 414, 118, 266, 539, 207, 287, 64, 371, 249, 111, 317], "ratio": 153, "solsticeLength": 1085.2621638696862, "summer_sun_azimuth": 64.21411910452326, "sun_azimuth": 114.99634335713628, "totalLength": 70798.74541489381}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Klaipeda, Lithuania</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [4737, 6341, 4285, 4478, 3182, 2617, 4129, 4762, 3326, 5203, 3172, 4818, 2751, 3775, 2742, 2301, 2392, 1503, 4370, 6051, 2041, 1572, 2559, 2773, 2904, 3958, 2602, 2104, 3094, 1021, 3269, 4328, 1371, 1458, 3437, 3650, 4885, 1722, 4738, 3977, 4138, 2917, 1563, 2622, 2406, 3119, 3852, 2843, 2817, 3296, 3663, 4194, 8703, 6250, 3494, 5209, 4244, 6360, 6954, 7214, 5259, 6983, 11921, 8978, 7469, 7544, 6356, 5741, 15273, 19187, 22249, 18890, 8059, 3380, 3646, 2908, 3525, 3350, 2774, 2666, 2956, 2274, 1993, 4720, 4497, 4546, 5352, 5078, 5426, 3208, 4279, 3362, 2628, 4211, 3107, 3361, 3731, 2534, 2675, 5470, 2552, 2406, 2367, 2456, 2353, 2825, 1792, 2063, 1956, 2177, 2811, 2669, 6524, 5120, 2985, 2149, 2882, 2412, 3388, 2349, 1017, 1640, 2989, 1473, 2317, 2444, 3040, 2682, 4547, 6007, 4378, 2420, 3494, 2507, 3403, 2571, 2943, 3550, 5851, 6427, 6050, 4835, 6953, 5784, 3980, 3893, 4310, 6458, 11006, 8885, 7451, 8480, 8866, 16102, 13546, 9084, 11660, 10684, 16390, 25163, 40602, 20203, 8192, 3576, 4359, 4597, 3431, 4218, 4016, 4148, 3985, 5147, 4542, 6271, 7956, 6438, 5952, 5685, 4367, 6600, 616], "ratio": 97, "solsticeLength": 9065.411777678468, "summer_sun_azimuth": 43.17306225304407, "sun_azimuth": 133.14960647281782, "totalLength": 928328.9441087797};
+var winter = {"features": [{"geometry": {"coordinates": [[21.124057081420347, 55.713056428018405], [21.122659650523243, 55.71381582844591]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 121, "name": "Naujoji Uosto g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.137617659650573, 55.70761766250621], [21.135863327316343, 55.708566493945455]], "type": "LineString"}, "properties": {"azimuth_d": 0.73, "length": 152, "name": "Tilt\u0173 g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.206900124349943, 55.75254835155363], [21.2147633553551, 55.74832705747738]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 680, "name": "Agilos g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.215221761639636, 55.74810259011039], [21.217765836890862, 55.74680448476593]], "type": "LineString"}, "properties": {"azimuth_d": 0.95, "length": 214, "name": "Agilos g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.220359365370822, 55.71773922968338], [21.222240432081033, 55.716735245321246]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 162, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[21.126959734489333, 55.71033138747765], [21.12929275341864, 55.7091416601412]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 197, "name": "J\u016bros g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.15612582386703, 55.70841712843088], [21.157662729632932, 55.7075988870431]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 132, "name": "Mokyklos g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.122995848659542, 55.79516907190549], [21.124686143253513, 55.79430296985055]], "type": "LineString"}, "properties": {"azimuth_d": 0.86, "length": 143, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[21.21189305643236, 55.698462025850745], [21.21708572926738, 55.69575936499146]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 443, "name": "Jubiliejaus g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.211949047545545, 55.639784596503574], [21.204845552244052, 55.64345922285486]], "type": "LineString"}, "properties": {"azimuth_d": 0.49, "length": 604, "name": "Stari\u0161k\u0117s g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.14181271836989, 55.70550106431682], [21.14013508044971, 55.706365741448195]], "type": "LineString"}, "properties": {"azimuth_d": 0.63, "length": 142, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[21.122659650523243, 55.71381582844591], [21.12111385993998, 55.714651420373286]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 134, "name": "Naujoji Uosto g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.11937897362114, 55.76275709052382], [21.12093607977368, 55.76191361960747]], "type": "LineString"}, "properties": {"azimuth_d": 0.74, "length": 135, "name": "Savanori\u0173 g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.208809438073843, 55.64309352041939], [21.206048942082674, 55.64450603874221]], "type": "LineString"}, "properties": {"azimuth_d": 0.8, "length": 233, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[21.20612773197251, 55.64305311964611], [21.20886073532128, 55.64163615891462]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 232, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[21.11671093002198, 55.716756283898235], [21.11518877640566, 55.717589277435586]], "type": "LineString"}, "properties": {"azimuth_d": 1.06, "length": 132, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[21.13760827191902, 55.70915859158563], [21.135530649579408, 55.70795997943182]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 186, "name": "Did\u017eioji Vandens g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.126275855009393, 55.707395039157916], [21.128491192018146, 55.70873865823662]], "type": "LineString"}, "properties": {"azimuth_d": 0.35, "length": 203, "name": "Dan\u0117s g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.155410763707295, 55.72204023565879], [21.153812921505335, 55.72103776003925]], "type": "LineString"}, "properties": {"azimuth_d": 1.3, "length": 149, "name": "Liep\u0173 g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.20117888870081, 55.68613316829186], [21.19921836154853, 55.6849785611297]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 177, "name": "Lypki\u0173 g."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.166773271649333, 55.77300229077281], [21.168192830770778, 55.773882642063114]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 132, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[21.137590837560424, 55.70644754882317], [21.13541338675401, 55.70514952729772]], "type": "LineString"}, "properties": {"azimuth_d": 0.14, "length": 198, "name": "Turgaus a."}, "type": "Feature"}, {"geometry": {"coordinates": [[21.20730144987391, 55.642188777790835], [21.20962089012008, 55.643577826784764]], "type": "LineString"}, "properties": {"azimuth_d": 0.04, "length": 212, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "55.613", "geonameid": "1", "group": "Eastern, Europe", "left": "21.075", "name": "Klaipeda, Lithuania", "right": "21.241", "slug": "klaipeda_lithuania", "top": "55.797"};
+var streetIndex = ["Jubiliejaus g.", "Mokyklos g.", "J\u016bros g.", "Agilos g.", "Stari\u0161k\u0117s g.", "Lypki\u0173 g.", "Naujoji Uosto g.", "Savanori\u0173 g.", "Did\u017eioji Vandens g.", "Turgaus a.", "Tilt\u0173 g.", "Liep\u0173 g.", "Dan\u0117s g.", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Klaipeda, Lithuania</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [4737, 6341, 4285, 4478, 3182, 2617, 4129, 4762, 3326, 5203, 3172, 4818, 2751, 3775, 2742, 2301, 2392, 1503, 4370, 6051, 2041, 1572, 2559, 2773, 2904, 3958, 2602, 2104, 3094, 1021, 3269, 4328, 1371, 1458, 3437, 3650, 4885, 1722, 4738, 3977, 4138, 2917, 1563, 2622, 2406, 3119, 3852, 2843, 2817, 3296, 3663, 4194, 8703, 6250, 3494, 5209, 4244, 6360, 6954, 7214, 5259, 6983, 11921, 8978, 7469, 7544, 6356, 5741, 15273, 19187, 22249, 18890, 8059, 3380, 3646, 2908, 3525, 3350, 2774, 2666, 2956, 2274, 1993, 4720, 4497, 4546, 5352, 5078, 5426, 3208, 4279, 3362, 2628, 4211, 3107, 3361, 3731, 2534, 2675, 5470, 2552, 2406, 2367, 2456, 2353, 2825, 1792, 2063, 1956, 2177, 2811, 2669, 6524, 5120, 2985, 2149, 2882, 2412, 3388, 2349, 1017, 1640, 2989, 1473, 2317, 2444, 3040, 2682, 4547, 6007, 4378, 2420, 3494, 2507, 3403, 2571, 2943, 3550, 5851, 6427, 6050, 4835, 6953, 5784, 3980, 3893, 4310, 6458, 11006, 8885, 7451, 8480, 8866, 16102, 13546, 9084, 11660, 10684, 16390, 25163, 40602, 20203, 8192, 3576, 4359, 4597, 3431, 4218, 4016, 4148, 3985, 5147, 4542, 6271, 7956, 6438, 5952, 5685, 4367, 6600, 616], "ratio": 97, "solsticeLength": 9065.411777678468, "summer_sun_azimuth": 43.17306225304407, "sun_azimuth": 133.14960647281782, "totalLength": 928328.9441087797}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

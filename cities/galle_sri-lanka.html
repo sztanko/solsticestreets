@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Galle, Sri Lanka</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [2060, 2448, 2103, 2530, 2496, 1867, 1768, 2384, 1901, 1236, 2146, 2135, 1809, 1124, 1752, 2157, 2282, 2121, 1960, 1588, 2102, 3225, 2128, 1774, 2031, 1778, 2190, 2837, 1514, 1682, 1881, 1250, 1722, 1104, 1143, 1405, 1543, 1471, 1109, 1488, 1820, 1154, 1421, 1465, 1447, 1764, 1483, 2246, 1549, 2184, 1852, 1492, 1272, 1703, 1667, 1932, 1552, 1480, 1375, 2011, 1989, 2159, 1485, 1111, 1890, 1948, 2227, 1751, 2466, 2841, 2285, 2682, 2440, 2080, 2458, 2005, 1718, 2196, 3238, 2385, 2688, 2316, 2745, 2184, 2159, 2433, 2153, 1941, 1846, 2084, 3502, 1767, 2642, 1848, 2463, 1776, 1773, 1184, 2122, 1614, 2317, 2300, 1763, 1944, 2045, 2044, 1393, 2095, 1633, 2080, 1398, 1575, 1899, 1474, 1724, 2112, 2314, 2430, 2048, 1697, 2483, 2521, 1990, 2069, 2102, 2156, 1764, 2332, 1873, 1720, 2358, 1677, 2413, 1725, 2275, 2453, 2267, 2538, 2276, 1926, 2330, 1993, 1738, 2301, 2073, 2586, 2487, 1730, 2257, 2365, 1982, 3086, 2439, 3182, 2493, 2853, 2665, 2678, 2928, 2408, 2690, 2790, 2510, 2931, 2941, 3839, 3218, 3200, 2254, 3219, 3274, 2309, 2719, 3008, 2770, 2637, 3195, 3344, 2758, 2627, 1874], "ratio": 132, "solsticeLength": 5098.54695026634, "summer_sun_azimuth": 66.32187450125417, "sun_azimuth": 113.4704176248529, "totalLength": 384680.63371538866};
+var winter = {"features": [{"geometry": {"coordinates": [[80.21178226529952, 6.072138787318266], [80.2129961325171, 6.07164408739294]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 145, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[80.19373996726148, 6.051893473669082], [80.19481528161958, 6.052342324584004]], "type": "LineString"}, "properties": {"azimuth_d": 0.9, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[80.2106643708733, 6.041088781383252], [80.21177857726212, 6.041585828241438]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 135, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[80.21535664408883, 6.05585476110889], [80.21336024239098, 6.054988742872978]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 240, "name": "Sri Hemananda Mawatha"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "6.003", "geonameid": "1", "group": "Asia", "left": "80.162", "name": "Galle, Sri Lanka", "right": "80.264", "slug": "galle_sri-lanka", "top": "6.094"};
+var streetIndex = ["Sri Hemananda Mawatha", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Galle, Sri Lanka</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [2060, 2448, 2103, 2530, 2496, 1867, 1768, 2384, 1901, 1236, 2146, 2135, 1809, 1124, 1752, 2157, 2282, 2121, 1960, 1588, 2102, 3225, 2128, 1774, 2031, 1778, 2190, 2837, 1514, 1682, 1881, 1250, 1722, 1104, 1143, 1405, 1543, 1471, 1109, 1488, 1820, 1154, 1421, 1465, 1447, 1764, 1483, 2246, 1549, 2184, 1852, 1492, 1272, 1703, 1667, 1932, 1552, 1480, 1375, 2011, 1989, 2159, 1485, 1111, 1890, 1948, 2227, 1751, 2466, 2841, 2285, 2682, 2440, 2080, 2458, 2005, 1718, 2196, 3238, 2385, 2688, 2316, 2745, 2184, 2159, 2433, 2153, 1941, 1846, 2084, 3502, 1767, 2642, 1848, 2463, 1776, 1773, 1184, 2122, 1614, 2317, 2300, 1763, 1944, 2045, 2044, 1393, 2095, 1633, 2080, 1398, 1575, 1899, 1474, 1724, 2112, 2314, 2430, 2048, 1697, 2483, 2521, 1990, 2069, 2102, 2156, 1764, 2332, 1873, 1720, 2358, 1677, 2413, 1725, 2275, 2453, 2267, 2538, 2276, 1926, 2330, 1993, 1738, 2301, 2073, 2586, 2487, 1730, 2257, 2365, 1982, 3086, 2439, 3182, 2493, 2853, 2665, 2678, 2928, 2408, 2690, 2790, 2510, 2931, 2941, 3839, 3218, 3200, 2254, 3219, 3274, 2309, 2719, 3008, 2770, 2637, 3195, 3344, 2758, 2627, 1874], "ratio": 132, "solsticeLength": 5098.54695026634, "summer_sun_azimuth": 66.32187450125417, "sun_azimuth": 113.4704176248529, "totalLength": 384680.63371538866}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

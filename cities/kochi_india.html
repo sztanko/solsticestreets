@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Kochi, India</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [8795, 10167, 8543, 11112, 6812, 6140, 4217, 4695, 4169, 2978, 3382, 4697, 3326, 2737, 2720, 2915, 4704, 3711, 2076, 3286, 3070, 2050, 3242, 5153, 5980, 3104, 2347, 3124, 3136, 3982, 4057, 2640, 3243, 2513, 3242, 2223, 1991, 2456, 1963, 2523, 2991, 3481, 1912, 2823, 2820, 3728, 2262, 3301, 2928, 3640, 1959, 3629, 3357, 2433, 2929, 3775, 3534, 3239, 3813, 4073, 4323, 4839, 5101, 5894, 7434, 8202, 6952, 7714, 12592, 10528, 9206, 12434, 10961, 9954, 14174, 14284, 13821, 13020, 11361, 12999, 10990, 10389, 8144, 8273, 8048, 9213, 7908, 7688, 8309, 7390, 11116, 6664, 5399, 6326, 5071, 3439, 4492, 3933, 3925, 3189, 2923, 2503, 2895, 2045, 2158, 2952, 2470, 2211, 1942, 2898, 3494, 2147, 2437, 1439, 1570, 3065, 1979, 2095, 2204, 1532, 1569, 1346, 1217, 1740, 2215, 1953, 1606, 2040, 1978, 2259, 1731, 2281, 3137, 2088, 1917, 2237, 2276, 2162, 2980, 2906, 2917, 2843, 4447, 3187, 3514, 3305, 4001, 4791, 5270, 6611, 9671, 8597, 11606, 9709, 11997, 12319, 13697, 14277, 13696, 15849, 19918, 17364, 19998, 20723, 19285, 20629, 18189, 16028, 18679, 19469, 28750, 19274, 13675, 14432, 15154, 13394, 9577, 13175, 12827, 11183, 3627], "ratio": 49, "solsticeLength": 5767.583228373782, "summer_sun_azimuth": 66.00655881822054, "sun_azimuth": 113.64854895840683, "totalLength": 1157887.8981745986};
+var winter = {"features": [{"geometry": {"coordinates": [[76.24958287443138, 9.990808356616355], [76.25118624868946, 9.990107126596854]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 192, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.27461232695491, 9.936794785833001], [76.273479345103, 9.937251348098869]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 134, "name": "Old NH 47"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.38489269173272, 9.833796031799125], [76.38159675976686, 9.835130933698537]], "type": "LineString"}, "properties": {"azimuth_d": 1.29, "length": 390, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.38328286340925, 9.997274492000514], [76.38454886606456, 9.996746180643497]], "type": "LineString"}, "properties": {"azimuth_d": 0.68, "length": 150, "name": "Kakkanad-InfoPark-Karimugal Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.3610299163119, 10.027019938525598], [76.36205996839294, 10.026569997963236]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 123, "name": "Ernakulam - Thekkady Road"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[76.27955262068542, 9.973185656651111], [76.28096572574145, 9.973799631058597]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 169, "name": "Cannonshed Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.24232481683538, 9.96782928524712], [76.24372551667471, 9.96841207897478]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 166, "name": "River Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.37958501918615, 9.970130620582438], [76.38090466602182, 9.970701260550499]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 157, "name": "Refinery Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.34407994789541, 10.016569968382072], [76.34296993245817, 10.016099995071128]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 132, "name": "Collectorate Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.29869755808596, 9.966821026114388], [76.29992877584311, 9.967338524816313]], "type": "LineString"}, "properties": {"azimuth_d": 0.87, "length": 146, "name": "Sahodaran Ayyappan Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.30682498667915, 9.991812592435565], [76.30815536235082, 9.99237258738657]], "type": "LineString"}, "properties": {"azimuth_d": 0.84, "length": 158, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.25876122604443, 9.92750629601224], [76.25979932475252, 9.92799135674889]], "type": "LineString"}, "properties": {"azimuth_d": 1.39, "length": 125, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.27532998550464, 10.037979947477226], [76.27866514477739, 10.039461784139261]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 400, "name": "Chittoor Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.28946472410229, 10.047967823298762], [76.29093147333862, 10.048572326155636]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 174, "name": "Chittoor Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.33979193386989, 10.015417791971856], [76.33866238859827, 10.014907250249536]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 136, "name": "Collectorate Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.28195495795399, 9.819679649569451], [76.28384767550955, 9.820539297558923]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 228, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.19991054275874, 10.082599835554987], [76.2012675728825, 10.083158573220516]], "type": "LineString"}, "properties": {"azimuth_d": 1.3, "length": 161, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.36443045442945, 9.955998480374802], [76.36551155230073, 9.9564569704784]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 128, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.34403007557154, 9.8263512254004], [76.34710078579917, 9.827739184746918]], "type": "LineString"}, "properties": {"azimuth_d": 0.66, "length": 370, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.35837989380457, 9.81929777006087], [76.35948697557573, 9.819788865767805]], "type": "LineString"}, "properties": {"azimuth_d": 0.26, "length": 133, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.3210506689262, 9.981498828218605], [76.3187650915688, 9.980459472225105]], "type": "LineString"}, "properties": {"azimuth_d": 0.79, "length": 275, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.3110582668769, 10.081646645526092], [76.30980936330405, 10.0810949486592]], "type": "LineString"}, "properties": {"azimuth_d": 0.16, "length": 149, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.36196994675282, 9.909623421772494], [76.36324139764525, 9.910183668180622]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 152, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.3630809680185, 10.046118775458694], [76.36162419324694, 10.04544428371031]], "type": "LineString"}, "properties": {"azimuth_d": 1.18, "length": 176, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.27298732738666, 9.90983447809441], [76.27447645630451, 9.910500587939623]], "type": "LineString"}, "properties": {"azimuth_d": 0.44, "length": 179, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.30765873458779, 10.003370231083466], [76.3090398207737, 10.00395327626822]], "type": "LineString"}, "properties": {"azimuth_d": 0.78, "length": 164, "name": "Palarivattom - Kakkanad Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.35122384397022, 10.05258189335774], [76.35284783771004, 10.053277842778215]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 193, "name": "HMT Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.33735824828346, 10.027845136893035], [76.33892465834856, 10.028516024423027]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 187, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.2912994388879, 9.952070049995427], [76.28890372332285, 9.950960369834291]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 290, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.2902587417899, 9.95328525831752], [76.29242412265575, 9.954279184395858]], "type": "LineString"}, "properties": {"azimuth_d": 1.0, "length": 261, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.28538785021772, 9.957591461072923], [76.28768734153431, 9.958659231718201]], "type": "LineString"}, "properties": {"azimuth_d": 1.25, "length": 278, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.28635889370037, 9.955562537590737], [76.28917512934765, 9.956851758117864]], "type": "LineString"}, "properties": {"azimuth_d": 0.94, "length": 340, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.30000102784845, 9.96727775601829], [76.29876042235975, 9.966748522651926]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 148, "name": "Sahodaran Ayyappan Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[76.25429945516618, 9.979338225037566], [76.24955018500901, 9.97723017638944]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 570, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.24888927194382, 9.978683598399726], [76.2512619372751, 9.979690851704078]], "type": "LineString"}, "properties": {"azimuth_d": 0.67, "length": 283, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.28880506832252, 9.951557496616374], [76.29108301814796, 9.952625351080682]], "type": "LineString"}, "properties": {"azimuth_d": 1.46, "length": 276, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.25187498967324, 9.985708639087505], [76.25050195011437, 9.985136238919807]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 163, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.24875239546498, 9.981565380529814], [76.25256238955251, 9.983292387859677]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 459, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.3294262856723, 9.903852984351742], [76.33044477072696, 9.904301751447633]], "type": "LineString"}, "properties": {"azimuth_d": 0.11, "length": 122, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.2011502262381, 10.07582038463016], [76.2025462322116, 10.076444082045299]], "type": "LineString"}, "properties": {"azimuth_d": 0.4, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.19580483512726, 10.086990779351453], [76.19401663990419, 10.08624847800641]], "type": "LineString"}, "properties": {"azimuth_d": 1.13, "length": 212, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.20969004446738, 10.037352897300792], [76.20824793802637, 10.036704389452268]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 173, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.21189741866812, 10.026619199734853], [76.21446362214374, 10.027812698927733]], "type": "LineString"}, "properties": {"azimuth_d": 1.28, "length": 310, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.21446362214374, 10.027812698927733], [76.21879379714221, 10.029759898853968]], "type": "LineString"}, "properties": {"azimuth_d": 0.55, "length": 521, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.26463073756076, 9.933844775011067], [76.2634901281769, 9.933333562736522]], "type": "LineString"}, "properties": {"azimuth_d": 0.48, "length": 137, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[76.22703396233305, 10.014481952482527], [76.22498576047354, 10.013582825729088]], "type": "LineString"}, "properties": {"azimuth_d": 0.03, "length": 245, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "9.785", "geonameid": "1", "group": "Asia", "left": "76.170", "name": "Kochi, India", "right": "76.389", "slug": "kochi_india", "top": "10.091"};
+var streetIndex = ["Palarivattom - Kakkanad Road", "Collectorate Road", "Kakkanad-InfoPark-Karimugal Road", "Old NH 47", "Chittoor Road", "HMT Road", "Cannonshed Road", "Sahodaran Ayyappan Road", "Refinery Road", "Ernakulam - Thekkady Road", "River Road", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Kochi, India</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [8795, 10167, 8543, 11112, 6812, 6140, 4217, 4695, 4169, 2978, 3382, 4697, 3326, 2737, 2720, 2915, 4704, 3711, 2076, 3286, 3070, 2050, 3242, 5153, 5980, 3104, 2347, 3124, 3136, 3982, 4057, 2640, 3243, 2513, 3242, 2223, 1991, 2456, 1963, 2523, 2991, 3481, 1912, 2823, 2820, 3728, 2262, 3301, 2928, 3640, 1959, 3629, 3357, 2433, 2929, 3775, 3534, 3239, 3813, 4073, 4323, 4839, 5101, 5894, 7434, 8202, 6952, 7714, 12592, 10528, 9206, 12434, 10961, 9954, 14174, 14284, 13821, 13020, 11361, 12999, 10990, 10389, 8144, 8273, 8048, 9213, 7908, 7688, 8309, 7390, 11116, 6664, 5399, 6326, 5071, 3439, 4492, 3933, 3925, 3189, 2923, 2503, 2895, 2045, 2158, 2952, 2470, 2211, 1942, 2898, 3494, 2147, 2437, 1439, 1570, 3065, 1979, 2095, 2204, 1532, 1569, 1346, 1217, 1740, 2215, 1953, 1606, 2040, 1978, 2259, 1731, 2281, 3137, 2088, 1917, 2237, 2276, 2162, 2980, 2906, 2917, 2843, 4447, 3187, 3514, 3305, 4001, 4791, 5270, 6611, 9671, 8597, 11606, 9709, 11997, 12319, 13697, 14277, 13696, 15849, 19918, 17364, 19998, 20723, 19285, 20629, 18189, 16028, 18679, 19469, 28750, 19274, 13675, 14432, 15154, 13394, 9577, 13175, 12827, 11183, 3627], "ratio": 49, "solsticeLength": 5767.583228373782, "summer_sun_azimuth": 66.00655881822054, "sun_azimuth": 113.64854895840683, "totalLength": 1157887.8981745986}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Jalawla, Iraq</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [242, 206, 913, 675, 733, 968, 482, 436, 1494, 981, 857, 956, 479, 301, 835, 742, 973, 1542, 1630, 510, 129, 622, 355, 516, 1095, 1095, 1077, 1894, 2088, 1325, 1234, 1035, 1041, 726, 1285, 1346, 369, 1033, 874, 1561, 1133, 1323, 661, 688, 207, 212, 363, 168, 589, 357, 764, 100, 98, 347, 280, 127, 451, 0, 214, 230, 163, 347, 72, 322, 136, 625, 489, 195, 252, 316, 49, 282, 580, 458, 528, 587, 489, 830, 1400, 601, 262, 361, 72, 395, 432, 434, 690, 275, 600, 340, 357, 1027, 615, 550, 708, 372, 727, 539, 577, 832, 397, 550, 328, 853, 1133, 363, 1004, 994, 653, 427, 511, 1237, 928, 967, 542, 814, 876, 1006, 1382, 1751, 1262, 1229, 1125, 740, 897, 756, 608, 554, 427, 828, 915, 1114, 849, 407, 488, 844, 364, 1135, 530, 269, 90, 203, 327, 428, 340, 453, 84, 124, 321, 188, 208, 388, 933, 300, 529, 393, 202, 356, 207, 153, 473, 141, 376, 198, 387, 471, 779, 353, 780, 649, 261, 240, 391, 627, 641, 1451, 538, 813, 797, 308, 476], "ratio": 318, "solsticeLength": 3613.0043778916934, "summer_sun_azimuth": 60.55123208661799, "sun_azimuth": 118.07031097423554, "totalLength": 113371.35006881804};
+var winter = {"features": [{"geometry": {"coordinates": [[45.1725932461849, 34.277975460712184], [45.17390099071804, 34.277381435234275]], "type": "LineString"}, "properties": {"azimuth_d": 0.71, "length": 137, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[45.1733757806652, 34.27528294195574], [45.17091116585604, 34.27634652164943]], "type": "LineString"}, "properties": {"azimuth_d": 0.5, "length": 255, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[45.17737897762086, 34.27616463435058], [45.17903004490798, 34.27544253339217]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 171, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[45.180837937603485, 34.277710844028974], [45.178956787074235, 34.278562948305584]], "type": "LineString"}, "properties": {"azimuth_d": 0.65, "length": 197, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[45.17433467038825, 34.27613085528077], [45.171479375072174, 34.277462991152134]], "type": "LineString"}, "properties": {"azimuth_d": 1.37, "length": 301, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[45.172870770999, 34.27837703769322], [45.175128017523605, 34.277361821580826]], "type": "LineString"}, "properties": {"azimuth_d": 0.47, "length": 236, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[45.18017333650084, 34.27667023075], [45.17827902638362, 34.27753272858655]], "type": "LineString"}, "properties": {"azimuth_d": 0.77, "length": 198, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[45.17777711802159, 34.27538595554574], [45.17475275971853, 34.27679378000278]], "type": "LineString"}, "properties": {"azimuth_d": 1.31, "length": 319, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[45.17798121736387, 34.27803103273021], [45.176614045137256, 34.2786226274562]], "type": "LineString"}, "properties": {"azimuth_d": 0.43, "length": 141, "name": null}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [], "type": "FeatureCollection"};
+
+var city = {"bottom": "34.245", "geonameid": "1", "group": "Middle, East", "left": "45.145", "name": "Jalawla, Iraq", "right": "45.186", "slug": "jalawla_iraq", "top": "34.295"};
+var streetIndex = [null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Jalawla, Iraq</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [242, 206, 913, 675, 733, 968, 482, 436, 1494, 981, 857, 956, 479, 301, 835, 742, 973, 1542, 1630, 510, 129, 622, 355, 516, 1095, 1095, 1077, 1894, 2088, 1325, 1234, 1035, 1041, 726, 1285, 1346, 369, 1033, 874, 1561, 1133, 1323, 661, 688, 207, 212, 363, 168, 589, 357, 764, 100, 98, 347, 280, 127, 451, 0, 214, 230, 163, 347, 72, 322, 136, 625, 489, 195, 252, 316, 49, 282, 580, 458, 528, 587, 489, 830, 1400, 601, 262, 361, 72, 395, 432, 434, 690, 275, 600, 340, 357, 1027, 615, 550, 708, 372, 727, 539, 577, 832, 397, 550, 328, 853, 1133, 363, 1004, 994, 653, 427, 511, 1237, 928, 967, 542, 814, 876, 1006, 1382, 1751, 1262, 1229, 1125, 740, 897, 756, 608, 554, 427, 828, 915, 1114, 849, 407, 488, 844, 364, 1135, 530, 269, 90, 203, 327, 428, 340, 453, 84, 124, 321, 188, 208, 388, 933, 300, 529, 393, 202, 356, 207, 153, 473, 141, 376, 198, 387, 471, 779, 353, 780, 649, 261, 240, 391, 627, 641, 1451, 538, 813, 797, 308, 476], "ratio": 318, "solsticeLength": 3613.0043778916934, "summer_sun_azimuth": 60.55123208661799, "sun_azimuth": 118.07031097423554, "totalLength": 113371.35006881804}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>

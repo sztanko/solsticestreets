@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Streets aligned the solstices in Lincoln, Nebraska</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+<link rel="stylesheet" href="../static/styles/main.css">
+<!--  <link rel="stylesheet" href="styles/bootstrap.css"> -->
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+<!--  <script src="scripts/vendor/modernizr.min.js"></script> -->
+<script>
+var stats = {"hist": [840278, 60880, 16313, 12146, 9236, 9209, 8030, 8508, 7632, 8750, 7809, 6402, 6815, 6849, 5300, 5512, 4922, 5080, 4603, 4714, 5264, 4462, 5071, 5035, 5354, 7360, 6176, 6815, 5414, 5312, 5988, 5362, 5162, 4300, 4789, 7337, 5452, 5159, 4508, 5992, 5760, 4966, 4696, 3987, 7221, 6067, 6451, 6696, 6063, 8251, 6387, 4619, 5564, 6798, 14371, 29389, 7349, 5532, 4937, 7532, 7442, 7279, 8079, 6017, 5312, 5988, 6237, 6922, 4634, 5006, 5060, 4499, 5314, 6005, 5664, 6444, 6120, 7963, 6427, 8991, 7536, 8745, 7416, 9408, 7991, 9016, 11929, 11984, 35768, 390613, 910791, 103638, 19663, 13690, 12113, 7804, 7871, 9139, 8276, 8916, 7724, 6652, 7151, 6668, 5532, 6241, 5552, 5907, 5513, 5134, 5083, 7206, 12079, 5447, 5198, 5266, 5738, 5666, 4807, 5149, 5220, 4752, 6898, 6012, 6625, 23578, 7382, 6016, 5799, 6560, 5582, 5589, 4014, 6024, 6701, 8459, 7098, 5715, 7138, 7776, 6716, 5058, 5627, 5602, 6024, 8931, 5733, 5151, 5914, 5587, 7942, 7558, 6723, 6298, 6210, 6774, 5913, 5811, 4910, 5797, 5706, 7325, 7844, 6518, 6118, 8445, 5657, 6982, 6056, 11762, 9369, 8120, 9994, 9380, 10024, 11359, 12763, 18256, 27886, 411377, 50035], "ratio": 38, "solsticeLength": 15674.52466196875, "summer_sun_azimuth": 57.4334488059931, "sun_azimuth": 120.7819643766223, "totalLength": 4071640.7446371675};
+var winter = {"features": [{"geometry": {"coordinates": [[-96.45545807561206, 40.80034092614659], [-96.45742505682979, 40.801214991009516]], "type": "LineString"}, "properties": {"azimuth_d": 0.38, "length": 192, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.80637307367475, 40.74978095092783], [-96.80460105552484, 40.74897192963351]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 174, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.77927505126704, 40.6807669585871], [-96.77801307192522, 40.68019095420101]], "type": "LineString"}, "properties": {"azimuth_d": 0.3, "length": 124, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.59882005201607, 40.77963494309898], [-96.60031705992284, 40.780302980781926]], "type": "LineString"}, "properties": {"azimuth_d": 0.27, "length": 146, "name": "Montello Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.66137000444841, 40.7642369678741], [-96.65885107490669, 40.763148996842176]], "type": "LineString"}, "properties": {"azimuth_d": 1.08, "length": 244, "name": "Gertie Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.69651046295111, 40.72974862143829], [-96.69511713918658, 40.72908795983014]], "type": "LineString"}, "properties": {"azimuth_d": 1.27, "length": 138, "name": "South 17th Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.60839805277243, 40.81036291631406], [-96.60712266238554, 40.80978096077672]], "type": "LineString"}, "properties": {"azimuth_d": 0.28, "length": 125, "name": "South Cherrywood Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.63153872723484, 40.809089286126834], [-96.63022000240855, 40.80852199892007]], "type": "LineString"}, "properties": {"azimuth_d": 1.19, "length": 127, "name": "Rockhurst Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.69297556292575, 40.85219674359598], [-96.69464523803792, 40.85293166886623]], "type": "LineString"}, "properties": {"azimuth_d": 0.62, "length": 162, "name": "Bellville Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.63005202906896, 40.81079592543202], [-96.62878200310011, 40.81024498293641]], "type": "LineString"}, "properties": {"azimuth_d": 0.98, "length": 123, "name": "L Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.63062702762666, 40.80965498077202], [-96.62911903942671, 40.80898694308911]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 147, "name": "Danville Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.78492705239596, 40.82993893499483], [-96.78632104671274, 40.83054595242265]], "type": "LineString"}, "properties": {"azimuth_d": 0.89, "length": 135, "name": "West Whisperwood Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.54006634735002, 40.70781745560381], [-96.53680503264425, 40.70639496281623]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 317, "name": "Railroad Circle"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.60471755908895, 40.807898133866864], [-96.60256910966751, 40.806872943289704]], "type": "LineString"}, "properties": {"azimuth_d": 1.42, "length": 213, "name": "Mopac East Trail"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.78477927944301, 40.88228056755216], [-96.78342166258601, 40.88166215073602]], "type": "LineString"}, "properties": {"azimuth_d": 0.22, "length": 133, "name": "Purple Heart Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.73207261500248, 40.870633829273544], [-96.73376592708159, 40.87144016835881]], "type": "LineString"}, "properties": {"azimuth_d": 1.36, "length": 168, "name": "West Fletcher Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.73380507056942, 40.87132298935245], [-96.73215475765359, 40.87053525809222]], "type": "LineString"}, "properties": {"azimuth_d": 1.42, "length": 164, "name": "West Fletcher Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.80282224803334, 40.81049618857452], [-96.80148198171591, 40.80988422582382]], "type": "LineString"}, "properties": {"azimuth_d": 0.29, "length": 131, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.79972194968754, 40.83978054660602], [-96.79832502170464, 40.83918643730908]], "type": "LineString"}, "properties": {"azimuth_d": 1.47, "length": 134, "name": "NW Chambers Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.6967790191288, 40.84879796567816], [-96.69494807619958, 40.84800394799052]], "type": "LineString"}, "properties": {"azimuth_d": 0.99, "length": 177, "name": "Fairfield Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.77297504520374, 40.74333199844514], [-96.77450407198067, 40.74401495591573]], "type": "LineString"}, "properties": {"azimuth_d": 0.24, "length": 149, "name": "West Bucks Drive"}, "type": "Feature"}], "type": "FeatureCollection"};
+var summer = {"features": [{"geometry": {"coordinates": [[-96.56871703350161, 40.85415567818666], [-96.56995294512453, 40.85354664910207]], "type": "LineString"}, "properties": {"azimuth_d": 0.46, "length": 124, "name": "David Murdock Trail"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.73001301375469, 40.86092599283699], [-96.73250604321557, 40.85971992078936]], "type": "LineString"}, "properties": {"azimuth_d": 0.02, "length": 248, "name": "West Cuming Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.51634002931287, 40.92259592925515], [-96.51860507100747, 40.92144593213976]], "type": "LineString"}, "properties": {"azimuth_d": 1.23, "length": 229, "name": "Cornhusker Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.73148202610487, 40.79160991670591], [-96.73331104119637, 40.79069595398386]], "type": "LineString"}, "properties": {"azimuth_d": 0.83, "length": 184, "name": "Folsom Bypass"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.69681606714083, 40.75229191766152], [-96.69528402287877, 40.75303095006432]], "type": "LineString"}, "properties": {"azimuth_d": 0.07, "length": 153, "name": "Saybrook Lane"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.73273520444835, 40.8604759684556], [-96.73054300149234, 40.86156092200238]], "type": "LineString"}, "properties": {"azimuth_d": 0.57, "length": 220, "name": "West Chadderton Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.6533758481157, 40.84628423291642], [-96.64894877831655, 40.848381217452356]], "type": "LineString"}, "properties": {"azimuth_d": 0.56, "length": 439, "name": "Sherwood Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.61718203584117, 40.81858095328053], [-96.61575602265427, 40.819279920186176]], "type": "LineString"}, "properties": {"azimuth_d": 0.32, "length": 143, "name": "West Broadview Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.52128451399494, 40.920047746871376], [-96.52407107770497, 40.9186489748698]], "type": "LineString"}, "properties": {"azimuth_d": 0.93, "length": 281, "name": "Highway 6"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.60902803661496, 40.874057920538945], [-96.61055102842158, 40.87329692754983]], "type": "LineString"}, "properties": {"azimuth_d": 0.82, "length": 153, "name": "Cornhusker Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.60461773062215, 40.87623897556372], [-96.6029431101871, 40.87709434878257]], "type": "LineString"}, "properties": {"azimuth_d": 1.4, "length": 169, "name": "Cornhusker Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.57002880134826, 40.89432586532669], [-96.56879775122917, 40.89493816335351]], "type": "LineString"}, "properties": {"azimuth_d": 0.69, "length": 123, "name": "Cornhusker Highway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.70157765869564, 40.82545428152088], [-96.70022272404763, 40.82611494312903]], "type": "LineString"}, "properties": {"azimuth_d": 0.18, "length": 135, "name": "Salt Creek Roadway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.69195841897563, 40.83153308915942], [-96.69330891121496, 40.83084946113658]], "type": "LineString"}, "properties": {"azimuth_d": 1.17, "length": 136, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.52398507937842, 40.91859499541334], [-96.52092803165297, 40.92007498805671]], "type": "LineString"}, "properties": {"azimuth_d": 0.01, "length": 305, "name": "Highway 6"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.56090283663004, 40.797415474300976], [-96.5592564632087, 40.798257687931844]], "type": "LineString"}, "properties": {"azimuth_d": 1.45, "length": 167, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.61450703526238, 40.78776195259701], [-96.61579307066629, 40.78712199428969]], "type": "LineString"}, "properties": {"azimuth_d": 0.72, "length": 129, "name": "Myrtle Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.6676690046833, 40.84687566000434], [-96.6659141694349, 40.84776573430233]], "type": "LineString"}, "properties": {"azimuth_d": 1.22, "length": 177, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.66772013429267, 40.845394661532595], [-96.66549163769592, 40.84652043494785]], "type": "LineString"}, "properties": {"azimuth_d": 1.11, "length": 225, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.66769716787796, 40.846158336730745], [-96.6655410071056, 40.847160644712226]], "type": "LineString"}, "properties": {"azimuth_d": 1.04, "length": 212, "name": null}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.7032721442412, 40.82460988859518], [-96.70157765869564, 40.82545428152088]], "type": "LineString"}, "properties": {"azimuth_d": 0.75, "length": 170, "name": "Salt Creek Roadway"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.64920702475332, 40.848391359555194], [-96.6536542111201, 40.84628733422059]], "type": "LineString"}, "properties": {"azimuth_d": 0.59, "length": 441, "name": "Sherwood Drive"}, "type": "Feature"}, {"geometry": {"coordinates": [[-96.67317750762992, 40.86073144886436], [-96.67139274898717, 40.861602160966015]], "type": "LineString"}, "properties": {"azimuth_d": 0.19, "length": 178, "name": "North 32nd Street"}, "type": "Feature"}], "type": "FeatureCollection"};
+
+var city = {"bottom": "40.660", "geonameid": "1", "group": "North, America", "left": "-96.867", "name": "Lincoln, Nebraska", "right": "-96.455", "slug": "lincoln_nebraska", "top": "40.948"};
+var streetIndex = ["North 32nd Street", "NW Chambers Drive", "South Cherrywood Drive", "Montello Road", "Folsom Bypass", "Saybrook Lane", "West Broadview Drive", "L Street", "West Whisperwood Street", "Purple Heart Highway", "Bellville Drive", "Fairfield Street", "Rockhurst Drive", "Salt Creek Roadway", "Danville Drive", "Cornhusker Highway", "David Murdock Trail", "Sherwood Drive", "Mopac East Trail", "West Cuming Street", "Gertie Avenue", "West Bucks Drive", "South 17th Street", "Railroad Circle", "Myrtle Street", "West Chadderton Drive", "West Fletcher Avenue", "Highway 6", null];
+</script>
+
+
+</head>
+<body>
+				<div id="map"></div>
+				
+		<div id="legendContent" class="legend">
+<div class="description">
+    <h1>Lincoln, Nebraska</h1>
+<div class="graph">
+	<svg width="400" height="400">
+				<g transform="translate(200,200)">
+				<path id='ticks'></path>
+				<circle id='innerCircle' r="190" class="circles"></circle>
+				<circle id='outerCircle' r="199" class="circles"></circle>
+				
+				<path id="pie"></path>
+				<path id="summerSun"></path>
+				<path id="winterSun"></path>
+				
+				
+				<g>
+				</svg>
+</div>				
+
+<a href='..'> &lt;&lt; back to main page and other cities</a>
+</div>
+			</div>
+<div id="legendColours" class="legend">
+<h2>Roads aligned along</h2>
+<span class="block" style="background-color:orange">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunrise / Winter solstice sunset<br>
+<span class="block" style="background-color:red">&nbsp;&nbsp;&nbsp;</span> Summer solstice sunset / Winter solstice sunrise<br>
+
+</div>
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="/static/scripts/vendor/jquery.min.js"><\/script>')
+	</script>
+
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                      ga('create', 'UA-52112966-1', 'sztanko.github.io');
+                        ga('send', 'pageview');
+
+                    </script>
+
+
+	<!-- build:js scripts/plugins.js -->
+	<script src="../static/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js?2"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script>
+            var stats = {"hist": [840278, 60880, 16313, 12146, 9236, 9209, 8030, 8508, 7632, 8750, 7809, 6402, 6815, 6849, 5300, 5512, 4922, 5080, 4603, 4714, 5264, 4462, 5071, 5035, 5354, 7360, 6176, 6815, 5414, 5312, 5988, 5362, 5162, 4300, 4789, 7337, 5452, 5159, 4508, 5992, 5760, 4966, 4696, 3987, 7221, 6067, 6451, 6696, 6063, 8251, 6387, 4619, 5564, 6798, 14371, 29389, 7349, 5532, 4937, 7532, 7442, 7279, 8079, 6017, 5312, 5988, 6237, 6922, 4634, 5006, 5060, 4499, 5314, 6005, 5664, 6444, 6120, 7963, 6427, 8991, 7536, 8745, 7416, 9408, 7991, 9016, 11929, 11984, 35768, 390613, 910791, 103638, 19663, 13690, 12113, 7804, 7871, 9139, 8276, 8916, 7724, 6652, 7151, 6668, 5532, 6241, 5552, 5907, 5513, 5134, 5083, 7206, 12079, 5447, 5198, 5266, 5738, 5666, 4807, 5149, 5220, 4752, 6898, 6012, 6625, 23578, 7382, 6016, 5799, 6560, 5582, 5589, 4014, 6024, 6701, 8459, 7098, 5715, 7138, 7776, 6716, 5058, 5627, 5602, 6024, 8931, 5733, 5151, 5914, 5587, 7942, 7558, 6723, 6298, 6210, 6774, 5913, 5811, 4910, 5797, 5706, 7325, 7844, 6518, 6118, 8445, 5657, 6982, 6056, 11762, 9369, 8120, 9994, 9380, 10024, 11359, 12763, 18256, 27886, 411377, 50035], "ratio": 38, "solsticeLength": 15674.52466196875, "summer_sun_azimuth": 57.4334488059931, "sun_azimuth": 120.7819643766223, "totalLength": 4071640.7446371675}
+	</script>
+
+	<script src="../static/city.js"></script>
+
+</body>
+</html>
