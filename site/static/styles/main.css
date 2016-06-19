@@ -1,0 +1,116 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#head{
+padding: none;
+text-align: center;
+background-image: url('https://sztanko.github.io/solsticestreets/static/stone.jpg');
+height: 460px;
+color: white;
+}
+
+.intro article{
+column-width: 500px;
+column-gap: 100px;
+-moz-column-width: 500px;
+-moz-column-gap: 100px;
+-webkit-column-width: 500px;
+-webkit-column-gap: 100px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.intro img{
+margin-left: auto;
+margint-right: auto;
+
+/*float: right; */
+}
+.citylist ul{
+column-width: 150px;
+  column-gap: 20px;
+  -moz-column-width: 150px;
+  -moz-column-gap: 20px;
+   -webkit-column-width: 150px;
+   -webkit-column-gap: 20px;
+}
+
+#map{
+	width: 100%;
+}
+
+html, body, #map {
+    height: 100%;
+}
+
+@media  (max-width: 800px){
+#legendContent{
+display:none !important;	
+}
+}
+
+.colours {
+	display: inline-block;
+	width: 100px;
+}
+
+
+#pie{
+	fill: #CCCCCC;
+}
+.graph{
+		/*display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+	*/
+}
+.graph svg{
+	/*width: 200px;
+
+border: 2px solid red;
+*/
+}
+
+svg:hover #pie{
+	fill: #999999;
+}
+
+svg .circles, #ticks{
+	fill: none;
+	stroke: #EEEEEE;
+
+}
+
+.legend{
+	background-color: rgba(255,255,255,0.9);
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	border-radius:10px;
+	color: #777777;
+}
+
+.legend .block{
+	width: 20px;
+	height: 3px;
+}
+
+#winterSun, #summerSun{
+	stroke: orange;
+	stroke-dasharray: 2,4;
+	stroke-width: 2;
+	opacity:0.8;
+}
+#winterSun{
+	stroke: red;
+}
+
+.legend h1{
+	text-align: center;
+	font-size: 25px !important;
+	color: orange !important; 
+}

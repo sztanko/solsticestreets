@@ -1,0 +1,15 @@
+export SHAPE_ENCODING="UTF-8"
+SHAPE_ENCODING="UTF-8"
+f=`basename $1` 
+tmp_dir="/tmp/osm/$f"
+rm -rf $tmp_dir
+
+mkdir -p $tmp_dir
+
+outName=`echo $f | awk -F'.' '{print $1".wintersolstice.shp"}'` 
+unzip $1 *-roads.* -d $tmp_dir
+ogr2ogr -t_srs EPSG:4326 -s_srs EPSG:900913 $tmp_dir/roads.shp `ls $tmp_dir/*-roads.shp` -lco ENCODING=UTF-8
+python  load.py $tmp_dir/roads.shp $tmp_dir/$outName ../stats/$outName.json
+rm -rf ../json/$outName.geojson
+ogr2ogr -f "GeoJSON" ../json/$outName.geojson $tmp_dir/$outName -lco ENCODING=UTF-8
+rm -rf $tmp_dir
