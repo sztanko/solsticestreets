@@ -22,7 +22,9 @@
 
   map = L.map('map').setView(center, 12);
 
-  L.tileLayer('https://a.tiles.mapbox.com/v3/sztanko.gjp73mna/{z}/{x}/{y}.png', {
+//  layer = 'https://a.tiles.mapbox.com/v3/sztanko.gjp73mna/{z}/{x}/{y}.png';
+  layer = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+  L.tileLayer(layer, {
     attribution: attr,
     maxZoom: 18
   }).addTo(map);

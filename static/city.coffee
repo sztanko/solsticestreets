@@ -10,8 +10,10 @@ console.log center
 console.log stats
 map = L.map('map').setView(center, 12);
 #http://{s}.tile.cloudmade.com/fe623ce312234f8f9333bbee72d4a176/64657/256/{z}/{x}/{y}.png',
+//layer = 'https://a.tiles.mapbox.com/v3/sztanko.gjp73mna/{z}/{x}/{y}.png';
+layer = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 
-L.tileLayer('https://a.tiles.mapbox.com/v3/sztanko.gjp73mna/{z}/{x}/{y}.png', {
+L.tileLayer('layer', {
     attribution: attr,
     maxZoom: 18
 }).addTo(map);
