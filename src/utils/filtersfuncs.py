@@ -140,9 +140,9 @@ if __name__ == '__main__':
 #     segment = ((-0.1002803, 51.5490342), (-0.0999796, 51.5490038)) # near Highbury & islington, 8
 #     segment = ((-0.1247137, 51.5833561), (-0.1248252, 51.5822201)) # crouch end Topsfield road, 86
 #     segment = sortSegment(segment)
-    print segment
-    print "%f, %f" % (segment[0][1], segment[0][0])
-    print "%f, %f" % (segment[1][1], segment[1][0])
-    print getLength(segment)
-    print getSegmentAzimuth(segment)
+    print(segment)
+    print("%f, %f" % (segment[0][1], segment[0][0]))
+    print("%f, %f" % (segment[1][1], segment[1][0]))
+    print(getLength(segment))
+    print(getSegmentAzimuth(segment))
 #     print getSunAzimuth(segment[0])

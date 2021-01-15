@@ -1,0 +1,3 @@
+#!/bin/bash
+git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
+cat /.devcontainer/git_prompt.sh >> ~/.bashrc
