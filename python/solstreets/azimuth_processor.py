@@ -6,43 +6,11 @@ from collections import Counter
 from datetime import datetime
 import ephem
 from .entities import Street, StreetSegment, from_street
+from .geo_utils import get_segment_details
 
 
 logging.basicConfig(level="DEBUG")
 log = logging.getLogger(__file__)
-
-EATH_RADIUS = 6373000.0
-
-
-def get_segment_length(segment: Tuple[Tuple[float, float], Tuple[float, float]]):
-
-    lat1 = math.radians(segment[0][1])
-    lon1 = math.radians(segment[0][0])
-    lat2 = math.radians(segment[1][1])
-    lon2 = math.radians(segment[1][0])
-
-    dlon = lon2 - lon1
-    dlat = lat2 - lat1
-    a = (math.sin(dlat / 2)) ** 2 + math.cos(lat1) * math.cos(lat2) * (math.sin(dlon / 2)) ** 2
-    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
-    return EATH_RADIUS * c
-
-
-def get_segment_details(s: Tuple[Tuple[float, float], Tuple[float, float]]) -> Tuple[float, float]:
-    p = (s[0][0], s[1][1])
-    dy = get_segment_length((s[0], p))
-    dx = get_segment_length((p, s[1]))
-    if s[0][0] > s[1][0]:
-        dx = -dx
-    if s[0][1] > s[1][1]:
-        dy = -dy
-    az = math.degrees(math.atan2(dy, dx))
-    if az < 0:
-        az = az + 180
-    az = (-az + 270) % 360
-    if az > 180:
-        az = az - 180
-    return az, get_segment_length(s)
 
 
 def combine_segments(street_segments: Iterable[StreetSegment]) -> Generator[StreetSegment, None, None]:
@@ -85,11 +53,12 @@ class AzimuthProcessor:
             az = math.degrees(s.az)
             if az > 180:
                 az = az - 180
+            log.info(f"Sunrise is on {d}, azimuth is {az}")
             out.append(az)
         return tuple(out)
 
     def get_sun_azimuth(self, lng: float, lat: float) -> Tuple[float, float]:
-        return self.get_sun_azimuth_cached(round(lng, 1), round(lat, 1))
+        return self.get_sun_azimuth_cached(round(lng, 0), round(lat, 0))
 
     def is_aligned_towards_sun(self, p1: Tuple[float, float], p2: Tuple[float, float]) -> bool:
         seg_az = get_segment_details([p1, p2])[0]

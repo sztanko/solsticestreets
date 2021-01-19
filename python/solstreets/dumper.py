@@ -18,7 +18,6 @@ class StreetDumper:
                 "type": "Feature",
                 "properties": {
                     "name": segment.name,
-                    "id": segment.id,
                     "type": segment.type,
                     "slope": segment.slope,
                     "sun_diff": segment.sun_diff,

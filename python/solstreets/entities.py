@@ -10,7 +10,6 @@ class Street:
 
     name: str
     type: str
-    id: int
     points: List[Tuple[float, float]]
 
 
@@ -22,6 +21,4 @@ class StreetSegment(Street):
 
 
 def from_street(street: Street, p1: Tuple[float, float], p2: Tuple[float, float]) -> StreetSegment:
-    return StreetSegment(
-        id=street.id, name=street.name, type=street.type, points=[p1, p2], slope=0, sun_diff=0, length=0
-    )
+    return StreetSegment(name=street.name, type=street.type, points=[p1, p2], slope=0, sun_diff=0, length=0)

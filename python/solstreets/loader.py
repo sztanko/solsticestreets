@@ -7,7 +7,7 @@ import ujson as json
 logging.basicConfig(level="DEBUG")
 log = logging.getLogger(__file__)
 
-TYPE = "way"
+TYPE = "LineString"
 AVAILABLE_HIGHWAYS = set(
     [
         "bridleway",
@@ -45,11 +45,12 @@ class OSMLoader:
         )
 
     def convert(self, obj: dict) -> Street:
-        points = [(float(p["lon"]), float(p["lat"])) for p in obj.get("nodes", [])]
+        g = obj[GEOMETRY_COLUMN]
+        tags = obj.get("properties", {})
+        points = g.get("coordinates", [])
         return Street(
-            id=int(obj.get("id", 0)),
-            name=obj.get("tags", {}).get("name"),
-            type=obj.get("tags", {}).get(ROAD_TAG),
+            name=tags.get("name"),
+            type=tags.get(ROAD_TAG),
             points=points,
         )
 
@@ -58,8 +59,10 @@ class OSMLoader:
         c_filtered = 0
         for line in open(input_file, "r"):
             obj = json.loads(line)
+            g = obj[GEOMETRY_COLUMN]
+            tags = obj.get("properties", {})
             c += 1
-            if obj["type"] == TYPE and self.filter_tags(obj.get("tags", {})) and obj.get("nodes", []):
+            if g["type"] == TYPE and self.filter_tags(tags) and g.get("coordinates", []):
                 c_filtered += 1
                 yield self.convert(obj)
         log.info(f"Loaded {c} ways, filtered down to {c_filtered} streets")
