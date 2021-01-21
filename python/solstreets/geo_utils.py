@@ -18,6 +18,16 @@ def get_segment_length(segment: Tuple[Tuple[float, float], Tuple[float, float]])
     return EARTH_RADIUS * c
 
 
+def get_bb_area(bbox: Tuple[Tuple[float, float], Tuple[float, float]]) -> float:
+    origin = bbox[0]
+    x = (bbox[0][0], bbox[1][1])
+    y = (bbox[1][0], bbox[0][1])
+    x_length = get_segment_length((origin, x))
+    y_length = get_segment_length((origin, y))
+    area = x_length * y_length / (1000 * 1000)
+    return area
+
+
 def get_segment_details(s: Tuple[Tuple[float, float], Tuple[float, float]]) -> Tuple[float, float]:
     p = (s[0][0], s[1][1])
     dy = get_segment_length((s[0], p))
