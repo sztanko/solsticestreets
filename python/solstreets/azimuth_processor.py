@@ -39,7 +39,7 @@ class AzimuthProcessor:
         self.stats = Counter()
         self.threshold = threshold
 
-    @lru_cache
+    @lru_cache(maxsize=None)
     def get_sun_azimuth_cached(self, lng: float, lat: float) -> Tuple[float, float]:
         o = ephem.Observer()
         o.lat = str(lat)
@@ -53,7 +53,7 @@ class AzimuthProcessor:
             az = math.degrees(s.az)
             if az > 180:
                 az = az - 180
-            log.info(f"Sunrise is on {d}, azimuth is {az}")
+            # log.info(f"Sunrise is on {d}, azimuth is {az}")
             out.append(az)
         return tuple(out)
 

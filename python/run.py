@@ -15,7 +15,7 @@ DEFAULT_MAX_THRESHOLD = 1.0
 
 
 def main(
-    file_name: str = typer.Argument(..., help="Input pbf file to process"),
+    file_name: str = typer.Argument(..., help="Input geojson file to process"),
     output: str = typer.Argument(..., help="output file name, without extension"),
     rising_on_day: datetime = typer.Argument(..., help="specify the day of the sunrise", formats=["%Y-%m-%d"]),
     threshold: float = typer.Argument(

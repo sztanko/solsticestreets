@@ -1,8 +1,9 @@
 from typing import List, Generator
 from dataclasses import dataclass
 import logging
-from .entities import Street
 import ujson as json
+from .entities import Street
+
 
 logging.basicConfig(level="DEBUG")
 log = logging.getLogger(__file__)

@@ -12,7 +12,6 @@
 	"extensions": [
 		"eamodio.gitlens",
 		"ms-python.python",
-		"almenon.arepl",
 		"ms-azuretools.vscode-docker",
 		"ms-python.vscode-pylance"
 	],
@@ -23,11 +22,12 @@
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
 	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
 	"containerEnv": {
-		"PYTHONPATH": "/workspaces/solsticestreets/python",
-		"API_TOKEN": "da522750-fd9c-4989-b03d-3eded3b8184c"
-	}
+		"PYTHONPATH": "/workspaces/solsticestreets/python"
+	},
 	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
-	// "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
+	"mounts": [
+		"source=${localEnv:HOME}/.dev_ssh,target=/root/.ssh,type=bind,readonly"
+	],
 	// Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "vscode"
 }

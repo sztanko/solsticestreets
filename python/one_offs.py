@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+
 from typing import Tuple, Optional
 import logging
 import time
@@ -5,22 +7,28 @@ import typer
 import json
 import re
 from pathlib import Path
+from geopy.geocoders import Nominatim
 from collections import Counter
-from solstreets.geo_utils import get_bb_area, get_segment_details, get_segment_length
+from solstreets.geo_utils import get_bb_area
+from solstreets.constants import AGENT_NAME, JSON_INDENT, MAX_CITIES
+from solstreets.split_tree import SpaceSplitter
 
 logging.basicConfig(level="DEBUG")
 log = logging.getLogger(__file__)
 
-from geopy.geocoders import Nominatim
 
-AGENT_NAME = "Solstice streets/1.0"
 DELAY = 1
-JSON_INDENT = 2
 
 MAX_AREA_SQKM = 10000
 
+# Filter chinese cities:
+# cat config/cities.json | jq -r '.[] | select(.country | contains("China"))' > config/cities_china.json
+
+# generate initial cities.json from
 # time cat config/cities_small.json | jq  '[.[] |  {"name": .Name, "country": .Country}] | sort_by(.name)'
 
+# Filter initial osm to get only highways
+# osmium tags-filter -o pbf/planet/china-highways.osm.pbf pbf/planet/china-latest.osm.pbf w/highway
 
 app = typer.Typer()
 
@@ -110,7 +118,7 @@ def enrich(city_list: list, ignore_failed_cities: bool = False, lookup_large_are
                 d["area"] = int(area)
                 stats["total_area"] += area
                 if area > MAX_AREA_SQKM:
-                    log.warning(f"Area for {d['name']}, {d['country']} is {int(area)} sq km, that is too large")
+                    log.warning(f"Area for {d['name']}, {d['country']} is {int(area):,} sq km, that is too large")
                     stats["area_too_large"] += 1
         except Exception as e:
             log.error(f"Couldn't enrich {d}")
@@ -123,9 +131,10 @@ def enrich(city_list: list, ignore_failed_cities: bool = False, lookup_large_are
         if city_success:
             out.append(d)
     out.sort(key=lambda d: (d["name"], d["country"]))
-    log.warning(f"Failed enrichined these cities: {', '.join(list(failed_cities))}")
-    if ignore_failed_cities:
-        log.warning("Because you asked to remove failed cities, removing them from the list")
+    if failed_cities:
+        log.warning(f"Failed enrichined these cities: {', '.join(list(failed_cities))}")
+        if ignore_failed_cities:
+            log.warning("Because you asked to remove failed cities, removed them from the list")
     return out, dict(stats)
 
 
@@ -138,7 +147,7 @@ def enrich_cities(
         cities, stats = enrich(json.load(f), ignore_failed, lookup_large_areas)
     log.info("Stats:")
     for k, c in stats.items():
-        log.info(f"{k}:\t{c}")
+        log.info(f"{k}:\t{c:,}")
     with open(config_file, "w") as f:
         json.dump(cities, f, indent=JSON_INDENT)
         log.info(f"Wrote {len(cities)} back")
@@ -178,36 +187,27 @@ def geocode(city: str = typer.Argument("City to geocode"), country: str = typer.
         print(f"Area is {int(area):,} sq km")
         print(url)
     except:
-        print(f"Couldn't geocode {location}, sorry")
+        print(f"Couldn't geocode {city}, {country}, sorry")
 
 
-@app.command(help="Generate Osmium config file for extrction")
-def generate_osmium_config(
-    config_file: str = typer.Argument(..., help="Input config json file"),
-    extract_dir: str = typer.Argument(..., help="Destination directory of extracts"),
-    osmium_config_file: str = typer.Argument(..., help="Where to write the file"),
+@app.command(help="Generate configs to make sure no more then <max_splits> splits are in each")
+def generate_osmium_configs(
+    config_file: str = typer.Argument(..., help="Configuration file name"),
+    output_path: str = typer.Argument(..., help="Where to store subdivision files"),
+    input_osm_file: str = typer.Argument(..., help="Input osm file (typically the planet.osm.pbf"),
+    split_factor: int = typer.Option(2, help="By how much to subdivide each space"),
+    max_cities: int = typer.Option(
+        MAX_CITIES, help="If there are this many cities left in the square, don't subdivide further"
+    ),
 ):
-    out = {"directory": extract_dir}
-    enrich_cities(config_file)
+    origin_bb = ((-180, -90), (180, 90))
+    enrich_cities(config_file, ignore_failed=True, lookup_large_areas=False)
     with open(config_file, "r") as f:
         cities = json.load(f)
-        extracts = []
-        for city in cities[0:10]:
-            bb = city["bb"]
-            extract = {
-                "output": f"{city['key']}.osm.pbf",
-                "output_header": {"generator": AGENT_NAME},
-                "bbox": [bb[0][0], bb[0][1], bb[1][0], bb[1][1]],
-            }
-            extracts.append(extract)
-    out["extracts"] = extracts
-    with open(osmium_config_file, "w") as f:
-        json.dump(out, f, indent=JSON_INDENT)
-        Path(extract_dir).mkdir(parents=True, exist_ok=True)
-        log.info(f"Wrote osmium config to {osmium_config_file}. Also created {extract_dir}, if didn't exist")
-        log.info(
-            f"Run the command with:\nosmium extract -O -c {osmium_config_file} --strategy=simple  planet-latest.osm.pbf"
-        )
+        log.info("Loaded %d cities", len(cities))
+        splitter = SpaceSplitter(cities, input_osm_file, output_path, split_factor, max_cities)
+        splitter.subdivide(origin_bb, cities, 0, 0)
+        splitter.generate_artifacts()
 
 
 if __name__ == "__main__":
