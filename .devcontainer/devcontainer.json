@@ -18,16 +18,17 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
-	"postCreateCommand": "pip install -r requirements.txt",
+	"postCreateCommand": "pip install -r requirements.txt && gh ",
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
 	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
 	"containerEnv": {
-		"PYTHONPATH": "/workspaces/solsticestreets/python"
+		"PYTHONPATH": "/workspaces/solsticestreets/python",
+		"GIT_TOKEN": "${localEnv:GIT_TOKEN}"
 	},
 	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
-	"mounts": [
-		"source=${localEnv:HOME}/.dev_ssh,target=/root/.ssh,type=bind,readonly"
-	],
+	// "mounts": [
+	//	"source=${localEnv:HOME}/.dev_ssh,target=/root/.ssh,type=bind,readonly"
+	//],
 	// Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "vscode"
 }
