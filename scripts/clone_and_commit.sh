@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+set -x
 
 source=`realpath $1`
 destination=`realpath $2`

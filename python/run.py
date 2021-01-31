@@ -2,6 +2,7 @@ from solstreets.azimuth_processor import AzimuthProcessor
 from typing import Optional
 import logging
 import typer
+import time
 from datetime import datetime
 from solstreets.loader import OSMLoader
 from solstreets.dumper import StreetDumper
@@ -23,6 +24,7 @@ def main(
     ),
     min_length: float = typer.Argument(DEFAULT_MIN_LENGTH, help="Minimum length of a segment to be considered"),
 ):
+    t0 = time.time()
     loader = OSMLoader()
     processor = AzimuthProcessor(rising_on_day, threshold)
     street_segments = (
@@ -31,6 +33,8 @@ def main(
     dumper = StreetDumper()
     dumper.dump((ss for ss in street_segments if ss.length > min_length), output + ".geojson")
     dumper.dump_stats(processor.get_stats(), output + ".stats.json")
+    t1 = time.time()
+    log.info(f"Processed {output} in {t1-t0:,.3} seconds")
 
 
 if __name__ == "__main__":
