@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: "sztanko/solsticestreets_prod:latest, sztanko/solsticestreets_prod:${{env.GITHUB_SHA}}"
+          tags: "sztanko/solsticestreets_prod:latest, sztanko/solsticestreets_prod:{{github.sha}}"
           file: Dockerfile.prod
       -
         name: Image digest
