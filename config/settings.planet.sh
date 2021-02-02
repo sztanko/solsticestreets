@@ -1,5 +1,4 @@
 name="planet"
-osm_url=""
-data_dir="/workspace/solsticestreets/data"
+osm_url="https://planet.openstreetmap.org/pbf/planet-latest.osm.pbf"
 cities_file="config/cities.json"
 

@@ -4,7 +4,8 @@ set -x
 
 source $1
 
-data_dir="$base_data_dir/$name"
+data_dir="${data_dir:-/data}/$name"
+repo_dir="${repo_dir:-/tmp/repo}"
 source_file="$data_dir/source/input.osm.pbf"
 source_file_highways="$data_dir/source/input-highways.osm.pbf"
 geojson_destination="$data_dir/cities/"
@@ -42,6 +43,6 @@ ls $data_dir/pbf/*.osm.pbf | parallel get_streets
     #key="${filename%%.*}"
     #osmium export $f -f geojsonseq -O -r -o /dev/stdout | grep LineString | python python/run.py /dev/stdin $geojson_destination/$key 2020-12-21
 #done
-scripts/clone_and_commit.sh $geojson_destination /tmp/repo
+scripts/clone_and_commit.sh $geojson_destination $repo_dir
 echo "All done, cleaning up"
 rm -rf $data_dir

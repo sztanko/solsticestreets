@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+
 from solstreets.azimuth_processor import AzimuthProcessor
 from typing import Optional
 import logging

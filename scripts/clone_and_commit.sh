@@ -21,16 +21,15 @@ git_email="sztanko@gmail.com"
 
 echo "Going to clone a repo in $parent_destination, as $destination, then copy all json data from $source, then commit it to $repo, branch $COMMIT_BRANCH"
 
-
-
-git config --global user.email "$git_name"
-git config --global user.name "$git_email"
+git config --global user.email "$git_email"
+git config --global user.name "$git_name"
 rm -rf $destination
 mkdir -p $parent_destination
 echo "Authenticating with git"
 echo $GIT_TOKEN | gh auth login --with-token
 gh repo clone $repo $destination
 cd $destination
+git remote set-url origin https://$project_host:$GIT_TOKEN@github.com/$project_host/$project.git
 mkdir -p $file_location
 rm -f $file_location/*.*json
 git checkout -b $COMMIT_BRANCH

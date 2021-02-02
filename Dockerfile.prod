@@ -1,0 +1,19 @@
+# FROM interline/planetutils:release-v0.4.11
+FROM sztanko/solsticestreets_base:1.0
+
+RUN mkdir /solsticestreets
+WORKDIR /solsticestreets
+COPY python python
+COPY config config
+COPY scripts scripts
+COPY run.sh run.sh
+COPY requirements.txt .
+
+RUN pip install -r /solsticestreets/requirements.txt
+ENV PYTHONPATH /solsticestreets/python
+ENV PATH "/solsticestreets/python:${PATH}"
+
+RUN python python/one_offs.py --install-completion bash
+RUN python python/run.py --install-completion bash
+
+CMD bash -c './run.sh config/settings.planet.sh'
