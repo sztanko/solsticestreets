@@ -10,6 +10,7 @@ on:
         - Dockerfile.prod
         - requirements.txt
         - run.sh
+        - .github/workflows/build_docker.yaml
 env:
   tag: ${{ github.sha }}
 
