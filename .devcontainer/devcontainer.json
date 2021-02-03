@@ -23,7 +23,10 @@
 	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
 	"containerEnv": {
 		"PYTHONPATH": "/workspaces/solsticestreets/python",
-		"GIT_TOKEN": "${localEnv:GIT_TOKEN}"
+		"GIT_TOKEN": "${localEnv:GIT_TOKEN}",
+		"AWS_ACCESS_KEY_ID": "${localEnv:AWS_ACCESS_KEY_ID}",
+		"AWS_SECRET_ACCESS_KEY": "${localEnv:AWS_SECRET_ACCESS_KEY}",
+		"AWS_DEFAULT_REGION": "${localEnv:AWS_DEFAULT_REGION}"
 	},
 	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
 	// "mounts": [

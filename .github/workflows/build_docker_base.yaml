@@ -5,7 +5,7 @@ on:
     branches: master
     paths:
       - Dockerfile.base
-      - .github/workflows/**
+      - .github/workflows/build_docker_base.yaml
 
 env:
   tag: ${{ github.sha }}
