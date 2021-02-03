@@ -5,6 +5,7 @@ on:
     branches: master
     paths:
       - Dockerfile.base
+      - .github/workflows/**
 
 env:
   tag: ${{ github.sha }}
@@ -31,7 +32,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: "sztanko/solsticestreets_base:latest, sztanko/solsticestreets_prod:${{ env.tag }}"
+          tags: "sztanko/solsticestreets_base:latest, sztanko/solsticestreets_base:${{ env.tag }}"
           file: Dockerfile.base
       -
         name: Image digest

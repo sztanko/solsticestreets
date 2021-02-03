@@ -3,7 +3,13 @@ name: ci
 on:
   push:
     branches: master
-
+  paths:
+      - python/**
+      - scripts/**
+      - config/**
+      - Dockerfile.prod
+      - requirements.txt
+      - run.sh
 env:
   tag: ${{ github.sha }}
 
