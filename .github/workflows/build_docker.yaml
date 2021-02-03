@@ -4,6 +4,9 @@ on:
   push:
     branches: master
 
+env:
+  tag: ${{ github.sha }}
+
 jobs:
   main:
     runs-on: ubuntu-latest
@@ -26,7 +29,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: "sztanko/solsticestreets_prod:latest, sztanko/solsticestreets_prod:${{ env.GITHUB_SHA }}"
+          tags: "sztanko/solsticestreets_prod:latest, sztanko/solsticestreets_prod:${{ env.tag }}"
           file: Dockerfile.prod
       -
         name: Image digest
