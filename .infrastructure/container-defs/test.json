@@ -1,0 +1,17 @@
+[
+    {
+        "name": "solsticestreets-prod",
+        "image": "ubuntu",
+        "essential": true,
+        "command": [
+            "touch",
+            "/data/date.txt"
+        ],
+        "mountPoints": [
+            {
+                "containerPath": "/data",
+                "sourceVolume": "data"
+            }
+        ]
+    }
+]

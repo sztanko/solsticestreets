@@ -13,12 +13,13 @@
 		"eamodio.gitlens",
 		"ms-python.python",
 		"ms-azuretools.vscode-docker",
-		"ms-python.vscode-pylance"
+		"ms-python.vscode-pylance",
+		"hashicorp.terraform"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
-	"postCreateCommand": "pip install -r requirements.txt && gh ",
+	"postCreateCommand": "pip install -r requirements.txt",
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
 	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
 	"containerEnv": {
