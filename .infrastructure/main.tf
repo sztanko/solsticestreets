@@ -30,7 +30,7 @@ resource "aws_route_table" "eu-west-2a-public" {
   }
 
   tags = {
-    Name        = "ss-2a-route"
+    Name        = "SolsticeStreets-vpc-public-subnet-2a-route"
     Environment = terraform.workspace
   }
 }
@@ -43,7 +43,7 @@ resource "aws_route_table" "eu-west-2b-public" {
   }
 
   tags = {
-    Name = "ss-vpc-public-subnet-2b-route"
+    Name = "SolsticeStreets-vpc-public-subnet-2b-route"
   }
 }
 
@@ -84,15 +84,6 @@ resource "aws_security_group" "allow_all_a" {
     protocol    = "tcp"
     cidr_blocks = [aws_vpc.solsticestreets-vpc.cidr_block]
   }
-  /*
-  ingress {
-    description = "Allow https (for secrets)"
-    from_port   = 443
-    to_port     = 443
-    protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"] // [aws_vpc.solsticestreets-vpc.cidr_block]
-  }
-*/
   egress {
     cidr_blocks = ["0.0.0.0/0"]
     from_port   = 0
@@ -184,8 +175,6 @@ resource "aws_ecs_task_definition" "solsticestreets-extractor" {
 }
 
 
-// DO NOT DELETE
-/*
 module "ecs-fargate-scheduled-task" {
   source  = "umotif-public/ecs-fargate-scheduled-task/aws"
   version = "~> 1.0.0"
@@ -200,11 +189,11 @@ module "ecs-fargate-scheduled-task" {
   // execution_role_arn = var.execution_role_arn
 
   event_target_task_definition_arn = aws_ecs_task_definition.solsticestreets-extractor.arn
-  event_rule_schedule_expression   = "rate(1 minute)"
+  event_rule_schedule_expression   = "rate(30 days)"
   event_target_subnets             = [aws_subnet.solsticestreets-subnet.id]
   event_target_security_groups     = [aws_security_group.allow_all_a.id]
   event_target_platform_version    = "1.4.0"
   event_target_assign_public_ip    = true
 }
- */
+
 
