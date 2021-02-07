@@ -3,8 +3,6 @@ provider "aws" {
 }
 
 
-
-
 resource "aws_vpc" "solsticestreets-vpc" {
   cidr_block           = "10.0.0.0/16"
   enable_dns_support   = true
@@ -50,8 +48,6 @@ resource "aws_route_table" "eu-west-2b-public" {
 }
 
 
-
-
 resource "aws_subnet" "solsticestreets-subnet" {
   vpc_id            = aws_vpc.solsticestreets-vpc.id
   availability_zone = "eu-west-2a"
@@ -74,11 +70,29 @@ resource "aws_security_group" "allow_all_a" {
 
 
   ingress {
-    protocol    = "-1"
-    from_port   = 0
-    to_port     = 0
+    description = "SSH access. For testing only"
+    protocol    = "tcp"
+    from_port   = 22
+    to_port     = 22
     cidr_blocks = ["0.0.0.0/0"] # [aws_vpc.solsticestreets-vpc.cidr_block]
   }
+
+  ingress {
+    description = "Allow access to ECS NFS"
+    from_port   = 2049
+    to_port     = 2049
+    protocol    = "tcp"
+    cidr_blocks = [aws_vpc.solsticestreets-vpc.cidr_block]
+  }
+  /*
+  ingress {
+    description = "Allow https (for secrets)"
+    from_port   = 443
+    to_port     = 443
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"] // [aws_vpc.solsticestreets-vpc.cidr_block]
+  }
+*/
   egress {
     cidr_blocks = ["0.0.0.0/0"]
     from_port   = 0
@@ -86,7 +100,6 @@ resource "aws_security_group" "allow_all_a" {
     to_port     = 0
   }
 }
-
 
 resource "aws_efs_file_system" "solsticestreets-scratch" {
   creation_token = "solsticestreets-scratch"
@@ -109,30 +122,89 @@ resource "aws_ecs_cluster" "solsticestreets-cluster" {
   capacity_providers = ["FARGATE"]
 }
 
+
+
+resource "aws_secretsmanager_secret" "git-token" {
+  name = "git-token"
+}
+
+resource "aws_iam_role_policy" "git-token_policy_secretsmanager" {
+  name = "git-token-secretsmanager"
+  role = "ecsTaskExecutionRole"
+  // role = aws_iam_role.ecs_task_execution_role.id
+
+  policy = <<-EOF
+  {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Action": [
+          "secretsmanager:GetSecretValue"
+        ],
+        "Effect": "Allow",
+        "Resource": [
+          "${aws_secretsmanager_secret.git-token.arn}"
+        ]
+      }
+    ]
+  }
+  EOF
+}
+
+
+data "template_file" "solsticestreets-task-template" {
+  template = file("./container-defs/extractor.json.tpl")
+
+  vars = {
+    SECRET_ARN = aws_secretsmanager_secret.git-token.arn
+  }
+}
+
 resource "aws_ecs_task_definition" "solsticestreets-extractor" {
   family = "solsticestreets-extractor"
 
-  container_definitions = file("container-defs/test.json")
+  container_definitions = data.template_file.solsticestreets-task-template.rendered //file("container-defs/test.json")
   cpu                   = 4096
   memory                = 12288 // 12 GB
 
   requires_compatibilities = ["FARGATE"]
   network_mode             = "awsvpc"
 
-  // task_role_arn = "arn:aws:iam::332309941764:role/ecsTaskExecutionRole"
-
+  task_role_arn      = "arn:aws:iam::332309941764:role/ecsTaskExecutionRole"
+  execution_role_arn = "arn:aws:iam::332309941764:role/ecsTaskExecutionRole"
+  //execution_role_arn = "arn:aws:iam::332309941764:role/solsticestreets-ecs"
   volume {
     name = "data"
 
     efs_volume_configuration {
       file_system_id = aws_efs_file_system.solsticestreets-scratch.id
       root_directory = "/"
-      /*authorization_config {
-        access_point_id = aws_efs_access_point.test.id
-        iam             = "ENABLED"
-      }*/
     }
   }
-
-
 }
+
+
+// DO NOT DELETE
+/*
+module "ecs-fargate-scheduled-task" {
+  source  = "umotif-public/ecs-fargate-scheduled-task/aws"
+  version = "~> 1.0.0"
+
+  name_prefix = "solsticestreets-scheduled-task"
+
+  ecs_cluster_arn = aws_ecs_cluster.solsticestreets-cluster.arn
+
+  task_role_arn = "arn:aws:iam::332309941764:role/ecsTaskExecutionRole"
+  // execution_role_arn = "arn:aws:iam::332309941764:role/ecsEventsRole"
+
+  // execution_role_arn = var.execution_role_arn
+
+  event_target_task_definition_arn = aws_ecs_task_definition.solsticestreets-extractor.arn
+  event_rule_schedule_expression   = "rate(1 minute)"
+  event_target_subnets             = [aws_subnet.solsticestreets-subnet.id]
+  event_target_security_groups     = [aws_security_group.allow_all_a.id]
+  event_target_platform_version    = "1.4.0"
+  event_target_assign_public_ip    = true
+}
+ */
+

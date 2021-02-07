@@ -1,8 +1,13 @@
 [
     {
         "name": "solsticestreets-prod",
-        "image": "sztanko/solsticestreets-prod:latest",
+        "image": "sztanko/solsticestreets_prod",
         "essential": true,
+        "command": [
+            "/bin/bash",
+            "-c",
+            "./run.sh config/settings.planet.sh"
+        ],
         "mountPoints": [
             {
                 "containerPath": "/data",
@@ -12,7 +17,7 @@
         "secrets": [
             {
                 "name": "GIT_TOKEN",
-                "valueFrom": "arn:aws:secretsmanager:eu-west-2:332309941764:secret:git-token-aPwc1b/GIT_TOKEN"
+                "valueFrom": "${SECRET_ARN}:GIT_TOKEN::"
             }
         ]
     }
