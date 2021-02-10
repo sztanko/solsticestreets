@@ -22,7 +22,7 @@ DELAY = 1
 MAX_AREA_SQKM = 10000
 
 # Filter chinese cities:
-# cat config/cities.json | jq -r '.[] | select(.country | contains("China"))' > config/cities_china.json
+# cat config/cities.json | jq -r '[].[] | select(.country | contains("China"))]' > config/cities_china.json
 
 # generate initial cities.json from
 # time cat config/cities_small.json | jq  '[.[] |  {"name": .Name, "country": .Country}] | sort_by(.name)'
@@ -120,6 +120,7 @@ def enrich(city_list: list, ignore_failed_cities: bool = False, lookup_large_are
                 if area > MAX_AREA_SQKM:
                     log.warning(f"Area for {d['name']}, {d['country']} is {int(area):,} sq km, that is too large")
                     stats["area_too_large"] += 1
+                    city_success = False
         except Exception as e:
             log.error(f"Couldn't enrich {d}")
             stats["errors"] += 1

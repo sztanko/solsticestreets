@@ -3,7 +3,8 @@ set -e
 set -x
 
 source=`realpath $1`
-destination=`realpath $2`
+cities_file=`realpath $2`
+destination=`realpath $3`
 
 project="solsticestreets"
 project_host="sztanko"
@@ -11,6 +12,7 @@ project_main_branch="master"
 # repo="git@github.com:$project_host/$project.git"
 repo="https://$GIT_TOKEN@github.com/$project_host/$project.git"
 file_location="site/cities"
+config_location="config/"
 reviewer="sztanko"
 parent_destination="$(dirname "$destination")"
 COMMIT_BRANCH="auto_osm_`date +%Y_%m_%d__%H_%M_%S`"
@@ -33,7 +35,13 @@ git remote set-url origin https://$project_host:$GIT_TOKEN@github.com/$project_h
 mkdir -p $file_location
 rm -f $file_location/*.*json
 git checkout -b $COMMIT_BRANCH
+
+# adding geojson files
 cp -r $source/*json $file_location
+# adding config file, in case it was enriched
+cp $cities_file $config_location
+
+git add $config_location/*
 git add -u $file_location/
 git add $file_location/*
 git commit -m "$COMMIT_MESSAGE"

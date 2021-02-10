@@ -37,6 +37,7 @@ class AzimuthProcessor:
     def __init__(self, ts: datetime, threshold: float):
         self.ts = ts
         self.stats = Counter()
+        self.solstice_azimuths = []
         self.threshold = threshold
 
     @lru_cache(maxsize=None)
@@ -55,6 +56,7 @@ class AzimuthProcessor:
                 az = az - 180
             # log.info(f"Sunrise is on {d}, azimuth is {az}")
             out.append(az)
+        self.solstice_azimuths = out
         return tuple(out)
 
     def get_sun_azimuth(self, lng: float, lat: float) -> Tuple[float, float]:
@@ -87,5 +89,9 @@ class AzimuthProcessor:
                 yield segment
             previous_point = point
 
-    def get_stats(self) -> List[int]:
-        return [self.stats.get(i, 0) for i in range(0, 180)]
+    def get_stats(self) -> dict:
+        return {
+            "sun_azimuths": self.solstice_azimuths,
+            "last_update_ts": datetime.now().timestamp(),
+            "street_histogram": [self.stats.get(i, 0) for i in range(0, 180)],
+        }

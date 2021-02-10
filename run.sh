@@ -35,14 +35,8 @@ function get_streets(){
 }
 export -f get_streets
 ls $data_dir/pbf/*.osm.pbf | parallel get_streets
-#for f in $data_dir/pbf/*.osm.pbf
-#do
-#    get_streets $f
-    #echo $f
-    #filename=$(basename -- "$f")
-    #key="${filename%%.*}"
-    #osmium export $f -f geojsonseq -O -r -o /dev/stdout | grep LineString | python python/run.py /dev/stdin $geojson_destination/$key 2020-12-21
-#done
-scripts/clone_and_commit.sh $geojson_destination $repo_dir
+cp $data_dir/tree.geojson $geojson_destination # add subdivision plan
+
+scripts/clone_and_commit.sh $geojson_destination $cities_file $repo_dir 
 echo "All done, cleaning up"
 rm -rf $data_dir
