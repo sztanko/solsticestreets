@@ -17,10 +17,11 @@
 		"hashicorp.terraform",
 		"dbaeumer.vscode-eslint",
 		"esbenp.prettier-vscode",
-		"erd0s.terraform-autocomplete"
+		"erd0s.terraform-autocomplete",
+		"chenxsan.vscode-standardjs"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	 "forwardPorts": [3000, 8000],
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
 	"postCreateCommand": "pip install -r requirements.txt",
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
