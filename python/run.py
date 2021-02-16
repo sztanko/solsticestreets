@@ -14,7 +14,7 @@ logging.basicConfig(level="DEBUG")
 log = logging.getLogger(__file__)
 
 DEFAULT_MIN_LENGTH = 100
-DEFAULT_MAX_THRESHOLD = 2.5  # to include potentially aligned streets
+DEFAULT_MAX_THRESHOLD = 3.0  # to include potentially aligned streets
 
 
 def main(
