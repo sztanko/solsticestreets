@@ -59,6 +59,17 @@ a {
   border: 1px dotted black;
   background-color: white;
   opacity: 0.9;
+  p {
+    width: 100%;
+    a {
+      width: 100% !important;
+      color: blue;
+    }
+  }
+  h2 {
+    text-align: center;
+    color: orange;
+  }
   svg {
     .base {
       fill: none;
@@ -69,6 +80,15 @@ a {
     .streets {
       fill: #999;
       stroke: none;
+    }
+    .azimuth_line {
+      fill: none;
+      stroke: red;
+      stroke-width: 2;
+      stroke-dasharray: 9 3;
+      &.sun_azimuth_0 {
+        stroke: orange;
+      }
     }
   }
 }
