@@ -4,6 +4,11 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+}
+.front-map {
+  height: 800px;
+  background-color: lightgray;
 }
 /*
 a {
@@ -37,6 +42,33 @@ a {
           background-color: #eee;
         }
       }
+    }
+  }
+}
+
+#__next {
+  height: 100%;
+}
+.city_map {
+  width: 100%;
+  height: 100%;
+}
+
+.street-stats {
+  margin: 20px;
+  border: 1px dotted black;
+  background-color: white;
+  opacity: 0.9;
+  svg {
+    .base {
+      fill: none;
+      stroke-width: 0.8;
+      stroke: #333;
+      stroke-dasharray: 1 3;
+    }
+    .streets {
+      fill: #999;
+      stroke: none;
     }
   }
 }

@@ -39,8 +39,11 @@ export default function Home(props: { cities: CityList }) {
   });
   return (
     <div className="index">
-      Hello
-      <Map cities={cities} />
+      <div className="front-map">
+        {" "}
+        <Map cities={cities} />
+      </div>
+      <CityIndex cities={cities} />
     </div>
   );
 } //

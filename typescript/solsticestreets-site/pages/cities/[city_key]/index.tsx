@@ -6,6 +6,8 @@ import path from "path";
 
 import type { City, CityList } from "../../../components/City";
 import type { GeoJSON } from "geojson";
+import dynamic from "next/dynamic";
+import Head from "next/head";
 
 async function loadCities() {
   const citiesConfig = path.join(process.cwd(), "public/cities.json");
@@ -55,5 +57,22 @@ export default function CityPage(props: {
   streets: GeoJSON;
   stats: any;
 }) {
-  return <p>Hello, {props.info.key}</p>;
+  const CityMap = dynamic(() => import("../../../components/CityMap"), {
+    ssr: false,
+  });
+  return (
+    <div className="city_map">
+      <title>
+        {props.info.name}, {props.info.country}: streets aligned towards the
+        sunrise/sunsets on the solstice day.
+      </title>
+      <Head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+      </Head>
+      <CityMap info={props.info} stats={props.stats} streets={props.streets} />
+    </div>
+  );
 }
