@@ -4,7 +4,7 @@ on:
   push:
     branches: master
     paths:
-      - site
+      - site/**
       - .github/workflows/buid_site.yaml
 
 jobs:
