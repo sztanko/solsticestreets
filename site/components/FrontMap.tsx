@@ -43,8 +43,9 @@ const FrontMap = (c: { cities: City[] }) => {
     >
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         //url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
+        // url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
       />
       {cityRects}
     </MapContainer>
