@@ -18,7 +18,7 @@ function Rect(props: { city: City }) {
       ]}
       eventHandlers={{
         click: () => {
-          window.location.href = `/cities/${city.key}`;
+          window.location.href = `cities/${city.key}`;
         },
       }}
     >
