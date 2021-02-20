@@ -1,10 +1,11 @@
-name: docker_base
+name: build_site
 
 on:
   push:
     branches: master
     paths:
       - site
+      - .github/workflows/buid_site.yaml
 
 jobs:
   build-and-deploy:
