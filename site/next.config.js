@@ -6,5 +6,6 @@ module.exports = {
     // !! WARN !!
     ignoreBuildErrors: true,
     },
-    trailingSlash: true // you can safely remove it, github is smart enough
+    trailingSlash: true, // you can safely remove it, github is smart enough
+    basePath: '/solsticestreets',
 }
