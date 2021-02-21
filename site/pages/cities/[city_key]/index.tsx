@@ -62,15 +62,15 @@ export default function CityPage(props: {
   });
   return (
     <div className="city_map">
-      <title>
-        {props.info.name}, {props.info.country}: streets aligned towards the
-        sunrise/sunsets on the solstice day.
-      </title>
       <Head>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
+        <title>
+          {props.info.name}, {props.info.country}: streets aligned towards the
+          sunrise/sunsets on the solstice day.
+        </title>
       </Head>
       <CityMap info={props.info} stats={props.stats} streets={props.streets} />
       <script
