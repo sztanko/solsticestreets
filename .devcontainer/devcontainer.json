@@ -21,7 +21,10 @@
 		"chenxsan.vscode-standardjs"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	 "forwardPorts": [3000, 8000],
+	"forwardPorts": [
+		3000,
+		8000
+	],
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
 	"postCreateCommand": "pip install -r requirements.txt",
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
@@ -29,9 +32,9 @@
 	"containerEnv": {
 		"PYTHONPATH": "/workspaces/solsticestreets/python",
 		"GIT_TOKEN": "${localEnv:GIT_TOKEN}",
-		"AWS_ACCESS_KEY_ID": "${localEnv:AWS_ACCESS_KEY_ID}",
-		"AWS_SECRET_ACCESS_KEY": "${localEnv:AWS_SECRET_ACCESS_KEY}",
-		"AWS_DEFAULT_REGION": "${localEnv:AWS_DEFAULT_REGION}"
+		"AWS_ACCESS_KEY_ID": "${localEnv:AWS_ACCESS_KEY_ID_SOLSTICESTREETS}",
+		"AWS_SECRET_ACCESS_KEY": "${localEnv:AWS_SECRET_ACCESS_KEY_SOLSTICESTREETS}",
+		"AWS_DEFAULT_REGION": "${localEnv:AWS_DEFAULT_REGION_SOLSTICESTREETS}"
 	},
 	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
 	// "mounts": [
