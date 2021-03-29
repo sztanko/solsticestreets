@@ -1122,7 +1122,7 @@
       "type": "Feature",
       "properties": {
         "name": "Newton Street",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 115.63254825190836,
         "sun_diff": 2.3588876977918716,
         "length": 190.32130163784146
@@ -2456,7 +2456,7 @@
       "type": "Feature",
       "properties": {
         "name": "West 78th Street",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 59.28819398709206,
         "sun_diff": 2.720899175497294,
         "length": 127.14560101775413
@@ -3295,6 +3295,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -118.1720809,
+            33.9160897
+          ],
+          [
+            -118.1710578,
+            33.9155978
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Century Boulevard",
+        "type": "tertiary",
+        "slope": 120.08658310091755,
+        "sun_diff": 2.0951471512173185,
+        "length": 109.14212890845579
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -118.1710578,
             33.9155978
           ],
@@ -3307,7 +3330,7 @@
       "type": "Feature",
       "properties": {
         "name": "Century Boulevard",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 120.25455524854323,
         "sun_diff": 2.2631192988429945,
         "length": 103.18443122192748
@@ -4571,7 +4594,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Lilac Terrace",
+        "name": "Lilac Place",
         "type": "residential",
         "slope": 117.69591850261207,
         "sun_diff": 0.29551744708815875,
@@ -5507,6 +5530,29 @@
             34.0266604
           ],
           [
+            -118.1939433,
+            34.0260209
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Percy Street",
+        "type": "residential",
+        "slope": 118.11982070940428,
+        "sun_diff": 0.12838475970404772,
+        "length": 150.9202254569002
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.1939433,
+            34.0260209
+          ],
+          [
             -118.1923014,
             34.0252934
           ]
@@ -5516,9 +5562,9 @@
       "properties": {
         "name": "Percy Street",
         "type": "residential",
-        "slope": 118.12495324087106,
-        "sun_diff": 0.13351729117083266,
-        "length": 322.5530636549717
+        "slope": 118.12964594297046,
+        "sun_diff": 0.1382099932702232,
+        "length": 171.63283918314173
       }
     },
     {
@@ -9206,8 +9252,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.262112,
-            34.0721243
+            -118.2624421,
+            34.0722718
           ],
           [
             -118.2639865,
@@ -9219,9 +9265,9 @@
       "properties": {
         "name": "Clinton Street",
         "type": "residential",
-        "slope": 118.33317249742257,
-        "sun_diff": 0.3417365477223342,
-        "length": 196.21235808041524
+        "slope": 118.3307839018043,
+        "sun_diff": 0.3393479521040632,
+        "length": 161.65556163815995
       }
     },
     {
@@ -10441,29 +10487,6 @@
         "slope": 119.55217141857617,
         "sun_diff": 1.560735468875933,
         "length": 108.65509865519917
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.1721359,
-            33.9243987
-          ],
-          [
-            -118.1711122,
-            33.9239171
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Gardendale Street",
-        "type": "residential",
-        "slope": 119.55142935482806,
-        "sun_diff": 1.5599934051278268,
-        "length": 108.6124759843407
       }
     },
     {
@@ -11897,29 +11920,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.3722674,
-            34.3170301
-          ],
-          [
-            -118.3709768,
-            34.3164048
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Oak Flat Drive",
-        "type": "residential",
-        "slope": 120.39633696027357,
-        "sun_diff": 2.40490101057334,
-        "length": 137.46000152337064
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -118.3680542,
             33.806595
           ],
@@ -13311,7 +13311,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Encino Avenue",
+        "name": null,
         "type": "service",
         "slope": 59.75986954145358,
         "sun_diff": 2.249196300379083,
@@ -16060,6 +16060,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -118.192203,
+            34.1105685
+          ],
+          [
+            -118.1911701,
+            34.1110626
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 59.98217289646183,
+        "sun_diff": 2.0269202661275187,
+        "length": 109.85836307529112
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -118.1911701,
             34.1110626
           ],
@@ -17766,8 +17789,8 @@
             34.0906317
           ],
           [
-            -118.2618883,
-            34.0911261
+            -118.2617368,
+            34.0910599
           ]
         ]
       },
@@ -17775,9 +17798,9 @@
       "properties": {
         "name": "Duane Street",
         "type": "residential",
-        "slope": 117.87329358314818,
-        "sun_diff": 0.1181423665520498,
-        "length": 117.62579273527633
+        "slope": 117.88185257939963,
+        "sun_diff": 0.10958337030059795,
+        "length": 101.84694015451073
       }
     },
     {
@@ -18038,12 +18061,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.217272,
-            34.113058
-          ],
-          [
             -118.216236,
             34.112573
+          ],
+          [
+            -118.217272,
+            34.113058
           ]
         ]
       },
@@ -18051,8 +18074,8 @@
       "properties": {
         "name": "Jessica Drive",
         "type": "residential",
-        "slope": 119.4854421689754,
-        "sun_diff": 1.494006219275164,
+        "slope": 119.48558292786828,
+        "sun_diff": 1.4941469781680468,
         "length": 109.60196792781771
       }
     },
@@ -18222,8 +18245,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.4508615,
-            34.0301272
+            -118.450837,
+            34.030139
           ],
           [
             -118.4497374,
@@ -18235,9 +18258,9 @@
       "properties": {
         "name": "Tennessee Place",
         "type": "residential",
-        "slope": 59.30610940152482,
-        "sun_diff": 2.70298376106453,
-        "length": 120.50170989987986
+        "slope": 59.29435995837184,
+        "sun_diff": 2.7147332042175094,
+        "length": 117.88969641440917
       }
     },
     {
@@ -20407,6 +20430,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -118.2895684,
+            34.0211993
+          ],
+          [
+            -118.2883748,
+            34.0206707
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Downey Way",
+        "type": "service",
+        "slope": 118.11639540982841,
+        "sun_diff": 0.12495946012818138,
+        "length": 124.7621540054664
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -118.2894063,
             34.0201457
           ],
@@ -21147,7 +21193,7 @@
             34.1132841
           ],
           [
-            -118.1977842,
+            -118.197784,
             34.1139358
           ]
         ]
@@ -21156,9 +21202,9 @@
       "properties": {
         "name": "Aldama Street",
         "type": "residential",
-        "slope": 59.273208229993884,
-        "sun_diff": 2.735884932595468,
-        "length": 141.8718221771011
+        "slope": 59.277008330890055,
+        "sun_diff": 2.7320848316992965,
+        "length": 141.88765490116063
       }
     },
     {
@@ -21239,8 +21285,8 @@
             34.116885
           ],
           [
-            -118.1899839,
-            34.1162788
+            -118.1898567,
+            34.1163415
           ]
         ]
       },
@@ -21248,9 +21294,9 @@
       "properties": {
         "name": "Mesa Avenue",
         "type": "residential",
-        "slope": 59.08887322036114,
-        "sun_diff": 2.920219942228215,
-        "length": 131.25620601486906
+        "slope": 59.072402310302664,
+        "sun_diff": 2.936690852286688,
+        "length": 117.6237814214456
       }
     },
     {
@@ -22109,8 +22155,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.1752701,
-            34.1225695
+            -118.1751125,
+            34.1226321
           ],
           [
             -118.1740402,
@@ -22122,9 +22168,9 @@
       "properties": {
         "name": "Elder Street",
         "type": "residential",
-        "slope": 64.34590744997132,
-        "sun_diff": 2.3368142873819693,
-        "length": 125.63379896780076
+        "slope": 64.34272378243833,
+        "sun_diff": 2.333630619848975,
+        "length": 109.53791170163726
       }
     },
     {
@@ -23482,6 +23528,29 @@
         "slope": 119.56231129821776,
         "sun_diff": 1.5708753485175322,
         "length": 149.02148679358967
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.2904217,
+            34.0196492
+          ],
+          [
+            -118.2893288,
+            34.0191661
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "37th Place",
+        "type": "service",
+        "slope": 118.07148423840198,
+        "sun_diff": 0.08004828870174663,
+        "length": 114.19065041317009
       }
     },
     {
@@ -26479,29 +26548,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.2829264,
-            34.1456063
-          ],
-          [
-            -118.2849736,
-            34.1447636
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 63.55556956437985,
-        "sun_diff": 1.5464764017904997,
-        "length": 210.48005568705582
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -118.3885066,
             33.8657846
           ],
@@ -28250,8 +28296,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.227516,
-            34.10431
+            -118.2274574,
+            34.1043334
           ],
           [
             -118.226215,
@@ -28263,9 +28309,9 @@
       "properties": {
         "name": "Isabel Drive",
         "type": "residential",
-        "slope": 64.23279948248143,
-        "sun_diff": 2.2237063198920737,
-        "length": 133.05170805378117
+        "slope": 64.23180649978042,
+        "sun_diff": 2.222713337191067,
+        "length": 127.05980513141436
       }
     },
     {
@@ -29036,8 +29082,8 @@
             34.0243427
           ],
           [
-            -118.4341337,
-            34.0249361
+            -118.4342085,
+            34.0248991
           ]
         ]
       },
@@ -29045,9 +29091,9 @@
       "properties": {
         "name": "National Boulevard",
         "type": "secondary",
-        "slope": 59.39054107202884,
-        "sun_diff": 2.618552090560513,
-        "length": 129.6270458517575
+        "slope": 59.40512881266838,
+        "sun_diff": 2.6039643499209717,
+        "length": 121.596783248614
       }
     },
     {
@@ -31198,8 +31244,8 @@
             34.0000367
           ],
           [
-            -118.4279355,
-            34.0006044
+            -118.4280113,
+            34.0005668
           ]
         ]
       },
@@ -31207,9 +31253,9 @@
       "properties": {
         "name": "Washington Place",
         "type": "secondary",
-        "slope": 59.26742501763644,
-        "sun_diff": 2.741668144952911,
-        "length": 123.56441425266858
+        "slope": 59.27881002546911,
+        "sun_diff": 2.7302831371202387,
+        "length": 115.41903509081278
       }
     },
     {
@@ -32532,8 +32578,8 @@
             34.0284513
           ],
           [
-            -118.4551782,
-            34.0290344
+            -118.4553238,
+            34.0289618
           ]
         ]
       },
@@ -32541,9 +32587,9 @@
       "properties": {
         "name": "Virginia Avenue",
         "type": "residential",
-        "slope": 59.01372908422019,
-        "sun_diff": 2.995364078369164,
-        "length": 125.97933972584869
+        "slope": 59.02046357693706,
+        "sun_diff": 2.9886295856522906,
+        "length": 110.31559445912298
       }
     },
     {
@@ -33264,29 +33310,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.4433427,
-            33.9904689
-          ],
-          [
-            -118.4444877,
-            33.9899126
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 59.630837924600655,
-        "sun_diff": 2.3782552379886965,
-        "length": 122.39070915290685
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -118.4436887,
             33.9869309
           ],
@@ -33805,7 +33828,7 @@
       "type": "Feature",
       "properties": {
         "name": "Washington Boulevard",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 60.877618384817936,
         "sun_diff": 1.131474777771416,
         "length": 121.95385669374397
@@ -34131,29 +34154,6 @@
         "slope": 62.49940061456249,
         "sun_diff": 0.49030745197313763,
         "length": 102.54428575413758
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.1935229,
-            34.110491
-          ],
-          [
-            -118.1924844,
-            34.1109813
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Marmion Way",
-        "type": "residential",
-        "slope": 60.306930503797844,
-        "sun_diff": 1.702162658791508,
-        "length": 110.09530776635086
       }
     },
     {
@@ -35552,7 +35552,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Maryland Street",
         "type": "service",
         "slope": 116.87289058291432,
         "sun_diff": 1.1185453667859093,
@@ -36714,29 +36714,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.4335875,
-            34.025455
-          ],
-          [
-            -118.4319788,
-            34.0262507
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 59.170925416893,
-        "sun_diff": 2.838167745696353,
-        "length": 172.70159413868697
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -118.3411336,
             33.8130894
           ],
@@ -37312,8 +37289,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.2775073,
-            33.7521382
+            -118.2781012,
+            33.7518555
           ],
           [
             -118.2791991,
@@ -37325,9 +37302,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 60.221501583207356,
-        "sun_diff": 1.7875915793819956,
-        "length": 180.2655529006026
+        "slope": 60.22825865182307,
+        "sun_diff": 1.780834510766283,
+        "length": 116.97626367678419
       }
     },
     {
@@ -38761,12 +38738,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.2649995,
-            34.0926621
+            -118.2651881,
+            34.092702
           ],
           [
-            -118.2667757,
-            34.0933813
+            -118.2663798,
+            34.0932393
           ]
         ]
       },
@@ -38774,9 +38751,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 116.05618679702289,
-        "sun_diff": 1.9352491526773434,
-        "length": 182.1203081883822
+        "slope": 118.56581782703927,
+        "sun_diff": 0.5743818773390359,
+        "length": 124.98523269316287
       }
     },
     {

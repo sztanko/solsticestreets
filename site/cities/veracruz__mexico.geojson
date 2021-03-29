@@ -1582,7 +1582,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "secondary",
         "slope": 114.96954053164748,
         "sun_diff": 0.42748671658708304,
         "length": 167.50253850037265
@@ -1605,7 +1605,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "secondary",
         "slope": 116.22031415960842,
         "sun_diff": 1.678260344548022,
         "length": 105.55950453177712
@@ -1720,7 +1720,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "secondary",
         "slope": 115.07526054110824,
         "sun_diff": 0.5332067260478368,
         "length": 106.37214546821822
@@ -1743,7 +1743,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "secondary",
         "slope": 115.22267792269503,
         "sun_diff": 0.6806241076346282,
         "length": 167.23442183012887
@@ -2019,7 +2019,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Paseo Ej\u00e9rcito Mexicano Poniente",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.26659080573847,
         "sun_diff": 1.1926767934344298,
         "length": 143.74339868774115
@@ -5595,29 +5595,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.2343673,
-            19.1668545
-          ],
-          [
-            -96.2355052,
-            19.1672975
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Arrayanes",
-        "type": "residential",
-        "slope": 112.39961077343665,
-        "sun_diff": 2.14244304162375,
-        "length": 129.30862100130108
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -96.2244987,
             19.1391755
           ],
@@ -6458,7 +6435,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 117.24958198567478,
         "sun_diff": 2.7075281706143812,
         "length": 131.95986376659306
@@ -6481,7 +6458,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 63.96012055362132,
         "sun_diff": 1.499147045551581,
         "length": 105.22585788434593
@@ -6550,7 +6527,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Armada de M\u00e9xico",
-        "type": "tertiary",
+        "type": "primary",
         "slope": 115.4283703710619,
         "sun_diff": 0.8863165560015034,
         "length": 136.5951906669509
@@ -6573,7 +6550,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Armada de M\u00e9xico",
-        "type": "tertiary",
+        "type": "primary",
         "slope": 117.4390015487628,
         "sun_diff": 2.8969477337024045,
         "length": 117.14285915249778
@@ -6596,7 +6573,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Armada de M\u00e9xico",
-        "type": "tertiary",
+        "type": "primary",
         "slope": 117.21454052633135,
         "sun_diff": 2.672486711270949,
         "length": 141.14022876641198
@@ -6619,7 +6596,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Armada de M\u00e9xico",
-        "type": "tertiary",
+        "type": "primary",
         "slope": 117.08580247947762,
         "sun_diff": 2.5437486644172225,
         "length": 140.9778648046727
@@ -6642,7 +6619,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Armada de M\u00e9xico",
-        "type": "tertiary",
+        "type": "primary",
         "slope": 117.1764422396233,
         "sun_diff": 2.6343884245629,
         "length": 117.48068191091907
@@ -6665,7 +6642,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Armada de M\u00e9xico",
-        "type": "tertiary",
+        "type": "primary",
         "slope": 115.43468195170763,
         "sun_diff": 0.8926281366472324,
         "length": 134.6467039196533
@@ -8896,7 +8873,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Circunvalaci\u00f3n Norte",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 116.7897446780951,
         "sun_diff": 2.2476908630347054,
         "length": 103.37782769343403
@@ -9659,6 +9636,98 @@
         "slope": 114.87518233546271,
         "sun_diff": 0.3331285204023118,
         "length": 111.48303817075559
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.2160519,
+            19.2165654
+          ],
+          [
+            -96.2183376,
+            19.2175329
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Autopista Veracruz - Cardel",
+        "type": "trunk",
+        "slope": 114.14493042917132,
+        "sun_diff": 0.39712338588907414,
+        "length": 263.0879755684798
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.2187593,
+            19.217727
+          ],
+          [
+            -96.2200481,
+            19.2182766
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Autopista Veracruz - Cardel",
+        "type": "trunk",
+        "slope": 114.30445080961238,
+        "sun_diff": 0.2376030054480225,
+        "length": 148.52819712716075
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.2199428,
+            19.2181272
+          ],
+          [
+            -96.2187016,
+            19.2176079
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Autopista Veracruz - Cardel",
+        "type": "trunk",
+        "slope": 113.89696883488722,
+        "sun_diff": 0.6450849801731806,
+        "length": 142.58835610714098
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.2187016,
+            19.2176079
+          ],
+          [
+            -96.2161791,
+            19.2165129
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Autopista Veracruz - Cardel",
+        "type": "trunk",
+        "slope": 114.68858908363109,
+        "sun_diff": 0.14653526857068755,
+        "length": 291.5977431084302
       }
     }
   ]

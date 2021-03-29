@@ -29,52 +29,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.6475998,
-            7.1097918
-          ],
-          [
-            125.6452019,
-            7.1109176
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Fortune Main Road",
-        "type": "residential",
-        "slope": 115.32039048605759,
-        "sun_diff": 1.8137523680361056,
-        "length": 292.7955339666513
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.6452019,
-            7.1109176
-          ],
-          [
-            125.6443007,
-            7.1113634
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Fortune Main Road",
-        "type": "residential",
-        "slope": 116.49664935145915,
-        "sun_diff": 2.99001123343767,
-        "length": 111.14374462390187
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             125.5711395,
             7.0576524
           ],
@@ -1731,8 +1685,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.5616589,
-            7.0609922
+            125.5616965,
+            7.0609709
           ],
           [
             125.5631377,
@@ -1744,9 +1698,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 113.40061075989325,
-        "sun_diff": 0.10602735812823028,
-        "length": 177.86896974257175
+        "slope": 113.22655324863126,
+        "sun_diff": 0.2800848693902225,
+        "length": 173.1196809209789
       }
     },
     {
@@ -1835,7 +1789,7 @@
       "type": "Feature",
       "properties": {
         "name": "Macopa",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 116.18906462947405,
         "sun_diff": 2.6824265114525616,
         "length": 111.42269528681543
@@ -2226,33 +2180,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 112.31499700478807,
         "sun_diff": 1.1916411132334161,
         "length": 139.32358862678151
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.6113517,
-            7.1079315
-          ],
-          [
-            125.6130384,
-            7.1085719
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Buhangin Underpass",
-        "type": "trunk",
-        "slope": 69.06228449988754,
-        "sun_diff": 2.569855166101803,
-        "length": 199.33134518705396
       }
     },
     {
@@ -2345,6 +2276,29 @@
         "slope": 111.37772992130073,
         "sun_diff": 2.1289013665315792,
         "length": 159.65186121301332
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.4810186,
+            7.0708911
+          ],
+          [
+            125.4826612,
+            7.0701242
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 115.19506233374278,
+        "sun_diff": 1.6884310459104768,
+        "length": 200.38016905267418
       }
     },
     {
@@ -2616,7 +2570,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Cabantian Road",
+        "name": "Buhangin-Cabantian-Bunawan Road",
         "type": "secondary",
         "slope": 112.77323343567798,
         "sun_diff": 0.7334046823435045,
@@ -2639,7 +2593,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Cabantian Road",
+        "name": "Buhangin-Cabantian-Bunawan Road",
         "type": "secondary",
         "slope": 115.06407057006618,
         "sun_diff": 1.5574324520446936,
@@ -2662,34 +2616,11 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Cabantian Road",
+        "name": "Buhangin-Cabantian-Bunawan Road",
         "type": "secondary",
         "slope": 115.03021368119269,
         "sun_diff": 1.5235755631712067,
         "length": 173.9314000291074
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.6213222,
-            7.2104478
-          ],
-          [
-            125.6221903,
-            7.2107852
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Cabantian Road",
-        "type": "secondary",
-        "slope": 68.60657600033775,
-        "sun_diff": 2.114146666552017,
-        "length": 102.88391555480115
       }
     },
     {
@@ -2828,29 +2759,6 @@
         "slope": 114.39550710164352,
         "sun_diff": 0.888875813811211,
         "length": 159.775664296912
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.4843986,
-            7.133269
-          ],
-          [
-            125.4855354,
-            7.1327753
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 113.63785942219673,
-        "sun_diff": 0.13122813436442016,
-        "length": 136.95855877327872
       }
     },
     {
@@ -3295,7 +3203,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.581965,
+            125.5819648,
             7.0403671
           ],
           [
@@ -3308,32 +3216,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 69.35994114177453,
-        "sun_diff": 2.867511807988791,
-        "length": 222.33610845473618
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.2786678,
-            6.9528758
-          ],
-          [
-            125.2777076,
-            6.9533071
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Sitio Paradise to Upper Sabwag",
-        "type": "path",
-        "slope": 114.34700718850414,
-        "sun_diff": 0.8403759006718303,
-        "length": 116.36641183938325
+        "slope": 69.36194649314044,
+        "sun_diff": 2.8695171593547,
+        "length": 222.35676968378468
       }
     },
     {
@@ -3364,8 +3249,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.6806198,
-            7.3027624
+            125.6806131,
+            7.302789
           ],
           [
             125.6793351,
@@ -3377,9 +3262,9 @@
       "properties": {
         "name": "Quirino Street",
         "type": "tertiary",
-        "slope": 113.70872155485367,
-        "sun_diff": 0.20208343683218288,
-        "length": 154.80287472663414
+        "slope": 112.80525096150214,
+        "sun_diff": 0.7013871565193455,
+        "length": 152.95541891564685
       }
     },
     {
@@ -3812,7 +3697,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 63.66593644582531,
         "sun_diff": 2.826492887960427,
@@ -3835,7 +3720,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 65.89790896041231,
         "sun_diff": 0.5945203733734274,
@@ -3858,7 +3743,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 67.27944244858844,
         "sun_diff": 0.7870131148027042,
@@ -4249,7 +4134,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 66.76569500212912,
         "sun_diff": 0.2732656683433845,
@@ -4272,7 +4157,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 65.57539855202776,
         "sun_diff": 0.9170307817579726,
@@ -4295,7 +4180,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 63.67933714684014,
         "sun_diff": 2.813092186945596,
@@ -4318,7 +4203,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 64.06594913284798,
         "sun_diff": 2.4264802009377604,
@@ -4341,7 +4226,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 64.02726844339435,
         "sun_diff": 2.465160890391388,
@@ -4364,7 +4249,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 64.83490474851337,
         "sun_diff": 1.6575245852723697,
@@ -4387,7 +4272,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 63.522000103376,
         "sun_diff": 2.970429230409735,
@@ -4410,7 +4295,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 64.36105917731203,
         "sun_diff": 2.1313701564737073,
@@ -4433,7 +4318,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 63.7420302785774,
         "sun_diff": 2.7503990552083337,
@@ -4456,7 +4341,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tamayong Road",
         "type": "tertiary",
         "slope": 65.07076758414141,
         "sun_diff": 1.4216617496443291,
@@ -4571,7 +4456,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Kalye Apeke Street",
         "type": "secondary",
         "slope": 64.77897559798976,
         "sun_diff": 1.71345373579598,
@@ -4641,10 +4526,33 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 64.60896259480282,
         "sun_diff": 1.8834667389829178,
         "length": 141.9964028171354
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.6438521,
+            7.2977893
+          ],
+          [
+            125.6427571,
+            7.2983087
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 115.55769954877269,
+        "sun_diff": 2.0510614307512043,
+        "length": 133.91318485315279
       }
     },
     {
@@ -4755,7 +4663,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Lubogan Road",
         "type": "tertiary",
         "slope": 115.88868450433878,
         "sun_diff": 2.3820532165064776,
@@ -4778,7 +4686,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Lubogan Road",
         "type": "tertiary",
         "slope": 67.2879589506152,
         "sun_diff": 0.7955296168294694,
@@ -4801,7 +4709,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Lubogan Road",
         "type": "tertiary",
         "slope": 69.42983752508496,
         "sun_diff": 2.9374081912992267,
@@ -4974,29 +4882,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.3979278,
-            7.2110924
-          ],
-          [
-            125.3968774,
-            7.2115578
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 114.06564386217491,
-        "sun_diff": 0.5590125743426029,
-        "length": 126.94590804845713
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             125.6416386,
             7.1168356
           ],
@@ -5100,7 +4985,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Catigan Road",
         "type": "tertiary",
         "slope": 114.73622130795144,
         "sun_diff": 1.229590020119133,
@@ -5296,8 +5181,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.6967637,
-            7.3312035
+            125.6968831,
+            7.3311702
           ],
           [
             125.7019588,
@@ -5309,9 +5194,9 @@
       "properties": {
         "name": null,
         "type": "tertiary",
-        "slope": 110.74644444690361,
-        "sun_diff": 2.760193671117875,
-        "length": 612.867712962201
+        "slope": 110.86140092292655,
+        "sun_diff": 2.6452371950949356,
+        "length": 599.2387046030212
       }
     },
     {
@@ -6956,8 +6841,8 @@
             7.4331872
           ],
           [
-            125.7034045,
-            7.4327596
+            125.7033737,
+            7.4327729
           ]
         ]
       },
@@ -6965,9 +6850,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 111.84839495091296,
-        "sun_diff": 1.6582431671085232,
-        "length": 127.80225061863169
+        "slope": 111.7981341591927,
+        "sun_diff": 1.7085039588287856,
+        "length": 124.09866728643554
       }
     },
     {
@@ -6975,8 +6860,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.7034045,
-            7.4327596
+            125.7033737,
+            7.4327729
           ],
           [
             125.705317,
@@ -6988,9 +6873,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 112.8182991401768,
-        "sun_diff": 0.6883389778446798,
-        "length": 228.84973924143486
+        "slope": 112.82966999215165,
+        "sun_diff": 0.6769681258698341,
+        "length": 232.5546867692972
       }
     },
     {
@@ -8091,7 +7976,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.94602532136994,
         "sun_diff": 0.5060239340426733,
         "length": 155.63002305254244
@@ -8114,7 +7999,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.07170046044124,
         "sun_diff": 1.3803487949713826,
         "length": 106.32552410323574
@@ -8367,7 +8252,7 @@
       "type": "Feature",
       "properties": {
         "name": "Malagamot Road",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 68.51459826344026,
         "sun_diff": 2.0221689296545264,
         "length": 109.11486916459015
@@ -9976,7 +9861,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Cabantian Road",
+        "name": "Buhangin-Cabantian-Bunawan Road",
         "type": "secondary",
         "slope": 65.14979916767155,
         "sun_diff": 1.3426301661141906,
@@ -10758,8 +10643,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Acacia - Ilang Road",
-        "type": "secondary",
+        "name": "Acacia-Ilang Road",
+        "type": "tertiary",
         "slope": 113.31199506658638,
         "sun_diff": 0.19464305143510785,
         "length": 111.41592381741718
@@ -10781,8 +10666,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Acacia - Ilang Road",
-        "type": "secondary",
+        "name": "Acacia-Ilang Road",
+        "type": "tertiary",
         "slope": 113.31180543307008,
         "sun_diff": 0.1948326849514075,
         "length": 199.2797017690836
@@ -10804,8 +10689,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Acacia - Ilang Road",
-        "type": "secondary",
+        "name": "Acacia-Ilang Road",
+        "type": "tertiary",
         "slope": 64.34131173634896,
         "sun_diff": 2.15111759743678,
         "length": 102.80194459180888
@@ -10827,8 +10712,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Acacia - Ilang Road",
-        "type": "secondary",
+        "name": "Acacia-Ilang Road",
+        "type": "tertiary",
         "slope": 64.02919509432638,
         "sun_diff": 2.4632342394593536,
         "length": 130.58134654806997
@@ -11230,6 +11115,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            125.3240036,
+            7.0529064
+          ],
+          [
+            125.3229306,
+            7.0524699
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Talomo Trail",
+        "type": "path",
+        "slope": 67.7110484463482,
+        "sun_diff": 1.2186191125624646,
+        "length": 128.0112096116308
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.3229306,
+            7.0524699
+          ],
+          [
+            125.3220322,
+            7.0520679
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Talomo Trail",
+        "type": "path",
+        "slope": 65.73067164523226,
+        "sun_diff": 0.7617576885534731,
+        "length": 108.78711479326823
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             125.6328067,
             7.1988547
           ],
@@ -11310,8 +11241,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "RHU Samal road",
-        "type": "service",
+        "name": "RHU Samal Road",
+        "type": "residential",
         "slope": 63.6134712710072,
         "sun_diff": 2.878958062778537,
         "length": 125.91507655698999
@@ -11633,7 +11564,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "service",
         "slope": 111.6970405178811,
         "sun_diff": 1.8095907699511997,
         "length": 124.13740901634722
@@ -11656,7 +11587,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "service",
         "slope": 111.04173763483038,
         "sun_diff": 2.4648936530019228,
         "length": 109.29431667006621
@@ -12242,29 +12173,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.5126083,
-            7.1527624
-          ],
-          [
-            125.5134993,
-            7.152375
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 113.66313951745474,
-        "sun_diff": 0.15650139943325314,
-        "length": 107.36139837270676
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             125.513759,
             7.152262
           ],
@@ -12396,52 +12304,6 @@
         "slope": 116.4419096487976,
         "sun_diff": 2.935278360965299,
         "length": 139.60854654989438
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.3240036,
-            7.0529064
-          ],
-          [
-            125.3229306,
-            7.0524699
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Talomo Trail",
-        "type": "path",
-        "slope": 67.7110484463482,
-        "sun_diff": 1.2186191125624646,
-        "length": 128.0112096116308
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.3229306,
-            7.0524699
-          ],
-          [
-            125.3220322,
-            7.0520679
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Talomo Trail",
-        "type": "path",
-        "slope": 65.73067164523226,
-        "sun_diff": 0.7617576885534731,
-        "length": 108.78711479326823
       }
     },
     {
@@ -13231,52 +13093,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.3756855,
-            7.1296494
-          ],
-          [
-            125.3770816,
-            7.1302762
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 65.6549549564188,
-        "sun_diff": 0.8374743773669309,
-        "length": 169.1259009208077
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.3780142,
-            7.1297272
-          ],
-          [
-            125.3759926,
-            7.1287884
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 64.9202912485998,
-        "sun_diff": 1.5721380851859408,
-        "length": 246.34991609799795
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             125.4723483,
             7.0807195
           ],
@@ -13312,7 +13128,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 116.14527940942173,
         "sun_diff": 2.6386412914002477,
         "length": 103.46818872574059
@@ -13335,7 +13151,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 115.846961931126,
         "sun_diff": 2.3403238131045185,
         "length": 179.6133917792768
@@ -13484,29 +13300,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.6283657,
-            7.3163012
-          ],
-          [
-            125.6296344,
-            7.3157465
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 113.78824986195306,
-        "sun_diff": 0.2816117439315775,
-        "length": 152.96389322347238
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             125.701797,
             7.2972419
           ],
@@ -13546,6 +13339,29 @@
         "slope": 65.66759858923092,
         "sun_diff": 0.8248307445548164,
         "length": 239.3970552838719
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.6296344,
+            7.3157465
+          ],
+          [
+            125.6283657,
+            7.3163012
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.78827614717645,
+        "sun_diff": 0.28163802915496206,
+        "length": 152.96389322347238
       }
     },
     {
@@ -13656,7 +13472,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tagurano - Lopoy Road",
         "type": "tertiary",
         "slope": 68.34676105328111,
         "sun_diff": 1.8543317194953772,
@@ -13679,7 +13495,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tagurano - Lopoy Road",
         "type": "tertiary",
         "slope": 63.84943525452036,
         "sun_diff": 2.642994079265378,
@@ -13702,7 +13518,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tagurano - Lopoy Road",
         "type": "tertiary",
         "slope": 64.08001256605141,
         "sun_diff": 2.412416767734328,
@@ -13725,7 +13541,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tagurano - Lopoy Road",
         "type": "tertiary",
         "slope": 63.53005434791501,
         "sun_diff": 2.9623749858707242,
@@ -13748,7 +13564,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Tagurano - Lopoy Road",
         "type": "tertiary",
         "slope": 65.23182233317524,
         "sun_diff": 1.2606070006104915,
@@ -13967,6 +13783,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            125.7057943,
+            6.9025513
+          ],
+          [
+            125.7066118,
+            6.9021642
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 115.49990701573245,
+        "sun_diff": 1.993268897710962,
+        "length": 100.01414810915723
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             125.4536721,
             7.014621
           ],
@@ -13983,29 +13822,6 @@
         "slope": 68.980021208334,
         "sun_diff": 2.487591874548258,
         "length": 161.77778039008643
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.4809875,
-            7.0708692
-          ],
-          [
-            125.4826076,
-            7.0701282
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 114.74420205790105,
-        "sun_diff": 1.2375707700687428,
-        "length": 196.9125300973795
       }
     },
     {
@@ -14052,6 +13868,29 @@
         "slope": 111.66117954254551,
         "sun_diff": 1.8454517452867947,
         "length": 129.75703746197533
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.6224115,
+            7.2132106
+          ],
+          [
+            125.6232672,
+            7.2135292
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Crossing Mahayag Road",
+        "type": "unclassified",
+        "slope": 69.42902742631978,
+        "sun_diff": 2.936598092534041,
+        "length": 100.8569336017951
       }
     },
     {
@@ -14312,52 +14151,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.5796906,
-            7.3117973
-          ],
-          [
-            125.5815575,
-            7.3108759
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 116.45451107707666,
-        "sun_diff": 2.947872959055175,
-        "length": 230.0562029928791
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.5815575,
-            7.3108759
-          ],
-          [
-            125.5828946,
-            7.3102363
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 115.74655729813145,
-        "sun_diff": 2.2399191801099647,
-        "length": 163.7753489254777
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             125.6941657,
             7.5362358
           ],
@@ -14450,6 +14243,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            125.5423459,
+            7.2085618
+          ],
+          [
+            125.5432525,
+            7.2089663
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 65.78523629052083,
+        "sun_diff": 0.7071930432649083,
+        "length": 109.69547990253572
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.5432525,
+            7.2089663
+          ],
+          [
+            125.544713,
+            7.2096515
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 64.69084698196494,
+        "sun_diff": 1.801582351820798,
+        "length": 178.27911439313746
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             125.6676795,
             7.1073824
           ],
@@ -14535,75 +14374,6 @@
         "slope": 69.04878035398718,
         "sun_diff": 2.556351020201447,
         "length": 152.64143195669791
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.4892419,
-            7.2030015
-          ],
-          [
-            125.4920748,
-            7.2018916
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 111.54930684121365,
-        "sun_diff": 1.9573244466186566,
-        "length": 336.11016555866394
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.5423459,
-            7.2085618
-          ],
-          [
-            125.5432525,
-            7.2089663
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 65.78523629052083,
-        "sun_diff": 0.7071930432649083,
-        "length": 109.69547990253572
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.5432525,
-            7.2089663
-          ],
-          [
-            125.544713,
-            7.2096515
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 64.69084698196494,
-        "sun_diff": 1.801582351820798,
-        "length": 178.27911439313746
       }
     },
     {
@@ -14903,29 +14673,6 @@
         "slope": 65.3174277145549,
         "sun_diff": 1.1750016192308408,
         "length": 119.70263372819399
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.6438521,
-            7.2977893
-          ],
-          [
-            125.6427571,
-            7.2983087
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 115.55769954877269,
-        "sun_diff": 2.0510614307512043,
-        "length": 133.91318485315279
       }
     },
     {
@@ -15542,7 +15289,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Matina Pangi - Catalunan Road",
         "type": "tertiary",
         "slope": 114.37170499689284,
         "sun_diff": 0.8650668788713602,
@@ -15565,7 +15312,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Matina Pangi - Catalunan Road",
         "type": "tertiary",
         "slope": 113.64480641698125,
         "sun_diff": 0.13816829895976923,
@@ -15588,7 +15335,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Matina Pangi - Catalunan Road",
         "type": "tertiary",
         "slope": 114.97847062896608,
         "sun_diff": 1.4718325109445942,
@@ -16014,29 +15761,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.7057943,
-            6.9025513
-          ],
-          [
-            125.7045096,
-            6.903043
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 111.08314715460287,
-        "sun_diff": 2.4234909634186153,
-        "length": 152.03873156905905
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             125.4842815,
             7.1006451
           ],
@@ -16186,7 +15910,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Falcata - Manambulan Road",
         "type": "tertiary",
         "slope": 69.1566851555416,
         "sun_diff": 2.6642558217558587,
@@ -16209,7 +15933,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Falcata - Manambulan Road",
         "type": "tertiary",
         "slope": 67.363550486447,
         "sun_diff": 0.8711211526612601,
@@ -16232,7 +15956,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Falcata - Manambulan Road",
         "type": "tertiary",
         "slope": 63.51334101348402,
         "sun_diff": 2.979088320301713,
@@ -16255,7 +15979,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Falcata - Manambulan Road",
         "type": "tertiary",
         "slope": 64.75960932242921,
         "sun_diff": 1.732820011356523,
@@ -16278,7 +16002,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Falcata - Manambulan Road",
         "type": "tertiary",
         "slope": 64.99920343988748,
         "sun_diff": 1.4932258938982557,
@@ -16301,7 +16025,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Falcata - Manambulan Road",
         "type": "tertiary",
         "slope": 64.306368684423,
         "sun_diff": 2.18606064936273,
@@ -16720,29 +16444,6 @@
         "slope": 115.24672848848812,
         "sun_diff": 1.740090370466632,
         "length": 109.66061578964575
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            125.7057943,
-            6.9025513
-          ],
-          [
-            125.7066118,
-            6.9021642
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 115.49990701573245,
-        "sun_diff": 1.993268897710962,
-        "length": 100.01414810915723
       }
     },
     {
@@ -18487,10 +18188,171 @@
       "type": "Feature",
       "properties": {
         "name": "Malagamot Road",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 68.95265303249118,
         "sun_diff": 2.460223698705448,
         "length": 167.98782564965012
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.3979278,
+            7.2110924
+          ],
+          [
+            125.3968774,
+            7.2115578
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 114.06564386217491,
+        "sun_diff": 0.5590125743426029,
+        "length": 126.94590804845713
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.6475998,
+            7.1097918
+          ],
+          [
+            125.6452019,
+            7.1109176
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Fortune Main Road",
+        "type": "residential",
+        "slope": 115.32039048605759,
+        "sun_diff": 1.8137523680361056,
+        "length": 292.7955339666513
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.6452019,
+            7.1109176
+          ],
+          [
+            125.6443007,
+            7.1113634
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Fortune Main Road",
+        "type": "residential",
+        "slope": 116.49664935145915,
+        "sun_diff": 2.99001123343767,
+        "length": 111.14374462390187
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.5815575,
+            7.3108759
+          ],
+          [
+            125.5828946,
+            7.3102363
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "secondary",
+        "slope": 115.74655729813145,
+        "sun_diff": 2.2399191801099647,
+        "length": 163.7753489254777
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.5796906,
+            7.3117973
+          ],
+          [
+            125.5812138,
+            7.3110455
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "secondary",
+        "slope": 116.45547942646749,
+        "sun_diff": 2.9488413084460063,
+        "length": 187.70393469095254
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.6213222,
+            7.2104478
+          ],
+          [
+            125.6221903,
+            7.2107852
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Buhangin-Cabantian-Bunawan Road",
+        "type": "secondary",
+        "slope": 68.60657600033775,
+        "sun_diff": 2.114146666552017,
+        "length": 102.88391555480115
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.3756855,
+            7.1296494
+          ],
+          [
+            125.3770816,
+            7.1302762
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 65.6549549564188,
+        "sun_diff": 0.8374743773669309,
+        "length": 169.1259009208077
       }
     }
   ]
