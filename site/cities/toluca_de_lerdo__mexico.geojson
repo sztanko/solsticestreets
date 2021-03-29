@@ -10299,7 +10299,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Federal Naucalpan - Toluca",
-        "type": "trunk",
+        "type": "primary",
         "slope": 67.1003022790025,
         "sun_diff": 1.6417176987465893,
         "length": 106.70783661079561
@@ -10322,7 +10322,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Federal Naucalpan - Toluca",
-        "type": "trunk",
+        "type": "primary",
         "slope": 67.01129414958717,
         "sun_diff": 1.552709569331256,
         "length": 299.2420029753186
@@ -10345,7 +10345,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Federal Naucalpan - Toluca",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.71935540241512,
         "sun_diff": 1.260770822159202,
         "length": 499.3897882845002
@@ -10368,7 +10368,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Federal Naucalpan - Toluca",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.8947867705435,
         "sun_diff": 1.436202190287588,
         "length": 502.74924736561593
@@ -10460,7 +10460,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Federal Naucalpan - Toluca",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.8831319798777,
         "sun_diff": 1.4245473996217868,
         "length": 151.57118333656885
@@ -10483,7 +10483,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Federal Naucalpan - Toluca",
-        "type": "trunk",
+        "type": "primary",
         "slope": 67.0797735472344,
         "sun_diff": 1.6211889669784796,
         "length": 177.7627855857413
@@ -11863,7 +11863,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Agust\u00edn Mill\u00e1n",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.12684588441286,
         "sun_diff": 0.3317386958430575,
         "length": 101.5745207259499
@@ -11886,7 +11886,7 @@
       "type": "Feature",
       "properties": {
         "name": "Vicente Lombardo Toledano",
-        "type": "primary",
+        "type": "secondary",
         "slope": 67.17707628772672,
         "sun_diff": 1.718491707470804,
         "length": 106.41684024602495
@@ -20476,29 +20476,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -99.6805164,
-            19.2754091
-          ],
-          [
-            -99.6794051,
-            19.2759362
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida General Venustiano Carranza",
-        "type": "secondary",
-        "slope": 63.32145677702306,
-        "sun_diff": 2.1371278032328576,
-        "length": 130.58208582555335
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -99.6789724,
             19.2761194
           ],
@@ -21826,6 +21803,29 @@
         "slope": 113.28907077717409,
         "sun_diff": 1.252976207697131,
         "length": 108.22784201876733
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -99.6805164,
+            19.2754091
+          ],
+          [
+            -99.6794051,
+            19.2759362
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida General Venustiano Carranza",
+        "type": "secondary",
+        "slope": 63.32145677702306,
+        "sun_diff": 2.1371278032328576,
+        "length": 130.58208582555335
       }
     }
   ]

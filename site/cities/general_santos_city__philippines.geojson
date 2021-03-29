@@ -524,7 +524,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 113.11043391379076,
         "sun_diff": 0.3636242018897633,
         "length": 100.88495248826182
@@ -547,7 +547,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 115.47034427391932,
         "sun_diff": 1.996286158238803,
         "length": 163.23244867296614
@@ -593,7 +593,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tiongson Street",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 114.1700967919121,
         "sun_diff": 0.6960386762315807,
         "length": 180.5714628696942
@@ -616,7 +616,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tiongson Street",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 113.42041978247178,
         "sun_diff": 0.05363833320873823,
         "length": 135.0232879373033
@@ -685,7 +685,7 @@
       "type": "Feature",
       "properties": {
         "name": "San Pedro Street",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 112.1040395266981,
         "sun_diff": 1.3700185889824184,
         "length": 130.06235412711817
@@ -708,7 +708,7 @@
       "type": "Feature",
       "properties": {
         "name": "San Pedro Street",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 113.60971124099092,
         "sun_diff": 0.13565312531039808,
         "length": 104.81316176678644
@@ -731,7 +731,7 @@
       "type": "Feature",
       "properties": {
         "name": "San Pedro Street",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 111.64429358707525,
         "sun_diff": 1.829764528605267,
         "length": 101.38578487565967
@@ -754,7 +754,7 @@
       "type": "Feature",
       "properties": {
         "name": "San Pedro Street",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 112.15584356850621,
         "sun_diff": 1.318214547174307,
         "length": 176.1085225821841
@@ -7182,29 +7182,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.1251451,
-            6.1220261
-          ],
-          [
-            125.125984,
-            6.1223654
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 67.86457381487222,
-        "sun_diff": 1.3395781391238586,
-        "length": 100.16079208027925
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             125.1261811,
             6.1229655
           ],
@@ -8643,10 +8620,56 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 113.27336863549229,
         "sun_diff": 0.20068948018823107,
         "length": 131.71858682847335
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.1251451,
+            6.1220261
+          ],
+          [
+            125.125984,
+            6.1223654
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 67.86457381487222,
+        "sun_diff": 1.3395781391238586,
+        "length": 100.16079208027925
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.1476844,
+            6.1136259
+          ],
+          [
+            125.1490111,
+            6.1141269
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 69.203771106066,
+        "sun_diff": 2.6787754303176428,
+        "length": 156.95503747855744
       }
     }
   ]
