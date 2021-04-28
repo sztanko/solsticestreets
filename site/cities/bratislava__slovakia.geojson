@@ -2363,7 +2363,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "F.-Eisenbarth-Stra\u00dfe",
+        "name": "Ferdinand-Eisenbarth-Stra\u00dfe",
         "type": "residential",
         "slope": 123.28311572669713,
         "sun_diff": 1.9729913864987054,
@@ -2915,7 +2915,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "\u0160tef\u00e1nikova magistr\u00e1la",
+        "name": null,
         "type": "service",
         "slope": 53.26515962462619,
         "sun_diff": 1.4789072046307297,
@@ -2938,7 +2938,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "\u0160tef\u00e1nikova magistr\u00e1la",
+        "name": null,
         "type": "service",
         "slope": 53.5107274282461,
         "sun_diff": 1.2333394010108236,
@@ -2985,7 +2985,7 @@
       "type": "Feature",
       "properties": {
         "name": "Pohrani\u010diarska sign\u00e1lka",
-        "type": "unclassified",
+        "type": "service",
         "slope": 55.777916501666766,
         "sun_diff": 1.0338496724098434,
         "length": 107.88738535953361
@@ -3008,7 +3008,7 @@
       "type": "Feature",
       "properties": {
         "name": "Pohrani\u010diarska sign\u00e1lka",
-        "type": "unclassified",
+        "type": "service",
         "slope": 56.47328425249154,
         "sun_diff": 1.7292174232346156,
         "length": 111.16464718710694
@@ -3031,7 +3031,7 @@
       "type": "Feature",
       "properties": {
         "name": "Pohrani\u010diarska sign\u00e1lka",
-        "type": "unclassified",
+        "type": "service",
         "slope": 54.080120387296716,
         "sun_diff": 0.6639464419602064,
         "length": 691.7170031824262
@@ -3054,7 +3054,7 @@
       "type": "Feature",
       "properties": {
         "name": "Pohrani\u010diarska sign\u00e1lka",
-        "type": "unclassified",
+        "type": "service",
         "slope": 54.20653426977438,
         "sun_diff": 0.5375325594825426,
         "length": 237.59414529280886
@@ -3077,7 +3077,7 @@
       "type": "Feature",
       "properties": {
         "name": "Pohrani\u010diarska sign\u00e1lka",
-        "type": "unclassified",
+        "type": "service",
         "slope": 54.78810086684422,
         "sun_diff": 0.04403403758729496,
         "length": 273.1763198466264
@@ -3100,7 +3100,7 @@
       "type": "Feature",
       "properties": {
         "name": "Pohrani\u010diarska sign\u00e1lka",
-        "type": "unclassified",
+        "type": "service",
         "slope": 55.61124006159952,
         "sun_diff": 0.8671732323425942,
         "length": 203.2381916700627
@@ -3472,29 +3472,6 @@
         "slope": 52.19848974396649,
         "sun_diff": 2.5455770852904323,
         "length": 165.19391620976828
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            17.0831862,
-            48.1710818
-          ],
-          [
-            17.0847216,
-            48.1703427
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Pod Klep\u00e1\u010dom",
-        "type": "residential",
-        "slope": 125.82126177257663,
-        "sun_diff": 0.565154659380795,
-        "length": 140.46710074766457
       }
     },
     {
@@ -4702,8 +4679,8 @@
             48.0768115
           ],
           [
-            17.2738956,
-            48.0758569
+            17.2749893,
+            48.0763252
           ]
         ]
       },
@@ -4711,9 +4688,9 @@
       "properties": {
         "name": "\u010cere\u0161\u0148ov\u00e1",
         "type": "living_street",
-        "slope": 57.3470531263778,
-        "sun_diff": 2.6029862971208786,
-        "length": 196.79266978365777
+        "slope": 57.34750832525211,
+        "sun_diff": 2.6034414959951846,
+        "length": 100.25326892473781
       }
     },
     {
@@ -4783,6 +4760,29 @@
         "slope": 54.32342680719361,
         "sun_diff": 0.42064002206330997,
         "length": 253.06895442146936
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.0539776,
+            48.1962253
+          ],
+          [
+            17.0561226,
+            48.1953089
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 122.65619597631272,
+        "sun_diff": 2.5999111368831223,
+        "length": 188.9009936462103
       }
     },
     {
@@ -6791,12 +6791,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            17.1892133,
-            48.2252407
+            17.1864237,
+            48.2240214
           ],
           [
-            17.1880393,
-            48.2247301
+            17.1849083,
+            48.2233693
           ]
         ]
       },
@@ -6804,32 +6804,9 @@
       "properties": {
         "name": null,
         "type": "secondary",
-        "slope": 56.8622294696863,
-        "sun_diff": 2.118162640429375,
-        "length": 103.89340525881795
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            17.1880393,
-            48.2247301
-          ],
-          [
-            17.1868332,
-            48.2242043
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 56.800597579206084,
-        "sun_diff": 2.056530749949161,
-        "length": 106.81025611496477
+        "slope": 57.14167172410157,
+        "sun_diff": 2.3976048948446476,
+        "length": 133.6850507913816
       }
     },
     {
@@ -7481,8 +7458,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            17.0977613,
-            48.1127251
+            17.0978887,
+            48.1126732
           ],
           [
             17.0965941,
@@ -7494,9 +7471,9 @@
       "properties": {
         "name": "Bratsk\u00e1",
         "type": "secondary",
-        "slope": 124.12413351519234,
-        "sun_diff": 1.1319735980034977,
-        "length": 104.7093875348103
+        "slope": 123.86248246261837,
+        "sun_diff": 1.3936246505774648,
+        "length": 115.78137363849312
       }
     },
     {
@@ -8619,7 +8596,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Obere Hauptstra\u00dfe",
+        "name": "Hauptstra\u00dfe",
         "type": "residential",
         "slope": 126.41980817424303,
         "sun_diff": 1.1637010610471918,
@@ -9597,29 +9574,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            16.9822583,
-            48.0140479
-          ],
-          [
-            16.9833559,
-            48.0134895
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 127.25329282131503,
-        "sun_diff": 1.99718570811919,
-        "length": 102.60440930193933
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             17.1427005,
             48.1839903
           ],
@@ -9958,29 +9912,6 @@
         "slope": 53.06611130515108,
         "sun_diff": 1.6779555241058404,
         "length": 127.79878219074963
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            17.0968417,
-            48.1129872
-          ],
-          [
-            17.0980205,
-            48.1124683
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Bratsk\u00e1",
-        "type": "secondary",
-        "slope": 123.39675774113584,
-        "sun_diff": 1.8593493720599952,
-        "length": 104.85727645170051
       }
     },
     {
@@ -10418,6 +10349,29 @@
         "slope": 56.19013418566294,
         "sun_diff": 1.4460673564060187,
         "length": 138.7071401364278
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.2698185,
+            48.1859945
+          ],
+          [
+            17.268734,
+            48.1854451
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "\u017deliarska",
+        "type": "residential",
+        "slope": 52.77146826696176,
+        "sun_diff": 1.9725985622951612,
+        "length": 101.00809599575774
       }
     }
   ]

@@ -259,12 +259,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.2487065,
-            19.1788622
+            -96.2483236,
+            19.1787172
           ],
           [
-            -96.2438946,
-            19.1770402
+            -96.2446954,
+            19.1773434
           ]
         ]
       },
@@ -272,9 +272,9 @@
       "properties": {
         "name": "Carretera Veracruz - Xalapa",
         "type": "primary",
-        "slope": 111.8453957366903,
-        "sun_diff": 2.696658078370092,
-        "length": 544.6330530484975
+        "slope": 111.84545556652773,
+        "sun_diff": 2.6965982485326663,
+        "length": 410.65632065364605
       }
     },
     {
@@ -731,7 +731,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Paseo de los Juncos",
-        "type": "residential",
+        "type": "secondary",
         "slope": 117.279263598348,
         "sun_diff": 2.7372097832875966,
         "length": 103.8695615710501
@@ -1697,7 +1697,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida C\u00e1ndido Aguilar",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 67.8558111049681,
         "sun_diff": 2.3965435057951936,
         "length": 134.35309064192379
@@ -2720,8 +2720,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.2177343,
-            19.2170642
+            -96.2173332,
+            19.2168905
           ],
           [
             -96.2164217,
@@ -2733,9 +2733,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 114.63167408133839,
-        "sun_diff": 0.08962026627798991,
-        "length": 151.66589771328623
+        "slope": 114.62943254529623,
+        "sun_diff": 0.08737873023582665,
+        "length": 105.31848734892208
       }
     },
     {
@@ -4238,12 +4238,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.2107193,
-            19.1632438
+            -96.2116493,
+            19.163585
           ],
           [
-            -96.2097292,
-            19.1628566
+            -96.2104064,
+            19.1630806
           ]
         ]
       },
@@ -4251,9 +4251,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 112.49015616117265,
-        "sun_diff": 2.0518976538877496,
-        "length": 112.58919633037208
+        "slope": 113.24989852557945,
+        "sun_diff": 1.2921552894809452,
+        "length": 142.1288407719294
       }
     },
     {
@@ -7424,7 +7424,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cabo Dos Bah\u00edas",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 66.48430094989772,
         "sun_diff": 1.0250333507248115,
         "length": 131.35718643803
@@ -7447,7 +7447,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cabo Dos Bah\u00edas",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 67.15865558666212,
         "sun_diff": 1.6993879874892173,
         "length": 130.6627157044263
@@ -7470,7 +7470,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cabo Dos Bah\u00edas",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 67.67795084473289,
         "sun_diff": 2.218683245559987,
         "length": 102.49928545415473
@@ -7493,7 +7493,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cabo Dos Bah\u00edas",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 67.264765613327,
         "sun_diff": 1.8054980141540966,
         "length": 102.43052305859564
@@ -9647,8 +9647,8 @@
             19.2165654
           ],
           [
-            -96.2183376,
-            19.2175329
+            -96.2172434,
+            19.2170697
           ]
         ]
       },
@@ -9656,9 +9656,9 @@
       "properties": {
         "name": "Autopista Veracruz - Cardel",
         "type": "trunk",
-        "slope": 114.14493042917132,
-        "sun_diff": 0.39712338588907414,
-        "length": 263.0879755684798
+        "slope": 114.14305687342488,
+        "sun_diff": 0.3989969416355166,
+        "length": 137.14190132215109
       }
     },
     {
@@ -9666,12 +9666,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.2187593,
-            19.217727
+            -96.2172434,
+            19.2170697
           ],
           [
-            -96.2200481,
-            19.2182766
+            -96.2183341,
+            19.2175012
           ]
         ]
       },
@@ -9679,9 +9679,9 @@
       "properties": {
         "name": "Autopista Veracruz - Cardel",
         "type": "trunk",
-        "slope": 114.30445080961238,
-        "sun_diff": 0.2376030054480225,
-        "length": 148.52819712716075
+        "slope": 112.73192404685295,
+        "sun_diff": 1.810129768207446,
+        "length": 124.20611353422933
       }
     },
     {
@@ -9689,8 +9689,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.2199428,
-            19.2181272
+            -96.2188296,
+            19.2177124
+          ],
+          [
+            -96.2202536,
+            19.2183207
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Autopista Veracruz - Cardel",
+        "type": "trunk",
+        "slope": 114.34142627658389,
+        "sun_diff": 0.20062753847651038,
+        "length": 164.15722441126405
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.2200702,
+            19.2181439
           ],
           [
             -96.2187016,
@@ -9702,9 +9725,9 @@
       "properties": {
         "name": "Autopista Veracruz - Cardel",
         "type": "trunk",
-        "slope": 113.89696883488722,
-        "sun_diff": 0.6450849801731806,
-        "length": 142.58835610714098
+        "slope": 112.52638115404318,
+        "sun_diff": 2.01567266101722,
+        "length": 155.6192669606289
       }
     },
     {
@@ -9714,6 +9737,29 @@
           [
             -96.2187016,
             19.2176079
+          ],
+          [
+            -96.2172824,
+            19.2169918
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Autopista Veracruz - Cardel",
+        "type": "trunk",
+        "slope": 114.68988722838591,
+        "sun_diff": 0.14783341332551458,
+        "length": 164.05911575093944
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.2172824,
+            19.2169918
           ],
           [
             -96.2161791,
@@ -9725,9 +9771,78 @@
       "properties": {
         "name": "Autopista Veracruz - Cardel",
         "type": "trunk",
-        "slope": 114.68858908363109,
-        "sun_diff": 0.14653526857068755,
-        "length": 291.5977431084302
+        "slope": 114.68700070577182,
+        "sun_diff": 0.14494689071142375,
+        "length": 127.5386274772841
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.2464575,
+            19.1756999
+          ],
+          [
+            -96.2455701,
+            19.1753507
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 112.61780045476826,
+        "sun_diff": 1.9242533602921412,
+        "length": 100.99643295919502
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.2473171,
+            19.1749086
+          ],
+          [
+            -96.2457397,
+            19.1743019
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 112.15668282304969,
+        "sun_diff": 2.3853709920107065,
+        "length": 178.93331075494729
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.2492522,
+            19.1788176
+          ],
+          [
+            -96.2516102,
+            19.1797621
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 112.98139242632183,
+        "sun_diff": 1.5606613887385663,
+        "length": 269.0783267993302
       }
     }
   ]
