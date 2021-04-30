@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 64.72962989493706,
         "sun_diff": 1.795365780811295,
         "length": 243.12718898017167
@@ -41,7 +41,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 64.87836146568856,
         "sun_diff": 1.6466342100598013,
         "length": 187.40868281033323
@@ -408,8 +408,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "tertiary",
+        "name": "Pomolok Road",
+        "type": "secondary",
         "slope": 66.08553564198013,
         "sun_diff": 0.43946003376822773,
         "length": 138.4567733129462
@@ -8424,29 +8424,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.0628743,
-            6.1344477
-          ],
-          [
-            125.0643314,
-            6.1338894
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 111.07489532202274,
-        "sun_diff": 2.39916279365778,
-        "length": 172.69650010506058
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             125.0985773,
             5.9642293
           ],
@@ -8654,12 +8631,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.1476844,
-            6.1136259
+            125.1456258,
+            6.1109283
           ],
           [
-            125.1490111,
-            6.1141269
+            125.1465294,
+            6.1112697
           ]
         ]
       },
@@ -8667,9 +8644,32 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 69.203771106066,
-        "sun_diff": 2.6787754303176428,
-        "length": 156.95503747855744
+        "slope": 69.19413667297462,
+        "sun_diff": 2.6691409972262647,
+        "length": 106.90764352632414
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.1465417,
+            6.1108016
+          ],
+          [
+            125.1454246,
+            6.1103522
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 67.97222490662492,
+        "sun_diff": 1.4472292308765589,
+        "length": 133.27787505151176
       }
     }
   ]

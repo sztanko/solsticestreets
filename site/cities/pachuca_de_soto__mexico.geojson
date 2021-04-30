@@ -1950,7 +1950,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Paseos de Chavarr\u00eda",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 112.56573284270686,
         "sun_diff": 2.1214624922162955,
         "length": 146.49248367017685
@@ -2157,7 +2157,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 111.73618729327848,
         "sun_diff": 2.951008041644684,
         "length": 143.65742510156412
@@ -2202,7 +2202,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Carretera a Huasca",
         "type": "secondary",
         "slope": 63.49745147956597,
         "sun_diff": 1.8160052412055165,
@@ -5871,12 +5871,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -98.6645354,
-            20.0390919
+            -98.6645986,
+            20.0390131
           ],
           [
-            -98.6667706,
-            20.0399285
+            -98.6668175,
+            20.039884
           ]
         ]
       },
@@ -5884,9 +5884,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 111.72263669075392,
-        "sun_diff": 2.9645586441692444,
-        "length": 251.42291013886282
+        "slope": 112.6745367557586,
+        "sun_diff": 2.0126585791645653,
+        "length": 251.28739941283084
       }
     },
     {
@@ -5990,8 +5990,8 @@
             20.0450361
           ],
           [
-            -98.6759774,
-            20.0442494
+            -98.6760304,
+            20.0442148
           ]
         ]
       },
@@ -5999,9 +5999,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 115.34988453148867,
-        "sun_diff": 0.6626891965655091,
-        "length": 204.3802063900604
+        "slope": 117.0165167907443,
+        "sun_diff": 2.3293214558211446,
+        "length": 201.10821949561551
       }
     },
     {
@@ -6009,12 +6009,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -98.6759774,
-            20.0442494
+            -98.6760304,
+            20.0442148
           ],
           [
-            -98.6732572,
-            20.0429837
+            -98.6733466,
+            20.0429172
           ]
         ]
       },
@@ -6022,9 +6022,32 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 116.34892691937023,
-        "sun_diff": 1.6617315844470681,
-        "length": 317.19590845039136
+        "slope": 117.23322921274612,
+        "sun_diff": 2.546033877822964,
+        "length": 315.4000152917144
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.6733033,
+            20.0428986
+          ],
+          [
+            -98.6718862,
+            20.0422102
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 117.34330141275558,
+        "sun_diff": 2.656106077832419,
+        "length": 166.70364547214695
       }
     },
     {
@@ -6653,12 +6676,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -98.8690307,
-            20.1594939
+            -98.869079,
+            20.1594738
           ],
           [
-            -98.8671925,
-            20.1587545
+            -98.8671845,
+            20.1587218
           ]
         ]
       },
@@ -6666,32 +6689,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 113.19465102276655,
-        "sun_diff": 1.4925443121566104,
-        "length": 208.8152858621755
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -98.8670597,
-            20.1656953
-          ],
-          [
-            -98.8654133,
-            20.1649411
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 116.01251208370297,
-        "sun_diff": 1.3253167487798123,
-        "length": 191.2804601949472
+        "slope": 112.92063904397943,
+        "sun_diff": 1.7665562909437256,
+        "length": 214.77321328789284
       }
     },
     {
@@ -7217,7 +7217,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Revoluci\u00f3n",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.28686131050807,
         "sun_diff": 0.4003340244150877,
         "length": 107.98332472507214
@@ -7240,7 +7240,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Revoluci\u00f3n",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 112.1986538486685,
         "sun_diff": 2.488541486254661,
         "length": 107.07329926020635
@@ -10954,29 +10954,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -98.8508095,
-            20.1359028
-          ],
-          [
-            -98.8519634,
-            20.1364452
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 116.59532825505832,
-        "sun_diff": 1.9081329201351593,
-        "length": 134.76213482058375
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -98.6583315,
             20.0731406
           ],
@@ -10993,29 +10970,6 @@
         "slope": 116.77557556582227,
         "sun_diff": 2.088380230899105,
         "length": 213.35083147284186
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -98.859216,
-            20.1371345
-          ],
-          [
-            -98.8582515,
-            20.1375564
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 65.01869940354962,
-        "sun_diff": 0.2947573172218654,
-        "length": 111.11869278844286
       }
     },
     {
@@ -12541,8 +12495,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -98.845788,
-            20.1665017
+            -98.8458309,
+            20.1665067
           ],
           [
             -98.8467688,
@@ -12554,9 +12508,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 111.74409735222042,
-        "sun_diff": 2.9430979827027386,
-        "length": 110.25061654679519
+        "slope": 112.36246368336461,
+        "sun_diff": 2.324731651558551,
+        "length": 105.89023568187166
       }
     },
     {
@@ -14190,6 +14144,29 @@
         "slope": 115.59333109771364,
         "sun_diff": 0.906135762790484,
         "length": 133.4300623008458
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.8664986,
+            20.1580208
+          ],
+          [
+            -98.8673858,
+            20.1575958
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 62.96517153752208,
+        "sun_diff": 2.348285183249402,
+        "length": 104.00285262626487
       }
     }
   ]
