@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "Asse dei servizi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.43878924555503,
         "sun_diff": 0.45856768620970456,
         "length": 183.90438715880072
@@ -41,7 +41,7 @@
       "type": "Feature",
       "properties": {
         "name": "Asse dei servizi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.34673099122517,
         "sun_diff": 0.550625940539561,
         "length": 213.35340552895886
@@ -183,29 +183,6 @@
         "slope": 61.564310898561985,
         "sun_diff": 1.0799345247729093,
         "length": 121.88847433898373
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            15.0435207,
-            37.4646082
-          ],
-          [
-            15.0421994,
-            37.464011
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 60.34139199150107,
-        "sun_diff": 0.5559649402636637,
-        "length": 134.24028369969005
       }
     },
     {
@@ -432,7 +409,7 @@
       "type": "Feature",
       "properties": {
         "name": "Asse dei servizi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.098636310413326,
         "sun_diff": 0.7987206213514071,
         "length": 152.28354380121726
@@ -455,7 +432,7 @@
       "type": "Feature",
       "properties": {
         "name": "Asse dei servizi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 59.9934600167627,
         "sun_diff": 0.9038969150020364,
         "length": 154.17802411886345
@@ -1490,7 +1467,7 @@
       "type": "Feature",
       "properties": {
         "name": "Asse dei servizi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.31639783832756,
         "sun_diff": 0.5809590934371727,
         "length": 247.36318388659566
@@ -1513,7 +1490,7 @@
       "type": "Feature",
       "properties": {
         "name": "Asse dei servizi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.56992434982902,
         "sun_diff": 0.32743258193571023,
         "length": 236.87325419537953
@@ -1536,7 +1513,7 @@
       "type": "Feature",
       "properties": {
         "name": "Asse dei servizi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.21972308386364,
         "sun_diff": 0.6776338479010917,
         "length": 140.8418644041987
@@ -1559,7 +1536,7 @@
       "type": "Feature",
       "properties": {
         "name": "Asse dei servizi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.47809599937534,
         "sun_diff": 0.4192609323893919,
         "length": 180.69753740244067
@@ -2525,7 +2502,7 @@
       "type": "Feature",
       "properties": {
         "name": "Asse dei servizi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.35111577383253,
         "sun_diff": 0.5462411579322008,
         "length": 148.10950879935734
@@ -2548,7 +2525,7 @@
       "type": "Feature",
       "properties": {
         "name": "Asse dei servizi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.810574226510454,
         "sun_diff": 0.08678270525427934,
         "length": 164.62216095587823
@@ -2571,7 +2548,7 @@
       "type": "Feature",
       "properties": {
         "name": "Asse dei servizi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.31329214224348,
         "sun_diff": 0.5840647895212498,
         "length": 319.50412048985845
@@ -3058,6 +3035,29 @@
         "slope": 121.8688387310226,
         "sun_diff": 2.766021720334578,
         "length": 102.42893157770106
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.9922676,
+            37.3655932
+          ],
+          [
+            14.9912658,
+            37.3650954
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 57.986050245400094,
+        "sun_diff": 2.9113066863646395,
+        "length": 104.44707099063902
       }
     }
   ]

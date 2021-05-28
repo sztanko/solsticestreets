@@ -857,6 +857,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            123.9133881,
+            10.3460728
+          ],
+          [
+            123.9144583,
+            10.3456249
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.04667217449295,
+        "sun_diff": 0.6047932746894702,
+        "length": 127.25990350589144
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             123.9130699,
             10.3391658
           ],
@@ -1011,6 +1034,29 @@
         "slope": 111.61967437706176,
         "sun_diff": 2.0317910721206687,
         "length": 123.20161024220283
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.9198948,
+            10.3298585
+          ],
+          [
+            123.9188498,
+            10.330316
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.98966498650859,
+        "sun_diff": 0.3381995373261617,
+        "length": 125.16282047852278
       }
     },
     {
@@ -1397,7 +1443,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Mamgga 2",
         "type": "residential",
         "slope": 112.89522111923986,
         "sun_diff": 0.756244329942561,
@@ -1949,7 +1995,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "A. Soriano Avenue",
+        "name": "Ouano Avenue",
         "type": "trunk",
         "slope": 110.78682085435483,
         "sun_diff": 2.8646445948275954,
@@ -2322,29 +2368,6 @@
         "slope": 115.52038570453132,
         "sun_diff": 1.8689202553488968,
         "length": 110.62777924971174
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            124.0071098,
-            10.4630457
-          ],
-          [
-            124.0083142,
-            10.4625657
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 112.06157684777978,
-        "sun_diff": 1.5898886014026488,
-        "length": 142.14558296688335
       }
     },
     {
@@ -3099,7 +3122,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "A. Del Rosario",
+        "name": "A.O. Del Rosario",
         "type": "tertiary",
         "slope": 65.93358808105597,
         "sun_diff": 0.413959280055451,
@@ -3111,45 +3134,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            123.9000389,
-            10.2962748
-          ],
-          [
-            123.8990442,
-            10.2967213
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Legaspi",
-        "type": "tertiary",
-        "slope": 114.52372670336948,
-        "sun_diff": 0.8722612541870518,
-        "length": 119.65245863832351
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             123.8976757,
             10.2959506
           ],
           [
-            123.8965372,
-            10.2954451
+            123.8967643,
+            10.2955459
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Colon",
+        "name": "Colon Street",
         "type": "secondary",
-        "slope": 65.71172039863026,
-        "sun_diff": 0.6358269624811612,
-        "length": 136.69542324792542
+        "slope": 65.70993010088361,
+        "sun_diff": 0.6376172602278132,
+        "length": 109.42990099429292
       }
     },
     {
@@ -3157,8 +3157,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            123.8963017,
-            10.2955427
+            123.8962541,
+            10.2955717
           ],
           [
             123.8952443,
@@ -3170,9 +3170,9 @@
       "properties": {
         "name": "A. Borromeo",
         "type": "tertiary",
-        "slope": 114.72644108922694,
-        "sun_diff": 1.0749756400445136,
-        "length": 127.40136981797461
+        "slope": 114.3717963196722,
+        "sun_diff": 0.7203308704897751,
+        "length": 121.32276190190021
       }
     },
     {
@@ -3184,8 +3184,8 @@
             10.2961498
           ],
           [
-            123.8940392,
-            10.2965434
+            123.8940164,
+            10.2965447
           ]
         ]
       },
@@ -3193,9 +3193,9 @@
       "properties": {
         "name": "A. Borromeo",
         "type": "tertiary",
-        "slope": 113.27063415562364,
-        "sun_diff": 0.380831293558785,
-        "length": 110.81469742853038
+        "slope": 112.83878501472992,
+        "sun_diff": 0.8126804344525027,
+        "length": 113.16725300160091
       }
     },
     {
@@ -3253,18 +3253,18 @@
             10.2957536
           ],
           [
-            123.9000389,
-            10.2962748
+            123.9002884,
+            10.2961693
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Legaspi",
+        "name": "Legaspi Street",
         "type": "tertiary",
-        "slope": 113.25305035701658,
-        "sun_diff": 0.39841509216584825,
-        "length": 146.84420220356304
+        "slope": 113.25219181550221,
+        "sun_diff": 0.3992736336802096,
+        "length": 117.12443402295021
       }
     },
     {
@@ -3272,8 +3272,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            123.9423264,
-            10.3267606
+            123.9423041,
+            10.3267668
           ],
           [
             123.941265,
@@ -3285,9 +3285,9 @@
       "properties": {
         "name": "P. Gomez Street",
         "type": "unclassified",
-        "slope": 111.15130602381532,
-        "sun_diff": 2.5001594253671016,
-        "length": 124.53681243496754
+        "slope": 111.26276446657752,
+        "sun_diff": 2.3887009826049024,
+        "length": 122.01235635586386
       }
     },
     {
@@ -3306,7 +3306,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "A. Soriano Avenue",
+        "name": "Ouano Avenue",
         "type": "trunk",
         "slope": 110.92307142665166,
         "sun_diff": 2.7283940225307646,
@@ -3679,29 +3679,6 @@
         "slope": 111.14633880280616,
         "sun_diff": 2.5051266463762687,
         "length": 125.76706576928532
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            123.7576242,
-            10.2038578
-          ],
-          [
-            123.7593944,
-            10.2031411
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 112.36104251483255,
-        "sun_diff": 1.290422934349877,
-        "length": 209.5415775403687
       }
     },
     {
@@ -4127,8 +4104,8 @@
             10.2957361
           ],
           [
-            123.8622768,
-            10.2962437
+            123.8622728,
+            10.2962417
           ]
         ]
       },
@@ -4136,9 +4113,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 115.98224877949036,
-        "sun_diff": 2.3307833303079377,
-        "length": 128.87752915832726
+        "slope": 115.80848458731268,
+        "sun_diff": 2.157019138130252,
+        "length": 129.1741767730998
       }
     },
     {
@@ -4203,7 +4180,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Gov.M.Cuenco Avenue",
+        "name": "Governor M. Cuenco Avenue",
         "type": "residential",
         "slope": 113.68512406084454,
         "sun_diff": 0.03365861166211914,
@@ -4284,12 +4261,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            124.007236,
-            10.4686089
+            124.0072587,
+            10.468639
           ],
           [
-            124.0081714,
-            10.4682141
+            124.0082183,
+            10.4682015
           ]
         ]
       },
@@ -4297,9 +4274,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 113.22945704743037,
-        "sun_diff": 0.422008401752052,
-        "length": 111.33851585072834
+        "slope": 114.87413385725884,
+        "sun_diff": 1.2226684080764159,
+        "length": 115.69182763482887
       }
     },
     {
