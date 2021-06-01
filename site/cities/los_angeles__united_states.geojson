@@ -4802,7 +4802,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 60.64509162627428,
         "sun_diff": 1.3640015363150724,
         "length": 107.64053026592224
@@ -4825,7 +4825,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 60.63749633779136,
         "sun_diff": 1.3715968247979902,
         "length": 101.80795203962998
@@ -4848,7 +4848,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 60.64132453444262,
         "sun_diff": 1.3677686281467345,
         "length": 108.0590042781467
@@ -4871,7 +4871,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 60.642068660001854,
         "sun_diff": 1.3670245025874976,
         "length": 103.45590616668827
@@ -4894,7 +4894,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 60.63980505515812,
         "sun_diff": 1.369288107431231,
         "length": 102.17822121979619
@@ -5986,8 +5986,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.6363127,
-            34.1505494
+            -118.6363245,
+            34.1505491
           ],
           [
             -118.6343506,
@@ -5999,9 +5999,9 @@
       "properties": {
         "name": "Park Sienna",
         "type": "residential",
-        "slope": 117.3112423108951,
-        "sun_diff": 0.680193638805136,
-        "length": 203.2715568547085
+        "slope": 117.16310230126959,
+        "sun_diff": 0.8283336484306432,
+        "length": 204.2220419669259
       }
     },
     {
@@ -11955,7 +11955,7 @@
       "type": "Feature",
       "properties": {
         "name": "Montclair Street",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 117.86089294636827,
         "sun_diff": 0.13054300333196522,
         "length": 140.83274232373725
@@ -13914,29 +13914,6 @@
         "slope": 64.64323614220274,
         "sun_diff": 2.6341429796133866,
         "length": 124.69620426346245
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.428823,
-            34.0405061
-          ],
-          [
-            -118.4278537,
-            34.0409695
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 60.01748588661019,
-        "sun_diff": 1.9916072759791632,
-        "length": 103.14254649172878
       }
     },
     {
@@ -16536,6 +16513,29 @@
         "slope": 59.791226099006764,
         "sun_diff": 2.217867063582588,
         "length": 130.8485886856725
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.4507635,
+            33.9935234
+          ],
+          [
+            -118.4498046,
+            33.9930588
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 120.30120952725386,
+        "sun_diff": 2.309773577553628,
+        "length": 102.42334800617178
       }
     },
     {
@@ -23294,7 +23294,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 117.60316001293512,
         "sun_diff": 0.38827593676511185,
         "length": 355.50004222185083
@@ -31796,8 +31796,8 @@
             34.1524339
           ],
           [
-            -118.6492435,
-            34.1529278
+            -118.6492382,
+            34.1529145
           ]
         ]
       },
@@ -31805,9 +31805,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 62.057663540809756,
-        "sun_diff": 0.04859769897709043,
-        "length": 117.23979308506289
+        "slope": 62.809711598940936,
+        "sun_diff": 0.8006457571082706,
+        "length": 116.98765697107164
       }
     },
     {
@@ -33533,29 +33533,6 @@
         "slope": 115.21021150316946,
         "sun_diff": 2.7812244465307714,
         "length": 147.88361051028724
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.3866342,
-            33.9061795
-          ],
-          [
-            -118.3876492,
-            33.9057501
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 62.990665810470716,
-        "sun_diff": 0.9815726478813644,
-        "length": 105.17120807324885
       }
     },
     {
@@ -35430,7 +35407,7 @@
             34.1882509
           ],
           [
-            -118.5536667,
+            -118.5536641,
             34.1877795
           ]
         ]
@@ -35439,9 +35416,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 120.06928368312666,
-        "sun_diff": 2.077847733426424,
-        "length": 104.64816403192495
+        "slope": 120.00378760098067,
+        "sun_diff": 2.01235165128044,
+        "length": 104.8552613949349
       }
     },
     {

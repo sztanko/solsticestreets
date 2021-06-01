@@ -87,7 +87,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kalluwala Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 118.86959837084618,
         "sun_diff": 1.2102735393486483,
         "length": 451.94867560515763
@@ -110,7 +110,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kalluwala Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 119.00346394898466,
         "sun_diff": 1.3441391174871313,
         "length": 274.6421478559158
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kalluwala Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 119.41654439247691,
         "sun_diff": 1.7572195609793795,
         "length": 125.41641631800417
@@ -340,7 +340,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "primary",
         "slope": 119.10130853986803,
         "sun_diff": 1.4419837083705005,
         "length": 180.1012427533255
@@ -363,7 +363,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "primary",
         "slope": 119.09688345575972,
         "sun_diff": 1.437558624262195,
         "length": 224.31702171049437
@@ -386,7 +386,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "primary",
         "slope": 119.10119104874522,
         "sun_diff": 1.4418662172476928,
         "length": 205.7849116369486
@@ -1862,29 +1862,6 @@
         "slope": 114.85116649683468,
         "sun_diff": 2.808158334662849,
         "length": 130.48076689917056
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            74.5166682,
-            32.4999953
-          ],
-          [
-            74.517857,
-            32.4994304
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Aslam Street",
-        "type": "residential",
-        "slope": 119.39769993585142,
-        "sun_diff": 2.0525501457961326,
-        "length": 128.00484698769458
       }
     },
     {
@@ -4852,6 +4829,75 @@
         "slope": 60.65868910911482,
         "sun_diff": 1.6815043036800716,
         "length": 176.91894583274873
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.4141553,
+            32.5499966
+          ],
+          [
+            74.4169448,
+            32.5488571
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Sialkot Airport Road",
+        "type": "primary",
+        "slope": 115.85542431551505,
+        "sun_diff": 1.8039005159824768,
+        "length": 290.633382941012
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.4169448,
+            32.5488571
+          ],
+          [
+            74.4217513,
+            32.5465961
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Sialkot Airport Road",
+        "type": "primary",
+        "slope": 119.16339421317284,
+        "sun_diff": 1.5040693816753077,
+        "length": 516.0830690732462
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.5166682,
+            32.4999953
+          ],
+          [
+            74.517857,
+            32.4994304
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Aslam Street",
+        "type": "residential",
+        "slope": 119.39769993585142,
+        "sun_diff": 2.0525501457961326,
+        "length": 128.00484698769458
       }
     }
   ]
