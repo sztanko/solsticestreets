@@ -328,29 +328,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -100.9924121,
-            25.4482314
-          ],
-          [
-            -100.9914994,
-            25.4478353
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Perif\u00e9rico Luis Echeverr\u00eda \u00c1lvarez",
-        "type": "secondary",
-        "slope": 115.66978413904312,
-        "sun_diff": 0.09637175931079867,
-        "length": 101.70757853051587
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -100.9911153,
             25.4477593
           ],
@@ -1149,29 +1126,6 @@
         "slope": 113.15470471921375,
         "sun_diff": 2.418707660518564,
         "length": 113.54526017641764
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -100.9788422,
-            25.4429441
-          ],
-          [
-            -100.9798975,
-            25.4433928
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Perif\u00e9rico Luis Echeverr\u00eda \u00c1lvarez",
-        "type": "secondary",
-        "slope": 115.21365088010927,
-        "sun_diff": 0.3597614996230476,
-        "length": 117.15846200141415
       }
     },
     {
@@ -7493,7 +7447,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida San Juan Bautista",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 118.46668058194302,
         "sun_diff": 2.893268202210706,
         "length": 101.72088255042509
@@ -7516,7 +7470,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida San Juan Bautista",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 116.16172290810587,
         "sun_diff": 0.5883105283735546,
         "length": 147.25287923565926
@@ -7539,7 +7493,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida San Juan Bautista",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 116.62882906168124,
         "sun_diff": 1.0554166819489268,
         "length": 179.91929291995007
@@ -7562,7 +7516,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida San Juan Bautista",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 116.64963118444248,
         "sun_diff": 1.076218804710166,
         "length": 161.6862520002012
@@ -10966,7 +10920,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Ignacio Zaragoza",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.51752286888404,
         "sun_diff": 1.0558895108482744,
         "length": 142.51823993095593
@@ -11035,7 +10989,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Ignacio Zaragoza",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 115.1487546894079,
         "sun_diff": 0.42465769032442324,
         "length": 216.66552687792125
@@ -11058,7 +11012,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Ignacio Zaragoza",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 113.61007379217614,
         "sun_diff": 1.96333858755618,
         "length": 134.3331265814296
@@ -11840,7 +11794,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Universidad",
-        "type": "secondary",
+        "type": "primary",
         "slope": 114.03920469343302,
         "sun_diff": 1.5342076862992968,
         "length": 114.21637933257
@@ -11863,7 +11817,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Universidad",
-        "type": "secondary",
+        "type": "primary",
         "slope": 113.5215869568519,
         "sun_diff": 2.0518254228804125,
         "length": 105.96367680415676
@@ -11886,7 +11840,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Universidad",
-        "type": "secondary",
+        "type": "primary",
         "slope": 112.64222542034,
         "sun_diff": 2.9311869593923205,
         "length": 142.55681563466385
@@ -11909,7 +11863,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Universidad",
-        "type": "secondary",
+        "type": "primary",
         "slope": 113.36969690581188,
         "sun_diff": 2.2037154739204396,
         "length": 135.32818351152557
@@ -11932,7 +11886,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Universidad",
-        "type": "secondary",
+        "type": "primary",
         "slope": 112.7225168195072,
         "sun_diff": 2.850895560225112,
         "length": 135.5717176189331
@@ -13703,10 +13657,56 @@
       "type": "Feature",
       "properties": {
         "name": "Perif\u00e9rico Luis Echeverr\u00eda \u00c1lvarez",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 115.98183947451307,
         "sun_diff": 0.40842709478074823,
         "length": 103.5403162657541
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.9788422,
+            25.4429441
+          ],
+          [
+            -100.9798975,
+            25.4433928
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 115.21365088010927,
+        "sun_diff": 0.3597614996230476,
+        "length": 117.15846200141415
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.980634,
+            25.4436987
+          ],
+          [
+            -100.9816276,
+            25.4440924
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 113.69172472501828,
+        "sun_diff": 1.8816876547140424,
+        "length": 108.98345859014823
       }
     },
     {
@@ -13749,7 +13749,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 62.91988327266796,
         "sun_diff": 1.5081077241030698,
         "length": 133.8706141488445
@@ -13772,7 +13772,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 66.19302938234247,
         "sun_diff": 1.7650383855714438,
         "length": 102.86476766030977
@@ -13795,7 +13795,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 64.17691381569725,
         "sun_diff": 0.2510771810737822,
         "length": 307.67259905739377
@@ -13818,7 +13818,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 64.08370030289154,
         "sun_diff": 0.3442906938794863,
         "length": 345.8342938158717
@@ -13841,7 +13841,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 62.59813658348634,
         "sun_diff": 1.8298544132846928,
         "length": 127.72969395853502
@@ -13864,7 +13864,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 63.673565808548204,
         "sun_diff": 0.7544251882228252,
         "length": 1699.8428251396456
@@ -13879,18 +13879,18 @@
             25.318886
           ],
           [
-            -100.8880386,
-            25.3178112
+            -100.8876016,
+            25.3179548
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
-        "slope": 65.9003829562433,
-        "sun_diff": 1.4723919594722759,
-        "length": 292.7804331398053
+        "type": "tertiary",
+        "slope": 65.11811046033657,
+        "sun_diff": 0.6901194635655372,
+        "length": 246.17259100389387
       }
     },
     {
@@ -14197,29 +14197,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -100.9598668,
-            25.2854909
-          ],
-          [
-            -100.9589186,
-            25.2858698
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 66.15731832452465,
-        "sun_diff": 1.729327327753623,
-        "length": 104.26088017829196
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -101.0924618,
             25.5353995
           ],
@@ -14416,7 +14393,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Universidad",
-        "type": "secondary",
+        "type": "primary",
         "slope": 112.88068541447731,
         "sun_diff": 2.692726965255005,
         "length": 101.6709657359787
@@ -14439,7 +14416,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Universidad",
-        "type": "secondary",
+        "type": "primary",
         "slope": 112.6022017467148,
         "sun_diff": 2.9712106330175203,
         "length": 112.72570508582702
@@ -14462,7 +14439,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Universidad",
-        "type": "secondary",
+        "type": "primary",
         "slope": 113.2060626338249,
         "sun_diff": 2.3673497459074184,
         "length": 110.87988789379736
@@ -14772,6 +14749,167 @@
         "type": "LineString",
         "coordinates": [
           [
+            -100.9256839,
+            25.488793
+          ],
+          [
+            -100.9269849,
+            25.4893361
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.81873061304927,
+        "sun_diff": 0.7546817666830492,
+        "length": 143.91710388485438
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.9267809,
+            25.4897753
+          ],
+          [
+            -100.9254636,
+            25.4892391
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.27233072524442,
+        "sun_diff": 1.301081654487902,
+        "length": 145.08653065724624
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.9270598,
+            25.4891748
+          ],
+          [
+            -100.9257599,
+            25.4886423
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.40933521660614,
+        "sun_diff": 1.16407716312618,
+        "length": 143.32577314072802
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.9254433,
+            25.4923771
+          ],
+          [
+            -100.9241934,
+            25.4918575
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle R\u00edo Nilo",
+        "type": "residential",
+        "slope": 114.72840416649768,
+        "sun_diff": 0.8450082132346353,
+        "length": 138.16044135265966
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.9250494,
+            25.4931513
+          ],
+          [
+            -100.9238179,
+            25.4926201
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle R\u00edo Nilo",
+        "type": "residential",
+        "slope": 115.54168267519572,
+        "sun_diff": 0.031729704536601844,
+        "length": 137.03529494099703
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.9251277,
+            25.4929975
+          ],
+          [
+            -100.9238135,
+            25.4924524
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle R\u00edo Nilo",
+        "type": "residential",
+        "slope": 114.67946538600594,
+        "sun_diff": 0.8939469937263738,
+        "length": 145.2101818794652
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.9240627,
+            25.4919878
+          ],
+          [
+            -100.9253686,
+            25.4925239
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle R\u00edo Nilo",
+        "type": "residential",
+        "slope": 114.45604843891661,
+        "sun_diff": 1.1173639408157072,
+        "length": 144.03654841574686
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -100.924674,
             25.4907933
           ],
@@ -15071,75 +15209,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -101.0348607,
-            25.3638399
-          ],
-          [
-            -101.0332688,
-            25.3631812
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Boulevard Hacienda Narro",
-        "type": "residential",
-        "slope": 114.60403480819048,
-        "sun_diff": 0.9693775715418411,
-        "length": 175.9765524643171
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -101.0325768,
-            25.3629025
-          ],
-          [
-            -101.0314469,
-            25.3624444
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Boulevard Hacienda Narro",
-        "type": "residential",
-        "slope": 114.16479718778649,
-        "sun_diff": 1.4086151919458274,
-        "length": 124.47232117412518
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -101.0314469,
-            25.3624444
-          ],
-          [
-            -101.0300872,
-            25.3619181
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Boulevard Hacienda Narro",
-        "type": "residential",
-        "slope": 113.18813768047619,
-        "sun_diff": 2.3852746992561293,
-        "length": 148.6727992087409
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -101.0300427,
             25.3620379
           ],
@@ -15152,7 +15221,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Hacienda Narro",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 112.79421637675833,
         "sun_diff": 2.7791960029739897,
         "length": 149.58048379960874
@@ -15175,7 +15244,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Hacienda Narro",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 114.2739049534512,
         "sun_diff": 1.2995074262811244,
         "length": 121.9987944930194
@@ -15198,10 +15267,33 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Hacienda Narro",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 114.41634846685795,
         "sun_diff": 1.1570639128743636,
         "length": 179.3450959566404
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -101.0378301,
+            25.3651758
+          ],
+          [
+            -101.0388485,
+            25.3655922
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Boulevard Hacienda Narro",
+        "type": "tertiary",
+        "slope": 114.34680260952717,
+        "sun_diff": 1.226609770205144,
+        "length": 112.34733842760839
       }
     },
     {
@@ -16624,7 +16716,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Gustavo D\u00edaz Ordaz",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 114.26263623600622,
         "sun_diff": 1.52289449859002,
         "length": 101.85887371559376
@@ -16647,7 +16739,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Gustavo D\u00edaz Ordaz",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 115.12910467261722,
         "sun_diff": 0.656426061979019,
         "length": 160.98078538203845
@@ -16670,7 +16762,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Gustavo D\u00edaz Ordaz",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 115.45599496084466,
         "sun_diff": 0.32953577375157295,
         "length": 161.55901332792612
@@ -16693,7 +16785,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Gustavo D\u00edaz Ordaz",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 116.38164683668626,
         "sun_diff": 0.5961161020900221,
         "length": 134.4478173319779
@@ -16716,7 +16808,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Gustavo D\u00edaz Ordaz",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 115.32465160695625,
         "sun_diff": 0.4608791276399842,
         "length": 183.11822642609093
@@ -16739,7 +16831,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Gustavo D\u00edaz Ordaz",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 115.66629094367161,
         "sun_diff": 0.11923979092462389,
         "length": 287.7236750661337
@@ -16762,7 +16854,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Gustavo D\u00edaz Ordaz",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 115.6653529679941,
         "sun_diff": 0.12017776660213997,
         "length": 428.74879184209203
@@ -18429,22 +18521,68 @@
         "type": "LineString",
         "coordinates": [
           [
-            -101.0378301,
-            25.3651758
+            -101.0348607,
+            25.3638399
           ],
           [
-            -101.0388485,
-            25.3655922
+            -101.0332688,
+            25.3631812
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 114.34680260952717,
-        "sun_diff": 1.226609770205144,
-        "length": 112.34733842760839
+        "name": "Boulevard Hacienda Narro",
+        "type": "tertiary",
+        "slope": 114.60403480819048,
+        "sun_diff": 0.9693775715418411,
+        "length": 175.9765524643171
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -101.0325768,
+            25.3629025
+          ],
+          [
+            -101.0314469,
+            25.3624444
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Boulevard Hacienda Narro",
+        "type": "tertiary",
+        "slope": 114.16479718778649,
+        "sun_diff": 1.4086151919458274,
+        "length": 124.47232117412518
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -101.0314469,
+            25.3624444
+          ],
+          [
+            -101.0300872,
+            25.3619181
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Boulevard Hacienda Narro",
+        "type": "tertiary",
+        "slope": 113.18813768047619,
+        "sun_diff": 2.3852746992561293,
+        "length": 148.6727992087409
       }
     },
     {
@@ -19499,7 +19637,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Universidad",
-        "type": "secondary",
+        "type": "primary",
         "slope": 113.27871344070172,
         "sun_diff": 2.294698939030596,
         "length": 136.418551215691
@@ -21017,7 +21155,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Universidad",
-        "type": "secondary",
+        "type": "primary",
         "slope": 113.70489178867294,
         "sun_diff": 1.8685205910593794,
         "length": 183.32412879189084
@@ -21028,22 +21166,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -100.980634,
-            25.4436987
+            -100.9924121,
+            25.4482314
           ],
           [
-            -100.9816276,
-            25.4440924
+            -100.9914994,
+            25.4478353
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Perif\u00e9rico Luis Echeverr\u00eda \u00c1lvarez",
-        "type": "secondary",
-        "slope": 113.69172472501828,
-        "sun_diff": 1.8816876547140424,
-        "length": 108.98345859014823
+        "name": null,
+        "type": "tertiary",
+        "slope": 115.66978413904312,
+        "sun_diff": 0.09637175931079867,
+        "length": 101.70757853051587
       }
     }
   ]

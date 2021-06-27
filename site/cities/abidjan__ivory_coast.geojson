@@ -2904,29 +2904,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -3.8951878,
-            5.3306429
-          ],
-          [
-            -3.8941876,
-            5.3310888
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 65.87966564267035,
-        "sun_diff": 0.670656374520405,
-        "length": 121.3675847689472
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -3.9703573,
             5.3594
           ],
@@ -3778,8 +3755,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -4.0309734,
-            5.4367834
+            -4.0307543,
+            5.4366813
           ],
           [
             -4.0299225,
@@ -3791,9 +3768,9 @@
       "properties": {
         "name": null,
         "type": "primary",
-        "slope": 115.09266351568613,
-        "sun_diff": 1.6426203451273693,
-        "length": 128.49234081355854
+        "slope": 115.09483428389629,
+        "sun_diff": 1.6447911133375328,
+        "length": 101.70504602018627
       }
     },
     {
@@ -3805,8 +3782,8 @@
             5.296452
           ],
           [
-            -4.0074053,
-            5.2970508
+            -4.0071287,
+            5.296919
           ]
         ]
       },
@@ -3814,9 +3791,32 @@
       "properties": {
         "name": "Boulevard de Marseille",
         "type": "secondary",
-        "slope": 115.18743879695083,
-        "sun_diff": 1.7373956263920718,
-        "length": 156.5024385675336
+        "slope": 115.08053205342623,
+        "sun_diff": 1.6304888828674677,
+        "length": 122.54155410359759
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.0071287,
+            5.296919
+          ],
+          [
+            -4.0080075,
+            5.2973526
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Boulevard de Marseille",
+        "type": "secondary",
+        "slope": 116.3591724578099,
+        "sun_diff": 2.9091292872511474,
+        "length": 108.62526212552102
       }
     },
     {
@@ -6703,8 +6703,8 @@
             5.3460492
           ],
           [
-            -3.8918109,
-            5.345706
+            -3.8917412,
+            5.3456713
           ]
         ]
       },
@@ -6712,9 +6712,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 111.77274108415358,
-        "sun_diff": 1.6773020864051773,
-        "length": 102.91557737193801
+        "slope": 112.14325911469291,
+        "sun_diff": 1.3067840558658474,
+        "length": 111.51790954534971
       }
     },
     {
@@ -7895,8 +7895,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -3.8636443,
-            5.3840071
+            -3.8640252,
+            5.384146
           ],
           [
             -3.8625044,
@@ -7908,9 +7908,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 115.31025251067354,
-        "sun_diff": 1.8602093401147783,
-        "length": 139.63576250983454
+        "slope": 114.04681401719597,
+        "sun_diff": 0.596770846637213,
+        "length": 184.41715083943953
       }
     },
     {
@@ -8900,6 +8900,98 @@
         "slope": 112.43346017092966,
         "sun_diff": 1.0165829996290938,
         "length": 176.5754632434961
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.9478145,
+            5.2801592
+          ],
+          [
+            -3.9460176,
+            5.2808659
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 68.44772106538483,
+        "sun_diff": 1.8973990481940746,
+        "length": 213.98164368067236
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.8615535,
+            5.3816906
+          ],
+          [
+            -3.8605169,
+            5.3812397
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 113.60077199479943,
+        "sun_diff": 0.15072882424067302,
+        "length": 125.2706149157482
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.8631611,
+            5.3806743
+          ],
+          [
+            -3.8622107,
+            5.38031
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 111.05713184250959,
+        "sun_diff": 2.3929113280491663,
+        "length": 112.77808654134543
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.8951878,
+            5.3306429
+          ],
+          [
+            -3.8941876,
+            5.3310888
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 65.87966564267035,
+        "sun_diff": 0.670656374520405,
+        "length": 121.3675847689472
       }
     }
   ]
