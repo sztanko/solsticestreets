@@ -1248,29 +1248,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.422317,
-            25.932787
-          ],
-          [
-            -97.4209543,
-            25.9321736
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Travis Road",
-        "type": "residential",
-        "slope": 116.58948950469446,
-        "sun_diff": 0.8039451097198764,
-        "length": 152.4329570829103
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -97.484643,
             25.958176
           ],
@@ -10874,7 +10851,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boca Chica Boulevard",
-        "type": "secondary",
+        "type": "primary",
         "slope": 118.08752030677365,
         "sun_diff": 2.301975911799076,
         "length": 111.39071786791395
@@ -11621,8 +11598,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.532859,
-            25.7715583
+            -97.5329331,
+            25.77159
           ],
           [
             -97.5348703,
@@ -11633,10 +11610,10 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Aeropuerto de Matamoros",
-        "type": "tertiary",
-        "slope": 116.79196310187922,
-        "sun_diff": 1.006432367282983,
-        "length": 225.69182766914642
+        "type": "unclassified",
+        "slope": 116.84416367109094,
+        "sun_diff": 1.0586329364947034,
+        "length": 217.4770425951886
       }
     },
     {
@@ -11656,7 +11633,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Aeropuerto de Matamoros",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 116.75878319594995,
         "sun_diff": 0.9732524613537095,
         "length": 215.9207733339498
@@ -17854,6 +17831,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -97.550287,
+            25.8602759
+          ],
+          [
+            -97.5491439,
+            25.8607368
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 65.86412428511602,
+        "sun_diff": 1.6482789639655948,
+        "length": 125.37458740307335
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -97.5516067,
             25.9115103
           ],
@@ -18215,6 +18215,52 @@
         "slope": 112.84486131499733,
         "sun_diff": 2.940683079977248,
         "length": 201.2368311736953
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.422317,
+            25.932787
+          ],
+          [
+            -97.4209543,
+            25.9321736
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Travis Road",
+        "type": "residential",
+        "slope": 116.58948950469446,
+        "sun_diff": 0.8039451097198764,
+        "length": 152.4329570829103
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.5245961,
+            25.7710067
+          ],
+          [
+            -97.5255474,
+            25.7705716
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 63.0745545455143,
+        "sun_diff": 1.1412907756361221,
+        "length": 106.87444109230985
       }
     }
   ]

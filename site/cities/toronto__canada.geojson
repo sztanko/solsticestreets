@@ -731,7 +731,7 @@
       "type": "Feature",
       "properties": {
         "name": "Black Creek Drive",
-        "type": "primary",
+        "type": "trunk",
         "slope": 124.28550100396697,
         "sun_diff": 1.7386157458133766,
         "length": 188.0947455096454
@@ -988,29 +988,6 @@
         "slope": 60.28593904297847,
         "sun_diff": 2.8314892265204037,
         "length": 147.16233662249266
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -79.3435869,
-            43.6512315
-          ],
-          [
-            -79.3460791,
-            43.650182
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Villiers Street",
-        "type": "residential",
-        "slope": 59.80074033820509,
-        "sun_diff": 2.3462905217470222,
-        "length": 232.0733811895115
       }
     },
     {
@@ -1425,52 +1402,6 @@
         "slope": 56.282792715711764,
         "sun_diff": 1.1716571007463017,
         "length": 127.56242821290286
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -79.3450259,
-            43.6485218
-          ],
-          [
-            -79.3501796,
-            43.6463091
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Commissioners Street",
-        "type": "tertiary",
-        "slope": 59.31807334320459,
-        "sun_diff": 1.8636235267465224,
-        "length": 482.32131606427504
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -79.3501796,
-            43.6463091
-          ],
-          [
-            -79.3522961,
-            43.6454004
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Commissioners Street",
-        "type": "tertiary",
-        "slope": 59.3185200613124,
-        "sun_diff": 1.8640702448543323,
-        "length": 198.08137484385304
       }
     },
     {
@@ -4380,8 +4311,8 @@
             43.7927726
           ],
           [
-            -79.2546848,
-            43.7939684
+            -79.2550537,
+            43.793787
           ]
         ]
       },
@@ -4389,9 +4320,9 @@
       "properties": {
         "name": "Nugget Avenue",
         "type": "tertiary",
-        "slope": 55.73941461874645,
-        "sun_diff": 1.7150351977116145,
-        "length": 236.26919044297057
+        "slope": 55.74006087187411,
+        "sun_diff": 1.714388944583959,
+        "length": 200.43083055542886
       }
     },
     {
@@ -6688,7 +6619,7 @@
       "type": "Feature",
       "properties": {
         "name": "Black Creek Drive",
-        "type": "primary",
+        "type": "trunk",
         "slope": 124.62608808040184,
         "sun_diff": 2.0792028222482486,
         "length": 224.8420632214408
@@ -8233,6 +8164,29 @@
         "slope": 125.53778970291594,
         "sun_diff": 2.99090444476235,
         "length": 100.88813513514819
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.3459893,
+            43.6502229
+          ],
+          [
+            -79.3435869,
+            43.6512315
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Villiers Street",
+        "type": "tertiary",
+        "slope": 59.87629530293901,
+        "sun_diff": 2.4218454864809473,
+        "length": 223.5388068565218
       }
     }
   ]

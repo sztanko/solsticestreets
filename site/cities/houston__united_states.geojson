@@ -317,7 +317,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 116.24446258823176,
         "sun_diff": 0.5221838395017926,
         "length": 100.91617859589917
@@ -2939,7 +2939,7 @@
       "type": "Feature",
       "properties": {
         "name": "La Porte Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 115.90524959259687,
         "sun_diff": 0.8613968351366736,
         "length": 118.43875485615561
@@ -2962,7 +2962,7 @@
       "type": "Feature",
       "properties": {
         "name": "La Porte Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 119.49972251761548,
         "sun_diff": 2.7330760898819335,
         "length": 128.97969712495723
@@ -7217,7 +7217,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 116.60053407120185,
         "sun_diff": 0.16611235653169842,
         "length": 146.8347077941436
@@ -7309,7 +7309,7 @@
       "type": "Feature",
       "properties": {
         "name": "West Sam Houston Parkway North",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.26462649262785,
         "sun_diff": 2.0298968646147273,
         "length": 106.11869691030246
@@ -17406,7 +17406,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.21005407025535,
         "sun_diff": 0.9753244422422256,
         "length": 155.08239833323515
@@ -22914,29 +22914,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -95.8058686,
-            30.0130496
-          ],
-          [
-            -95.8083293,
-            30.01399
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Northwest Freeway Frontage Road",
-        "type": "secondary",
-        "slope": 113.81433526354766,
-        "sun_diff": 2.952311164185886,
-        "length": 259.0580306141042
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -95.8083293,
             30.01399
           ],
@@ -23075,12 +23052,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -95.6237037,
-            29.9131031
+            -95.6230447,
+            29.9133461
           ],
           [
-            -95.6222884,
-            29.9137385
+            -95.6178956,
+            29.9156757
           ]
         ]
       },
@@ -23088,9 +23065,32 @@
       "properties": {
         "name": null,
         "type": "primary",
-        "slope": 62.617919502859905,
-        "sun_diff": 0.6168101251532221,
-        "length": 153.6686641174567
+        "slope": 62.436496380921966,
+        "sun_diff": 0.7982332470911615,
+        "length": 559.9865840693558
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.6178956,
+            29.9156757
+          ],
+          [
+            -95.616681,
+            29.9162452
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 61.58845370410438,
+        "sun_diff": 1.646275923908746,
+        "length": 133.13437338318565
       }
     },
     {
@@ -23114,29 +23114,6 @@
         "slope": 66.00293676327911,
         "sun_diff": 2.768207135265982,
         "length": 181.1388268426208
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -95.682193,
-            29.929165
-          ],
-          [
-            -95.6837756,
-            29.9298104
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Golden Glade Lane",
-        "type": "residential",
-        "slope": 115.2000750903853,
-        "sun_diff": 1.5665713373482504,
-        "length": 168.6031388219147
       }
     },
     {
@@ -23171,8 +23148,8 @@
             29.9457412
           ],
           [
-            -95.6735646,
-            29.9463113
+            -95.6735373,
+            29.9463182
           ]
         ]
       },
@@ -23180,9 +23157,9 @@
       "properties": {
         "name": "Queenston Boulevard",
         "type": "secondary",
-        "slope": 115.72288961289354,
-        "sun_diff": 1.043756814840009,
-        "length": 146.10482751582768
+        "slope": 116.45200229343024,
+        "sun_diff": 0.3146441343033075,
+        "length": 144.07915095122485
       }
     },
     {
@@ -23202,7 +23179,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.704452479932,
         "sun_diff": 2.469722851918874,
         "length": 106.40617833683639
@@ -23225,7 +23202,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.90351994863425,
         "sun_diff": 2.6687903206211274,
         "length": 139.92493166318297
@@ -23248,7 +23225,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.18311744173485,
         "sun_diff": 0.9483878137217232,
         "length": 122.77550259708603
@@ -23271,7 +23248,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.10693711563653,
         "sun_diff": 0.872207487623399,
         "length": 127.9148626760081
@@ -24145,7 +24122,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.19039246668083,
         "sun_diff": 1.9556628386677062,
         "length": 102.48112756514445
@@ -24881,7 +24858,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Sam Houston Parkway South Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.564332324389824,
         "sun_diff": 0.6703973036233037,
         "length": 138.73814203079982
@@ -24927,7 +24904,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway East",
-        "type": "trunk",
+        "type": "primary",
         "slope": 115.61146807787418,
         "sun_diff": 1.1551783498593693,
         "length": 162.80544206595704
@@ -25249,7 +25226,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.80037081036062,
         "sun_diff": 2.033724382627071,
         "length": 134.92746726375995
@@ -25295,7 +25272,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.29926959282477,
         "sun_diff": 0.9354600351883562,
         "length": 138.662735915485
@@ -25318,7 +25295,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.61130680975043,
         "sun_diff": 1.6234228182626964,
         "length": 143.10519098291954
@@ -25341,7 +25318,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.95031664972723,
         "sun_diff": 1.2844129782859,
         "length": 500.47531472508575
@@ -25456,7 +25433,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.88280758405111,
         "sun_diff": 0.35192204396201987,
         "length": 210.83746148656368
@@ -25479,7 +25456,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.95655523794966,
         "sun_diff": 1.7218256099365306,
         "length": 261.4501119752747
@@ -25502,7 +25479,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.06350601145306,
         "sun_diff": 1.17122361656007,
         "length": 112.98870720650223
@@ -25766,12 +25743,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -95.6220131,
-            29.9138666
+            -95.617974,
+            29.9157714
           ],
           [
-            -95.6208097,
-            29.9144267
+            -95.6192366,
+            29.9151884
           ]
         ]
       },
@@ -25779,9 +25756,9 @@
       "properties": {
         "name": null,
         "type": "primary",
-        "slope": 61.765477007168386,
-        "sun_diff": 1.4692526208447418,
-        "length": 131.6896545408466
+        "slope": 61.95473613784898,
+        "sun_diff": 1.279993490164145,
+        "length": 137.92243236365138
       }
     },
     {
@@ -25789,12 +25766,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -95.6208097,
-            29.9144267
+            -95.6192366,
+            29.9151884
           ],
           [
-            -95.6192191,
-            29.9151669
+            -95.6208447,
+            29.9144533
           ]
         ]
       },
@@ -25802,9 +25779,9 @@
       "properties": {
         "name": null,
         "type": "primary",
-        "slope": 61.769008932158215,
-        "sun_diff": 1.4657206958549125,
-        "length": 174.05453031267163
+        "slope": 62.19344067102625,
+        "sun_diff": 1.0412889569868753,
+        "length": 175.27745794766065
       }
     },
     {
@@ -25812,12 +25789,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -95.6192191,
-            29.9151669
+            -95.6208447,
+            29.9144533
           ],
           [
-            -95.6179609,
-            29.9157524
+            -95.6226763,
+            29.9136379
           ]
         ]
       },
@@ -25825,9 +25802,9 @@
       "properties": {
         "name": null,
         "type": "primary",
-        "slope": 61.76946696183222,
-        "sun_diff": 1.4652626661809052,
-        "length": 137.67952373957576
+        "slope": 62.814584860150404,
+        "sun_diff": 0.42014476786272326,
+        "length": 198.51645514625238
       }
     },
     {
@@ -25870,7 +25847,7 @@
       "type": "Feature",
       "properties": {
         "name": "West Sam Houston Parkway North",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.29514149301104,
         "sun_diff": 1.060411864997917,
         "length": 180.99923182129797
@@ -26767,7 +26744,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.23838516638443,
         "sun_diff": 1.003655538371305,
         "length": 101.08812704318423
@@ -26790,7 +26767,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.97837240080867,
         "sun_diff": 1.743642772795539,
         "length": 120.18133607314827
@@ -26813,7 +26790,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.8858331279441,
         "sun_diff": 2.6511034999309686,
         "length": 109.30860550551273
@@ -27342,7 +27319,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.1768164163737,
         "sun_diff": 0.4101699886401491,
         "length": 151.72014718040353
@@ -27434,7 +27411,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.09369151005032,
         "sun_diff": 0.14103811796280752,
         "length": 177.65933217334222
@@ -27457,7 +27434,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.169529252975934,
         "sun_diff": 1.0652003750371932,
         "length": 116.12403036443756
@@ -27480,7 +27457,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.406495057319944,
         "sun_diff": 2.8282345706931835,
         "length": 221.69606800184326
@@ -27503,7 +27480,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.66800656293424,
         "sun_diff": 1.5667230650788895,
         "length": 104.57812841445057
@@ -27526,7 +27503,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.66992613844289,
         "sun_diff": 1.564803489570238,
         "length": 361.00528876369333
@@ -27549,7 +27526,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.01392393458255,
         "sun_diff": 2.2208056934305773,
         "length": 280.4187947426924
@@ -27572,7 +27549,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.46961059222042,
         "sun_diff": 0.2348809642072922,
         "length": 144.80477384327148
@@ -27829,6 +27806,29 @@
         "slope": 65.35567781228926,
         "sun_diff": 2.1209481842761306,
         "length": 127.37212587090119
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.6828527,
+            29.9311834
+          ],
+          [
+            -95.6814555,
+            29.9306476
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Heartwind Court",
+        "type": "residential",
+        "slope": 113.86925077830557,
+        "sun_diff": 2.8973956494279776,
+        "length": 147.2795803477758
       }
     },
     {
@@ -28216,7 +28216,7 @@
       "type": "Feature",
       "properties": {
         "name": "La Porte Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.06760189023066,
         "sun_diff": 0.30095546249711447,
         "length": 121.2419307930168
@@ -28239,7 +28239,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.64697819292002,
         "sun_diff": 2.412248564906889,
         "length": 135.68010641856554
@@ -28262,7 +28262,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.98301494802382,
         "sun_diff": 2.2517146799893055,
         "length": 535.3360358375351
@@ -28285,7 +28285,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.37644213135326,
         "sun_diff": 0.14171250334013052,
         "length": 325.1046522602089
@@ -28308,7 +28308,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.23489396783205,
         "sun_diff": 2.999835660181077,
         "length": 142.25127668860932
@@ -28331,7 +28331,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.94124271758167,
         "sun_diff": 1.2934869104314544,
         "length": 269.3164776502546
@@ -28584,7 +28584,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.7038677219922,
         "sun_diff": 1.469138093979069,
         "length": 247.47618379568323
@@ -28607,7 +28607,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.75328070341129,
         "sun_diff": 1.5185510753981646,
         "length": 127.23744431115011
@@ -28630,7 +28630,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.7185916170288,
         "sun_diff": 1.4838619890156792,
         "length": 100.14366764407477
@@ -28653,7 +28653,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.83869702569092,
         "sun_diff": 1.603967397677792,
         "length": 113.30473012718872
@@ -28676,7 +28676,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.2655794104572,
         "sun_diff": 0.4989329827236588,
         "length": 197.44318400824028
@@ -28745,7 +28745,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Sam Houston Parkway South Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.35174497506847,
         "sun_diff": 0.882984652944657,
         "length": 159.23073558593202
@@ -28768,7 +28768,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.20463279632179,
         "sun_diff": 0.9699031683086616,
         "length": 158.2727167699923
@@ -28791,7 +28791,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.80037452012138,
         "sun_diff": 1.5656448921082529,
         "length": 315.4772493814616
@@ -28814,7 +28814,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.79805184460412,
         "sun_diff": 1.56332221659099,
         "length": 171.0730238138473
@@ -28837,7 +28837,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.79862474974874,
         "sun_diff": 1.5638951217356123,
         "length": 216.05986362279984
@@ -28860,7 +28860,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway East",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.36304910473643,
         "sun_diff": 0.12831947672330557,
         "length": 122.9308319187095
@@ -29067,7 +29067,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.874062447958664,
         "sun_diff": 0.6393328199455368,
         "length": 169.99799865685316
@@ -29090,7 +29090,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.03994976572758,
         "sun_diff": 0.805220137714457,
         "length": 185.92383680858921
@@ -29113,7 +29113,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.61648462208643,
         "sun_diff": 1.3817549940733045,
         "length": 158.53787728233505
@@ -29136,7 +29136,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.96741519189658,
         "sun_diff": 0.7326855638834502,
         "length": 103.7323737194924
@@ -29814,8 +29814,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -95.3555601,
-            30.0872438
+            -95.3553724,
+            30.0871702
           ],
           [
             -95.3542558,
@@ -29827,9 +29827,9 @@
       "properties": {
         "name": "Balsam Fir Lane",
         "type": "residential",
-        "slope": 114.38983724358116,
-        "sun_diff": 2.3768091841523926,
-        "length": 137.83064101076997
+        "slope": 114.39170820524618,
+        "sun_diff": 2.3749382224873727,
+        "length": 117.99740857722581
       }
     },
     {
@@ -31275,7 +31275,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Loop West Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.57136973338987,
         "sun_diff": 0.3366401053767447,
         "length": 166.41344971621257
@@ -32310,7 +32310,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.58143980465715,
         "sun_diff": 1.8147933769236033,
         "length": 135.5473287604689
@@ -32333,7 +32333,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 115.76140054643153,
         "sun_diff": 1.0052458813020166,
         "length": 157.62178540446254
@@ -32563,7 +32563,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 114.31563671377305,
         "sun_diff": 2.4510097139605023,
         "length": 105.32377672171239
@@ -32586,7 +32586,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 116.90814456564141,
         "sun_diff": 0.1414981379078597,
         "length": 135.79226816901226
@@ -32609,7 +32609,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.24308215208694,
         "sun_diff": 1.4764357243533937,
         "length": 358.89910995185716
@@ -32632,7 +32632,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.37938522324569,
         "sun_diff": 0.6127387955121435,
         "length": 200.02328873274618
@@ -32770,7 +32770,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.01712068086727,
         "sun_diff": 0.7823910528541376,
         "length": 126.2851117919655
@@ -32793,7 +32793,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.77130909980937,
         "sun_diff": 0.5365794717962444,
         "length": 143.254747310281
@@ -34794,7 +34794,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 116.71985301165824,
         "sun_diff": 0.046793416075303185,
         "length": 196.91639002142207
@@ -34817,7 +34817,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.6733948249231,
         "sun_diff": 0.9067483971895456,
         "length": 255.78393733038277
@@ -35208,7 +35208,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.62191147282132,
         "sun_diff": 0.8552650450877763,
         "length": 235.10917420518606
@@ -35231,7 +35231,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.30269986640417,
         "sun_diff": 1.5360534386706206,
         "length": 116.45417721210048
@@ -35254,7 +35254,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.18729408441195,
         "sun_diff": 0.42064765667839765,
         "length": 596.8221308565137
@@ -35277,7 +35277,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.10377581089674,
         "sun_diff": 0.3371293831631874,
         "length": 128.8309947099543
@@ -35300,7 +35300,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 116.99922916475302,
         "sun_diff": 0.2325827370194702,
         "length": 483.62390784131924
@@ -35323,7 +35323,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.02548354277172,
         "sun_diff": 1.258837115038176,
         "length": 109.53405895158548
@@ -35944,7 +35944,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Sam Houston Parkway South",
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.33544448094639,
         "sun_diff": 2.8992851470667347,
         "length": 156.69006359371883
@@ -35967,7 +35967,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Sam Houston Parkway South",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.37017378382535,
         "sun_diff": 1.8645558441877768,
         "length": 186.17607968686792
@@ -39037,29 +39037,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -95.7557783,
-            29.9942479
-          ],
-          [
-            -95.7575648,
-            29.9950053
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Northwest Freeway Frontage Road",
-        "type": "secondary",
-        "slope": 116.08263885035785,
-        "sun_diff": 0.6840075773756951,
-        "length": 191.61257836858468
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -95.2390323,
             29.8202752
           ],
@@ -39118,7 +39095,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 114.28253877903603,
         "sun_diff": 2.484107648697517,
         "length": 113.00527960049992
@@ -39141,7 +39118,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 116.81951917377134,
         "sun_diff": 0.05287274603779224,
         "length": 103.64141811042067
@@ -39164,7 +39141,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 116.81578608353149,
         "sun_diff": 0.049139655797944215,
         "length": 116.574664039875
@@ -39302,7 +39279,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.88574857909495,
         "sun_diff": 1.1191021513614032,
         "length": 136.15048087518525
@@ -39325,7 +39302,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.08538074240371,
         "sun_diff": 1.3187343146701664,
         "length": 209.8014557376383
@@ -39348,7 +39325,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.1165323603056,
         "sun_diff": 1.3498859325720503,
         "length": 191.98072173409935
@@ -39394,7 +39371,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Loop East Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.00682006115312,
         "sun_diff": 2.7720904331399936,
         "length": 146.07178415879193
@@ -39555,7 +39532,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.19230155136114,
         "sun_diff": 1.4256551236275925,
         "length": 172.17831698590706
@@ -39578,7 +39555,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.19380366701967,
         "sun_diff": 1.4271572392861174,
         "length": 157.9263495998252
@@ -39601,7 +39578,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.473718914935,
         "sun_diff": 0.707072487201458,
         "length": 133.97998134863292
@@ -39693,7 +39670,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.3293079871103,
         "sun_diff": 0.5626615593767497,
         "length": 113.33644471779559
@@ -39716,7 +39693,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.5482815435922,
         "sun_diff": 0.7816351158586485,
         "length": 100.52844340893999
@@ -39739,7 +39716,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.66327063254784,
         "sun_diff": 0.8966242048142874,
         "length": 163.15204668387514
@@ -39762,7 +39739,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.22621607437961,
         "sun_diff": 0.4595696466460595,
         "length": 369.5488018083314
@@ -39773,8 +39750,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -95.6735834,
-            29.9461581
+            -95.6736146,
+            29.946181
           ],
           [
             -95.6722796,
@@ -39786,9 +39763,9 @@
       "properties": {
         "name": "Queenston Boulevard",
         "type": "secondary",
-        "slope": 116.14272261351613,
-        "sun_diff": 0.6239238142174202,
-        "length": 139.98091569838894
+        "slope": 116.52586677163578,
+        "sun_diff": 0.24077965609777152,
+        "length": 143.80586281341297
       }
     },
     {
@@ -40130,7 +40107,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.16028929613424,
         "sun_diff": 0.9255596681211102,
         "length": 112.97647137534778
@@ -40153,7 +40130,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.7934837301521,
         "sun_diff": 1.5587541021389768,
         "length": 735.0336117263057
@@ -40176,7 +40153,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.18800803083744,
         "sun_diff": 0.95327840282431,
         "length": 133.8839350731571
@@ -40578,12 +40555,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -95.6066786,
-            29.9209985
+            -95.6116915,
+            29.9187054
           ],
           [
-            -95.6056306,
-            29.921476
+            -95.6132152,
+            29.9179875
           ]
         ]
       },
@@ -40591,9 +40568,55 @@
       "properties": {
         "name": null,
         "type": "primary",
-        "slope": 62.26907405786997,
-        "sun_diff": 0.9656555701431557,
-        "length": 114.14157811654098
+        "slope": 61.47171329939337,
+        "sun_diff": 1.7630163286197558,
+        "length": 167.19622534675418
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.6132152,
+            29.9179875
+          ],
+          [
+            -95.6155375,
+            29.9169118
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 61.8792530948995,
+        "sun_diff": 1.355476533113631,
+        "length": 253.8542135318393
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.6077353,
+            29.9205425
+          ],
+          [
+            -95.6088106,
+            29.9200491
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 62.10294943350388,
+        "sun_diff": 1.131780194509247,
+        "length": 117.29543217921034
       }
     },
     {
@@ -40981,7 +41004,7 @@
       "type": "Feature",
       "properties": {
         "name": "West Sam Houston Parkway North",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.7517601428442,
         "sun_diff": 1.5170305148310774,
         "length": 159.17467982837638
@@ -41004,7 +41027,7 @@
       "type": "Feature",
       "properties": {
         "name": "West Sam Houston Parkway North",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.00761967031912,
         "sun_diff": 1.7728900423059883,
         "length": 288.67389215287125
@@ -41050,7 +41073,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.77708842187937,
         "sun_diff": 1.5423587938662422,
         "length": 153.06041649914323
@@ -41073,7 +41096,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.46156223434221,
         "sun_diff": 1.2268326063290829,
         "length": 183.59626067532704
@@ -41142,7 +41165,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.30702013660286,
         "sun_diff": 1.5403737088693106,
         "length": 133.23324497831476
@@ -41165,7 +41188,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.33788526346052,
         "sun_diff": 1.571238835726973,
         "length": 153.48700898123934
@@ -41188,7 +41211,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 116.550888826739,
         "sun_diff": 0.2157576009945501,
         "length": 105.50854634332732
@@ -41211,7 +41234,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.70681297012845,
         "sun_diff": 0.9401665423949055,
         "length": 103.10875238838169
@@ -41234,7 +41257,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.36772334467614,
         "sun_diff": 1.6010769169425885,
         "length": 119.37021534177296
@@ -41326,7 +41349,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 116.41477473798889,
         "sun_diff": 0.3518716897446552,
         "length": 361.2202848092814
@@ -41349,7 +41372,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway East",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.34147840752246,
         "sun_diff": 1.574831979788911,
         "length": 123.05643725868048
@@ -42338,7 +42361,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.68295359745653,
         "sun_diff": 2.4482239694434043,
         "length": 106.74965233522289
@@ -42545,7 +42568,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.40487290157543,
         "sun_diff": 0.6382264738418826,
         "length": 137.86697708116318
@@ -42568,7 +42591,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.28662049076692,
         "sun_diff": 0.5199740630333736,
         "length": 191.5050866300445
@@ -42683,7 +42706,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.11292697157359,
         "sun_diff": 0.34628054384003804,
         "length": 106.16678437949692
@@ -42752,7 +42775,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.979281169519,
         "sun_diff": 1.7445515415058708,
         "length": 113.53183943886307
@@ -42775,7 +42798,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.59194868163377,
         "sun_diff": 1.3572190536206392,
         "length": 138.82244413588816
@@ -42798,7 +42821,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.59033432758389,
         "sun_diff": 1.3556046995707618,
         "length": 160.56301071335713
@@ -44189,29 +44212,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -95.6246449,
-            29.9126459
-          ],
-          [
-            -95.6237037,
-            29.9131031
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 60.73283347088082,
-        "sun_diff": 2.5018961571323075,
-        "length": 104.02163104365535
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -95.208204,
             29.9170853
           ],
@@ -44569,7 +44569,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 116.39210283746553,
         "sun_diff": 0.37454359026801853,
         "length": 103.87033456935555
@@ -45086,29 +45086,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -95.127196,
-            30.083508
-          ],
-          [
-            -95.1281557,
-            30.0839522
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Vista del Lago Drive",
-        "type": "residential",
-        "slope": 118.14275700499877,
-        "sun_diff": 1.376110577265223,
-        "length": 104.75199662007799
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -95.2587628,
             29.5582095
           ],
@@ -45190,7 +45167,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.7260065619233,
         "sun_diff": 0.49127693391017146,
         "length": 449.88345136031114
@@ -45213,7 +45190,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.87479542857625,
         "sun_diff": 0.35993419943687854,
         "length": 388.8927103183134
@@ -45236,7 +45213,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.30414035016506,
         "sun_diff": 1.069410722151929,
         "length": 129.9321483024662
@@ -45259,7 +45236,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.45572067247059,
         "sun_diff": 2.220991044457463,
         "length": 113.69407682292369
@@ -45282,7 +45259,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.63093421043973,
         "sun_diff": 1.3962045824266056,
         "length": 102.93609893452353
@@ -45305,7 +45282,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.75044195486066,
         "sun_diff": 0.5157123268475345,
         "length": 199.13110827555062
@@ -45834,7 +45811,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Loop East Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.87439080406577,
         "sun_diff": 2.360338823947359,
         "length": 107.4073329054205
@@ -45857,7 +45834,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Loop East Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.8399581288501,
         "sun_diff": 1.3947714991630278,
         "length": 152.0186194799682
@@ -45880,7 +45857,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Loop East Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.924948704791206,
         "sun_diff": 1.309780923221922,
         "length": 257.14287935767413
@@ -45972,7 +45949,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 119.42898441178488,
         "sun_diff": 2.6623379840513337,
         "length": 179.13388089852762
@@ -45995,7 +45972,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.2243397791718,
         "sun_diff": 0.45769335143825174,
         "length": 262.5904045815837
@@ -46064,7 +46041,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Loop West Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.43797959257913,
         "sun_diff": 1.2032499645659982,
         "length": 177.43189608100096
@@ -46087,7 +46064,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Loop West Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.63251935945138,
         "sun_diff": 0.3977897314382517,
         "length": 165.9711109633939
@@ -48410,7 +48387,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Sam Houston Parkway West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 114.05250876843496,
         "sun_diff": 2.7141376592985864,
         "length": 321.73197789746166
@@ -52538,52 +52515,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -95.104514,
-            29.578525
-          ],
-          [
-            -95.1031229,
-            29.5779324
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 116.096784469948,
-        "sun_diff": 0.6698619577855425,
-        "length": 149.8438868395949
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -95.1028441,
-            29.5784366
-          ],
-          [
-            -95.1042708,
-            29.578998
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 114.34495389908318,
-        "sun_diff": 2.421692528650368,
-        "length": 151.4801847839021
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -95.0730849,
             29.6074478
           ],
@@ -54252,7 +54183,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.59185340608897,
         "sun_diff": 1.3571237780758452,
         "length": 151.8875284571777
@@ -54275,7 +54206,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southwest Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.90146279816014,
         "sun_diff": 1.3332668298529882,
         "length": 224.2823201669353
@@ -55517,7 +55448,7 @@
       "type": "Feature",
       "properties": {
         "name": "Crosby Freeway Frontage Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.67325310616596,
         "sun_diff": 0.4385234781528311,
         "length": 178.2221866841714
@@ -56073,6 +56004,98 @@
         "slope": 63.973612634529815,
         "sun_diff": 0.7388830065166871,
         "length": 149.89126228513922
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.6154703,
+            29.9168009
+          ],
+          [
+            -95.6121465,
+            29.9183613
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 61.55808615713329,
+        "sun_diff": 1.6766434708798386,
+        "length": 364.4255716094323
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.6121465,
+            29.9183613
+          ],
+          [
+            -95.6112014,
+            29.9187958
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 62.057260295193004,
+        "sun_diff": 1.1774693328201238,
+        "length": 103.13825610912482
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.6112014,
+            29.9187958
+          ],
+          [
+            -95.610095,
+            29.9193228
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 61.20855321240094,
+        "sun_diff": 2.026176415612184,
+        "length": 121.70984204465017
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.610095,
+            29.9193228
+          ],
+          [
+            -95.6087624,
+            29.9199723
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 60.649206190916374,
+        "sun_diff": 2.5855234370967537,
+        "length": 147.38991103435927
       }
     },
     {
@@ -56717,6 +56740,190 @@
         "slope": 60.45759728480246,
         "sun_diff": 2.777132343210667,
         "length": 122.74236623881853
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.5776731,
+            29.8018537
+          ],
+          [
+            -95.5786166,
+            29.8022959
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 118.37404850540892,
+        "sun_diff": 1.6074020776753741,
+        "length": 103.50011160086738
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.8745791,
+            29.7192135
+          ],
+          [
+            -95.8756552,
+            29.7196267
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Morgan Spur Drive",
+        "type": "tertiary",
+        "slope": 113.85200126562145,
+        "sun_diff": 2.9146451621120946,
+        "length": 113.6573346560399
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.7557783,
+            29.9942479
+          ],
+          [
+            -95.7575648,
+            29.9950053
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Northwest Freeway Frontage Road",
+        "type": "secondary",
+        "slope": 116.08263885035785,
+        "sun_diff": 0.6840075773756951,
+        "length": 191.61257836858468
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.6056482,
+            29.9215435
+          ],
+          [
+            -95.6067101,
+            29.9210329
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 60.979321941853556,
+        "sun_diff": 2.2554076861595718,
+        "length": 117.07047356909204
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.6065078,
+            29.9210156
+          ],
+          [
+            -95.6052935,
+            29.9215582
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 62.72611370613458,
+        "sun_diff": 0.508615921878544,
+        "length": 131.70575364756755
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.6088106,
+            29.9200491
+          ],
+          [
+            -95.6107194,
+            29.9191653
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 61.88854482269463,
+        "sun_diff": 1.3461848053185008,
+        "length": 208.63124260173387
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.6087624,
+            29.9199723
+          ],
+          [
+            -95.6075058,
+            29.9205804
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 60.82354152118123,
+        "sun_diff": 2.4111881068319008,
+        "length": 138.74643416311224
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -95.6241362,
+            29.9128119
+          ],
+          [
+            -95.6230447,
+            29.9133461
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 60.54922815114165,
+        "sun_diff": 2.6855014768714796,
+        "length": 120.85021265180706
       }
     }
   ]

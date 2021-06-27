@@ -1513,7 +1513,7 @@
       "type": "Feature",
       "properties": {
         "name": "Castilla",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 112.62603983614719,
         "sun_diff": 2.21651498163709,
         "length": 115.12882724546171
@@ -2364,7 +2364,7 @@
       "type": "Feature",
       "properties": {
         "name": "Castilla",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 112.12382848417593,
         "sun_diff": 2.7187263336083447,
         "length": 108.3327434799294
@@ -3330,7 +3330,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Villa de la Torre",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 63.497894683373545,
         "sun_diff": 1.660134252645122,
         "length": 121.76594049572849
@@ -3353,7 +3353,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Villa de la Torre",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 64.88033160483707,
         "sun_diff": 0.27769733118159934,
         "length": 107.76836683087875
@@ -3376,7 +3376,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Villa de la Torre",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 64.87975488734284,
         "sun_diff": 0.2782740486758257,
         "length": 102.49959255782535
@@ -4744,12 +4744,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -104.8927273,
-            21.5010976
+            -104.8902398,
+            21.5000215
           ],
           [
-            -104.8916786,
-            21.5006259
+            -104.8912178,
+            21.5004186
           ]
         ]
       },
@@ -4757,9 +4757,9 @@
       "properties": {
         "name": "Dr. Bernardo Martinez",
         "type": "residential",
-        "slope": 115.80077337245004,
-        "sun_diff": 0.7922859389694707,
-        "length": 120.5464832917913
+        "slope": 113.57643889658792,
+        "sun_diff": 1.4320485368926512,
+        "length": 110.43122595324233
       }
     },
     {
@@ -4767,12 +4767,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -104.8912178,
-            21.5004186
+            -104.8916786,
+            21.5006259
           ],
           [
-            -104.8902398,
-            21.5000215
+            -104.8927273,
+            21.5010976
           ]
         ]
       },
@@ -4780,9 +4780,9 @@
       "properties": {
         "name": "Dr. Bernardo Martinez",
         "type": "residential",
-        "slope": 113.57638155402748,
-        "sun_diff": 1.4321058794530899,
-        "length": 110.43122595324233
+        "slope": 115.8008461853816,
+        "sun_diff": 0.792358751901034,
+        "length": 120.5464832917913
       }
     },
     {
@@ -5354,7 +5354,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Villa de la Torre",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.88654955596797,
         "sun_diff": 0.7285206199493075,
         "length": 102.36935665028521
@@ -5377,7 +5377,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Villa de la Torre",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 63.4957469343492,
         "sun_diff": 1.6622820016694675,
         "length": 110.98963500790185
@@ -5400,7 +5400,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Villa de la Torre",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 63.49483157028786,
         "sun_diff": 1.6631973657308095,
         "length": 174.19318434110542
@@ -6607,6 +6607,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -104.8161605,
+            21.3998961
+          ],
+          [
+            -104.8178968,
+            21.3992144
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 67.13546703776618,
+        "sun_diff": 1.9774381017475093,
+        "length": 195.1473828535438
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -104.8925912,
             21.5050522
           ],
@@ -6864,18 +6887,18 @@
             21.3951334
           ],
           [
-            -104.7943029,
-            21.3942586
+            -104.7948361,
+            21.3945172
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Nayarit",
-        "type": "residential",
-        "slope": 117.51356205459126,
-        "sun_diff": 2.671007236806986,
-        "length": 210.63281003569878
+        "type": "unclassified",
+        "slope": 117.51319553391224,
+        "sun_diff": 2.670640716127963,
+        "length": 148.36948086205976
       }
     },
     {
@@ -7550,6 +7573,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -104.8188561,
+            21.3726806
+          ],
+          [
+            -104.8178369,
+            21.372231
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 115.34718820168635,
+        "sun_diff": 0.5046333839020747,
+        "length": 116.81523083101764
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -104.9459873,
             21.5492167
           ],
@@ -7784,8 +7830,8 @@
             21.5035376
           ],
           [
-            -104.896828,
-            21.5039286
+            -104.8968495,
+            21.5039111
           ]
         ]
       },
@@ -7793,9 +7839,9 @@
       "properties": {
         "name": "Eulogio Parra",
         "type": "residential",
-        "slope": 115.02766592617513,
-        "sun_diff": 0.019178492694564397,
-        "length": 102.80182742050033
+        "slope": 113.53765373135386,
+        "sun_diff": 1.4708337021267113,
+        "length": 104.02958581503084
       }
     },
     {
@@ -8210,6 +8256,52 @@
         "slope": 63.409572242879904,
         "sun_diff": 1.5825377378208145,
         "length": 100.29365075863312
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.7792359,
+            21.4178573
+          ],
+          [
+            -104.7783266,
+            21.4174921
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.33631280390014,
+        "sun_diff": 1.5062420138841333,
+        "length": 102.54549565293986
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.7799426,
+            21.4177818
+          ],
+          [
+            -104.7787491,
+            21.4172687
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 114.78755640102227,
+        "sun_diff": 0.0549984167620039,
+        "length": 136.12707236500876
       }
     }
   ]

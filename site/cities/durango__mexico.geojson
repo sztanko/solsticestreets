@@ -217,8 +217,8 @@
             24.0094572
           ],
           [
-            -104.6655698,
-            24.0099471
+            -104.6655291,
+            24.0099307
           ]
         ]
       },
@@ -226,9 +226,9 @@
       "properties": {
         "name": "Boulevard Durango",
         "type": "primary",
-        "slope": 113.77155924791387,
-        "sun_diff": 1.6019334948121724,
-        "length": 135.184293672901
+        "slope": 113.77046741710203,
+        "sun_diff": 1.6030253256240172,
+        "length": 130.66448068321205
       }
     },
     {
@@ -271,7 +271,7 @@
       "type": "Feature",
       "properties": {
         "name": "Nuevo Durango",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 61.93381280209894,
         "sun_diff": 2.6933191901129874,
         "length": 109.69538481996345
@@ -650,12 +650,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -104.70218,
-            24.0060487
-          ],
-          [
             -104.7031409,
             24.0064431
+          ],
+          [
+            -104.70218,
+            24.0060487
           ]
         ]
       },
@@ -663,8 +663,8 @@
       "properties": {
         "name": "Laureles",
         "type": "residential",
-        "slope": 114.19506804273061,
-        "sun_diff": 1.178424699995432,
+        "slope": 114.19500237757691,
+        "sun_diff": 1.1784903651491305,
         "length": 107.0384017454837
       }
     },
@@ -673,12 +673,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -104.7022686,
-            24.0056206
-          ],
-          [
             -104.703288,
             24.0060663
+          ],
+          [
+            -104.7022686,
+            24.0056206
           ]
         ]
       },
@@ -686,8 +686,8 @@
       "properties": {
         "name": "Higueras",
         "type": "residential",
-        "slope": 115.57657935287597,
-        "sun_diff": 0.20308661014992424,
+        "slope": 115.57650205730278,
+        "sun_diff": 0.20300931457673244,
         "length": 114.83262915129748
       }
     },
@@ -1041,29 +1041,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -104.6425197,
-            24.0033617
-          ],
-          [
-            -104.643626,
-            24.0028299
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Del Trigal",
-        "type": "residential",
-        "slope": 62.24643921680712,
-        "sun_diff": 2.3806927754048104,
-        "length": 127.02555600941191
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -104.6392122,
             24.003712
           ],
@@ -1145,7 +1122,7 @@
       "type": "Feature",
       "properties": {
         "name": "Nuevo Durango",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 63.054530467570345,
         "sun_diff": 1.572601524641584,
         "length": 110.06562209097412
@@ -1356,6 +1333,29 @@
         "slope": 112.69296234925727,
         "sun_diff": 2.6805303934687714,
         "length": 118.8432853304667
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.6777621,
+            24.0163283
+          ],
+          [
+            -104.6787212,
+            24.0167043
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.22855411054942,
+        "sun_diff": 2.1449386321766184,
+        "length": 106.04076317544595
       }
     },
     {
@@ -2743,12 +2743,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -104.6485916,
-            24.00375
+            -104.6486077,
+            24.0037721
           ],
           [
-            -104.6495014,
-            24.0033038
+            -104.6495215,
+            24.0033246
           ]
         ]
       },
@@ -2756,9 +2756,9 @@
       "properties": {
         "name": "de la Pila",
         "type": "residential",
-        "slope": 61.770231394619714,
-        "sun_diff": 2.8569005975922153,
-        "length": 104.92554618152361
+        "slope": 61.80549697821226,
+        "sun_diff": 2.8216350139996678,
+        "length": 105.35204860843287
       }
     },
     {
@@ -2782,6 +2782,29 @@
         "slope": 66.45179329661826,
         "sun_diff": 1.8246613044063338,
         "length": 170.94304964043116
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.6490606,
+            24.0023977
+          ],
+          [
+            -104.6480965,
+            24.0028701
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Principal",
+        "type": "residential",
+        "slope": 61.79206929791732,
+        "sun_diff": 2.8350626942946064,
+        "length": 111.16580845801872
       }
     },
     {
@@ -6968,6 +6991,52 @@
         "slope": 114.38303829181595,
         "sun_diff": 0.990454450910093,
         "length": 113.56433447654496
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.6451455,
+            23.9998502
+          ],
+          [
+            -104.6432626,
+            24.0007715
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 61.82618568870811,
+        "sun_diff": 2.800946303503821,
+        "length": 217.04284289623683
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.643626,
+            24.0028299
+          ],
+          [
+            -104.6425197,
+            24.0033617
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Del Trigal",
+        "type": "residential",
+        "slope": 62.246341628913854,
+        "sun_diff": 2.3807903632980754,
+        "length": 127.02555600941191
       }
     }
   ]
