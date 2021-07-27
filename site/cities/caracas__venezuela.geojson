@@ -6,29 +6,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -66.974681,
-            10.5260749
-          ],
-          [
-            -66.976216,
-            10.5266503
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Autopista Caracas - La Guaira",
-        "type": "trunk",
-        "slope": 110.87035744895479,
-        "sun_diff": 2.846425099260472,
-        "length": 179.65155404293267
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -66.8233104,
             10.4799592
           ],
@@ -133,7 +110,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Copenhaguen",
-        "type": "living_street",
+        "type": "residential",
         "slope": 112.85692034222467,
         "sun_diff": 0.7955286541982503,
         "length": 138.68239737131864
@@ -179,7 +156,7 @@
       "type": "Feature",
       "properties": {
         "name": "Real de Chapell\u00edn",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 114.26774335203021,
         "sun_diff": 0.5509608038149452,
         "length": 147.65639217781222
@@ -248,7 +225,7 @@
       "type": "Feature",
       "properties": {
         "name": "Real de Sim\u00f3n Rodr\u00edguez",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 113.2305770636413,
         "sun_diff": 0.48620548457395785,
         "length": 236.82367008592658
@@ -271,7 +248,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle 1 de El Retiro",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 114.92984854712847,
         "sun_diff": 1.2130659989132084,
         "length": 114.57892354483988
@@ -294,7 +271,7 @@
       "type": "Feature",
       "properties": {
         "name": "Amacuro",
-        "type": "living_street",
+        "type": "residential",
         "slope": 65.84593381372497,
         "sun_diff": 0.5026517361402796,
         "length": 102.0987245945562
@@ -363,33 +340,10 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Belgrado",
-        "type": "living_street",
+        "type": "residential",
         "slope": 113.38436970632165,
         "sun_diff": 0.2680792901012694,
         "length": 195.24914065831433
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -66.8214608,
-            10.4761916
-          ],
-          [
-            -66.8196304,
-            10.47546
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Av. Varsovia",
-        "type": "living_street",
-        "slope": 112.120204171316,
-        "sun_diff": 1.5322448251069147,
-        "length": 216.10796943836624
       }
     },
     {
@@ -409,7 +363,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Dubl\u00edn",
-        "type": "living_street",
+        "type": "residential",
         "slope": 112.8183614250485,
         "sun_diff": 0.8340875713744254,
         "length": 105.83451314485849
@@ -432,7 +386,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Dubl\u00edn",
-        "type": "living_street",
+        "type": "residential",
         "slope": 112.72445697330195,
         "sun_diff": 0.9279920231209644,
         "length": 227.95912387739764
@@ -478,7 +432,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Trieste",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 112.3626056982763,
         "sun_diff": 1.2898432981466215,
         "length": 232.6233481529783
@@ -501,7 +455,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Trieste",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 113.60961326153486,
         "sun_diff": 0.04283573488805814,
         "length": 169.27355125171135
@@ -524,7 +478,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Ginebra",
-        "type": "living_street",
+        "type": "residential",
         "slope": 113.44658148850311,
         "sun_diff": 0.20586750791980535,
         "length": 107.17806048745359
@@ -547,7 +501,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Ginebra",
-        "type": "living_street",
+        "type": "residential",
         "slope": 112.49583269406415,
         "sun_diff": 1.1566163023587706,
         "length": 163.52346568644913
@@ -570,7 +524,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Ginebra",
-        "type": "living_street",
+        "type": "residential",
         "slope": 112.26945977613937,
         "sun_diff": 1.382989220283548,
         "length": 148.0468994297305
@@ -638,7 +592,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Padre Machado",
+        "name": "Calle Padre Machado",
         "type": "residential",
         "slope": 63.77114419505415,
         "sun_diff": 2.5774413548111,
@@ -661,7 +615,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Av. Capit\u00e1n Felipe Esteves",
+        "name": "Avenida Capit\u00e1n Felipe Esteves",
         "type": "residential",
         "slope": 65.61057127388833,
         "sun_diff": 0.7380142759769228,
@@ -684,7 +638,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Av. Capit\u00e1n Felipe Esteves",
+        "name": "Avenida Capit\u00e1n Felipe Esteves",
         "type": "residential",
         "slope": 65.88587163306875,
         "sun_diff": 0.46271391679650264,
@@ -707,7 +661,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Av. Capit\u00e1n Felipe Esteves",
+        "name": "Avenida Capit\u00e1n Felipe Esteves",
         "type": "residential",
         "slope": 67.02109065586086,
         "sun_diff": 0.6725051059956115,
@@ -730,7 +684,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "3\u00aa Transversal de El Cementerio",
+        "name": "3.\u00b0 Transversal",
         "type": "residential",
         "slope": 67.54531467171532,
         "sun_diff": 1.196729121850069,
@@ -753,34 +707,11 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Av. El Carmen",
+        "name": "Avenida El Carmen",
         "type": "residential",
         "slope": 68.84975519425785,
         "sun_diff": 2.501169644392604,
         "length": 174.66792212141237
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -66.9108395,
-            10.4688439
-          ],
-          [
-            -66.9099799,
-            10.4691678
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "San Andr\u00e9s",
-        "type": "residential",
-        "slope": 69.03406379145571,
-        "sun_diff": 2.6854782415904594,
-        "length": 100.68771841744922
       }
     },
     {
@@ -1260,7 +1191,7 @@
       "type": "Feature",
       "properties": {
         "name": "Santa Margarita",
-        "type": "living_street",
+        "type": "residential",
         "slope": 63.58936620553723,
         "sun_diff": 2.7592193443280166,
         "length": 155.69138982800922
@@ -1306,7 +1237,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "living_street",
+        "type": "residential",
         "slope": 116.30270289120969,
         "sun_diff": 2.650253894786772,
         "length": 108.36477402233079
@@ -1352,7 +1283,7 @@
       "type": "Feature",
       "properties": {
         "name": "El Poniente",
-        "type": "living_street",
+        "type": "residential",
         "slope": 69.18236172232909,
         "sun_diff": 2.8337761724638426,
         "length": 106.50560455261106
@@ -1421,7 +1352,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. 12 de Alto Prado",
-        "type": "living_street",
+        "type": "residential",
         "slope": 111.5665971806273,
         "sun_diff": 2.085851815795621,
         "length": 103.79117823815126
@@ -1835,7 +1766,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle 3",
-        "type": "living_street",
+        "type": "residential",
         "slope": 65.70039164992042,
         "sun_diff": 0.6481938999448289,
         "length": 116.7146182906552
@@ -1858,7 +1789,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle 5",
-        "type": "living_street",
+        "type": "residential",
         "slope": 67.77200468557743,
         "sun_diff": 1.4234191357121802,
         "length": 132.81363058520893
@@ -1881,7 +1812,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle 4",
-        "type": "living_street",
+        "type": "residential",
         "slope": 68.96054309955244,
         "sun_diff": 2.6119575496871903,
         "length": 120.76897949849074
@@ -1996,7 +1927,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Atenas",
-        "type": "living_street",
+        "type": "residential",
         "slope": 112.53626953475424,
         "sun_diff": 1.116179461668679,
         "length": 208.92492294863888
@@ -2019,7 +1950,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Mallorca",
-        "type": "living_street",
+        "type": "residential",
         "slope": 112.38962848599567,
         "sun_diff": 1.2628205104272467,
         "length": 161.22199694529462
@@ -2341,7 +2272,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mosen Sol",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 63.77269623964361,
         "sun_diff": 2.5758893102216405,
         "length": 131.10496206358164
@@ -2363,7 +2294,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Bulevar del Cementerio",
+        "name": "Boulevard de El Cementerio",
         "type": "pedestrian",
         "slope": 68.3535398664979,
         "sun_diff": 2.0049543166326487,
@@ -2386,7 +2317,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Bulevar del Cementerio",
+        "name": "Boulevard de El Cementerio",
         "type": "pedestrian",
         "slope": 67.09668756272978,
         "sun_diff": 0.7481020128645355,
@@ -2478,7 +2409,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Av. Louis Braille",
+        "name": "Avenida Louis Braille",
         "type": "residential",
         "slope": 67.80656440595041,
         "sun_diff": 1.4579788560851625,
@@ -2501,7 +2432,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Av. La Floresta",
+        "name": "Avenida La Floresta",
         "type": "residential",
         "slope": 68.49529481431452,
         "sun_diff": 2.146709264449271,
@@ -2870,7 +2801,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle 4",
-        "type": "living_street",
+        "type": "residential",
         "slope": 112.77086228037899,
         "sun_diff": 0.8815867160439268,
         "length": 122.82666553409776
@@ -2893,7 +2824,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Mil\u00e1n",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 112.15570918945332,
         "sun_diff": 1.4967398069696003,
         "length": 230.32013406644396
@@ -3284,7 +3215,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Francisco de Miranda",
-        "type": "primary",
+        "type": "secondary",
         "slope": 111.77225963303664,
         "sun_diff": 1.880189363386279,
         "length": 227.63682964955842
@@ -3352,7 +3283,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Av. Intercomunal de El Valle",
+        "name": "Avenida Intercomunal de El Valle",
         "type": "primary",
         "slope": 68.75864261082336,
         "sun_diff": 2.41005706095811,
@@ -3997,7 +3928,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "living_street",
+        "type": "residential",
         "slope": 110.87596918277256,
         "sun_diff": 2.7764798136503543,
         "length": 148.20410010126983
@@ -4019,8 +3950,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "El Poniente",
-        "type": "unclassified",
+        "name": "Calle El Poniente",
+        "type": "residential",
         "slope": 115.02148203172317,
         "sun_diff": 1.369033035300248,
         "length": 139.14322659087605
@@ -4112,7 +4043,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Francisco de Miranda",
-        "type": "primary",
+        "type": "secondary",
         "slope": 112.23717008864514,
         "sun_diff": 1.4152789077777754,
         "length": 162.35887471592505
@@ -4158,7 +4089,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Sanatorio del \u00c1vila",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 114.80164550341897,
         "sun_diff": 1.1491965069960486,
         "length": 121.97477809526008
@@ -4181,7 +4112,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Antonio Jos\u00e9 Ist\u00fariz",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 67.86595140953216,
         "sun_diff": 1.581706241648419,
         "length": 100.8752509332045
@@ -4227,7 +4158,7 @@
       "type": "Feature",
       "properties": {
         "name": "Paramacay",
-        "type": "living_street",
+        "type": "residential",
         "slope": 67.49471377099766,
         "sun_diff": 1.1461282211324146,
         "length": 107.3741074161345
@@ -4277,29 +4208,6 @@
         "slope": 64.9738140140015,
         "sun_diff": 1.3747715358637436,
         "length": 102.57081340993666
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -66.9767053,
-            10.5267347
-          ],
-          [
-            -66.9747159,
-            10.525972
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Autopista Caracas - La Guaira",
-        "type": "trunk",
-        "slope": 111.30298968932112,
-        "sun_diff": 2.4137928588941406,
-        "length": 233.5120803709173
       }
     },
     {
@@ -4411,7 +4319,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Rio de Janeiro",
-        "type": "primary",
+        "type": "secondary",
         "slope": 114.16632162913314,
         "sun_diff": 0.5138726327102177,
         "length": 217.92969629615672
@@ -4549,7 +4457,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Principal Las Vegas de Petare",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 66.41322862602212,
         "sun_diff": 0.06464307615686948,
         "length": 136.37643763906007
@@ -4767,29 +4675,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -66.9138719,
-            10.4700977
-          ],
-          [
-            -66.9129199,
-            10.469687
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 113.68761831380354,
-        "sun_diff": 0.03516931738062112,
-        "length": 113.70772737506748
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -67.0433898,
             10.5302364
           ],
@@ -4824,7 +4709,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Carretera Principal de La Vega",
         "type": "tertiary",
         "slope": 116.19570528612215,
         "sun_diff": 2.5432562896992295,
@@ -4928,52 +4813,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -67.0571286,
-            10.4703427
-          ],
-          [
-            -67.056133,
-            10.4707225
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carretera Regional Caracas - El Junquito",
-        "type": "primary",
-        "slope": 68.79680975200964,
-        "sun_diff": 2.448224202144388,
-        "length": 116.80359464574457
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -67.0440309,
-            10.4695662
-          ],
-          [
-            -67.0430009,
-            10.4691189
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carretera Regional Caracas - El Junquito",
-        "type": "primary",
-        "slope": 113.8273826874237,
-        "sun_diff": 0.17493369100077416,
-        "length": 123.15650101789349
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -67.0276536,
             10.4792165
           ],
@@ -5066,6 +4905,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -66.9108395,
+            10.4688439
+          ],
+          [
+            -66.9099799,
+            10.4691678
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle San Andr\u00e9s",
+        "type": "residential",
+        "slope": 69.03406379145571,
+        "sun_diff": 2.6854782415904594,
+        "length": 100.68771841744922
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -66.9309223,
             10.4961428
           ],
@@ -5124,33 +4986,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "road",
+        "type": "residential",
         "slope": 66.89171630444795,
         "sun_diff": 0.5431307545827053,
         "length": 145.8143923890903
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -66.9332586,
-            10.4245239
-          ],
-          [
-            -66.9323949,
-            10.4248484
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 69.09239079681123,
-        "sun_diff": 2.743805246945982,
-        "length": 101.14299320078315
       }
     },
     {
@@ -5404,29 +5243,6 @@
         "slope": 113.95212950148107,
         "sun_diff": 0.2996805050581486,
         "length": 166.3350447994373
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -66.9770976,
-            10.5298564
-          ],
-          [
-            -66.9757937,
-            10.5304058
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle El Lim\u00f3n",
-        "type": "residential",
-        "slope": 66.80151404584615,
-        "sun_diff": 0.5172688779624082,
-        "length": 155.13323876510475
       }
     },
     {
@@ -5791,7 +5607,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Antonio Jos\u00e9 Ist\u00fariz",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 68.66481262753851,
         "sun_diff": 2.3805674596547703,
         "length": 113.4545460255369
@@ -5860,7 +5676,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Circunvalaci\u00f3n del Sol",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 112.18329032844193,
         "sun_diff": 1.4691586679809916,
         "length": 126.43939177706274
@@ -5883,7 +5699,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Circunvalaci\u00f3n del Sol",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 115.50353786703707,
         "sun_diff": 1.8510888706141486,
         "length": 105.55512234863676
@@ -5906,7 +5722,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Circunvalaci\u00f3n del Sol",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 115.50162132142162,
         "sun_diff": 1.8491723249987047,
         "length": 105.61408126742133
@@ -5929,7 +5745,7 @@
       "type": "Feature",
       "properties": {
         "name": "Santa Sofia Centro",
-        "type": "living_street",
+        "type": "residential",
         "slope": 63.388086230774746,
         "sun_diff": 2.960499319090502,
         "length": 304.1312739181622
@@ -5952,7 +5768,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Principal de La Lagunita",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 64.78242426529079,
         "sun_diff": 1.5661612845744628,
         "length": 115.39215249004154
@@ -6044,7 +5860,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Jos\u00e9 Mar\u00eda Vargas",
-        "type": "secondary",
+        "type": "residential",
         "slope": 115.15682676962342,
         "sun_diff": 1.5043777732005026,
         "length": 101.15676669983358
@@ -6067,7 +5883,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Rio de Janeiro",
-        "type": "primary",
+        "type": "secondary",
         "slope": 114.36105588362875,
         "sun_diff": 0.708606887205832,
         "length": 148.23070875382993
@@ -6090,7 +5906,7 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Rio de Janeiro",
-        "type": "primary",
+        "type": "secondary",
         "slope": 114.40505467029914,
         "sun_diff": 0.7526056738762179,
         "length": 238.4581348393617
@@ -6182,7 +5998,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 68.80246364746986,
         "sun_diff": 2.4538780976046155,
         "length": 105.1438242581402
@@ -6343,7 +6159,7 @@
       "type": "Feature",
       "properties": {
         "name": "Par\u00eds",
-        "type": "secondary",
+        "type": "residential",
         "slope": 115.8543721382868,
         "sun_diff": 2.2019231418638867,
         "length": 163.95526232880394
@@ -6366,7 +6182,7 @@
       "type": "Feature",
       "properties": {
         "name": "Par\u00eds",
-        "type": "secondary",
+        "type": "residential",
         "slope": 115.69915848276773,
         "sun_diff": 2.0467094863448096,
         "length": 182.42209305258248
@@ -6389,7 +6205,7 @@
       "type": "Feature",
       "properties": {
         "name": "Par\u00eds",
-        "type": "secondary",
+        "type": "residential",
         "slope": 116.25846339284695,
         "sun_diff": 2.6060143964240297,
         "length": 132.1670116455318
@@ -6531,6 +6347,236 @@
         "slope": 111.1838108335483,
         "sun_diff": 2.468638162874612,
         "length": 103.20806036606179
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.9411309,
+            10.5133745
+          ],
+          [
+            -66.9399655,
+            10.5128161
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 115.98131852228397,
+        "sun_diff": 2.264535974068707,
+        "length": 141.77996553875727
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.9410612,
+            10.5131523
+          ],
+          [
+            -66.9400225,
+            10.5126941
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 114.16383267203452,
+        "sun_diff": 0.4470501238192526,
+        "length": 124.50428338358418
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.9746686,
+            10.5260737
+          ],
+          [
+            -66.9766097,
+            10.5268566
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Autopista Caracas - La Guaira",
+        "type": "trunk",
+        "slope": 112.30503132853372,
+        "sun_diff": 1.4117512196815483,
+        "length": 229.44229002564464
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.9766424,
+            10.5267756
+          ],
+          [
+            -66.9746997,
+            10.5259921
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Autopista Caracas - La Guaira",
+        "type": "trunk",
+        "slope": 112.30381112726974,
+        "sun_diff": 1.4129714209455244,
+        "length": 229.62955199389685
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.9138719,
+            10.4700977
+          ],
+          [
+            -66.9129199,
+            10.469687
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.68761831380354,
+        "sun_diff": 0.03516931738062112,
+        "length": 113.70772737506748
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.9332586,
+            10.4245239
+          ],
+          [
+            -66.9323949,
+            10.4248484
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 69.09239079681123,
+        "sun_diff": 2.743805246945982,
+        "length": 101.14299320078315
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.8214608,
+            10.4761916
+          ],
+          [
+            -66.8196304,
+            10.47546
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Av. Varsovia",
+        "type": "residential",
+        "slope": 112.120204171316,
+        "sun_diff": 1.5322448251069147,
+        "length": 216.10796943836624
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.0571286,
+            10.4703427
+          ],
+          [
+            -67.056133,
+            10.4707225
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carretera Regional Caracas - El Junquito",
+        "type": "primary",
+        "slope": 68.79680975200964,
+        "sun_diff": 2.448224202144388,
+        "length": 116.80359464574457
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.0440309,
+            10.4695662
+          ],
+          [
+            -67.0430009,
+            10.4691189
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carretera Regional Caracas - El Junquito",
+        "type": "primary",
+        "slope": 113.8273826874237,
+        "sun_diff": 0.17493369100077416,
+        "length": 123.15650101789349
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.7751461,
+            10.4742002
+          ],
+          [
+            -66.7768125,
+            10.4749604
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carretera Petare - Santa Luc\u00eda",
+        "type": "primary",
+        "slope": 114.88774271929614,
+        "sun_diff": 1.235293722873223,
+        "length": 200.9235124016651
       }
     }
   ]
