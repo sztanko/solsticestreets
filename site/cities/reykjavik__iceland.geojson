@@ -351,52 +351,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -21.6517008,
-            64.1299099
-          ],
-          [
-            -21.6504448,
-            64.1290163
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Hafravatnsvegur",
-        "type": "secondary",
-        "slope": 148.47893527249514,
-        "sun_diff": 2.6340960382129026,
-        "length": 116.59894897071813
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -22.0209906,
-            64.0438378
-          ],
-          [
-            -22.0200472,
-            64.0429907
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "\u00c1lhella",
-        "type": "unclassified",
-        "slope": 154.0128566627137,
-        "sun_diff": 2.8998253520056494,
-        "length": 104.82068603950864
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -22.5622791,
             64.0000794
           ],
@@ -516,8 +470,8 @@
             64.091283
           ],
           [
-            -21.8860437,
-            64.0926336
+            -21.8861134,
+            64.0925741
           ]
         ]
       },
@@ -525,9 +479,9 @@
       "properties": {
         "name": "Hr\u00edsholt",
         "type": "residential",
-        "slope": 30.428984338897237,
-        "sun_diff": 1.5411450278571976,
-        "length": 174.2263019101039
+        "slope": 30.5771464598771,
+        "sun_diff": 1.6893071488370595,
+        "length": 166.80473171018332
       }
     },
     {
@@ -1351,8 +1305,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Eyrarfjallsvegur",
-        "type": "tertiary",
+        "name": "Ki\u00f0afellsvegur",
+        "type": "unclassified",
         "slope": 28.7774281636743,
         "sun_diff": 0.11041114736573832,
         "length": 109.35173276037476
@@ -1398,7 +1352,7 @@
       "type": "Feature",
       "properties": {
         "name": "V\u00ed\u00f0inesvegur",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 152.77871744917496,
         "sun_diff": 1.6656861384669241,
         "length": 112.9372694402059
@@ -1421,7 +1375,7 @@
       "type": "Feature",
       "properties": {
         "name": "V\u00ed\u00f0inesvegur",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 150.1819639014843,
         "sun_diff": 0.9310674092237434,
         "length": 148.84259193822743
@@ -3594,6 +3548,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -21.6517008,
+            64.1299099
+          ],
+          [
+            -21.6504448,
+            64.1290163
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Hafravatnsvegur",
+        "type": "secondary",
+        "slope": 148.47893527249514,
+        "sun_diff": 2.6340960382129026,
+        "length": 116.59894897071813
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -21.8026225,
             64.1540139
           ],
@@ -4330,6 +4307,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -21.4176503,
+            64.0247718
+          ],
+          [
+            -21.4192705,
+            64.0261906
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 153.429030586272,
+        "sun_diff": 2.315999275563968,
+        "length": 176.45018312472092
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -22.5815688,
             63.9850129
           ],
@@ -4422,12 +4422,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -22.7011942,
-            64.053596
+            -22.6913838,
+            64.062217
           ],
           [
-            -22.7022027,
-            64.0527886
+            -22.6929631,
+            64.0610288
           ]
         ]
       },
@@ -4435,9 +4435,78 @@
       "properties": {
         "name": null,
         "type": "path",
-        "slope": 28.657581731347477,
-        "sun_diff": 0.23028490044924865,
-        "length": 102.34361224308986
+        "slope": 30.173277040488728,
+        "sun_diff": 1.2854104086920017,
+        "length": 152.87582599483983
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -22.6929631,
+            64.0610288
+          ],
+          [
+            -22.6942201,
+            64.0601327
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 31.533257165484144,
+        "sun_diff": 2.6453905336874186,
+        "length": 116.94041900843004
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -22.7002028,
+            64.0532674
+          ],
+          [
+            -22.7021384,
+            64.0518253
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 30.425477263159962,
+        "sun_diff": 1.5376106313632363,
+        "length": 186.02064808934014
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -22.7021384,
+            64.0518253
+          ],
+          [
+            -22.7041688,
+            64.050324
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 30.616940294873103,
+        "sun_diff": 1.7290736630763774,
+        "length": 194.0388507168841
       }
     },
     {
@@ -4461,6 +4530,52 @@
         "slope": 148.4675649019063,
         "sun_diff": 2.6454664088017523,
         "length": 118.74025013258458
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -22.3763535,
+            63.9852807
+          ],
+          [
+            -22.3748648,
+            63.9863425
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 31.588189683876777,
+        "sun_diff": 2.7003503728367377,
+        "length": 138.64711196520378
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -22.370788,
+            63.9991676
+          ],
+          [
+            -22.3693656,
+            64.000173
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 31.806620592740757,
+        "sun_diff": 2.918781281700717,
+        "length": 131.5919615550658
       }
     },
     {
@@ -4576,6 +4691,29 @@
         "slope": 151.7023092413874,
         "sun_diff": 0.5892779306793727,
         "length": 192.26977608983333
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -22.0210518,
+            64.0438199
+          ],
+          [
+            -22.0200676,
+            64.0429371
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 153.9889108311134,
+        "sun_diff": 2.8758795204053627,
+        "length": 109.26048096812157
       }
     }
   ]
