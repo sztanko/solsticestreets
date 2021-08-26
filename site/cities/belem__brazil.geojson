@@ -397,8 +397,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.468978,
-            -1.3344572
+            -48.4689445,
+            -1.3342936
           ],
           [
             -48.4670985,
@@ -410,9 +410,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 63.806829269487366,
-        "sun_diff": 2.7331655016783145,
-        "length": 232.91793142018912
+        "slope": 67.5989443757133,
+        "sun_diff": 1.058949604547621,
+        "length": 222.0291741141437
       }
     },
     {
@@ -938,7 +938,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Nova Republica",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 69.37850018462322,
         "sun_diff": 2.83850541345754,
         "length": 191.54529087032427
@@ -1398,7 +1398,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arterial 5 - A",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 68.93189356155705,
         "sun_diff": 2.391898790391366,
         "length": 111.97943550718743
@@ -4024,29 +4024,6 @@
         "slope": 114.37668115936629,
         "sun_diff": 0.9158326295405743,
         "length": 141.97014434862106
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -48.3636819,
-            -1.347486
-          ],
-          [
-            -48.362721,
-            -1.3479485
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua do Fio",
-        "type": "residential",
-        "slope": 115.70862096811027,
-        "sun_diff": 2.2477724382845565,
-        "length": 118.5902147438382
       }
     },
     {
@@ -7343,29 +7320,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4506754,
-            -1.4676646
-          ],
-          [
-            -48.4491683,
-            -1.468395
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 115.86404143238829,
-        "sun_diff": 2.40319290256258,
-        "length": 186.23421238563697
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -48.3004726,
             -1.2245693
           ],
@@ -7520,29 +7474,6 @@
         "slope": 67.28523892567014,
         "sun_diff": 0.7452441545044621,
         "length": 142.73022520872192
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -48.4227915,
-            -1.3441103
-          ],
-          [
-            -48.4215115,
-            -1.3435725
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua 12 de Outubro",
-        "type": "secondary",
-        "slope": 67.20435787998628,
-        "sun_diff": 0.664363108820595,
-        "length": 154.39436900890925
       }
     },
     {
@@ -7746,7 +7677,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arterial 5-A",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 68.21531970916251,
         "sun_diff": 1.6753249379968338,
         "length": 186.871833368579
@@ -7769,7 +7700,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arterial 5-A",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 68.61264111563142,
         "sun_diff": 2.0726463444657384,
         "length": 158.5462109839825
@@ -7792,7 +7723,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arterial 5-A",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 67.67812092827234,
         "sun_diff": 1.1381261571066545,
         "length": 138.55061252406284
@@ -7815,7 +7746,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arterial 5-A",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 67.75818011287572,
         "sun_diff": 1.21818534171004,
         "length": 221.45084026059288
@@ -7884,7 +7815,7 @@
       "type": "Feature",
       "properties": {
         "name": "Granja Inoue",
-        "type": "residential",
+        "type": "service",
         "slope": 69.37877576127053,
         "sun_diff": 2.8387809901048513,
         "length": 133.8149707856297
@@ -10299,7 +10230,7 @@
       "type": "Feature",
       "properties": {
         "name": "Estrada Itabira",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 64.33124800768942,
         "sun_diff": 2.208746763476256,
         "length": 106.7187770437513
@@ -11338,6 +11269,52 @@
         "slope": 66.92397106749848,
         "sun_diff": 0.38397629633280417,
         "length": 101.96364838070582
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4227915,
+            -1.3441103
+          ],
+          [
+            -48.4215115,
+            -1.3435725
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua 12 de Outubro",
+        "type": "secondary",
+        "slope": 67.20435787998628,
+        "sun_diff": 0.664363108820595,
+        "length": 154.39436900890925
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.3636819,
+            -1.347486
+          ],
+          [
+            -48.362721,
+            -1.3479485
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua do Fio",
+        "type": "residential",
+        "slope": 115.70862096811027,
+        "sun_diff": 2.2477724382845565,
+        "length": 118.5902147438382
       }
     }
   ]

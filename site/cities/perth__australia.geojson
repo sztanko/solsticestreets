@@ -1317,8 +1317,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            116.0083807,
-            -31.9362321
+            116.0084348,
+            -31.9362544
           ],
           [
             116.0104722,
@@ -1330,9 +1330,9 @@
       "properties": {
         "name": "Murray Drive",
         "type": "residential",
-        "slope": 115.93005370623692,
-        "sun_diff": 2.6743097592019183,
-        "length": 219.52323485773948
+        "slope": 115.93066688474113,
+        "sun_diff": 2.673696580697708,
+        "length": 213.84600629094948
       }
     },
     {
@@ -2226,7 +2226,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hasler Road",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 120.21800417205841,
         "sun_diff": 1.6136407066195773,
         "length": 181.95385132609698
@@ -2249,7 +2249,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gould Street",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 63.42093566450265,
         "sun_diff": 2.026313640404311,
         "length": 101.82505154367526
@@ -2272,7 +2272,7 @@
       "type": "Feature",
       "properties": {
         "name": "Walters Drive",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 121.50946763442826,
         "sun_diff": 2.905104168989425,
         "length": 237.2968939333976
@@ -6722,29 +6722,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            116.0076786,
-            -31.9370229
-          ],
-          [
-            116.0089466,
-            -31.937558
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kalamunda Road",
-        "type": "primary",
-        "slope": 116.44017829560289,
-        "sun_diff": 2.164185169835946,
-        "length": 133.67200586427347
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             116.0103417,
             -31.9350206
           ],
@@ -7014,6 +6991,29 @@
         "slope": 60.118326956621104,
         "sun_diff": 1.2762950674772355,
         "length": 314.59208726358133
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.8386099,
+            -32.0062747
+          ],
+          [
+            115.8401842,
+            -32.0054591
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 58.57777633909677,
+        "sun_diff": 2.8168456850015673,
+        "length": 174.01051610702632
       }
     },
     {
@@ -8390,7 +8390,7 @@
       "type": "Feature",
       "properties": {
         "name": "Howe Street",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 120.17409266268905,
         "sun_diff": 1.5697291972502114,
         "length": 227.5799059488246
@@ -9988,29 +9988,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            115.9853684,
-            -32.000661
-          ],
-          [
-            115.9870619,
-            -31.9998265
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 59.84090775484225,
-        "sun_diff": 1.5537142692560906,
-        "length": 184.75412495506322
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             115.9491044,
             -31.9380715
           ],
@@ -10050,29 +10027,6 @@
         "slope": 59.53388775419728,
         "sun_diff": 1.8607342699010587,
         "length": 127.39124530621416
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.0152589,
-            -31.940326
-          ],
-          [
-            116.0139211,
-            -31.9396893
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kalamunda Road",
-        "type": "primary",
-        "slope": 119.28538827446744,
-        "sun_diff": 0.6810248090285995,
-        "length": 144.77848281090476
       }
     },
     {
@@ -10211,6 +10165,29 @@
         "slope": 121.30175594675802,
         "sun_diff": 2.6973924813191843,
         "length": 188.48613884578063
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.8243509,
+            -31.9213057
+          ],
+          [
+            115.8232332,
+            -31.9217899
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 62.96031321633319,
+        "sun_diff": 1.5656911922348513,
+        "length": 118.47052815664621
       }
     }
   ]
