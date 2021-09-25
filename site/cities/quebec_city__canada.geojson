@@ -9839,7 +9839,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard La Morille",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 56.94290667808866,
         "sun_diff": 1.4558245501610827,
         "length": 132.32029866952405
@@ -9862,7 +9862,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard La Morille",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 56.37675206475683,
         "sun_diff": 0.8896699368292502,
         "length": 106.08190272008873
@@ -10759,7 +10759,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard La Morille",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 56.162000914453046,
         "sun_diff": 0.6749187865254669,
         "length": 119.15103457593526
@@ -10782,7 +10782,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard La Morille",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 58.21115628375611,
         "sun_diff": 2.724074155828532,
         "length": 106.81928671124865
@@ -13622,8 +13622,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -71.3164644,
-            46.9156717
+            -71.317619,
+            46.9151819
           ],
           [
             -71.3146201,
@@ -13635,9 +13635,9 @@
       "properties": {
         "name": "Rue des Ramures",
         "type": "residential",
-        "slope": 56.19827035892479,
-        "sun_diff": 0.7111882309972088,
-        "length": 168.6289058777614
+        "slope": 56.94242363948044,
+        "sun_diff": 1.4553415115528594,
+        "length": 271.8568811160237
       }
     },
     {
@@ -14404,58 +14404,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -71.2845406,
-            46.8820553
-          ],
-          [
-            -71.2817475,
-            46.8832693
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rue des Roses",
-        "type": "residential",
-        "slope": 57.546933965064085,
-        "sun_diff": 2.059851837136506,
-        "length": 251.64359077250242
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -71.2817475,
-            46.8832693
-          ],
-          [
-            -71.278849,
-            46.8846138
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rue des Roses",
-        "type": "residential",
-        "slope": 55.83585596961939,
-        "sun_diff": 0.34877384169180914,
-        "length": 266.3086438027555
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -71.278849,
             46.8846138
           ],
           [
-            -71.2773583,
-            46.8853015
+            -71.2764894,
+            46.8857458
           ]
         ]
       },
@@ -14463,9 +14417,9 @@
       "properties": {
         "name": "Rue des Roses",
         "type": "residential",
-        "slope": 55.981187081768525,
-        "sun_diff": 0.4941049538409459,
-        "length": 136.7254098892789
+        "slope": 54.93358028448435,
+        "sun_diff": 0.5535018434432288,
+        "length": 219.16003561918419
       }
     },
     {
@@ -19349,29 +19303,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -71.3042849,
-            46.8886953
-          ],
-          [
-            -71.302543,
-            46.8894636
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 57.161887731893955,
-        "sun_diff": 1.6748056039663766,
-        "length": 157.59446529466447
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -71.3261227,
             46.9268346
           ],
@@ -20768,29 +20699,6 @@
         "slope": 57.55635826844596,
         "sun_diff": 2.069276140518383,
         "length": 112.97813938008932
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -71.2683465,
-            46.9109344
-          ],
-          [
-            -71.2664232,
-            46.9119414
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rue Aqueduc",
-        "type": "service",
-        "slope": 52.53160125645917,
-        "sun_diff": 2.95548087146841,
-        "length": 184.1274519757375
       }
     },
     {
@@ -25920,6 +25828,75 @@
         "slope": 57.323753849023774,
         "sun_diff": 1.8366717210961951,
         "length": 156.0629041757738
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.2683465,
+            46.9109344
+          ],
+          [
+            -71.2664232,
+            46.9119414
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rue Aqueduc",
+        "type": "service",
+        "slope": 52.53160125645917,
+        "sun_diff": 2.95548087146841,
+        "length": 184.1274519757375
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.2845406,
+            46.8820553
+          ],
+          [
+            -71.2817475,
+            46.8832693
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rue des Roses",
+        "type": "residential",
+        "slope": 57.546933965064085,
+        "sun_diff": 2.059851837136506,
+        "length": 251.64359077250242
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.2817475,
+            46.8832693
+          ],
+          [
+            -71.2798495,
+            46.8841497
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rue des Roses",
+        "type": "residential",
+        "slope": 55.83631163730615,
+        "sun_diff": 0.3492295093785742,
+        "length": 174.38466575036483
       }
     }
   ]
