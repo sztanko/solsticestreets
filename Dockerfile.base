@@ -1,4 +1,4 @@
-FROM andrejreznik/python-gdal:py3.7.3-gdal3.0.0
+FROM andrejreznik/python-gdal:py3.8.2-gdal3.0.4
 ENV PATH /usr/local/bin:$PATH
 
 RUN echo "deb http://ftp.debian.org/debian stretch-backports main"  > /etc/apt/sources.list.d/backports.list
