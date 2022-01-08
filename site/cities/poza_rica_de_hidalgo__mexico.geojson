@@ -17,11 +17,34 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle 16 de Septiembre",
+        "name": "16 de Septiembre",
         "type": "residential",
         "slope": 117.20505576301915,
         "sun_diff": 2.3624736244781985,
         "length": 103.81488795541763
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.4480422,
+            20.5205946
+          ],
+          [
+            -97.4489473,
+            20.5210002
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Veracruz",
+        "type": "residential",
+        "slope": 115.5706710351204,
+        "sun_diff": 0.7280888965794503,
+        "length": 104.52352777811016
       }
     },
     {
@@ -40,57 +63,11 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Chapultepec",
+        "name": "Chapultepec",
         "type": "tertiary",
         "slope": 116.06865884276732,
         "sun_diff": 1.2260767042263723,
         "length": 132.04870718441614
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.4446162,
-            20.5540303
-          ],
-          [
-            -97.4434291,
-            20.5535026
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Chapultepec",
-        "type": "tertiary",
-        "slope": 115.39598044951597,
-        "sun_diff": 0.5533983109750267,
-        "length": 136.86119218464896
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.4661669,
-            20.5132199
-          ],
-          [
-            -97.4673613,
-            20.5138067
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Reforma",
-        "type": "residential",
-        "slope": 117.67952480342669,
-        "sun_diff": 2.83694266488574,
-        "length": 140.50842946706936
       }
     },
     {
@@ -109,7 +86,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Pozo 6",
+        "name": "Pozo 6 Quemado",
         "type": "secondary",
         "slope": 67.23287214840613,
         "sun_diff": 2.0741055519571034,
@@ -125,18 +102,18 @@
             20.5065757
           ],
           [
-            -97.4093706,
-            20.5059648
+            -97.4094377,
+            20.5059961
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Benito Ju\u00e1rez",
+        "name": "Benito Ju\u00e1rez",
         "type": "residential",
-        "slope": 116.49767212939048,
-        "sun_diff": 1.6550899908495325,
-        "length": 152.29956831222452
+        "slope": 116.49893194128816,
+        "sun_diff": 1.656349802747215,
+        "length": 144.49000476353706
       }
     },
     {
@@ -144,22 +121,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.4346095,
-            20.5262579
+            -97.4355778,
+            20.5266037
           ],
           [
-            -97.4333974,
-            20.5257577
+            -97.4346283,
+            20.5262391
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida Pozo 13",
+        "name": "Pozo 13",
         "type": "secondary",
-        "slope": 113.78053690750366,
-        "sun_diff": 1.0620452310372883,
-        "length": 137.97701128467656
+        "slope": 112.29476953572782,
+        "sun_diff": 2.5478126028131243,
+        "length": 106.89873861478459
       }
     },
     {
@@ -167,8 +144,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.4284155,
-            20.5313481
+            -97.4346283,
+            20.5262391
+          ],
+          [
+            -97.4334685,
+            20.5257878
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Pozo 13",
+        "type": "secondary",
+        "slope": 112.56273072214006,
+        "sun_diff": 2.279851416400888,
+        "length": 130.82786413850462
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.4284303,
+            20.531328
           ],
           [
             -97.4274952,
@@ -178,11 +178,11 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Amado Nervo",
+        "name": "Amado Nervo",
         "type": "residential",
-        "slope": 113.52007427546596,
-        "sun_diff": 1.3225078630749891,
-        "length": 104.54865336539947
+        "slope": 112.06702612393906,
+        "sun_diff": 2.7755560146018894,
+        "length": 105.10380454476262
       }
     },
     {
@@ -201,7 +201,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida Papantla",
+        "name": "Papantla",
         "type": "tertiary",
         "slope": 116.34312147455591,
         "sun_diff": 1.5005393360149668,
@@ -213,22 +213,45 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.4387646,
-            20.513781
+            -97.4403242,
+            20.5134633
           ],
           [
-            -97.4378569,
-            20.5134181
+            -97.4390966,
+            20.5129896
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Pozo 81",
+        "name": "\u00c1lvaro Obreg\u00f3n",
         "type": "residential",
-        "slope": 113.11615411284055,
-        "sun_diff": 1.7264280257004003,
-        "length": 102.81618003117023
+        "slope": 112.3915908172979,
+        "sun_diff": 2.450991321243052,
+        "length": 138.31637102618305
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.4387338,
+            20.5137408
+          ],
+          [
+            -97.437814,
+            20.513393
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Pozo 81",
+        "type": "residential",
+        "slope": 111.98520139929823,
+        "sun_diff": 2.857380739242714,
+        "length": 103.33626491559468
       }
     },
     {
@@ -328,22 +351,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.4449445,
-            20.5139657
+            -97.4453468,
+            20.5137836
           ],
           [
-            -97.4439069,
-            20.5143837
+            -97.4438787,
+            20.5143661
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida Ferrocarril",
+        "name": "Ferrocarril",
         "type": "residential",
-        "slope": 66.72602189844275,
-        "sun_diff": 1.5672553019937254,
-        "length": 117.6684129101181
+        "slope": 67.040710078698,
+        "sun_diff": 1.8819434822489711,
+        "length": 166.099217035953
       }
     },
     {
@@ -351,22 +374,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.4430482,
-            20.5147735
+            -97.4432266,
+            20.5146253
           ],
           [
-            -97.4416675,
-            20.5152939
+            -97.4416635,
+            20.5152776
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida Ferrocarril",
+        "name": "Ferrocarril",
         "type": "residential",
-        "slope": 68.07851336970322,
-        "sun_diff": 2.9197467732541895,
-        "length": 155.04568371210925
+        "slope": 65.9836636662229,
+        "sun_diff": 0.8248970697738685,
+        "length": 178.26994173621148
       }
     },
     {
@@ -374,22 +397,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.4181908,
-            20.4903843
+            -97.450005,
+            20.5093844
           ],
           [
-            -97.4190974,
-            20.4899891
+            -97.4491106,
+            20.508945
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 65.04480796115922,
-        "sun_diff": 0.2693317785292777,
-        "length": 104.18821652999189
+        "name": "Ingeniero Daniel Nagera",
+        "type": "living_street",
+        "slope": 117.67812275307452,
+        "sun_diff": 2.8355406145335706,
+        "length": 105.21834009034518
       }
     },
     {
@@ -408,7 +431,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle 21 de Marzo",
+        "name": "21 de Marzo",
         "type": "residential",
         "slope": 112.0153637726199,
         "sun_diff": 2.8272183659210413,
@@ -454,7 +477,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle R\u00edo Blanco",
+        "name": "R\u00edo Blanco",
         "type": "residential",
         "slope": 113.54625931782368,
         "sun_diff": 1.2963228207172648,
@@ -477,11 +500,34 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Tolteca",
+        "name": "Tolteca",
         "type": "residential",
         "slope": 63.11699717946621,
         "sun_diff": 2.0417694169828167,
         "length": 135.9590920065178
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.4481126,
+            20.5138538
+          ],
+          [
+            -97.4489733,
+            20.5134383
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Quinta Privada Ferrocarril",
+        "type": "residential",
+        "slope": 62.73206316550019,
+        "sun_diff": 2.426703430948834,
+        "length": 100.87465608241115
       }
     },
     {
@@ -500,7 +546,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Santa",
+        "name": "Santa",
         "type": "residential",
         "slope": 113.69694198174514,
         "sun_diff": 1.1456401567958068,
@@ -523,7 +569,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Veracruz",
+        "name": "Veracruz",
         "type": "residential",
         "slope": 112.2510988866652,
         "sun_diff": 2.5914832518757436,
@@ -539,18 +585,18 @@
             20.5493185
           ],
           [
-            -97.4584084,
-            20.5488922
+            -97.4584044,
+            20.5489048
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Enrique C R\u00e9bsamen",
+        "name": "Enrique C. R\u00e9bsamen",
         "type": "residential",
-        "slope": 62.35276074663659,
-        "sun_diff": 2.8060058498124363,
-        "length": 102.18645363315872
+        "slope": 62.946358403665926,
+        "sun_diff": 2.2124081927831014,
+        "length": 101.17250618401566
       }
     },
     {
@@ -592,57 +638,11 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida de Las Palmas",
+        "name": "de las Palmas",
         "type": "residential",
         "slope": 113.83900222191116,
         "sun_diff": 1.0035799166297892,
         "length": 100.47814154565872
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.4244631,
-            20.5880883
-          ],
-          [
-            -97.4224612,
-            20.5872175
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 114.92245243900177,
-        "sun_diff": 0.07987030046082566,
-        "length": 229.85460067070767
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.4351372,
-            20.5007333
-          ],
-          [
-            -97.4340462,
-            20.5012493
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 63.208905754009606,
-        "sun_diff": 1.9498608424394206,
-        "length": 127.33465902094574
       }
     },
     {
@@ -661,7 +661,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle P. Chapultepec",
+        "name": "Chapultepec",
         "type": "residential",
         "slope": 112.93190554137442,
         "sun_diff": 1.9106765971665283,
@@ -719,35 +719,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.4480596,
-            20.5206436
-          ],
-          [
-            -97.448946,
-            20.5210303
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Veracruz",
-        "type": "residential",
-        "slope": 114.9769595563123,
-        "sun_diff": 0.13437741777134704,
-        "length": 101.86438569952314
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -97.4539083,
             20.513308
           ],
           [
             -97.4529056,
-            20.5128165
+            20.5128391
           ]
         ]
       },
@@ -755,9 +732,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 117.62579844656102,
-        "sun_diff": 2.783216308020073,
-        "length": 117.89946440497776
+        "slope": 116.5327680250725,
+        "sun_diff": 1.6901858865315518,
+        "length": 116.75506711289118
       }
     },
     {
@@ -765,22 +742,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.4563917,
-            20.5400828
+            -97.456349,
+            20.5401122
           ],
           [
-            -97.457358,
-            20.540511
+            -97.4573626,
+            20.5405006
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Nueve",
+        "name": "9",
         "type": "residential",
-        "slope": 115.3243927037513,
-        "sun_diff": 0.4818105652103526,
-        "length": 111.34887065801766
+        "slope": 112.25457531124158,
+        "sun_diff": 2.588006827299367,
+        "length": 114.07220703693666
       }
     },
     {
@@ -799,7 +776,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Pozo 13",
+        "name": "Pozo 13",
         "type": "secondary",
         "slope": 113.37797726404685,
         "sun_diff": 1.4646048744940998,
@@ -845,7 +822,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle de las Flores",
+        "name": "de las Flores",
         "type": "residential",
         "slope": 113.41280052799502,
         "sun_diff": 1.4297816105459304,

@@ -75,8 +75,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.2396793,
-            43.6930273
+            7.2396321,
+            43.6930527
           ],
           [
             7.2384721,
@@ -88,9 +88,9 @@
       "properties": {
         "name": "Rue Saint-Honor\u00e9",
         "type": "residential",
-        "slope": 122.44988458648879,
-        "sun_diff": 0.09700067166480153,
-        "length": 115.05249098289964
+        "slope": 122.2695273675277,
+        "sun_diff": 0.27735789062589333,
+        "length": 110.33378006699328
       }
     },
     {
@@ -125,8 +125,8 @@
             43.6758563
           ],
           [
-            7.2261688,
-            43.675151
+            7.2260644,
+            43.6751992
           ]
         ]
       },
@@ -134,9 +134,9 @@
       "properties": {
         "name": "Avenue des Pins",
         "type": "residential",
-        "slope": 122.56955695639809,
-        "sun_diff": 0.02267169824449411,
-        "length": 145.73046513549937
+        "slope": 122.57090457992393,
+        "sun_diff": 0.024019321770339275,
+        "length": 135.7663266097185
       }
     },
     {
@@ -225,7 +225,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard de Montr\u00e9al Num\u00e9ros bis",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 119.93002191663723,
         "sun_diff": 2.616863341516364,
         "length": 107.51950400570956
@@ -248,7 +248,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard de Montr\u00e9al Num\u00e9ros bis",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 119.92539877148255,
         "sun_diff": 2.6214864866710457,
         "length": 178.50302642184337
@@ -374,29 +374,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.2318607,
-            43.6903926
-          ],
-          [
-            7.2330561,
-            43.6898643
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenue Le Mesnil",
-        "type": "residential",
-        "slope": 121.43280672160489,
-        "sun_diff": 1.1140785365487034,
-        "length": 112.68020445048636
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             7.2348609,
             43.6958934
           ],
@@ -459,29 +436,6 @@
         "slope": 120.39423901470457,
         "sun_diff": 2.152646243449027,
         "length": 145.55865432609127
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.2189616,
-            43.6808015
-          ],
-          [
-            7.2201475,
-            43.6813958
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 55.279822649938495,
-        "sun_diff": 2.1735616570090315,
-        "length": 116.05987912954971
       }
     },
     {
@@ -627,29 +581,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.2185206,
-            43.68712
-          ],
-          [
-            7.2173082,
-            43.6877292
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Boulevard de Montr\u00e9al",
-        "type": "tertiary",
-        "slope": 124.79446188644064,
-        "sun_diff": 2.2475766282870495,
-        "length": 118.74760951090654
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             7.2082189,
             43.683704
           ],
@@ -689,6 +620,52 @@
         "slope": 56.48169947986864,
         "sun_diff": 0.9716848270788887,
         "length": 107.9052524632634
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.2664472,
+            43.728268
+          ],
+          [
+            7.2653946,
+            43.7277753
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 57.067182712580376,
+        "sun_diff": 0.38620159436715085,
+        "length": 100.80428373392246
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.2330561,
+            43.6898643
+          ],
+          [
+            7.2318607,
+            43.6903926
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenue Le Mesnil",
+        "type": "residential",
+        "slope": 121.43303128947255,
+        "sun_diff": 1.1138539686810418,
+        "length": 112.68020445048636
       }
     }
   ]

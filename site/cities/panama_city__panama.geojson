@@ -581,8 +581,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.6554614,
-            9.040203
+            -79.6555472,
+            9.0402215
           ],
           [
             -79.6564916,
@@ -594,9 +594,9 @@
       "properties": {
         "name": "Gordo",
         "type": "service",
-        "slope": 113.16387806709832,
-        "sun_diff": 0.43231749132036157,
-        "length": 123.0884685046242
+        "slope": 114.07939347494462,
+        "sun_diff": 0.48319791652593835,
+        "length": 113.62836922202423
       }
     },
     {
@@ -930,8 +930,8 @@
             9.0900134
           ],
           [
-            -79.5392386,
-            9.0905876
+            -79.5391003,
+            9.0905288
           ]
         ]
       },
@@ -939,9 +939,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 113.28208088288872,
-        "sun_diff": 0.3141146755299644,
-        "length": 161.58603861567758
+        "slope": 113.28057048469628,
+        "sun_diff": 0.31562507372240134,
+        "length": 145.04796406956984
       }
     },
     {
@@ -2973,29 +2973,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.4811359,
-            9.041112
-          ],
-          [
-            -79.4802729,
-            9.0414874
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 66.22808768395589,
-        "sun_diff": 0.17686058694030748,
-        "length": 103.58729350383075
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -79.4822088,
             9.0618647
           ],
@@ -3449,6 +3426,29 @@
         "slope": 66.23040910405476,
         "sun_diff": 0.17456648759812765,
         "length": 198.11418327399923
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5270325,
+            9.0745638
+          ],
+          [
+            -79.5283213,
+            9.0739538
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle C",
+        "type": "residential",
+        "slope": 64.39128583224038,
+        "sun_diff": 2.0136897594125003,
+        "length": 156.97953690051762
       }
     },
     {
@@ -4001,6 +4001,52 @@
         "slope": 65.97244153117256,
         "sun_diff": 0.4325067397236353,
         "length": 145.9293773949627
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5155894,
+            9.1114726
+          ],
+          [
+            -79.5174962,
+            9.112311
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Boulevard Ciudad del Lago",
+        "type": "tertiary",
+        "slope": 114.00386065791349,
+        "sun_diff": 0.4076650994948068,
+        "length": 229.24187957656687
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5211817,
+            9.1134493
+          ],
+          [
+            -79.5235625,
+            9.1125262
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Boulevard Ciudad del Lago",
+        "type": "tertiary",
+        "slope": 68.56091857990864,
+        "sun_diff": 2.1559429882557595,
+        "length": 280.9106353109205
       }
     },
     {
@@ -4664,7 +4710,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle A",
-        "type": "living_street",
+        "type": "residential",
         "slope": 66.77321564083931,
         "sun_diff": 0.3682400491864257,
         "length": 195.08916160013297
@@ -5457,29 +5503,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.5249353,
-            9.0738775
-          ],
-          [
-            -79.5264004,
-            9.0732173
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 65.47148455699312,
-        "sun_diff": 0.9334910346597667,
-        "length": 176.88684914589172
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -79.526766,
             9.0740459
           ],
@@ -5503,22 +5526,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.5270325,
-            9.0745638
+            -79.5249353,
+            9.0738775
           ],
           [
-            -79.5283213,
-            9.0739538
+            -79.5264004,
+            9.0732173
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle C",
+        "name": null,
         "type": "residential",
-        "slope": 64.39128583224038,
-        "sun_diff": 2.0136897594125003,
-        "length": 156.97953690051762
+        "slope": 65.47148455699312,
+        "sun_diff": 0.9334910346597667,
+        "length": 176.88684914589172
       }
     },
     {
@@ -5607,7 +5630,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida 3era",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 114.97596832410437,
         "sun_diff": 1.3797727656856864,
         "length": 115.56632244662849
@@ -5825,8 +5848,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.5235773,
-            9.1124101
+            -79.5234898,
+            9.1124151
           ],
           [
             -79.521239,
@@ -5837,10 +5860,10 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Ciudad del Lago",
-        "type": "residential",
-        "slope": 68.87161222041692,
-        "sun_diff": 2.4666366287640358,
-        "length": 275.3138736762765
+        "type": "tertiary",
+        "slope": 68.23761328248207,
+        "sun_diff": 1.8326376908291877,
+        "length": 266.1659445287123
       }
     },
     {
@@ -5860,10 +5883,33 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Ciudad del Lago",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 114.90660911091075,
         "sun_diff": 1.310413552492065,
         "length": 341.6860687334341
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5211692,
+            9.1012501
+          ],
+          [
+            -79.522509,
+            9.1018422
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle 14",
+        "type": "residential",
+        "slope": 114.11171765751934,
+        "sun_diff": 0.5155220991006502,
+        "length": 161.21534126897478
       }
     },
     {
@@ -5933,29 +5979,6 @@
         "slope": 63.83720233278237,
         "sun_diff": 2.5677459381138306,
         "length": 149.39170494778102
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -79.466541,
-            9.0375814
-          ],
-          [
-            -79.4642862,
-            9.0385421
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Jos\u00e9 Agust\u00edn Arango",
-        "type": "primary",
-        "slope": 66.66338177513833,
-        "sun_diff": 0.2584335042421344,
-        "length": 269.7548056557061
       }
     },
     {
@@ -7025,8 +7048,8 @@
             9.0250756
           ],
           [
-            -79.5251518,
-            9.0241924
+            -79.5246884,
+            9.0244383
           ]
         ]
       },
@@ -7034,9 +7057,9 @@
       "properties": {
         "name": "V\u00eda Ricardo J. Alfaro",
         "type": "primary",
-        "slope": 64.04274014769317,
-        "sun_diff": 2.362235443959719,
-        "length": 224.44131814456404
+        "slope": 64.83687360799982,
+        "sun_diff": 1.5681019836530652,
+        "length": 166.7150524516853
       }
     },
     {
@@ -7458,12 +7481,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.5378872,
-            9.0900134
+            -79.5225064,
+            9.1012065
           ],
           [
-            -79.5392603,
-            9.0893439
+            -79.5214634,
+            9.1007447
           ]
         ]
       },
@@ -7471,55 +7494,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 63.720615054104684,
-        "sun_diff": 2.6843605375482014,
-        "length": 168.19548702204017
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -79.5155894,
-            9.1114726
-          ],
-          [
-            -79.5174962,
-            9.112311
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Boulevard Ciudad del Lago",
-        "type": "residential",
-        "slope": 114.00386065791349,
-        "sun_diff": 0.4076650994948068,
-        "length": 229.24187957656687
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -79.5211817,
-            9.1134493
-          ],
-          [
-            -79.523524,
-            9.1125676
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Boulevard Ciudad del Lago",
-        "type": "residential",
-        "slope": 69.13133096290835,
-        "sun_diff": 2.7263553712554653,
-        "length": 275.30538599124543
+        "slope": 114.15174611191722,
+        "sun_diff": 0.5555505534985343,
+        "length": 125.54153237845749
       }
     },
     {
@@ -7539,7 +7516,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 110.70682792741445,
         "sun_diff": 2.8893676310042338,
         "length": 102.30013302043353
@@ -8194,58 +8171,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.6871118,
-            8.9197001
-          ],
-          [
-            -79.6857019,
-            8.9191319
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 112.19251502533942,
-        "sun_diff": 1.4036805330792674,
-        "length": 167.3217660793853
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -79.6861809,
-            8.9177945
-          ],
-          [
-            -79.6877685,
-            8.9184501
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 112.68512440258647,
-        "sun_diff": 0.911071155832218,
-        "length": 189.08132295619157
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -79.6391326,
             9.045183
           ],
           [
-            -79.6373904,
-            9.044455
+            -79.6374115,
+            9.0444251
           ]
         ]
       },
@@ -8253,9 +8184,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 112.93435444378954,
-        "sun_diff": 0.6618411146291407,
-        "length": 207.80136103889265
+        "slope": 114.03218408851828,
+        "sun_diff": 0.4359885300995927,
+        "length": 207.00078971950074
       }
     },
     {
@@ -8612,8 +8543,8 @@
             9.0236777
           ],
           [
-            -79.5247749,
-            9.0241713
+            -79.5247776,
+            9.0241786
           ]
         ]
       },
@@ -8621,9 +8552,9 @@
       "properties": {
         "name": "V\u00eda Ricardo J. Alfaro",
         "type": "primary",
-        "slope": 64.48461645035653,
-        "sun_diff": 1.920359141296359,
-        "length": 127.45824819228102
+        "slope": 64.09803195242182,
+        "sun_diff": 2.306943639231065,
+        "length": 127.5432366389766
       }
     },
     {
@@ -8631,8 +8562,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.5247749,
-            9.0241713
+            -79.5246035,
+            9.0242649
           ],
           [
             -79.5234413,
@@ -8644,9 +8575,9 @@
       "properties": {
         "name": "V\u00eda Ricardo J. Alfaro",
         "type": "primary",
-        "slope": 63.60382113212722,
-        "sun_diff": 2.8011544595256623,
-        "length": 163.55153248178286
+        "slope": 63.988934543717335,
+        "sun_diff": 2.4160410479355505,
+        "length": 142.0604686396677
       }
     },
     {
@@ -8746,12 +8677,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.468477,
-            9.0883557
+            -79.4685637,
+            9.0884503
           ],
           [
-            -79.4670336,
-            9.0877479
+            -79.4670698,
+            9.0878048
           ]
         ]
       },
@@ -8759,9 +8690,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 113.09543420753752,
-        "sun_diff": 0.500761350881163,
-        "length": 172.3468779354276
+        "slope": 113.63338302371216,
+        "sun_diff": 0.03718746529347072,
+        "length": 179.10169547489312
       }
     },
     {
@@ -8769,12 +8700,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.4682489,
-            9.0887083
+            -79.4683192,
+            9.0887868
           ],
           [
-            -79.466877,
-            9.0881403
+            -79.4669025,
+            9.0881893
           ]
         ]
       },
@@ -8782,9 +8713,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 112.74771292284782,
-        "sun_diff": 0.8484826355708606,
-        "length": 163.38951724917558
+        "slope": 113.12813426334839,
+        "sun_diff": 0.46806129507029937,
+        "length": 169.19980810712556
       }
     },
     {
@@ -8792,12 +8723,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.4680038,
-            9.0890794
+            -79.4680625,
+            9.0891449
           ],
           [
-            -79.466702,
-            9.0885429
+            -79.4667315,
+            9.0885813
           ]
         ]
       },
@@ -8805,9 +8736,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 112.65377735193047,
-        "sun_diff": 0.9424182064882132,
-        "length": 154.93433532009064
+        "slope": 113.2108531340956,
+        "sun_diff": 0.38534242432308474,
+        "length": 159.06253768172337
       }
     },
     {
@@ -8815,12 +8746,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.468704,
-            9.0880049
+            -79.4687308,
+            9.0880407
           ],
           [
-            -79.4674096,
-            9.0874247
+            -79.4674458,
+            9.0874816
           ]
         ]
       },
@@ -8828,9 +8759,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 114.4150152910745,
-        "sun_diff": 0.8188197326558111,
-        "length": 156.13060866621626
+        "slope": 113.77962771985321,
+        "sun_diff": 0.18343216143452423,
+        "length": 154.22986866545187
       }
     },
     {
@@ -8934,8 +8865,8 @@
             9.1022999
           ],
           [
-            -79.5207882,
-            9.1017918
+            -79.5208204,
+            9.101813
           ]
         ]
       },
@@ -8943,9 +8874,9 @@
       "properties": {
         "name": "Carretera Gonzalillo Pedregal",
         "type": "primary",
-        "slope": 113.36706627641175,
-        "sun_diff": 0.22912928200693727,
-        "length": 142.49357565774102
+        "slope": 113.05140340270117,
+        "sun_diff": 0.5447921557175164,
+        "length": 138.31396416093014
       }
     },
     {
@@ -8992,29 +8923,6 @@
         "slope": 67.95467655874037,
         "sun_diff": 1.5497009670874888,
         "length": 129.7098185650802
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -79.5216554,
-            9.1029442
-          ],
-          [
-            -79.5207284,
-            9.1025458
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 113.52131135255178,
-        "sun_diff": 0.07488420586690836,
-        "length": 111.03743196834782
       }
     },
     {
@@ -9199,29 +9107,6 @@
         "slope": 114.69990865760863,
         "sun_diff": 1.103713099189946,
         "length": 129.71219465300595
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -79.5817758,
-            9.0356807
-          ],
-          [
-            -79.5809497,
-            9.0352993
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Camino de Cruces",
-        "type": "path",
-        "slope": 115.0555314089465,
-        "sun_diff": 1.4593358505278218,
-        "length": 100.17330432652226
       }
     },
     {
@@ -9820,6 +9705,75 @@
         "slope": 66.68460003710675,
         "sun_diff": 0.27962444545386234,
         "length": 125.7331061713907
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5817758,
+            9.0356807
+          ],
+          [
+            -79.5809497,
+            9.0352993
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Camino de Cruces",
+        "type": "path",
+        "slope": 115.0555314089465,
+        "sun_diff": 1.4593358505278218,
+        "length": 100.17330432652226
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6503398,
+            8.92699
+          ],
+          [
+            -79.6485025,
+            8.9261553
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.69663532568714,
+        "sun_diff": 1.1004397672684547,
+        "length": 222.21255404654056
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.6543866,
+            8.9602187
+          ],
+          [
+            -79.6554486,
+            8.959724
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 64.75268578403558,
+        "sun_diff": 1.6522898076173078,
+        "length": 129.00813476030714
       }
     }
   ]

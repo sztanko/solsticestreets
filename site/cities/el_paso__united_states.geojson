@@ -98,6 +98,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -106.2387143,
+            31.6618987
+          ],
+          [
+            -106.2397428,
+            31.6614586
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 63.31001372067715,
+        "sun_diff": 0.6548666248746144,
+        "length": 108.98531901968093
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -106.2935598,
             31.6317474
           ],
@@ -551,75 +574,6 @@
         "slope": 118.33619242862937,
         "sun_diff": 0.9906464876022341,
         "length": 122.56141433853394
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.288405,
-            31.623846
-          ],
-          [
-            -106.285805,
-            31.625003
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Vineyard Road",
-        "type": "tertiary",
-        "slope": 62.40805938549417,
-        "sun_diff": 0.24708771030836374,
-        "length": 277.85297751197805
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.284385,
-            31.625657
-          ],
-          [
-            -106.282905,
-            31.626314
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Vineyard Road",
-        "type": "tertiary",
-        "slope": 62.464896605230706,
-        "sun_diff": 0.1902504905718274,
-        "length": 158.0780282806867
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.2824635,
-            31.6265132
-          ],
-          [
-            -106.281468,
-            31.626944
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Vineyard Road",
-        "type": "tertiary",
-        "slope": 63.05898523365224,
-        "sun_diff": 0.40383813784970357,
-        "length": 105.76199073361461
       }
     },
     {
@@ -2686,7 +2640,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Americas Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 62.663846927993575,
         "sun_diff": 0.008699832191041423,
         "length": 104.13013660123694
@@ -2709,7 +2663,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Americas Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 64.0287566260653,
         "sun_diff": 1.3736095302627689,
         "length": 121.9177241104893
@@ -2732,7 +2686,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Americas Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 63.72562879954344,
         "sun_diff": 1.07048170374091,
         "length": 402.2808665317631
@@ -2755,7 +2709,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Americas Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 63.33813264613215,
         "sun_diff": 0.6829855503296187,
         "length": 408.0879088679914
@@ -3322,8 +3276,8 @@
             31.6461091
           ],
           [
-            -106.2238141,
-            31.6467059
+            -106.2237659,
+            31.6466822
           ]
         ]
       },
@@ -3331,9 +3285,9 @@
       "properties": {
         "name": "Colina Corona Drive",
         "type": "residential",
-        "slope": 120.08084415705238,
-        "sun_diff": 2.7352982160252424,
-        "length": 132.44070575610434
+        "slope": 120.08376331777615,
+        "sun_diff": 2.738217376749006,
+        "length": 127.17004964902009
       }
     },
     {
@@ -3490,7 +3444,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "State Line Road",
+        "name": "Edge of Texas Street",
         "type": "tertiary",
         "slope": 118.12516681868794,
         "sun_diff": 0.779620877660804,
@@ -4916,8 +4870,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "tertiary",
+        "name": "Artcraft Road",
+        "type": "secondary",
         "slope": 62.13416964670762,
         "sun_diff": 0.5209501283382281,
         "length": 239.33179236635863
@@ -4939,8 +4893,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "tertiary",
+        "name": "Artcraft Road",
+        "type": "secondary",
         "slope": 61.836478628406184,
         "sun_diff": 0.8186411466396635,
         "length": 105.15241946706381
@@ -6503,8 +6457,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "tertiary",
+        "name": "Artcraft Road",
+        "type": "secondary",
         "slope": 61.0778623962029,
         "sun_diff": 1.577257378842944,
         "length": 110.32789780737069
@@ -6986,8 +6940,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Gateway Boulevard South",
-        "type": "tertiary",
+        "name": "Gateway South Boulevard",
+        "type": "secondary",
         "slope": 60.19412664422083,
         "sun_diff": 2.461020451581703,
         "length": 809.110611383156
@@ -7009,8 +6963,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Gateway Boulevard South",
-        "type": "tertiary",
+        "name": "Gateway South Boulevard",
+        "type": "secondary",
         "slope": 60.20687721121271,
         "sun_diff": 2.44826988458982,
         "length": 320.4105529256564
@@ -7079,7 +7033,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Americas Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 60.09453905084996,
         "sun_diff": 2.5606080449525734,
         "length": 113.77999229085763
@@ -7102,7 +7056,7 @@
       "type": "Feature",
       "properties": {
         "name": "North Americas Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 59.69741364441222,
         "sun_diff": 2.957733451390311,
         "length": 110.75199150997132
@@ -7837,7 +7791,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Gateway North Boulevard",
         "type": "trunk",
         "slope": 60.08247878694746,
         "sun_diff": 2.5726683088550715,
@@ -7860,7 +7814,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Gateway North Boulevard",
         "type": "trunk",
         "slope": 60.30887434220688,
         "sun_diff": 2.346272753595656,
@@ -7883,7 +7837,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Gateway South Boulevard",
         "type": "trunk",
         "slope": 60.38569629395076,
         "sun_diff": 2.269450801851775,
@@ -8164,29 +8118,6 @@
         "slope": 120.1627149848,
         "sun_diff": 2.8171690437728643,
         "length": 171.91669573552178
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.2707063,
-            31.7096063
-          ],
-          [
-            -106.2716927,
-            31.7099926
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Paseo del Este Boulevard",
-        "type": "secondary",
-        "slope": 114.71883566412069,
-        "sun_diff": 2.6267102769064508,
-        "length": 102.75390008698527
       }
     },
     {
@@ -10367,8 +10298,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "tertiary",
+        "name": "Artcraft Road",
+        "type": "secondary",
         "slope": 63.65751830992323,
         "sun_diff": 1.0023985348773863,
         "length": 190.80695056018956
@@ -10390,8 +10321,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "tertiary",
+        "name": "Artcraft Road",
+        "type": "secondary",
         "slope": 63.43549480041398,
         "sun_diff": 0.7803750253681301,
         "length": 105.13468453897774
@@ -11816,7 +11747,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Gateway South Boulevard",
         "type": "trunk",
         "slope": 60.37381941320385,
         "sun_diff": 2.281327682598686,
@@ -11839,7 +11770,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Gateway South Boulevard",
         "type": "trunk",
         "slope": 60.21384644595415,
         "sun_diff": 2.4413006498483867,
@@ -11862,7 +11793,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Gateway South Boulevard",
         "type": "trunk",
         "slope": 60.22136708346281,
         "sun_diff": 2.4337800123397244,
@@ -12369,7 +12300,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Missouri Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 61.73869913659158,
         "sun_diff": 0.9164479592109558,
         "length": 101.24739068443394
@@ -12967,7 +12898,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gateway Boulevard East",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 119.01172093767369,
         "sun_diff": 1.6661749966465464,
         "length": 128.66240707303854
@@ -12990,7 +12921,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gateway Boulevard East",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 118.42547105203118,
         "sun_diff": 1.0799251110040444,
         "length": 263.319963301096
@@ -13013,7 +12944,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gateway Boulevard West",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 118.38638786585184,
         "sun_diff": 1.0408419248247043,
         "length": 230.40825884743796
@@ -13036,7 +12967,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gateway Boulevard West",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 118.37446219570737,
         "sun_diff": 1.028916254680226,
         "length": 169.5022111928201
@@ -13281,8 +13212,8 @@
             31.7931341
           ],
           [
-            -106.2533498,
-            31.7936794
+            -106.253495,
+            31.7936068
           ]
         ]
       },
@@ -13290,9 +13221,9 @@
       "properties": {
         "name": "Edgemere Boulevard",
         "type": "secondary",
-        "slope": 59.65881376437591,
-        "sun_diff": 2.9963333314266265,
-        "length": 120.07123730741344
+        "slope": 59.67807239475064,
+        "sun_diff": 2.9770747010518903,
+        "length": 104.14500844725642
       }
     },
     {
@@ -15025,29 +14956,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -106.3842359,
-            31.7753719
-          ],
-          [
-            -106.3856337,
-            31.7760201
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 118.61205051050547,
-        "sun_diff": 1.2665045694783288,
-        "length": 150.55942762109927
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -106.3464063,
             31.6789657
           ],
@@ -15680,7 +15588,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Phoenix Drive",
+        "name": "Phoenix Avenue",
         "type": "tertiary",
         "slope": 120.22009448353896,
         "sun_diff": 2.8745485425118176,
@@ -16037,75 +15945,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -106.3154897,
-            31.676711
-          ],
-          [
-            -106.3142492,
-            31.6772964
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 60.990791829623504,
-        "sun_diff": 1.6643552661790295,
-        "length": 134.26967242280628
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.3140547,
-            31.6769885
-          ],
-          [
-            -106.3153047,
-            31.6764136
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 61.6119193263917,
-        "sun_diff": 1.0432277694108336,
-        "length": 134.49797230731585
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.3151203,
-            31.6761246
-          ],
-          [
-            -106.3138667,
-            31.6766926
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 61.96866527395099,
-        "sun_diff": 0.6864818218515438,
-        "length": 134.43580839697594
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -106.3926041,
             31.7799217
           ],
@@ -16186,8 +16025,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Gateway Boulevard North",
-        "type": "tertiary",
+        "name": "Gateway North Boulevard",
+        "type": "secondary",
         "slope": 59.793108570830896,
         "sun_diff": 2.862038524971638,
         "length": 342.3199692210685
@@ -16209,8 +16048,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Gateway Boulevard North",
-        "type": "tertiary",
+        "name": "Gateway North Boulevard",
+        "type": "secondary",
         "slope": 60.48667514399165,
         "sun_diff": 2.1684719518108864,
         "length": 321.18763074287153
@@ -16232,8 +16071,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Gateway Boulevard North",
-        "type": "tertiary",
+        "name": "Gateway North Boulevard",
+        "type": "secondary",
         "slope": 59.7678793544103,
         "sun_diff": 2.887267741392236,
         "length": 144.71940865822606
@@ -16255,8 +16094,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Gateway Boulevard North",
-        "type": "tertiary",
+        "name": "Gateway North Boulevard",
+        "type": "secondary",
         "slope": 59.995111216611406,
         "sun_diff": 2.6600358791911276,
         "length": 167.3544342597108
@@ -16278,8 +16117,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Gateway Boulevard North",
-        "type": "tertiary",
+        "name": "Gateway North Boulevard",
+        "type": "secondary",
         "slope": 60.65948903342735,
         "sun_diff": 1.9956580623751847,
         "length": 335.8033855094969
@@ -16858,6 +16697,236 @@
         "slope": 60.255203508295835,
         "sun_diff": 2.399943587506698,
         "length": 150.50014863483008
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.3971905,
+            31.8953504
+          ],
+          [
+            -106.3959484,
+            31.8947872
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 118.10479507902298,
+        "sun_diff": 0.7592491379958375,
+        "length": 132.97897254410648
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.2795685,
+            31.6738215
+          ],
+          [
+            -106.282793,
+            31.675351
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 119.13370474189549,
+        "sun_diff": 1.788158800868345,
+        "length": 349.44509271170443
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.2841779,
+            31.6758049
+          ],
+          [
+            -106.28288,
+            31.6751842
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 119.33344711861415,
+        "sun_diff": 1.9879011775870055,
+        "length": 140.92955119704305
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.28288,
+            31.6751842
+          ],
+          [
+            -106.2793467,
+            31.6734702
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 119.68303594725188,
+        "sun_diff": 2.3374900062247406,
+        "length": 384.9879700259349
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.2707334,
+            31.6555704
+          ],
+          [
+            -106.2688234,
+            31.6564166
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 62.5040001516918,
+        "sun_diff": 0.15114694411073515,
+        "length": 203.8677423133626
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.271673,
+            31.624047
+          ],
+          [
+            -106.270679,
+            31.624486
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Passmore Road",
+        "type": "tertiary",
+        "slope": 62.58553828351501,
+        "sun_diff": 0.06960881228752669,
+        "length": 106.05442491863094
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.284385,
+            31.625657
+          ],
+          [
+            -106.282905,
+            31.626314
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Vineyard Road",
+        "type": "tertiary",
+        "slope": 62.464896605230706,
+        "sun_diff": 0.1902504905718274,
+        "length": 158.0780282806867
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.2824635,
+            31.6265132
+          ],
+          [
+            -106.281468,
+            31.626944
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Vineyard Road",
+        "type": "tertiary",
+        "slope": 63.05898523365224,
+        "sun_diff": 0.40383813784970357,
+        "length": 105.76199073361461
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.288405,
+            31.623846
+          ],
+          [
+            -106.285805,
+            31.625003
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Vineyard Road",
+        "type": "tertiary",
+        "slope": 62.40805938549417,
+        "sun_diff": 0.24708771030836374,
+        "length": 277.85297751197805
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.3787645,
+            31.7037443
+          ],
+          [
+            -106.3797596,
+            31.7042372
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 120.20834145280605,
+        "sun_diff": 2.862795511778913,
+        "length": 108.96502989519485
       }
     }
   ]

@@ -6,12 +6,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.0579989,
-            10.1910277
+            -68.0581317,
+            10.1910435
           ],
           [
-            -68.0588502,
-            10.1906545
+            -68.0589669,
+            10.1906519
           ]
         ]
       },
@@ -19,9 +19,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 65.9910915520081,
-        "sun_diff": 0.35749399785714786,
-        "length": 102.02292660283015
+        "slope": 64.52757277422432,
+        "sun_diff": 1.8210127756409236,
+        "length": 101.27863663368505
       }
     },
     {
@@ -41,10 +41,56 @@
       "type": "Feature",
       "properties": {
         "name": "Av. Salvador Feo La Cruz",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 110.65750724942478,
         "sun_diff": 2.9949349168089583,
         "length": 270.14447404911823
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9821027,
+            10.181761
+          ],
+          [
+            -67.9844368,
+            10.1807999
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 67.297920968397,
+        "sun_diff": 0.9493354185317457,
+        "length": 276.993805777168
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9841666,
+            10.1804552
+          ],
+          [
+            -67.9830246,
+            10.1809216
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Distribuidor San Blas",
+        "type": "secondary",
+        "slope": 67.46449587401298,
+        "sun_diff": 1.115910324147734,
+        "length": 135.36029801777522
       }
     },
     {
@@ -114,52 +160,6 @@
         "slope": 64.29225805127342,
         "sun_diff": 2.056327498591827,
         "length": 118.23492786301534
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -68.0200075,
-            10.161867
-          ],
-          [
-            -68.0190566,
-            10.1623189
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Enrique Tejera",
-        "type": "secondary",
-        "slope": 64.22836141417636,
-        "sun_diff": 2.1202241356888862,
-        "length": 115.60827896210678
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -68.0190566,
-            10.1623189
-          ],
-          [
-            -68.0181155,
-            10.1627695
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Enrique Tejera",
-        "type": "secondary",
-        "slope": 64.06016811904408,
-        "sun_diff": 2.2884174308211698,
-        "length": 114.57954205464493
       }
     },
     {
@@ -252,29 +252,6 @@
         "slope": 111.83347360364402,
         "sun_diff": 1.818968562589717,
         "length": 134.73415698751737
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -67.9656231,
-            10.1632417
-          ],
-          [
-            -67.9677111,
-            10.1622231
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 63.63651054956651,
-        "sun_diff": 2.7120750002987393,
-        "length": 255.13998609710038
       }
     },
     {
@@ -1628,7 +1605,7 @@
       "type": "Feature",
       "properties": {
         "name": "calle 130",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 116.11452446498785,
         "sun_diff": 2.4620822987541118,
         "length": 123.99961200785563
@@ -1881,7 +1858,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Terepaima",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 110.96847479955201,
         "sun_diff": 2.6839673666817276,
         "length": 104.99654006301121
@@ -1904,7 +1881,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Terepaima",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 114.3259365861905,
         "sun_diff": 0.6734944199567536,
         "length": 121.13249671333337
@@ -2065,7 +2042,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 68.44217471895283,
         "sun_diff": 2.093589169087579,
         "length": 162.61893434089092
@@ -2161,6 +2138,52 @@
         "slope": 111.40687769405272,
         "sun_diff": 2.245564472181016,
         "length": 108.12493892598395
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9129824,
+            10.271383
+          ],
+          [
+            -67.9138764,
+            10.2710147
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 67.28201961681108,
+        "sun_diff": 0.9334340669458356,
+        "length": 106.07561184018618
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.915233,
+            10.2708053
+          ],
+          [
+            -67.9162352,
+            10.2712057
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 112.09851695615345,
+        "sun_diff": 1.553925210080294,
+        "length": 118.38494470256727
       }
     },
     {
@@ -2340,8 +2363,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "calle 69",
-        "type": "tertiary",
+        "name": "Calle 69",
+        "type": "residential",
         "slope": 111.9863422278199,
         "sun_diff": 1.6660999384138364,
         "length": 144.68745080072532
@@ -2363,7 +2386,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Av. Intercomunal de B\u00e1rbula",
+        "name": "Avenido Intercomunal de B\u00e1rbula",
         "type": "residential",
         "slope": 66.12812698735115,
         "sun_diff": 0.22045856251409646,
@@ -2409,8 +2432,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "AVENIDA PRINCIPAL LA VIVIENDA",
-        "type": "secondary",
+        "name": "Avenida Principal La Vivienda",
+        "type": "residential",
         "slope": 65.8733127217711,
         "sun_diff": 0.4752728280941483,
         "length": 107.86759481378074
@@ -2433,7 +2456,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "residential",
         "slope": 65.6805045694889,
         "sun_diff": 0.6680809803763452,
         "length": 147.6855401558098
@@ -2455,8 +2478,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "AVENIDA PRINCIPAL LA VIVIENDA",
-        "type": "secondary",
+        "name": "Avenida Principal La Vivienda",
+        "type": "residential",
         "slope": 68.43067658931906,
         "sun_diff": 2.0820910394538146,
         "length": 113.30949230811797
@@ -2478,8 +2501,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "AVENIDA PRINCIPAL LA VIVIENDA",
-        "type": "secondary",
+        "name": "Avenida Principal La Vivienda",
+        "type": "residential",
         "slope": 69.18569394774477,
         "sun_diff": 2.8371083978795184,
         "length": 107.55487511939491
@@ -2571,7 +2594,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle 101",
-        "type": "secondary",
+        "type": "residential",
         "slope": 65.82483008581795,
         "sun_diff": 0.5237554640472979,
         "length": 248.41036093094797
@@ -2754,7 +2777,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle 56",
         "type": "residential",
         "slope": 64.12277618518442,
         "sun_diff": 2.2258093646808277,
@@ -2962,7 +2985,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 63.669668194473644,
         "sun_diff": 2.6789173553916044,
         "length": 102.24059848129772
@@ -3479,8 +3502,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -67.9657638,
-            10.163019
+            -67.9657531,
+            10.1630058
           ],
           [
             -67.9647388,
@@ -3491,10 +3514,10 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Este-Oeste 4",
-        "type": "primary",
-        "slope": 64.73307607245764,
-        "sun_diff": 1.6155094774076133,
-        "length": 124.0937831721659
+        "type": "secondary",
+        "slope": 63.88626523253549,
+        "sun_diff": 2.4623203173297554,
+        "length": 123.67457947248906
       }
     },
     {
@@ -3537,7 +3560,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 113.25042932274002,
         "sun_diff": 0.402012843493722,
         "length": 122.59920845763295
@@ -3559,8 +3582,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Av. de la Hispanidad",
-        "type": "primary",
+        "name": "Avenida de la Hispanidad",
+        "type": "tertiary",
         "slope": 116.64511026553836,
         "sun_diff": 2.9926680993046233,
         "length": 213.42492325349457
@@ -3629,7 +3652,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 65.28234882564868,
         "sun_diff": 1.0662367242165658,
         "length": 104.93964535962336
@@ -3640,34 +3663,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.0073118,
-            10.2282302
+            -68.0905414,
+            10.0881044
           ],
           [
-            -68.0082972,
-            10.2287003
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Av. de la Hispanidad",
-        "type": "primary",
-        "slope": 115.86270194328625,
-        "sun_diff": 2.2102597770525136,
-        "length": 119.8698880585533
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -68.0905454,
-            10.0880938
-          ],
-          [
-            -68.0892899,
+            -68.0892591,
             10.0874795
           ]
         ]
@@ -3676,55 +3676,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 116.42597732594578,
-        "sun_diff": 2.77353515971204,
-        "length": 153.53281479585934
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -68.0933821,
-            10.0867827
-          ],
-          [
-            -68.0920044,
-            10.0861426
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 115.26299997117019,
-        "sun_diff": 1.6105578049364482,
-        "length": 166.82873822814318
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -68.0920044,
-            10.0861426
-          ],
-          [
-            -68.0889343,
-            10.084634
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 116.52358083107808,
-        "sun_diff": 2.871138664844338,
-        "length": 375.75851114991036
+        "slope": 116.33444835229517,
+        "sun_diff": 2.682006186061429,
+        "length": 156.68594288657235
       }
     },
     {
@@ -3755,54 +3709,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.0888509,
-            10.0847799
-          ],
-          [
-            -68.0919227,
-            10.0862853
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 116.46246169730682,
-        "sun_diff": 2.810019531073081,
-        "length": 375.7662164870116
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -68.0919227,
-            10.0862853
-          ],
-          [
-            -68.0933035,
-            10.0869373
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 115.62252508744876,
-        "sun_diff": 1.970082921215024,
-        "length": 167.70388375847546
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -68.0909412,
-            10.0869972
+            -68.0909318,
+            10.0870104
           ],
           [
             -68.0900197,
@@ -3814,9 +3722,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 114.77856433080518,
-        "sun_diff": 1.1261221645714414,
-        "length": 111.14685597734427
+        "slope": 115.69069726796116,
+        "sun_diff": 2.0382551017274153,
+        "length": 110.84162758969838
       }
     },
     {
@@ -3824,12 +3732,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.0923749,
-            10.0823104
+            -68.0920342,
+            10.0822577
           ],
           [
-            -68.0906514,
-            10.0815674
+            -68.090528,
+            10.0815278
           ]
         ]
       },
@@ -3837,9 +3745,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 113.64670104815579,
-        "sun_diff": 0.005741118077949636,
-        "length": 206.04474810276307
+        "slope": 116.20625808257017,
+        "sun_diff": 2.5538159163364327,
+        "length": 183.84482112768754
       }
     },
     {
@@ -3847,12 +3755,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.0919307,
-            10.083532
+            -68.0915196,
+            10.0834055
           ],
           [
-            -68.0899612,
-            10.0826473
+            -68.0899505,
+            10.082642
           ]
         ]
       },
@@ -3860,9 +3768,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 114.52467512198842,
-        "sun_diff": 0.8722329557546828,
-        "length": 237.0716848195096
+        "slope": 116.29937576499873,
+        "sun_diff": 2.6469335987649885,
+        "length": 191.67522216912909
       }
     },
     {
@@ -3974,7 +3882,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 67.0334415930829,
         "sun_diff": 0.6848560432176498,
         "length": 153.36381191272315
@@ -3997,7 +3905,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 64.69197699383298,
         "sun_diff": 1.6566085560322676,
         "length": 124.29565160466066
@@ -4077,29 +3985,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.0284288,
-            10.1254937
-          ],
-          [
-            -68.0298536,
-            10.1261705
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 115.75872321559791,
-        "sun_diff": 2.1062810493641706,
-        "length": 173.22472918685432
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -68.0468528,
             10.130002
           ],
@@ -4157,7 +4042,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "CARRETERA ANTIGUA VALENCIA-TOCUYITO",
+        "name": "Carretera Vieja Valencia - Tocuyito",
         "type": "secondary",
         "slope": 67.24039415125935,
         "sun_diff": 0.8918086013941036,
@@ -4641,7 +4526,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 114.68023416227058,
         "sun_diff": 1.0277919960368394,
         "length": 108.60503466225171
@@ -4664,7 +4549,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 115.48862496121993,
         "sun_diff": 1.8361827949861862,
         "length": 127.55725872625582
@@ -4687,7 +4572,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 116.4884278957309,
         "sun_diff": 2.8359857294971533,
         "length": 139.13182625066202
@@ -4710,7 +4595,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 115.51793986486462,
         "sun_diff": 1.8654976986308753,
         "length": 123.34099938534459
@@ -4801,34 +4686,11 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "calle Arvelo",
-        "type": "residential",
+        "name": "Avenida Principal de El Rosario",
+        "type": "tertiary",
         "slope": 113.37848003011715,
         "sun_diff": 0.2739621361165945,
         "length": 120.31108235134934
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -68.0968597,
-            10.0924634
-          ],
-          [
-            -68.0960232,
-            10.0920945
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "calle Arvelo",
-        "type": "residential",
-        "slope": 114.12927383769403,
-        "sun_diff": 0.47683167146028893,
-        "length": 100.37423537625908
       }
     },
     {
@@ -4848,33 +4710,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 114.28407030615733,
         "sun_diff": 0.6316281399235919,
         "length": 134.2294498478244
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -67.9296201,
-            10.0673214
-          ],
-          [
-            -67.9276376,
-            10.0664841
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 113.21686134115524,
-        "sun_diff": 0.43558082507850315,
-        "length": 236.24990433939018
       }
     },
     {
@@ -4894,7 +4733,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 110.71979908126153,
         "sun_diff": 2.932643084972213,
         "length": 236.13650959893025
@@ -4951,6 +4790,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -67.9296201,
+            10.0673214
+          ],
+          [
+            -67.9276376,
+            10.0664841
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.21686134115524,
+        "sun_diff": 0.43558082507850315,
+        "length": 236.24990433939018
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -67.9265545,
             10.0660787
           ],
@@ -4963,7 +4825,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 113.16566896890146,
         "sun_diff": 0.4867731973322833,
         "length": 203.06811864765845
@@ -5078,7 +4940,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 63.827429587519504,
         "sun_diff": 2.5211559623457447,
         "length": 162.32700267523336
@@ -5101,7 +4963,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 65.21699558636172,
         "sun_diff": 1.1315899635035294,
         "length": 199.27708425582642
@@ -5124,7 +4986,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 64.0280450363783,
         "sun_diff": 2.3205405134869466,
         "length": 256.1478981104421
@@ -5150,7 +5012,7 @@
         "type": "residential",
         "slope": 66.38640657878506,
         "sun_diff": 0.037821028919807986,
-        "length": 119.51399285494165
+        "length": 119.51399285494166
       }
     },
     {
@@ -5216,7 +5078,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "unclassified",
         "slope": 64.66417515679396,
         "sun_diff": 1.684410393071289,
         "length": 212.07670841567096
@@ -5342,22 +5204,137 @@
         "type": "LineString",
         "coordinates": [
           [
-            -67.9735196,
-            10.1274719
+            -67.9967053,
+            10.2699958
           ],
           [
-            -67.9725194,
-            10.1278546
+            -67.9955918,
+            10.2705222
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Perimetral Suroeste",
-        "type": "residential",
-        "slope": 68.75989335833603,
-        "sun_diff": 2.411307808470781,
-        "length": 117.50033071277522
+        "name": "Variante de B\u00e1rbula",
+        "type": "trunk",
+        "slope": 64.33842598579022,
+        "sun_diff": 2.0101595640750247,
+        "length": 135.20561664366437
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.033963,
+            10.2942611
+          ],
+          [
+            -68.0348602,
+            10.2946142
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carretera Vieja Valencia - Puerto Cabello",
+        "type": "secondary",
+        "slope": 111.80125882198786,
+        "sun_diff": 1.8511833442458823,
+        "length": 105.75260435928327
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0860705,
+            10.3047658
+          ],
+          [
+            -68.0851734,
+            10.304428
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Expresa Valencia - Puerto Cabello",
+        "type": "trunk",
+        "slope": 110.94282046924425,
+        "sun_diff": 2.709621696989487,
+        "length": 105.11926937141452
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.081773,
+            10.3031939
+          ],
+          [
+            -68.080762,
+            10.302794
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Expresa Valencia - Puerto Cabello",
+        "type": "trunk",
+        "slope": 111.90166528760665,
+        "sun_diff": 1.750776878627093,
+        "length": 119.24672160212452
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.080762,
+            10.302794
+          ],
+          [
+            -68.0797237,
+            10.3023913
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Expresa Valencia - Puerto Cabello",
+        "type": "trunk",
+        "slope": 111.51440811812256,
+        "sun_diff": 2.13803404811118,
+        "length": 122.13780061832864
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0646379,
+            10.3011592
+          ],
+          [
+            -68.0634994,
+            10.3016068
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Expresa Valencia - Puerto Cabello",
+        "type": "trunk",
+        "slope": 68.21883133288483,
+        "sun_diff": 1.870245783019584,
+        "length": 134.17277020591249
       }
     },
     {
@@ -5377,10 +5354,102 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 114.15610034505946,
         "sun_diff": 0.5036581788257166,
         "length": 198.2831639942465
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0635523,
+            10.3017051
+          ],
+          [
+            -68.0646862,
+            10.3012593
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Expresa Valencia - Puerto Cabello",
+        "type": "trunk",
+        "slope": 68.218477334245,
+        "sun_diff": 1.869891784379746,
+        "length": 133.6309719420676
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0796906,
+            10.3024903
+          ],
+          [
+            -68.0807276,
+            10.3028925
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Expresa Valencia - Puerto Cabello",
+        "type": "trunk",
+        "slope": 111.51464329934296,
+        "sun_diff": 2.137798866890776,
+        "length": 121.98501661308785
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0807276,
+            10.3028925
+          ],
+          [
+            -68.0817398,
+            10.3032929
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Expresa Valencia - Puerto Cabello",
+        "type": "trunk",
+        "slope": 111.90295176051234,
+        "sun_diff": 1.749490405721403,
+        "length": 119.3892799824841
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.085141,
+            10.3045273
+          ],
+          [
+            -68.0860382,
+            10.3048651
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Expresa Valencia - Puerto Cabello",
+        "type": "trunk",
+        "slope": 110.94071515059525,
+        "sun_diff": 2.7117270156384876,
+        "length": 105.12946116630435
       }
     },
     {
@@ -5400,7 +5469,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 67.091599803842,
         "sun_diff": 0.743014253976753,
         "length": 210.1957406069235
@@ -6067,7 +6136,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 67.10073201448151,
         "sun_diff": 0.7521464646162599,
         "length": 114.57079826699702
@@ -6101,6 +6170,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -68.0398324,
+            10.2973991
+          ],
+          [
+            -68.0407296,
+            10.2977706
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Expresa Valencia - Puerto Cabello",
+        "type": "trunk",
+        "slope": 112.8235463295459,
+        "sun_diff": 0.8288958366878347,
+        "length": 106.5287442910245
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -68.0086293,
             10.2793286
           ],
@@ -6112,7 +6204,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Av. Intercomunal de B\u00e1rbula",
+        "name": "Avenido Intercomunal de B\u00e1rbula",
         "type": "residential",
         "slope": 65.89014648442046,
         "sun_diff": 0.45843906544479296,
@@ -6182,10 +6274,33 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 115.36128377007114,
         "sun_diff": 1.7088416038373992,
         "length": 112.0285250368453
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9550059,
+            10.2786949
+          ],
+          [
+            -67.9571254,
+            10.2778668
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Variante de B\u00e1rbula",
+        "type": "trunk",
+        "slope": 68.34311948076638,
+        "sun_diff": 1.9945339309011274,
+        "length": 249.58668834630294
       }
     },
     {
@@ -6308,29 +6423,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.1502023,
-            10.0708233
-          ],
-          [
-            -68.1528424,
-            10.0719797
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carretera Panamericana",
-        "type": "trunk",
-        "slope": 113.98283094470446,
-        "sun_diff": 0.33038877847072,
-        "length": 316.452939583665
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -68.1109869,
             10.066405
           ],
@@ -6435,7 +6527,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Michelena",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 111.11913571299988,
         "sun_diff": 2.5333064532338625,
         "length": 103.72561183168696
@@ -6458,7 +6550,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle 101",
-        "type": "secondary",
+        "type": "residential",
         "slope": 66.4855546669904,
         "sun_diff": 0.13696911712514748,
         "length": 242.68232628388805
@@ -6646,29 +6738,6 @@
         "slope": 111.07920293891439,
         "sun_diff": 2.5732392273193483,
         "length": 156.45727772853877
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -68.0946815,
-            10.0798618
-          ],
-          [
-            -68.0935541,
-            10.0794199
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 111.7079055577031,
-        "sun_diff": 1.9445366085306404,
-        "length": 132.88932851294138
       }
     },
     {
@@ -7102,7 +7171,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 66.88279223117107,
         "sun_diff": 0.5342066813058182,
         "length": 317.1892596145435
@@ -7125,7 +7194,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 66.40126033413938,
         "sun_diff": 0.052674784274131525,
         "length": 446.16439930663296
@@ -7148,7 +7217,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 68.50482970494451,
         "sun_diff": 2.156244155079264,
         "length": 199.01112888191864
@@ -7171,10 +7240,56 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 66.40194371539118,
         "sun_diff": 0.05335816552593542,
         "length": 275.82503803535815
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0149073,
+            10.0888306
+          ],
+          [
+            -68.016213,
+            10.088269
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 66.40099818384488,
+        "sun_diff": 0.052412633979628254,
+        "length": 156.03664447535826
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.016213,
+            10.088269
+          ],
+          [
+            -68.0188317,
+            10.0871567
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 66.66359641781591,
+        "sun_diff": 0.3150108679506616,
+        "length": 312.3244525820393
       }
     },
     {
@@ -7619,6 +7734,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -68.1354845,
+            10.0321746
+          ],
+          [
+            -68.1363648,
+            10.0317728
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 65.13124186015665,
+        "sun_diff": 1.2173436897085992,
+        "length": 106.27288838646167
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -67.9483329,
             10.1885775
           ],
@@ -7688,8 +7826,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -67.9438519,
-            10.1905911
+            -67.943868,
+            10.1905858
           ],
           [
             -67.9426282,
@@ -7701,9 +7839,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 63.37016256818242,
-        "sun_diff": 2.978422981682826,
-        "length": 149.86178118665825
+        "slope": 63.46950725836501,
+        "sun_diff": 2.8790782915002353,
+        "length": 151.70182562738836
       }
     },
     {
@@ -7792,7 +7930,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Enrique Tejera",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 64.24952109099772,
         "sun_diff": 2.099064458867531,
         "length": 230.44588912859658
@@ -7907,7 +8045,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Principal",
-        "type": "secondary",
+        "type": "residential",
         "slope": 116.01334412507819,
         "sun_diff": 2.360901958844451,
         "length": 100.96339881509833
@@ -7953,7 +8091,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 113.80248679040224,
         "sun_diff": 0.15004462416850117,
         "length": 102.58003521891322
@@ -7999,7 +8137,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "residential",
         "slope": 115.89231728863959,
         "sun_diff": 2.2398751224058486,
         "length": 109.88457417895117
@@ -8045,7 +8183,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Principal",
-        "type": "secondary",
+        "type": "residential",
         "slope": 115.74701551323449,
         "sun_diff": 2.094573347000747,
         "length": 105.59710552953341
@@ -8056,12 +8194,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.1495555,
-            10.1033212
+            -68.1101,
+            10.1168377
           ],
           [
-            -68.147753,
-            10.1041767
+            -68.1075666,
+            10.1180742
           ]
         ]
       },
@@ -8069,9 +8207,9 @@
       "properties": {
         "name": null,
         "type": "tertiary",
-        "slope": 64.26148397510826,
-        "sun_diff": 2.0871015747569857,
-        "length": 219.12262477827954
+        "slope": 63.62825134981338,
+        "sun_diff": 2.720334200051866,
+        "length": 309.63062525379496
       }
     },
     {
@@ -8079,12 +8217,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.1360586,
-            10.1037225
+            -68.1075666,
+            10.1180742
           ],
           [
-            -68.1342025,
-            10.1045887
+            -68.106502,
+            10.1185958
           ]
         ]
       },
@@ -8092,9 +8230,9 @@
       "properties": {
         "name": null,
         "type": "tertiary",
-        "slope": 64.6376419137244,
-        "sun_diff": 1.710943636140854,
-        "length": 224.93120874126714
+        "slope": 63.54091795177328,
+        "sun_diff": 2.8076675980919674,
+        "length": 130.21299886304973
       }
     },
     {
@@ -8118,98 +8256,6 @@
         "slope": 63.69894252896762,
         "sun_diff": 2.649643020897628,
         "length": 188.32545445496064
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -68.033963,
-            10.2942611
-          ],
-          [
-            -68.0348602,
-            10.2946142
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carretera Vieja",
-        "type": "secondary",
-        "slope": 111.80125882198786,
-        "sun_diff": 1.8511833442458823,
-        "length": 105.75260435928327
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -67.9193472,
-            10.1011991
-          ],
-          [
-            -67.9203557,
-            10.1007055
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 63.56596167112042,
-        "sun_diff": 2.782623878744829,
-        "length": 123.33120836694856
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -67.9164719,
-            10.1044177
-          ],
-          [
-            -67.9182529,
-            10.1050829
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 110.7759024046988,
-        "sun_diff": 2.876539761534943,
-        "length": 208.5911525360342
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -67.9186391,
-            10.1052331
-          ],
-          [
-            -67.9202484,
-            10.1059198
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 113.43344902824174,
-        "sun_diff": 0.21899313799200115,
-        "length": 192.06624152426562
       }
     },
     {
@@ -8279,52 +8325,6 @@
         "slope": 111.11665586753955,
         "sun_diff": 2.535786298694191,
         "length": 117.877602320347
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -68.0149073,
-            10.0888306
-          ],
-          [
-            -68.016213,
-            10.088269
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 66.40099818384488,
-        "sun_diff": 0.052412633979628254,
-        "length": 156.03664447535826
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -68.016213,
-            10.088269
-          ],
-          [
-            -68.0188317,
-            10.0871567
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 66.66359641781591,
-        "sun_diff": 0.3150108679506616,
-        "length": 312.3244525820393
       }
     },
     {
@@ -8405,18 +8405,18 @@
             10.186672
           ],
           [
-            -68.0567344,
-            10.1870586
+            -68.056835,
+            10.1871154
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 114.63625848440785,
-        "sun_diff": 0.9838163181741066,
-        "length": 103.15664085033282
+        "type": "residential",
+        "slope": 115.2061215710169,
+        "sun_diff": 1.5536794047831535,
+        "length": 115.8068087776799
       }
     },
     {
@@ -8424,22 +8424,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.0567344,
-            10.1870586
+            -68.056835,
+            10.1871154
           ],
           [
-            -68.0576858,
-            10.1874765
+            -68.057783,
+            10.1875267
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 114.0504135500953,
-        "sun_diff": 0.3979713838615595,
-        "length": 114.05736542566919
+        "type": "residential",
+        "slope": 113.78838976080294,
+        "sun_diff": 0.13594759456920258,
+        "length": 113.4194474667909
       }
     },
     {
@@ -8447,22 +8447,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.0576858,
-            10.1874765
+            -68.057783,
+            10.1875267
           ],
           [
-            -68.0585638,
-            10.1878882
+            -68.0586174,
+            10.1879093
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 115.47398387277093,
-        "sun_diff": 1.8215417065371895,
-        "length": 106.47109215690153
+        "type": "residential",
+        "slope": 114.97980448901353,
+        "sun_diff": 1.3273623227797913,
+        "length": 100.77356840511315
       }
     },
     {
@@ -8712,7 +8712,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "residential",
         "slope": 68.4128478731115,
         "sun_diff": 2.064262323246254,
         "length": 215.3757882508603
@@ -8781,7 +8781,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "residential",
         "slope": 69.25493571236342,
         "sun_diff": 2.906350162498171,
         "length": 119.13995507984188
@@ -8827,7 +8827,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 116.23925161407976,
         "sun_diff": 2.586809447846022,
         "length": 276.38832762706846
@@ -8850,7 +8850,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 112.73980723121707,
         "sun_diff": 0.9126349350166691,
         "length": 106.38204434864456
@@ -8873,7 +8873,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 66.03659408675912,
         "sun_diff": 0.3119914631061249,
         "length": 219.8565152284059
@@ -8896,7 +8896,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 63.72921522260117,
         "sun_diff": 2.619370327264079,
         "length": 205.71611348080663
@@ -9114,6 +9114,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -68.0073118,
+            10.2282302
+          ],
+          [
+            -68.0082972,
+            10.2287003
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida de la Hispanidad",
+        "type": "tertiary",
+        "slope": 115.86270194328625,
+        "sun_diff": 2.2102597770525136,
+        "length": 119.8698880585533
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -68.0082972,
             10.2287003
           ],
@@ -9125,11 +9148,34 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "primary",
+        "name": "Avenida de la Hispanidad",
+        "type": "tertiary",
         "slope": 116.17425622329372,
         "sun_diff": 2.5218140570599843,
         "length": 143.9600434276261
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9570882,
+            10.2777686
+          ],
+          [
+            -67.954999,
+            10.2785757
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Variante de B\u00e1rbula",
+        "type": "trunk",
+        "slope": 68.56398703481796,
+        "sun_diff": 2.2154014849527073,
+        "length": 245.64446310793394
       }
     },
     {
@@ -9264,7 +9310,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "residential",
         "slope": 113.31020275542849,
         "sun_diff": 0.34223941080524867,
         "length": 127.33366848305259
@@ -9333,7 +9379,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 64.76187058734334,
         "sun_diff": 1.58671496252191,
         "length": 129.86068981599226
@@ -9356,7 +9402,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 65.98868961921954,
         "sun_diff": 0.35989593064570613,
         "length": 102.09532960767295
@@ -9379,7 +9425,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 65.84909313083512,
         "sun_diff": 0.4994924190301333,
         "length": 125.60014910340645
@@ -9402,7 +9448,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 114.48254406509298,
         "sun_diff": 0.8301018988592404,
         "length": 106.39426103043263
@@ -9609,7 +9655,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 64.22532483335635,
         "sun_diff": 2.123260716508895,
         "length": 100.32427978283427
@@ -9758,12 +9804,380 @@
         "type": "LineString",
         "coordinates": [
           [
-            -67.9443378,
-            10.1912761
+            -67.9108606,
+            10.0847604
           ],
           [
-            -67.9452092,
-            10.1908632
+            -67.9098442,
+            10.0852104
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 65.78714791486252,
+        "sun_diff": 0.5614376350027328,
+        "length": 122.04360621555676
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9135722,
+            10.126509
+          ],
+          [
+            -67.9126174,
+            10.1261077
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carretera Nacional Valencia - G\u00fcig\u00fce",
+        "type": "trunk",
+        "slope": 113.11995930326205,
+        "sun_diff": 0.5324828629716905,
+        "length": 113.67796730365762
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9045493,
+            10.1250198
+          ],
+          [
+            -67.9036588,
+            10.1246607
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carretera Nacional Valencia - G\u00fcig\u00fce",
+        "type": "trunk",
+        "slope": 112.2757530603258,
+        "sun_diff": 1.3766891059079427,
+        "length": 105.37152595367937
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9000979,
+            10.0875339
+          ],
+          [
+            -67.9012612,
+            10.0870748
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carretera Intercomunal",
+        "type": "primary",
+        "slope": 68.1566592363483,
+        "sun_diff": 1.8080736864830556,
+        "length": 137.24722545757137
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9707056,
+            10.1242659
+          ],
+          [
+            -67.9725148,
+            10.1235442
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 67.94150196824015,
+        "sun_diff": 1.592916418374898,
+        "length": 213.75008360952253
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0586549,
+            10.1878334
+          ],
+          [
+            -68.0578136,
+            10.187463
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.10008322826127,
+        "sun_diff": 0.44764106202752885,
+        "length": 100.89714213350877
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0578136,
+            10.187463
+          ],
+          [
+            -68.056868,
+            10.1870629
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.2626100470855,
+        "sun_diff": 0.3898321191482381,
+        "length": 112.68129281250759
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.056868,
+            10.1870629
+          ],
+          [
+            -68.055865,
+            10.1865866
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 115.75641216557835,
+        "sun_diff": 2.1039699993446135,
+        "length": 121.91742825529707
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.1355246,
+            10.0319193
+          ],
+          [
+            -68.1366936,
+            10.0313841
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Valencia - Campo Carabobo",
+        "type": "trunk",
+        "slope": 65.06463923259759,
+        "sun_diff": 1.283946317267663,
+        "length": 141.20208261380054
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0193779,
+            10.2033002
+          ],
+          [
+            -68.0184557,
+            10.2036512
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 68.85712087141329,
+        "sun_diff": 2.508535321548038,
+        "length": 108.24020189104068
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.1366164,
+            10.0312319
+          ],
+          [
+            -68.1354602,
+            10.0317899
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Valencia - Campo Carabobo",
+        "type": "trunk",
+        "slope": 63.89012814122401,
+        "sun_diff": 2.4584574086412374,
+        "length": 141.02965621951122
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0392035,
+            10.1490772
+          ],
+          [
+            -68.0400867,
+            10.1486967
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida del Sur",
+        "type": "trunk",
+        "slope": 66.36256316341093,
+        "sun_diff": 0.013977613545677059,
+        "length": 105.55723595656755
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0200075,
+            10.161867
+          ],
+          [
+            -68.0190566,
+            10.1623189
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Enrique Tejera",
+        "type": "tertiary",
+        "slope": 64.22836141417636,
+        "sun_diff": 2.1202241356888862,
+        "length": 115.60827896210678
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0190566,
+            10.1623189
+          ],
+          [
+            -68.0181155,
+            10.1627695
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Enrique Tejera",
+        "type": "tertiary",
+        "slope": 64.06016811904408,
+        "sun_diff": 2.2884174308211698,
+        "length": 114.57954205464493
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0284288,
+            10.1254937
+          ],
+          [
+            -68.0298536,
+            10.1261705
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Los Pr\u00f3ceres",
+        "type": "tertiary",
+        "slope": 115.75872321559791,
+        "sun_diff": 2.1062810493641706,
+        "length": 173.22472918685432
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0968597,
+            10.0924634
+          ],
+          [
+            -68.0960232,
+            10.0920945
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Arvelo",
+        "type": "tertiary",
+        "slope": 114.12927383769403,
+        "sun_diff": 0.47683167146028893,
+        "length": 100.37423537625908
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9707652,
+            10.1709974
+          ],
+          [
+            -67.9698747,
+            10.1713697
           ]
         ]
       },
@@ -9771,9 +10185,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 64.29242536885207,
-        "sun_diff": 2.0561601810131833,
-        "length": 105.87616767680898
+        "slope": 66.98638945663404,
+        "sun_diff": 0.6378039067687951,
+        "length": 105.92380207622287
       }
     },
     {
@@ -9804,22 +10218,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -67.9108606,
-            10.0847604
+            -67.9443378,
+            10.1912761
           ],
           [
-            -67.9098442,
-            10.0852104
+            -67.9452468,
+            10.1908738
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
-        "slope": 65.78714791486252,
-        "sun_diff": 0.5614376350027328,
-        "length": 122.04360621555676
+        "type": "service",
+        "slope": 65.78806056805232,
+        "sun_diff": 0.5605249818129323,
+        "length": 109.11072822020337
       }
     },
     {
@@ -9827,68 +10241,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -67.9036588,
-            10.1246607
+            -67.9440022,
+            10.1915021
           ],
           [
-            -67.9045493,
-            10.1250198
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carretera: Flor Amarillo - G\u00fcig\u00fce",
-        "type": "trunk",
-        "slope": 112.27577555416917,
-        "sun_diff": 1.376666612064568,
-        "length": 105.37152595367937
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -67.9126174,
-            10.1261077
-          ],
-          [
-            -67.9135722,
-            10.126509
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carretera: Flor Amarillo - G\u00fcig\u00fce",
-        "type": "trunk",
-        "slope": 113.11998518574367,
-        "sun_diff": 0.5324569804900676,
-        "length": 113.67796730365762
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -67.9000979,
-            10.0875339
-          ],
-          [
-            -67.9012612,
-            10.0870748
+            -67.9428703,
+            10.1920433
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
-        "slope": 68.1566592363483,
-        "sun_diff": 1.8080736864830556,
-        "length": 137.24722545757137
+        "type": "service",
+        "slope": 64.08952123387448,
+        "sun_diff": 2.25906431599077,
+        "length": 137.76263080657156
       }
     },
     {
@@ -9896,12 +10264,81 @@
         "type": "LineString",
         "coordinates": [
           [
-            -67.9707056,
-            10.1242659
+            -67.9656231,
+            10.1632417
           ],
           [
-            -67.9725148,
-            10.1235442
+            -67.9677285,
+            10.1622086
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "secondary",
+        "slope": 63.503233303324606,
+        "sun_diff": 2.8453522465406422,
+        "length": 257.5637899935333
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0999407,
+            10.1051456
+          ],
+          [
+            -68.1010991,
+            10.1045878
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 63.936150986905915,
+        "sun_diff": 2.4124345629593336,
+        "length": 141.21038981172595
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9612219,
+            10.0577479
+          ],
+          [
+            -67.9626006,
+            10.058292
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 111.84127371912422,
+        "sun_diff": 1.811168447109523,
+        "length": 162.67270092180686
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.967155,
+            10.0532794
+          ],
+          [
+            -67.9696441,
+            10.0543146
           ]
         ]
       },
@@ -9909,9 +10346,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 67.94150196824015,
-        "sun_diff": 1.592916418374898,
-        "length": 213.75008360952253
+        "slope": 112.89821914183739,
+        "sun_diff": 0.754223024396353,
+        "length": 295.9307773488727
       }
     },
     {
@@ -9919,22 +10356,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.0586013,
-            10.1878123
+            -67.9593551,
+            10.0571141
           ],
           [
-            -68.0577023,
-            10.187401
+            -67.9602027,
+            10.0574839
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 114.9307348800599,
-        "sun_diff": 1.2782927138261613,
-        "length": 108.53234728790937
+        "type": "unclassified",
+        "slope": 113.8981224849204,
+        "sun_diff": 0.2456803186866665,
+        "length": 101.53451348036181
       }
     },
     {
@@ -9942,22 +10379,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.0577023,
-            10.187401
+            -67.9601169,
+            10.0832061
           ],
           [
-            -68.0567688,
-            10.1870114
+            -67.9589206,
+            10.0836656
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 112.97882423116943,
-        "sun_diff": 0.6736179350643141,
-        "length": 111.00443455208078
+        "type": "unclassified",
+        "slope": 68.68788977609532,
+        "sun_diff": 2.3393042262300696,
+        "length": 140.6256719916709
       }
     },
     {
@@ -9965,22 +10402,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.0567688,
-            10.1870114
+            -67.9591191,
+            10.0818857
           ],
           [
-            -68.0557539,
-            10.1865589
+            -67.9580891,
+            10.0823241
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 114.3703968229544,
-        "sun_diff": 0.7179546567206643,
-        "length": 121.97610547457388
+        "type": "service",
+        "slope": 66.62082967502238,
+        "sun_diff": 0.2722441251571297,
+        "length": 122.8866926228227
       }
     },
     {
@@ -9988,12 +10425,173 @@
         "type": "LineString",
         "coordinates": [
           [
-            -68.0193779,
-            10.2033002
+            -67.9686195,
+            10.0747343
           ],
           [
-            -68.0184557,
-            10.2036512
+            -67.9695851,
+            10.0743488
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 67.92815534889647,
+        "sun_diff": 1.5795697990312192,
+        "length": 114.11023268230426
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9695851,
+            10.0743488
+          ],
+          [
+            -67.9713768,
+            10.0735988
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 66.96717832472498,
+        "sun_diff": 0.6185927748597351,
+        "length": 213.2153551451879
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9713768,
+            10.0735988
+          ],
+          [
+            -67.9732543,
+            10.0728329
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 67.49467951693876,
+        "sun_diff": 1.1460939670735115,
+        "length": 222.56450628276562
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9732543,
+            10.0728329
+          ],
+          [
+            -67.974751,
+            10.0721886
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 66.38415050879223,
+        "sun_diff": 0.03556495892698308,
+        "length": 178.89384175633103
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.974751,
+            10.0721886
+          ],
+          [
+            -67.9775727,
+            10.0710635
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 67.95346959892899,
+        "sun_diff": 1.6048840490637417,
+        "length": 333.3990923114132
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9775727,
+            10.0710635
+          ],
+          [
+            -67.9799277,
+            10.0700917
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 67.26093062017168,
+        "sun_diff": 0.9123450703064293,
+        "length": 279.64610569813357
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.9799277,
+            10.0700917
+          ],
+          [
+            -67.9808557,
+            10.0697273
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 68.25710083560881,
+        "sun_diff": 1.9085152857435617,
+        "length": 109.41549816287879
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.0021765,
+            10.2551874
+          ],
+          [
+            -68.0008596,
+            10.2556871
           ]
         ]
       },
@@ -10001,9 +10599,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 68.85712087141329,
-        "sun_diff": 2.508535321548038,
-        "length": 108.24020189104068
+        "slope": 68.9127290754293,
+        "sun_diff": 2.564143525564049,
+        "length": 154.48361100404156
       }
     }
   ]

@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "Old NH58",
-        "type": "primary",
+        "type": "secondary",
         "slope": 61.30820641257239,
         "sun_diff": 1.9251025360933625,
         "length": 536.4076518722402
@@ -850,6 +850,29 @@
         "slope": 115.83079851680088,
         "sun_diff": 0.6690060804386064,
         "length": 117.40359529626829
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.3516413,
+            29.6356457
+          ],
+          [
+            77.3606707,
+            29.6391478
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 65.95152246015442,
+        "sun_diff": 2.7182135114886705,
+        "length": 955.9131834438579
       }
     },
     {
@@ -2904,8 +2927,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.9618274,
-            29.6926946
+            77.9618499,
+            29.6926673
           ],
           [
             77.9630183,
@@ -2916,10 +2939,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 119.57497958047762,
-        "sun_diff": 2.808811265985966,
-        "length": 132.30936496499652
+        "type": "unclassified",
+        "slope": 118.87819336554509,
+        "sun_diff": 2.112025051053436,
+        "length": 128.92936623068297
       }
     },
     {
@@ -2939,7 +2962,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 63.67450801808769,
         "sun_diff": 0.4411990694219412,
         "length": 112.19066038397561
@@ -3571,8 +3594,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.708237,
-            29.4967022
+            77.7083014,
+            29.4966508
           ],
           [
             77.700087,
@@ -3584,9 +3607,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 113.9582645790029,
-        "sun_diff": 2.5415400182365886,
-        "length": 863.3980581711152
+        "slope": 114.13532872553938,
+        "sun_diff": 2.364475871700108,
+        "length": 871.4214547356605
       }
     },
     {
@@ -7562,7 +7585,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 114.56677156110237,
         "sun_diff": 1.9330330361371182,
         "length": 115.04113458611056
@@ -7585,7 +7608,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 119.26639196698335,
         "sun_diff": 2.76658736974386,
         "length": 186.56908147323796
@@ -9022,8 +9045,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.7057271,
-            29.4736677
+            77.7053905,
+            29.4735218
           ],
           [
             77.7066553,
@@ -9033,11 +9056,34 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "gandhi colony flyover",
-        "type": "trunk",
-        "slope": 61.39313578368697,
-        "sun_diff": 2.1065232218525978,
-        "length": 102.37964223928276
+        "name": "Gandhi Colony Flyover",
+        "type": "tertiary",
+        "slope": 61.954143111747015,
+        "sun_diff": 1.5455158937925546,
+        "length": 138.77203045376584
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.7071024,
+            29.4743207
+          ],
+          [
+            77.7082823,
+            29.4748875
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Gandhi Colony Flyover",
+        "type": "tertiary",
+        "slope": 61.11016818902152,
+        "sun_diff": 2.389490816518048,
+        "length": 130.49405951414818
       }
     },
     {
@@ -9199,6 +9245,75 @@
         "slope": 114.17637167644128,
         "sun_diff": 2.3234465811765546,
         "length": 142.1240261380793
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6838179,
+            29.5364046
+          ],
+          [
+            77.68269,
+            29.5368958
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 116.59035430116194,
+        "sun_diff": 0.17581401332971325,
+        "length": 122.062458444284
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6810405,
+            29.6122134
+          ],
+          [
+            77.6822796,
+            29.6116911
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 115.8658868381024,
+        "sun_diff": 0.900281476389253,
+        "length": 133.16463640874503
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.3590228,
+            29.6301108
+          ],
+          [
+            77.3599668,
+            29.6297248
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Thana Bhawan Road",
+        "type": "tertiary",
+        "slope": 115.19275137871676,
+        "sun_diff": 1.5734169357748868,
+        "length": 100.86492145637077
       }
     }
   ]
