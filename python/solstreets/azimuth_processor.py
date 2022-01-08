@@ -60,7 +60,7 @@ class AzimuthProcessor:
         return tuple(out)
 
     def get_sun_azimuth(self, lng: float, lat: float) -> Tuple[float, float]:
-        return self.get_sun_azimuth_cached(round(lng, 0), round(lat, 0))
+        return self.get_sun_azimuth_cached(round(lng, 1), round(lat, 1))
 
     def is_aligned_towards_sun(self, p1: Tuple[float, float], p2: Tuple[float, float]) -> bool:
         seg_az = get_segment_details([p1, p2])[0]
