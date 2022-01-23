@@ -351,6 +351,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            71.4578298,
+            33.991692
+          ],
+          [
+            71.4567085,
+            33.992151
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 116.27625507174676,
+        "sun_diff": 1.7148803496299934,
+        "length": 115.32561019576261
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             71.4488327,
             33.9742538
           ],
@@ -4756,7 +4779,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 118.32302496167097,
         "sun_diff": 0.3658902219825393,
         "length": 123.3878979509103
@@ -4852,6 +4875,29 @@
         "slope": 61.91129042944581,
         "sun_diff": 0.13110673553651964,
         "length": 101.70065436108324
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.4347393,
+            33.9638477
+          ],
+          [
+            71.4360271,
+            33.9632064
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 120.98118388287213,
+        "sun_diff": 2.990048461495377,
+        "length": 138.5732620909345
       }
     },
     {
@@ -6055,52 +6101,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            71.6714337,
-            33.9059965
-          ],
-          [
-            71.6725861,
-            33.906513
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Nehar Road",
-        "type": "secondary",
-        "slope": 61.62974167451753,
-        "sun_diff": 0.4126554904648003,
-        "length": 120.90544958226681
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            71.6725861,
-            33.906513
-          ],
-          [
-            71.673763,
-            33.9070091
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Nehar Road",
-        "type": "secondary",
-        "slope": 63.073844513525614,
-        "sun_diff": 1.0314473485432814,
-        "length": 121.85547339668236
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             71.5000287,
             33.9584241
           ],
@@ -6186,29 +6186,6 @@
         "slope": 61.58399248015655,
         "sun_diff": 0.4243903427591249,
         "length": 144.94257158060088
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            71.5624573,
-            33.9701443
-          ],
-          [
-            71.5612609,
-            33.9695982
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 61.17229419876159,
-        "sun_diff": 0.8360886241540868,
-        "length": 125.9753505179952
       }
     },
     {
@@ -10395,6 +10372,144 @@
         "slope": 120.63418913539752,
         "sun_diff": 2.643053714020766,
         "length": 118.42163106210712
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.5624573,
+            33.9701443
+          ],
+          [
+            71.5612609,
+            33.9695982
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 61.17229419876159,
+        "sun_diff": 0.8360886241540868,
+        "length": 125.9753505179952
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.6714337,
+            33.9059965
+          ],
+          [
+            71.6725861,
+            33.906513
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Nehar Road",
+        "type": "secondary",
+        "slope": 61.62974167451753,
+        "sun_diff": 0.4126554904648003,
+        "length": 120.90544958226681
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.6725861,
+            33.906513
+          ],
+          [
+            71.673763,
+            33.9070091
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Nehar Road",
+        "type": "secondary",
+        "slope": 63.073844513525614,
+        "sun_diff": 1.0314473485432814,
+        "length": 121.85547339668236
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.5822159,
+            33.9256707
+          ],
+          [
+            71.5835145,
+            33.9262403
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 62.13816370853223,
+        "sun_diff": 0.09576654354989955,
+        "length": 135.56840042321713
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.5784002,
+            33.9343116
+          ],
+          [
+            71.5798462,
+            33.9349172
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 63.21579764720252,
+        "sun_diff": 1.1734004822201882,
+        "length": 149.481316797297
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.448408,
+            34.1349248
+          ],
+          [
+            71.4494931,
+            34.135386
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 62.81956457197742,
+        "sun_diff": 0.84536001566849,
+        "length": 112.30289359183485
       }
     }
   ]
