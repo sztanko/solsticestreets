@@ -202,10 +202,79 @@
       "type": "Feature",
       "properties": {
         "name": "Military Road",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.09308459924762,
         "sun_diff": 1.7363779120901341,
         "length": 127.65476555003784
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.440079,
+            26.225213
+          ],
+          [
+            -98.4413198,
+            26.225716
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Military Road",
+        "type": "tertiary",
+        "slope": 114.31832497683817,
+        "sun_diff": 1.511137534499582,
+        "length": 135.86186044414993
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.441384,
+            26.225742
+          ],
+          [
+            -98.442696,
+            26.226334
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Military Road",
+        "type": "tertiary",
+        "slope": 116.70243012560374,
+        "sun_diff": 0.8729676142659883,
+        "length": 146.53874586374633
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.442696,
+            26.226334
+          ],
+          [
+            -98.444755,
+            26.2271714
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Military Road",
+        "type": "tertiary",
+        "slope": 114.38849661622683,
+        "sun_diff": 1.4409658951109208,
+        "length": 225.57343719987605
       }
     },
     {
@@ -321,75 +390,6 @@
         "slope": 64.72639970188351,
         "sun_diff": 0.5544861574745994,
         "length": 168.144672851034
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -98.440079,
-            26.225213
-          ],
-          [
-            -98.4413198,
-            26.225716
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Military Road",
-        "type": "secondary",
-        "slope": 114.31832497683817,
-        "sun_diff": 1.511137534499582,
-        "length": 135.86186044414993
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -98.441384,
-            26.225742
-          ],
-          [
-            -98.442696,
-            26.226334
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Military Road",
-        "type": "secondary",
-        "slope": 116.70243012560374,
-        "sun_diff": 0.8729676142659883,
-        "length": 146.53874586374633
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -98.442696,
-            26.226334
-          ],
-          [
-            -98.444755,
-            26.2271714
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Military Road",
-        "type": "secondary",
-        "slope": 114.38849661622683,
-        "sun_diff": 1.4409658951109208,
-        "length": 225.57343719987605
       }
     },
     {
@@ -6082,8 +6082,8 @@
             26.0826669
           ],
           [
-            -98.3091904,
-            26.0831315
+            -98.3091884,
+            26.0831323
           ]
         ]
       },
@@ -6091,9 +6091,9 @@
       "properties": {
         "name": "Calle Jaumave",
         "type": "residential",
-        "slope": 66.23361200587331,
-        "sun_diff": 2.0396506108235997,
-        "length": 128.2292300318546
+        "slope": 66.23320366572875,
+        "sun_diff": 2.03924227067904,
+        "length": 128.4479508971897
       }
     },
     {
@@ -6151,8 +6151,8 @@
             26.0853305
           ],
           [
-            -98.309996,
-            26.084863
+            -98.3099954,
+            26.0848632
           ]
         ]
       },
@@ -6160,9 +6160,9 @@
       "properties": {
         "name": "Calle Jos\u00e9 Osorio",
         "type": "residential",
-        "slope": 65.64359086333849,
-        "sun_diff": 1.4496294682887765,
-        "length": 126.08733285884978
+        "slope": 65.6415658422236,
+        "sun_diff": 1.4476044471738874,
+        "length": 126.02355305871026
       }
     },
     {
@@ -6423,8 +6423,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -98.3093807,
-            26.0835606
+            -98.309387,
+            26.0835582
           ],
           [
             -98.3082169,
@@ -6436,9 +6436,9 @@
       "properties": {
         "name": "Calle Guadalupe Mainero",
         "type": "residential",
-        "slope": 66.03582669678738,
-        "sun_diff": 1.8418653017376698,
-        "length": 127.23258841606139
+        "slope": 66.0410632161769,
+        "sun_diff": 1.8471018211271826,
+        "length": 127.91614205531047
       }
     },
     {
@@ -6450,8 +6450,8 @@
             26.084885
           ],
           [
-            -98.3097991,
-            26.084426
+            -98.3097927,
+            26.0844284
           ]
         ]
       },
@@ -6459,9 +6459,9 @@
       "properties": {
         "name": "Calle Llera",
         "type": "residential",
-        "slope": 66.53667791560238,
-        "sun_diff": 2.3427165205526705,
-        "length": 128.22524015088402
+        "slope": 66.53232322810229,
+        "sun_diff": 2.3383618330525735,
+        "length": 127.53245156713862
       }
     },
     {
@@ -6542,8 +6542,8 @@
             26.0844466
           ],
           [
-            -98.3095846,
-            26.083976
+            -98.3095822,
+            26.0839769
           ]
         ]
       },
@@ -6551,9 +6551,9 @@
       "properties": {
         "name": "Calle Villagr\u00e1n",
         "type": "residential",
-        "slope": 65.64887979178638,
-        "sun_diff": 1.454918396736673,
-        "length": 126.94930494203919
+        "slope": 65.64541545532822,
+        "sun_diff": 1.4514540602785075,
+        "length": 126.68959599774529
       }
     },
     {
@@ -8976,29 +8976,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -98.3078581,
-            26.0795544
-          ],
-          [
-            -98.3092232,
-            26.0790237
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 66.59560396178387,
-        "sun_diff": 2.4016425667341537,
-        "length": 148.60735050010678
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -98.3108774,
             26.0783719
           ],
@@ -9011,7 +8988,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 66.12531671489913,
         "sun_diff": 1.9313553198494162,
         "length": 219.63522660812578
@@ -9034,7 +9011,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 66.69113222166706,
         "sun_diff": 2.4971708266173493,
         "length": 149.2103252614448
@@ -9057,7 +9034,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 66.75852021619124,
         "sun_diff": 2.5645588211415316,
         "length": 175.72035744492794
@@ -9080,7 +9057,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 66.15618786661446,
         "sun_diff": 1.9622264715647475,
         "length": 278.70311673197017
@@ -9103,7 +9080,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 64.84888358620032,
         "sun_diff": 0.6549221911506038,
         "length": 138.62903840807923
@@ -9126,7 +9103,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 66.70099484212238,
         "sun_diff": 2.507033447072672,
         "length": 174.8325290434263
@@ -9149,7 +9126,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 66.46957229209826,
         "sun_diff": 2.2756108970485514,
         "length": 243.94726073786973
@@ -9172,7 +9149,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.58325273842252,
         "sun_diff": 1.389291343372804,
         "length": 113.20219798074217
@@ -9195,7 +9172,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 66.32800653765014,
         "sun_diff": 2.134045142600428,
         "length": 167.63460355175383
@@ -9218,7 +9195,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 64.66131079928442,
         "sun_diff": 0.46734940423471016,
         "length": 131.51067820945318
@@ -9241,7 +9218,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.60866391250744,
         "sun_diff": 1.4147025174577266,
         "length": 108.9495355189784
@@ -17870,6 +17847,29 @@
         "slope": 61.72263315051214,
         "sun_diff": 2.471328244537574,
         "length": 239.36831361951104
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.3078581,
+            26.0795544
+          ],
+          [
+            -98.3092232,
+            26.0790237
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 66.59560396178387,
+        "sun_diff": 2.4016425667341537,
+        "length": 148.60735050010678
       }
     }
   ]

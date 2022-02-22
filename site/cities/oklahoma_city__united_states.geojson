@@ -87,7 +87,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Main Street",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.70593226327432,
         "sun_diff": 1.2289108370289625,
         "length": 288.0923065271552
@@ -110,7 +110,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Main Street",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.21162335077324,
         "sun_diff": 1.7346019245278796,
         "length": 280.9997079677302
@@ -3583,7 +3583,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.638125649837576,
         "sun_diff": 2.1611042235922184,
         "length": 134.7161750568123
@@ -3606,7 +3606,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.42729412034353,
         "sun_diff": 1.9502726940981745,
         "length": 377.02671061731866
@@ -4871,7 +4871,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Main Street",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.13142268918489,
         "sun_diff": 2.6544012629395297,
         "length": 108.95901950686951
@@ -4894,7 +4894,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Main Street",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.225699852370326,
         "sun_diff": 1.7486784261249682,
         "length": 286.4978276586611
@@ -5699,7 +5699,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.18474215166799,
         "sun_diff": 1.7077207254226323,
         "length": 424.68950945421085
@@ -5722,7 +5722,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.08728883541875,
         "sun_diff": 1.6102674091733888,
         "length": 285.94448441694
@@ -5745,7 +5745,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.12471030222818,
         "sun_diff": 0.43681421673633736,
         "length": 144.9272094749801
@@ -6412,7 +6412,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.21721175199886,
         "sun_diff": 0.3443127669656576,
         "length": 138.82140903057498
@@ -7255,6 +7255,29 @@
             35.6058868
           ],
           [
+            -97.7501242,
+            35.6067692
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Northwest Expressway",
+        "type": "trunk",
+        "slope": 118.32444167744495,
+        "sun_diff": 0.23708284151956605,
+        "length": 206.86431947857474
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.7501242,
+            35.6067692
+          ],
+          [
             -97.7515868,
             35.6074101
           ]
@@ -7263,10 +7286,10 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
-        "slope": 118.32399364360265,
-        "sun_diff": 0.23753087536186968,
-        "length": 357.11918362405527
+        "type": "trunk",
+        "slope": 118.32311290591406,
+        "sun_diff": 0.23841161305045944,
+        "length": 150.25486414652494
       }
     },
     {
@@ -7286,7 +7309,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 117.91371273109823,
         "sun_diff": 0.6478117878662886,
         "length": 258.7940319310527
@@ -7309,7 +7332,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.30855909941033,
         "sun_diff": 0.2529654195541866,
         "length": 205.89181748384797
@@ -7332,7 +7355,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.3249725406007,
         "sun_diff": 0.23655197836382058,
         "length": 142.4627366039229
@@ -7355,7 +7378,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.00612326054681,
         "sun_diff": 0.555401258417703,
         "length": 124.66920745105098
@@ -7378,7 +7401,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.15756964194352,
         "sun_diff": 0.4039548770209933,
         "length": 187.31736978183108
@@ -7401,7 +7424,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.28839225629017,
         "sun_diff": 0.273132262674352,
         "length": 249.4710880417336
@@ -7424,7 +7447,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.2074204711821,
         "sun_diff": 0.354104047782414,
         "length": 872.3651952934572
@@ -7447,7 +7470,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.22146230561944,
         "sun_diff": 0.34006221334507813,
         "length": 198.73604468011396
@@ -7470,7 +7493,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.53390747580374,
         "sun_diff": 0.027617043160773846,
         "length": 111.98017478293465
@@ -7493,7 +7516,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.288080394974,
         "sun_diff": 0.2734441239905152,
         "length": 144.18224302410218
@@ -7508,6 +7531,29 @@
             35.5897058
           ],
           [
+            -97.7122059,
+            35.5902232
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Northwest Expressway",
+        "type": "trunk",
+        "slope": 118.31514274357485,
+        "sun_diff": 0.24638177538966488,
+        "length": 121.33233114622074
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.7122059,
+            35.5902232
+          ],
+          [
             -97.7154654,
             35.5916514
           ]
@@ -7516,10 +7562,10 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
-        "slope": 118.31657010897518,
-        "sun_diff": 0.24495440998933304,
-        "length": 456.2328968201915
+        "type": "trunk",
+        "slope": 118.31693259504698,
+        "sun_diff": 0.2445919239175396,
+        "length": 334.90056579169294
       }
     },
     {
@@ -7539,7 +7585,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 117.91178891077092,
         "sun_diff": 0.6497356081935948,
         "length": 104.40777129933831
@@ -7562,7 +7608,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.19506515027564,
         "sun_diff": 0.3664593686888793,
         "length": 290.8390942486125
@@ -7585,7 +7631,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.28154215024111,
         "sun_diff": 0.27998236872340954,
         "length": 128.76559981133258
@@ -7608,7 +7654,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.0940954103115,
         "sun_diff": 0.4674291086530218,
         "length": 105.76897339105703
@@ -7631,7 +7677,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.19767543190275,
         "sun_diff": 0.3638490870617659,
         "length": 407.45654826450254
@@ -7654,7 +7700,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.2544058953701,
         "sun_diff": 0.30711862359441966,
         "length": 407.3870643454815
@@ -7677,7 +7723,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.13057723149257,
         "sun_diff": 0.43094728747195177,
         "length": 135.7458945893635
@@ -7700,7 +7746,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.30423354839371,
         "sun_diff": 0.2572909705708071,
         "length": 164.16400883220476
@@ -7723,7 +7769,7 @@
       "type": "Feature",
       "properties": {
         "name": "Northwest Expressway",
-        "type": "primary",
+        "type": "trunk",
         "slope": 117.98151518033879,
         "sun_diff": 0.5800093386257288,
         "length": 117.96604917978408
