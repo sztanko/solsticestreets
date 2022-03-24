@@ -719,8 +719,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -66.1692404,
-            -17.3625868
+            -66.1692458,
+            -17.3626073
           ],
           [
             -66.1703077,
@@ -732,9 +732,9 @@
       "properties": {
         "name": "Calle Manuel Carrasco Jimenez",
         "type": "residential",
-        "slope": 115.89361065409585,
-        "sun_diff": 0.9494362818401214,
-        "length": 125.9512414798845
+        "slope": 116.93654646742701,
+        "sun_diff": 1.9923720951712767,
+        "length": 126.45223652309225
       }
     },
     {
@@ -3169,7 +3169,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Rumy-Chaca",
-        "type": "residential",
+        "type": "secondary",
         "slope": 112.34284527344028,
         "sun_diff": 2.601329098815455,
         "length": 145.3034377450309
@@ -3191,7 +3191,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle Rumy-Chaca",
         "type": "secondary",
         "slope": 65.2418703911371,
         "sun_diff": 0.18484629256457197,
@@ -3617,29 +3617,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -66.1910954,
-            -17.3577273
-          ],
-          [
-            -66.189889,
-            -17.3582462
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Mar\u00eda Luisa Pacheco",
-        "type": "residential",
-        "slope": 114.25851797138984,
-        "sun_diff": 0.685656400865895,
-        "length": 140.4809802048013
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -66.1595928,
             -17.3578344
           ],
@@ -3771,6 +3748,29 @@
         "slope": 115.91645697753879,
         "sun_diff": 0.9885247951293508,
         "length": 103.14711099168542
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.2165304,
+            -17.3402085
+          ],
+          [
+            -66.2156149,
+            -17.34057
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Cochabamba",
+        "type": "primary",
+        "slope": 112.47328367992628,
+        "sun_diff": 2.4546485024831526,
+        "length": 105.19122391930033
       }
     },
     {
@@ -4744,6 +4744,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -66.2290439,
+            -17.4384555
+          ],
+          [
+            -66.231701,
+            -17.4372263
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 115.86839584292417,
+        "sun_diff": 0.9242214706684422,
+        "length": 313.3660450498634
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -66.2283251,
             -17.4396301
           ],
@@ -5434,29 +5457,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -66.1949548,
-            -17.3571907
-          ],
-          [
-            -66.1940602,
-            -17.3575549
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Benjo Cruz",
-        "type": "residential",
-        "slope": 113.09984513904573,
-        "sun_diff": 1.8443292332100043,
-        "length": 103.25353961595194
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -66.1940602,
             -17.3575549
           ],
@@ -5469,7 +5469,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Benjo Cruz",
-        "type": "residential",
+        "type": "secondary",
         "slope": 111.9695827998274,
         "sun_diff": 2.9745915724283236,
         "length": 108.49037057318314
@@ -6377,6 +6377,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -66.2091408,
+            -17.3457435
+          ],
+          [
+            -66.2078866,
+            -17.3462818
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.21095936914315,
+        "sun_diff": 0.7169728132662812,
+        "length": 146.00209262402487
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -66.1563755,
             -17.3520079
           ],
@@ -6527,7 +6550,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Benjo Cruz",
-        "type": "residential",
+        "type": "secondary",
         "slope": 113.62702925348421,
         "sun_diff": 1.3171451187715206,
         "length": 105.07389769118352
@@ -6550,7 +6573,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Benjo Cruz",
-        "type": "residential",
+        "type": "secondary",
         "slope": 113.07422328106165,
         "sun_diff": 1.869951091194082,
         "length": 126.43505709276066
@@ -6895,7 +6918,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Benjo Cruz",
-        "type": "residential",
+        "type": "secondary",
         "slope": 112.31759642177255,
         "sun_diff": 2.626577950483181,
         "length": 173.9596552853969
@@ -7516,7 +7539,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Benjo Cruz",
-        "type": "residential",
+        "type": "secondary",
         "slope": 112.2020370132903,
         "sun_diff": 2.7421373589654365,
         "length": 172.66967775092678
@@ -7539,7 +7562,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Benjo Cruz",
-        "type": "residential",
+        "type": "secondary",
         "slope": 113.07464545389746,
         "sun_diff": 1.8695289183582702,
         "length": 124.90060611635127
@@ -7945,8 +7968,8 @@
             -17.4725314
           ],
           [
-            -66.1486444,
-            -17.4731496
+            -66.1481655,
+            -17.4729477
           ]
         ]
       },
@@ -7954,9 +7977,9 @@
       "properties": {
         "name": "Avenida Marcelo Quiroga Santa Cruz",
         "type": "residential",
-        "slope": 66.15455780786039,
-        "sun_diff": 1.113871521782528,
-        "length": 170.08988544074373
+        "slope": 66.15423388775642,
+        "sun_diff": 1.1135476016785617,
+        "length": 114.53814426054258
       }
     },
     {
@@ -8194,8 +8217,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -66.1397451,
-            -17.3779496
+            -66.1398252,
+            -17.3779855
           ],
           [
             -66.1412857,
@@ -8207,9 +8230,9 @@
       "properties": {
         "name": "Calle Ra\u00fal Rivero Torrez",
         "type": "residential",
-        "slope": 64.36316253339842,
-        "sun_diff": 0.6938615651741031,
-        "length": 181.39624497126786
+        "slope": 64.33690448125759,
+        "sun_diff": 0.7201196173149356,
+        "length": 172.00279314481378
       }
     },
     {
@@ -9130,6 +9153,29 @@
         "slope": 66.04985746550909,
         "sun_diff": 0.9928333669365657,
         "length": 149.68850293433596
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.1865152,
+            -17.4752015
+          ],
+          [
+            -66.1856579,
+            -17.4748216
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 65.08154651519959,
+        "sun_diff": 0.04086022912173348,
+        "length": 100.29284714945442
       }
     }
   ]

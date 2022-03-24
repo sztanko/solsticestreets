@@ -213,29 +213,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.9044713,
-            22.7061257
-          ],
-          [
-            75.9029978,
-            22.706765
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 115.18845181174729,
-        "sun_diff": 0.05778595439353751,
-        "length": 167.0814951845162
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             75.8846852,
             22.7092651
           ],
@@ -259,29 +236,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.8786186,
-            22.6985724
-          ],
-          [
-            75.8797635,
-            22.6980432
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 116.6121398334538,
-        "sun_diff": 1.4814739761000482,
-        "length": 131.40513418968501
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             75.8736841,
             22.7175317
           ],
@@ -294,7 +248,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 62.92958856346138,
         "sun_diff": 1.9392501630989614,
         "length": 150.1935582676686
@@ -340,7 +294,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kanadia Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 63.55671592284841,
         "sun_diff": 1.3121228037119295,
         "length": 101.53557448779709
@@ -363,7 +317,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "secondary",
         "slope": 67.11241703200503,
         "sun_diff": 2.243578305444686,
         "length": 214.06665146759275
@@ -386,7 +340,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "secondary",
         "slope": 67.5030454952913,
         "sun_diff": 2.6342067687309623,
         "length": 102.58610507528446
@@ -409,7 +363,7 @@
       "type": "Feature",
       "properties": {
         "name": "Dhar Road",
-        "type": "trunk",
+        "type": "secondary",
         "slope": 66.49110825621861,
         "sun_diff": 1.6222695296582685,
         "length": 105.79483466801429
@@ -432,56 +386,10 @@
       "type": "Feature",
       "properties": {
         "name": "Dhar Road",
-        "type": "trunk",
+        "type": "secondary",
         "slope": 67.05564409415013,
         "sun_diff": 2.186805367589784,
         "length": 119.20820018813365
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            75.8690559,
-            22.7124356
-          ],
-          [
-            75.8699825,
-            22.7119883
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Chhawani Road",
-        "type": "tertiary",
-        "slope": 117.6235818830211,
-        "sun_diff": 2.4929160256673555,
-        "length": 107.30483779643878
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            75.8549212,
-            22.7144531
-          ],
-          [
-            75.8560268,
-            22.713914
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "PandhariNath Path",
-        "type": "residential",
-        "slope": 117.86114657404949,
-        "sun_diff": 2.7304807166957374,
-        "length": 128.31159678264916
       }
     },
     {
@@ -677,8 +585,8 @@
             22.6809063
           ],
           [
-            75.8779331,
-            22.6815357
+            75.8777843,
+            22.6814781
           ]
         ]
       },
@@ -686,9 +594,9 @@
       "properties": {
         "name": "IET DAVV Main Rd",
         "type": "residential",
-        "slope": 67.23041197239388,
-        "sun_diff": 2.36157324583354,
-        "length": 180.88747115127342
+        "slope": 67.22947001057679,
+        "sun_diff": 2.360631284016449,
+        "length": 164.32695658948768
       }
     },
     {
@@ -731,7 +639,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "secondary",
         "slope": 62.64543123777307,
         "sun_diff": 2.2234074887872737,
         "length": 116.21767135024622
@@ -823,7 +731,7 @@
       "type": "Feature",
       "properties": {
         "name": "Nemawar Road",
-        "type": "trunk",
+        "type": "secondary",
         "slope": 117.85722781311324,
         "sun_diff": 2.726561955759493,
         "length": 192.09938704307942
@@ -838,18 +746,87 @@
             22.681596
           ],
           [
-            75.9208699,
-            22.6804213
+            75.9207639,
+            22.6804576
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Nemawar Road",
-        "type": "trunk",
-        "slope": 117.43111493750533,
-        "sun_diff": 2.30044908015158,
-        "length": 283.62576794882483
+        "type": "secondary",
+        "slope": 117.73177887463822,
+        "sun_diff": 2.601113017284476,
+        "length": 272.1139818492027
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8896441,
+            22.6391705
+          ],
+          [
+            75.8905857,
+            22.6395384
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 67.0551963448381,
+        "sun_diff": 2.168517164165678,
+        "length": 104.9688698415227
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.891246,
+            22.6397821
+          ],
+          [
+            75.8930474,
+            22.6405442
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 65.37404605799276,
+        "sun_diff": 0.48736687732034056,
+        "length": 203.43161067745868
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8930474,
+            22.6405442
+          ],
+          [
+            75.894366,
+            22.6410883
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 65.91106541902931,
+        "sun_diff": 1.0243862383568967,
+        "length": 148.2779259398959
       }
     },
     {
@@ -1271,29 +1248,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.7961342,
-            22.6990324
-          ],
-          [
-            75.7950707,
-            22.698535
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Ahmedabad - Indore Road",
-        "type": "trunk",
-        "slope": 63.11651471829765,
-        "sun_diff": 1.7523240082626899,
-        "length": 122.35376979286958
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             75.9153081,
             22.7672196
           ],
@@ -1329,7 +1283,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 116.07182834288813,
         "sun_diff": 0.9231990880172418,
         "length": 110.64849857890206
@@ -1501,6 +1455,75 @@
         "type": "LineString",
         "coordinates": [
           [
+            75.8941776,
+            22.6405508
+          ],
+          [
+            75.8919808,
+            22.639663
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 66.35263260498235,
+        "sun_diff": 1.4659534243099301,
+        "length": 246.19293377032503
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8919808,
+            22.639663
+          ],
+          [
+            75.8908302,
+            22.6391861
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 65.8159871001973,
+        "sun_diff": 0.9293079195248879,
+        "length": 129.48378845228024
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8908302,
+            22.6391861
+          ],
+          [
+            75.8895036,
+            22.6386432
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 66.08722797432532,
+        "sun_diff": 1.2005487936528993,
+        "length": 148.9756149441248
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             75.8018553,
             22.6118617
           ],
@@ -1609,121 +1632,6 @@
         "slope": 114.7327061826951,
         "sun_diff": 0.4159230721757865,
         "length": 107.83084926160693
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            75.754521,
-            22.6813339
-          ],
-          [
-            75.7571981,
-            22.682543
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Ahmedabad - Indore Road",
-        "type": "trunk",
-        "slope": 63.91797587130651,
-        "sun_diff": 0.9508628552538312,
-        "length": 305.89379131416734
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            75.7574932,
-            22.6826689
-          ],
-          [
-            75.7592511,
-            22.6833879
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Ahmedabad - Indore Road",
-        "type": "trunk",
-        "slope": 66.09228839256153,
-        "sun_diff": 1.223449666001187,
-        "length": 197.33877181501484
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            75.7592511,
-            22.6833879
-          ],
-          [
-            75.7602345,
-            22.6838308
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Ahmedabad - Indore Road",
-        "type": "trunk",
-        "slope": 63.981378576046524,
-        "sun_diff": 0.8874601505138173,
-        "length": 112.30427655511525
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            75.7595318,
-            22.6833893
-          ],
-          [
-            75.7585253,
-            22.6829726
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Ahmedabad - Indore Road",
-        "type": "trunk",
-        "slope": 65.83346838306431,
-        "sun_diff": 0.9646296565039734,
-        "length": 113.21574610109269
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            75.7561709,
-            22.6819636
-          ],
-          [
-            75.7546088,
-            22.6812576
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Ahmedabad - Indore Road",
-        "type": "trunk",
-        "slope": 63.902647466213296,
-        "sun_diff": 0.9661912603470455,
-        "length": 178.5144677709872
       }
     },
     {
@@ -2444,29 +2352,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.9032257,
-            22.706723
-          ],
-          [
-            75.9044915,
-            22.7061761
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 115.0964267437435,
-        "sun_diff": 0.03423911361024068,
-        "length": 143.42215692066935
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             75.8677662,
             22.6900466
           ],
@@ -2571,7 +2456,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 117.8102953443094,
         "sun_diff": 2.6796294869556476,
         "length": 142.18886296929688
@@ -3238,7 +3123,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kanadia Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 63.41630333431871,
         "sun_diff": 1.4525353922416286,
         "length": 128.7516622042206
@@ -3261,7 +3146,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kanadia Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.73367482037435,
         "sun_diff": 0.8648360938140058,
         "length": 115.37635756354709
@@ -3847,29 +3732,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.84539,
-            22.7046937
-          ],
-          [
-            75.8443222,
-            22.7051172
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 113.26420826514092,
-        "sun_diff": 1.866457592212825,
-        "length": 119.2639811896709
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             75.8040095,
             22.7307773
           ],
@@ -3882,7 +3744,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 118.02013913422488,
         "sun_diff": 2.8894732768711293,
         "length": 228.15007674468674
@@ -5123,7 +4985,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "IIST Approach Road",
         "type": "service",
         "slope": 114.77070961137511,
         "sun_diff": 0.34210213148823243,
@@ -5388,29 +5250,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.7957039,
-            22.6989177
-          ],
-          [
-            75.7966255,
-            22.699355
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Ahmedabad - Indore Road",
-        "type": "trunk",
-        "slope": 62.78140944872507,
-        "sun_diff": 2.0874292778352697,
-        "length": 106.34522155387135
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             75.9165466,
             22.7177392
           ],
@@ -5618,8 +5457,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.8802214,
-            22.6977852
+            75.880231,
+            22.6978029
           ],
           [
             75.8786201,
@@ -5630,10 +5469,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 114.85119020803265,
-        "sun_diff": 0.2794756493210997,
-        "length": 181.0856917683291
+        "type": "secondary",
+        "slope": 114.15524749444307,
+        "sun_diff": 0.9754183629106734,
+        "length": 181.16553505957455
       }
     },
     {

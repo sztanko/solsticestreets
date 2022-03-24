@@ -121,8 +121,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.2755599,
-            13.0267003
+            80.2755921,
+            13.0266872
           ],
           [
             80.2768779,
@@ -134,9 +134,9 @@
       "properties": {
         "name": "South Leith Castle Street",
         "type": "residential",
-        "slope": 114.6184492284346,
-        "sun_diff": 0.7487524050810919,
-        "length": 157.10927993479896
+        "slope": 114.6666327343147,
+        "sun_diff": 0.7969359109611958,
+        "length": 153.33009338508495
       }
     },
     {
@@ -179,7 +179,7 @@
       "type": "Feature",
       "properties": {
         "name": "Konnur High Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 113.9636468535773,
         "sun_diff": 0.08538497300459369,
         "length": 134.90317944314663
@@ -202,56 +202,10 @@
       "type": "Feature",
       "properties": {
         "name": "Konnur High Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 113.20103303849044,
         "sun_diff": 0.6772288420822719,
         "length": 138.74148850747486
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2146632,
-            13.1006006
-          ],
-          [
-            80.2136306,
-            13.1010141
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Konnur High Road",
-        "type": "trunk",
-        "slope": 112.34985875330696,
-        "sun_diff": 1.5284031272657472,
-        "length": 120.95259053335589
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2136306,
-            13.1010141
-          ],
-          [
-            80.2120986,
-            13.1016355
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Konnur High Road",
-        "type": "trunk",
-        "slope": 112.60948597621754,
-        "sun_diff": 1.2687759043551665,
-        "length": 179.785726435149
       }
     },
     {
@@ -5457,29 +5411,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.2692176,
-            13.0848323
-          ],
-          [
-            80.2703217,
-            13.08439
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Vepery High Road",
-        "type": "secondary",
-        "slope": 112.35616178765241,
-        "sun_diff": 1.5221000929202972,
-        "length": 129.34205912513116
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             80.2113986,
             12.9554544
           ],
@@ -5745,7 +5676,7 @@
       "type": "Feature",
       "properties": {
         "name": "New Avadi Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 115.18132936052737,
         "sun_diff": 1.303067479954663,
         "length": 477.4837779932813
@@ -5768,7 +5699,7 @@
       "type": "Feature",
       "properties": {
         "name": "New Avadi Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 113.99061882634186,
         "sun_diff": 0.11235694576915023,
         "length": 108.6892495591147
@@ -5791,7 +5722,7 @@
       "type": "Feature",
       "properties": {
         "name": "New Avadi Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 114.75548427610107,
         "sun_diff": 0.8772223955283636,
         "length": 176.08340560962728
@@ -7607,7 +7538,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Inner Ring Road",
         "type": "primary",
         "slope": 68.982781515726,
         "sun_diff": 2.8702199828197195,
@@ -7630,7 +7561,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Inner Ring Road",
         "type": "primary",
         "slope": 64.42917430080584,
         "sun_diff": 1.6833872321004435,
@@ -7653,7 +7584,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Inner Ring Road",
         "type": "primary",
         "slope": 66.67975186857075,
         "sun_diff": 0.5671903356644634,
@@ -8850,7 +8781,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "primary",
         "slope": 115.0732226542774,
         "sun_diff": 1.1949607737046932,
         "length": 180.03008024556942
@@ -8873,7 +8804,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "primary",
         "slope": 114.01050625612311,
         "sun_diff": 0.1322443755503997,
         "length": 204.22426953798904
@@ -8896,7 +8827,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "primary",
         "slope": 115.13363349497374,
         "sun_diff": 1.255371614401028,
         "length": 142.9880169656305
@@ -8919,7 +8850,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "primary",
         "slope": 114.66213087335697,
         "sun_diff": 0.7838689927842637,
         "length": 185.93085147057985
@@ -11407,6 +11338,52 @@
         "slope": 114.65182275622499,
         "sun_diff": 0.7821259328714802,
         "length": 114.1625088067648
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2146632,
+            13.1006006
+          ],
+          [
+            80.2136306,
+            13.1010141
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Konnur High Road",
+        "type": "secondary",
+        "slope": 112.34985875330696,
+        "sun_diff": 1.5284031272657472,
+        "length": 120.95259053335589
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2136306,
+            13.1010141
+          ],
+          [
+            80.2120986,
+            13.1016355
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Konnur High Road",
+        "type": "secondary",
+        "slope": 112.60948597621754,
+        "sun_diff": 1.2687759043551665,
+        "length": 179.785726435149
       }
     }
   ]
