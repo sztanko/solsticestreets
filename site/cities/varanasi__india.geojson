@@ -29,29 +29,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            82.9531795,
-            25.363385
-          ],
-          [
-            82.9540789,
-            25.3638231
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Nawalpur Road",
-        "type": "tertiary",
-        "slope": 61.672438260627445,
-        "sun_diff": 2.670721786652024,
-        "length": 102.69474533857564
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             83.1285206,
             25.2796913
           ],
@@ -4560,75 +4537,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            82.9375371,
-            25.2934812
-          ],
-          [
-            82.9365635,
-            25.2930034
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 61.50730014603499,
-        "sun_diff": 2.856896883888112,
-        "length": 111.40528584115074
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            82.9316041,
-            25.2907287
-          ],
-          [
-            82.9303367,
-            25.2901794
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 64.38927548150235,
-        "sun_diff": 0.025078451579247485,
-        "length": 141.34827645345675
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            82.9303367,
-            25.2901794
-          ],
-          [
-            82.9293469,
-            25.289759
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 64.83802116353547,
-        "sun_diff": 0.47382413361236786,
-        "length": 109.9795190382335
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             82.8668761,
             25.4263957
           ],
@@ -5335,6 +5243,29 @@
         "slope": 117.33211043021106,
         "sun_diff": 1.6547152505544602,
         "length": 110.05567787012995
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            82.9039532,
+            25.3621809
+          ],
+          [
+            82.9002249,
+            25.3604891
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Varanasi Ring Road",
+        "type": "trunk",
+        "slope": 63.33576299041613,
+        "sun_diff": 1.00739705686334,
+        "length": 419.3266811009692
       }
     },
     {
@@ -6929,6 +6860,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            82.8929467,
+            25.3478234
+          ],
+          [
+            82.8941198,
+            25.3483496
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 63.60285804059535,
+        "sun_diff": 0.7613389893277542,
+        "length": 131.64752866180777
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             83.16016,
             25.3684635
           ],
@@ -8516,6 +8470,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            83.0298428,
+            25.2256531
+          ],
+          [
+            83.0282336,
+            25.226371
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 116.2503904130871,
+        "sun_diff": 0.6360515398480686,
+        "length": 180.54041463782468
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            82.9894257,
+            25.2775174
+          ],
+          [
+            82.9903562,
+            25.2779723
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 61.60232716130545,
+        "sun_diff": 2.7618698686176515,
+        "length": 106.3914006080657
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             82.9275808,
             25.2890751
           ],
@@ -8654,22 +8654,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            83.0298428,
-            25.2256531
+            82.9375371,
+            25.2934812
           ],
           [
-            83.0282336,
-            25.226371
+            82.9365635,
+            25.2930034
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
-        "slope": 116.2503904130871,
-        "sun_diff": 0.6360515398480686,
-        "length": 180.54041463782468
+        "type": "trunk",
+        "slope": 61.50730014603499,
+        "sun_diff": 2.856896883888112,
+        "length": 111.40528584115074
       }
     },
     {
@@ -8677,22 +8677,45 @@
         "type": "LineString",
         "coordinates": [
           [
-            82.9894257,
-            25.2775174
+            82.9316041,
+            25.2907287
           ],
           [
-            82.9903562,
-            25.2779723
+            82.9303367,
+            25.2901794
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
-        "slope": 61.60232716130545,
-        "sun_diff": 2.7618698686176515,
-        "length": 106.3914006080657
+        "type": "trunk",
+        "slope": 64.38927548150235,
+        "sun_diff": 0.025078451579247485,
+        "length": 141.34827645345675
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            82.9303367,
+            25.2901794
+          ],
+          [
+            82.9293469,
+            25.289759
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 64.83802116353547,
+        "sun_diff": 0.47382413361236786,
+        "length": 109.9795190382335
       }
     }
   ]

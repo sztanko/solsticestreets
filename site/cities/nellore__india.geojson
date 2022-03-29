@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jonnawada Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 115.77032302752869,
         "sun_diff": 1.7729289874526302,
         "length": 140.07207332716644
@@ -156,7 +156,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jonnawada Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 116.13966070711913,
         "sun_diff": 2.132492666340781,
         "length": 107.45274112033677
@@ -179,7 +179,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jonnawada Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 111.86535746566159,
         "sun_diff": 2.1418105751167644,
         "length": 164.2943247751543
@@ -2766,29 +2766,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            79.9778238,
-            14.4486991
-          ],
-          [
-            79.9788661,
-            14.4490964
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 68.51407275740172,
-        "sun_diff": 2.5119963645095424,
-        "length": 120.6523120556506
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             79.988617,
             14.442438
           ],
@@ -3100,7 +3077,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 114.20779701242063,
         "sun_diff": 0.21040297234456773,
         "length": 110.18616623751763
@@ -3357,29 +3334,6 @@
         "slope": 111.47761005722612,
         "sun_diff": 2.519783982849944,
         "length": 104.96021270019902
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            79.9893882,
-            14.4562726
-          ],
-          [
-            79.9903013,
-            14.4567215
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "james garden",
-        "type": "residential",
-        "slope": 63.0832120307395,
-        "sun_diff": 2.909083531261217,
-        "length": 110.297226365567
       }
     },
     {
@@ -3916,29 +3870,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            79.8932925,
-            14.4814469
-          ],
-          [
-            79.8885879,
-            14.4832377
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Jonnawada Road",
-        "type": "secondary",
-        "slope": 111.46189674703643,
-        "sun_diff": 2.5452712937419193,
-        "length": 544.4128652177209
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             80.1037041,
             14.3503858
           ],
@@ -4089,7 +4020,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 68.03283512267456,
         "sun_diff": 2.0405395606738352,
         "length": 193.4239468298179
@@ -4622,6 +4553,29 @@
         "slope": 113.18847188611778,
         "sun_diff": 0.8285521176328956,
         "length": 128.3038783859492
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.9778238,
+            14.4486991
+          ],
+          [
+            79.9788661,
+            14.4490964
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "secondary",
+        "slope": 68.51407275740172,
+        "sun_diff": 2.5119963645095424,
+        "length": 120.6523120556506
       }
     }
   ]

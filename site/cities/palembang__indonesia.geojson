@@ -524,7 +524,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 111.53975796468202,
         "sun_diff": 1.9842220036421168,
         "length": 120.36499885403198
@@ -723,8 +723,8 @@
             -2.9164955
           ],
           [
-            104.703095,
-            -2.9170978
+            104.703101,
+            -2.9171011
           ]
         ]
       },
@@ -732,9 +732,9 @@
       "properties": {
         "name": "Jalan Sultan Mahmud Badaruddin II",
         "type": "trunk",
-        "slope": 114.88700116668244,
-        "sun_diff": 1.3669553873202176,
-        "length": 159.19430709541726
+        "slope": 114.9058011693493,
+        "sun_diff": 1.3857553899870823,
+        "length": 159.9534062680056
       }
     },
     {
@@ -1191,7 +1191,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 67.18859033720616,
         "sun_diff": 0.7136736084523534,
         "length": 121.01325335209746
@@ -5940,29 +5940,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            104.7182867,
-            -2.9467375
-          ],
-          [
-            104.7191874,
-            -2.9463375
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 66.02591374062482,
-        "sun_diff": 0.4529371770909165,
-        "length": 109.49879847557494
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             104.8250867,
             -2.9272504
           ],
@@ -8953,6 +8930,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            104.6992909,
+            -2.9153748
+          ],
+          [
+            104.6984718,
+            -2.9149794
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Jalan Sultan Mahmud Badaruddin II",
+        "type": "trunk",
+        "slope": 115.79681688173122,
+        "sun_diff": 2.276771102368997,
+        "length": 101.06199866370281
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             104.6983663,
             -2.9149263
           ],
@@ -9291,98 +9291,6 @@
         "slope": 112.1596518323633,
         "sun_diff": 1.3643281359608466,
         "length": 132.70131203152266
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            104.7771112,
-            -3.0562765
-          ],
-          [
-            104.7781641,
-            -3.0567314
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 113.39622436243351,
-        "sun_diff": 0.1317717571225927,
-        "length": 127.42398427707715
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            104.7782069,
-            -3.0567499
-          ],
-          [
-            104.7790863,
-            -3.0571323
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 113.53127903058922,
-        "sun_diff": 0.003282911033110736,
-        "length": 106.5355831849799
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            104.779094,
-            -3.0571356
-          ],
-          [
-            104.7800325,
-            -3.0575381
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 113.24290629580148,
-        "sun_diff": 0.28508982375463177,
-        "length": 113.44804934195085
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            104.78005,
-            -3.0575457
-          ],
-          [
-            104.7810273,
-            -3.0579686
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 113.42900725403251,
-        "sun_diff": 0.09898886552359443,
-        "length": 118.30389497935951
       }
     },
     {
@@ -10924,6 +10832,121 @@
         "slope": 65.29903899856899,
         "sun_diff": 1.1758777301848227,
         "length": 144.13374426248436
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7771112,
+            -3.0562765
+          ],
+          [
+            104.7781641,
+            -3.0567314
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 113.39622436243351,
+        "sun_diff": 0.1317717571225927,
+        "length": 127.42398427707715
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7782069,
+            -3.0567499
+          ],
+          [
+            104.7790863,
+            -3.0571323
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 113.53127903058922,
+        "sun_diff": 0.003282911033110736,
+        "length": 106.5355831849799
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.779094,
+            -3.0571356
+          ],
+          [
+            104.7800325,
+            -3.0575381
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 113.24290629580148,
+        "sun_diff": 0.28508982375463177,
+        "length": 113.44804934195085
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.78005,
+            -3.0575457
+          ],
+          [
+            104.7810273,
+            -3.0579686
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 113.42900725403251,
+        "sun_diff": 0.09898886552359443,
+        "length": 118.30389497935951
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7051828,
+            -3.0047945
+          ],
+          [
+            104.7037141,
+            -3.004146
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.85283749037586,
+        "sun_diff": 0.32885752205172025,
+        "length": 178.37416105800148
       }
     }
   ]
