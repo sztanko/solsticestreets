@@ -489,12 +489,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -47.1008006,
-            -22.8301725
+            -47.1007646,
+            -22.8301542
           ],
           [
-            -47.0993952,
-            -22.8294592
+            -47.0997778,
+            -22.8296534
           ]
         ]
       },
@@ -502,9 +502,9 @@
       "properties": {
         "name": "Avenida Doutor Eduardo Pereira de Almeida",
         "type": "residential",
-        "slope": 61.15927728806028,
-        "sun_diff": 2.863000472012004,
-        "length": 164.47753923917202
+        "slope": 61.1613106062762,
+        "sun_diff": 2.860967153796082,
+        "length": 115.48536333032197
       }
     },
     {
@@ -7516,7 +7516,7 @@
       "type": "Feature",
       "properties": {
         "name": "Estrada Municpal Adhelina Segantine Cerqueira Leite",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 114.69054337590191,
         "sun_diff": 1.288199749935643,
         "length": 392.3124954079886
@@ -7539,7 +7539,7 @@
       "type": "Feature",
       "properties": {
         "name": "Estrada Municpal Adhelina Segantine Cerqueira Leite",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 116.02002168835702,
         "sun_diff": 0.04127856251946582,
         "length": 121.85761966328701
@@ -7562,7 +7562,7 @@
       "type": "Feature",
       "properties": {
         "name": "Estrada Municpal Adhelina Segantine Cerqueira Leite",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 114.41944831673737,
         "sun_diff": 1.5592948091001801,
         "length": 165.46743467492882
@@ -7585,7 +7585,7 @@
       "type": "Feature",
       "properties": {
         "name": "Estrada Municpal Adhelina Segantine Cerqueira Leite",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 114.80095923523635,
         "sun_diff": 1.177783890601205,
         "length": 111.2916847872117
@@ -15232,29 +15232,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -46.9353589,
-            -22.7430187
-          ],
-          [
-            -46.9370163,
-            -22.7438412
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Estrada Municipal Hamilton Bernardes",
-        "type": "residential",
-        "slope": 61.71528147536773,
-        "sun_diff": 2.329153418372073,
-        "length": 193.0697539677161
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -47.0643233,
             -22.9935481
           ],
@@ -15570,29 +15547,6 @@
         "slope": 114.50872869906502,
         "sun_diff": 1.514683863944427,
         "length": 132.67207659496805
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -46.8312811,
-            -23.0086632
-          ],
-          [
-            -46.8302813,
-            -23.0091373
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida da Saudade",
-        "type": "secondary",
-        "slope": 117.25667995387539,
-        "sun_diff": 1.2332673908659473,
-        "length": 115.1456790816959
       }
     },
     {
@@ -19660,7 +19614,7 @@
       "type": "Feature",
       "properties": {
         "name": "Estrada do Tanquinho",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 66.39311712773303,
         "sun_diff": 2.37083936766075,
         "length": 114.51856308891371
@@ -22868,8 +22822,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            -46.9146064,
-            -22.7466817
+            -46.913491,
+            -22.7461119
+          ],
+          [
+            -46.9145967,
+            -22.7466676
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Jos\u00e9 Luis Ferraretto",
+        "type": "residential",
+        "slope": 61.41125578168874,
+        "sun_diff": 2.6331791120510672,
+        "length": 129.17035188597418
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.9145967,
+            -22.7466676
           ],
           [
             -46.9156832,
@@ -22881,9 +22858,9 @@
       "properties": {
         "name": "Rua Jos\u00e9 Luis Ferraretto",
         "type": "residential",
-        "slope": 62.00954010941149,
-        "sun_diff": 2.0348947843283156,
-        "length": 125.08869531517513
+        "slope": 61.59446750474075,
+        "sun_diff": 2.449967388999056,
+        "length": 126.70670641101648
       }
     },
     {
@@ -23684,8 +23661,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "unclassified",
+        "name": "Rodovia Campinas - Pedreira",
+        "type": "tertiary",
         "slope": 64.9816327129879,
         "sun_diff": 0.9593549529156178,
         "length": 160.3314615204467
@@ -24333,29 +24310,6 @@
         "slope": 114.21106646699747,
         "sun_diff": 1.8123460960119786,
         "length": 192.89681796781875
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -46.8323071,
-            -23.0080737
-          ],
-          [
-            -46.8333877,
-            -23.0075906
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida da Saudade",
-        "type": "secondary",
-        "slope": 115.90596575586795,
-        "sun_diff": 0.1174468071414907,
-        "length": 122.99293714336672
       }
     },
     {
@@ -31482,7 +31436,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Antonio Ign\u00e1cio Pupo",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 65.63785565454262,
         "sun_diff": 1.6155778944703343,
         "length": 219.08820124245045
@@ -31505,7 +31459,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Antonio Ign\u00e1cio Pupo",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 64.04521469982342,
         "sun_diff": 0.022936939751133423,
         "length": 236.9660754629358
@@ -31528,7 +31482,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Antonio Ign\u00e1cio Pupo",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 62.327571521270244,
         "sun_diff": 1.6947062388020413,
         "length": 146.31372489464877
@@ -31551,7 +31505,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Antonio Ign\u00e1cio Pupo",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 65.8949618629268,
         "sun_diff": 1.872684102854521,
         "length": 157.60805002822153
@@ -31574,7 +31528,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Antonio Ign\u00e1cio Pupo",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 118.2512032383564,
         "sun_diff": 2.272460112518843,
         "length": 208.9527634768663
@@ -35656,6 +35610,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -47.0407212,
+            -22.8260281
+          ],
+          [
+            -47.0385499,
+            -22.8270355
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 116.72008210065002,
+        "sun_diff": 0.7413389748124644,
+        "length": 249.211000840805
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -47.1792519,
             -22.7709645
           ],
@@ -35948,52 +35925,6 @@
         "slope": 62.01074043589273,
         "sun_diff": 2.0115373241795567,
         "length": 118.31514452202046
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -47.0972943,
-            -22.8409208
-          ],
-          [
-            -47.098335,
-            -22.8405055
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 113.41315105508369,
-        "sun_diff": 2.5655920707538655,
-        "length": 116.25191528156788
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -47.0998263,
-            -22.8401001
-          ],
-          [
-            -47.1007383,
-            -22.8396848
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 116.29462459885875,
-        "sun_diff": 0.31588147302119296,
-        "length": 104.27774296890404
       }
     },
     {
@@ -36638,6 +36569,75 @@
         "slope": 61.05077194383213,
         "sun_diff": 2.9268363790682486,
         "length": 104.28218257239618
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.9353589,
+            -22.7430187
+          ],
+          [
+            -46.9370163,
+            -22.7438412
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Estrada Municipal Hamilton Bernardes",
+        "type": "tertiary",
+        "slope": 61.71528147536773,
+        "sun_diff": 2.329153418372073,
+        "length": 193.0697539677161
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.9502182,
+            -22.8375328
+          ],
+          [
+            -46.9491088,
+            -22.8370051
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 62.70084700432858,
+        "sun_diff": 1.3214307557437053,
+        "length": 127.97913730245432
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.8323071,
+            -23.0080737
+          ],
+          [
+            -46.8333877,
+            -23.0075906
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida da Saudade",
+        "type": "secondary",
+        "slope": 115.90596575586795,
+        "sun_diff": 0.1174468071414907,
+        "length": 122.99293714336672
       }
     }
   ]

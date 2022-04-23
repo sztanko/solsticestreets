@@ -18,33 +18,10 @@
       "type": "Feature",
       "properties": {
         "name": "Airport Rd",
-        "type": "primary",
+        "type": "secondary",
         "slope": 66.32953573721184,
         "sun_diff": 1.8825021730348226,
         "length": 100.07122740725232
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            91.908976,
-            24.8711715
-          ],
-          [
-            91.9105022,
-            24.870463
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Sylhet - Beanibazar Highway",
-        "type": "primary",
-        "slope": 117.09779742182639,
-        "sun_diff": 1.5455039870077485,
-        "length": 173.00616739320853
       }
     },
     {
@@ -64,7 +41,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 116.7758912977364,
         "sun_diff": 1.2030663142726894,
         "length": 201.64541067742528
@@ -87,7 +64,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 115.04379346284273,
         "sun_diff": 0.5290315206209755,
         "length": 208.39676284849605
@@ -144,12 +121,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            91.9799195,
-            24.8558468
+            91.9799104,
+            24.8558411
           ],
           [
-            91.9784282,
-            24.8551459
+            91.9784191,
+            24.8551402
           ]
         ]
       },
@@ -157,9 +134,32 @@
       "properties": {
         "name": "\u09b8\u09bf\u09b2\u09c7\u099f-\u09ac\u09bf\u09df\u09be\u09a8\u09c0\u09ac\u09be\u099c\u09be\u09b0 \u09ae\u09b9\u09be\u09b8\u09dc\u0995",
         "type": "primary",
-        "slope": 62.61717609031518,
-        "sun_diff": 1.8298574738618356,
-        "length": 169.5044965874965
+        "slope": 62.61717716866559,
+        "sun_diff": 1.8298563955114275,
+        "length": 169.50450274663442
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.9401688,
+            24.8480745
+          ],
+          [
+            91.9392113,
+            24.8485129
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "\u09b8\u09bf\u09b2\u09c7\u099f-\u09ac\u09bf\u09df\u09be\u09a8\u09c0\u09ac\u09be\u099c\u09be\u09b0 \u09ae\u09b9\u09be\u09b8\u09dc\u0995",
+        "type": "primary",
+        "slope": 116.7741962485309,
+        "sun_diff": 1.2423250793305982,
+        "length": 108.24834359209942
       }
     },
     {
@@ -501,7 +501,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "trunk",
         "slope": 64.51769305173721,
         "sun_diff": 0.07065948756019225,
         "length": 137.33319451134355
@@ -1122,7 +1122,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 62.90858767151332,
         "sun_diff": 1.5179280043969925,
         "length": 118.18806329241288

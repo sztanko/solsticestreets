@@ -225,7 +225,7 @@
       "type": "Feature",
       "properties": {
         "name": "Poonamallee High Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.58287995868196,
         "sun_diff": 0.5383149333352435,
         "length": 202.82998543191414
@@ -374,22 +374,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.2885948,
-            13.1528052
+            80.2886559,
+            13.1527565
           ],
           [
-            80.2872854,
-            13.1533563
+            80.2872,
+            13.1533828
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Manali High Road",
+        "name": "Thiruvottriyur \u2013 Ponneri \u2013 Panchetty Road",
         "type": "primary",
-        "slope": 113.37493203984815,
-        "sun_diff": 0.5119700300246279,
-        "length": 154.50381351797293
+        "slope": 113.83444074232725,
+        "sun_diff": 0.05246132754552946,
+        "length": 172.3933304172142
       }
     },
     {
@@ -570,7 +570,7 @@
       "type": "Feature",
       "properties": {
         "name": "Erukkancheri High Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 112.58315536102046,
         "sun_diff": 1.2951065195522489,
         "length": 125.79186287648024
@@ -1237,7 +1237,7 @@
       "type": "Feature",
       "properties": {
         "name": "Grand Southern Trunk Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.17684646224711,
         "sun_diff": 2.9528998266109454,
         "length": 137.15224922852317
@@ -1310,6 +1310,75 @@
         "slope": 114.24027368508123,
         "sun_diff": 0.3620118045085263,
         "length": 113.67776310838846
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2139409,
+            13.0984946
+          ],
+          [
+            80.2099523,
+            13.1003211
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "New Avadi Road",
+        "type": "primary",
+        "slope": 115.18132936052737,
+        "sun_diff": 1.303067479954663,
+        "length": 477.4837779932813
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2099523,
+            13.1003211
+          ],
+          [
+            80.2090357,
+            13.1007184
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "New Avadi Road",
+        "type": "primary",
+        "slope": 113.99061882634186,
+        "sun_diff": 0.11235694576915023,
+        "length": 108.6892495591147
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2085855,
+            13.1009136
+          ],
+          [
+            80.2071095,
+            13.1015765
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "New Avadi Road",
+        "type": "primary",
+        "slope": 114.75548427610107,
+        "sun_diff": 0.8772223955283636,
+        "length": 176.08340560962728
       }
     },
     {
@@ -1616,29 +1685,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.3140733,
-            13.1847106
-          ],
-          [
-            80.3162072,
-            13.18391
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Ernavur Road",
-        "type": "primary",
-        "slope": 111.07356710663103,
-        "sun_diff": 2.8133349632417435,
-        "length": 247.6607588103958
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             80.315446,
             13.1827865
           ],
@@ -1858,7 +1904,7 @@
       "type": "Feature",
       "properties": {
         "name": "Poonamallee High Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 111.17442851213173,
         "sun_diff": 2.703833368440982,
         "length": 102.14312293500343
@@ -1892,8 +1938,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.149507,
-            12.9680182
+            80.1494917,
+            12.9680348
           ],
           [
             80.1506884,
@@ -1905,9 +1951,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 113.38744181767535,
-        "sun_diff": 0.48225500567815516,
-        "length": 139.51818628875648
+        "slope": 113.80628694642019,
+        "sun_diff": 0.06340987693332067,
+        "length": 141.77706094789755
       }
     },
     {
@@ -2042,10 +2088,33 @@
       "type": "Feature",
       "properties": {
         "name": "New Avadi Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 113.74798362989964,
         "sun_diff": 0.1302782506730722,
         "length": 113.76695634404291
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2207407,
+            13.0959051
+          ],
+          [
+            80.2192172,
+            13.0964772
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "New Avadi Road",
+        "type": "primary",
+        "slope": 111.08389404573597,
+        "sun_diff": 2.7943678348367342,
+        "length": 176.89336180127668
       }
     },
     {
@@ -2179,34 +2248,11 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Mount Poonamallee Highway",
+        "name": "Mount - Poonamallee - Avadi Road",
         "type": "primary",
         "slope": 111.40222118881351,
         "sun_diff": 2.467475634539994,
         "length": 108.33026086683455
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2159111,
-            13.0103818
-          ],
-          [
-            80.2170576,
-            13.0109201
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Anna Salai (Mount Road)",
-        "type": "trunk",
-        "slope": 64.2711721035136,
-        "sun_diff": 1.8585741853444517,
-        "length": 137.92527486747088
       }
     },
     {
@@ -2226,7 +2272,7 @@
       "type": "Feature",
       "properties": {
         "name": "Anna Salai (Mount Road)",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.73304290620601,
         "sun_diff": 0.6032966173479508,
         "length": 147.8029307847701
@@ -2249,7 +2295,7 @@
       "type": "Feature",
       "properties": {
         "name": "Anna Salai (Mount Road)",
-        "type": "trunk",
+        "type": "primary",
         "slope": 68.374165683017,
         "sun_diff": 2.244419394158939,
         "length": 112.96704910075627
@@ -2272,7 +2318,7 @@
       "type": "Feature",
       "properties": {
         "name": "Anna Salai (Mount Road)",
-        "type": "trunk",
+        "type": "primary",
         "slope": 68.86854443175986,
         "sun_diff": 2.7387981429018,
         "length": 106.6606812576126
@@ -2345,29 +2391,6 @@
         "slope": 111.90155938282501,
         "sun_diff": 1.9596611757685025,
         "length": 128.37213211493045
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2885186,
-            13.1523152
-          ],
-          [
-            80.2899225,
-            13.1516554
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 115.76360294507921,
-        "sun_diff": 1.8767008752064385,
-        "length": 168.84350593695734
       }
     },
     {
@@ -3675,7 +3698,7 @@
       "type": "Feature",
       "properties": {
         "name": "Poonamallee High Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 67.2958667956159,
         "sun_diff": 1.1746719035986928,
         "length": 123.48531834441214
@@ -3698,7 +3721,7 @@
       "type": "Feature",
       "properties": {
         "name": "Poonamallee High Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 68.19931684005857,
         "sun_diff": 2.078121948041371,
         "length": 154.933788036317
@@ -3928,7 +3951,7 @@
       "type": "Feature",
       "properties": {
         "name": "Anna Salai (Mount Road)",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.44356253389304,
         "sun_diff": 1.6861837549650147,
         "length": 231.92256389666505
@@ -4157,7 +4180,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Inner Ring Road",
+        "name": "Inner Ring Road (Southern Sector)",
         "type": "primary",
         "slope": 113.60922971306246,
         "sun_diff": 0.26046711029104586,
@@ -4204,7 +4227,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "service",
         "slope": 111.00498271790971,
         "sun_diff": 2.8647141054437952,
         "length": 188.574307431248
@@ -4369,6 +4392,144 @@
         "slope": 114.66480601874656,
         "sun_diff": 0.786544138173852,
         "length": 110.08124829703087
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2071087,
+            13.1016467
+          ],
+          [
+            80.2086139,
+            13.1009608
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "New Avadi Road",
+        "type": "primary",
+        "slope": 115.0732226542774,
+        "sun_diff": 1.1949607737046932,
+        "length": 180.03008024556942
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2090104,
+            13.1007898
+          ],
+          [
+            80.2107324,
+            13.1000427
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "New Avadi Road",
+        "type": "primary",
+        "slope": 114.01050625612311,
+        "sun_diff": 0.1322443755503997,
+        "length": 204.22426953798904
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2107324,
+            13.1000427
+          ],
+          [
+            80.2119273,
+            13.0994967
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "New Avadi Road",
+        "type": "primary",
+        "slope": 115.13363349497374,
+        "sun_diff": 1.255371614401028,
+        "length": 142.9880169656305
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2119273,
+            13.0994967
+          ],
+          [
+            80.213487,
+            13.0987992
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "New Avadi Road",
+        "type": "primary",
+        "slope": 114.66213087335697,
+        "sun_diff": 0.7838689927842637,
+        "length": 185.93085147057985
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2141535,
+            13.0984831
+          ],
+          [
+            80.2154765,
+            13.0979116
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "New Avadi Road",
+        "type": "primary",
+        "slope": 113.91781637337195,
+        "sun_diff": 0.03955449279924039,
+        "length": 156.79263353589772
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2159426,
+            13.0977066
+          ],
+          [
+            80.2170825,
+            13.0972526
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "New Avadi Road",
+        "type": "primary",
+        "slope": 112.24052652306003,
+        "sun_diff": 1.6377353575126818,
+        "length": 133.4184784418137
       }
     },
     {
@@ -4640,8 +4801,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Link Road",
-        "type": "secondary",
+        "name": "Medavakkam - Sholinganallur - Kudimiyandi Thoppu Road",
+        "type": "primary",
         "slope": 113.2379038152927,
         "sun_diff": 0.6233235734899978,
         "length": 141.43702416426373
@@ -4663,8 +4824,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Link Road",
-        "type": "secondary",
+        "name": "Medavakkam - Sholinganallur - Kudimiyandi Thoppu Road",
+        "type": "primary",
         "slope": 113.0243971085738,
         "sun_diff": 0.8368302802089005,
         "length": 108.52154223612348
@@ -4686,8 +4847,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Link Road",
-        "type": "secondary",
+        "name": "Medavakkam - Sholinganallur - Kudimiyandi Thoppu Road",
+        "type": "primary",
         "slope": 111.82826334243515,
         "sun_diff": 2.0329640463475442,
         "length": 133.23908530763606
@@ -4709,8 +4870,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Link Road",
-        "type": "secondary",
+        "name": "Medavakkam - Sholinganallur - Kudimiyandi Thoppu Road",
+        "type": "primary",
         "slope": 111.83060534986706,
         "sun_diff": 2.030622038915638,
         "length": 464.31417441394285
@@ -4732,8 +4893,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Link Road",
-        "type": "secondary",
+        "name": "Medavakkam - Sholinganallur - Kudimiyandi Thoppu Road",
+        "type": "primary",
         "slope": 112.11435972686346,
         "sun_diff": 1.7468676619192394,
         "length": 228.12847995317995
@@ -5469,7 +5630,7 @@
       "type": "Feature",
       "properties": {
         "name": "Anna Salai (Mount Road)",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.91636123982983,
         "sun_diff": 0.7866149509717673,
         "length": 146.38711126980309
@@ -5657,75 +5818,6 @@
         "slope": 114.05556295660449,
         "sun_diff": 0.1773010760317817,
         "length": 181.89848317563465
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2139409,
-            13.0984946
-          ],
-          [
-            80.2099523,
-            13.1003211
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "New Avadi Road",
-        "type": "primary",
-        "slope": 115.18132936052737,
-        "sun_diff": 1.303067479954663,
-        "length": 477.4837779932813
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2099523,
-            13.1003211
-          ],
-          [
-            80.2090357,
-            13.1007184
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "New Avadi Road",
-        "type": "primary",
-        "slope": 113.99061882634186,
-        "sun_diff": 0.11235694576915023,
-        "length": 108.6892495591147
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2085855,
-            13.1009136
-          ],
-          [
-            80.2071095,
-            13.1015765
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "New Avadi Road",
-        "type": "primary",
-        "slope": 114.75548427610107,
-        "sun_diff": 0.8772223955283636,
-        "length": 176.08340560962728
       }
     },
     {
@@ -6135,7 +6227,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Inner Ring Road",
+        "name": "Inner Ring Road (Southern Sector)",
         "type": "primary",
         "slope": 113.07512738215414,
         "sun_diff": 0.7945694411993713,
@@ -6158,7 +6250,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Inner Ring Road",
+        "name": "Inner Ring Road (Southern Sector)",
         "type": "primary",
         "slope": 115.20158232804977,
         "sun_diff": 1.3318855046962597,
@@ -6250,7 +6342,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Redhills Road",
+        "name": "Vanagaram - Ambathur - Puzhal Road",
         "type": "primary",
         "slope": 64.5904397669498,
         "sun_diff": 1.530755125067401,
@@ -6273,7 +6365,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Redhills Road",
+        "name": "Vanagaram - Ambathur - Puzhal Road",
         "type": "primary",
         "slope": 64.59102237133234,
         "sun_diff": 1.5301725206848573,
@@ -6296,7 +6388,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Redhills Road",
+        "name": "Vanagaram - Ambathur - Puzhal Road",
         "type": "primary",
         "slope": 64.27557839614684,
         "sun_diff": 1.8456164958703596,
@@ -6504,7 +6596,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 113.02155794654445,
         "sun_diff": 0.8567039340282605,
         "length": 120.73592855931444
@@ -8067,8 +8159,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Link Road",
-        "type": "secondary",
+        "name": "Medavakkam - Sholinganallur - Kudimiyandi Thoppu Road",
+        "type": "primary",
         "slope": 112.01262492652003,
         "sun_diff": 1.8486024622626616,
         "length": 230.5254542705821
@@ -8090,8 +8182,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Link Road",
-        "type": "secondary",
+        "name": "Medavakkam - Sholinganallur - Kudimiyandi Thoppu Road",
+        "type": "primary",
         "slope": 111.72743022401642,
         "sun_diff": 2.1337971647662783,
         "length": 513.827791950365
@@ -8113,8 +8205,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Link Road",
-        "type": "secondary",
+        "name": "Medavakkam - Sholinganallur - Kudimiyandi Thoppu Road",
+        "type": "primary",
         "slope": 111.78810417302049,
         "sun_diff": 2.073123215762209,
         "length": 288.3424462356293
@@ -8136,8 +8228,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Link Road",
-        "type": "secondary",
+        "name": "Medavakkam - Sholinganallur - Kudimiyandi Thoppu Road",
+        "type": "primary",
         "slope": 112.77721341405379,
         "sun_diff": 1.0840139747289044,
         "length": 128.65528839098096
@@ -8493,75 +8585,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.1766914,
-            13.2153538
-          ],
-          [
-            80.1757899,
-            13.2149604
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 65.85550552048906,
-        "sun_diff": 0.2570560124172232,
-        "length": 106.97699563884824
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.1833618,
-            13.2181564
-          ],
-          [
-            80.1822004,
-            13.2176656
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 66.53466191934001,
-        "sun_diff": 0.42210038643372627,
-        "length": 137.09781550280522
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.1818383,
-            13.2180833
-          ],
-          [
-            80.1828951,
-            13.2185455
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 65.80746300110803,
-        "sun_diff": 0.30509853179825086,
-        "length": 125.45129245700427
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             80.2114096,
             13.0643612
           ],
@@ -8769,137 +8792,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.2071087,
-            13.1016467
+            80.1730817,
+            13.0989013
           ],
           [
-            80.2086139,
-            13.1009608
+            80.1717361,
+            13.0994126
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Chennai - Tiruttani - Renigunta Road",
         "type": "primary",
-        "slope": 115.0732226542774,
-        "sun_diff": 1.1949607737046932,
-        "length": 180.03008024556942
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2090104,
-            13.1007898
-          ],
-          [
-            80.2107324,
-            13.1000427
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 114.01050625612311,
-        "sun_diff": 0.1322443755503997,
-        "length": 204.22426953798904
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2107324,
-            13.1000427
-          ],
-          [
-            80.2119273,
-            13.0994967
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 115.13363349497374,
-        "sun_diff": 1.255371614401028,
-        "length": 142.9880169656305
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2119273,
-            13.0994967
-          ],
-          [
-            80.213487,
-            13.0987992
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 114.66213087335697,
-        "sun_diff": 0.7838689927842637,
-        "length": 185.93085147057985
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2141535,
-            13.0984831
-          ],
-          [
-            80.2154765,
-            13.0979116
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Anna Nagar 3rd Avenue",
-        "type": "primary",
-        "slope": 113.91781637337195,
-        "sun_diff": 0.03955449279924039,
-        "length": 156.79263353589772
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2159426,
-            13.0977066
-          ],
-          [
-            80.2170825,
-            13.0972526
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Anna Nagar 3rd Avenue",
-        "type": "primary",
-        "slope": 112.24052652306003,
-        "sun_diff": 1.6377353575126818,
-        "length": 133.4184784418137
+        "slope": 111.31230158181094,
+        "sun_diff": 2.565960298761766,
+        "length": 156.4772814907261
       }
     },
     {
@@ -9194,7 +9102,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Redhills Main Road",
+        "name": "Vanagaram - Ambathur - Puzhal Road",
         "type": "primary",
         "slope": 67.16538317204498,
         "sun_diff": 1.0441882800277824,
@@ -9739,8 +9647,8 @@
             13.1482068
           ],
           [
-            80.2856466,
-            13.1476643
+            80.28556,
+            13.1476502
           ]
         ]
       },
@@ -9748,9 +9656,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 113.83895425260687,
-        "sun_diff": 0.0393076279658402,
-        "length": 149.29989092661188
+        "slope": 115.95611933146546,
+        "sun_diff": 2.0778574508927505,
+        "length": 141.45058327354587
       }
     },
     {
@@ -10494,6 +10402,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            80.1754433,
+            13.1945092
+          ],
+          [
+            80.1745789,
+            13.1941498
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Singaperumalkoil - Sriperumbudur - Thiruvallur - Red Hills Road",
+        "type": "primary",
+        "slope": 66.87495021819444,
+        "sun_diff": 0.7623886852881583,
+        "length": 101.78758459286192
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             80.2057723,
             13.1388531
           ],
@@ -10591,7 +10522,7 @@
           ],
           [
             80.1567006,
-            13.0902943
+            13.0902469
           ]
         ]
       },
@@ -10599,9 +10530,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 113.39349860920663,
-        "sun_diff": 0.4847632713660772,
-        "length": 178.48059300550622
+        "slope": 111.82206671954145,
+        "sun_diff": 2.0561951610312548,
+        "length": 176.4536400150996
       }
     },
     {
@@ -11384,6 +11315,75 @@
         "slope": 112.60948597621754,
         "sun_diff": 1.2687759043551665,
         "length": 179.785726435149
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2159111,
+            13.0103818
+          ],
+          [
+            80.2170576,
+            13.0109201
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Anna Salai (Mount Road)",
+        "type": "primary",
+        "slope": 64.2711721035136,
+        "sun_diff": 1.8585741853444517,
+        "length": 137.92527486747088
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2623481,
+            13.1501812
+          ],
+          [
+            80.2611153,
+            13.150669
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 112.11391606127415,
+        "sun_diff": 1.7729860085986218,
+        "length": 144.1308581211609
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1971268,
+            13.1508344
+          ],
+          [
+            80.1980834,
+            13.1504788
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 110.8940616903206,
+        "sun_diff": 2.9928403795521774,
+        "length": 110.90504012185586
       }
     }
   ]
