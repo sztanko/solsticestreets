@@ -41,7 +41,7 @@
       "type": "Feature",
       "properties": {
         "name": "Harwood Avenue",
-        "type": "secondary",
+        "type": "primary",
         "slope": 59.71332908669862,
         "sun_diff": 1.6782039077627644,
         "length": 128.1176967699553
@@ -1064,29 +1064,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -87.9496537,
-            42.9791799
-          ],
-          [
-            -87.9508252,
-            42.9786622
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "West Loomis Road",
-        "type": "primary",
-        "slope": 58.86681505294516,
-        "sun_diff": 0.8316898740092995,
-        "length": 111.37380482514457
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -88.0381831,
             42.9519909
           ],
@@ -1103,29 +1080,6 @@
         "slope": 124.19063557902871,
         "sun_diff": 2.224316400326188,
         "length": 185.99958103334316
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -87.9620428,
-            43.0877213
-          ],
-          [
-            -87.9608802,
-            43.0882132
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "West Roosevelt Drive",
-        "type": "tertiary",
-        "slope": 59.9139984944039,
-        "sun_diff": 1.935399961039053,
-        "length": 109.14460512947562
       }
     },
     {
@@ -1467,7 +1421,7 @@
       "type": "Feature",
       "properties": {
         "name": "West Fountain Avenue",
-        "type": "residential",
+        "type": "service",
         "slope": 55.85828453816464,
         "sun_diff": 2.0634595005490155,
         "length": 105.67205942285094
@@ -2046,6 +2000,29 @@
         "slope": 119.09562627934619,
         "sun_diff": 2.927219544927354,
         "length": 104.2149291314734
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.9620428,
+            43.0877213
+          ],
+          [
+            -87.9608802,
+            43.0882132
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "West Roosevelt Drive",
+        "type": "tertiary",
+        "slope": 59.9139984944039,
+        "sun_diff": 1.935399961039053,
+        "length": 109.14460512947562
       }
     }
   ]

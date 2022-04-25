@@ -29,8 +29,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            90.425332,
-            23.9152909
+            90.4254607,
+            23.9152676
           ],
           [
             90.4268022,
@@ -42,9 +42,9 @@
       "properties": {
         "name": "Tongi Kaliganj Highway",
         "type": "primary",
-        "slope": 65.07371417677754,
-        "sun_diff": 0.42794942850983375,
-        "length": 164.8451279199929
+        "slope": 62.15123534305974,
+        "sun_diff": 2.4945294052079703,
+        "length": 154.27077918545112
       }
     },
     {
@@ -114,6 +114,52 @@
         "slope": 62.09042861621646,
         "sun_diff": 2.555336132051252,
         "length": 205.5515789362411
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            90.426033,
+            23.9474591
+          ],
+          [
+            90.4281589,
+            23.9466194
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Dhaka City Bypass",
+        "type": "trunk",
+        "slope": 113.37335088604976,
+        "sun_diff": 1.9802386854348697,
+        "length": 235.42852037817661
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            90.4290991,
+            23.9462118
+          ],
+          [
+            90.4304838,
+            23.9455763
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Dhaka City Bypass",
+        "type": "trunk",
+        "slope": 116.66419236243888,
+        "sun_diff": 1.310602790954249,
+        "length": 157.51476801097505
       }
     },
     {
@@ -558,29 +604,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            90.4379954,
-            23.7295605
-          ],
-          [
-            90.4391964,
-            23.7300123
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "\u09ae\u09c1\u0997\u09a6\u09be\u09aa\u09be\u09a1\u09bc\u09be \u09ac\u09be\u099c\u09be\u09b0 \u09b8\u09a1\u09bc\u0995",
-        "type": "unclassified",
-        "slope": 67.66077673424795,
-        "sun_diff": 2.976708285114796,
-        "length": 132.21549211687278
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             90.4314177,
             23.7529517
           ],
@@ -811,29 +834,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            90.33653,
-            23.7838627
-          ],
-          [
-            90.3377104,
-            23.7834036
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "\u09ae\u09bf\u09b0\u09aa\u09c1\u09b0 \u09b0\u09cb\u09a1",
-        "type": "trunk",
-        "slope": 113.02699987319909,
-        "sun_diff": 2.307369545961123,
-        "length": 130.54736044016065
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             90.3972114,
             23.7780598
           ],
@@ -995,29 +995,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            90.5076654,
-            23.7227774
-          ],
-          [
-            90.5067032,
-            23.7223428
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 63.740146055909605,
-        "sun_diff": 0.943922393223545,
-        "length": 109.2579795390667
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             90.4022322,
             23.7481283
           ],
@@ -1057,29 +1034,6 @@
         "slope": 114.29003657497279,
         "sun_diff": 1.044332844187423,
         "length": 110.78223577103635
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            90.3964225,
-            23.7509505
-          ],
-          [
-            90.3979021,
-            23.7516595
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "\u0995\u09be\u0989\u09b0\u09be\u09a8 \u09ac\u09be\u099c\u09be\u09b0 \u098f\u09ab\u09a1\u09bf\u09b8\u09bf \u09b0\u09cb\u09a1",
-        "type": "secondary",
-        "slope": 62.36675793936985,
-        "sun_diff": 2.2982133008439405,
-        "length": 170.03104776672694
       }
     },
     {
@@ -1582,7 +1536,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenue Road 1",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 63.3236321605539,
         "sun_diff": 1.341339079659889,
         "length": 104.13139217285257
@@ -2272,7 +2226,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u09b8\u09a6\u09b0\u0998\u09be\u099f - \u0997\u09be\u09ac\u09a4\u09b2\u09c0 \u09b8\u09a1\u09bc\u0995",
-        "type": "primary",
+        "type": "trunk",
         "slope": 114.15999987461058,
         "sun_diff": 1.1552586752519431,
         "length": 133.57292567533582
@@ -2295,7 +2249,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u09b8\u09a6\u09b0\u0998\u09be\u099f - \u0997\u09be\u09ac\u09a4\u09b2\u09c0 \u09b8\u09a1\u09bc\u0995",
-        "type": "primary",
+        "type": "trunk",
         "slope": 117.80563039695556,
         "sun_diff": 2.4903718470930443,
         "length": 116.55370485477513
@@ -2318,7 +2272,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u09b8\u09a6\u09b0\u0998\u09be\u099f - \u0997\u09be\u09ac\u09a4\u09b2\u09c0 \u09b8\u09a1\u09bc\u0995",
-        "type": "primary",
+        "type": "trunk",
         "slope": 114.78145792696301,
         "sun_diff": 0.5338006228995056,
         "length": 112.16982934286398
@@ -2766,6 +2720,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            90.5087739,
+            23.6975509
+          ],
+          [
+            90.5100849,
+            23.6981951
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "\u09a2\u09be\u0995\u09be-\u099a\u099f\u09cd\u099f\u0997\u09cd\u09b0\u09be\u09ae \u09ae\u09b9\u09be\u09b8\u09a1\u09bc\u0995",
+        "type": "trunk",
+        "slope": 61.78057044363072,
+        "sun_diff": 2.9034980055024278,
+        "length": 151.53739457190258
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             90.2938799,
             23.7577702
           ],
@@ -2793,18 +2770,18 @@
             23.7647098
           ],
           [
-            90.3069913,
-            23.764318
+            90.3068947,
+            23.7642763
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 113.687781847168,
-        "sun_diff": 1.6465875719922138,
-        "length": 108.47422996554555
+        "type": "secondary",
+        "slope": 118.31317365857157,
+        "sun_diff": 2.9788042394113603,
+        "length": 101.66355073569657
       }
     },
     {
@@ -5009,7 +4986,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u09ac\u09c7\u09a1\u09bc\u09bf\u09ac\u09be\u09a7 \u09b8\u09a1\u09bc\u0995",
-        "type": "primary",
+        "type": "trunk",
         "slope": 113.46376498675835,
         "sun_diff": 1.870604432401862,
         "length": 135.933533444478
@@ -5906,7 +5883,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ati Bazar - Kholamora Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 112.7834682016152,
         "sun_diff": 2.53180400862567,
         "length": 135.6016575905755
@@ -6462,29 +6439,6 @@
         "slope": 113.59903753035701,
         "sun_diff": 1.7545520411276243,
         "length": 191.43328591965783
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            90.326044,
-            23.7494395
-          ],
-          [
-            90.3248011,
-            23.749944
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 113.91544121125713,
-        "sun_diff": 1.399830998983731,
-        "length": 138.42429168911627
       }
     },
     {
@@ -7193,7 +7147,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "\u09ae\u09bf\u09b0\u09aa\u09c1\u09b0 \u09e7\u09ea",
         "type": "secondary",
         "slope": 113.71006783317532,
         "sun_diff": 1.6243015859848953,
@@ -7286,7 +7240,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u09ae\u09be\u0993\u09b2\u09be\u09a8\u09be \u09ad\u09be\u09b8\u09be\u09a8\u09c0 \u09b8\u09a1\u09bc\u0995",
-        "type": "primary",
+        "type": "trunk",
         "slope": 118.14820775478802,
         "sun_diff": 2.832949204925498,
         "length": 112.98562620021715
@@ -7451,29 +7405,6 @@
         "slope": 115.00486040366746,
         "sun_diff": 0.31039814619505535,
         "length": 116.30963511718842
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            90.3380149,
-            23.78324
-          ],
-          [
-            90.337065,
-            23.7835993
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "\u09ae\u09bf\u09b0\u09aa\u09c1\u09b0 \u09b0\u09cb\u09a1",
-        "type": "trunk",
-        "slope": 112.4579701752555,
-        "sun_diff": 2.8763992439047144,
-        "length": 104.61868950051071
       }
     },
     {
@@ -8290,8 +8221,8 @@
             23.9141881
           ],
           [
-            90.4246876,
-            23.9150086
+            90.4247171,
+            23.9149571
           ]
         ]
       },
@@ -8299,9 +8230,9 @@
       "properties": {
         "name": "Tongi Kaliganj Highway",
         "type": "primary",
-        "slope": 61.683566933943695,
-        "sun_diff": 2.962197814324014,
-        "length": 192.4024205637261
+        "slope": 63.60905496765628,
+        "sun_diff": 1.0367097806114316,
+        "length": 192.43458821519667
       }
     },
     {
