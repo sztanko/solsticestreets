@@ -248,7 +248,7 @@
       "type": "Feature",
       "properties": {
         "name": "Old NH17 Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 110.79414812425287,
         "sun_diff": 2.935939632465576,
         "length": 267.16194122035756
@@ -271,7 +271,7 @@
       "type": "Feature",
       "properties": {
         "name": "Old NH17 Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 111.88841810735403,
         "sun_diff": 1.8416696493644196,
         "length": 187.28234977025318
@@ -294,7 +294,7 @@
       "type": "Feature",
       "properties": {
         "name": "Old NH17 Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 113.78423708513455,
         "sun_diff": 0.054149328416102094,
         "length": 350.8215880244003
@@ -454,7 +454,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Old NH17 Road",
+        "name": "SH",
         "type": "primary",
         "slope": 115.65062056205659,
         "sun_diff": 1.9205328053381407,
@@ -558,98 +558,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.8279471,
-            11.2526256
-          ],
-          [
-            75.8291211,
-            11.2520726
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kannur-Calicut-Valanchery Highway",
-        "type": "trunk",
-        "slope": 115.65361671014645,
-        "sun_diff": 1.9164801982045532,
-        "length": 142.07868050013815
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            75.8291211,
-            11.2520726
-          ],
-          [
-            75.829969,
-            11.2516733
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kannur-Calicut-Valanchery Highway",
-        "type": "trunk",
-        "slope": 115.64831605487794,
-        "sun_diff": 1.9111795429360399,
-        "length": 102.60933088978139
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            75.8306324,
-            11.2513614
-          ],
-          [
-            75.8314543,
-            11.2509629
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kannur-Calicut-Valanchery Highway",
-        "type": "trunk",
-        "slope": 116.30561097195641,
-        "sun_diff": 2.5684744600145137,
-        "length": 100.02068274549006
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            75.8314543,
-            11.2509629
-          ],
-          [
-            75.8325912,
-            11.2504671
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kannur-Calicut-Valanchery Highway",
-        "type": "trunk",
-        "slope": 113.97196666249698,
-        "sun_diff": 0.2348301505550836,
-        "length": 135.73497555906505
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             75.8134803,
             11.2911502
           ],
@@ -735,29 +643,6 @@
         "slope": 67.04614366464506,
         "sun_diff": 0.783782422862032,
         "length": 153.7865722311802
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            75.7586784,
-            11.2963504
-          ],
-          [
-            75.7577148,
-            11.2959558
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 67.3348055029239,
-        "sun_diff": 1.0724442611408733,
-        "length": 113.90105779107239
       }
     },
     {
@@ -2421,29 +2306,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.8311055,
-            11.251081
-          ],
-          [
-            75.8298692,
-            11.2516836
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kannur-Calicut-Valanchery Highway",
-        "type": "trunk",
-        "slope": 116.42619166744359,
-        "sun_diff": 2.6890551555016913,
-        "length": 150.60772609343775
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             75.8473895,
             11.1006593
           ],
@@ -3012,6 +2874,52 @@
         "slope": 116.5655286027548,
         "sun_diff": 2.8354408460363487,
         "length": 112.56757983302793
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8192146,
+            11.3317304
+          ],
+          [
+            75.81819,
+            11.3313095
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 67.26821285069329,
+        "sun_diff": 1.0058516089102625,
+        "length": 121.15541186493452
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.7670885,
+            11.3356904
+          ],
+          [
+            75.768698,
+            11.3349275
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 115.80039409013511,
+        "sun_diff": 2.063257578193216,
+        "length": 194.9675488615053
       }
     }
   ]
