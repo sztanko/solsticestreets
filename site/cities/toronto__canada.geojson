@@ -351,6 +351,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -79.3745735,
+            43.6182164
+          ],
+          [
+            -79.3756268,
+            43.6177066
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Blossom Road",
+        "type": "service",
+        "slope": 56.235289004941706,
+        "sun_diff": 1.455485356798789,
+        "length": 102.02674702162967
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -79.5143937,
             43.7018021
           ],
@@ -666,29 +689,6 @@
         "slope": 121.02198651225524,
         "sun_diff": 1.288560540237583,
         "length": 108.06398359835117
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -79.180402,
-            43.7787205
-          ],
-          [
-            -79.1814749,
-            43.7792658
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 125.14306075986048,
-        "sun_diff": 2.7150481140217835,
-        "length": 105.37127963656475
       }
     },
     {
@@ -3537,7 +3537,7 @@
       "type": "Feature",
       "properties": {
         "name": "Morningside Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 121.09191306519926,
         "sun_diff": 1.3360995806394271,
         "length": 122.72851875021932
@@ -3560,7 +3560,7 @@
       "type": "Feature",
       "properties": {
         "name": "Morningside Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 124.5708696462396,
         "sun_diff": 2.142857000400909,
         "length": 144.15658978261413
@@ -3583,7 +3583,7 @@
       "type": "Feature",
       "properties": {
         "name": "Morningside Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 119.44352249499019,
         "sun_diff": 2.984490150848501,
         "length": 103.3176766666953
@@ -5239,7 +5239,7 @@
       "type": "Feature",
       "properties": {
         "name": "Morningside Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 124.18327515230578,
         "sun_diff": 1.7552625064670906,
         "length": 140.0074526907904
@@ -7366,8 +7366,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.4856367,
-            43.6850715
+            -79.4856902,
+            43.6850978
           ],
           [
             -79.4868346,
@@ -7379,9 +7379,9 @@
       "properties": {
         "name": "Weston Road",
         "type": "secondary",
-        "slope": 124.15914499780581,
-        "sun_diff": 1.7900359033693007,
-        "length": 116.44145024841747
+        "slope": 124.15687057624189,
+        "sun_diff": 1.7877614818053758,
+        "length": 111.23798856377864
       }
     },
     {
