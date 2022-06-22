@@ -983,7 +983,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Largo San Mauro",
+        "name": "Via San Mauro",
         "type": "residential",
         "slope": 58.05618374537346,
         "sun_diff": 1.0921256644910784,
@@ -3330,7 +3330,7 @@
       "type": "Feature",
       "properties": {
         "name": "Viale Antonio Gramsci",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 58.28551803482992,
         "sun_diff": 0.9125971144623577,
         "length": 226.46302241808675
@@ -3353,7 +3353,7 @@
       "type": "Feature",
       "properties": {
         "name": "Viale Antonio Gramsci",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 58.28341323077254,
         "sun_diff": 0.9147019185197394,
         "length": 113.99736271140551
@@ -3778,29 +3778,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            14.2408587,
-            40.8933335
-          ],
-          [
-            14.2396181,
-            40.8939143
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Via Oliviero Zuccarini",
-        "type": "secondary",
-        "slope": 121.77088891735693,
-        "sun_diff": 0.9190243847687185,
-        "length": 122.69621724305334
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             14.2559976,
             40.8593297
           ],
@@ -4047,52 +4024,6 @@
         "slope": 123.58733727401392,
         "sun_diff": 2.785264820475092,
         "length": 103.30615418115818
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.280513,
-            40.8674729
-          ],
-          [
-            14.2819302,
-            40.8680419
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Via Don Bosco",
-        "type": "primary",
-        "slope": 62.035016118026874,
-        "sun_diff": 2.886706708162336,
-        "length": 134.96627545271056
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.2819302,
-            40.8680419
-          ],
-          [
-            14.2830344,
-            40.8684852
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Via Don Bosco",
-        "type": "primary",
-        "slope": 62.03655845185463,
-        "sun_diff": 2.8882490419900932,
-        "length": 105.15560508894293
       }
     },
     {
@@ -5997,7 +5928,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Via Don Bosco",
+        "name": "Via Nuova del Campo",
         "type": "primary",
         "slope": 62.03763203786875,
         "sun_diff": 2.8893226280042086,
@@ -6020,11 +5951,57 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Via Don Bosco",
+        "name": "Via Nuova del Campo",
         "type": "primary",
         "slope": 62.037481356041695,
         "sun_diff": 2.8891719461771572,
         "length": 128.097046633816
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.280513,
+            40.8674729
+          ],
+          [
+            14.2819302,
+            40.8680419
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Via Nuova del Campo",
+        "type": "primary",
+        "slope": 62.035016118026874,
+        "sun_diff": 2.886706708162336,
+        "length": 134.96627545271056
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.2819302,
+            40.8680419
+          ],
+          [
+            14.2830344,
+            40.8684852
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Via Nuova del Campo",
+        "type": "primary",
+        "slope": 62.03655845185463,
+        "sun_diff": 2.8882490419900932,
+        "length": 105.15560508894293
       }
     }
   ]

@@ -109,7 +109,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "5a Calle S.E.",
+        "name": null,
         "type": "residential",
         "slope": 113.45293597391611,
         "sun_diff": 0.34409446685762646,
@@ -132,11 +132,34 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "6a Calle S.E.",
+        "name": null,
         "type": "living_street",
         "slope": 112.13487661735408,
         "sun_diff": 1.6621538234196578,
         "length": 135.08580300450944
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.1981091,
+            12.1401974
+          ],
+          [
+            -86.1970256,
+            12.1397842
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "living_street",
+        "slope": 111.30975685856805,
+        "sun_diff": 2.487273582205688,
+        "length": 126.46914240160056
       }
     },
     {
@@ -178,7 +201,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "10a Calle S.E.",
+        "name": null,
         "type": "living_street",
         "slope": 110.8135498614651,
         "sun_diff": 2.983480579308633,
@@ -1501,6 +1524,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -86.2057923,
+            12.109837
+          ],
+          [
+            -86.2072639,
+            12.110389
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "48a Calle S.E.",
+        "type": "residential",
+        "slope": 110.98879900011221,
+        "sun_diff": 2.8082314406615296,
+        "length": 171.41658370795247
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -86.2144123,
             12.0978907
           ],
@@ -1834,7 +1880,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "12a Calle  S.O.",
+        "name": "12a Calle S.O.",
         "type": "residential",
         "slope": 114.1809505699593,
         "sun_diff": 0.3839201291855545,
@@ -2248,7 +2294,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "10 Carrera S.E.",
+        "name": null,
         "type": "living_street",
         "slope": 114.62368926374333,
         "sun_diff": 0.8266588229695913,
@@ -2271,7 +2317,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "10 Corredor S.E.",
+        "name": null,
         "type": "living_street",
         "slope": 115.03150248585754,
         "sun_diff": 1.2344720450838054,
@@ -2575,52 +2621,6 @@
         "slope": 63.31483553242859,
         "sun_diff": 2.881573402728776,
         "length": 116.53331348627005
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -86.1873526,
-            12.1363257
-          ],
-          [
-            -86.1864612,
-            12.1359217
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "10a Calle S.E.",
-        "type": "living_street",
-        "slope": 114.87149171048489,
-        "sun_diff": 1.0744612697111506,
-        "length": 106.84376148933883
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -86.1874442,
-            12.1360465
-          ],
-          [
-            -86.1865145,
-            12.1356685
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "10 Callej\u00f3n S.E.",
-        "type": "living_street",
-        "slope": 112.58128047006443,
-        "sun_diff": 1.215749970709311,
-        "length": 109.49360486928224
       }
     },
     {
@@ -5726,98 +5726,6 @@
         "slope": 66.52993591932551,
         "sun_diff": 0.325740568514334,
         "length": 112.21580866315023
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -86.184476,
-            12.1334692
-          ],
-          [
-            -86.1854587,
-            12.1339048
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 114.38943964772614,
-        "sun_diff": 0.5924092069523965,
-        "length": 117.33460168244979
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -86.1838688,
-            12.1325085
-          ],
-          [
-            -86.182846,
-            12.1320413
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 115.04293412529427,
-        "sun_diff": 1.2459036845205276,
-        "length": 122.7660641291391
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -86.1840856,
-            12.1321133
-          ],
-          [
-            -86.182803,
-            12.131533
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 114.83352826309721,
-        "sun_diff": 1.0364978223234687,
-        "length": 153.68855442069417
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -86.1840573,
-            12.1311177
-          ],
-          [
-            -86.1831105,
-            12.1307165
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 113.43292715007738,
-        "sun_diff": 0.36410329069636305,
-        "length": 112.21563618593785
       }
     },
     {
