@@ -167,29 +167,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -70.980376,
-            42.373697
-          ],
-          [
-            -70.9815195,
-            42.3731602
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "North Avenue",
-        "type": "residential",
-        "slope": 57.5669757765574,
-        "sun_diff": 0.8001785583111314,
-        "length": 111.33042184275251
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -71.0365775,
             42.3874708
           ],
@@ -1766,7 +1743,7 @@
       "type": "Feature",
       "properties": {
         "name": "Pearl Street",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 60.35270101815337,
         "sun_diff": 1.931260339761593,
         "length": 105.48278804625876
@@ -1839,6 +1816,29 @@
         "slope": 124.42567082897818,
         "sun_diff": 2.8458857157850304,
         "length": 102.13250140808675
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.0377933,
+            42.3189411
+          ],
+          [
+            -71.0395767,
+            42.3196896
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 119.58045297579804,
+        "sun_diff": 1.9993321373951147,
+        "length": 168.65535106434723
       }
     },
     {
@@ -2628,29 +2628,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -71.1857923,
-            42.3492247
-          ],
-          [
-            -71.1868802,
-            42.3497094
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Hyde Avenue",
-        "type": "residential",
-        "slope": 121.08383544745922,
-        "sun_diff": 0.4959496657339315,
-        "length": 104.42400884229102
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -71.1798215,
             42.3527099
           ],
@@ -3019,29 +2996,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -71.0061345,
-            42.2747858
-          ],
-          [
-            -71.0045477,
-            42.273984
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Labadine Street",
-        "type": "residential",
-        "slope": 124.32869160927322,
-        "sun_diff": 2.7489064960800675,
-        "length": 158.1440357482682
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -71.0387892,
             42.2466905
           ],
@@ -3364,12 +3318,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -70.989116,
-            42.394358
+            -70.988492,
+            42.3940995
           ],
           [
-            -70.987905,
-            42.393848
+            -70.9873819,
+            42.3936272
           ]
         ]
       },
@@ -3377,9 +3331,32 @@
       "properties": {
         "name": "Pearl Avenue",
         "type": "residential",
-        "slope": 119.69360562110057,
-        "sun_diff": 1.9404521752374961,
-        "length": 114.51639948483904
+        "slope": 119.94565270403709,
+        "sun_diff": 1.6884050923009823,
+        "length": 105.24035224756393
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.9854973,
+            42.3956841
+          ],
+          [
+            -70.987385,
+            42.3965976
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Crest Avenue",
+        "type": "residential",
+        "slope": 123.2360769528652,
+        "sun_diff": 1.6020191565271347,
+        "length": 185.38738397240795
       }
     },
     {
@@ -4836,22 +4813,45 @@
         "type": "LineString",
         "coordinates": [
           [
-            -70.988305,
-            42.394786
+            -70.9891788,
+            42.395945
           ],
           [
-            -70.9866658,
-            42.3941245
+            -70.986384,
+            42.3947762
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Winthrop Avenue",
+        "type": "residential",
+        "slope": 119.52188873864017,
+        "sun_diff": 2.1121690576978978,
+        "length": 263.83140009805203
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.9881001,
+            42.3947093
+          ],
+          [
+            -70.9867209,
+            42.3941319
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Crescent Avenue",
-        "type": "residential",
-        "slope": 118.65343109514012,
-        "sun_diff": 2.9806267011979486,
-        "length": 153.44450156389348
+        "type": "tertiary",
+        "slope": 119.54766844173142,
+        "sun_diff": 2.086389354606652,
+        "length": 130.23260190992394
       }
     },
     {
@@ -4967,52 +4967,6 @@
         "slope": 124.30199405281707,
         "sun_diff": 2.6679362564789955,
         "length": 120.67272652690845
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.989296,
-            42.395998
-          ],
-          [
-            -70.9881215,
-            42.3954989
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Winthrop Avenue",
-        "type": "residential",
-        "slope": 119.91665319815581,
-        "sun_diff": 1.7174045981822559,
-        "length": 111.30985882279661
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.987613,
-            42.395283
-          ],
-          [
-            -70.986197,
-            42.394688
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Winthrop Avenue",
-        "type": "residential",
-        "slope": 119.63876744264476,
-        "sun_diff": 1.9952903536933064,
-        "length": 133.82707683045507
       }
     },
     {
@@ -6002,6 +5956,29 @@
         "slope": 57.254687046950835,
         "sun_diff": 1.1667536314409404,
         "length": 102.8389964012114
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.9854973,
+            42.3956841
+          ],
+          [
+            -70.984449,
+            42.3951836
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Crest Avenue",
+        "type": "residential",
+        "slope": 122.88221094482975,
+        "sun_diff": 1.2481531484916815,
+        "length": 102.54000001580488
       }
     }
   ]

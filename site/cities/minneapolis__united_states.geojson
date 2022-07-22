@@ -213,6 +213,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            -93.4965101,
+            45.120458
+          ],
+          [
+            -93.495399,
+            45.119984
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "90th Place North",
+        "type": "residential",
+        "slope": 121.15618934640153,
+        "sun_diff": 2.0704636587084195,
+        "length": 101.90481473605693
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.495399,
+            45.119984
+          ],
+          [
+            -93.494125,
+            45.119438
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "90th Place North",
+        "type": "residential",
+        "slope": 121.27277678345848,
+        "sun_diff": 1.9538762216514698,
+        "length": 116.99045961098459
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -93.556374,
             45.101124
           ],
@@ -7677,7 +7723,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brandel Drive",
-        "type": "secondary",
+        "type": "primary",
         "slope": 122.67116569428251,
         "sun_diff": 0.30305717948211,
         "length": 234.0105992818307
@@ -7700,7 +7746,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brandel Drive",
-        "type": "secondary",
+        "type": "primary",
         "slope": 122.86026269729916,
         "sun_diff": 0.11396017646545431,
         "length": 396.23438936753786
@@ -7723,7 +7769,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brandel Drive",
-        "type": "secondary",
+        "type": "primary",
         "slope": 122.89653068181872,
         "sun_diff": 0.07769219194589994,
         "length": 225.66378735173157
@@ -7746,7 +7792,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brandel Drive",
-        "type": "secondary",
+        "type": "primary",
         "slope": 122.02178658850849,
         "sun_diff": 0.9524362852561268,
         "length": 105.97645574501814
@@ -7769,7 +7815,7 @@
       "type": "Feature",
       "properties": {
         "name": "210th Street West",
-        "type": "primary",
+        "type": "trunk",
         "slope": 125.16258368187681,
         "sun_diff": 2.2505155295593084,
         "length": 180.39306106456985
@@ -13599,8 +13645,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.2162419,
-            44.867704
+            -93.2162402,
+            44.8677049
           ],
           [
             -93.2149661,
@@ -13612,9 +13658,9 @@
       "properties": {
         "name": "LaBelle Drive",
         "type": "unclassified",
-        "slope": 54.418507362914085,
-        "sun_diff": 2.483325508176563,
-        "length": 123.66344119144662
+        "slope": 54.420102530093715,
+        "sun_diff": 2.4817303409969327,
+        "length": 123.49619955851574
       }
     },
     {
@@ -14358,29 +14404,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.4755922,
-            45.0287172
-          ],
-          [
-            -93.4785292,
-            45.0275049
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rockford Road",
-        "type": "secondary",
-        "slope": 59.71410110497504,
-        "sun_diff": 2.8755431063553942,
-        "length": 267.3781874445347
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.4556482,
             45.1371408
           ],
@@ -14542,29 +14565,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.4316353,
-            44.8520503
-          ],
-          [
-            -93.4305367,
-            44.8515026
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Prairie Center Drive",
-        "type": "secondary",
-        "slope": 125.11591732134045,
-        "sun_diff": 2.0162375329010445,
-        "length": 105.90567074500738
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.3670515,
             44.731385
           ],
@@ -14703,29 +14703,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.244787,
-            45.122673
-          ],
-          [
-            -93.24843,
-            45.124351
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "County Highway 10",
-        "type": "primary",
-        "slope": 123.13724211868777,
-        "sun_diff": 0.08941088642218631,
-        "length": 341.43753300113093
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.248911,
             45.124566
           ],
@@ -14753,8 +14730,8 @@
             45.125071
           ],
           [
-            -93.2559343,
-            45.1278008
+            -93.2526702,
+            45.1262889
           ]
         ]
       },
@@ -14762,9 +14739,9 @@
       "properties": {
         "name": "County Highway 10",
         "type": "primary",
-        "slope": 123.2863167274206,
-        "sun_diff": 0.05966372231064554,
-        "length": 553.257001060929
+        "slope": 123.28657190457432,
+        "sun_diff": 0.05991889946436402,
+        "length": 246.83159596795437
       }
     },
     {
@@ -17555,29 +17532,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.1661596,
-            44.8989088
-          ],
-          [
-            -93.1639872,
-            44.8999189
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Shepard Road",
-        "type": "trunk",
-        "slope": 56.71827454504157,
-        "sun_diff": 0.18355832604908073,
-        "length": 204.74291228385593
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.7691596,
             45.2933253
           ],
@@ -19238,8 +19192,8 @@
             44.9026037
           ],
           [
-            -93.1705782,
-            44.9017287
+            -93.1704632,
+            44.9017824
           ]
         ]
       },
@@ -19247,9 +19201,9 @@
       "properties": {
         "name": "7th Street West",
         "type": "primary",
-        "slope": 56.5907075592535,
-        "sun_diff": 0.3111253118371451,
-        "length": 176.75760373941645
+        "slope": 56.58973030280728,
+        "sun_diff": 0.3121025682833647,
+        "length": 165.90550110670932
       }
     },
     {
@@ -24087,29 +24041,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.3735908,
-            45.1363233
-          ],
-          [
-            -93.3717524,
-            45.1353772
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 126.1117122225995,
-        "sun_diff": 2.885059217489541,
-        "length": 178.5559005265859
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.4894908,
             45.0207522
           ],
@@ -24616,121 +24547,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.2564507,
-            45.1280392
-          ],
-          [
-            -93.2577576,
-            45.128642
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "County Highway 10",
-        "type": "primary",
-        "slope": 123.17534487001035,
-        "sun_diff": 0.05130813509960319,
-        "length": 122.53145389986238
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.2585553,
-            45.129003
-          ],
-          [
-            -93.2599105,
-            45.1296113
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "County Highway 10",
-        "type": "primary",
-        "slope": 122.4657385527023,
-        "sun_diff": 0.760914452407647,
-        "length": 126.04689134158053
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.2607683,
-            45.1299974
-          ],
-          [
-            -93.262261,
-            45.130671
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "County Highway 10",
-        "type": "primary",
-        "slope": 122.60470724399116,
-        "sun_diff": 0.6219457611187948,
-        "length": 139.04819636533782
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.262261,
-            45.130671
-          ],
-          [
-            -93.2637505,
-            45.1313016
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "County Highway 10",
-        "type": "primary",
-        "slope": 120.96810682126537,
-        "sun_diff": 2.2585461838445866,
-        "length": 136.3139392929147
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.253792,
-            45.126509
-          ],
-          [
-            -93.250477,
-            45.125013
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "County Highway 10",
-        "type": "primary",
-        "slope": 122.60323626296599,
-        "sun_diff": 0.6234167421439594,
-        "length": 308.82073018675584
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.248494,
             45.124112
           ],
@@ -24954,6 +24770,75 @@
         "slope": 56.803310114792,
         "sun_diff": 0.16144245893281095,
         "length": 195.37433296222906
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.4183625,
+            44.794196
+          ],
+          [
+            -93.4162154,
+            44.7932315
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 122.3337872921582,
+        "sun_diff": 0.7029727936470493,
+        "length": 200.58033527918832
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.4154418,
+            44.7928779
+          ],
+          [
+            -93.4142874,
+            44.7923548
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 122.55908492809371,
+        "sun_diff": 0.4776751577115448,
+        "length": 108.11498437129694
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.4142874,
+            44.7923548
+          ],
+          [
+            -93.4129243,
+            44.7917337
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 122.70291452573855,
+        "sun_diff": 0.33384556006670607,
+        "length": 127.8673771074833
       }
     },
     {
@@ -29170,29 +29055,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.2556272,
-            45.0228351
-          ],
-          [
-            -93.257273,
-            45.023578
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 122.56338904845234,
-        "sun_diff": 0.599579272836408,
-        "length": 153.52667276805306
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.462145,
             45.1403467
           ],
@@ -30090,29 +29952,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.1509623,
-            45.1131452
-          ],
-          [
-            -93.1522834,
-            45.1125241
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 56.32900736033935,
-        "sun_diff": 0.4458659544591228,
-        "length": 124.60624677025501
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.4866178,
             44.7389973
           ],
@@ -30953,7 +30792,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brandel Drive",
-        "type": "secondary",
+        "type": "primary",
         "slope": 54.52726846188017,
         "sun_diff": 2.500021323885278,
         "length": 187.43644810705857
@@ -30976,7 +30815,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brandel Drive",
-        "type": "secondary",
+        "type": "primary",
         "slope": 55.03975859358263,
         "sun_diff": 1.9875311921828143,
         "length": 155.6038812002601
@@ -31187,29 +31026,6 @@
         "slope": 123.15818091467204,
         "sun_diff": 0.05850112623264181,
         "length": 136.04924943291303
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.4303994,
-            44.8516403
-          ],
-          [
-            -93.4315066,
-            44.8521902
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Prairie Center Drive",
-        "type": "secondary",
-        "slope": 125.01415672071167,
-        "sun_diff": 1.9144769322722652,
-        "length": 106.60114917529265
       }
     },
     {
@@ -31509,6 +31325,29 @@
         "slope": 57.55528237217456,
         "sun_diff": 0.5279925864091126,
         "length": 579.2706617370853
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.4124128,
+            44.7917746
+          ],
+          [
+            -93.4138568,
+            44.792431
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 122.64133450119235,
+        "sun_diff": 0.39542558461290866,
+        "length": 135.36240172886002
       }
     },
     {
@@ -32206,22 +32045,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.4965101,
-            45.120458
+            -93.1661596,
+            44.8989088
           ],
           [
-            -93.495399,
-            45.119984
+            -93.1639872,
+            44.8999189
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "90th Place North",
-        "type": "residential",
-        "slope": 121.15618934640153,
-        "sun_diff": 2.0704636587084195,
-        "length": 101.90481473605693
+        "name": "Shepard Road",
+        "type": "trunk",
+        "slope": 56.71827454504157,
+        "sun_diff": 0.18355832604908073,
+        "length": 204.74291228385593
       }
     },
     {
@@ -32229,22 +32068,206 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.495399,
-            45.119984
+            -93.4755922,
+            45.0287172
           ],
           [
-            -93.494125,
-            45.119438
+            -93.4785292,
+            45.0275049
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "90th Place North",
+        "name": "Rockford Road",
+        "type": "secondary",
+        "slope": 59.71410110497504,
+        "sun_diff": 2.8755431063553942,
+        "length": 267.3781874445347
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.2456126,
+            45.1230533
+          ],
+          [
+            -93.2473384,
+            45.1238482
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "County Highway 10",
+        "type": "primary",
+        "slope": 123.13636161165101,
+        "sun_diff": 0.09029139345894066,
+        "length": 161.7482785085832
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.2473384,
+            45.1238482
+          ],
+          [
+            -93.24843,
+            45.124351
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "County Highway 10",
+        "type": "primary",
+        "slope": 123.1371791165293,
+        "sun_diff": 0.08947388858065608,
+        "length": 102.30860602860301
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.2526702,
+            45.1262889
+          ],
+          [
+            -93.2544861,
+            45.12713
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "County Highway 10",
+        "type": "primary",
+        "slope": 123.28500435248853,
+        "sun_diff": 0.058351347378575724,
+        "length": 170.4723114405125
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.2544861,
+            45.12713
+          ],
+          [
+            -93.2559343,
+            45.1278008
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "County Highway 10",
+        "type": "primary",
+        "slope": 123.28584648711688,
+        "sun_diff": 0.05919348200693264,
+        "length": 135.95309372106595
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.253792,
+            45.126509
+          ],
+          [
+            -93.2512333,
+            45.1253543
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "County Highway 10",
+        "type": "primary",
+        "slope": 122.60349581391296,
+        "sun_diff": 0.6231571911969951,
+        "length": 238.3646581648908
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.2623935,
+            45.1307271
+          ],
+          [
+            -93.2637505,
+            45.1313016
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "County Highway 10",
+        "type": "primary",
+        "slope": 120.96791627641593,
+        "sun_diff": 2.258736728694018,
+        "length": 124.18770028465133
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.2607683,
+            45.1299974
+          ],
+          [
+            -93.2619016,
+            45.1305088
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "County Highway 10",
+        "type": "primary",
+        "slope": 122.60381221451314,
+        "sun_diff": 0.6228407905968112,
+        "length": 105.56845685236827
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.2085784,
+            45.248945
+          ],
+          [
+            -93.2105152,
+            45.2498058
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
         "type": "residential",
-        "slope": 121.27277678345848,
-        "sun_diff": 1.9538762216514698,
-        "length": 116.99045961098459
+        "slope": 122.26412635374493,
+        "sun_diff": 1.0266074861580847,
+        "length": 179.3612424388752
       }
     }
   ]
