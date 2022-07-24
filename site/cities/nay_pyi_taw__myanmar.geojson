@@ -294,7 +294,7 @@
       "type": "Feature",
       "properties": {
         "name": "Atharwaddy Street",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 68.10218018712487,
         "sun_diff": 2.744846331125217,
         "length": 105.84573816628684
@@ -317,7 +317,7 @@
       "type": "Feature",
       "properties": {
         "name": "Atharwaddy Street",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 67.97531691883273,
         "sun_diff": 2.6179830628330762,
         "length": 144.2106948953284
@@ -443,8 +443,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            96.1592673,
-            19.8165996
+            96.1595416,
+            19.8164692
           ],
           [
             96.1610058,
@@ -456,9 +456,9 @@
       "properties": {
         "name": "Zaya Htarni Road",
         "type": "secondary",
-        "slope": 116.80054934330326,
-        "sun_diff": 2.143843972835029,
-        "length": 203.81621494795414
+        "slope": 116.79914374815118,
+        "sun_diff": 2.14243837768295,
+        "length": 171.65608357520065
       }
     },
     {
@@ -3893,29 +3893,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            96.0630514,
-            19.7127284
-          ],
-          [
-            96.0619356,
-            19.7132738
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Mya Myint Mo Street",
-        "type": "residential",
-        "slope": 117.43960153109603,
-        "sun_diff": 2.797663029613375,
-        "length": 131.64730898195137
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             96.0519593,
             19.7579748
           ],
@@ -4181,7 +4158,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shwe Hininsi Street",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 68.31553149499757,
         "sun_diff": 2.958197638997916,
         "length": 113.69972288222948
@@ -4204,7 +4181,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shwe Hininsi Street",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 67.30792539094523,
         "sun_diff": 1.9505915349455734,
         "length": 201.22212883130453
@@ -5181,6 +5158,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            96.1584396,
+            19.8143302
+          ],
+          [
+            96.1601805,
+            19.8135002
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 116.87429170985166,
+        "sun_diff": 2.2175863393834305,
+        "length": 204.2334510800877
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             96.152968,
             19.8050143
           ],
@@ -5197,6 +5197,29 @@
         "slope": 62.668627549695685,
         "sun_diff": 2.6739530976967387,
         "length": 176.24309311841452
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.158106,
+            19.8136827
+          ],
+          [
+            96.1598139,
+            19.8128689
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 116.86095552531924,
+        "sun_diff": 2.2042501548510103,
+        "length": 200.3392383582895
       }
     },
     {
@@ -5910,52 +5933,6 @@
         "slope": 117.06039871491569,
         "sun_diff": 2.4036933444474613,
         "length": 108.45989934298447
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            96.1589259,
-            19.8148623
-          ],
-          [
-            96.1605428,
-            19.8141089
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 116.34806265541442,
-        "sun_diff": 1.6913572849461929,
-        "length": 188.8148806296954
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            96.1605428,
-            19.8141089
-          ],
-          [
-            96.1623111,
-            19.813285
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 116.34669064339204,
-        "sun_diff": 1.6899852729238063,
-        "length": 206.49332929238065
       }
     },
     {
@@ -7129,29 +7106,6 @@
         "slope": 114.63128514086841,
         "sun_diff": 0.004004225344601764,
         "length": 162.98436192516155
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            96.2684935,
-            19.6618869
-          ],
-          [
-            96.2602537,
-            19.6586134
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 67.12666777611838,
-        "sun_diff": 1.7693339201187257,
-        "length": 936.7436243055398
       }
     },
     {
@@ -8716,6 +8670,98 @@
         "slope": 114.8260723273417,
         "sun_diff": 0.1693669568734748,
         "length": 187.64108314218424
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.1587638,
+            19.8149596
+          ],
+          [
+            96.1605428,
+            19.8141089
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 116.94339407294416,
+        "sun_diff": 2.286688702475928,
+        "length": 208.83012525979836
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.1605428,
+            19.8141089
+          ],
+          [
+            96.1623111,
+            19.813285
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 116.34669064339204,
+        "sun_diff": 1.6899852729238063,
+        "length": 206.49332929238065
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.0565541,
+            19.746125
+          ],
+          [
+            96.0576482,
+            19.7456581
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.38967224815767,
+        "sun_diff": 0.25226625332499,
+        "length": 125.76430534785436
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.2685027,
+            19.661827
+          ],
+          [
+            96.2602537,
+            19.6586134
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 67.52576985731102,
+        "sun_diff": 2.1684360013113633,
+        "length": 935.0645717665394
       }
     }
   ]
