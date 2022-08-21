@@ -409,7 +409,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "residential",
+        "type": "service",
         "slope": 113.5230744697918,
         "sun_diff": 0.026189861905095313,
         "length": 167.4083005826436
@@ -432,7 +432,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "residential",
+        "type": "service",
         "slope": 112.64136968864958,
         "sun_diff": 0.8555149192371232,
         "length": 114.3035626463717
@@ -6561,29 +6561,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.6129008,
-            6.6934188
-          ],
-          [
-            -1.6120613,
-            6.6938157
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 64.54431970742547,
-        "sun_diff": 1.959119891302322,
-        "length": 102.71247355530069
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.6612185,
             6.6674194
           ],
@@ -9310,7 +9287,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 112.5021543675463,
         "sun_diff": 0.9947302403404024,
         "length": 106.9523082327378
@@ -10556,6 +10533,29 @@
         "slope": 112.90757136079162,
         "sun_diff": 0.5927693228151014,
         "length": 123.01851488322882
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.6129008,
+            6.6934188
+          ],
+          [
+            -1.6118697,
+            6.6939099
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 64.37964660204909,
+        "sun_diff": 2.123792996678702,
+        "length": 126.32799489352873
       }
     }
   ]

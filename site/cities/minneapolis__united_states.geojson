@@ -880,8 +880,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.518921,
-            44.932144
+            -93.5189286,
+            44.9321515
           ],
           [
             -93.5208044,
@@ -893,9 +893,9 @@
       "properties": {
         "name": "Minnetonka Boulevard",
         "type": "tertiary",
-        "slope": 56.013708132662714,
-        "sun_diff": 0.8881520591846197,
-        "length": 178.8639284457258
+        "slope": 55.684916772353915,
+        "sun_diff": 1.2169434194934183,
+        "length": 178.83696727992208
       }
     },
     {
@@ -1282,7 +1282,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "West Franklin Avenue",
+        "name": "Franklin Avenue West",
         "type": "residential",
         "slope": 122.0107558858696,
         "sun_diff": 1.1522124354191448,
@@ -1501,8 +1501,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.2295137,
-            44.8536541
+            -93.2295177,
+            44.8536617
           ],
           [
             -93.2282471,
@@ -1514,9 +1514,9 @@
       "properties": {
         "name": "East Old Shakopee Road",
         "type": "secondary",
-        "slope": 59.09439633244446,
-        "sun_diff": 2.1925634613538136,
-        "length": 116.40052746916435
+        "slope": 59.53176903133715,
+        "sun_diff": 2.6299361602465012,
+        "length": 116.24034241744948
       }
     },
     {
@@ -2743,8 +2743,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.3773266,
-            44.9594076
+            -93.3773117,
+            44.9593896
           ],
           [
             -93.378845,
@@ -2754,11 +2754,11 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "West 24th Street",
+        "name": "24th Street West",
         "type": "residential",
-        "slope": 56.855920899263225,
-        "sun_diff": 0.01736290064357604,
-        "length": 142.73259771601454
+        "slope": 57.786895199785135,
+        "sun_diff": 0.9483372011654865,
+        "length": 142.63871079990835
       }
     },
     {
@@ -3387,8 +3387,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.2544554,
-            45.1272385
+            -93.2544235,
+            45.127266
           ],
           [
             -93.252764,
@@ -3400,9 +3400,9 @@
       "properties": {
         "name": "US Hwy 10 Service Road",
         "type": "tertiary",
-        "slope": 122.98393819922296,
-        "sun_diff": 0.24271480588699035,
-        "length": 158.2411387353905
+        "slope": 124.41005082175323,
+        "sun_diff": 1.1833978166432786,
+        "length": 157.85532969606777
       }
     },
     {
@@ -3518,29 +3518,6 @@
         "slope": 53.91843375066634,
         "sun_diff": 2.7278954039524876,
         "length": 121.44014429895441
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.2787539,
-            45.1381868
-          ],
-          [
-            -93.2800964,
-            45.1375557
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "93rd Avenue Northwest",
-        "type": "tertiary",
-        "slope": 56.319960084557806,
-        "sun_diff": 0.4549132302406633,
-        "length": 126.58245550322445
       }
     },
     {
@@ -3985,12 +3962,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.341709,
-            45.232784
+            -93.3403612,
+            45.2334968
           ],
           [
-            -93.34342,
-            45.231905
+            -93.3417124,
+            45.2327989
           ]
         ]
       },
@@ -3998,9 +3975,32 @@
       "properties": {
         "name": "South Coon Creek Drive Northwest",
         "type": "residential",
-        "slope": 53.88965661943507,
-        "sun_diff": 2.8211495209486657,
-        "length": 165.89772141994322
+        "slope": 53.74245607294941,
+        "sun_diff": 2.9683500674343293,
+        "length": 131.25619475375044
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.3417124,
+            45.2327989
+          ],
+          [
+            -93.3434256,
+            45.2319176
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "South Coon Creek Drive Northwest",
+        "type": "residential",
+        "slope": 53.85340982715934,
+        "sun_diff": 2.857396313224399,
+        "length": 166.18772192892513
       }
     },
     {
@@ -7723,7 +7723,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brandel Drive",
-        "type": "primary",
+        "type": "secondary",
         "slope": 122.67116569428251,
         "sun_diff": 0.30305717948211,
         "length": 234.0105992818307
@@ -7746,7 +7746,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brandel Drive",
-        "type": "primary",
+        "type": "secondary",
         "slope": 122.86026269729916,
         "sun_diff": 0.11396017646545431,
         "length": 396.23438936753786
@@ -7769,7 +7769,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brandel Drive",
-        "type": "primary",
+        "type": "secondary",
         "slope": 122.89653068181872,
         "sun_diff": 0.07769219194589994,
         "length": 225.66378735173157
@@ -7792,7 +7792,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brandel Drive",
-        "type": "primary",
+        "type": "secondary",
         "slope": 122.02178658850849,
         "sun_diff": 0.9524362852561268,
         "length": 105.97645574501814
@@ -7815,7 +7815,7 @@
       "type": "Feature",
       "properties": {
         "name": "210th Street West",
-        "type": "trunk",
+        "type": "primary",
         "slope": 125.16258368187681,
         "sun_diff": 2.2505155295593084,
         "length": 180.39306106456985
@@ -8750,8 +8750,8 @@
             44.9750455
           ],
           [
-            -92.9885555,
-            44.973894
+            -92.9883789,
+            44.9739755
           ]
         ]
       },
@@ -8759,9 +8759,9 @@
       "properties": {
         "name": "Stillwater Road",
         "type": "tertiary",
-        "slope": 56.8724153514234,
-        "sun_diff": 0.03388467356040792,
-        "length": 234.36236002226366
+        "slope": 56.87169570419522,
+        "sun_diff": 0.0331650263322274,
+        "length": 217.7707544824622
       }
     },
     {
@@ -12844,8 +12844,8 @@
             44.975527
           ],
           [
-            -92.9771042,
-            44.9762976
+            -92.9770695,
+            44.9763121
           ]
         ]
       },
@@ -12853,9 +12853,9 @@
       "properties": {
         "name": "Gopher Boulevard North",
         "type": "residential",
-        "slope": 56.88041550613681,
-        "sun_diff": 0.04188482827382245,
-        "length": 156.8739991472443
+        "slope": 56.93089568054336,
+        "sun_diff": 0.09236500268036707,
+        "length": 160.0420355283221
       }
     },
     {
@@ -12925,29 +12925,6 @@
         "slope": 123.89529645543752,
         "sun_diff": 0.6045626155345047,
         "length": 105.9087159857497
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -92.9278355,
-            44.9397001
-          ],
-          [
-            -92.9290603,
-            44.9390817
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Tamarack Road",
-        "type": "tertiary",
-        "slope": 54.50062148290169,
-        "sun_diff": 2.4012113881889547,
-        "length": 118.45183272327114
       }
     },
     {
@@ -13132,29 +13109,6 @@
         "slope": 120.60842192683111,
         "sun_diff": 2.5545600548359744,
         "length": 161.4368256755286
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -92.7389083,
-            44.9701325
-          ],
-          [
-            -92.7376371,
-            44.9696074
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Laurel Avenue",
-        "type": "residential",
-        "slope": 120.27918549952997,
-        "sun_diff": 2.8837964821371145,
-        "length": 115.83691366815226
       }
     },
     {
@@ -14450,75 +14404,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.4374429,
-            45.1285759
-          ],
-          [
-            -93.4330421,
-            45.1265004
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "County Road 81",
-        "type": "trunk",
-        "slope": 123.76063496119554,
-        "sun_diff": 0.533981956085583,
-        "length": 415.4119396217179
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.4329241,
-            45.1264465
-          ],
-          [
-            -93.4300527,
-            45.1250958
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "County Road 81",
-        "type": "trunk",
-        "slope": 123.69139151560756,
-        "sun_diff": 0.46473851049761095,
-        "length": 270.83404359885327
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.4291674,
-            45.1246763
-          ],
-          [
-            -93.4277546,
-            45.1240189
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "County Road 81",
-        "type": "trunk",
-        "slope": 123.40432350150127,
-        "sun_diff": 0.17767049639131471,
-        "length": 132.81814689857907
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.5156016,
             45.0699098
           ],
@@ -14749,29 +14634,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.4117637,
-            44.8239216
-          ],
-          [
-            -93.4102857,
-            44.823266
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Pioneer Trail",
-        "type": "secondary",
-        "slope": 122.02103849660696,
-        "sun_diff": 1.015721589198293,
-        "length": 137.52879837062997
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.0632802,
             44.9631951
           ],
@@ -14811,6 +14673,29 @@
         "slope": 56.13520115782143,
         "sun_diff": 0.7033568407982216,
         "length": 222.88631060826452
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.4675325,
+            45.2328722
+          ],
+          [
+            -93.4663595,
+            45.2323571
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Voyageur Highway",
+        "type": "trunk",
+        "slope": 121.94593683739072,
+        "sun_diff": 1.344783342133951,
+        "length": 108.28248252498892
       }
     },
     {
@@ -16520,8 +16405,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.1652824,
-            44.9018673
+            -93.1653765,
+            44.9018236
           ],
           [
             -93.1671161,
@@ -16533,9 +16418,9 @@
       "properties": {
         "name": "West Rockwood Avenue",
         "type": "residential",
-        "slope": 56.767582496052,
-        "sun_diff": 0.134250375038647,
-        "length": 172.7185794424243
+        "slope": 56.76853328474019,
+        "sun_diff": 0.13329958635046069,
+        "length": 163.85344057186646
       }
     },
     {
@@ -16566,8 +16451,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.1645291,
-            44.9010554
+            -93.1646223,
+            44.9010121
           ],
           [
             -93.1670473,
@@ -16579,9 +16464,9 @@
       "properties": {
         "name": "West Stewart Avenue",
         "type": "residential",
-        "slope": 56.756164920230816,
-        "sun_diff": 0.1456679508598313,
-        "length": 237.2277027444529
+        "slope": 56.75680069452304,
+        "sun_diff": 0.1450321765676108,
+        "length": 228.44617046887225
       }
     },
     {
@@ -17088,29 +16973,6 @@
         "slope": 56.33988184906434,
         "sun_diff": 0.5619510220263066,
         "length": 117.59878368115679
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.0805803,
-            44.950893
-          ],
-          [
-            -93.0794619,
-            44.9514317
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 55.76048752873925,
-        "sun_diff": 1.0780704698804016,
-        "length": 106.49483351279706
       }
     },
     {
@@ -20400,29 +20262,6 @@
         "slope": 121.85330929817275,
         "sun_diff": 1.309672683494341,
         "length": 176.0940990397835
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -92.9539087,
-            44.9653503
-          ],
-          [
-            -92.952428,
-            44.9646958
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Helmo Avenue North",
-        "type": "tertiary",
-        "slope": 121.99412552351342,
-        "sun_diff": 1.1688564581536696,
-        "length": 137.40125978281108
       }
     },
     {
@@ -24777,75 +24616,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.4183625,
-            44.794196
-          ],
-          [
-            -93.4162154,
-            44.7932315
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 122.3337872921582,
-        "sun_diff": 0.7029727936470493,
-        "length": 200.58033527918832
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.4154418,
-            44.7928779
-          ],
-          [
-            -93.4142874,
-            44.7923548
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 122.55908492809371,
-        "sun_diff": 0.4776751577115448,
-        "length": 108.11498437129694
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.4142874,
-            44.7923548
-          ],
-          [
-            -93.4129243,
-            44.7917337
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 122.70291452573855,
-        "sun_diff": 0.33384556006670607,
-        "length": 127.8673771074833
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.3345934,
             45.0315342
           ],
@@ -24862,29 +24632,6 @@
         "slope": 58.5105242803462,
         "sun_diff": 1.6719662817265544,
         "length": 117.58835478663934
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.4025478,
-            44.9721258
-          ],
-          [
-            -93.4036539,
-            44.9726203
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Wayzata Boulevard",
-        "type": "tertiary",
-        "slope": 122.29064557501223,
-        "sun_diff": 0.8723227462765095,
-        "length": 102.96114846272876
       }
     },
     {
@@ -25789,52 +25536,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.2758036,
-            44.6748518
-          ],
-          [
-            -93.2741111,
-            44.6740296
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kenwood Trail \/Richard J. Ames Memorial Highway",
-        "type": "secondary",
-        "slope": 124.33837769630298,
-        "sun_diff": 1.3641548225383673,
-        "length": 162.12744107111683
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.2712257,
-            44.6726328
-          ],
-          [
-            -93.27018,
-            44.6721264
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kenwood Trail \/Richard J. Ames Memorial Highway",
-        "type": "secondary",
-        "slope": 124.25384456058805,
-        "sun_diff": 1.2796216868234325,
-        "length": 100.07209664263237
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.270521,
             44.6724555
           ],
@@ -26421,7 +26122,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "US 12",
         "type": "trunk",
         "slope": 122.54274275402548,
         "sun_diff": 0.6839102510844697,
@@ -26656,29 +26357,6 @@
         "slope": 121.24198510879177,
         "sun_diff": 2.048735070732903,
         "length": 114.67150506692938
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.4094219,
-            44.8230262
-          ],
-          [
-            -93.4105704,
-            44.8235327
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Pioneer Trail",
-        "type": "secondary",
-        "slope": 121.87212088984668,
-        "sun_diff": 1.1646391959585713,
-        "length": 106.69583838654937
       }
     },
     {
@@ -29975,29 +29653,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -92.895814,
-            44.796616
-          ],
-          [
-            -92.897517,
-            44.797356
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Hiawatha Pioneer Trail\/Disabled American Veterans Highway\/Voyageur Highway",
-        "type": "trunk",
-        "slope": 121.48132216743716,
-        "sun_diff": 1.5554379183680993,
-        "length": 157.61626943481227
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.3176329,
             45.1843369
           ],
@@ -30389,12 +30044,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.732872,
-            45.032761
+            -93.7320123,
+            45.0323196
           ],
           [
-            -93.7283829,
-            45.0306531
+            -93.7307215,
+            45.0317361
           ]
         ]
       },
@@ -30402,9 +30057,9 @@
       "properties": {
         "name": "Babcock Boulevard",
         "type": "trunk",
-        "slope": 123.60058421491954,
-        "sun_diff": 0.4376158936307917,
-        "length": 423.66886938448323
+        "slope": 122.60472613055745,
+        "sun_diff": 0.558242190731292,
+        "length": 120.44825899727417
       }
     },
     {
@@ -30412,8 +30067,54 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.7274688,
-            45.0302592
+            -93.7307215,
+            45.0317361
+          ],
+          [
+            -93.7295319,
+            45.031203
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Babcock Boulevard",
+        "type": "trunk",
+        "slope": 122.37888038260479,
+        "sun_diff": 0.7840879386839532,
+        "length": 110.7277444258565
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.7295319,
+            45.031203
+          ],
+          [
+            -93.7283658,
+            45.0306713
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Babcock Boulevard",
+        "type": "trunk",
+        "slope": 122.82915300069976,
+        "sun_diff": 0.33381532058898244,
+        "length": 109.08835881732662
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.7272466,
+            45.0301584
           ],
           [
             -93.7249615,
@@ -30425,9 +30126,9 @@
       "properties": {
         "name": "Babcock Boulevard",
         "type": "trunk",
-        "slope": 122.69492993887056,
-        "sun_diff": 0.46803838241818596,
-        "length": 234.20940291825406
+        "slope": 122.69487422106201,
+        "sun_diff": 0.46809410022673603,
+        "length": 213.45347836838081
       }
     },
     {
@@ -30792,7 +30493,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brandel Drive",
-        "type": "primary",
+        "type": "secondary",
         "slope": 54.52726846188017,
         "sun_diff": 2.500021323885278,
         "length": 187.43644810705857
@@ -30815,7 +30516,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brandel Drive",
-        "type": "primary",
+        "type": "secondary",
         "slope": 55.03975859358263,
         "sun_diff": 1.9875311921828143,
         "length": 155.6038812002601
@@ -31332,29 +31033,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.4124128,
-            44.7917746
-          ],
-          [
-            -93.4138568,
-            44.792431
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 122.64133450119235,
-        "sun_diff": 0.39542558461290866,
-        "length": 135.36240172886002
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.4830674,
             44.7856693
           ],
@@ -31716,29 +31394,6 @@
         "slope": 124.60257102914511,
         "sun_diff": 1.5028912407057078,
         "length": 129.89936096870375
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.4378936,
-            44.8586135
-          ],
-          [
-            -93.4368207,
-            44.8580781
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Prairie Center Drive",
-        "type": "secondary",
-        "slope": 125.14482335189871,
-        "sun_diff": 2.0451435634593054,
-        "length": 103.45309081188158
       }
     },
     {
@@ -32268,6 +31923,282 @@
         "slope": 122.26412635374493,
         "sun_diff": 1.0266074861580847,
         "length": 179.3612424388752
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.4378936,
+            44.8586135
+          ],
+          [
+            -93.4368207,
+            44.8580781
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Prairie Center Drive",
+        "type": "secondary",
+        "slope": 125.14482335189871,
+        "sun_diff": 2.0451435634593054,
+        "length": 103.45309081188158
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.4374429,
+            45.1285759
+          ],
+          [
+            -93.4347378,
+            45.1273001
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "County Road 81",
+        "type": "trunk",
+        "slope": 123.76150391215344,
+        "sun_diff": 0.5348509070434915,
+        "length": 255.34719156147665
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.4347378,
+            45.1273001
+          ],
+          [
+            -93.4330421,
+            45.1265004
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "County Road 81",
+        "type": "trunk",
+        "slope": 123.7598407585329,
+        "sun_diff": 0.5331877534229505,
+        "length": 160.06474822671518
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.4329241,
+            45.1264465
+          ],
+          [
+            -93.4300527,
+            45.1250958
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "County Road 81",
+        "type": "trunk",
+        "slope": 123.69139151560756,
+        "sun_diff": 0.46473851049761095,
+        "length": 270.83404359885327
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.4292304,
+            45.1247053
+          ],
+          [
+            -93.4277546,
+            45.1240189
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "County Road 81",
+        "type": "trunk",
+        "slope": 123.39224360110879,
+        "sun_diff": 0.16559059599883597,
+        "length": 138.7215036089331
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.2712257,
+            44.6726328
+          ],
+          [
+            -93.27018,
+            44.6721264
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Kenwood Trail \/Richard J. Ames Memorial Highway",
+        "type": "secondary",
+        "slope": 124.25384456058805,
+        "sun_diff": 1.2796216868234325,
+        "length": 100.07209664263237
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.4117637,
+            44.8239216
+          ],
+          [
+            -93.4102857,
+            44.823266
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Pioneer Trail",
+        "type": "secondary",
+        "slope": 122.02103849660696,
+        "sun_diff": 1.015721589198293,
+        "length": 137.52879837062997
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.2332529,
+            45.3175657
+          ],
+          [
+            -93.234852,
+            45.3168104
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Sandhill Parkway NE",
+        "type": "unclassified",
+        "slope": 56.11085098077234,
+        "sun_diff": 0.5354781738464851,
+        "length": 150.6695288472674
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -92.9278355,
+            44.9397001
+          ],
+          [
+            -92.9290603,
+            44.9390817
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Tamarack Road",
+        "type": "tertiary",
+        "slope": 54.50062148290169,
+        "sun_diff": 2.4012113881889547,
+        "length": 118.45183272327114
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -92.7389083,
+            44.9701325
+          ],
+          [
+            -92.7376371,
+            44.9696074
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Laurel Avenue",
+        "type": "residential",
+        "slope": 120.27918549952997,
+        "sun_diff": 2.8837964821371145,
+        "length": 115.83691366815226
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -92.9539087,
+            44.9653503
+          ],
+          [
+            -92.9528096,
+            44.9648645
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Helmo Avenue North",
+        "type": "tertiary",
+        "slope": 121.99288091945544,
+        "sun_diff": 1.1701010622116428,
+        "length": 101.98918815130443
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.4094219,
+            44.8230262
+          ],
+          [
+            -93.4105704,
+            44.8235327
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Pioneer Trail",
+        "type": "secondary",
+        "slope": 121.87212088984668,
+        "sun_diff": 1.1646391959585713,
+        "length": 106.69583838654937
       }
     }
   ]
