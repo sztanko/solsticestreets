@@ -167,12 +167,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.2318939,
-            13.0989746
+            80.2171158,
+            13.0996134
           ],
           [
-            80.230756,
-            13.0994672
+            80.2161995,
+            13.0999593
           ]
         ]
       },
@@ -180,9 +180,9 @@
       "properties": {
         "name": "Konnur High Road",
         "type": "primary",
-        "slope": 113.9636468535773,
-        "sun_diff": 0.08538497300459369,
-        "length": 134.90317944314663
+        "slope": 111.18547709739138,
+        "sun_diff": 2.692784783181324,
+        "length": 106.46285226199325
       }
     },
     {
@@ -225,7 +225,7 @@
       "type": "Feature",
       "properties": {
         "name": "Poonamallee High Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 65.58287995868196,
         "sun_diff": 0.5383149333352435,
         "length": 202.82998543191414
@@ -505,29 +505,6 @@
         "slope": 65.1802238099178,
         "sun_diff": 0.9495224789402528,
         "length": 112.32550652909607
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.175232,
-            12.969678
-          ],
-          [
-            80.1762525,
-            12.969232
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Moovarasampettai Main Road",
-        "type": "tertiary",
-        "slope": 114.155332576012,
-        "sun_diff": 0.28563575265849295,
-        "length": 121.22931305475348
       }
     },
     {
@@ -1179,52 +1156,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.1855634,
-            12.9941362
-          ],
-          [
-            80.1866927,
-            12.9946926
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Grand Southern Trunk Road",
-        "type": "primary",
-        "slope": 63.17684646224711,
-        "sun_diff": 2.9528998266109454,
-        "length": 137.15224922852317
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2721639,
-            13.0747475
-          ],
-          [
-            80.2731206,
-            13.0743279
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Arunachalam Street",
-        "type": "secondary",
-        "slope": 114.24027368508123,
-        "sun_diff": 0.3620118045085263,
-        "length": 113.67776310838846
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             80.2139409,
             13.0984946
           ],
@@ -1517,29 +1448,6 @@
         "slope": 66.57327753737843,
         "sun_diff": 0.4435312485203724,
         "length": 104.57811877165004
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.1753612,
-            12.9830158
-          ],
-          [
-            80.1762969,
-            12.9834183
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 66.18119240124011,
-        "sun_diff": 0.051446112382052434,
-        "length": 110.85929037728064
       }
     },
     {
@@ -1954,52 +1862,6 @@
         "slope": 69.0888833542989,
         "sun_diff": 2.9763218213926166,
         "length": 159.8084465199352
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2232641,
-            13.0949499
-          ],
-          [
-            80.2223029,
-            13.0953618
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "New Avadi Road",
-        "type": "primary",
-        "slope": 113.74798362989964,
-        "sun_diff": 0.1302782506730722,
-        "length": 113.76695634404291
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.2207407,
-            13.0959051
-          ],
-          [
-            80.2192172,
-            13.0964772
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "New Avadi Road",
-        "type": "primary",
-        "slope": 111.08389404573597,
-        "sun_diff": 2.7943678348367342,
-        "length": 176.89336180127668
       }
     },
     {
@@ -3537,7 +3399,7 @@
       "type": "Feature",
       "properties": {
         "name": "Poonamallee High Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 67.2958667956159,
         "sun_diff": 1.1746719035986928,
         "length": 123.48531834441214
@@ -3560,7 +3422,7 @@
       "type": "Feature",
       "properties": {
         "name": "Poonamallee High Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 68.19931684005857,
         "sun_diff": 2.078121948041371,
         "length": 154.933788036317
@@ -4009,11 +3871,11 @@
         "coordinates": [
           [
             80.2007975,
-            12.9797833
+            12.979731
           ],
           [
-            80.201905,
-            12.9793116
+            80.2018433,
+            12.9792802
           ]
         ]
       },
@@ -4021,9 +3883,32 @@
       "properties": {
         "name": "Inner Ring Road (Southern Sector)",
         "type": "primary",
-        "slope": 113.60922971306246,
-        "sun_diff": 0.26046711029104586,
-        "length": 131.00501946383687
+        "slope": 113.86264559714783,
+        "sun_diff": 0.007051226205675221,
+        "length": 123.94743599314066
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2018433,
+            12.9792802
+          ],
+          [
+            80.2034662,
+            12.9785453
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Inner Ring Road (Southern Sector)",
+        "type": "primary",
+        "slope": 114.92441263257481,
+        "sun_diff": 1.0547158092213067,
+        "length": 193.96865075481227
       }
     },
     {
@@ -4514,29 +4399,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.1652428,
-            13.0806229
-          ],
-          [
-            80.166121,
-            13.080957
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "living_street",
-        "slope": 68.66576951731054,
-        "sun_diff": 2.544574625293336,
-        "length": 102.14709559489906
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             80.1741871,
             13.0215013
           ],
@@ -4767,8 +4629,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.2185104,
-            12.9694049
+            80.2185206,
+            12.9693237
           ],
           [
             80.220757,
@@ -4780,9 +4642,9 @@
       "properties": {
         "name": "Nathan Subramaniam Colony",
         "type": "residential",
-        "slope": 113.14394827169866,
-        "sun_diff": 0.7257485516548456,
-        "length": 264.8281065410202
+        "slope": 111.41182804556013,
+        "sun_diff": 2.4578687777933794,
+        "length": 260.380581803036
       }
     },
     {
@@ -4794,18 +4656,18 @@
             12.9515972
           ],
           [
-            80.1472931,
-            12.9511079
+            80.1472797,
+            12.9511419
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "radhanagar main road",
+        "name": "Radhanagar Main Road",
         "type": "tertiary",
-        "slope": 114.42946580942001,
-        "sun_diff": 0.5597689860665014,
-        "length": 131.59647822700472
+        "slope": 113.16432772624557,
+        "sun_diff": 0.7053690971079334,
+        "length": 128.74128152714664
       }
     },
     {
@@ -5312,29 +5174,6 @@
         "slope": 111.77561371632785,
         "sun_diff": 2.0856136724548406,
         "length": 163.79861307545468
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.1485221,
-            12.9437728
-          ],
-          [
-            80.1493895,
-            12.9433943
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 114.11986354427626,
-        "sun_diff": 0.2586361554935621,
-        "length": 103.02406587323289
       }
     },
     {
@@ -6055,6 +5894,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            80.2033927,
+            12.9784366
+          ],
+          [
+            80.2022871,
+            12.9789315
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Inner Ring Road (Southern Sector)",
+        "type": "primary",
+        "slope": 114.67243182072178,
+        "sun_diff": 0.802734997368276,
+        "length": 131.87289842008346
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             80.2022871,
             12.9789315
           ],
@@ -6761,6 +6623,29 @@
         "slope": 112.90386357111024,
         "sun_diff": 0.9573638176724586,
         "length": 105.97500731807705
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1818962,
+            12.8959933
+          ],
+          [
+            80.1827885,
+            12.8955729
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 115.79598262692701,
+        "sun_diff": 1.9347552381443194,
+        "length": 107.45503609004507
       }
     },
     {
@@ -7884,7 +7769,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 66.91066176922538,
         "sun_diff": 0.7809154803673266,
         "length": 106.78644010067293
@@ -7907,7 +7792,7 @@
       "type": "Feature",
       "properties": {
         "name": "Terminal Link Road",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 68.88876718077594,
         "sun_diff": 2.759020891917885,
         "length": 122.07568255293842
@@ -7930,7 +7815,7 @@
       "type": "Feature",
       "properties": {
         "name": "Terminal Link Road",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 68.88773759722935,
         "sun_diff": 2.757991308371288,
         "length": 138.89980208978497
@@ -8612,8 +8497,8 @@
             13.0989013
           ],
           [
-            80.1717361,
-            13.0994126
+            80.1718607,
+            13.0993653
           ]
         ]
       },
@@ -8621,9 +8506,9 @@
       "properties": {
         "name": "Chennai - Tiruttani - Renigunta Road",
         "type": "primary",
-        "slope": 111.31230158181094,
-        "sun_diff": 2.565960298761766,
-        "length": 156.4772814907261
+        "slope": 111.3141965207819,
+        "sun_diff": 2.5640653597908027,
+        "length": 141.98963049710437
       }
     },
     {
@@ -11023,29 +10908,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.2146632,
-            13.1006006
-          ],
-          [
-            80.2136306,
-            13.1010141
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Konnur High Road",
-        "type": "secondary",
-        "slope": 112.34985875330696,
-        "sun_diff": 1.5284031272657472,
-        "length": 120.95259053335589
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             80.2136306,
             13.1010141
           ],
@@ -11867,6 +11729,236 @@
         "slope": 112.18251883206182,
         "sun_diff": 1.6957430485108915,
         "length": 104.02428367564153
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.216228,
+            13.1000119
+          ],
+          [
+            80.2172573,
+            13.0996275
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 110.97860534194035,
+        "sun_diff": 2.8996565386323567,
+        "length": 119.42573078878037
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2318939,
+            13.0989746
+          ],
+          [
+            80.230756,
+            13.0994672
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Konnur High Road",
+        "type": "primary",
+        "slope": 113.9636468535773,
+        "sun_diff": 0.08538497300459369,
+        "length": 134.90317944314663
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1485221,
+            12.9437728
+          ],
+          [
+            80.1493895,
+            12.9433943
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 114.11986354427626,
+        "sun_diff": 0.2586361554935621,
+        "length": 103.02406587323289
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1503656,
+            12.9429517
+          ],
+          [
+            80.1513664,
+            12.9424664
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 116.4527403949617,
+        "sun_diff": 2.5915130061789995,
+        "length": 121.17778935830344
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2721639,
+            13.0747475
+          ],
+          [
+            80.2731206,
+            13.0743279
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Arunachalam Street",
+        "type": "secondary",
+        "slope": 114.24027368508123,
+        "sun_diff": 0.3620118045085263,
+        "length": 113.67776310838846
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1855634,
+            12.9941362
+          ],
+          [
+            80.1866927,
+            12.9946926
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Southern Trunk Road",
+        "type": "primary",
+        "slope": 63.17684646224711,
+        "sun_diff": 2.9528998266109454,
+        "length": 137.15224922852317
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2753242,
+            13.1034201
+          ],
+          [
+            80.2739829,
+            13.102868
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 67.09017481787001,
+        "sun_diff": 0.9689799258528069,
+        "length": 157.75182655529866
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2232641,
+            13.0949499
+          ],
+          [
+            80.2223029,
+            13.0953618
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "New Avadi Road",
+        "type": "primary",
+        "slope": 113.74798362989964,
+        "sun_diff": 0.1302782506730722,
+        "length": 113.76695634404291
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2207407,
+            13.0959051
+          ],
+          [
+            80.2192172,
+            13.0964772
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "New Avadi Road",
+        "type": "primary",
+        "slope": 111.08389404573597,
+        "sun_diff": 2.7943678348367342,
+        "length": 176.89336180127668
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2518987,
+            13.1011011
+          ],
+          [
+            80.2506225,
+            13.1015813
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 111.12302137995712,
+        "sun_diff": 2.755240500615585,
+        "length": 148.21535743313413
       }
     }
   ]

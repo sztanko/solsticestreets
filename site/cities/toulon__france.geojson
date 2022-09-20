@@ -431,7 +431,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Route du Fort de Coudon",
+        "name": "Route du Fort Coudon",
         "type": "unclassified",
         "slope": 121.4429362689184,
         "sun_diff": 0.6367913707630066,
@@ -662,7 +662,7 @@
       "type": "Feature",
       "properties": {
         "name": "All\u00e9e Amiral Baudin",
-        "type": "unclassified",
+        "type": "primary",
         "slope": 121.10812266902246,
         "sun_diff": 0.9147504760077538,
         "length": 120.73421248158645
@@ -685,33 +685,10 @@
       "type": "Feature",
       "properties": {
         "name": "All\u00e9e Amiral Baudin",
-        "type": "unclassified",
+        "type": "primary",
         "slope": 121.4357951356721,
         "sun_diff": 0.5870780093581232,
         "length": 195.71965954122794
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            5.9230229,
-            43.1236148
-          ],
-          [
-            5.9244015,
-            43.1230117
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Quai Colbert",
-        "type": "unclassified",
-        "slope": 120.93720490276095,
-        "sun_diff": 1.0856682422692643,
-        "length": 130.48567889902196
       }
     },
     {
@@ -731,7 +708,7 @@
       "type": "Feature",
       "properties": {
         "name": "Quai Colbert",
-        "type": "unclassified",
+        "type": "primary",
         "slope": 121.22601722397766,
         "sun_diff": 0.7968559210525541,
         "length": 116.22534681553276
@@ -742,8 +719,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.9242048,
-            43.1252685
+            5.9243426,
+            43.1252136
           ],
           [
             5.9256271,
@@ -755,9 +732,9 @@
       "properties": {
         "name": "Rue Robert Guillemard",
         "type": "primary",
-        "slope": 120.68066723245423,
-        "sun_diff": 1.3422059125759915,
-        "length": 134.2593415871652
+        "slope": 120.89587868955314,
+        "sun_diff": 1.1269944554770746,
+        "length": 121.52329771104596
       }
     },
     {
@@ -919,6 +896,52 @@
         "slope": 123.72856875786422,
         "sun_diff": 1.7056956128340062,
         "length": 102.94503699164454
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.924428,
+            43.1255396
+          ],
+          [
+            5.9255328,
+            43.1250475
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 121.39481799368167,
+        "sun_diff": 0.6280551513485477,
+        "length": 105.07320558681981
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.9243853,
+            43.1254106
+          ],
+          [
+            5.9254444,
+            43.1249425
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 121.19754335837317,
+        "sun_diff": 0.8253297866570506,
+        "length": 100.51643008065976
       }
     }
   ]

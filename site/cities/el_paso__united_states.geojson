@@ -2674,8 +2674,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -106.303934,
-            31.684789
+            -106.3046418,
+            31.6844917
           ],
           [
             -106.307745,
@@ -2687,9 +2687,9 @@
       "properties": {
         "name": "North Americas Avenue",
         "type": "secondary",
-        "slope": 63.72562879954344,
-        "sun_diff": 0.9795582255097202,
-        "length": 402.2808665317631
+        "slope": 63.72481627492115,
+        "sun_diff": 0.9787457008874298,
+        "length": 327.56975395572783
       }
     },
     {
@@ -6412,7 +6412,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Rafael P. Serna",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.832240762058746,
         "sun_diff": 1.1163049826431006,
         "length": 138.72206665199104
@@ -6435,7 +6435,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Rafael P. Serna",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.09344877096626,
         "sun_diff": 2.377512991550617,
         "length": 231.28758732486847
@@ -7757,29 +7757,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -106.4589308,
-            31.7525684
-          ],
-          [
-            -106.4601346,
-            31.7520784
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Heroico Colegio Militar",
-        "type": "trunk",
-        "slope": 64.4201160640956,
-        "sun_diff": 1.7041802846799499,
-        "length": 126.23066679379403
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -106.6221311,
             31.9629749
           ],
@@ -8229,7 +8206,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Paisano Drive",
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.891120280582214,
         "sun_diff": 1.8248154988334306,
         "length": 160.7380079158434
@@ -8252,7 +8229,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Paisano Drive",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.42868189860056,
         "sun_diff": 1.2872538808150864,
         "length": 101.86831798626194
@@ -8275,7 +8252,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Paisano Drive",
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.534741937694946,
         "sun_diff": 2.181193841720699,
         "length": 154.6698132393884
@@ -10207,7 +10184,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Rafael P. Serna",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.81301188513407,
         "sun_diff": 2.097076105718429,
         "length": 287.0812459690505
@@ -10276,7 +10253,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Paisano Drive",
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.653102581392886,
         "sun_diff": 2.0628331980227586,
         "length": 101.22181322685627
@@ -10299,7 +10276,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Paisano Drive",
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.475088307317236,
         "sun_diff": 2.240847472098409,
         "length": 111.72572970974093
@@ -12047,7 +12024,7 @@
       "type": "Feature",
       "properties": {
         "name": "West Paisano Drive",
-        "type": "trunk",
+        "type": "primary",
         "slope": 119.4978724950204,
         "sun_diff": 2.213115237606374,
         "length": 156.77314516608547
@@ -17084,7 +17061,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Paisano Drive",
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.91638935869497,
         "sun_diff": 1.7995464207206737,
         "length": 135.6951883155053
@@ -17157,6 +17134,52 @@
         "slope": 114.75426771150123,
         "sun_diff": 2.500341090916365,
         "length": 151.41394696671387
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.3653249,
+            31.6680357
+          ],
+          [
+            -106.364187,
+            31.6675619
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 116.06890091213026,
+        "sun_diff": 1.1857078902873326,
+        "length": 119.92350888525127
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.4589308,
+            31.7525684
+          ],
+          [
+            -106.4601346,
+            31.7520784
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Heroico Colegio Militar",
+        "type": "trunk",
+        "slope": 64.4201160640956,
+        "sun_diff": 1.7041802846799499,
+        "length": 126.23066679379403
       }
     }
   ]

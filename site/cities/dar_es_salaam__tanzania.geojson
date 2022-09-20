@@ -1984,6 +1984,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            39.2203793,
+            -6.7520594
+          ],
+          [
+            39.2213472,
+            -6.7515871
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 63.831827704180114,
+        "sun_diff": 2.436243575749046,
+        "length": 119.12234225300001
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             39.2056059,
             -6.6696736
           ],
@@ -2184,29 +2207,6 @@
         "slope": 116.55392927650743,
         "sun_diff": 2.822127142307309,
         "length": 108.18439658369846
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            39.2513719,
-            -6.7722737
-          ],
-          [
-            39.2505173,
-            -6.7726289
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 67.2880702376817,
-        "sun_diff": 1.0199989577525344,
-        "length": 102.3285201304024
       }
     },
     {
@@ -2778,7 +2778,7 @@
       "type": "Feature",
       "properties": {
         "name": "Nelson Mandela Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 111.24593886129838,
         "sun_diff": 2.492843726233488,
         "length": 123.70062305314076
@@ -4111,7 +4111,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Lindi Street",
+        "name": "Lindi & Livingstone Street",
         "type": "residential",
         "slope": 68.07644039733503,
         "sun_diff": 1.8083691174058742,
@@ -4134,7 +4134,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Lindi Street",
+        "name": "Lindi & Livingstone Street",
         "type": "residential",
         "slope": 68.0790836854255,
         "sun_diff": 1.8110124054963421,
@@ -4157,7 +4157,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Lindi Street",
+        "name": "Lindi & Livingstone Street",
         "type": "residential",
         "slope": 68.07791933351336,
         "sun_diff": 1.8098480535842043,
@@ -4300,121 +4300,6 @@
         "slope": 64.74875929637312,
         "sun_diff": 1.5123451906026162,
         "length": 124.34818914941063
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            39.2170947,
-            -6.858234
-          ],
-          [
-            39.2150318,
-            -6.8590893
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Nyerere Road",
-        "type": "trunk",
-        "slope": 67.33461829750885,
-        "sun_diff": 1.0735138105331146,
-        "length": 246.88024337830268
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            39.2150318,
-            -6.8590893
-          ],
-          [
-            39.2137964,
-            -6.8596249
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Nyerere Road",
-        "type": "trunk",
-        "slope": 66.4105700726571,
-        "sun_diff": 0.14946558568135515,
-        "length": 148.86983572427093
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            39.2135592,
-            -6.8597278
-          ],
-          [
-            39.2111251,
-            -6.8608669
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Nyerere Road",
-        "type": "trunk",
-        "slope": 64.76310198366639,
-        "sun_diff": 1.4980025033093511,
-        "length": 297.17014039184187
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            39.2106067,
-            -6.8611159
-          ],
-          [
-            39.2088619,
-            -6.8619498
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Nyerere Road",
-        "type": "trunk",
-        "slope": 64.29464460941071,
-        "sun_diff": 1.966459877565029,
-        "length": 213.84681369728338
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            39.2088619,
-            -6.8619498
-          ],
-          [
-            39.2064301,
-            -6.8631369
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Nyerere Road",
-        "type": "trunk",
-        "slope": 63.8175731567226,
-        "sun_diff": 2.443531330253137,
-        "length": 299.2563464671288
       }
     },
     {
@@ -5871,8 +5756,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            39.2920057,
-            -6.8342868
+            39.2919907,
+            -6.8342942
           ],
           [
             39.2903559,
@@ -5884,9 +5769,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 63.747438775805676,
-        "sun_diff": 2.5206325041234834,
-        "length": 203.1580287886199
+        "slope": 63.748987990714824,
+        "sun_diff": 2.519083289214336,
+        "length": 201.30822798092
       }
     },
     {
@@ -9977,7 +9862,7 @@
       "type": "Feature",
       "properties": {
         "name": "Nelson Mandela Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 112.73527953694924,
         "sun_diff": 1.003503050582637,
         "length": 161.14292251887017
@@ -14696,6 +14581,121 @@
         "slope": 69.26605541994886,
         "sun_diff": 2.997984140019696,
         "length": 104.99993982944733
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.2150318,
+            -6.8590893
+          ],
+          [
+            39.2137964,
+            -6.8596249
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Nyerere Road",
+        "type": "trunk",
+        "slope": 66.4105700726571,
+        "sun_diff": 0.14946558568135515,
+        "length": 148.86983572427093
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.2135592,
+            -6.8597278
+          ],
+          [
+            39.2111251,
+            -6.8608669
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Nyerere Road",
+        "type": "trunk",
+        "slope": 64.76310198366639,
+        "sun_diff": 1.4980025033093511,
+        "length": 297.17014039184187
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.2106067,
+            -6.8611159
+          ],
+          [
+            39.2088619,
+            -6.8619498
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Nyerere Road",
+        "type": "trunk",
+        "slope": 64.29464460941071,
+        "sun_diff": 1.966459877565029,
+        "length": 213.84681369728338
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.2088619,
+            -6.8619498
+          ],
+          [
+            39.2064301,
+            -6.8631369
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Nyerere Road",
+        "type": "trunk",
+        "slope": 63.8175731567226,
+        "sun_diff": 2.443531330253137,
+        "length": 299.2563464671288
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.2170947,
+            -6.858234
+          ],
+          [
+            39.2150318,
+            -6.8590893
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Nyerere Road",
+        "type": "trunk",
+        "slope": 67.33461829750885,
+        "sun_diff": 1.0735138105331146,
+        "length": 246.88024337830268
       }
     }
   ]
