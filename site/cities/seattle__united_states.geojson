@@ -1582,7 +1582,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 54.528657647176345,
         "sun_diff": 0.7404868047144646,
         "length": 120.71919119834342
@@ -2782,6 +2782,29 @@
         "slope": 123.76181367119051,
         "sun_diff": 1.1915248164769991,
         "length": 133.73740438448115
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3836135,
+            47.3932956
+          ],
+          [
+            -122.3850412,
+            47.3939766
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Southwest Luana Beach Road",
+        "type": "residential",
+        "slope": 125.16906936657446,
+        "sun_diff": 0.3640962480579759,
+        "length": 131.50870389864662
       }
     },
     {
@@ -5802,6 +5825,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -122.740954,
+            47.347653
+          ],
+          [
+            -122.7398107,
+            47.3482022
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Key Peninsula Highway Northwest",
+        "type": "secondary",
+        "slope": 54.664080689934906,
+        "sun_diff": 0.6050637619559041,
+        "length": 105.62049392854749
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -122.3311604,
             47.6125332
           ],
@@ -7550,29 +7596,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.401724,
-            47.3819098
-          ],
-          [
-            -122.4029027,
-            47.3813154
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 53.322979095513716,
-        "sun_diff": 1.8726998416644278,
-        "length": 110.68873515769002
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -122.7100227,
             47.0147367
           ],
@@ -8700,29 +8723,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.1440009,
-            47.1580339
-          ],
-          [
-            -122.1429117,
-            47.157522
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "South Prairie Road East",
-        "type": "secondary",
-        "slope": 124.65064707780971,
-        "sun_diff": 0.007859464145028028,
-        "length": 100.14290541238255
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -122.140948,
             47.156602
           ],
@@ -9808,8 +9808,8 @@
             47.6405369
           ],
           [
-            -122.1021523,
-            47.6411092
+            -122.1021191,
+            47.6410934
           ]
         ]
       },
@@ -9817,9 +9817,9 @@
       "properties": {
         "name": "West Lake Sammamish Parkway Northeast",
         "type": "secondary",
-        "slope": 125.40265291021143,
-        "sun_diff": 0.44931442254392095,
-        "length": 109.88259435876219
+        "slope": 125.40743659665756,
+        "sun_diff": 0.45409810899005265,
+        "length": 106.83640622915115
       }
     },
     {
@@ -10207,7 +10207,7 @@
       "type": "Feature",
       "properties": {
         "name": "State Route 104",
-        "type": "primary",
+        "type": "trunk",
         "slope": 123.29170463248147,
         "sun_diff": 1.887754097848486,
         "length": 264.04312205698943
@@ -10230,7 +10230,7 @@
       "type": "Feature",
       "properties": {
         "name": "State Route 104",
-        "type": "primary",
+        "type": "trunk",
         "slope": 122.27119306350218,
         "sun_diff": 2.9082656668277735,
         "length": 369.73783340419186
@@ -13231,8 +13231,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.45898,
-            47.258088
+            -122.4591481,
+            47.2580015
           ],
           [
             -122.4602727,
@@ -13244,9 +13244,9 @@
       "properties": {
         "name": "Division Avenue",
         "type": "secondary",
-        "slope": 52.83957120712296,
-        "sun_diff": 2.4295732447678517,
-        "length": 122.45291785517092
+        "slope": 52.84075326711147,
+        "sun_diff": 2.4283911847793433,
+        "length": 106.527786416051
       }
     },
     {

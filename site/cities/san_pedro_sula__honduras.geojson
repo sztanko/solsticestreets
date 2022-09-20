@@ -52,29 +52,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -87.9315857,
-            15.5056114
-          ],
-          [
-            -87.9268029,
-            15.5079297
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carretera San Pedro Sula - Choloma",
-        "type": "secondary",
-        "slope": 63.29624892635104,
-        "sun_diff": 2.5946593076100157,
-        "length": 573.8277637584919
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -87.880274,
             15.5430437
           ],
@@ -110,7 +87,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 66.16846313872574,
         "sun_diff": 0.2775549047646848,
         "length": 163.90672294140643
@@ -167,22 +144,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -88.0434409,
-            15.3933315
+            -88.0388163,
+            15.3933123
           ],
           [
-            -88.0425399,
-            15.3929314
+            -88.0379382,
+            15.3929554
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 114.7300484077067,
-        "sun_diff": 0.6303859451880385,
-        "length": 106.37914383612448
+        "type": "secondary",
+        "slope": 112.85874156769913,
+        "sun_diff": 1.2409208948195385,
+        "length": 102.1928813186312
       }
     },
     {
@@ -4537,8 +4514,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -88.0171365,
-            15.5381514
+            -88.0172979,
+            15.5382143
           ],
           [
             -88.0183497,
@@ -4550,9 +4527,9 @@
       "properties": {
         "name": "Calle El Palenque",
         "type": "tertiary",
-        "slope": 113.19283722429614,
-        "sun_diff": 0.9174871635169097,
-        "length": 141.44270816878597
+        "slope": 113.37053478162477,
+        "sun_diff": 0.7397896061882818,
+        "length": 122.78938899309773
       }
     },
     {
@@ -4756,33 +4733,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 64.75318474014114,
         "sun_diff": 1.1269864364446391,
         "length": 118.47474755220661
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -88.4080201,
-            15.5650601
-          ],
-          [
-            -88.4089308,
-            15.5654204
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 112.32756333486822,
-        "sun_diff": 1.7935186008876087,
-        "length": 105.4909492140471
       }
     },
     {
@@ -5515,7 +5469,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle a El Zapotal",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 112.37969459390169,
         "sun_diff": 1.7413873418541357,
         "length": 113.70063436050906
@@ -5530,18 +5484,18 @@
             15.5860457
           ],
           [
-            -88.02246,
-            15.5866892
+            -88.0224468,
+            15.5867045
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Calle a El Zapotal",
-        "type": "residential",
-        "slope": 112.00875063393835,
-        "sun_diff": 2.112331301817477,
-        "length": 190.99890256555872
+        "type": "tertiary",
+        "slope": 112.64325627585757,
+        "sun_diff": 1.477825659898258,
+        "length": 190.33713794296855
       }
     },
     {
@@ -7976,7 +7930,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 113.9027011352672,
         "sun_diff": 0.21838080048863162,
         "length": 290.24554440989164
@@ -9068,8 +9022,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -88.0095099,
-            15.5641889
+            -88.009511,
+            15.5642426
           ],
           [
             -88.0110924,
@@ -9081,9 +9035,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 64.93134106189333,
-        "sun_diff": 0.9488301146924414,
-        "length": 187.20115838844
+        "slope": 63.281946425554736,
+        "sun_diff": 2.59822475103104,
+        "length": 189.70378035160618
       }
     },
     {
@@ -9659,6 +9613,29 @@
         "slope": 63.25502002230505,
         "sun_diff": 2.6358882116560096,
         "length": 166.63931005717026
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -88.3724945,
+            15.3894933
+          ],
+          [
+            -88.3716255,
+            15.3898346
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Pinalejo - Monta\u00f1itas",
+        "type": "tertiary",
+        "slope": 67.8361266470827,
+        "sun_diff": 1.9345359972597578,
+        "length": 100.62842165290614
       }
     },
     {
@@ -11690,8 +11667,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -88.0324469,
-            15.5868342
+            -88.0323691,
+            15.5868805
           ],
           [
             -88.0308075,
@@ -11703,9 +11680,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 67.07044831031914,
-        "sun_diff": 1.1902771337333604,
-        "length": 190.71308414782604
+        "slope": 67.54377809630722,
+        "sun_diff": 1.6636069197214454,
+        "length": 181.03603731680272
       }
     },
     {
@@ -11867,6 +11844,98 @@
         "slope": 112.27953652510405,
         "sun_diff": 1.830787862709002,
         "length": 115.24157791921375
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -88.4072347,
+            15.5345024
+          ],
+          [
+            -88.4055394,
+            15.5338273
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 112.45609083742232,
+        "sun_diff": 1.6542335503907282,
+        "length": 196.58641835083304
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -88.4080201,
+            15.5650601
+          ],
+          [
+            -88.4089308,
+            15.5654204
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 112.32756333486822,
+        "sun_diff": 1.7935186008876087,
+        "length": 105.4909492140471
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.9315857,
+            15.5056114
+          ],
+          [
+            -87.9268029,
+            15.5079297
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carretera San Pedro Sula - Choloma",
+        "type": "secondary",
+        "slope": 63.29624892635104,
+        "sun_diff": 2.5946593076100157,
+        "length": 573.8277637584919
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -88.3539122,
+            15.3826765
+          ],
+          [
+            -88.3528983,
+            15.3830696
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 68.09409540990055,
+        "sun_diff": 2.192504760077611,
+        "length": 117.19761093971667
       }
     }
   ]

@@ -949,52 +949,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            74.2901507,
-            16.6477356
-          ],
-          [
-            74.291163,
-            16.6473028
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 114.04857799336963,
-        "sun_diff": 0.18456002590941978,
-        "length": 118.13232391810999
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            74.291163,
-            16.6473028
-          ],
-          [
-            74.2922025,
-            16.6468583
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 114.05192890146805,
-        "sun_diff": 0.181209117811008,
-        "length": 121.30992551025574
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             74.2874961,
             16.646403
           ],
@@ -1053,7 +1007,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 67.84236372669602,
         "sun_diff": 2.075983501682657,
         "length": 111.419822451412
@@ -1333,29 +1287,6 @@
         "slope": 113.78049358756579,
         "sun_diff": 0.4526444317132672,
         "length": 148.48728823448798
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            74.3058344,
-            16.6459449
-          ],
-          [
-            74.3037987,
-            16.6468726
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Hupari Kolhapur Road",
-        "type": "secondary",
-        "slope": 115.43812926408489,
-        "sun_diff": 1.2049912448058393,
-        "length": 240.2314918602139
       }
     },
     {
@@ -2111,7 +2042,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shahu Mill Road",
-        "type": "primary",
+        "type": "secondary",
         "slope": 116.73743425397726,
         "sun_diff": 2.4925346489474407,
         "length": 188.7611126394495
@@ -4261,6 +4192,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            74.2922025,
+            16.6468583
+          ],
+          [
+            74.291163,
+            16.6473028
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 114.05197836735107,
+        "sun_diff": 0.18115965192798456,
+        "length": 121.30992551025574
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.291163,
+            16.6473028
+          ],
+          [
+            74.2901507,
+            16.6477356
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 114.04862615351394,
+        "sun_diff": 0.18451186576511702,
+        "length": 118.13232391810999
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             74.3447023,
             16.7390438
           ],
@@ -5745,7 +5722,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "primary",
         "slope": 113.61326501766416,
         "sun_diff": 0.631634587365653,
         "length": 105.43690939546326
@@ -5768,7 +5745,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "primary",
         "slope": 113.08224548819663,
         "sun_diff": 1.1626541168331812,
         "length": 102.05108554486075
@@ -5791,7 +5768,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "primary",
         "slope": 115.50918595651814,
         "sun_diff": 1.2642863514883231,
         "length": 120.25510672041766
@@ -6274,7 +6251,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hupari Kolhapur Road",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 112.11021951770951,
         "sun_diff": 2.134680087320305,
         "length": 157.95449781678775
@@ -6297,33 +6274,10 @@
       "type": "Feature",
       "properties": {
         "name": "Hupari Kolhapur Road",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 113.71988624866083,
         "sun_diff": 0.5250133563689872,
         "length": 122.24451116608144
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            74.2695538,
-            16.6655228
-          ],
-          [
-            74.2681771,
-            16.6661082
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Hupari Kolhapur Road",
-        "type": "secondary",
-        "slope": 113.93478315077178,
-        "sun_diff": 0.31011645425803636,
-        "length": 160.49934246384998
       }
     },
     {
@@ -6416,6 +6370,75 @@
         "slope": 65.33621632602717,
         "sun_diff": 0.4183886528570895,
         "length": 143.6978625669928
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.3058344,
+            16.6459449
+          ],
+          [
+            74.3037987,
+            16.6468726
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Hupari Kolhapur Road",
+        "type": "tertiary",
+        "slope": 115.43812926408489,
+        "sun_diff": 1.2049912448058393,
+        "length": 240.2314918602139
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.2821585,
+            16.6596389
+          ],
+          [
+            74.2810884,
+            16.6601584
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Hupari Kolhapur Road",
+        "type": "tertiary",
+        "slope": 116.87318193479393,
+        "sun_diff": 2.6282823297641187,
+        "length": 127.83574471817974
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.2695823,
+            16.6655398
+          ],
+          [
+            74.2681771,
+            16.6661082
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Hupari Kolhapur Road",
+        "type": "unclassified",
+        "slope": 112.89115768657533,
+        "sun_diff": 1.3537419184544888,
+        "length": 162.53490504266256
       }
     }
   ]

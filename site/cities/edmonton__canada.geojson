@@ -1386,8 +1386,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -113.3442448,
-            53.6524811
+            -113.3442841,
+            53.6524861
           ],
           [
             -113.3394282,
@@ -1399,32 +1399,9 @@
       "properties": {
         "name": "Fort Road NE",
         "type": "tertiary",
-        "slope": 51.00328713812985,
-        "sun_diff": 1.601165900253278,
-        "length": 408.548634014937
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -113.3740409,
-            53.6317302
-          ],
-          [
-            -113.3722585,
-            53.6325906
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Fort Road NW",
-        "type": "tertiary",
-        "slope": 50.8515217761215,
-        "sun_diff": 1.3352270960789951,
-        "length": 151.58855460098388
+        "slope": 51.29136227825313,
+        "sun_diff": 1.889241040376561,
+        "length": 410.2173343990707
       }
     },
     {
@@ -1720,7 +1697,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arlington Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 48.45029832420727,
         "sun_diff": 1.066023676591925,
         "length": 199.3792790566317
@@ -2272,7 +2249,7 @@
       "type": "Feature",
       "properties": {
         "name": "Oakridge Drive North",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 133.58011175391493,
         "sun_diff": 2.9802558793978733,
         "length": 131.29149680731942
@@ -2812,6 +2789,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -113.3134626,
+            53.5212303
+          ],
+          [
+            -113.3122986,
+            53.521838
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Acacia Court",
+        "type": "residential",
+        "slope": 48.711769764143355,
+        "sun_diff": 0.9178240938513227,
+        "length": 102.43982276642262
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -113.4087486,
             53.5211922
           ],
@@ -3077,7 +3077,7 @@
       "type": "Feature",
       "properties": {
         "name": "Range Road 251",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 46.972423712534834,
         "sun_diff": 2.429697525341737,
         "length": 108.27161503357979
@@ -3387,12 +3387,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -113.3124986,
-            53.5206275
+            -113.3125582,
+            53.5206096
           ],
           [
-            -113.3098495,
-            53.5219998
+            -113.3099109,
+            53.5219893
           ]
         ]
       },
@@ -3400,9 +3400,9 @@
       "properties": {
         "name": "Conifer Street",
         "type": "residential",
-        "slope": 48.93300061676507,
-        "sun_diff": 0.696593241229607,
-        "length": 232.35279962054557
+        "slope": 48.761032031185806,
+        "sun_diff": 0.8685618268088717,
+        "length": 232.80487250558517
       }
     },
     {
@@ -3571,31 +3571,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -113.2825433,
-            53.5295898
-          ],
-          [
-            -113.2811188,
-            53.5302937
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 50.262369179847184,
-        "sun_diff": 0.6327753218525061,
-        "length": 122.47516081668098
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -113.2813179,
-            53.530428
+            -113.2813974,
+            53.5303898
           ],
           [
             -113.282746,
@@ -3607,9 +3584,32 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 51.327690916352196,
-        "sun_diff": 1.6980970583575186,
-        "length": 120.93673107619986
+        "slope": 51.34420279186003,
+        "sun_diff": 1.7146089338653496,
+        "length": 114.17808076112203
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -113.2825433,
+            53.5295898
+          ],
+          [
+            -113.2811924,
+            53.5302569
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 50.28060192668545,
+        "sun_diff": 0.6510080686907713,
+        "length": 116.1165649624153
       }
     },
     {
@@ -6312,8 +6312,8 @@
             53.4096684
           ],
           [
-            -113.5124949,
-            53.4085333
+            -113.5125094,
+            53.4085119
           ]
         ]
       },
@@ -6321,9 +6321,9 @@
       "properties": {
         "name": "Collins Crescent SW",
         "type": "residential",
-        "slope": 50.831563078878276,
-        "sun_diff": 1.0895443071451894,
-        "length": 199.8978946519603
+        "slope": 50.480630518163366,
+        "sun_diff": 0.7386117464302799,
+        "length": 202.15051003781429
       }
     },
     {
@@ -6457,11 +6457,34 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Kinglet Boulevard",
+        "name": "Kinglet Boulevard NW",
         "type": "residential",
         "slope": 127.93669605997209,
         "sun_diff": 2.548972712000676,
         "length": 116.38842088748011
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -113.5511121,
+            53.4006199
+          ],
+          [
+            -113.5530775,
+            53.4017152
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Donaghey Crescent SW",
+        "type": "residential",
+        "slope": 133.0680256715083,
+        "sun_diff": 2.80808099122612,
+        "length": 178.41104759984907
       }
     },
     {
