@@ -52,29 +52,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            78.7420547,
-            10.8748127
-          ],
-          [
-            78.7429309,
-            10.8751649
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Trichy Bypass",
-        "type": "trunk",
-        "slope": 67.74002440750581,
-        "sun_diff": 1.449959918449224,
-        "length": 103.41646854991538
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             78.6941837,
             10.8545441
           ],
@@ -248,7 +225,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 65.93826844886695,
         "sun_diff": 0.35851694633294073,
         "length": 155.77401028252177
@@ -294,7 +271,7 @@
       "type": "Feature",
       "properties": {
         "name": "Williams Road",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 66.84038492059207,
         "sun_diff": 0.5435995253921817,
         "length": 134.6770801165166
@@ -1041,6 +1018,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            78.8148908,
+            10.8727174
+          ],
+          [
+            78.814042,
+            10.872326
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 64.84759542821516,
+        "sun_diff": 1.4424690608414323,
+        "length": 102.42944877004008
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             78.6648868,
             10.8859105
           ],
@@ -1126,6 +1126,29 @@
         "slope": 111.81102342324309,
         "sun_diff": 1.8983893508577268,
         "length": 140.34471113477443
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.694336,
+            10.9123107
+          ],
+          [
+            78.693453,
+            10.9126965
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.98743831059588,
+        "sun_diff": 0.2780255364950648,
+        "length": 105.5563504673962
       }
     },
     {
@@ -3284,7 +3307,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 67.54091520594721,
         "sun_diff": 1.2508507168906249,
         "length": 168.40656989782113
@@ -3548,6 +3571,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            78.7420547,
+            10.8748127
+          ],
+          [
+            78.7429309,
+            10.8751649
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Trichy Bypass",
+        "type": "secondary",
+        "slope": 67.74002440750581,
+        "sun_diff": 1.449959918449224,
+        "length": 103.41646854991538
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             78.7395203,
             10.8660865
           ],
@@ -3610,52 +3656,6 @@
         "slope": 116.13076524767786,
         "sun_diff": 2.421352473577045,
         "length": 138.34856849867552
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            78.843193,
-            10.9068851
-          ],
-          [
-            78.8440471,
-            10.90723
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 67.64527545205189,
-        "sun_diff": 1.3552109629953009,
-        "length": 100.86559710570198
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            78.8448451,
-            10.9075783
-          ],
-          [
-            78.8462517,
-            10.9082361
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 64.53351305422325,
-        "sun_diff": 1.7565514348333409,
-        "length": 170.16262293162748
       }
     },
     {
@@ -4146,29 +4146,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            78.7173951,
-            10.8728774
-          ],
-          [
-            78.7164402,
-            10.8724613
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 66.07230628351687,
-        "sun_diff": 0.2177582055397238,
-        "length": 114.11389610061792
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             78.6826578,
             10.8825864
           ],
@@ -4265,8 +4242,8 @@
             10.7961372
           ],
           [
-            78.683543,
-            10.7955287
+            78.6835457,
+            10.7955814
           ]
         ]
       },
@@ -4274,9 +4251,9 @@
       "properties": {
         "name": "Rockins Road",
         "type": "secondary",
-        "slope": 115.59688746814953,
-        "sun_diff": 1.8941956001920062,
-        "length": 156.66097078574833
+        "slope": 113.58859451974308,
+        "sun_diff": 0.11409734821444317,
+        "length": 154.48938431966977
       }
     },
     {
@@ -5791,7 +5768,7 @@
       "type": "Feature",
       "properties": {
         "name": "Nagapattinam - Gudalur - Mysore Road (Old NH67)",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 113.09313380244024,
         "sun_diff": 0.609558065517291,
         "length": 155.88703699305313
@@ -7539,7 +7516,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 65.54966950067814,
         "sun_diff": 0.7471158945217553,
         "length": 106.33780542346064
@@ -11407,6 +11384,213 @@
         "slope": 112.79841784805845,
         "sun_diff": 0.9042740198990771,
         "length": 143.66944495871013
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.7743606,
+            10.8872538
+          ],
+          [
+            78.7757862,
+            10.887791
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Tiruchirappalli - Chidambaram Puthiya Nedunchaalai",
+        "type": "trunk",
+        "slope": 69.00662636598054,
+        "sun_diff": 2.7165618769239472,
+        "length": 166.78590198468157
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.7758283,
+            10.8876748
+          ],
+          [
+            78.7725233,
+            10.8864185
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Tiruchirappalli - Chidambaram Puthiya Nedunchaalai",
+        "type": "trunk",
+        "slope": 68.83921521938441,
+        "sun_diff": 2.549150730327824,
+        "length": 387.099886825051
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.7779162,
+            10.8884836
+          ],
+          [
+            78.7760687,
+            10.8877779
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Tiruchirappalli - Chidambaram Puthiya Nedunchaalai",
+        "type": "trunk",
+        "slope": 68.74507865725326,
+        "sun_diff": 2.4550141681966693,
+        "length": 216.5266082038482
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.7760225,
+            10.8878933
+          ],
+          [
+            78.777386,
+            10.8884261
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Tiruchirappalli - Chidambaram Puthiya Nedunchaalai",
+        "type": "trunk",
+        "slope": 68.30125667603403,
+        "sun_diff": 2.011192186977439,
+        "length": 160.2896205567938
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.8465771,
+            10.9084957
+          ],
+          [
+            78.8444499,
+            10.9075304
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Tiruchirappalli - Chidambaram Puthiya Nedunchaalai",
+        "type": "trunk",
+        "slope": 65.1965437703503,
+        "sun_diff": 1.0935207187062872,
+        "length": 255.9434170137824
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.8444499,
+            10.9075304
+          ],
+          [
+            78.8435479,
+            10.9071617
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Tiruchirappalli - Chidambaram Puthiya Nedunchaalai",
+        "type": "trunk",
+        "slope": 67.39909508759777,
+        "sun_diff": 1.1090305985411817,
+        "length": 106.711842355927
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.565012,
+            10.9226318
+          ],
+          [
+            78.5624017,
+            10.9238
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 114.50320021635676,
+        "sun_diff": 0.7937874422559474,
+        "length": 313.29900318784416
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.7576596,
+            10.9293375
+          ],
+          [
+            78.7566456,
+            10.9297768
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 113.80892552124774,
+        "sun_diff": 0.0995127471469317,
+        "length": 121.04228355699209
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.7566456,
+            10.9297768
+          ],
+          [
+            78.7552381,
+            10.9304004
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 114.28686582944098,
+        "sun_diff": 0.5774530553401718,
+        "length": 168.64106509875464
       }
     }
   ]
