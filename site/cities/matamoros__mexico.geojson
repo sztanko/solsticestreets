@@ -3145,7 +3145,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Libramiento Licenciado Emilio Portes Gil",
+        "name": "Libramiento Emilio Portes Gil",
         "type": "primary",
         "slope": 112.98302124896205,
         "sun_diff": 2.7590968032695855,
@@ -3168,7 +3168,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Libramiento Licenciado Emilio Portes Gil",
+        "name": "Libramiento Emilio Portes Gil",
         "type": "primary",
         "slope": 116.33736486119489,
         "sun_diff": 0.5952468089632532,
@@ -3633,29 +3633,6 @@
         "slope": 62.843741106500204,
         "sun_diff": 1.3938788577242462,
         "length": 115.24650734589876
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.5533639,
-            25.8622276
-          ],
-          [
-            -97.5550187,
-            25.8614689
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Bah\u00eda de Santa Mar\u00eda",
-        "type": "tertiary",
-        "slope": 63.000644024889,
-        "sun_diff": 1.2369759393354514,
-        "length": 185.88873823923106
       }
     },
     {
@@ -4434,7 +4411,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Bah\u00eda Santa Mar\u00eda",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 62.32515704578137,
         "sun_diff": 1.912462918443083,
         "length": 158.63556498712796
@@ -4457,7 +4434,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Bah\u00eda Santa Mar\u00eda",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 62.76647996283842,
         "sun_diff": 1.4711400013860327,
         "length": 236.5735274391521
@@ -6607,8 +6584,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.5130901,
-            25.8470968
+            -97.5130922,
+            25.8470927
           ],
           [
             -97.5149494,
@@ -6620,9 +6597,9 @@
       "properties": {
         "name": "Calle Mexicali",
         "type": "secondary",
-        "slope": 116.06867597435567,
-        "sun_diff": 0.32655792212403867,
-        "length": 207.19849793667996
+        "slope": 116.2074916607996,
+        "sun_diff": 0.4653736085679725,
+        "length": 207.2106863126149
       }
     },
     {
@@ -8378,8 +8355,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.5847426,
-            25.7956487
+            -97.5851838,
+            25.7958668
           ],
           [
             -97.5833009,
@@ -8391,9 +8368,32 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 115.50592470516781,
-        "sun_diff": 0.23619334706381778,
-        "length": 159.97162325963396
+        "slope": 116.28749834287709,
+        "sun_diff": 0.5453802906454541,
+        "length": 210.3155015063015
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.5833009,
+            25.7950294
+          ],
+          [
+            -97.5822374,
+            25.7945687
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 115.69371011113162,
+        "sun_diff": 0.048407941100009566,
+        "length": 118.19237042596298
       }
     },
     {
@@ -10475,8 +10475,8 @@
             25.8962104
           ],
           [
-            -97.5805939,
-            25.8949853
+            -97.5805754,
+            25.8949836
           ]
         ]
       },
@@ -10484,9 +10484,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 116.48338673906207,
-        "sun_diff": 0.7196306475398302,
-        "length": 305.57389051370745
+        "slope": 116.36103625485896,
+        "sun_diff": 0.5972801633367197,
+        "length": 307.3157988638283
       }
     },
     {
@@ -15301,6 +15301,75 @@
         "type": "LineString",
         "coordinates": [
           [
+            -97.6030912,
+            25.849866
+          ],
+          [
+            -97.6040816,
+            25.850283
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 115.07289486104199,
+        "sun_diff": 0.6692231911896442,
+        "length": 109.45277133205707
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.6040816,
+            25.850283
+          ],
+          [
+            -97.6054924,
+            25.8509272
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 116.90298825557437,
+        "sun_diff": 1.1392321640521317,
+        "length": 158.3588678654973
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.605259,
+            25.8505645
+          ],
+          [
+            -97.6040915,
+            25.8500499
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 116.09464377261938,
+        "sun_diff": 0.3308876810971384,
+        "length": 130.1309374939481
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -97.5883789,
             25.8531117
           ],
@@ -18130,75 +18199,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.605259,
-            25.8505645
-          ],
-          [
-            -97.6040915,
-            25.8500499
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 116.09464377261938,
-        "sun_diff": 0.3308876810971384,
-        "length": 130.1309374939481
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.6030912,
-            25.849866
-          ],
-          [
-            -97.6040816,
-            25.850283
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 115.07289486104199,
-        "sun_diff": 0.6692231911896442,
-        "length": 109.45277133205707
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.6040816,
-            25.850283
-          ],
-          [
-            -97.6054924,
-            25.8509272
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 116.90298825557437,
-        "sun_diff": 1.1392321640521317,
-        "length": 158.3588678654973
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -97.4779479,
             25.9106132
           ],
@@ -18721,6 +18721,29 @@
         "slope": 114.52008026095916,
         "sun_diff": 1.2436758305630775,
         "length": 129.69265578500597
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.5533639,
+            25.8622276
+          ],
+          [
+            -97.5550187,
+            25.8614689
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Bah\u00eda de Santa Mar\u00eda",
+        "type": "residential",
+        "slope": 63.000644024889,
+        "sun_diff": 1.2369759393354514,
+        "length": 185.88873823923106
       }
     }
   ]
