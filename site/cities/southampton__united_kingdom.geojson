@@ -41,7 +41,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kathleen Road",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 51.67504694542873,
         "sun_diff": 0.6187031794644327,
         "length": 143.10056297666944
@@ -64,7 +64,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kathleen Road",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 51.08319447395297,
         "sun_diff": 1.2105556509401936,
         "length": 101.15682900780078
@@ -87,7 +87,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kathleen Road",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 49.63227586240754,
         "sun_diff": 2.6614742624856262,
         "length": 123.56238961289898
@@ -489,8 +489,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.4138859,
-            50.9040102
+            -1.413918,
+            50.9039942
           ],
           [
             -1.4155243,
@@ -502,9 +502,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 51.706646082834936,
-        "sun_diff": 0.587104042058229,
-        "length": 146.4298303699182
+        "slope": 51.70722492830939,
+        "sun_diff": 0.5865251965837786,
+        "length": 143.5598054242972
       }
     },
     {
@@ -516,8 +516,8 @@
             50.9216958
           ],
           [
-            -1.3999436,
-            50.9224024
+            -1.3999365,
+            50.922408
           ]
         ]
       },
@@ -525,9 +525,9 @@
       "properties": {
         "name": "Gordon Avenue",
         "type": "residential",
-        "slope": 50.25907667748868,
-        "sun_diff": 2.0346734474044865,
-        "length": 122.93639773646613
+        "slope": 50.18465149274559,
+        "sun_diff": 2.109098632147578,
+        "length": 123.71752160101254
       }
     },
     {
@@ -535,8 +535,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.3999436,
-            50.9224024
+            -1.3999365,
+            50.922408
           ],
           [
             -1.398479,
@@ -548,9 +548,9 @@
       "properties": {
         "name": "Gordon Avenue",
         "type": "residential",
-        "slope": 52.14695002606439,
-        "sun_diff": 0.14680009882877698,
-        "length": 130.05670757689916
+        "slope": 52.22953541783764,
+        "sun_diff": 0.06421470705552679,
+        "length": 129.2815370151714
       }
     },
     {
@@ -777,7 +777,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kathleen Road",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 51.42353133593022,
         "sun_diff": 0.8702187889629442,
         "length": 231.50240117248032
@@ -896,29 +896,6 @@
         "slope": 51.85640031955154,
         "sun_diff": 0.4373498053416256,
         "length": 178.84861079970648
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.4001241,
-            50.9496933
-          ],
-          [
-            -1.4012411,
-            50.9502568
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Bassett Green Road",
-        "type": "primary",
-        "slope": 128.6864383852308,
-        "sun_diff": 0.979768680861099,
-        "length": 100.27589607464478
       }
     },
     {
@@ -1126,29 +1103,6 @@
         "slope": 126.910190068747,
         "sun_diff": 0.7964796356226884,
         "length": 103.8473327487949
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.3383064,
-            50.9047364
-          ],
-          [
-            -1.3371135,
-            50.9041774
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Bursledon Road",
-        "type": "primary",
-        "slope": 126.61561730598885,
-        "sun_diff": 1.091052398380839,
-        "length": 104.24661777836864
       }
     },
     {
@@ -1563,6 +1517,52 @@
         "slope": 52.875231041908364,
         "sun_diff": 0.5814809170151989,
         "length": 101.50831921215016
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.4001241,
+            50.9496933
+          ],
+          [
+            -1.4012411,
+            50.9502568
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Bassett Green Road",
+        "type": "primary",
+        "slope": 128.6864383852308,
+        "sun_diff": 0.979768680861099,
+        "length": 100.27589607464478
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.3382877,
+            50.9047642
+          ],
+          [
+            -1.3371135,
+            50.9041774
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Bursledon Road",
+        "type": "primary",
+        "slope": 128.39563985684302,
+        "sun_diff": 0.6889701524733312,
+        "length": 105.0888098494248
       }
     }
   ]

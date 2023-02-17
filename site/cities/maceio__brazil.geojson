@@ -2191,8 +2191,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -35.8140644,
-            -9.4991554
+            -35.8140483,
+            -9.4991501
           ],
           [
             -35.8130787,
@@ -2204,9 +2204,9 @@
       "properties": {
         "name": "Rua Boa Vista",
         "type": "residential",
-        "slope": 67.73139790346033,
-        "sun_diff": 1.6795157711404443,
-        "length": 116.850985161819
+        "slope": 67.6697303871413,
+        "sun_diff": 1.6178482548214106,
+        "length": 114.99314025426148
       }
     },
     {
@@ -2218,8 +2218,8 @@
             -9.5329682
           ],
           [
-            -35.8005756,
-            -9.532178
+            -35.8005597,
+            -9.5321763
           ]
         ]
       },
@@ -2227,9 +2227,9 @@
       "properties": {
         "name": "Rua Sao Paulo",
         "type": "residential",
-        "slope": 65.32904505924097,
-        "sun_diff": 0.7228370730789209,
-        "length": 210.57107840600963
+        "slope": 65.47919401723854,
+        "sun_diff": 0.5726881150813483,
+        "length": 212.23566382262055
       }
     },
     {
@@ -2237,8 +2237,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -35.8005756,
-            -9.532178
+            -35.8005597,
+            -9.5321763
           ],
           [
             -35.7973532,
@@ -2250,9 +2250,9 @@
       "properties": {
         "name": "Rua Sao Paulo",
         "type": "residential",
-        "slope": 63.19546336509728,
-        "sun_diff": 2.856418767222607,
-        "length": 396.0328041546884
+        "slope": 63.10571959616911,
+        "sun_diff": 2.94616253615078,
+        "length": 394.3912872069081
       }
     },
     {
@@ -2662,7 +2662,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Rua C ( Pe Cicero )",
         "type": "residential",
         "slope": 65.92612232118643,
         "sun_diff": 0.12575981113346302,
@@ -2685,7 +2685,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Rua Sd V",
+        "name": "Rua B ( Pe Cicero )",
         "type": "residential",
         "slope": 67.79494747419005,
         "sun_diff": 1.7430653418701638,
@@ -4748,64 +4748,18 @@
             -9.5328871
           ],
           [
-            -35.7968822,
-            -9.5323936
+            -35.7968928,
+            -9.5323866
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Conjunto Renascer",
+        "name": "Rua K ( Conj. Renascer )",
         "type": "residential",
-        "slope": 64.2119897021573,
-        "sun_diff": 1.8398924301625925,
-        "length": 126.17587160929205
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -35.7981409,
-            -9.5325019
-          ],
-          [
-            -35.79707,
-            -9.5319757
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 63.51561118931437,
-        "sun_diff": 2.536270943005519,
-        "length": 131.2447197747395
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -35.7983693,
-            -9.5321072
-          ],
-          [
-            -35.7972619,
-            -9.5315639
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 63.55073283142866,
-        "sun_diff": 2.5011493008912282,
-        "length": 135.67674534677488
+        "slope": 63.660860028014014,
+        "sun_diff": 2.3910221043058755,
+        "length": 125.47344939316622
       }
     },
     {
@@ -4824,7 +4778,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Rua N ( Conj. Renascer )",
         "type": "residential",
         "slope": 63.43295672589417,
         "sun_diff": 2.618925406425717,
@@ -4847,7 +4801,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Rua H ( Conj. Renascer )",
         "type": "residential",
         "slope": 63.591497684855,
         "sun_diff": 2.4603844474648895,
@@ -4870,7 +4824,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Rua G ( Conj. Renascer )",
         "type": "residential",
         "slope": 64.43275311039474,
         "sun_diff": 1.619129021925147,
@@ -8044,7 +7998,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Residencial Jardins Monet",
         "type": "residential",
         "slope": 63.898561534953245,
         "sun_diff": 2.153320597366644,
@@ -9107,6 +9061,29 @@
         "slope": 67.58823726920048,
         "sun_diff": 1.5363551368805872,
         "length": 154.36090485616245
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -35.7983693,
+            -9.5321072
+          ],
+          [
+            -35.7972645,
+            -9.5315599
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua M ( Conj. Renascer )",
+        "type": "residential",
+        "slope": 63.328774364243884,
+        "sun_diff": 2.723107768076005,
+        "length": 135.62058099707002
       }
     }
   ]

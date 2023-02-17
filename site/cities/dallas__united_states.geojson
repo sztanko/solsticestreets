@@ -1398,7 +1398,7 @@
       "type": "Feature",
       "properties": {
         "name": "Parkhouse Street",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 59.422518690068415,
         "sun_diff": 2.983353821785329,
         "length": 100.25293270231707
@@ -1858,7 +1858,7 @@
       "type": "Feature",
       "properties": {
         "name": "Vantage Street",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 119.81853332427062,
         "sun_diff": 2.222988799242671,
         "length": 259.926593885776
@@ -3100,7 +3100,7 @@
       "type": "Feature",
       "properties": {
         "name": "Motor Circle",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 120.16035794825981,
         "sun_diff": 2.5648134232318682,
         "length": 143.81360465406965
@@ -22305,7 +22305,7 @@
       "type": "Feature",
       "properties": {
         "name": "Santa Fe Avenue",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 61.00186866837703,
         "sun_diff": 1.4358598457656342,
         "length": 162.79060373579188
@@ -26663,31 +26663,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.8344793,
-            32.8018539
-          ],
-          [
-            -96.8355452,
-            32.8023755
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 120.2072983605058,
-        "sun_diff": 2.611753835477856,
-        "length": 115.31334681756134
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.9283244,
-            32.8630939
+            -96.9282564,
+            32.8631216
           ],
           [
             -96.9271887,
@@ -26699,9 +26676,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 64.08602755455541,
-        "sun_diff": 1.7121749695307074,
-        "length": 117.96943268418542
+        "slope": 64.08333753889363,
+        "sun_diff": 1.7094849538689232,
+        "length": 110.90853290649572
       }
     },
     {
@@ -35955,6 +35932,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -96.9206093,
+            32.9158892
+          ],
+          [
+            -96.9185081,
+            32.9168447
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 61.55535246385887,
+        "sun_diff": 0.8185001211658403,
+        "length": 223.13336810744053
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -96.5298831,
             32.9109915
           ],
@@ -39398,6 +39398,75 @@
         "slope": 117.40894823667276,
         "sun_diff": 0.25080006655331033,
         "length": 103.36789205286806
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9992568,
+            32.9897236
+          ],
+          [
+            -97.0002665,
+            32.9901146
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 114.78199065988517,
+        "sun_diff": 2.8777576433408996,
+        "length": 103.75571674451788
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.0002325,
+            32.9906119
+          ],
+          [
+            -96.9990474,
+            32.9901079
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 116.88647124892711,
+        "sun_diff": 0.7732770542989584,
+        "length": 123.96443621970839
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8330566,
+            32.8011794
+          ],
+          [
+            -96.8340969,
+            32.8016755
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 119.56816149078367,
+        "sun_diff": 1.9726169657557193,
+        "length": 111.82545833613042
       }
     }
   ]
