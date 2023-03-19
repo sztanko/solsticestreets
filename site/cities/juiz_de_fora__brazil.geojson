@@ -1018,29 +1018,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -43.3360184,
-            -21.7604111
-          ],
-          [
-            -43.3347993,
-            -21.7599241
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua S\u00e3o Geraldo",
-        "type": "residential",
-        "slope": 66.7263330074573,
-        "sun_diff": 2.487948062045831,
-        "length": 137.0935226330476
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -43.4237435,
             -21.7864533
           ],
@@ -3537,7 +3514,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 65.18122988612097,
         "sun_diff": 0.9428449407095059,
         "length": 105.57254236403264
@@ -4733,7 +4710,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Olga Burnier",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 64.41217255468635,
         "sun_diff": 0.17378760927488202,
         "length": 107.85744504172301
@@ -7175,6 +7152,52 @@
         "slope": 67.16671189340715,
         "sun_diff": 2.90737192762208,
         "length": 152.92111690343208
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.4034554,
+            -21.8109305
+          ],
+          [
+            -43.4044608,
+            -21.8105135
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.07217386752924,
+        "sun_diff": 1.6904074314557533,
+        "length": 113.71476466248187
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.3360184,
+            -21.7604111
+          ],
+          [
+            -43.3347993,
+            -21.7599241
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua S\u00e3o Geraldo",
+        "type": "tertiary",
+        "slope": 66.7263330074573,
+        "sun_diff": 2.487948062045831,
+        "length": 137.0935226330476
       }
     }
   ]

@@ -271,7 +271,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 114.95339619370287,
         "sun_diff": 1.0758924641280458,
         "length": 139.63027989830587
@@ -317,7 +317,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 114.2636635340385,
         "sun_diff": 0.3861598044636736,
         "length": 123.50868479713817
@@ -938,7 +938,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gang 158",
-        "type": "residential",
+        "type": "living_street",
         "slope": 111.23861949651047,
         "sun_diff": 2.63888423306436,
         "length": 122.20592893915817
@@ -1202,6 +1202,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            115.2351639,
+            -8.7336713
+          ],
+          [
+            115.237897,
+            -8.7324862
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 66.31315194395569,
+        "sun_diff": 0.19162920285833707,
+        "length": 328.1204102645334
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             115.1905829,
             -8.6905803
           ],
@@ -1237,7 +1260,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gang X",
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.59285886863921,
         "sun_diff": 0.2846448609356145,
         "length": 119.64093115379521

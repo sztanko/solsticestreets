@@ -627,8 +627,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            112.7496268,
-            -7.2424667
+            112.7496134,
+            -7.2424611
           ],
           [
             112.748732,
@@ -640,9 +640,9 @@
       "properties": {
         "name": "Jalan Gang Gembong",
         "type": "residential",
-        "slope": 112.71005824689598,
-        "sun_diff": 1.0494607949560475,
-        "length": 107.03262092719419
+        "slope": 112.70801546330995,
+        "sun_diff": 1.051503578542082,
+        "length": 105.42819065153333
       }
     },
     {
@@ -2444,29 +2444,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            112.7297869,
-            -7.3165204
-          ],
-          [
-            112.7289494,
-            -7.3161624
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Jalan Ketintang Baru XI",
-        "type": "residential",
-        "slope": 113.31466094786592,
-        "sun_diff": 0.4521595662088629,
-        "length": 100.61199702905276
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             112.7289538,
             -7.3175461
           ],
@@ -3146,7 +3123,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 66.17700571022175,
         "sun_diff": 0.055166095429797224,
         "length": 151.51472610433655
@@ -3169,7 +3146,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Raya Batu Mulia",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 66.28429164799124,
         "sun_diff": 0.05211984233969247,
         "length": 116.37402960807654
@@ -4342,7 +4319,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Anjasmoro",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 111.89063277468802,
         "sun_diff": 1.876187739386765,
         "length": 104.35734101925489
@@ -4714,29 +4691,6 @@
         "slope": 115.60203133922053,
         "sun_diff": 1.8352176553349295,
         "length": 117.53177491005172
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            112.626566,
-            -7.2550447
-          ],
-          [
-            112.625492,
-            -7.2545542
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Jalan Bukit Palma Blok E9",
-        "type": "residential",
-        "slope": 114.7208403896197,
-        "sun_diff": 0.9540267057340941,
-        "length": 130.46038904522885
       }
     },
     {
@@ -5576,8 +5530,8 @@
             -7.2583462
           ],
           [
-            112.8104649,
-            -7.2578299
+            112.8104354,
+            -7.2578412
           ]
         ]
       },
@@ -5585,9 +5539,32 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 64.41838152334881,
-        "sun_diff": 1.8137902823027332,
-        "length": 132.9977178411797
+        "slope": 64.29814066742739,
+        "sun_diff": 1.9340311382241566,
+        "length": 129.51937339172713
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.8104778,
+            -7.2579162
+          ],
+          [
+            112.8095242,
+            -7.2583805
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 63.85704064871814,
+        "sun_diff": 2.3751311569334064,
+        "length": 117.20967550146821
       }
     },
     {
@@ -5699,7 +5676,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Bulak Setro Utara VI",
-        "type": "residential",
+        "type": "living_street",
         "slope": 111.12702668511923,
         "sun_diff": 2.632492356732797,
         "length": 113.47118250686012
@@ -12518,6 +12495,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            112.7710685,
+            -7.2230253
+          ],
+          [
+            112.7698781,
+            -7.2225259
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 112.92244433306269,
+        "sun_diff": 0.8370747087893449,
+        "length": 142.6195743855353
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             112.7888577,
             -7.2611575
           ],
@@ -12810,6 +12810,29 @@
         "slope": 115.39814381569857,
         "sun_diff": 1.6313233016237945,
         "length": 104.7450025717441
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.6265636,
+            -7.2550436
+          ],
+          [
+            112.625492,
+            -7.2545542
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Jalan Bukit Palma Blok E9",
+        "type": "residential",
+        "slope": 114.7206664740533,
+        "sun_diff": 0.9538527901677014,
+        "length": 130.1686756751307
       }
     }
   ]

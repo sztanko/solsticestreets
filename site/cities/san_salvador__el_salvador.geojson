@@ -949,8 +949,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -89.2494813,
-            13.6998567
+            -89.2494717,
+            13.6999016
           ],
           [
             -89.2485266,
@@ -962,9 +962,9 @@
       "properties": {
         "name": "Avenida Victor Manuel Mejia Lara",
         "type": "residential",
-        "slope": 111.44823431494135,
-        "sun_diff": 2.4837333430751727,
-        "length": 110.8463402956621
+        "slope": 114.0252628358653,
+        "sun_diff": 0.0932951778487876,
+        "length": 111.82002346278075
       }
     },
     {
@@ -1087,8 +1087,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -89.1860503,
-            13.7277313
+            -89.1860222,
+            13.7277377
           ],
           [
             -89.1870922,
@@ -1099,10 +1099,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
-        "slope": 67.31864950815788,
-        "sun_diff": 1.2493640538327782,
-        "length": 122.01629397719805
+        "type": "pedestrian",
+        "slope": 67.55406975343098,
+        "sun_diff": 1.4847842991058826,
+        "length": 125.09331274030916
       }
     },
     {
@@ -1110,8 +1110,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -89.1859576,
-            13.7274622
+            -89.1860851,
+            13.7273873
           ],
           [
             -89.1869898,
@@ -1122,10 +1122,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
-        "slope": 67.61418155814633,
-        "sun_diff": 1.5448961038212303,
-        "length": 120.6220525779795
+        "type": "pedestrian",
+        "slope": 68.95810378373574,
+        "sun_diff": 2.8888183294106398,
+        "length": 104.73953291425278
       }
     },
     {
@@ -1137,8 +1137,8 @@
             13.7266922
           ],
           [
-            -89.1857792,
-            13.7271232
+            -89.1858457,
+            13.7270893
           ]
         ]
       },
@@ -1146,9 +1146,9 @@
       "properties": {
         "name": "Calle Roma",
         "type": "residential",
-        "slope": 68.35283910291696,
-        "sun_diff": 2.2835536485918624,
-        "length": 129.95779256630726
+        "slope": 68.75431948020301,
+        "sun_diff": 2.6850340258779113,
+        "length": 121.89107980187914
       }
     },
     {
@@ -1351,7 +1351,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle A",
         "type": "living_street",
         "slope": 112.67168408981547,
         "sun_diff": 1.2602835682010465,
@@ -2789,52 +2789,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -89.2108847,
-            13.7068773
-          ],
-          [
-            -89.2099484,
-            13.7065126
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Los Sisimiles",
-        "type": "secondary",
-        "slope": 111.84730555125762,
-        "sun_diff": 2.0846621067588984,
-        "length": 109.00766971536433
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -89.2099484,
-            13.7065126
-          ],
-          [
-            -89.2086439,
-            13.7060223
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Los Sisimiles",
-        "type": "secondary",
-        "slope": 111.14992009141378,
-        "sun_diff": 2.782047566602742,
-        "length": 151.1488301646543
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -89.228286,
             13.6987998
           ],
@@ -2897,6 +2851,29 @@
         "slope": 115.54250772706206,
         "sun_diff": 1.6105400690455411,
         "length": 101.14830612284814
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.2099484,
+            13.7065126
+          ],
+          [
+            -89.2086439,
+            13.7060223
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Los Sisimiles",
+        "type": "secondary",
+        "slope": 111.14992009141378,
+        "sun_diff": 2.782047566602742,
+        "length": 151.1488301646543
       }
     }
   ]
