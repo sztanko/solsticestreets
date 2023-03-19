@@ -535,8 +535,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.9098436,
-            19.5225221
+            -96.9099317,
+            19.5225149
           ],
           [
             -96.908574,
@@ -548,9 +548,9 @@
       "properties": {
         "name": "Circuito Presidentes",
         "type": "secondary",
-        "slope": 65.42175200947275,
-        "sun_diff": 0.03376426447809422,
-        "length": 146.35962029918002
+        "slope": 66.57173819649344,
+        "sun_diff": 1.1837504514987813,
+        "length": 155.12311009303622
       }
     },
     {
@@ -4721,29 +4721,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.8481086,
-            19.5139093
-          ],
-          [
-            -96.8490454,
-            19.5135457
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Canaria",
-        "type": "residential",
-        "slope": 67.61904304257968,
-        "sun_diff": 2.2310552975850158,
-        "length": 106.21599545405515
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -96.9398305,
             19.6793949
           ],
@@ -6906,29 +6883,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.9298079,
-            19.5295066
-          ],
-          [
-            -96.9310587,
-            19.5301221
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Manuel \u00c1vila Camacho",
-        "type": "secondary",
-        "slope": 117.57019051643988,
-        "sun_diff": 2.956815866066208,
-        "length": 147.9189755200622
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -96.9037424,
             19.5639517
           ],
@@ -6987,7 +6941,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Jim\u00e9nez del Campillo",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 115.98609581420385,
         "sun_diff": 1.3727211638301782,
         "length": 144.14190272097497
@@ -7010,10 +6964,33 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Jim\u00e9nez del Campillo",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 113.04804693802646,
         "sun_diff": 1.5653277123472122,
         "length": 162.3401283804859
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8481086,
+            19.5139093
+          ],
+          [
+            -96.8490454,
+            19.5135457
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Canaria",
+        "type": "residential",
+        "slope": 67.61904304257968,
+        "sun_diff": 2.2310552975850158,
+        "length": 106.21599545405515
       }
     }
   ]

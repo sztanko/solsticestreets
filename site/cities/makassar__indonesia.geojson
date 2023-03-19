@@ -110,7 +110,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Tamangapa Raya",
-        "type": "primary",
+        "type": "secondary",
         "slope": 113.97537816800244,
         "sun_diff": 0.34509313543621545,
         "length": 105.19562572559852
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Inspeksi Perusahaan Air Minum",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.82883598694801,
         "sun_diff": 1.198550954381787,
         "length": 119.41262429093888
@@ -2134,7 +2134,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Nipa Nipa",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 115.5897405339513,
         "sun_diff": 1.9594555013850794,
         "length": 102.8799121378086
@@ -2184,29 +2184,6 @@
         "slope": 68.81535442187575,
         "sun_diff": 2.440950756947842,
         "length": 228.84650622907284
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            119.4596498,
-            -5.1472596
-          ],
-          [
-            119.4606385,
-            -5.1477527
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 116.59966775714983,
-        "sun_diff": 2.9750244608380427,
-        "length": 122.4946279923794
       }
     },
     {
@@ -2973,6 +2950,75 @@
         "type": "LineString",
         "coordinates": [
           [
+            119.4271279,
+            -5.2220809
+          ],
+          [
+            119.4248427,
+            -5.2211794
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 111.61043301280512,
+        "sun_diff": 2.019852019761103,
+        "length": 272.2652912920603
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.4243163,
+            -5.2209597
+          ],
+          [
+            119.4225743,
+            -5.2201697
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.48406816915625,
+        "sun_diff": 0.8537831365900246,
+        "length": 212.02461145523236
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.4221807,
+            -5.2199981
+          ],
+          [
+            119.4197989,
+            -5.2188923
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.99509243234408,
+        "sun_diff": 1.3648073997778596,
+        "length": 291.0912021296847
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             119.4390059,
             -5.2017751
           ],
@@ -3468,7 +3514,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 68.56231700551425,
         "sun_diff": 2.1935414164624376,
         "length": 141.30107219333493
@@ -5147,7 +5193,7 @@
       "type": "Feature",
       "properties": {
         "name": "Pintu Bandar Udara Internasional Sultan Hasanuddin",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 113.48458902309557,
         "sun_diff": 0.1400542732162222,
         "length": 123.92914418514849
@@ -6094,6 +6140,52 @@
         "slope": 113.97333155012046,
         "sun_diff": 0.34868825380867463,
         "length": 142.73598209097455
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.5296836,
+            -5.0652666
+          ],
+          [
+            119.5285594,
+            -5.0647479
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.85372853005782,
+        "sun_diff": 1.2290852337460336,
+        "length": 137.2697170793846
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.5286675,
+            -5.0652171
+          ],
+          [
+            119.5296916,
+            -5.0657155
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 116.039190000666,
+        "sun_diff": 2.4145467043542084,
+        "length": 126.28418576320152
       }
     },
     {
