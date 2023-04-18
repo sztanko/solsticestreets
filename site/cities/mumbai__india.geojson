@@ -972,29 +972,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8397963,
-            19.0892013
-          ],
-          [
-            72.8407904,
-            19.0896043
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "2nd Road",
-        "type": "residential",
-        "slope": 66.78152460629761,
-        "sun_diff": 1.3376659138922378,
-        "length": 113.7019722703439
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             72.842327,
             19.0970378
           ],
@@ -1018,29 +995,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8329832,
-            19.0703514
-          ],
-          [
-            72.8320648,
-            19.070757
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "13th Road",
-        "type": "residential",
-        "slope": 115.04593880365607,
-        "sun_diff": 0.49027242157984574,
-        "length": 106.56766520132135
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             72.8833,
             19.2385
           ],
@@ -1053,7 +1007,7 @@
       "type": "Feature",
       "properties": {
         "name": "Lion Safari Road",
-        "type": "unclassified",
+        "type": "service",
         "slope": 65.13797496046342,
         "sun_diff": 0.291731579981672,
         "length": 185.19177649810754
@@ -1076,7 +1030,7 @@
       "type": "Feature",
       "properties": {
         "name": "Lion Safari Road",
-        "type": "unclassified",
+        "type": "service",
         "slope": 67.44037604698173,
         "sun_diff": 2.0106695065366296,
         "length": 142.00756418526922
@@ -1145,7 +1099,7 @@
       "type": "Feature",
       "properties": {
         "name": "Prarthana Samaj Road",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 63.126692214079696,
         "sun_diff": 2.3171664783256745,
         "length": 115.26057977849048
@@ -1294,52 +1248,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8786046,
-            19.2230443
-          ],
-          [
-            72.8800637,
-            19.2236927
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kanheri Caves Road",
-        "type": "residential",
-        "slope": 64.79713027271856,
-        "sun_diff": 0.6325762677265345,
-        "length": 169.36912194863456
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8811366,
-            19.2242397
-          ],
-          [
-            72.8820808,
-            19.2246652
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kanheri Caves Road",
-        "type": "residential",
-        "slope": 64.48669423474314,
-        "sun_diff": 0.9430123057019557,
-        "length": 109.88175127666722
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             72.8279434,
             18.9435764
           ],
@@ -1413,8 +1321,8 @@
             19.1094242
           ],
           [
-            72.8747654,
-            19.1098088
+            72.8748703,
+            19.109769
           ]
         ]
       },
@@ -1422,9 +1330,9 @@
       "properties": {
         "name": "Mathuradas Vasanji Road (Andheri Kurla Road)",
         "type": "primary",
-        "slope": 111.89646753898583,
-        "sun_diff": 2.659198843090394,
-        "length": 114.71045610453655
+        "slope": 111.8986818883549,
+        "sun_diff": 2.6569844937213247,
+        "length": 102.82984496332874
       }
     },
     {
@@ -1789,7 +1697,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jangaleswar Mahadeo Mandir Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 116.17937949661334,
         "sun_diff": 1.6237131145371109,
         "length": 106.2675418174991
@@ -1881,7 +1789,7 @@
       "type": "Feature",
       "properties": {
         "name": "Station Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 64.09330092446251,
         "sun_diff": 1.3505577679428598,
         "length": 138.21422399227757
@@ -3123,7 +3031,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 114.48791114356354,
         "sun_diff": 0.08192105085129242,
         "length": 100.14670813575304
@@ -4721,8 +4629,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8525449,
-            19.2411967
+            72.852506,
+            19.2412067
           ],
           [
             72.8514322,
@@ -4734,9 +4642,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 67.1077962589271,
-        "sun_diff": 1.6780897184819992,
-        "length": 126.84235207697478
+        "slope": 65.89545874705982,
+        "sun_diff": 0.4657522066147237,
+        "length": 123.53929261780301
       }
     },
     {
@@ -4974,8 +4882,77 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8641985,
-            19.0607588
+            72.8708991,
+            19.0742749
+          ],
+          [
+            72.8699168,
+            19.0738457
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Cruz \u2013 Chembur Link Road",
+        "type": "trunk",
+        "slope": 65.18815816830181,
+        "sun_diff": 0.2557005241035597,
+        "length": 113.76377019182047
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8685842,
+            19.0732634
+          ],
+          [
+            72.8668433,
+            19.0725027
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Cruz \u2013 Chembur Link Road",
+        "type": "trunk",
+        "slope": 65.18712788727476,
+        "sun_diff": 0.25673080513061564,
+        "length": 201.62316599303887
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8668433,
+            19.0725027
+          ],
+          [
+            72.8647605,
+            19.0715926
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Cruz \u2013 Chembur Link Road",
+        "type": "trunk",
+        "slope": 65.18714952803384,
+        "sun_diff": 0.2567091643715287,
+        "length": 241.2216710257951
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8641974,
+            19.0607593
           ],
           [
             72.8633068,
@@ -4987,9 +4964,9 @@
       "properties": {
         "name": null,
         "type": "secondary",
-        "slope": 112.80091338759132,
-        "sun_diff": 1.7547529944849032,
-        "length": 101.6920934474909
+        "slope": 112.79727283531105,
+        "sun_diff": 1.758393546765177,
+        "length": 101.56393343541586
       }
     },
     {
@@ -5032,7 +5009,7 @@
       "type": "Feature",
       "properties": {
         "name": "D P Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 117.0153916110398,
         "sun_diff": 2.4597252289635776,
         "length": 151.43133463674314
@@ -6573,7 +6550,7 @@
       "type": "Feature",
       "properties": {
         "name": "D P Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 116.58632819528233,
         "sun_diff": 2.030661813206109,
         "length": 153.04633138018195
@@ -6596,7 +6573,7 @@
       "type": "Feature",
       "properties": {
         "name": "D P Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 115.65342903834554,
         "sun_diff": 1.0977626562693104,
         "length": 152.71625061701127
@@ -6619,7 +6596,7 @@
       "type": "Feature",
       "properties": {
         "name": "Deonar Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 112.09364310494439,
         "sun_diff": 2.447959917630783,
         "length": 173.17886724124403
@@ -6642,7 +6619,7 @@
       "type": "Feature",
       "properties": {
         "name": "Deonar Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 111.57926973885861,
         "sun_diff": 2.9623332837165606,
         "length": 156.17417935995888
@@ -6803,7 +6780,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "service",
         "slope": 112.06952047607103,
         "sun_diff": 2.5003048881546306,
         "length": 135.02165814102148
@@ -6860,12 +6837,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8708664,
-            19.0743421
+            72.8666569,
+            19.0727748
           ],
           [
-            72.8698814,
-            19.0739185
+            72.8675242,
+            19.0731538
           ]
         ]
       },
@@ -6873,9 +6850,9 @@
       "properties": {
         "name": "Santa Cruz \u2013 Chembur Link Road",
         "type": "trunk",
-        "slope": 65.5328939525973,
-        "sun_diff": 0.08903526019193464,
-        "length": 113.76203291795791
+        "slope": 65.18552079483302,
+        "sun_diff": 0.25833789757234626,
+        "length": 100.4479568214919
       }
     },
     {
@@ -6883,12 +6860,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8698814,
-            19.0739185
+            72.8698496,
+            19.0740791
           ],
           [
-            72.8685544,
-            19.0733248
+            72.870865,
+            19.0745228
           ]
         ]
       },
@@ -6896,101 +6873,9 @@
       "properties": {
         "name": "Santa Cruz \u2013 Chembur Link Road",
         "type": "trunk",
-        "slope": 64.66765705033714,
-        "sun_diff": 0.7762016420682301,
-        "length": 154.33973439568788
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8685544,
-            19.0733248
-          ],
-          [
-            72.866822,
-            19.0725464
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Santa Cruz \u2013 Chembur Link Road",
-        "type": "trunk",
-        "slope": 64.57281087616497,
-        "sun_diff": 0.8710478162404058,
-        "length": 201.64984958754056
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.866822,
-            19.0725464
-          ],
-          [
-            72.8647414,
-            19.0716319
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Santa Cruz \u2013 Chembur Link Road",
-        "type": "trunk",
-        "slope": 65.0585743758725,
-        "sun_diff": 0.385284316532875,
-        "length": 241.21769047278954
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8647414,
-            19.0716319
-          ],
-          [
-            72.8635704,
-            19.07113
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Santa Cruz \u2013 Chembur Link Road",
-        "type": "trunk",
-        "slope": 65.6057594078923,
-        "sun_diff": 0.1619007154869223,
-        "length": 135.16813924967062
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8727343,
-            19.0753893
-          ],
-          [
-            72.8743949,
-            19.0760756
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Santa Cruz \u2013 Chembur Link Road",
-        "type": "trunk",
-        "slope": 66.38031839725087,
-        "sun_diff": 0.9364597048455039,
-        "length": 190.5267449543848
+        "slope": 65.1862246672861,
+        "sun_diff": 0.25763402511927325,
+        "length": 117.59881216465104
       }
     },
     {
@@ -8217,29 +8102,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.9687867,
-            19.2643555
-          ],
-          [
-            72.9698383,
-            19.2648699
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 62.607919188228095,
-        "sun_diff": 2.8075259172300093,
-        "length": 124.36328756413789
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             72.8842261,
             19.0359178
           ],
@@ -8516,8 +8378,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8870589,
-            19.0288031
+            72.8873892,
+            19.0289558
           ],
           [
             72.8856714,
@@ -8528,10 +8390,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
-        "slope": 67.85949981092554,
-        "sun_diff": 2.4015709288299547,
-        "length": 157.5127957831451
+        "type": "residential",
+        "slope": 67.08734524924773,
+        "sun_diff": 1.629416367152146,
+        "length": 196.10236443579183
       }
     },
     {
@@ -9666,29 +9528,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8733552,
-            19.2147712
-          ],
-          [
-            72.8742935,
-            19.2151769
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 65.39757509854397,
-        "sun_diff": 0.03213144190112871,
-        "length": 108.39274637157192
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             72.8753364,
             19.2161689
           ],
@@ -9701,7 +9540,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 63.76887765614782,
         "sun_diff": 1.660828884297274,
         "length": 133.22603561776813
@@ -9866,29 +9705,6 @@
         "slope": 64.11990159469832,
         "sun_diff": 1.3098049457467766,
         "length": 111.53823317125448
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8834763,
-            19.0650904
-          ],
-          [
-            72.8825299,
-            19.0646797
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 65.33805694064878,
-        "sun_diff": 0.10580175175658724,
-        "length": 109.48008183056652
       }
     },
     {
@@ -10218,6 +10034,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            72.8714491,
+            19.0746467
+          ],
+          [
+            72.8723378,
+            19.075035
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 65.18817031567218,
+        "sun_diff": 0.25568837673318967,
+        "length": 102.92307084051696
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             72.873841,
             19.1068062
           ],
@@ -10276,7 +10115,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 64.68329079742645,
         "sun_diff": 0.7605678949789194,
         "length": 100.37743965343779
@@ -10460,7 +10299,7 @@
       "type": "Feature",
       "properties": {
         "name": "Khot Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.97112218162627,
         "sun_diff": 0.5414156411811746,
         "length": 125.27120012396368
@@ -10793,52 +10632,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8655803,
-            19.0722411
-          ],
-          [
-            72.8666989,
-            19.0727693
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Santa Cruz \u2013 Chembur Link Road",
-        "type": "trunk",
-        "slope": 63.452157438062386,
-        "sun_diff": 1.9917012543429848,
-        "length": 131.45170243635428
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8689203,
-            19.0737358
-          ],
-          [
-            72.8698296,
-            19.0741201
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Santa Cruz \u2013 Chembur Link Road",
-        "type": "trunk",
-        "slope": 65.90653472323004,
-        "sun_diff": 0.46267603082466735,
-        "length": 104.71069923788727
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             72.9109815,
             18.9018121
           ],
@@ -10901,6 +10694,167 @@
         "slope": 111.93143572882283,
         "sun_diff": 2.6242306532533917,
         "length": 107.09137667303092
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8786046,
+            19.2230443
+          ],
+          [
+            72.8800637,
+            19.2236927
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Kanheri Caves Road",
+        "type": "unclassified",
+        "slope": 64.79713027271856,
+        "sun_diff": 0.6325762677265345,
+        "length": 169.36912194863456
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8811366,
+            19.2242397
+          ],
+          [
+            72.8820808,
+            19.2246652
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Kanheri Caves Road",
+        "type": "unclassified",
+        "slope": 64.48669423474314,
+        "sun_diff": 0.9430123057019557,
+        "length": 109.88175127666722
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.9687867,
+            19.2643555
+          ],
+          [
+            72.9698383,
+            19.2648699
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "secondary",
+        "slope": 62.607919188228095,
+        "sun_diff": 2.8075259172300093,
+        "length": 124.36328756413789
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8329832,
+            19.0703514
+          ],
+          [
+            72.8320648,
+            19.070757
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "13th Road",
+        "type": "residential",
+        "slope": 115.04593880365607,
+        "sun_diff": 0.49027242157984574,
+        "length": 106.56766520132135
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8744705,
+            19.0759394
+          ],
+          [
+            72.8734218,
+            19.0754622
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Cruz \u2013 Chembur Link Road",
+        "type": "trunk",
+        "slope": 64.29020668905338,
+        "sun_diff": 1.1536520033519935,
+        "length": 122.35410811526772
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8733435,
+            19.0756082
+          ],
+          [
+            72.8743926,
+            19.0760847
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Cruz \u2013 Chembur Link Road",
+        "type": "trunk",
+        "slope": 64.33151429741167,
+        "sun_diff": 1.1123443949936984,
+        "length": 122.35816161045638
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.9395655,
+            19.1650831
+          ],
+          [
+            72.9383145,
+            19.165569
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 112.35249156248182,
+        "sun_diff": 2.217333801743848,
+        "length": 142.11445699348366
       }
     }
   ]

@@ -1352,7 +1352,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "road",
+        "type": "residential",
         "slope": 62.60910174231873,
         "sun_diff": 2.9756030145731813,
         "length": 120.88690243208438
@@ -2617,7 +2617,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "road",
+        "type": "unclassified",
         "slope": 59.17469052262436,
         "sun_diff": 0.5058545481242618,
         "length": 115.45747620687514
@@ -3882,7 +3882,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 122.31414960250524,
         "sun_diff": 1.9491682747122212,
         "length": 145.48686654678505
@@ -3905,7 +3905,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 57.172416084286084,
         "sun_diff": 2.461082643459463,
         "length": 352.97150403924775
@@ -4771,6 +4771,29 @@
             39.8582705
           ],
           [
+            127.3495339,
+            39.858893
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "secondary",
+        "slope": 122.42519508157181,
+        "sun_diff": 2.060213753778797,
+        "length": 129.13287935368214
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            127.3495339,
+            39.858893
+          ],
+          [
             127.3466145,
             39.8603164
           ]
@@ -4780,9 +4803,9 @@
       "properties": {
         "name": null,
         "type": "secondary",
-        "slope": 122.42360771395076,
-        "sun_diff": 2.0586263861577407,
-        "length": 424.42800521832606
+        "slope": 122.42267834314654,
+        "sun_diff": 2.0576970153535257,
+        "length": 295.29512588861166
       }
     },
     {
@@ -6090,7 +6113,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "road",
+        "type": "unclassified",
         "slope": 122.55095693526425,
         "sun_diff": 2.0910769591430665,
         "length": 113.96875769276612
@@ -6243,8 +6266,8 @@
             40.0421134
           ],
           [
-            127.4130848,
-            40.0426635
+            127.4131218,
+            40.0426465
           ]
         ]
       },
@@ -6252,55 +6275,9 @@
       "properties": {
         "name": null,
         "type": "primary",
-        "slope": 121.0058005853144,
-        "sun_diff": 0.5934997069515333,
-        "length": 118.78229607513327
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            127.4130848,
-            40.0426635
-          ],
-          [
-            127.4119161,
-            40.0431935
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 120.64127061484479,
-        "sun_diff": 0.22896973648191477,
-        "length": 115.66894167466836
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            127.4119161,
-            40.0431935
-          ],
-          [
-            127.4105501,
-            40.0438544
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 122.29247838188914,
-        "sun_diff": 1.8801775035262693,
-        "length": 137.60081858221918
+        "slope": 121.00692547544125,
+        "sun_diff": 0.5946245970783792,
+        "length": 115.10773990523874
       }
     },
     {
@@ -7359,29 +7336,6 @@
         "slope": 58.66019744244247,
         "sun_diff": 0.8305230108931596,
         "length": 159.02360135090078
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            127.577338,
-            39.8494549
-          ],
-          [
-            127.5791009,
-            39.850204
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "road",
-        "slope": 61.03601363964182,
-        "sun_diff": 1.355468568893201,
-        "length": 172.06181500243798
       }
     },
     {
@@ -8540,11 +8494,11 @@
         "coordinates": [
           [
             127.7181522,
-            39.8625755
+            39.8626411
           ],
           [
-            127.7204798,
-            39.863583
+            127.7204503,
+            39.8636509
           ]
         ]
       },
@@ -8552,9 +8506,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 60.5804968907463,
-        "sun_diff": 0.9469981630007567,
-        "length": 228.14457895853803
+        "slope": 60.21046327033426,
+        "sun_diff": 0.576964542588712,
+        "length": 226.08093349464107
       }
     },
     {
