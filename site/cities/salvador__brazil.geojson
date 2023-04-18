@@ -363,7 +363,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua dos Pelicanos",
-        "type": "residential",
+        "type": "service",
         "slope": 65.06959660546877,
         "sun_diff": 0.6106959152457421,
         "length": 203.63577102915696
@@ -386,7 +386,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua dos Flamingos",
-        "type": "residential",
+        "type": "service",
         "slope": 64.6057651412005,
         "sun_diff": 1.0745273795140236,
         "length": 146.93363377406857
@@ -409,7 +409,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua do Sabi\u00e1",
-        "type": "residential",
+        "type": "service",
         "slope": 64.41536570962148,
         "sun_diff": 1.2649268110930336,
         "length": 101.1474973935432
@@ -432,7 +432,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Ant\u00f4nio Pessoa de Souza",
-        "type": "residential",
+        "type": "service",
         "slope": 64.71628700910975,
         "sun_diff": 0.9761086068140514,
         "length": 166.70100634525195
@@ -455,7 +455,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Paulo Gil Soares",
-        "type": "residential",
+        "type": "service",
         "slope": 64.6535020245168,
         "sun_diff": 1.0267904961977194,
         "length": 192.9475082917322
@@ -478,7 +478,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua No\u00eamia Rego",
-        "type": "residential",
+        "type": "service",
         "slope": 64.92648913828668,
         "sun_diff": 0.753803382427833,
         "length": 203.1779683223277
@@ -524,7 +524,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua dos Tizius",
-        "type": "residential",
+        "type": "service",
         "slope": 64.48154976077814,
         "sun_diff": 1.1987427599363798,
         "length": 210.0394317611358
@@ -547,7 +547,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua dos Azul\u00f5es",
-        "type": "residential",
+        "type": "service",
         "slope": 64.85583779137588,
         "sun_diff": 0.8244547293386404,
         "length": 167.25139911691176
@@ -570,7 +570,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua dos P\u00e1ssaros Pretos",
-        "type": "residential",
+        "type": "service",
         "slope": 64.85104211762479,
         "sun_diff": 0.8292504030897305,
         "length": 132.96068406650699
@@ -730,7 +730,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Rua Alfa",
         "type": "service",
         "slope": 111.62928586257053,
         "sun_diff": 2.6791276715512424,
@@ -1237,7 +1237,7 @@
       "type": "Feature",
       "properties": {
         "name": "Alameda das Algas",
-        "type": "residential",
+        "type": "service",
         "slope": 64.33989880544542,
         "sun_diff": 1.3524968104783852,
         "length": 140.27283874978457
@@ -1260,7 +1260,7 @@
       "type": "Feature",
       "properties": {
         "name": "Alameda dos Corais",
-        "type": "residential",
+        "type": "service",
         "slope": 65.05488990775376,
         "sun_diff": 0.637505708170039,
         "length": 130.60104897187875
@@ -1283,7 +1283,7 @@
       "type": "Feature",
       "properties": {
         "name": "Alameda das Sereias",
-        "type": "residential",
+        "type": "service",
         "slope": 65.51094527325384,
         "sun_diff": 0.18145034266996163,
         "length": 117.23523280774629
@@ -1306,7 +1306,7 @@
       "type": "Feature",
       "properties": {
         "name": "Alameda \u00c1gua Viva",
-        "type": "residential",
+        "type": "service",
         "slope": 64.82544964160786,
         "sun_diff": 0.8669459743159393,
         "length": 104.98619464241389
@@ -2294,7 +2294,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Rua Delta",
         "type": "service",
         "slope": 63.155115853629695,
         "sun_diff": 2.537279762294105,
@@ -3238,7 +3238,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Eg\u00eddio Carvalho Filho",
-        "type": "residential",
+        "type": "service",
         "slope": 64.3594158262791,
         "sun_diff": 1.3329797896446962,
         "length": 123.92149908989403
@@ -3950,7 +3950,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Rua Ampliacao",
         "type": "service",
         "slope": 111.37605904292786,
         "sun_diff": 2.944450756213996,
@@ -4323,6 +4323,29 @@
         "slope": 116.7008379722445,
         "sun_diff": 2.38032817310264,
         "length": 108.02849157950342
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -38.6402142,
+            -13.0066733
+          ],
+          [
+            -38.6411061,
+            -13.0062462
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Flaviano de Alcantara Borges",
+        "type": "residential",
+        "slope": 116.17290959276943,
+        "sun_diff": 1.8523997936275691,
+        "length": 107.70395464367185
       }
     },
     {
@@ -5905,7 +5928,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Rua F\u00e1bio Fontenelle",
+        "name": null,
         "type": "service",
         "slope": 115.40079856389735,
         "sun_diff": 1.080288764755494,
@@ -5963,8 +5986,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -38.6408831,
-            -12.7606893
+            -38.6407811,
+            -12.7606468
           ],
           [
             -38.6397185,
@@ -5976,9 +5999,9 @@
       "properties": {
         "name": "Rua do Tanque",
         "type": "residential",
-        "slope": 66.85630716611263,
-        "sun_diff": 1.1518904172496036,
-        "length": 137.39633138703712
+        "slope": 66.85528364300109,
+        "sun_diff": 1.150866894138062,
+        "length": 125.36361576771496
       }
     },
     {
@@ -7527,22 +7550,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -38.6361216,
-            -13.0009027
+            -38.3829665,
+            -12.9480193
           ],
           [
-            -38.6351017,
-            -13.0012906
+            -38.384375,
+            -12.9486183
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Rua Jo\u00e3o Cypriano Batista Brasileiro",
         "type": "residential",
-        "slope": 111.32257672163473,
-        "sun_diff": 2.9979330775071276,
-        "length": 118.65761076961145
+        "slope": 66.42491878528361,
+        "sun_diff": 0.7325231693598084,
+        "length": 166.58747739082332
       }
     }
   ]
