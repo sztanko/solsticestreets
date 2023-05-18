@@ -2352,29 +2352,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -57.5995698,
-            -25.3357006
-          ],
-          [
-            -57.5986543,
-            -25.3353323
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Universitarios Lambare\u00f1os",
-        "type": "residential",
-        "slope": 66.005938709325,
-        "sun_diff": 2.5777234825037567,
-        "length": 100.74193122374827
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -57.6007306,
             -25.3353361
           ],
@@ -2916,7 +2893,7 @@
       "type": "Feature",
       "properties": {
         "name": "Doctor Facundo Macha\u00edn",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 115.90614978496168,
         "sun_diff": 0.6668471194236645,
         "length": 111.56105951544777
@@ -3123,7 +3100,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jos\u00e9 de la Cruz Ayala",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 117.88184238996834,
         "sun_diff": 1.3088454855829923,
         "length": 113.16854039720603
@@ -3146,7 +3123,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jos\u00e9 de la Cruz Ayala",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 115.92455767984961,
         "sun_diff": 0.6484392245357355,
         "length": 131.45979460582635
@@ -3169,7 +3146,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jos\u00e9 de la Cruz Ayala",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 115.8931755171159,
         "sun_diff": 0.6798213872694419,
         "length": 146.91614148272444
@@ -8072,29 +8049,6 @@
         "slope": 118.362597120315,
         "sun_diff": 1.789600215929653,
         "length": 105.90294629306138
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -57.5865595,
-            -25.2992995
-          ],
-          [
-            -57.5874415,
-            -25.2988549
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Doctor Eduardo L\u00f3pez Moreira",
-        "type": "residential",
-        "slope": 119.14212508363835,
-        "sun_diff": 2.569128179252999,
-        "length": 101.55027268606862
       }
     },
     {
@@ -14853,7 +14807,7 @@
       "type": "Feature",
       "properties": {
         "name": "Alfredo Seiferheld",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 119.27715577124505,
         "sun_diff": 2.7041588668597,
         "length": 100.16783993250971
@@ -14876,7 +14830,7 @@
       "type": "Feature",
       "properties": {
         "name": "Alfredo Seiferheld",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 117.25719796960902,
         "sun_diff": 0.6842010652236752,
         "length": 110.82029151076124
@@ -14899,7 +14853,7 @@
       "type": "Feature",
       "properties": {
         "name": "Alfredo Seiferheld",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 118.54619781074322,
         "sun_diff": 1.9732009063578744,
         "length": 101.9035272521038
@@ -14922,7 +14876,7 @@
       "type": "Feature",
       "properties": {
         "name": "Alfredo Seiferheld",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 117.88253063668643,
         "sun_diff": 1.3095337323010767,
         "length": 144.2754066628149
@@ -14945,7 +14899,7 @@
       "type": "Feature",
       "properties": {
         "name": "Alfredo Seiferheld",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 118.46505783450243,
         "sun_diff": 1.8920609301170828,
         "length": 229.3094457315479
@@ -14968,7 +14922,7 @@
       "type": "Feature",
       "properties": {
         "name": "Alfredo Seiferheld",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 117.6365033016408,
         "sun_diff": 1.063506397255452,
         "length": 125.07505498283297
@@ -16808,7 +16762,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Rep\u00fablica Argentina",
-        "type": "primary",
+        "type": "secondary",
         "slope": 61.4017482162221,
         "sun_diff": 2.0264670105991343,
         "length": 169.14542807584507
@@ -16831,7 +16785,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Rep\u00fablica Argentina",
-        "type": "primary",
+        "type": "secondary",
         "slope": 62.04193116724497,
         "sun_diff": 1.386284059576269,
         "length": 100.83205418949562
@@ -18721,6 +18675,29 @@
         "slope": 116.3143376423541,
         "sun_diff": 0.25865926203124445,
         "length": 100.66727152159808
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -57.5995698,
+            -25.3357006
+          ],
+          [
+            -57.5986543,
+            -25.3353323
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Universitarios Lambare\u00f1os",
+        "type": "residential",
+        "slope": 66.005938709325,
+        "sun_diff": 2.5777234825037567,
+        "length": 100.74193122374827
       }
     }
   ]

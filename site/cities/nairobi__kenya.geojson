@@ -64,7 +64,7 @@
       "type": "Feature",
       "properties": {
         "name": "University Way",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 63.69816272214584,
         "sun_diff": 2.833499218232447,
         "length": 143.0599981679681
@@ -114,29 +114,6 @@
         "slope": 115.35698559015574,
         "sun_diff": 1.8887399654589103,
         "length": 110.35797902815851
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            36.8047763,
-            -1.2305682
-          ],
-          [
-            36.8056082,
-            -1.2309112
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Gigiri Drive",
-        "type": "residential",
-        "slope": 112.41146332683417,
-        "sun_diff": 1.054145844843049,
-        "length": 100.06898361346917
       }
     },
     {
@@ -892,7 +869,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 111.32973683639935,
         "sun_diff": 2.135872335277867,
         "length": 210.54280623009413
@@ -1225,6 +1202,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            36.8199551,
+            -1.2829809
+          ],
+          [
+            36.8211111,
+            -1.2824413
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Tubman Road",
+        "type": "living_street",
+        "slope": 64.97217831095747,
+        "sun_diff": 1.5594836294208108,
+        "length": 141.87078531380752
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             36.8428882,
             -1.2661224
           ],
@@ -1513,7 +1513,7 @@
       "type": "Feature",
       "properties": {
         "name": "USIU Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 110.48385459624822,
         "sun_diff": 2.981754575428994,
         "length": 112.16959065845825
@@ -2525,7 +2525,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 67.71756131031745,
         "sun_diff": 1.1832492565412167,
         "length": 295.19689596338293
@@ -2548,7 +2548,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 68.44694475905112,
         "sun_diff": 1.9126327052748877,
         "length": 128.77206766660473
@@ -2571,7 +2571,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 67.5400386479761,
         "sun_diff": 1.0057265941998708,
         "length": 103.47428491549658
@@ -3870,29 +3870,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            36.7334695,
-            -1.4039583
-          ],
-          [
-            36.7344619,
-            -1.4044329
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 115.56544019976636,
-        "sun_diff": 2.094476159779859,
-        "length": 122.32811594567347
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             36.7340407,
             -1.3728565
           ],
@@ -3943,8 +3920,8 @@
             -1.390142
           ],
           [
-            36.6977464,
-            -1.3894057
+            36.6972192,
+            -1.389619
           ]
         ]
       },
@@ -3952,9 +3929,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 67.9678339622148,
-        "sun_diff": 1.4388767767478328,
-        "length": 218.32206822632247
+        "slope": 67.96843161871888,
+        "sun_diff": 1.4394744332519167,
+        "length": 155.0799801391894
       }
     },
     {
@@ -4020,7 +3997,7 @@
       "type": "Feature",
       "properties": {
         "name": "Monrovia Lane",
-        "type": "residential",
+        "type": "living_street",
         "slope": 64.1716109380584,
         "sun_diff": 2.360051002319892,
         "length": 124.76675714923334
@@ -7297,12 +7274,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            36.8495133,
-            -1.1951055
+            36.8494892,
+            -1.195135
           ],
           [
-            36.8504418,
-            -1.1955223
+            36.8504338,
+            -1.1955625
           ]
         ]
       },
@@ -7310,9 +7287,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 114.17978498311365,
-        "sun_diff": 0.7141758114364336,
-        "length": 113.18472196919494
+        "slope": 114.35488673650525,
+        "sun_diff": 0.8892775648280349,
+        "length": 115.30607823425512
       }
     },
     {
@@ -7401,7 +7378,7 @@
       "type": "Feature",
       "properties": {
         "name": "Thika Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 63.595987444803626,
         "sun_diff": 2.935674495574659,
         "length": 148.8490651113611
@@ -7424,7 +7401,7 @@
       "type": "Feature",
       "properties": {
         "name": "Thika Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 64.15730428437152,
         "sun_diff": 2.374357656006765,
         "length": 117.0727779272865
@@ -7562,7 +7539,7 @@
       "type": "Feature",
       "properties": {
         "name": "Parklands Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 112.4136059867995,
         "sun_diff": 1.0546396378973384,
         "length": 174.97357686477952
@@ -10356,29 +10333,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            36.9327244,
-            -1.2307866
-          ],
-          [
-            36.9315675,
-            -1.230274
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 113.90209789911054,
-        "sun_diff": 0.43648872743332845,
-        "length": 140.72042744486657
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             36.9352992,
             -1.2380498
           ],
@@ -11978,7 +11932,7 @@
       "type": "Feature",
       "properties": {
         "name": "Moktar Daddah Street",
-        "type": "residential",
+        "type": "living_street",
         "slope": 64.24626423245505,
         "sun_diff": 2.285397707923238,
         "length": 111.97120002312
@@ -12852,7 +12806,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kitisuru Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 111.98546695747632,
         "sun_diff": 1.480142214200896,
         "length": 116.05151974178568
@@ -12875,7 +12829,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kitisuru Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 113.49550673767678,
         "sun_diff": 0.029897565999561948,
         "length": 112.29639081814477
@@ -12898,7 +12852,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kitisuru Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 112.83955077062492,
         "sun_diff": 0.6260584010522905,
         "length": 107.86218568986546
@@ -12967,7 +12921,7 @@
       "type": "Feature",
       "properties": {
         "name": "Thika Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 64.99824133145248,
         "sun_diff": 1.533420608925809,
         "length": 109.19126659975477
@@ -13726,7 +13680,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ngecha Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 64.38355623459222,
         "sun_diff": 2.1507558191840133,
         "length": 165.2195940696034
@@ -14324,7 +14278,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitanga Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 111.79661137959633,
         "sun_diff": 1.6716342451005062,
         "length": 120.84177259038333
@@ -16785,7 +16739,7 @@
       "type": "Feature",
       "properties": {
         "name": "Getathuru Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 110.55552087259491,
         "sun_diff": 2.910088299082304,
         "length": 108.65912526241988
@@ -19181,29 +19135,6 @@
         "slope": 69.47652252542798,
         "sun_diff": 2.9475653399610167,
         "length": 102.76169127942842
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            36.7490315,
-            -1.4302091
-          ],
-          [
-            36.7500148,
-            -1.4298057
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 67.68778474852809,
-        "sun_diff": 1.1588275630611236,
-        "length": 118.18703871682621
       }
     },
     {
@@ -26514,7 +26445,7 @@
       "type": "Feature",
       "properties": {
         "name": "Lumumba Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 114.95050754503151,
         "sun_diff": 1.484898373354298,
         "length": 191.64315388179054
@@ -27572,7 +27503,7 @@
       "type": "Feature",
       "properties": {
         "name": "Red Hill Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 116.12770301597689,
         "sun_diff": 2.662093844299676,
         "length": 202.1909312966766
@@ -27595,7 +27526,7 @@
       "type": "Feature",
       "properties": {
         "name": "Red Hill Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 115.33143805180151,
         "sun_diff": 1.8658288801242975,
         "length": 129.98578525451762
@@ -27618,7 +27549,7 @@
       "type": "Feature",
       "properties": {
         "name": "Red Hill Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 115.94197503895919,
         "sun_diff": 2.47636586728197,
         "length": 104.32389584113595
@@ -29446,6 +29377,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            36.837187,
+            -1.2676105
+          ],
+          [
+            36.8363281,
+            -1.2672471
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 112.93821849770339,
+        "sun_diff": 0.5300271269934456,
+        "length": 103.7129681716947
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             37.0869577,
             -1.2338924
           ],
@@ -30631,7 +30585,7 @@
       "type": "Feature",
       "properties": {
         "name": "Magadi Road",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 67.58312732876692,
         "sun_diff": 1.054170143299956,
         "length": 102.14616114657618
@@ -30654,7 +30608,7 @@
       "type": "Feature",
       "properties": {
         "name": "Magadi Road",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 64.72246132844177,
         "sun_diff": 1.8064958570251974,
         "length": 117.58487585054932
@@ -30677,7 +30631,7 @@
       "type": "Feature",
       "properties": {
         "name": "Magadi Road",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 63.826944426616166,
         "sun_diff": 2.702012758850799,
         "length": 125.75911115482452
@@ -31436,7 +31390,7 @@
       "type": "Feature",
       "properties": {
         "name": "Limuru Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 112.17672045289532,
         "sun_diff": 1.288888718781891,
         "length": 101.42754998414229
@@ -31666,7 +31620,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 67.83097031253106,
         "sun_diff": 1.2966582587548316,
         "length": 113.04556477804952
@@ -31689,7 +31643,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 68.29122446532955,
         "sun_diff": 1.7569124115533157,
         "length": 152.49073020444183
@@ -31712,7 +31666,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 67.49214961143994,
         "sun_diff": 0.9578375576637086,
         "length": 152.7191112726286
@@ -31735,7 +31689,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 67.40959841071319,
         "sun_diff": 0.8752863569369538,
         "length": 173.1538830875507
@@ -31758,7 +31712,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 68.5516640278444,
         "sun_diff": 2.0173519740681627,
         "length": 170.49709225494684
@@ -31781,7 +31735,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 67.61350838888063,
         "sun_diff": 1.079196335104399,
         "length": 166.29611492370628
@@ -31999,29 +31953,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            36.8368407,
-            -1.2669011
-          ],
-          [
-            36.8379032,
-            -1.2673633
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 113.51473511116501,
-        "sun_diff": 0.0464894864681753,
-        "length": 128.8530782691393
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             36.8394023,
             -1.2660424
           ],
@@ -32080,7 +32011,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 68.32322619250422,
         "sun_diff": 1.7889141387279892,
         "length": 182.33652610860673
@@ -32103,7 +32034,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 65.41836755914898,
         "sun_diff": 1.1159444946272572,
         "length": 141.04625582842496
@@ -32172,33 +32103,10 @@
       "type": "Feature",
       "properties": {
         "name": "Kasarani Mwiki Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 114.73473682539085,
         "sun_diff": 1.269127653713639,
         "length": 120.50272941164334
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            36.9269022,
-            -1.2323222
-          ],
-          [
-            36.9280186,
-            -1.2328161
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kasarani Mwiki Road",
-        "type": "tertiary",
-        "slope": 113.86970560330033,
-        "sun_diff": 0.4040964316231168,
-        "length": 135.76007690968592
       }
     },
     {
@@ -32218,7 +32126,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kasarani Mwiki Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 115.0639995513668,
         "sun_diff": 1.5983903796895902,
         "length": 209.8407124232259
@@ -32264,7 +32172,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kangundo Road",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 65.35639059705858,
         "sun_diff": 1.1752713433197073,
         "length": 131.5105314350245
@@ -32379,7 +32287,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kasarani Mwiki Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 114.90227279844507,
         "sun_diff": 1.436663626767853,
         "length": 168.82392633922325
@@ -32402,7 +32310,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kasarani Mwiki Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 113.85797800493236,
         "sun_diff": 0.3923688332551478,
         "length": 161.97548639322403
@@ -32517,7 +32425,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mutual Lane",
-        "type": "unclassified",
+        "type": "living_street",
         "slope": 64.50745986199234,
         "sun_diff": 2.0242020783859402,
         "length": 181.061281028022
@@ -32701,7 +32609,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 68.22123390844686,
         "sun_diff": 1.6869218546706293,
         "length": 113.26131517824076
@@ -32724,7 +32632,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 69.14117484980727,
         "sun_diff": 2.606862796031038,
         "length": 178.4343011446399
@@ -32770,7 +32678,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 64.37246731473851,
         "sun_diff": 2.1618447390377185,
         "length": 110.0419679075814
@@ -32793,10 +32701,217 @@
       "type": "Feature",
       "properties": {
         "name": "Gitaru Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 65.30522230750572,
         "sun_diff": 1.2290897462705175,
         "length": 132.98563555108265
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.7875963,
+            -1.4361832
+          ],
+          [
+            36.7909764,
+            -1.4346933
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 66.20616632563255,
+        "sun_diff": 0.3227908598344129,
+        "length": 410.76363386310896
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.0484237,
+            -1.4113429
+          ],
+          [
+            37.0498117,
+            -1.4119018
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 111.9389841706963,
+        "sun_diff": 1.531979869290197,
+        "length": 166.3897193690181
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.0498117,
+            -1.4119018
+          ],
+          [
+            37.0507506,
+            -1.4123069
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 113.3447118885716,
+        "sun_diff": 0.12625215141490287,
+        "length": 113.71061638936565
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.7478701,
+            -1.4297319
+          ],
+          [
+            36.7469823,
+            -1.4301073
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 67.07286586250348,
+        "sun_diff": 0.5439086770365122,
+        "length": 107.18673626497882
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.7765273,
+            -1.2225919
+          ],
+          [
+            36.7756367,
+            -1.2221795
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.85187299393584,
+        "sun_diff": 1.386263822258627,
+        "length": 109.14595080925766
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.8097051,
+            -1.2340151
+          ],
+          [
+            36.8081977,
+            -1.2334245
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 111.39977843893783,
+        "sun_diff": 2.0658307327393857,
+        "length": 180.04154887564727
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.8084465,
+            -1.232852
+          ],
+          [
+            36.8094999,
+            -1.233281
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 112.16338067935803,
+        "sun_diff": 1.3022284923191876,
+        "length": 126.48835860637121
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.9269022,
+            -1.2323222
+          ],
+          [
+            36.9280186,
+            -1.2328161
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Kasarani Mwiki Road",
+        "type": "secondary",
+        "slope": 113.86970560330033,
+        "sun_diff": 0.4040964316231168,
+        "length": 135.76007690968592
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.9327244,
+            -1.2307866
+          ],
+          [
+            36.9315675,
+            -1.230274
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.90209789911054,
+        "sun_diff": 0.43648872743332845,
+        "length": 140.72042744486657
       }
     }
   ]

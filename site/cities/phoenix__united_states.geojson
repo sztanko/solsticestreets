@@ -52,8 +52,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -112.2393274,
-            33.8316016
+            -112.2393035,
+            33.831613
           ],
           [
             -112.2379328,
@@ -65,9 +65,9 @@
       "properties": {
         "name": "Unfinished AZ 74",
         "type": "unclassified",
-        "slope": 59.71643474676702,
-        "sun_diff": 2.3605231754155795,
-        "length": 149.21712584518184
+        "slope": 59.70917279250588,
+        "sun_diff": 2.3677851296767187,
+        "length": 146.6707624711854
       }
     },
     {
@@ -390,6 +390,29 @@
         "slope": 63.9877050381227,
         "sun_diff": 1.9107471159400973,
         "length": 101.95617399639359
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.1579198,
+            33.4701341
+          ],
+          [
+            -112.1568591,
+            33.4697176
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "West Hubbell Street",
+        "type": "residential",
+        "slope": 115.20737307777318,
+        "sun_diff": 2.615944595696348,
+        "length": 108.77576755069526
       }
     },
     {
@@ -5032,7 +5055,7 @@
       "type": "Feature",
       "properties": {
         "name": "West Shaughnessey Road",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 118.21757630810365,
         "sun_diff": 0.4602519223947752,
         "length": 115.45957221339914
@@ -7826,29 +7849,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -112.0694551,
-            33.7631961
-          ],
-          [
-            -112.0678542,
-            33.7624032
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 120.78475511529382,
-        "sun_diff": 2.861088302538448,
-        "length": 172.31607953215902
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -111.9286412,
             33.443267
           ],
@@ -9551,29 +9551,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -112.2683958,
-            33.6895026
-          ],
-          [
-            -112.2672582,
-            33.6899654
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "West Williams Road",
-        "type": "tertiary",
-        "slope": 63.9442399015505,
-        "sun_diff": 1.8336501278947708,
-        "length": 117.19473942715918
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -112.1191883,
             33.8487484
           ],
@@ -9728,6 +9705,29 @@
         "slope": 63.67566686883279,
         "sun_diff": 1.465301691781491,
         "length": 106.72722102445384
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.0694551,
+            33.7631961
+          ],
+          [
+            -112.0678542,
+            33.7624032
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 120.78475511529382,
+        "sun_diff": 2.861088302538448,
+        "length": 172.31607953215902
       }
     }
   ]
