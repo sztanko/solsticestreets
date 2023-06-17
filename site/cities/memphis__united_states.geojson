@@ -788,12 +788,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -89.816425,
-            35.1460704
+            -89.8163973,
+            35.1460478
           ],
           [
-            -89.8153614,
-            35.1465728
+            -89.8153495,
+            35.1465556
           ]
         ]
       },
@@ -801,9 +801,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 59.985861263241304,
-        "sun_diff": 1.6374354942690559,
-        "length": 111.71624941417959
+        "slope": 59.345077615858884,
+        "sun_diff": 2.2782191416514763,
+        "length": 110.77932230063342
       }
     },
     {
@@ -2030,29 +2030,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -89.9057358,
-            35.2390074
-          ],
-          [
-            -89.90454,
-            35.238478
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kendall Place",
-        "type": "residential",
-        "slope": 118.45951203502472,
-        "sun_diff": 0.04515077191729233,
-        "length": 123.56825965338761
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -89.9074365,
             35.1393579
           ],
@@ -3203,29 +3180,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -89.9138525,
-            35.0921149
-          ],
-          [
-            -89.9125485,
-            35.0915059
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Kimball Avenue",
-        "type": "residential",
-        "slope": 119.71645848694592,
-        "sun_diff": 1.3384065094662958,
-        "length": 136.6505178366536
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -90.0669108,
             35.0196525
           ],
@@ -3836,7 +3790,7 @@
       "type": "Feature",
       "properties": {
         "name": "Walnut Grove Road",
-        "type": "trunk",
+        "type": "secondary",
         "slope": 61.04419104801869,
         "sun_diff": 0.579105709491671,
         "length": 102.83573560065253
@@ -5147,7 +5101,7 @@
       "type": "Feature",
       "properties": {
         "name": "Union Avenue",
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.611211176021584,
         "sun_diff": 1.0120855814887761,
         "length": 241.9159214520773
@@ -7033,7 +6987,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sam Cooper Boulevard",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.87623810791169,
         "sun_diff": 0.5018138695679397,
         "length": 105.55316636489863
@@ -7056,7 +7010,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sam Cooper Boulevard",
-        "type": "trunk",
+        "type": "primary",
         "slope": 118.13632448925276,
         "sun_diff": 0.2417274882268714,
         "length": 106.11804004727159
@@ -9176,6 +9130,29 @@
         "slope": 61.78355258716152,
         "sun_diff": 0.12413778932014452,
         "length": 337.8061451661298
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.9138525,
+            35.0921149
+          ],
+          [
+            -89.9125485,
+            35.0915059
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Kimball Avenue",
+        "type": "residential",
+        "slope": 119.71645848694592,
+        "sun_diff": 1.3384065094662958,
+        "length": 136.6505178366536
       }
     }
   ]

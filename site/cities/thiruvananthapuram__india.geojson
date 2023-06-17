@@ -29,29 +29,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.9991694,
-            8.3772512
-          ],
-          [
-            76.9982081,
-            8.3777097
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 115.73884429142626,
-        "sun_diff": 2.1731045465166545,
-        "length": 117.43596619511325
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             77.0338954,
             8.3874132
           ],
@@ -351,29 +328,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.7214035,
-            8.7332505
-          ],
-          [
-            76.7205382,
-            8.7328709
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Temple Road",
-        "type": "secondary",
-        "slope": 66.06657054533534,
-        "sun_diff": 0.3525845190344796,
-        "length": 104.08044045300836
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             76.8189611,
             8.6595374
           ],
@@ -616,7 +570,7 @@
       "type": "Feature",
       "properties": {
         "name": "Salem - Kochi - Kanyakumari Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.16303594788494,
         "sun_diff": 0.2754075707010202,
         "length": 118.98157902567844
@@ -639,7 +593,7 @@
       "type": "Feature",
       "properties": {
         "name": "Salem - Kochi - Kanyakumari Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 112.3078446445925,
         "sun_diff": 1.253189099978954,
         "length": 183.3498602210952
@@ -2962,7 +2916,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 111.0231920154061,
         "sun_diff": 2.542547729503511,
         "length": 160.66881941047518
@@ -2985,7 +2939,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 115.78542229612174,
         "sun_diff": 2.2196825512121308,
         "length": 112.09864468773
@@ -3035,29 +2989,6 @@
         "slope": 63.87528575791333,
         "sun_diff": 2.563157760672624,
         "length": 208.02256427769856
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            77.2080719,
-            8.312976
-          ],
-          [
-            77.2089163,
-            8.3126208
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 113.03131748697888,
-        "sun_diff": 0.5297162575925825,
-        "length": 100.98508875839596
       }
     },
     {
@@ -3249,29 +3180,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.9876142,
-            8.4665454
-          ],
-          [
-            76.9862647,
-            8.4671488
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "NH 66",
-        "type": "trunk",
-        "slope": 114.32562169671311,
-        "sun_diff": 0.7550939891953306,
-        "length": 162.93410977391932
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             76.8007233,
             8.7891468
           ],
@@ -3376,7 +3284,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 69.29884005019832,
         "sun_diff": 2.8847120050576223,
         "length": 108.43137300005218
@@ -3932,29 +3840,6 @@
         "slope": 112.15443720309477,
         "sun_diff": 1.420960429301232,
         "length": 100.4626204318436
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.7793972,
-            8.6560202
-          ],
-          [
-            76.7803993,
-            8.6564356
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 67.25140513597532,
-        "sun_diff": 0.8322500716055004,
-        "length": 119.48871741240411
       }
     },
     {
@@ -4905,6 +4790,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            77.2036086,
+            8.3147405
+          ],
+          [
+            77.2046978,
+            8.3151734
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Kuzhithurai - Alancholai - Arukani Road",
+        "type": "secondary",
+        "slope": 68.11614121880646,
+        "sun_diff": 1.6776977002205058,
+        "length": 129.18703977535694
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             77.2121954,
             8.3343536
           ],
@@ -5135,6 +5043,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            76.9876142,
+            8.4665454
+          ],
+          [
+            76.9862647,
+            8.4671488
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Thiruvananthapuram - Nagercoil Highway",
+        "type": "primary",
+        "slope": 114.32562169671311,
+        "sun_diff": 0.7550939891953306,
+        "length": 162.93410977391932
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.9867358,
+            8.4670803
+          ],
+          [
+            76.9878023,
+            8.4665722
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Thiruvananthapuram - Nagercoil Highway",
+        "type": "primary",
+        "slope": 115.7186024164373,
+        "sun_diff": 2.1480747089195233,
+        "length": 130.23536659263843
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             77.0047705,
             8.4533187
           ],
@@ -5146,8 +5100,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "NH 66",
-        "type": "trunk",
+        "name": "Thiruvananthapuram - Nagercoil Highway",
+        "type": "primary",
         "slope": 112.87921612516931,
         "sun_diff": 0.6913115823484759,
         "length": 149.56906853568915
@@ -5169,8 +5123,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "NH 66",
-        "type": "trunk",
+        "name": "Thiruvananthapuram - Nagercoil Highway",
+        "type": "primary",
         "slope": 114.3349603663545,
         "sun_diff": 0.7692206214448873,
         "length": 112.74937712258838
@@ -5192,8 +5146,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "NH 66",
-        "type": "trunk",
+        "name": "Thiruvananthapuram - Nagercoil Highway",
+        "type": "primary",
         "slope": 114.138804462574,
         "sun_diff": 0.5730647176643942,
         "length": 191.99742946892184
@@ -5208,18 +5162,18 @@
             8.4278787
           ],
           [
-            77.0395025,
-            8.4272654
+            77.0388204,
+            8.4274899
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "NH 66",
-        "type": "trunk",
-        "slope": 111.51300574907083,
-        "sun_diff": 2.0527339958387785,
-        "length": 186.02372590417343
+        "name": "Thiruvananthapuram - Nagercoil Highway",
+        "type": "primary",
+        "slope": 113.80831451165943,
+        "sun_diff": 0.2425747667498257,
+        "length": 107.1302716078647
       }
     },
     {
@@ -5848,12 +5802,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.2099054,
-            8.3110025
+            77.2119087,
+            8.3102364
           ],
           [
-            77.2089769,
-            8.3113904
+            77.210691,
+            8.3107216
           ]
         ]
       },
@@ -5861,9 +5815,9 @@
       "properties": {
         "name": null,
         "type": "secondary",
-        "slope": 112.88971353101638,
-        "sun_diff": 0.6713202135550773,
-        "length": 110.92716487838862
+        "slope": 111.93389648889763,
+        "sun_diff": 1.62713725567383,
+        "length": 144.4804590738527
       }
     },
     {
@@ -5871,12 +5825,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.2100685,
-            8.3109961
+            77.2106352,
+            8.3107873
           ],
           [
-            77.2090634,
-            8.3114505
+            77.2096367,
+            8.3111633
           ]
         ]
       },
@@ -5884,9 +5838,9 @@
       "properties": {
         "name": "Salem - Kochi - Kanyakumari Road",
         "type": "trunk",
-        "slope": 114.55533393222112,
-        "sun_diff": 0.9943001876496567,
-        "length": 121.62243451784376
+        "slope": 110.83490500473323,
+        "sun_diff": 2.726128739838231,
+        "length": 117.58563378126033
       }
     },
     {
@@ -5894,8 +5848,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.2090634,
-            8.3114505
+            77.2089803,
+            8.3114399
           ],
           [
             77.208043,
@@ -5907,9 +5861,9 @@
       "properties": {
         "name": "Salem - Kochi - Kanyakumari Road",
         "type": "trunk",
-        "slope": 113.19759998401719,
-        "sun_diff": 0.36343376055427257,
-        "length": 122.185211528393
+        "slope": 115.54663180312767,
+        "sun_diff": 1.9855980585562065,
+        "length": 114.33905319423685
       }
     },
     {
@@ -6032,31 +5986,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.1591014,
-            8.3138533
-          ],
-          [
-            77.1604639,
-            8.3132747
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 113.22756460786977,
-        "sun_diff": 0.3334691367016944,
-        "length": 163.18494828121294
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            77.2300996,
-            8.3035051
+            77.2300002,
+            8.3035131
           ],
           [
             77.2289584,
@@ -6068,9 +5999,9 @@
       "properties": {
         "name": null,
         "type": "secondary",
-        "slope": 114.67946806979813,
-        "sun_diff": 1.1184343252266729,
-        "length": 138.23103636673886
+        "slope": 116.3628885388402,
+        "sun_diff": 2.801854794268735,
+        "length": 127.97370139154482
       }
     },
     {
@@ -6227,7 +6158,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Kodankara Road",
+        "name": null,
         "type": "unclassified",
         "slope": 65.7741951417928,
         "sun_diff": 0.6595492066441864,
@@ -6250,7 +6181,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Kodankara Road",
+        "name": null,
         "type": "unclassified",
         "slope": 66.76420940778533,
         "sun_diff": 0.3304650593483416,
@@ -6485,29 +6416,6 @@
         "slope": 67.36178034721843,
         "sun_diff": 0.9328171312004656,
         "length": 105.93834047707809
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            77.0507925,
-            8.3478314
-          ],
-          [
-            77.0497088,
-            8.3483197
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 114.48507184091304,
-        "sun_diff": 0.924038096341576,
-        "length": 131.04777600919022
       }
     },
     {
@@ -6963,7 +6871,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "perrorkada road",
+        "name": "Peroorkkada Road",
         "type": "secondary",
         "slope": 68.87129816717172,
         "sun_diff": 2.4423349511537538,
@@ -7148,7 +7056,7 @@
       "type": "Feature",
       "properties": {
         "name": "Vallakkadavu Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 116.04641988916381,
         "sun_diff": 2.4758921816460315,
         "length": 127.18886820376613
@@ -7999,7 +7907,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 64.76340152672847,
         "sun_diff": 1.660698594600433,
         "length": 265.6058713348599
@@ -8022,7 +7930,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 64.74696318891296,
         "sun_diff": 1.677136932415948,
         "length": 215.15046575156933
@@ -11253,12 +11161,173 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.1068761,
+            77.0969787,
+            8.352486
+          ],
+          [
+            77.0961242,
+            8.3528308
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 112.18745528432925,
+        "sun_diff": 1.3782844605803604,
+        "length": 101.557721344886
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0961242,
+            8.3528308
+          ],
+          [
+            77.0939034,
+            8.3537436
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 112.5595032596789,
+        "sun_diff": 1.0062364852307013,
+        "length": 264.64909391904604
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0939034,
+            8.3537436
+          ],
+          [
+            77.0928347,
+            8.354187
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 112.75056329197528,
+        "sun_diff": 0.815176452934324,
+        "length": 127.53239633124268
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0922607,
+            8.3547231
+          ],
+          [
+            77.0939478,
+            8.3540703
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 111.35976874497351,
+        "sun_diff": 2.205970999936099,
+        "length": 199.35807187196974
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0968553,
+            8.3528995
+          ],
+          [
+            77.0990896,
+            8.351995
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 112.25262165363057,
+        "sun_diff": 1.313118091279037,
+        "length": 265.6712021204857
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1015646,
+            8.3510862
+          ],
+          [
+            77.1034118,
+            8.3503082
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 113.05901280580758,
+        "sun_diff": 0.5067269391020233,
+        "length": 220.93789742288334
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1034118,
+            8.3503082
+          ],
+          [
+            77.1052962,
+            8.3495934
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 110.97626047079527,
+        "sun_diff": 2.589479274114339,
+        "length": 222.0983735474947
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1069217,
             8.3490387
           ],
           [
-            77.1081126,
-            8.3485
+            77.1082065,
+            8.3485292
           ]
         ]
       },
@@ -11266,9 +11335,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 113.7653942942477,
-        "sun_diff": 0.20436054967623818,
-        "length": 148.68629400265087
+        "slope": 111.84126153470825,
+        "sun_diff": 1.7197722098632084,
+        "length": 152.32802491994295
       }
     },
     {
@@ -11276,12 +11345,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.1081126,
-            8.3485
+            77.1089816,
+            8.3481895
           ],
           [
-            77.1093759,
-            8.3480197
+            77.1099794,
+            8.3478127
           ]
         ]
       },
@@ -11289,9 +11358,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 111.02008226490526,
-        "sun_diff": 2.540951479666205,
-        "length": 148.93889816447975
+        "slope": 110.89058713838722,
+        "sun_diff": 2.6704466061842425,
+        "length": 117.53562298899391
       }
     },
     {
@@ -11299,22 +11368,712 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.1593428,
-            8.3142169
+            77.1099794,
+            8.3478127
           ],
           [
-            77.1608421,
-            8.3135587
+            77.1118911,
+            8.3470936
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Subroad",
+        "name": null,
         "type": "unclassified",
-        "slope": 113.92528626388545,
-        "sun_diff": 0.36425251931399316,
-        "length": 180.5260052657994
+        "slope": 110.81603860271593,
+        "sun_diff": 2.744995141855526,
+        "length": 225.07700954266204
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1118911,
+            8.3470936
+          ],
+          [
+            77.1128352,
+            8.3466956
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 113.07781701555194,
+        "sun_diff": 0.4832167290195173,
+        "length": 112.93776651354632
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.12821,
+            8.3464658
+          ],
+          [
+            77.1293423,
+            8.3459842
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 113.26197878370627,
+        "sun_diff": 0.2990549608651918,
+        "length": 135.63784542047293
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.106919,
+            8.3486566
+          ],
+          [
+            77.1059024,
+            8.3490449
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 111.10912616299296,
+        "sun_diff": 2.451907581578496,
+        "length": 119.92534745910666
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1051816,
+            8.3492733
+          ],
+          [
+            77.1036012,
+            8.3498828
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 111.29552700961872,
+        "sun_diff": 2.265506734952737,
+        "length": 186.67027500363977
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1036012,
+            8.3498828
+          ],
+          [
+            77.1025995,
+            8.3503207
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 113.83780493159131,
+        "sun_diff": 0.2767711870198468,
+        "length": 120.51886001234575
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1010096,
+            8.3509333
+          ],
+          [
+            77.0980716,
+            8.3520255
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 110.59292736500822,
+        "sun_diff": 2.9728123799013844,
+        "length": 345.3976647299831
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0980716,
+            8.3520255
+          ],
+          [
+            77.0969787,
+            8.352486
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 113.06785533263891,
+        "sun_diff": 0.49788441227069313,
+        "length": 130.72643591349154
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1125287,
+            8.3465915
+          ],
+          [
+            77.1105858,
+            8.3473562
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 111.69271993913355,
+        "sun_diff": 1.8683138054379071,
+        "length": 230.1161297616475
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1105858,
+            8.3473562
+          ],
+          [
+            77.1081192,
+            8.3483005
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 111.15318486485415,
+        "sun_diff": 2.4078488797173065,
+        "length": 291.06486016996564
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1081192,
+            8.3483005
+          ],
+          [
+            77.1068342,
+            8.3488314
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 112.6642963356687,
+        "sun_diff": 0.8967374089027658,
+        "length": 153.24990383594653
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1049516,
+            8.3494778
+          ],
+          [
+            77.1020725,
+            8.3505933
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 111.38527266135495,
+        "sun_diff": 2.175761083216514,
+        "length": 340.2750638923699
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0996971,
+            8.3514929
+          ],
+          [
+            77.0987174,
+            8.3518712
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 111.31958917108565,
+        "sun_diff": 2.2461505738239538,
+        "length": 115.73642629247904
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0987174,
+            8.3518712
+          ],
+          [
+            77.0970029,
+            8.3525868
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 112.87273306625531,
+        "sun_diff": 0.6930066786542994,
+        "length": 204.78285743145747
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0970029,
+            8.3525868
+          ],
+          [
+            77.0945524,
+            8.353528
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 111.21638791048284,
+        "sun_diff": 2.34935183442677,
+        "length": 289.28479771401
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0945524,
+            8.353528
+          ],
+          [
+            77.0929428,
+            8.3542355
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 113.95387523352017,
+        "sun_diff": 0.38813548861055835,
+        "length": 193.82994364353806
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0929956,
+            8.3543569
+          ],
+          [
+            77.0945996,
+            8.3536351
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 114.45725597056992,
+        "sun_diff": 0.8915162256603111,
+        "length": 193.91996139143592
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0945996,
+            8.3536351
+          ],
+          [
+            77.0969922,
+            8.3527142
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 111.25711099002993,
+        "sun_diff": 2.3086287548796776,
+        "length": 282.5276542966052
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0969922,
+            8.3527142
+          ],
+          [
+            77.0987624,
+            8.3519792
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 112.76574865494482,
+        "sun_diff": 0.7999910899647915,
+        "length": 211.26970832762734
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0987624,
+            8.3519792
+          ],
+          [
+            77.0997388,
+            8.3516022
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 111.31825081640324,
+        "sun_diff": 2.247488928506371,
+        "length": 115.34551339218905
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1021205,
+            8.3507
+          ],
+          [
+            77.1049905,
+            8.3495881
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 111.38392395372719,
+        "sun_diff": 2.181815791182416,
+        "length": 339.19646087548773
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1068492,
+            8.3489698
+          ],
+          [
+            77.1081609,
+            8.3484098
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 113.34016318916207,
+        "sun_diff": 0.22087055540939105,
+        "length": 157.21949552186763
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1081609,
+            8.3484098
+          ],
+          [
+            77.1106285,
+            8.347465
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 111.15553512546197,
+        "sun_diff": 2.405498619109494,
+        "length": 291.18749500787465
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1106285,
+            8.347465
+          ],
+          [
+            77.1125704,
+            8.3467008
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Salem - Kochi - Kanyakumari Road",
+        "type": "trunk",
+        "slope": 111.68994708450941,
+        "sun_diff": 1.8710866600620477,
+        "length": 229.9932600210353
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1127229,
+            8.3464127
+          ],
+          [
+            77.1114422,
+            8.3469658
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 113.58112246649182,
+        "sun_diff": 0.020088721920359376,
+        "length": 153.78503822741575
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1100214,
+            8.3474847
+          ],
+          [
+            77.1080598,
+            8.3482369
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 111.18479662739648,
+        "sun_diff": 2.3762371171749805,
+        "length": 231.52306906725977
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1664443,
+            8.3099141
+          ],
+          [
+            77.1674799,
+            8.3094569
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 114.04485577458289,
+        "sun_diff": 0.48382203001142443,
+        "length": 124.81050656668569
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1730451,
+            8.3076403
+          ],
+          [
+            77.1749372,
+            8.3067879
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 114.47888334709859,
+        "sun_diff": 0.9178496025271272,
+        "length": 228.8172554463054
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1749372,
+            8.3067879
+          ],
+          [
+            77.177818,
+            8.3054586
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 115.00082211820902,
+        "sun_diff": 1.4397883736375547,
+        "length": 349.8501495966365
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.177818,
+            8.3054586
+          ],
+          [
+            77.1788481,
+            8.3050139
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 113.57072247591339,
+        "sun_diff": 0.009688731341924495,
+        "length": 123.69659182597262
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1604639,
+            8.3132747
+          ],
+          [
+            77.1591014,
+            8.3138533
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 113.22759524974683,
+        "sun_diff": 0.33343849482463384,
+        "length": 163.18494828121294
       }
     },
     {
@@ -11334,7 +12093,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kovalam - Poovar - Kaliyakkavilai Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 66.71258997848761,
         "sun_diff": 0.2741464599016581,
         "length": 164.53342068219237
@@ -11357,7 +12116,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kovalam - Poovar - Kaliyakkavilai Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 67.95852562700023,
         "sun_diff": 1.5200821084142717,
         "length": 159.57832160780868
@@ -11890,29 +12649,6 @@
         "slope": 114.57807615297202,
         "sun_diff": 1.0075484454542334,
         "length": 108.03867331640808
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.9867358,
-            8.4670803
-          ],
-          [
-            76.9878023,
-            8.4665722
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "NH 66",
-        "type": "trunk",
-        "slope": 115.7186024164373,
-        "sun_diff": 2.1480747089195233,
-        "length": 130.23536659263843
       }
     },
     {
@@ -12564,6 +13300,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            77.0307068,
+            8.3674198
+          ],
+          [
+            77.0316202,
+            8.3670685
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 111.24332952566971,
+        "sun_diff": 2.3224102192398988,
+        "length": 107.84388764503119
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             77.0132621,
             8.4760701
           ],
@@ -12580,29 +13339,6 @@
         "slope": 64.12078428091729,
         "sun_diff": 2.3081789351006705,
         "length": 104.25361902008717
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            77.0810697,
-            8.3050211
-          ],
-          [
-            77.0825591,
-            8.3043711
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 113.79948295203747,
-        "sun_diff": 0.2384492074660045,
-        "length": 179.1640776357063
       }
     },
     {
@@ -12782,7 +13518,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Kodankara Road",
+        "name": null,
         "type": "unclassified",
         "slope": 67.71208500974322,
         "sun_diff": 1.2783406613062311,
@@ -12856,29 +13592,6 @@
         "slope": 114.7354244868718,
         "sun_diff": 1.155081797516715,
         "length": 134.85433952189527
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.8595841,
-            8.5952587
-          ],
-          [
-            76.8584834,
-            8.5948169
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 67.90581457820858,
-        "sun_diff": 1.481714456879672,
-        "length": 130.64973596842682
       }
     },
     {
@@ -13047,29 +13760,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.1441425,
-            8.3297245
-          ],
-          [
-            77.1477777,
-            8.3311758
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Parasalai - Kollencode Road",
-        "type": "secondary",
-        "slope": 68.02625528135766,
-        "sun_diff": 1.5878117627717074,
-        "length": 431.4164025279364
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             77.0124934,
             8.7367107
           ],
@@ -13132,52 +13822,6 @@
         "slope": 114.40025633004049,
         "sun_diff": 0.8199204708745782,
         "length": 164.45855661878767
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            77.2084018,
-            8.3118064
-          ],
-          [
-            77.209354,
-            8.3113995
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 113.35768171178725,
-        "sun_diff": 0.20335203278420977,
-        "length": 114.15594318853977
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            77.209354,
-            8.3113995
-          ],
-          [
-            77.2103884,
-            8.3109997
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 111.33593365239506,
-        "sun_diff": 2.2251000921764046,
-        "length": 122.22465985426656
       }
     },
     {
@@ -13771,8 +14415,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Thiruvananthapuram - Nagercoil Highway",
+        "type": "primary",
         "slope": 113.3255356261873,
         "sun_diff": 0.2402041187223034,
         "length": 106.18609647161463
@@ -13794,8 +14438,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Thiruvananthapuram - Nagercoil Highway",
+        "type": "primary",
         "slope": 114.98465979308094,
         "sun_diff": 1.41892004817133,
         "length": 123.37645338043693
@@ -14006,6 +14650,98 @@
         "slope": 111.3610570878478,
         "sun_diff": 2.2294079418572466,
         "length": 117.17113242451958
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.7304449,
+            8.7460834
+          ],
+          [
+            76.7294017,
+            8.7456248
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 66.02144398939888,
+        "sun_diff": 0.3977110749709425,
+        "length": 125.51830733331842
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1588144,
+            8.314469
+          ],
+          [
+            77.1608421,
+            8.3135587
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 114.40379324568565,
+        "sun_diff": 0.8427595011141875,
+        "length": 245.0655022504373
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1774081,
+            8.305206
+          ],
+          [
+            77.17888,
+            8.3045296
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 114.91070860464708,
+        "sun_diff": 1.3496748600756234,
+        "length": 178.6202595141375
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1441425,
+            8.3297245
+          ],
+          [
+            77.1477777,
+            8.3311758
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Parasalai - Kollencode Road",
+        "type": "trunk",
+        "slope": 68.02625528135766,
+        "sun_diff": 1.5878117627717074,
+        "length": 431.4164025279364
       }
     }
   ]
