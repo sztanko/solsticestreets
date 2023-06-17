@@ -11322,8 +11322,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -85.829412,
-            38.278002
+            -85.8295041,
+            38.2779591
           ],
           [
             -85.8315685,
@@ -11335,9 +11335,9 @@
       "properties": {
         "name": "Floyd Street",
         "type": "service",
-        "slope": 59.29936056426766,
-        "sun_diff": 1.0577557249057463,
-        "length": 218.99344940792074
+        "slope": 59.29857185878285,
+        "sun_diff": 1.0585444303905547,
+        "length": 209.64241641742072
       }
     },
     {
@@ -13534,18 +13534,18 @@
             38.1860162
           ],
           [
-            -85.741189,
-            38.18672
+            -85.741067,
+            38.186757
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Departures",
-        "type": "trunk",
-        "slope": 60.343331761925725,
-        "sun_diff": 0.05681471901874602,
-        "length": 158.21259019067514
+        "type": "primary",
+        "slope": 60.918289497439275,
+        "sun_diff": 0.518143016494804,
+        "length": 169.52636393576705
       }
     },
     {
@@ -15865,7 +15865,7 @@
       "type": "Feature",
       "properties": {
         "name": "Terminal Drive",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.02238432020701,
         "sun_diff": 0.6222378392625387,
         "length": 156.51326105899517
@@ -21212,29 +21212,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -85.6447676,
-            38.362446
-          ],
-          [
-            -85.6462099,
-            38.3618491
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Patrol Road",
-        "type": "unclassified",
-        "slope": 62.17483562691163,
-        "sun_diff": 1.8609954163194402,
-        "length": 142.23739172159262
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -85.5091025,
             38.2967161
           ],
@@ -22788,7 +22765,7 @@
       "type": "Feature",
       "properties": {
         "name": "Phillips Lane",
-        "type": "residential",
+        "type": "secondary",
         "slope": 59.708445272680564,
         "sun_diff": 0.6917012082639076,
         "length": 139.809463550983
@@ -23022,29 +22999,6 @@
         "slope": 61.10371638170096,
         "sun_diff": 0.7466274132842443,
         "length": 151.2060297122218
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -85.8645217,
-            38.1789289
-          ],
-          [
-            -85.8657328,
-            38.1794195
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 117.26319108819771,
-        "sun_diff": 2.338011165847803,
-        "length": 119.12694410975287
       }
     },
     {
@@ -23781,6 +23735,52 @@
         "slope": 58.8867582748986,
         "sun_diff": 1.5133882060458745,
         "length": 125.04295808707788
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -85.6447676,
+            38.362446
+          ],
+          [
+            -85.6462099,
+            38.3618491
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Patrol Road",
+        "type": "unclassified",
+        "slope": 62.17483562691163,
+        "sun_diff": 1.8609954163194402,
+        "length": 142.23739172159262
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -85.656057,
+            38.2262006
+          ],
+          [
+            -85.6547154,
+            38.2268634
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 57.83452780153266,
+        "sun_diff": 2.5656186794118128,
+        "length": 138.48243590540417
       }
     }
   ]

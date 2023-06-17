@@ -1731,29 +1731,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -38.5794662,
-            -3.6985539
-          ],
-          [
-            -38.5804933,
-            -3.6981112
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Travessa Holandeses",
-        "type": "residential",
-        "slope": 113.36042073865187,
-        "sun_diff": 0.19437021301820323,
-        "length": 124.18592775008415
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -38.5750996,
             -3.7035654
           ],
@@ -1839,6 +1816,29 @@
         "slope": 66.36284987660332,
         "sun_diff": 0.08310685006964036,
         "length": 131.08115075866658
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -38.6050587,
+            -3.7181522
+          ],
+          [
+            -38.6059233,
+            -3.7177217
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Roberto Nascimento Alves",
+        "type": "residential",
+        "slope": 116.51773448228195,
+        "sun_diff": 2.9629435306118808,
+        "length": 107.2500267286872
       }
     },
     {
@@ -4618,7 +4618,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 110.97352641804602,
         "sun_diff": 2.5858202698004504,
         "length": 181.54181061660486
@@ -8175,8 +8175,8 @@
             -3.700459
           ],
           [
-            -38.578349,
-            -3.7000017
+            -38.5783661,
+            -3.6999944
           ]
         ]
       },
@@ -8184,9 +8184,9 @@
       "properties": {
         "name": "Rua Encanto da Barra",
         "type": "residential",
-        "slope": 115.70903043085954,
-        "sun_diff": 2.154239479189471,
-        "length": 117.25510202703848
+        "slope": 115.66495600167315,
+        "sun_diff": 2.1101650500030757,
+        "length": 119.31754766469707
       }
     },
     {
@@ -10613,8 +10613,8 @@
             -3.736921
           ],
           [
-            -38.5167652,
-            -3.7365234
+            -38.5167514,
+            -3.7365289
           ]
         ]
       },
@@ -10622,32 +10622,9 @@
       "properties": {
         "name": "Rua Jaguaretama",
         "type": "residential",
-        "slope": 111.71481408773406,
-        "sun_diff": 1.8399768639360161,
-        "length": 119.53116153025869
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -38.5168111,
-            -3.7365053
-          ],
-          [
-            -38.5177435,
-            -3.7361477
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Jaguaretama",
-        "type": "residential",
-        "slope": 111.02392570832859,
-        "sun_diff": 2.5308652433414807,
-        "length": 110.87085821532442
+        "slope": 111.71401752041194,
+        "sun_diff": 1.8407734312581283,
+        "length": 117.88180276432648
       }
     },
     {
@@ -11667,8 +11644,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -38.5763332,
-            -3.7033966
+            -38.5763351,
+            -3.7033985
           ],
           [
             -38.5752381,
@@ -11680,9 +11657,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 115.57491972506747,
-        "sun_diff": 2.0201287733974027,
-        "length": 134.75662949784052
+        "slope": 115.45524665897901,
+        "sun_diff": 1.9004557073089359,
+        "length": 134.8559235590442
       }
     },
     {
@@ -11901,8 +11878,8 @@
             -3.7200403
           ],
           [
-            -38.606702,
-            -3.720686
+            -38.6067134,
+            -3.7206659
           ]
         ]
       },
@@ -11910,9 +11887,9 @@
       "properties": {
         "name": "Rua Raimundo Cunha",
         "type": "residential",
-        "slope": 114.85580406620431,
-        "sun_diff": 1.3010131145342427,
-        "length": 170.86597494071233
+        "slope": 114.34770878785093,
+        "sun_diff": 0.7929178361808624,
+        "length": 168.784722967704
       }
     },
     {
@@ -11920,8 +11897,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -38.606702,
-            -3.720686
+            -38.6067134,
+            -3.7206659
           ],
           [
             -38.6056991,
@@ -11933,9 +11910,9 @@
       "properties": {
         "name": "Rua Raimundo Cunha",
         "type": "residential",
-        "slope": 113.6512997735901,
-        "sun_diff": 0.09650882192002541,
-        "length": 121.52485632973085
+        "slope": 114.36539672513919,
+        "sun_diff": 0.8106057734691205,
+        "length": 123.59042126475411
       }
     },
     {
@@ -18302,7 +18279,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Estrada Para Colonial",
+        "name": "Estrada para Colonial",
         "type": "unclassified",
         "slope": 114.09606050298854,
         "sun_diff": 0.5367138151420647,
@@ -21044,29 +21021,6 @@
         "slope": 65.23174930850934,
         "sun_diff": 1.2142074181636247,
         "length": 209.66330910596693
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -38.4115317,
-            -3.8135756
-          ],
-          [
-            -38.4124675,
-            -3.8131562
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 114.18804479789051,
-        "sun_diff": 0.6286981100440414,
-        "length": 113.85418376771096
       }
     },
     {

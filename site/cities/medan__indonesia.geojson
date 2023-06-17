@@ -984,7 +984,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gang Sakiran",
-        "type": "residential",
+        "type": "living_street",
         "slope": 115.24847899265743,
         "sun_diff": 1.8214945407366372,
         "length": 139.95499595398
@@ -1218,29 +1218,6 @@
         "slope": 67.92896580138154,
         "sun_diff": 1.3571696694402533,
         "length": 120.24178571877768
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            98.6811358,
-            3.5992471
-          ],
-          [
-            98.679442,
-            3.598614
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Jalan Mahoni",
-        "type": "residential",
-        "slope": 69.46840195268442,
-        "sun_diff": 2.896605820743133,
-        "length": 200.78354313997298
       }
     },
     {
@@ -2018,8 +1995,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Jalan Boulevard Timur",
-        "type": "residential",
+        "name": null,
+        "type": "service",
         "slope": 115.15369584771739,
         "sun_diff": 1.726711395796599,
         "length": 183.3646691221728
@@ -2241,8 +2218,8 @@
             3.5971581
           ],
           [
-            98.6795191,
-            3.5975231
+            98.6794304,
+            3.5974898
           ]
         ]
       },
@@ -2250,9 +2227,9 @@
       "properties": {
         "name": "Jalan Perintis Kemerdekaan",
         "type": "primary",
-        "slope": 69.39448905318943,
-        "sun_diff": 2.822692921248148,
-        "length": 115.36016351229797
+        "slope": 69.39539116648814,
+        "sun_diff": 2.8235950345468552,
+        "length": 104.83991257520871
       }
     },
     {
@@ -3813,7 +3790,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 67.24356083789112,
         "sun_diff": 0.6717647059498404,
         "length": 114.30243447933637
@@ -4656,8 +4633,8 @@
             3.5969797
           ],
           [
-            98.6797061,
-            3.5974023
+            98.679498,
+            3.5973212
           ]
         ]
       },
@@ -4665,9 +4642,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 68.65432508444127,
-        "sun_diff": 2.0825289524999846,
-        "length": 129.13882603804169
+        "slope": 68.65058788249391,
+        "sun_diff": 2.078791750552625,
+        "length": 104.33873188164624
       }
     },
     {
@@ -5588,6 +5565,29 @@
         "slope": 69.41775840081496,
         "sun_diff": 2.845962268873677,
         "length": 185.6616925010575
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.6811358,
+            3.5992471
+          ],
+          [
+            98.679442,
+            3.598614
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Jalan Mahoni",
+        "type": "residential",
+        "slope": 69.46840195268442,
+        "sun_diff": 2.896605820743133,
+        "length": 200.78354313997298
       }
     }
   ]
