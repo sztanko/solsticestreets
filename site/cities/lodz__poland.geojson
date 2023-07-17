@@ -201,7 +201,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Nastrojowa",
         "type": "unclassified",
         "slope": 131.55383814728154,
         "sun_diff": 2.8816392414605048,
@@ -213,8 +213,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            19.5892395,
-            51.8518662
+            19.5892735,
+            51.8518495
           ],
           [
             19.5912073,
@@ -224,11 +224,11 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Nastrojowa",
         "type": "unclassified",
-        "slope": 128.4660321342406,
-        "sun_diff": 0.20616677158042762,
-        "length": 172.67719191849176
+        "slope": 128.46560684835268,
+        "sun_diff": 0.20659205746835596,
+        "length": 169.692663150335
       }
     },
     {
@@ -1398,7 +1398,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 53.82314135643932,
         "sun_diff": 2.3954865390604425,
         "length": 262.73870218530743
@@ -1421,7 +1421,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 53.7869131054714,
         "sun_diff": 2.3592582880925193,
         "length": 119.79869668534315
@@ -1444,7 +1444,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 53.74421828826681,
         "sun_diff": 2.316563470887928,
         "length": 155.88305152718127
@@ -1467,7 +1467,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 53.62935307402688,
         "sun_diff": 2.201698256648001,
         "length": 244.51769455024146
@@ -1490,7 +1490,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 53.498779101647045,
         "sun_diff": 2.0711242842681656,
         "length": 117.22531431254548
@@ -1950,7 +1950,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 128.38647152056086,
         "sun_diff": 0.08700986154781276,
         "length": 192.62942144899904
@@ -1973,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 128.08085319238853,
         "sun_diff": 0.392628189720142,
         "length": 193.6133669820178
@@ -1996,7 +1996,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 128.63941265183234,
         "sun_diff": 0.16593126972367145,
         "length": 122.76930295113
@@ -2019,7 +2019,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 128.24025224657953,
         "sun_diff": 0.23322913552914315,
         "length": 304.0022588472239
@@ -2421,8 +2421,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            19.5404962,
-            51.8245614
+            19.5401401,
+            51.82438
           ],
           [
             19.5387787,
@@ -2434,9 +2434,9 @@
       "properties": {
         "name": "Jana i Cecylii",
         "type": "residential",
-        "slope": 50.51225136085591,
-        "sun_diff": 0.9154034565229665,
-        "length": 152.99599177286657
+        "slope": 50.51399478084781,
+        "sun_diff": 0.9136600365310699,
+        "length": 121.27148231295953
       }
     },
     {
@@ -3571,6 +3571,98 @@
         "type": "LineString",
         "coordinates": [
           [
+            19.3471143,
+            51.8118435
+          ],
+          [
+            19.3482988,
+            51.8124608
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 49.870521205314674,
+        "sun_diff": 1.5571336120642059,
+        "length": 106.53317213312214
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.3482988,
+            51.8124608
+          ],
+          [
+            19.3581277,
+            51.8175832
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 49.866833111729306,
+        "sun_diff": 1.5608217056495732,
+        "length": 883.9782909757985
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.3581277,
+            51.8175832
+          ],
+          [
+            19.3611005,
+            51.8191973
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 48.70510435052557,
+        "sun_diff": 2.7225504668533063,
+        "length": 272.0540063344942
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.3608668,
+            51.8192903
+          ],
+          [
+            19.3469372,
+            51.811938
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 49.51138091500479,
+        "sun_diff": 1.916273902374087,
+        "length": 1259.4491053957322
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             19.3255651,
             51.8011403
           ],
@@ -4192,6 +4284,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            19.3666964,
+            51.8223929
+          ],
+          [
+            19.3611801,
+            51.8194557
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 49.25885554423408,
+        "sun_diff": 2.168799273144799,
+        "length": 500.57738271617126
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.3614107,
+            51.8193604
+          ],
+          [
+            19.3669251,
+            51.8222595
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 49.61690015857374,
+        "sun_diff": 1.8107546588051378,
+        "length": 497.7230981684947
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             19.3946134,
             51.7159874
           ],
@@ -4300,6 +4438,29 @@
         "slope": 49.281029657828526,
         "sun_diff": 2.2456355817588474,
         "length": 104.3836951456613
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.3567112,
+            51.8166185
+          ],
+          [
+            19.3528234,
+            51.8145396
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 49.14161198682709,
+        "sun_diff": 2.286042830551793,
+        "length": 353.4631402660305
       }
     }
   ]

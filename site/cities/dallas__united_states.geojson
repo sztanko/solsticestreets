@@ -524,7 +524,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 62.19210878152842,
         "sun_diff": 0.2456197326142444,
         "length": 109.27246523897499
@@ -1593,22 +1593,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.6933895,
-            32.6374834
+            -96.69347,
+            32.6378087
           ],
           [
-            -96.6919955,
-            32.638055
+            -96.6920829,
+            32.6384757
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Woodbrook",
+        "name": "Woodbrook Drive",
         "type": "residential",
-        "slope": 64.03704808046561,
-        "sun_diff": 1.5676548093307474,
-        "length": 145.22751444750338
+        "slope": 60.272313163218,
+        "sun_diff": 2.197080107916861,
+        "length": 149.61432857603003
       }
     },
     {
@@ -5871,6 +5871,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -96.5364505,
+            32.6386784
+          ],
+          [
+            -96.5354624,
+            32.6381982
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "South Kaufman Street",
+        "type": "tertiary",
+        "slope": 119.98982200504796,
+        "sun_diff": 2.457798239301127,
+        "length": 106.85779652392415
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -96.67126,
             32.737561
           ],
@@ -7405,52 +7428,6 @@
         "slope": 62.65273593693274,
         "sun_diff": 0.24686342507899894,
         "length": 116.94808217123038
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.552154,
-            32.652555
-          ],
-          [
-            -96.550901,
-            32.651992
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "North Highway 175",
-        "type": "secondary",
-        "slope": 118.08703405804144,
-        "sun_diff": 0.5233318749240823,
-        "length": 133.00895055412929
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.549973,
-            32.651591
-          ],
-          [
-            -96.5480163,
-            32.6507259
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "North Highway 175",
-        "type": "secondary",
-        "slope": 117.70400838652577,
-        "sun_diff": 0.14030620340841438,
-        "length": 206.97728278917708
       }
     },
     {
@@ -9229,98 +9206,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.7789968,
-            32.6407767
-          ],
-          [
-            -96.780675,
-            32.6399617
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Cedardale Road",
-        "type": "tertiary",
-        "slope": 60.02724117538148,
-        "sun_diff": 2.4421520957533858,
-        "length": 181.45345588160652
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.780675,
-            32.6399617
-          ],
-          [
-            -96.7818339,
-            32.6393913
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Cedardale Road",
-        "type": "tertiary",
-        "slope": 59.694015099938184,
-        "sun_diff": 2.775378171196678,
-        "length": 125.72950277905265
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.7818339,
-            32.6393913
-          ],
-          [
-            -96.7828618,
-            32.6388925
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Cedardale Road",
-        "type": "tertiary",
-        "slope": 60.04684975418445,
-        "sun_diff": 2.4225435169504124,
-        "length": 111.12006226427843
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.7885822,
-            32.6361205
-          ],
-          [
-            -96.789679,
-            32.6356046
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Cedardale Road",
-        "type": "tertiary",
-        "slope": 60.81426854770967,
-        "sun_diff": 1.655124723425189,
-        "length": 117.67508655708296
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -96.7916227,
             32.634642
           ],
@@ -9643,52 +9528,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.54226,
-            32.65245
-          ],
-          [
-            -96.539717,
-            32.653655
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Hall Road",
-        "type": "tertiary",
-        "slope": 60.62910114394177,
-        "sun_diff": 1.8086000494442374,
-        "length": 273.2787778697622
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.539717,
-            32.653655
-          ],
-          [
-            -96.538436,
-            32.654285
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Hall Road",
-        "type": "tertiary",
-        "slope": 59.70952005240369,
-        "sun_diff": 2.728181140982315,
-        "length": 138.93176038204177
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -96.581483,
             32.837806
           ],
@@ -9724,7 +9563,7 @@
       "type": "Feature",
       "properties": {
         "name": "Louis Street",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 60.64358258379673,
         "sun_diff": 1.8258106873381337,
         "length": 157.00610894816288
@@ -9770,7 +9609,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cleveland Road",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 60.48345975650693,
         "sun_diff": 1.9859335146279307,
         "length": 141.10490397857978
@@ -9793,7 +9632,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cleveland Road",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 61.43883184266829,
         "sun_diff": 1.0305614284665694,
         "length": 123.81732190578569
@@ -9816,7 +9655,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cleveland Road",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 60.093190090617156,
         "sun_diff": 2.376203180517706,
         "length": 175.79426598606858
@@ -9839,7 +9678,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cleveland Road",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 61.376120192883604,
         "sun_diff": 1.0932730782512579,
         "length": 131.88117872160907
@@ -10517,12 +10356,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.6940369,
-            32.6384211
+            -96.6940154,
+            32.638342
           ],
           [
-            -96.6926645,
-            32.6390327
+            -96.6924491,
+            32.6390889
           ]
         ]
       },
@@ -10530,9 +10369,9 @@
       "properties": {
         "name": "Bluffview Street",
         "type": "residential",
-        "slope": 62.11161146396384,
-        "sun_diff": 0.3577818071710226,
-        "length": 145.43718982565815
+        "slope": 60.47795919971904,
+        "sun_diff": 1.9914340714158243,
+        "length": 168.59750301502564
       }
     },
     {
@@ -10540,12 +10379,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.6926645,
-            32.6390327
+            -96.6924491,
+            32.6390889
           ],
           [
-            -96.6911116,
-            32.6397248
+            -96.6913664,
+            32.6396051
           ]
         ]
       },
@@ -10553,9 +10392,9 @@
       "properties": {
         "name": "Bluffview Street",
         "type": "residential",
-        "slope": 62.109323228287906,
-        "sun_diff": 0.36007004284695654,
-        "length": 164.5675588383739
+        "slope": 60.48220967892837,
+        "sun_diff": 1.9871835922064918,
+        "length": 116.53681762172555
       }
     },
     {
@@ -15420,8 +15259,8 @@
             32.913533
           ],
           [
-            -96.8990475,
-            32.9140669
+            -96.8989041,
+            32.9139973
           ]
         ]
       },
@@ -15429,9 +15268,9 @@
       "properties": {
         "name": "Harry Hines Boulevard",
         "type": "secondary",
-        "slope": 120.04638606262421,
-        "sun_diff": 2.418821610767239,
-        "length": 118.60520902106826
+        "slope": 120.0481207531893,
+        "sun_diff": 2.4205563013323257,
+        "length": 103.13822836017265
       }
     },
     {
@@ -16329,52 +16168,6 @@
         "slope": 115.1662867327216,
         "sun_diff": 2.397415450395755,
         "length": 149.09186319102884
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.545641,
-            32.650416
-          ],
-          [
-            -96.547014,
-            32.651031
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "North Highway 175",
-        "type": "secondary",
-        "slope": 118.01271446116411,
-        "sun_diff": 0.4490122780467516,
-        "length": 145.64885352775744
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.547471,
-            32.65122
-          ],
-          [
-            -96.549221,
-            32.6519888
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "North Highway 175",
-        "type": "secondary",
-        "slope": 117.5543706134386,
-        "sun_diff": 0.00933156967874993,
-        "length": 184.85864496812525
       }
     },
     {
@@ -19165,8 +18958,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.7047517,
-            32.6294318
+            -96.7043862,
+            32.6296096
           ],
           [
             -96.703374,
@@ -19178,32 +18971,9 @@
       "properties": {
         "name": "West Wintergreen Road",
         "type": "secondary",
-        "slope": 59.984240631146804,
-        "sun_diff": 2.4851526399880584,
-        "length": 149.04413332906273
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.7165802,
-            32.6241751
-          ],
-          [
-            -96.7155838,
-            32.624645
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "West Wintergreen Road",
-        "type": "secondary",
-        "slope": 60.75354405984339,
-        "sun_diff": 1.71584921129147,
-        "length": 106.98015624904806
+        "slope": 59.98279251092103,
+        "sun_diff": 2.4866007602138325,
+        "length": 109.50465433342471
       }
     },
     {
@@ -28691,8 +28461,8 @@
             32.920964
           ],
           [
-            -96.7265197,
-            32.9202658
+            -96.7265091,
+            32.9202591
           ]
         ]
       },
@@ -28700,9 +28470,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 119.71396601070418,
-        "sun_diff": 2.0864015588472142,
-        "length": 156.67758414097528
+        "slope": 119.77081326212755,
+        "sun_diff": 2.1432488102705776,
+        "length": 157.90663524575345
       }
     },
     {
@@ -34805,29 +34575,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.5394904,
-            32.8648231
-          ],
-          [
-            -96.5382959,
-            32.8653248
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 63.43308511390504,
-        "sun_diff": 1.0592325288803295,
-        "length": 124.7737189869286
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -96.6987718,
             32.6363859
           ],
@@ -37431,8 +37178,8 @@
             32.6395783
           ],
           [
-            -96.6920286,
-            32.6408956
+            -96.6920662,
+            32.6408606
           ]
         ]
       },
@@ -37440,9 +37187,9 @@
       "properties": {
         "name": "Crestview Drive",
         "type": "residential",
-        "slope": 60.92331369545124,
-        "sun_diff": 1.5460795756836205,
-        "length": 301.50200256137344
+        "slope": 61.25003895227633,
+        "sun_diff": 1.2193543188585352,
+        "length": 296.53702313613616
       }
     },
     {
@@ -37450,8 +37197,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.6915621,
-            32.6402601
+            -96.6916587,
+            32.6402443
           ],
           [
             -96.6944109,
@@ -37463,9 +37210,9 @@
       "properties": {
         "name": "Green Oaks Drive",
         "type": "residential",
-        "slope": 61.26469927232685,
-        "sun_diff": 1.2046939988080112,
-        "length": 304.3069467728343
+        "slope": 60.72012753562572,
+        "sun_diff": 1.749265735509141,
+        "length": 295.54169210694835
       }
     },
     {
@@ -37765,29 +37512,6 @@
         "slope": 114.81207048382231,
         "sun_diff": 2.8154939680346587,
         "length": 139.10211784518762
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.5154827,
-            32.8760303
-          ],
-          [
-            -96.5167031,
-            32.8754559
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 60.73310506061452,
-        "sun_diff": 1.6407475244101875,
-        "length": 130.68739844137363
       }
     },
     {
@@ -40548,6 +40272,282 @@
         "slope": 114.85447201233734,
         "sun_diff": 2.7410725126906073,
         "length": 181.69862812559518
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.7165802,
+            32.6241751
+          ],
+          [
+            -96.7155838,
+            32.624645
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "West Wintergreen Road",
+        "type": "secondary",
+        "slope": 60.75354405984339,
+        "sun_diff": 1.71584921129147,
+        "length": 106.98015624904806
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.7789968,
+            32.6407767
+          ],
+          [
+            -96.780675,
+            32.6399617
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Cedardale Road",
+        "type": "tertiary",
+        "slope": 60.02724117538148,
+        "sun_diff": 2.4421520957533858,
+        "length": 181.45345588160652
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.780675,
+            32.6399617
+          ],
+          [
+            -96.7818339,
+            32.6393913
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Cedardale Road",
+        "type": "tertiary",
+        "slope": 59.694015099938184,
+        "sun_diff": 2.775378171196678,
+        "length": 125.72950277905265
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.7818339,
+            32.6393913
+          ],
+          [
+            -96.7828618,
+            32.6388925
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Cedardale Road",
+        "type": "tertiary",
+        "slope": 60.04684975418445,
+        "sun_diff": 2.4225435169504124,
+        "length": 111.12006226427843
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.7885822,
+            32.6361205
+          ],
+          [
+            -96.789679,
+            32.6356046
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Cedardale Road",
+        "type": "tertiary",
+        "slope": 60.81426854770967,
+        "sun_diff": 1.655124723425189,
+        "length": 117.67508655708296
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.5166349,
+            32.875263
+          ],
+          [
+            -96.5156677,
+            32.875722
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 60.53093842963034,
+        "sun_diff": 1.842914155394368,
+        "length": 103.77930432474768
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.5456423,
+            32.6504352
+          ],
+          [
+            -96.547014,
+            32.651031
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "North Highway 175",
+        "type": "secondary",
+        "slope": 117.2880307020699,
+        "sun_diff": 0.2756714810474534,
+        "length": 144.54989303829157
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.547471,
+            32.65122
+          ],
+          [
+            -96.549221,
+            32.6519888
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "North Highway 175",
+        "type": "secondary",
+        "slope": 117.5543706134386,
+        "sun_diff": 0.00933156967874993,
+        "length": 184.85864496812525
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.552154,
+            32.652555
+          ],
+          [
+            -96.550901,
+            32.651992
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "North Highway 175",
+        "type": "secondary",
+        "slope": 118.08703405804144,
+        "sun_diff": 0.5233318749240823,
+        "length": 133.00895055412929
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.549973,
+            32.651591
+          ],
+          [
+            -96.5480163,
+            32.6507259
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "North Highway 175",
+        "type": "secondary",
+        "slope": 117.70400838652577,
+        "sun_diff": 0.14030620340841438,
+        "length": 206.97728278917708
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.54226,
+            32.65245
+          ],
+          [
+            -96.539717,
+            32.653655
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Hall Road",
+        "type": "tertiary",
+        "slope": 60.62910114394177,
+        "sun_diff": 1.8086000494442374,
+        "length": 273.2787778697622
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.539717,
+            32.653655
+          ],
+          [
+            -96.538436,
+            32.654285
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Hall Road",
+        "type": "tertiary",
+        "slope": 59.70952005240369,
+        "sun_diff": 2.728181140982315,
+        "length": 138.93176038204177
       }
     }
   ]
