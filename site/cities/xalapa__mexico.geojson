@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "Circuito Presidentes",
-        "type": "secondary",
+        "type": "primary",
         "slope": 65.66824374000603,
         "sun_diff": 0.2802559950113732,
         "length": 130.31110095178488
@@ -294,7 +294,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Xalapa - Veracruz",
-        "type": "primary",
+        "type": "trunk",
         "slope": 116.82466317674772,
         "sun_diff": 2.211288526374048,
         "length": 156.37066821739796
@@ -317,7 +317,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Xalapa - Veracruz",
-        "type": "primary",
+        "type": "trunk",
         "slope": 116.79436861650018,
         "sun_diff": 2.1809939661265076,
         "length": 143.1855348321573
@@ -340,7 +340,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Xalapa - Veracruz",
-        "type": "primary",
+        "type": "trunk",
         "slope": 113.84482374466126,
         "sun_diff": 0.7685509057124165,
         "length": 110.66265658957288
@@ -455,7 +455,7 @@
       "type": "Feature",
       "properties": {
         "name": "Circuito Presidentes",
-        "type": "secondary",
+        "type": "primary",
         "slope": 65.46999448978866,
         "sun_diff": 0.0820067447940005,
         "length": 129.45594367972188
@@ -528,29 +528,6 @@
         "slope": 62.433399526225344,
         "sun_diff": 2.9545882187693167,
         "length": 117.86864326472127
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.9099317,
-            19.5225149
-          ],
-          [
-            -96.908574,
-            19.5230694
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Circuito Presidentes",
-        "type": "secondary",
-        "slope": 66.57173819649344,
-        "sun_diff": 1.1837504514987813,
-        "length": 155.12311009303622
       }
     },
     {
@@ -1781,6 +1758,29 @@
             19.452787
           ],
           [
+            -96.9269549,
+            19.4533315
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 67.59514466164757,
+        "sun_diff": 2.207156916652906,
+        "length": 158.90052226762862
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9269549,
+            19.4533315
+          ],
+          [
             -96.92535,
             19.4539553
           ]
@@ -1790,9 +1790,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 67.5964412314355,
-        "sun_diff": 2.2084534864408454,
-        "length": 340.9623064124474
+        "slope": 67.5976406156104,
+        "sun_diff": 2.2096528706157414,
+        "length": 182.06178419653114
       }
     },
     {
@@ -2042,7 +2042,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Xalapa - Veracruz",
-        "type": "primary",
+        "type": "trunk",
         "slope": 115.94259797984924,
         "sun_diff": 1.3292233294755675,
         "length": 196.2357630572519
@@ -2065,7 +2065,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Xalapa - Veracruz",
-        "type": "primary",
+        "type": "trunk",
         "slope": 116.63707006984995,
         "sun_diff": 2.023695419476283,
         "length": 133.17702092829424
@@ -2088,7 +2088,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Xalapa - Veracruz",
-        "type": "primary",
+        "type": "trunk",
         "slope": 117.24157263815741,
         "sun_diff": 2.628197987783736,
         "length": 141.3510744746035
@@ -2111,7 +2111,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Xalapa - Veracruz",
-        "type": "primary",
+        "type": "trunk",
         "slope": 116.39755194089042,
         "sun_diff": 1.7841772905167517,
         "length": 136.4740847412955
@@ -2276,52 +2276,6 @@
         "slope": 63.99679613132014,
         "sun_diff": 1.3619584040268649,
         "length": 115.96882530127542
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.8506133,
-            19.4448291
-          ],
-          [
-            -96.8514964,
-            19.4452559
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 117.13660607682664,
-        "sun_diff": 2.5376977671150627,
-        "length": 104.0814077369846
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.8517901,
-            19.4453912
-          ],
-          [
-            -96.8533216,
-            19.4460513
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 114.56465973149619,
-        "sun_diff": 0.03424857821538296,
-        "length": 176.61636534436542
       }
     },
     {
@@ -2805,29 +2759,6 @@
         "slope": 115.9922036581186,
         "sun_diff": 1.3932953484070225,
         "length": 287.6112369671423
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.0067373,
-            19.4196165
-          ],
-          [
-            -97.0053318,
-            19.4189436
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Melchor Ocampo",
-        "type": "residential",
-        "slope": 116.91418296313799,
-        "sun_diff": 2.315274653426414,
-        "length": 165.3496749171728
       }
     },
     {
@@ -3824,6 +3755,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -96.7668083,
+            19.4589675
+          ],
+          [
+            -96.7678007,
+            19.4584983
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 63.3692753962971,
+        "sun_diff": 2.018712348697562,
+        "length": 116.43126661808218
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -96.8490252,
             19.4999033
           ],
@@ -4024,29 +3978,6 @@
         "slope": 116.39465244004151,
         "sun_diff": 1.766715826357384,
         "length": 139.44006267400755
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.7668083,
-            19.4589675
-          ],
-          [
-            -96.7678007,
-            19.4584983
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 63.3692753962971,
-        "sun_diff": 2.018712348697562,
-        "length": 116.43126661808218
       }
     },
     {
@@ -5077,7 +5008,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Loma Bonita",
         "type": "residential",
         "slope": 111.68815516383233,
         "sun_diff": 2.9252194865413372,
@@ -5538,7 +5469,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 117.52619930258359,
         "sun_diff": 2.9272909928720168,
         "length": 117.88340813932328
@@ -5584,7 +5515,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida L\u00e1zaro C\u00e1rdenas",
-        "type": "primary",
+        "type": "trunk",
         "slope": 117.55084191196869,
         "sun_diff": 2.9374672615950175,
         "length": 144.1910972205186
@@ -5607,7 +5538,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida L\u00e1zaro C\u00e1rdenas",
-        "type": "primary",
+        "type": "trunk",
         "slope": 117.24860867178364,
         "sun_diff": 2.635234021409971,
         "length": 189.3707103843521
@@ -5814,7 +5745,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 112.15755457227456,
         "sun_diff": 2.4558200780991086,
         "length": 252.03657371195854
@@ -5837,7 +5768,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 114.16038984433672,
         "sun_diff": 0.4529848060369517,
         "length": 114.05810354918711
@@ -6768,52 +6699,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.9216297,
-            19.5596492
-          ],
-          [
-            -96.9207432,
-            19.5593137
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida L\u00e1zaro C\u00e1rdenas",
-        "type": "primary",
-        "slope": 111.88190010671374,
-        "sun_diff": 2.746036506970384,
-        "length": 100.12908643828106
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.9207432,
-            19.5593137
-          ],
-          [
-            -96.9198314,
-            19.5589687
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida L\u00e1zaro C\u00e1rdenas",
-        "type": "primary",
-        "slope": 111.87755650608185,
-        "sun_diff": 2.7503801076022825,
-        "length": 102.98377275450908
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -96.932826,
             19.5348185
           ],
@@ -6968,6 +6853,98 @@
         "slope": 66.03919764812005,
         "sun_diff": 0.6512099031253911,
         "length": 124.31845447316847
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.0067373,
+            19.4196165
+          ],
+          [
+            -97.0053318,
+            19.4189436
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Melchor Ocampo",
+        "type": "residential",
+        "slope": 116.91418296313799,
+        "sun_diff": 2.315274653426414,
+        "length": 165.3496749171728
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.7635315,
+            19.4639474
+          ],
+          [
+            -96.7644198,
+            19.4642861
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carretera Xalapa - Veracruz",
+        "type": "trunk",
+        "slope": 112.01850288087579,
+        "sun_diff": 2.5948717694978853,
+        "length": 100.48806588739954
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9216297,
+            19.5596492
+          ],
+          [
+            -96.9207432,
+            19.5593137
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida L\u00e1zaro C\u00e1rdenas",
+        "type": "primary",
+        "slope": 111.88190010671374,
+        "sun_diff": 2.746036506970384,
+        "length": 100.12908643828106
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9207432,
+            19.5593137
+          ],
+          [
+            -96.9198314,
+            19.5589687
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida L\u00e1zaro C\u00e1rdenas",
+        "type": "primary",
+        "slope": 111.87755650608185,
+        "sun_diff": 2.7503801076022825,
+        "length": 102.98377275450908
       }
     }
   ]
