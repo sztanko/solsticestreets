@@ -650,29 +650,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3835263,
-            51.207536
-          ],
-          [
-            4.3824232,
-            51.2069511
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Ledeganckkaai",
-        "type": "tertiary",
-        "slope": 49.75779248407571,
-        "sun_diff": 2.2534336959890595,
-        "length": 100.70597128165548
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             4.4437202,
             51.2007049
           ],
@@ -984,7 +961,7 @@
       "type": "Feature",
       "properties": {
         "name": "Lange Heihoekstraat",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 125.28312866399301,
         "sun_diff": 2.705996683313387,
         "length": 195.5115010590577
@@ -1160,8 +1137,8 @@
             51.2096709
           ],
           [
-            4.3926201,
-            51.2087076
+            4.3925857,
+            51.2087243
           ]
         ]
       },
@@ -1169,9 +1146,9 @@
       "properties": {
         "name": "De Burburestraat",
         "type": "residential",
-        "slope": 127.69240945896414,
-        "sun_diff": 0.2967158883422627,
-        "length": 175.24223731579804
+        "slope": 127.69101447800202,
+        "sun_diff": 0.2981108693043808,
+        "length": 172.20964171121392
       }
     },
     {
@@ -1582,7 +1559,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kruibekesteenweg",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 128.44019757899076,
         "sun_diff": 0.45107223168436406,
         "length": 122.25078184902094
@@ -2065,7 +2042,7 @@
       "type": "Feature",
       "properties": {
         "name": "Beverenstraat",
-        "type": "unclassified",
+        "type": "secondary",
         "slope": 126.1009885899339,
         "sun_diff": 1.888136757372493,
         "length": 124.02644804945028
@@ -3790,7 +3767,7 @@
       "type": "Feature",
       "properties": {
         "name": "Perstraat",
-        "type": "unclassified",
+        "type": "secondary",
         "slope": 51.32629393067015,
         "sun_diff": 0.6849322493946204,
         "length": 353.41564371503097
@@ -3813,7 +3790,7 @@
       "type": "Feature",
       "properties": {
         "name": "Perstraat",
-        "type": "unclassified",
+        "type": "secondary",
         "slope": 52.1176486793191,
         "sun_diff": 0.10642249925433589,
         "length": 353.8232364905964
@@ -5400,7 +5377,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "secondary",
         "slope": 127.00035272088115,
         "sun_diff": 0.988772626425245,
         "length": 117.84331131229983
@@ -7757,8 +7734,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.490672,
-            51.2661792
+            4.4904792,
+            51.266265
           ],
           [
             4.4926218,
@@ -7770,9 +7747,9 @@
       "properties": {
         "name": null,
         "type": "path",
-        "slope": 125.41177786515743,
-        "sun_diff": 2.6728471871240913,
-        "length": 166.5033492756306
+        "slope": 125.41262404058662,
+        "sun_diff": 2.6720010116949027,
+        "length": 182.96933068663597
       }
     },
     {
@@ -10885,29 +10862,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            4.3564139,
-            51.3506571
-          ],
-          [
-            4.3579526,
-            51.3514125
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Konijnendreef",
-        "type": "bridleway",
-        "slope": 51.83016913677713,
-        "sun_diff": 0.010652706336287565,
-        "length": 135.96147205114642
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             4.3579526,
             51.3514125
           ],
@@ -11108,6 +11062,75 @@
         "slope": 54.1210713449272,
         "sun_diff": 2.109845164862435,
         "length": 119.48992688842047
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3564139,
+            51.3506571
+          ],
+          [
+            4.3579526,
+            51.3514125
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Konijnendreef",
+        "type": "bridleway",
+        "slope": 51.83016913677713,
+        "sun_diff": 0.010652706336287565,
+        "length": 135.96147205114642
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4952985,
+            51.2641775
+          ],
+          [
+            4.493161,
+            51.2651212
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 125.20622656668166,
+        "sun_diff": 2.8783984855998597,
+        "length": 182.07193163676345
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.3835263,
+            51.207536
+          ],
+          [
+            4.3824232,
+            51.2069511
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Ledeganckkaai",
+        "type": "tertiary",
+        "slope": 49.75779248407571,
+        "sun_diff": 2.2534336959890595,
+        "length": 100.70597128165548
       }
     }
   ]

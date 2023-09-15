@@ -64,7 +64,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Miramar-Tepic",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.45009467022211,
         "sun_diff": 1.3736728344067615,
         "length": 104.22909676214219
@@ -225,7 +225,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Tepic-Miramar",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.353471763000954,
         "sun_diff": 1.722950072814399,
         "length": 104.23947058948009
@@ -294,7 +294,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Tecnol\u00f3gico",
-        "type": "trunk",
+        "type": "primary",
         "slope": 113.0578345853896,
         "sun_diff": 1.8663409929763333,
         "length": 106.35632331337976
@@ -1674,7 +1674,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Insurgentes",
-        "type": "trunk",
+        "type": "primary",
         "slope": 115.28487234859529,
         "sun_diff": 0.3606967702293531,
         "length": 101.01654247283749
@@ -5653,7 +5653,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Insurgentes",
-        "type": "trunk",
+        "type": "primary",
         "slope": 114.88408811961727,
         "sun_diff": 0.04008745874865838,
         "length": 136.34654754464242
@@ -6929,8 +6929,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -104.8582895,
-            21.4898342
+            -104.8574242,
+            21.4894176
           ],
           [
             -104.8560449,
@@ -6942,9 +6942,9 @@
       "properties": {
         "name": "Boulevard Luis Donaldo Colosio",
         "type": "primary",
-        "slope": 117.35640505266855,
-        "sun_diff": 2.4322294743026163,
-        "length": 261.56320569992334
+        "slope": 117.35550793621536,
+        "sun_diff": 2.4313323578494277,
+        "length": 160.72868857169698
       }
     },
     {
@@ -7458,52 +7458,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -104.8555203,
-            21.5115991
-          ],
-          [
-            -104.8565804,
-            21.5111094
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 63.594587593325684,
-        "sun_diff": 1.4818342424896684,
-        "length": 122.47976581789062
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -104.8565804,
-            21.5111094
-          ],
-          [
-            -104.8574804,
-            21.5107002
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 63.9549886834034,
-        "sun_diff": 1.121433152411953,
-        "length": 103.66105641081786
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -104.8311969,
             21.4892041
           ],
@@ -7838,7 +7792,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Tepic-Miramar",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.27410594077372,
         "sun_diff": 2.8023158950416303,
         "length": 123.17355961739348
@@ -7861,7 +7815,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Tepic-Miramar",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.51687475545185,
         "sun_diff": 2.559547080363501,
         "length": 244.20551851617526
@@ -7884,7 +7838,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Tepic-Miramar",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.492302429888724,
         "sun_diff": 2.5841194059266286,
         "length": 137.58376011092037
@@ -7907,7 +7861,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Tepic-Miramar",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.4436005776185,
         "sun_diff": 2.6328212581968558,
         "length": 129.93021504467595
@@ -8141,6 +8095,121 @@
         "slope": 114.8765470827158,
         "sun_diff": 0.03108577748035657,
         "length": 107.74907179593521
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.8549135,
+            21.5098625
+          ],
+          [
+            -104.8558413,
+            21.5094442
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 64.14515146679625,
+        "sun_diff": 0.9312703690191029,
+        "length": 106.69148608970256
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.8558413,
+            21.5094442
+          ],
+          [
+            -104.8569237,
+            21.5089669
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 64.64036627827002,
+        "sun_diff": 0.43605555754533043,
+        "length": 123.95540773710974
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.8555249,
+            21.5110335
+          ],
+          [
+            -104.8574475,
+            21.5101984
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 64.97323035289537,
+        "sun_diff": 0.10319148291998204,
+        "length": 219.5713179324686
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.8563209,
+            21.5102966
+          ],
+          [
+            -104.8553354,
+            21.5106706
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 67.80874965146393,
+        "sun_diff": 2.732327815648574,
+        "length": 110.1405094383307
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.7444129,
+            21.6176808
+          ],
+          [
+            -104.7453436,
+            21.6173255
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 67.67509216902783,
+        "sun_diff": 2.615308674030615,
+        "length": 104.03857079066947
       }
     }
   ]
