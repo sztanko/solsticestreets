@@ -248,7 +248,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Jos\u00e9 de Escand\u00f3n y Helguera",
-        "type": "secondary",
+        "type": "primary",
         "slope": 114.97736159437875,
         "sun_diff": 0.06563195478871364,
         "length": 100.83531231388578
@@ -271,7 +271,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Jos\u00e9 de Escand\u00f3n y Helguera",
-        "type": "secondary",
+        "type": "primary",
         "slope": 115.71934227287903,
         "sun_diff": 0.6763487237115697,
         "length": 109.13736245425751
@@ -294,7 +294,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Jos\u00e9 de Escand\u00f3n y Helguera",
-        "type": "secondary",
+        "type": "primary",
         "slope": 115.63228908262661,
         "sun_diff": 0.5892955334591505,
         "length": 105.67741732164824
@@ -2099,29 +2099,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.8025265,
-            22.2733544
-          ],
-          [
-            -97.8035214,
-            22.2728658
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Francisco I. Madero",
-        "type": "secondary",
-        "slope": 62.04508249355442,
-        "sun_diff": 2.8958830306412437,
-        "length": 115.933289092595
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -97.8063926,
             22.2713535
           ],
@@ -2134,7 +2111,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Francisco I. Madero",
-        "type": "secondary",
+        "type": "primary",
         "slope": 62.828984801441294,
         "sun_diff": 2.1119807227543674,
         "length": 242.06810139691828
@@ -4204,7 +4181,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Francisco I. Madero",
-        "type": "secondary",
+        "type": "primary",
         "slope": 62.00601108818779,
         "sun_diff": 2.934954436007871,
         "length": 219.887223587105
@@ -8022,7 +7999,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Tamaulipas",
-        "type": "trunk",
+        "type": "primary",
         "slope": 67.84558940058577,
         "sun_diff": 2.9046238763901044,
         "length": 149.33746954678375
@@ -9222,6 +9199,29 @@
         "slope": 64.73106466234205,
         "sun_diff": 0.24459822283728272,
         "length": 264.872414571829
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.8025265,
+            22.2733544
+          ],
+          [
+            -97.8035214,
+            22.2728658
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Francisco I. Madero",
+        "type": "secondary",
+        "slope": 62.04508249355442,
+        "sun_diff": 2.8958830306412437,
+        "length": 115.933289092595
       }
     }
   ]
