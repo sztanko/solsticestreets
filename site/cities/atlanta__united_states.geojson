@@ -1183,8 +1183,8 @@
             33.799917
           ],
           [
-            -84.384112,
-            33.800421
+            -84.3840843,
+            33.8004073
           ]
         ]
       },
@@ -1192,9 +1192,9 @@
       "properties": {
         "name": "Pembroke Place Northeast",
         "type": "residential",
-        "slope": 120.63814778865788,
-        "sun_diff": 2.714371692875787,
-        "length": 110.0046611190516
+        "slope": 120.63474149032305,
+        "sun_diff": 2.7109653945409633,
+        "length": 107.02519143980922
       }
     },
     {
@@ -1218,6 +1218,29 @@
         "slope": 116.06084933313335,
         "sun_diff": 1.8629267626487405,
         "length": 129.63012662463063
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.4218433,
+            33.7325593
+          ],
+          [
+            -84.422851,
+            33.733059
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "White Street Southwest",
+        "type": "tertiary",
+        "slope": 120.80652852101446,
+        "sun_diff": 2.9163842767055144,
+        "length": 108.52811201615826
       }
     },
     {
@@ -3288,29 +3311,6 @@
         "slope": 60.69580341990448,
         "sun_diff": 1.3817009174117345,
         "length": 106.31034555908106
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -84.326102,
-            33.7533134
-          ],
-          [
-            -84.3251407,
-            33.7528355
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Hosea L Williams Drive Southeast",
-        "type": "tertiary",
-        "slope": 120.87622088931295,
-        "sun_diff": 2.9524447935308586,
-        "length": 103.58178590007718
       }
     },
     {
@@ -6227,7 +6227,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "River Gardens Dr SE",
+        "name": "River Gardens Drive Southeast",
         "type": "residential",
         "slope": 118.90470446692208,
         "sun_diff": 1.0145602226131416,
@@ -7274,29 +7274,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -84.5024677,
-            33.6861952
-          ],
-          [
-            -84.5013407,
-            33.6867053
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 61.45569546604,
-        "sun_diff": 0.6554407227493471,
-        "length": 118.7399232899766
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -84.5028843,
             33.6866633
           ],
@@ -7313,6 +7290,52 @@
         "slope": 61.03975523274738,
         "sun_diff": 1.0713809560419634,
         "length": 149.73031891613306
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.5024677,
+            33.6861952
+          ],
+          [
+            -84.5013407,
+            33.6867053
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Cardinal Drive",
+        "type": "service",
+        "slope": 61.45569546604,
+        "sun_diff": 0.6554407227493471,
+        "length": 118.7399232899766
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.326102,
+            33.7533134
+          ],
+          [
+            -84.3251407,
+            33.7528355
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Hosea L Williams Drive Southeast",
+        "type": "tertiary",
+        "slope": 120.87622088931295,
+        "sun_diff": 2.9524447935308586,
+        "length": 103.58178590007718
       }
     }
   ]

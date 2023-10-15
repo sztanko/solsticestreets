@@ -41,7 +41,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "residential",
         "slope": 112.31339132646593,
         "sun_diff": 2.2282116961092413,
         "length": 183.6878834028594
@@ -528,29 +528,6 @@
         "slope": 68.15514914786323,
         "sun_diff": 2.6972202657676405,
         "length": 121.7837871754163
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8275696,
-            18.9657868
-          ],
-          [
-            72.826221,
-            18.9664053
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "12th Lane",
-        "type": "residential",
-        "slope": 115.87116550641198,
-        "sun_diff": 1.3295624838368099,
-        "length": 157.66221833985097
       }
     },
     {
@@ -1306,7 +1283,7 @@
       "type": "Feature",
       "properties": {
         "name": "East West Road No 3",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 115.96772430608573,
         "sun_diff": 1.4120579240095026,
         "length": 104.55795583818056
@@ -1425,6 +1402,29 @@
         "slope": 67.5169989576182,
         "sun_diff": 2.087292417173103,
         "length": 105.72965914027986
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8518429,
+            19.214643
+          ],
+          [
+            72.8509524,
+            19.2149897
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Lady Fatima Lane",
+        "type": "residential",
+        "slope": 112.4064029740239,
+        "sun_diff": 2.1634223902017595,
+        "length": 101.17019738964073
       }
     },
     {
@@ -1881,7 +1881,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 67.23275516827402,
         "sun_diff": 1.788896475868654,
         "length": 122.52903903081817
@@ -2628,8 +2628,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8460869,
-            18.9892036
+            72.8460013,
+            18.9892445
           ],
           [
             72.8448324,
@@ -2640,10 +2640,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
-        "slope": 116.83055680240906,
-        "sun_diff": 2.2889537798338893,
-        "length": 147.86191881044002
+        "type": "service",
+        "slope": 116.83223321732356,
+        "sun_diff": 2.2906301947483882,
+        "length": 137.774681511555
       }
     },
     {
@@ -2713,52 +2713,6 @@
         "slope": 67.98241447257456,
         "sun_diff": 2.552707932129465,
         "length": 124.46509794013372
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8323078,
-            19.2231772
-          ],
-          [
-            72.8332438,
-            19.2236303
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 62.85727464348611,
-        "sun_diff": 2.5724318969589888,
-        "length": 110.47203252140571
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8227777,
-            19.2068506
-          ],
-          [
-            72.8218411,
-            19.2072436
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 113.95734470169998,
-        "sun_diff": 0.6124874927148483,
-        "length": 107.65343460996048
       }
     },
     {
@@ -3012,29 +2966,6 @@
         "slope": 116.18116685542796,
         "sun_diff": 1.611341491202296,
         "length": 125.2944890007963
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8318066,
-            19.1793132
-          ],
-          [
-            72.8327055,
-            19.1797411
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 63.251799703756234,
-        "sun_diff": 2.1779068366888623,
-        "length": 105.7507799170747
       }
     },
     {
@@ -3479,29 +3410,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.874129,
-            19.2628618
-          ],
-          [
-            72.8753211,
-            19.2623866
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 112.89256133793288,
-        "sun_diff": 1.6915322914689455,
-        "length": 135.87599142121167
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             72.8706397,
             19.2566733
           ],
@@ -3828,18 +3736,18 @@
             19.0496496
           ],
           [
-            72.9143564,
-            19.0492885
+            72.9143063,
+            19.0493077
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
-        "slope": 112.12129350628146,
-        "sun_diff": 2.420309516293713,
-        "length": 106.66066702344284
+        "type": "service",
+        "slope": 112.12421671125608,
+        "sun_diff": 2.417386311319092,
+        "length": 100.97675824184596
       }
     },
     {
@@ -4300,52 +4208,6 @@
         "slope": 65.18714952803384,
         "sun_diff": 0.2567091643715287,
         "length": 241.2216710257951
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8641974,
-            19.0607593
-          ],
-          [
-            72.8633068,
-            19.0611131
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 112.79727283531105,
-        "sun_diff": 1.758393546765177,
-        "length": 101.56393343541586
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8787986,
-            19.0523993
-          ],
-          [
-            72.8800701,
-            19.0528956
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Bhagwan Swaminarayan Flyover",
-        "type": "primary",
-        "slope": 67.56188554906225,
-        "sun_diff": 2.1180268566568827,
-        "length": 144.63075665069158
       }
     },
     {
@@ -6837,29 +6699,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.9222441,
-            19.0566037
-          ],
-          [
-            72.9213157,
-            19.0570425
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 116.56719041580615,
-        "sun_diff": 2.011524033729927,
-        "length": 109.1291915602739
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             72.920891,
             19.1488463
           ],
@@ -9072,8 +8911,8 @@
             19.1453517
           ],
           [
-            72.9376681,
-            19.144444
+            72.9369141,
+            19.1447595
           ]
         ]
       },
@@ -9081,9 +8920,9 @@
       "properties": {
         "name": null,
         "type": "tertiary",
-        "slope": 113.89175514461493,
-        "sun_diff": 0.6639112374612921,
-        "length": 249.28540567626166
+        "slope": 113.89270004994046,
+        "sun_diff": 0.6629663321357668,
+        "length": 162.63241077069245
       }
     },
     {
@@ -9413,22 +9252,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8744705,
-            19.0759394
+            72.8667719,
+            19.0727128
           ],
           [
-            72.8734218,
-            19.0754622
+            72.8679046,
+            19.0732184
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Santa Cruz \u2013 Chembur Link Road",
+        "name": null,
         "type": "trunk",
-        "slope": 64.29020668905338,
-        "sun_diff": 1.1536520033519935,
-        "length": 122.35410811526772
+        "slope": 64.71885581758943,
+        "sun_diff": 0.7250028748159423,
+        "length": 131.68602298609574
       }
     },
     {
@@ -10165,6 +10004,121 @@
         "slope": 65.462390625821,
         "sun_diff": 0.004461743725414635,
         "length": 241.96379974057402
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8318066,
+            19.1793132
+          ],
+          [
+            72.8327055,
+            19.1797411
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 63.251799703756234,
+        "sun_diff": 2.1779068366888623,
+        "length": 105.7507799170747
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8640104,
+            19.0714455
+          ],
+          [
+            72.8664424,
+            19.0725062
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 65.22783789670956,
+        "sun_diff": 0.21602079569581178,
+        "length": 281.57208694180827
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8679046,
+            19.0732184
+          ],
+          [
+            72.8690373,
+            19.0737241
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 64.71441241526409,
+        "sun_diff": 0.7294462771412782,
+        "length": 131.69044501985877
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8787986,
+            19.0523993
+          ],
+          [
+            72.8800701,
+            19.0528956
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Bhagwan Swaminarayan Flyover",
+        "type": "primary",
+        "slope": 67.56188554906225,
+        "sun_diff": 2.1180268566568827,
+        "length": 144.63075665069158
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.874129,
+            19.2628618
+          ],
+          [
+            72.8753211,
+            19.2623866
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 112.89256133793288,
+        "sun_diff": 1.6915322914689455,
+        "length": 135.87599142121167
       }
     }
   ]

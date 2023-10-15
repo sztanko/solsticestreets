@@ -225,7 +225,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 65.04546925632991,
         "sun_diff": 1.0760534847674421,
         "length": 110.43925262200261
@@ -500,7 +500,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Gang Penataran Sari II",
         "type": "residential",
         "slope": 114.1399371131844,
         "sun_diff": 0.2624333836095758,
@@ -558,29 +558,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            115.1877505,
-            -8.6905618
-          ],
-          [
-            115.1886705,
-            -8.690978
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Gang Ulun Suwi",
-        "type": "residential",
-        "slope": 114.59101819067672,
-        "sun_diff": 0.7135144611018944,
-        "length": 111.24638859577061
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             115.1883249,
             -8.6922064
           ],
@@ -592,7 +569,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Imbo Residence",
         "type": "residential",
         "slope": 111.60997587410648,
         "sun_diff": 2.2675278554683445,
@@ -615,7 +592,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Gang 8C",
         "type": "residential",
         "slope": 110.88982825103406,
         "sun_diff": 2.9876754785407655,
@@ -1241,6 +1218,29 @@
         "slope": 113.59285886863921,
         "sun_diff": 0.2846448609356145,
         "length": 119.64093115379521
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.1877505,
+            -8.6905618
+          ],
+          [
+            115.1886705,
+            -8.690978
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Gang Ulun Suwi",
+        "type": "living_street",
+        "slope": 114.59101819067672,
+        "sun_diff": 0.7135144611018944,
+        "length": 111.24638859577061
       }
     }
   ]

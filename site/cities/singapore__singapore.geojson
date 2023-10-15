@@ -7393,8 +7393,8 @@
             1.361845
           ],
           [
-            103.8405179,
-            1.3614133
+            103.8404833,
+            1.3614291
           ]
         ]
       },
@@ -7402,9 +7402,9 @@
       "properties": {
         "name": "Sin Ming Avenue",
         "type": "secondary",
-        "slope": 114.48054348016555,
-        "sun_diff": 1.0578552172326994,
-        "length": 115.8777623390168
+        "slope": 114.47791984240175,
+        "sun_diff": 1.0552315794688951,
+        "length": 111.64792413324288
       }
     },
     {
@@ -11840,7 +11840,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 114.88297017630188,
         "sun_diff": 1.459605724641193,
         "length": 132.54542340276882
@@ -11863,7 +11863,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 113.25620498364222,
         "sun_diff": 0.16715946801846826,
         "length": 484.47823248231845
@@ -12093,7 +12093,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 113.14742811601675,
         "sun_diff": 0.2759363356439337,
         "length": 138.84685399309515
@@ -12771,29 +12771,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            103.7885681,
-            1.2813542
-          ],
-          [
-            103.7894119,
-            1.2809455
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "pedestrian",
-        "slope": 115.84914665321031,
-        "sun_diff": 2.425782201549623,
-        "length": 104.26443942418764
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             103.8050842,
             1.4409203
           ],
@@ -12967,7 +12944,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 113.63258711664918,
         "sun_diff": 0.20922266498848785,
         "length": 140.01184396194955
@@ -15041,6 +15018,29 @@
         "slope": 65.47110757623963,
         "sun_diff": 1.1043768578534525,
         "length": 133.58767909309594
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.7885681,
+            1.2813542
+          ],
+          [
+            103.7894119,
+            1.2809455
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "pedestrian",
+        "slope": 115.84914665321031,
+        "sun_diff": 2.425782201549623,
+        "length": 104.26443942418764
       }
     }
   ]

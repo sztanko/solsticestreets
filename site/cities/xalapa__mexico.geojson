@@ -2456,7 +2456,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 64.74123541013014,
         "sun_diff": 0.6321630507973737,
         "length": 159.40009053489183
@@ -3928,7 +3928,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 115.937649907122,
         "sun_diff": 1.3097132934378664,
         "length": 108.58703896035522
@@ -3951,7 +3951,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 114.42676169439329,
         "sun_diff": 0.20117491929083542,
         "length": 127.79063543601399
@@ -3974,7 +3974,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 116.39465244004151,
         "sun_diff": 1.766715826357384,
         "length": 139.44006267400755
@@ -4204,7 +4204,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.13140975955875,
         "sun_diff": 0.4965268541253778,
         "length": 411.4470111663209
@@ -5365,52 +5365,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -96.8963631,
-            19.6093049
-          ],
-          [
-            -96.895439,
-            19.6088823
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 115.89490817831361,
-        "sun_diff": 1.2669715646294861,
-        "length": 107.63298930674007
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -96.8944735,
-            19.6084042
-          ],
-          [
-            -96.8927639,
-            19.607582
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 117.04593022483371,
-        "sun_diff": 2.4179936111495834,
-        "length": 201.12613885569365
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -96.9544465,
             19.4376013
           ],
@@ -5491,7 +5445,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Carretera Estatal Xalapa - Totutla",
+        "name": "Puerto Rico - Totutla",
         "type": "primary",
         "slope": 112.93512528982805,
         "sun_diff": 1.6637830198835246,
@@ -6699,6 +6653,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -96.9161458,
+            19.5631678
+          ],
+          [
+            -96.9152495,
+            19.5627366
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Divisi\u00f3n del Norte",
+        "type": "residential",
+        "slope": 117.04707632014413,
+        "sun_diff": 2.419139706460001,
+        "length": 105.47589042222756
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -96.932826,
             19.5348185
           ],
@@ -6945,6 +6922,52 @@
         "slope": 111.87755650608185,
         "sun_diff": 2.7503801076022825,
         "length": 102.98377275450908
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8963631,
+            19.6093049
+          ],
+          [
+            -96.895439,
+            19.6088823
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "secondary",
+        "slope": 115.89490817831361,
+        "sun_diff": 1.2669715646294861,
+        "length": 107.63298930674007
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8944735,
+            19.6084042
+          ],
+          [
+            -96.8927639,
+            19.607582
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "secondary",
+        "slope": 117.04593022483371,
+        "sun_diff": 2.4179936111495834,
+        "length": 201.12613885569365
       }
     }
   ]
