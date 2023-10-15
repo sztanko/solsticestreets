@@ -179,7 +179,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Traversa",
-        "type": "residential",
+        "type": "living_street",
         "slope": 120.33241478321676,
         "sun_diff": 2.51790845900382,
         "length": 106.46923476620265
@@ -271,7 +271,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via dei Sabbioni",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 125.50867049987187,
         "sun_diff": 2.658347257651286,
         "length": 141.7892687205781
@@ -581,6 +581,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            11.3601871,
+            44.5225997
+          ],
+          [
+            11.3614297,
+            44.5220782
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Via della Manifattura",
+        "type": "unclassified",
+        "slope": 120.48251841252346,
+        "sun_diff": 2.3678048296971212,
+        "length": 114.34845823703175
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             11.3705226,
             44.5083947
           ],
@@ -616,7 +639,7 @@
       "type": "Feature",
       "properties": {
         "name": "Viale Europa",
-        "type": "secondary",
+        "type": "primary",
         "slope": 56.059956579132376,
         "sun_diff": 1.0899487626131474,
         "length": 139.0565267938551
@@ -1076,7 +1099,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Giovan Battista Martinetti",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 121.32027434851855,
         "sun_diff": 1.5300488937020305,
         "length": 168.18675334184428
@@ -1179,12 +1202,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.2872432,
-            44.5138046
+            11.2872925,
+            44.5137834
           ],
           [
-            11.2888348,
-            44.513127
+            11.2886599,
+            44.5132192
           ]
         ]
       },
@@ -1192,9 +1215,9 @@
       "properties": {
         "name": null,
         "type": "path",
-        "slope": 120.83841413160127,
-        "sun_diff": 2.011909110619314,
-        "length": 147.0274504090587
+        "slope": 120.05456127382288,
+        "sun_diff": 2.7957619683976986,
+        "length": 125.30466963622418
       }
     },
     {
@@ -1202,12 +1225,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.2888348,
-            44.513127
+            11.2887497,
+            44.5131804
           ],
           [
-            11.2900295,
-            44.5126021
+            11.2908999,
+            44.5122023
           ]
         ]
       },
@@ -1215,32 +1238,9 @@
       "properties": {
         "name": null,
         "type": "path",
-        "slope": 121.63830297582669,
-        "sun_diff": 1.2120202663938926,
-        "length": 111.3025877418025
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            11.2900295,
-            44.5126021
-          ],
-          [
-            11.2912084,
-            44.5120824
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 121.72404463009812,
-        "sun_diff": 1.1262786121224622,
-        "length": 109.93306919770644
+        "slope": 122.53384257169887,
+        "sun_diff": 0.31648067052171314,
+        "length": 202.29401479461046
       }
     },
     {
@@ -1421,7 +1421,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via San Donato",
-        "type": "secondary",
+        "type": "primary",
         "slope": 55.09594594493467,
         "sun_diff": 2.0539593968108534,
         "length": 103.82255427749456
@@ -1766,7 +1766,7 @@
       "type": "Feature",
       "properties": {
         "name": "Viale Europa",
-        "type": "secondary",
+        "type": "primary",
         "slope": 56.99322076118901,
         "sun_diff": 0.15668458055651513,
         "length": 132.62056018817617
@@ -2111,7 +2111,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via dell'Artigiano",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 54.22271760042247,
         "sun_diff": 2.9271877413230527,
         "length": 132.45593551642693
@@ -2283,29 +2283,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.2866496,
-            44.5094228
-          ],
-          [
-            11.2878321,
-            44.5100268
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Via del Greto",
-        "type": "residential",
-        "slope": 54.38763085206497,
-        "sun_diff": 2.76227448968055,
-        "length": 115.37561992127105
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             11.4100704,
             44.4777291
           ],
@@ -2444,29 +2421,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.3054448,
-            44.5204835
-          ],
-          [
-            11.3065549,
-            44.5199454
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 124.20947844611968,
-        "sun_diff": 1.3591552038990926,
-        "length": 106.45754965211718
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             11.3624811,
             44.47509
           ],
@@ -2525,7 +2479,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via San Donato",
-        "type": "secondary",
+        "type": "primary",
         "slope": 54.799978623576294,
         "sun_diff": 2.349926718169229,
         "length": 108.15578344386158
@@ -2908,18 +2862,18 @@
             44.5135082
           ],
           [
-            11.3736056,
-            44.5129664
+            11.3735926,
+            44.5129837
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Viale Europa",
-        "type": "secondary",
-        "slope": 55.18785061864003,
-        "sun_diff": 1.9620547231054957,
-        "length": 105.56215741447119
+        "type": "primary",
+        "slope": 56.36750286320938,
+        "sun_diff": 0.7824024785361416,
+        "length": 105.33249744871415
       }
     },
     {
@@ -2927,22 +2881,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.36702,
-            44.4514796
+            11.3670428,
+            44.4514642
           ],
           [
-            11.3686133,
-            44.4522995
+            11.3686541,
+            44.4522764
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 54.21271463452345,
-        "sun_diff": 2.937190707222072,
-        "length": 155.95287801509568
+        "type": "secondary",
+        "slope": 54.77264700965131,
+        "sun_diff": 2.3772583320942147,
+        "length": 156.61891205051185
       }
     },
     {
@@ -2985,7 +2939,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Alessandro Codivilla",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 122.16257767817626,
         "sun_diff": 0.6877455640443202,
         "length": 103.93219979826434

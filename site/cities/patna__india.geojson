@@ -213,12 +213,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            85.13187,
-            25.6021148
-          ],
-          [
             85.1309051,
             25.6017186
+          ],
+          [
+            85.13187,
+            25.6021148
           ]
         ]
       },
@@ -226,8 +226,8 @@
       "properties": {
         "name": "Station Road",
         "type": "secondary",
-        "slope": 65.5194865228942,
-        "sun_diff": 1.2187556107388389,
+        "slope": 65.51941492682681,
+        "sun_diff": 1.218684014671453,
         "length": 106.34876684079012
       }
     },
@@ -409,33 +409,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 115.39296813714583,
         "sun_diff": 0.3056825912078409,
         "length": 119.10897725563767
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            85.1251956,
-            25.6076533
-          ],
-          [
-            85.1241457,
-            25.6081039
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 115.45136827888714,
-        "sun_diff": 0.24728244946652467,
-        "length": 116.6279032315147
       }
     },
     {
@@ -455,7 +432,7 @@
       "type": "Feature",
       "properties": {
         "name": "Buddha Colony Main Road",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 113.64339215374244,
         "sun_diff": 2.05525857461123,
         "length": 100.12374655933975
@@ -478,7 +455,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 113.22705989080609,
         "sun_diff": 2.4715908375475806,
         "length": 114.76195010148987
@@ -501,7 +478,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 114.42104937175156,
         "sun_diff": 1.277601356602105,
         "length": 124.96687083509424
@@ -777,7 +754,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 112.98849071674579,
         "sun_diff": 2.710160011607883,
         "length": 102.15971637373376
@@ -1432,8 +1409,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            85.1530945,
-            25.6139811
+            85.1532855,
+            25.6140689
           ],
           [
             85.1544891,
@@ -1445,9 +1422,9 @@
       "properties": {
         "name": null,
         "type": "secondary",
-        "slope": 62.98732560381336,
-        "sun_diff": 1.3134053083419985,
-        "length": 157.00472615098107
+        "slope": 62.98719881120044,
+        "sun_diff": 1.313532100954916,
+        "length": 135.50196937490622
       }
     },
     {
@@ -1996,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 116.75645703273676,
         "sun_diff": 1.0578063043830923,
         "length": 107.42536896032829
@@ -2088,7 +2065,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 113.14527265009221,
         "sun_diff": 2.5747702307419473,
         "length": 153.4329338015306
@@ -4204,7 +4181,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 113.59232800599122,
         "sun_diff": 2.1063227223624494,
         "length": 104.38561251450386
@@ -6170,29 +6147,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            85.0572012,
-            25.64024
-          ],
-          [
-            85.0581665,
-            25.6406513
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 64.70333029956603,
-        "sun_diff": 0.4025993874106746,
-        "length": 107.06371632991602
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             85.0877566,
             25.5818002
           ],
@@ -6830,6 +6784,29 @@
         "slope": 114.33057335629957,
         "sun_diff": 1.3680773720541026,
         "length": 130.50609078609594
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.1251956,
+            25.6076533
+          ],
+          [
+            85.1241457,
+            25.6081039
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 115.45136827888714,
+        "sun_diff": 0.24728244946652467,
+        "length": 116.6279032315147
       }
     }
   ]

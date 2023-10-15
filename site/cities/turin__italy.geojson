@@ -470,8 +470,8 @@
             45.1015734
           ],
           [
-            7.6914727,
-            45.1023067
+            7.6914998,
+            45.1022799
           ]
         ]
       },
@@ -479,9 +479,9 @@
       "properties": {
         "name": "Via Luigi Boccherini",
         "type": "residential",
-        "slope": 121.61525550304503,
-        "sun_diff": 1.6114658039566052,
-        "length": 155.59566124900667
+        "slope": 121.07956271699973,
+        "sun_diff": 2.147158590001908,
+        "length": 152.22780248399516
       }
     },
     {
@@ -823,7 +823,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via San Donato",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 121.89739042650496,
         "sun_diff": 1.3293308804966841,
         "length": 116.07107370257128
@@ -846,7 +846,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via San Donato",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 122.04841144572458,
         "sun_diff": 1.1783098612770573,
         "length": 173.058252235321
@@ -869,7 +869,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Tolmino",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 59.09008511547489,
         "sun_diff": 2.316523196997082,
         "length": 108.7639533490575
@@ -1397,7 +1397,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Via Vandalino",
+        "name": "Via Colle del Lys",
         "type": "residential",
         "slope": 120.9775538981556,
         "sun_diff": 2.2491674088460343,
@@ -1421,7 +1421,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corso Adriatico",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 121.62707476598345,
         "sun_diff": 1.5996465410181884,
         "length": 288.34458051245844
@@ -1444,7 +1444,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corso Adriatico",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 121.0840269325964,
         "sun_diff": 2.142694374405238,
         "length": 151.64798107078644
@@ -1467,7 +1467,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corso Adriatico",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 121.09157215730505,
         "sun_diff": 2.1351491496965878,
         "length": 135.93311673905131
@@ -1490,7 +1490,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corso Adriatico",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 120.53557525320036,
         "sun_diff": 2.691146053801276,
         "length": 114.84755646575421
@@ -1513,7 +1513,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corso Adriatico",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 121.72448250922716,
         "sun_diff": 1.5022387977744813,
         "length": 137.49383908890192
@@ -1536,7 +1536,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corso Adriatico",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 121.33035715070747,
         "sun_diff": 1.8963641562941689,
         "length": 262.0267072069712
@@ -2456,7 +2456,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Umbria",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 58.24454776682279,
         "sun_diff": 1.4709858483449807,
         "length": 105.31292855966662
@@ -2479,7 +2479,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Umbria",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 59.13510190866313,
         "sun_diff": 2.361539990185321,
         "length": 165.45128349796215
@@ -2502,7 +2502,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Umbria",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 59.20620849676985,
         "sun_diff": 2.4326465782920366,
         "length": 102.65837992280407
@@ -2525,7 +2525,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Umbria",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 58.91148089049949,
         "sun_diff": 2.13791897202168,
         "length": 105.65927123184362
@@ -2548,7 +2548,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Umbria",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 58.82428852480422,
         "sun_diff": 2.050726606326407,
         "length": 107.04789463257967
@@ -3295,6 +3295,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            7.7673072,
+            45.1357473
+          ],
+          [
+            7.7684684,
+            45.1363053
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Via Italia",
+        "type": "residential",
+        "slope": 55.73711446856154,
+        "sun_diff": 1.0364474499162668,
+        "length": 110.24416976856091
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             7.7099577,
             45.0635772
           ],
@@ -3583,7 +3606,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Sempione",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 120.37031118654929,
         "sun_diff": 2.8564101204523524,
         "length": 176.4622577435578
@@ -4564,8 +4587,8 @@
             45.0967612
           ],
           [
-            7.7060681,
-            45.0977348
+            7.7070133,
+            45.0973084
           ]
         ]
       },
@@ -4573,9 +4596,9 @@
       "properties": {
         "name": "Via Pietro Mascagni",
         "type": "residential",
-        "slope": 122.58248211227891,
-        "sun_diff": 0.6442391947227293,
-        "length": 201.09817970506305
+        "slope": 122.58301185555257,
+        "sun_diff": 0.6437094514490695,
+        "length": 113.02284335474694
       }
     },
     {
@@ -4928,12 +4951,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.6914077,
-            45.1021959
+            7.6913399,
+            45.1022401
           ],
           [
-            7.6928831,
-            45.1015536
+            7.6928744,
+            45.1015754
           ]
         ]
       },
@@ -4941,9 +4964,32 @@
       "properties": {
         "name": "Via Luigi Boccherini",
         "type": "residential",
-        "slope": 121.66451146025582,
-        "sun_diff": 1.5622098467458159,
-        "length": 136.09557187711766
+        "slope": 121.53679097630848,
+        "sun_diff": 1.6899303306931586,
+        "length": 141.35308084823745
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6930447,
+            45.1015016
+          ],
+          [
+            7.6941598,
+            45.1010269
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Via Luigi Boccherini",
+        "type": "residential",
+        "slope": 121.09407404017094,
+        "sun_diff": 2.132647266830702,
+        "length": 102.23869908576786
       }
     },
     {
@@ -5335,29 +5381,6 @@
         "slope": 123.21924532034282,
         "sun_diff": 0.05620869716237564,
         "length": 295.2312399005537
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.7066746,
-            45.0981688
-          ],
-          [
-            7.7081353,
-            45.0975098
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Corso Taranto",
-        "type": "residential",
-        "slope": 122.58330066981321,
-        "sun_diff": 0.6434206371884272,
-        "length": 136.11277009764598
       }
     },
     {
@@ -6301,6 +6324,75 @@
         "slope": 123.38052947181632,
         "sun_diff": 0.21749284863587093,
         "length": 246.3180158521109
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.5872341,
+            45.1107674
+          ],
+          [
+            7.5856907,
+            45.1100498
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 56.623040864340936,
+        "sun_diff": 0.150521054136874,
+        "length": 145.08571861263212
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.5832157,
+            45.108852
+          ],
+          [
+            7.5821463,
+            45.1083274
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 55.19816693627695,
+        "sun_diff": 1.5753949822008622,
+        "length": 102.23745704454018
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.5807344,
+            45.1096285
+          ],
+          [
+            7.5819375,
+            45.1102297
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 54.699258810146716,
+        "sun_diff": 2.074303108331094,
+        "length": 115.7212187756447
       }
     }
   ]
