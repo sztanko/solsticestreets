@@ -708,7 +708,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 113.59002825197442,
         "sun_diff": 1.096716290463533,
         "length": 149.8943783144765
@@ -1034,6 +1034,29 @@
         "slope": 65.08822547000312,
         "sun_diff": 0.23952000651203775,
         "length": 135.3596453369334
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.8166947,
+            20.0451079
+          ],
+          [
+            73.8182772,
+            20.0444804
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Mhasrul Adgaon Road",
+        "type": "secondary",
+        "slope": 112.88421606620432,
+        "sun_diff": 1.8025284762336327,
+        "length": 179.48561792633413
       }
     },
     {
@@ -1800,22 +1823,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            73.8125306,
-            20.0114322
+            73.8139858,
+            20.0120668
           ],
           [
-            73.8134323,
-            20.011793
+            73.8153206,
+            20.0126625
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
-        "slope": 66.9335299019798,
-        "sun_diff": 1.6207562001252995,
-        "length": 102.42952899192879
+        "type": "tertiary",
+        "slope": 64.59397312496978,
+        "sun_diff": 0.7188005768847177,
+        "length": 154.44069312980932
       }
     },
     {
@@ -1823,45 +1846,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            73.8139964,
-            20.0120425
-          ],
-          [
-            73.815363,
-            20.012647
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 64.79059499155795,
-        "sun_diff": 0.5221787102965436,
-        "length": 157.86369917690016
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            73.8155916,
-            20.0127482
+            73.8155657,
+            20.0127615
           ],
           [
             73.8164968,
-            20.0131493
+            20.0131853
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
-        "slope": 64.7522090790651,
-        "sun_diff": 0.5605646227893999,
-        "length": 104.59739781276242
+        "type": "tertiary",
+        "slope": 64.15387957653883,
+        "sun_diff": 1.158894125315669,
+        "length": 108.12854997370268
       }
     },
     {
@@ -1942,8 +1942,8 @@
             20.0133668
           ],
           [
-            73.8171975,
-            20.0137694
+            73.8171999,
+            20.0137727
           ]
         ]
       },
@@ -1951,9 +1951,9 @@
       "properties": {
         "name": "Agra Mumbai Road",
         "type": "trunk",
-        "slope": 66.7540906086002,
-        "sun_diff": 1.4413169067456977,
-        "length": 113.46249319775511
+        "slope": 66.63416990092662,
+        "sun_diff": 1.321396199072126,
+        "length": 113.83807963442811
       }
     },
     {
@@ -1961,22 +1961,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            73.8162618,
-            20.0131925
+            73.8141698,
+            20.0122759
           ],
           [
-            73.8150251,
-            20.0126017
+            73.8132379,
+            20.0118837
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 63.05017455318011,
-        "sun_diff": 2.262599148674383,
-        "length": 144.99785643066082
+        "type": "primary",
+        "slope": 65.87218598582169,
+        "sun_diff": 0.5594122839671911,
+        "length": 106.7199576227566
       }
     },
     {
@@ -1984,22 +1984,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            73.8141653,
-            20.0122801
+            73.8132379,
+            20.0118837
           ],
           [
-            73.8132424,
-            20.0118703
+            73.8122984,
+            20.0114914
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 64.70608368775194,
-        "sun_diff": 0.6066900141025542,
-        "length": 106.68384156136418
+        "type": "primary",
+        "slope": 66.03996210968705,
+        "sun_diff": 0.727188407832557,
+        "length": 107.45009968604461
       }
     },
     {
@@ -2007,31 +2007,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            73.8132424,
-            20.0118703
-          ],
-          [
-            73.8122973,
-            20.0114756
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 66.03664269260145,
-        "sun_diff": 0.7238689907469507,
-        "length": 108.09336191981522
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            73.8130389,
-            20.0120259
+            73.8130483,
+            20.0120171
           ],
           [
             73.813937,
@@ -2042,10 +2019,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 65.19570929991269,
-        "sun_diff": 0.11706440194180345,
-        "length": 103.40311039037917
+        "type": "primary",
+        "slope": 64.47167482380365,
+        "sun_diff": 0.8410988780508433,
+        "length": 102.93016988786032
       }
     },
     {
@@ -2057,18 +2034,18 @@
             20.0127038
           ],
           [
-            73.8154443,
-            20.0131275
+            73.815466,
+            20.0131187
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 63.559950811117204,
-        "sun_diff": 1.752822890737292,
-        "length": 105.84379462435136
+        "type": "primary",
+        "slope": 64.56577100195022,
+        "sun_diff": 0.7470026999042716,
+        "length": 107.45523680902743
       }
     },
     {
@@ -2283,12 +2260,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            73.8264651,
-            20.0169294
+            73.8264034,
+            20.0169256
           ],
           [
-            73.8273227,
-            20.0173314
+            73.8273062,
+            20.017348
           ]
         ]
       },
@@ -2296,9 +2273,9 @@
       "properties": {
         "name": "Agra Mumbai Road",
         "type": "trunk",
-        "slope": 63.485928973316874,
-        "sun_diff": 1.8268447285376226,
-        "length": 100.16280819074589
+        "slope": 63.52853353027575,
+        "sun_diff": 1.7842401715787446,
+        "length": 105.4028338897023
       }
     },
     {
@@ -2306,12 +2283,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            73.8286136,
-            20.0179362
+            73.8286028,
+            20.0179558
           ],
           [
-            73.8295846,
-            20.0183909
+            73.8295815,
+            20.018415
           ]
         ]
       },
@@ -2319,9 +2296,9 @@
       "properties": {
         "name": "Agra Mumbai Road",
         "type": "trunk",
-        "slope": 63.508722142178215,
-        "sun_diff": 1.8040515596762816,
-        "length": 113.38404138164123
+        "slope": 63.46410442493962,
+        "sun_diff": 1.848669276914876,
+        "length": 114.3275634051652
       }
     },
     {
@@ -2329,12 +2306,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            73.8306838,
-            20.0187879
+            73.8261291,
+            20.0167041
           ],
           [
-            73.8285787,
-            20.0177915
+            73.8252377,
+            20.0163319
           ]
         ]
       },
@@ -2342,9 +2319,9 @@
       "properties": {
         "name": "Agra Mumbai Road",
         "type": "trunk",
-        "slope": 63.26283072288771,
-        "sun_diff": 2.049942978966783,
-        "length": 246.3425334003188
+        "slope": 66.0401785270665,
+        "sun_diff": 0.7274048252120053,
+        "length": 101.94562619418367
       }
     },
     {
@@ -2352,12 +2329,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            73.8275556,
-            20.017316
+            73.8252377,
+            20.0163319
           ],
           [
-            73.8262387,
-            20.0166926
+            73.8242817,
+            20.0159671
           ]
         ]
       },
@@ -2365,32 +2342,9 @@
       "properties": {
         "name": "Agra Mumbai Road",
         "type": "trunk",
-        "slope": 63.26018138174251,
-        "sun_diff": 2.052592320111984,
-        "length": 154.1107848351739
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            73.8262387,
-            20.0166926
-          ],
-          [
-            73.8252843,
-            20.0163056
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Agra Mumbai Road",
-        "type": "trunk",
-        "slope": 66.65697436050647,
-        "sun_diff": 1.344200658651971,
-        "length": 108.63727643549332
+        "slope": 67.89690784584718,
+        "sun_diff": 2.584134143992685,
+        "length": 107.83783655242793
       }
     },
     {
@@ -2448,8 +2402,8 @@
             19.9742463
           ],
           [
-            73.9127765,
-            19.9728883
+            73.9126829,
+            19.9728958
           ]
         ]
       },
@@ -2457,9 +2411,9 @@
       "properties": {
         "name": null,
         "type": "tertiary",
-        "slope": 113.72042033521939,
-        "sun_diff": 0.9663242072185625,
-        "length": 375.4891752448394
+        "slope": 114.2167801217629,
+        "sun_diff": 0.46996442067505484,
+        "length": 366.2090754030038
       }
     },
     {
@@ -3387,6 +3341,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            73.9094881,
+            19.9742463
+          ],
+          [
+            73.9070727,
+            19.9752151
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 113.11119430343419,
+        "sun_diff": 1.5755502390037606,
+        "length": 274.5353489391858
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.9070727,
+            19.9752151
+          ],
+          [
+            73.9060125,
+            19.975682
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 115.10682157850226,
+        "sun_diff": 0.42007703606431335,
+        "length": 122.39544323694163
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             73.8091905,
             20.0002337
           ],
@@ -4296,7 +4296,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 114.46572187078729,
         "sun_diff": 0.22102267165065825,
         "length": 144.3586343188739
@@ -4319,7 +4319,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 117.29050858255167,
         "sun_diff": 2.6037640401137168,
         "length": 115.95970514439583
@@ -4652,75 +4652,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            73.827303,
-            20.0174582
-          ],
-          [
-            73.8262522,
-            20.0169681
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 63.6005195643194,
-        "sun_diff": 1.7122541375350977,
-        "length": 122.60538869633233
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            73.8262522,
-            20.0169681
-          ],
-          [
-            73.8253653,
-            20.0166081
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 66.63545752231238,
-        "sun_diff": 1.3226838204578826,
-        "length": 100.9700824698565
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            73.8267678,
-            20.0167826
-          ],
-          [
-            73.8280821,
-            20.0174126
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 62.97104326539923,
-        "sun_diff": 2.341730436455265,
-        "length": 154.20031463762274
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             73.8114685,
             19.9014819
           ],
@@ -4767,8 +4698,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            73.7315655,
-            20.0192946
+            73.7314446,
+            20.0193576
           ],
           [
             73.7300732,
@@ -4780,9 +4711,9 @@
       "properties": {
         "name": "Gangapur Road",
         "type": "primary",
-        "slope": 116.20884482136756,
-        "sun_diff": 1.5221002789296136,
-        "length": 173.829836266132
+        "slope": 115.9547777805476,
+        "sun_diff": 1.268033238109652,
+        "length": 159.4004632286093
       }
     },
     {
@@ -4806,6 +4737,29 @@
         "slope": 116.3041556815187,
         "sun_diff": 1.617411139080744,
         "length": 127.23508924655557
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.8438643,
+            20.026552
+          ],
+          [
+            73.8429275,
+            20.0262
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 68.20212474478478,
+        "sun_diff": 2.8893510429302864,
+        "length": 105.43857119581197
       }
     },
     {
@@ -6278,6 +6232,75 @@
         "slope": 64.0594826463633,
         "sun_diff": 1.2532910554911894,
         "length": 380.22000698670075
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.7545764,
+            20.06693
+          ],
+          [
+            73.7532979,
+            20.067495
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 115.19641643920602,
+        "sun_diff": 0.4946044994590295,
+        "length": 147.61944498342905
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.7444867,
+            20.0714579
+          ],
+          [
+            73.7434755,
+            20.0710296
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 65.72734489607814,
+        "sun_diff": 0.42965225191105105,
+        "length": 115.88926817817608
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.7091448,
+            20.0862307
+          ],
+          [
+            73.7082284,
+            20.0866671
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 116.88743210726889,
+        "sun_diff": 2.185620167521904,
+        "length": 107.33427287514479
       }
     }
   ]
