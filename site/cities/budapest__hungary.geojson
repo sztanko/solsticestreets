@@ -4848,7 +4848,7 @@
       "type": "Feature",
       "properties": {
         "name": "Must\u00e1r utca",
-        "type": "residential",
+        "type": "living_street",
         "slope": 56.30136130324277,
         "sun_diff": 1.1064473472516454,
         "length": 163.730813134659
@@ -4871,7 +4871,7 @@
       "type": "Feature",
       "properties": {
         "name": "Marokszed\u0151 utca",
-        "type": "residential",
+        "type": "living_street",
         "slope": 57.4047995854221,
         "sun_diff": 2.209885629430971,
         "length": 160.33113782562413
@@ -4894,7 +4894,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gyoma utca",
-        "type": "residential",
+        "type": "living_street",
         "slope": 57.559433187375845,
         "sun_diff": 2.364519231384719,
         "length": 303.85374122855944
@@ -4917,7 +4917,7 @@
       "type": "Feature",
       "properties": {
         "name": "M\u00e9lyk\u00fat utca",
-        "type": "residential",
+        "type": "living_street",
         "slope": 56.42429005959585,
         "sun_diff": 1.2293761036047215,
         "length": 103.63934816495197
@@ -4940,7 +4940,7 @@
       "type": "Feature",
       "properties": {
         "name": "M\u00e9lyk\u00fat utca",
-        "type": "residential",
+        "type": "living_street",
         "slope": 56.3267135616729,
         "sun_diff": 1.1317996056817776,
         "length": 113.0235793525578
@@ -4963,7 +4963,7 @@
       "type": "Feature",
       "properties": {
         "name": "Szabadharcosok \u00fatja",
-        "type": "residential",
+        "type": "living_street",
         "slope": 56.34386088407615,
         "sun_diff": 1.1489469280850244,
         "length": 109.50271709216472
@@ -4986,7 +4986,7 @@
       "type": "Feature",
       "properties": {
         "name": "Bezd\u00e1n utca",
-        "type": "residential",
+        "type": "living_street",
         "slope": 54.05721648454315,
         "sun_diff": 1.1376974714479786,
         "length": 111.70750977116579
@@ -5542,29 +5542,6 @@
         "slope": 53.48598707452115,
         "sun_diff": 1.6349695931370718,
         "length": 104.8894841468495
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            19.0716173,
-            47.479813
-          ],
-          [
-            19.0704205,
-            47.4793089
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Tin\u00f3di utca",
-        "type": "residential",
-        "slope": 58.0680558379525,
-        "sun_diff": 2.9470991702942797,
-        "length": 106.01160432872425
       }
     },
     {
@@ -15267,7 +15244,7 @@
       "type": "Feature",
       "properties": {
         "name": "Putnok utca",
-        "type": "residential",
+        "type": "living_street",
         "slope": 55.924982441527845,
         "sun_diff": 0.7300684855367194,
         "length": 135.15722922728568
@@ -17513,8 +17490,8 @@
             47.546444
           ],
           [
-            19.0899719,
-            47.5474414
+            19.0904109,
+            47.5472439
           ]
         ]
       },
@@ -17522,9 +17499,9 @@
       "properties": {
         "name": "Topolya utca",
         "type": "residential",
-        "slope": 123.68066555257096,
-        "sun_diff": 1.1985107410885547,
-        "length": 200.05163690543705
+        "slope": 123.67969906137881,
+        "sun_diff": 1.1994772322806995,
+        "length": 160.44229611211526
       }
     },
     {
@@ -19066,29 +19043,6 @@
         "slope": 55.2987994408181,
         "sun_diff": 0.10388548482697502,
         "length": 234.94397902524724
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            19.0360051,
-            47.3724483
-          ],
-          [
-            19.0343368,
-            47.3716745
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 55.59368275946596,
-        "sun_diff": 0.39876880347483734,
-        "length": 152.31926467428127
       }
     },
     {
@@ -25812,8 +25766,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            19.1195933,
-            47.4156585
+            19.1196082,
+            47.4156929
           ],
           [
             19.1182624,
@@ -25825,9 +25779,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 53.780860866351304,
-        "sun_diff": 1.4140530896398218,
-        "length": 124.1664904303379
+        "slope": 52.690147636018395,
+        "sun_diff": 2.504766319972731,
+        "length": 127.35518219638156
       }
     },
     {
@@ -26828,6 +26782,29 @@
             47.6063772
           ],
           [
+            19.1002814,
+            47.605828
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 122.2360421095963,
+        "sun_diff": 2.717555925259674,
+        "length": 114.52235620713371
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.1002814,
+            47.605828
+          ],
+          [
             19.1016617,
             47.6052412
           ]
@@ -26837,9 +26814,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 122.234145488559,
-        "sun_diff": 2.719452546296978,
-        "length": 236.8967662494662
+        "slope": 122.2326419428314,
+        "sun_diff": 2.720956092024565,
+        "length": 122.37441021499963
       }
     },
     {
@@ -29136,7 +29113,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ringl\u00f3 \u00fat",
-        "type": "residential",
+        "type": "living_street",
         "slope": 122.22830393507996,
         "sun_diff": 2.576928730624985,
         "length": 131.08645796736613
@@ -30014,29 +29991,6 @@
         "slope": 127.32312389522963,
         "sun_diff": 2.517891229524679,
         "length": 285.87356897252505
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            19.1412126,
-            47.4151405
-          ],
-          [
-            19.1425579,
-            47.4158135
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Szentl\u0151rinci \u00fat",
-        "type": "secondary",
-        "slope": 53.5247034694753,
-        "sun_diff": 1.6702104865158276,
-        "length": 125.92260925886127
       }
     },
     {
@@ -35016,29 +34970,6 @@
             47.4632092
           ],
           [
-            19.2164818,
-            47.4647054
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "\u00dajmajori d\u0171l\u0151",
-        "type": "path",
-        "slope": 126.99600721706688,
-        "sun_diff": 2.1168309234073632,
-        "length": 276.5616895437932
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            19.2164818,
-            47.4647054
-          ],
-          [
             19.2147074,
             47.4656072
           ]
@@ -35048,9 +34979,9 @@
       "properties": {
         "name": "\u00dajmajori d\u0171l\u0151",
         "type": "path",
-        "slope": 126.9351299367255,
-        "sun_diff": 2.0559536430659904,
-        "length": 166.92606596745284
+        "slope": 126.97338777743946,
+        "sun_diff": 2.0942114837799437,
+        "length": 443.4877003480171
       }
     },
     {
@@ -40203,6 +40134,29 @@
         "slope": 121.93033066175394,
         "sun_diff": 2.94884563190557,
         "length": 113.69346028430238
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.0360051,
+            47.3724483
+          ],
+          [
+            19.0343368,
+            47.3716745
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 55.59368275946596,
+        "sun_diff": 0.39876880347483734,
+        "length": 152.31926467428127
       }
     }
   ]
