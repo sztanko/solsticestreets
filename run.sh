@@ -10,7 +10,16 @@ source_file="$data_dir/source/input.osm.pbf"
 source_file_highways="$data_dir/source/input-highways.osm.pbf"
 geojson_destination="$data_dir/cities/"
 
-mkdir -p `dirname $source_file`
+# Function to send notification on failure
+send_notification() {
+    local error_message="$1"
+    echo "$error_message" | ./send_notification.sh
+}
+
+# Trap errors and call send_notification function
+trap 'send_notification "An error occurred in the script: $BASH_COMMAND"; exit 1' ERR
+
+mkdir -p $(dirname $source_file)
 
 wget -c -O $source_file $osm_url
 echo "Removing all non-highway parts"
@@ -26,7 +35,7 @@ rm -f $geojson_destination/*.*json
 echo "Iterating through all city extracts"
 export geojson_destination="$geojson_destination"
 
-function get_streets(){
+function get_streets() {
     local f=$1
     local filename=$(basename -- "$f")
     local key="${filename%%.*}"
@@ -37,6 +46,8 @@ export -f get_streets
 ls $data_dir/pbf/*.osm.pbf | parallel get_streets
 cp $data_dir/tree.geojson $geojson_destination # add subdivision plan
 
-scripts/clone_and_commit.sh $geojson_destination $cities_file $repo_dir 
+scripts/clone_and_commit.sh $geojson_destination $cities_file $repo_dir
 echo "All done, cleaning up"
 rm -rf $data_dir
+
+echo "Hello, your new PR for solsticestreets data should be ready. Have a look at https://github.com/sztanko/solsticestreets/pulls" | ./send_notification.sh

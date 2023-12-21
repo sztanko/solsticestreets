@@ -13,6 +13,14 @@
             {
                 "name": "GIT_TOKEN",
                 "valueFrom": "arn:aws:secretsmanager:eu-west-2:332309941764:secret:git-token-aPwc1b/GIT_TOKEN"
+            },
+            {
+                "name": "TG_BOT",
+                "valueFrom": "arn:aws:secretsmanager:eu-west-2:332309941764:secret:git-token-aPwc1b/TG_BOT"
+            },
+            {
+                "name": "TG_CHAT_ID",
+                "valueFrom": "arn:aws:secretsmanager:eu-west-2:332309941764:secret:git-token-aPwc1b/TG_CHAT_ID"
             }
         ]
     }

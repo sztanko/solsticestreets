@@ -18,6 +18,14 @@
             {
                 "name": "GIT_TOKEN",
                 "valueFrom": "${SECRET_ARN}:GIT_TOKEN::"
+            },
+            {
+                "name": "TG_BOT",
+                "valueFrom": "${SECRET_ARN}:TG_BOT::"
+            },
+           {
+                "name": "TG_CHAT_ID",
+                "valueFrom": "${SECRET_ARN}:TG_CHAT_ID::"
             }
         ],
         "logConfiguration": {
