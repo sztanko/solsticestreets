@@ -13,6 +13,8 @@ geojson_destination="$data_dir/cities/"
 # Function to send notification on failure
 send_notification() {
     local error_message="$1"
+    rm -rf $data_dir
+    echo "Removing $data_dir"
     echo "$error_message" | scripts/send_notification.sh
 }
 
