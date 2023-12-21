@@ -147,9 +147,28 @@ resource "aws_efs_mount_target" "solsticestreets-mount" {
 
 }
 
+resource "aws_cloudwatch_log_group" "solstice_group" {
+  name = "SolsticeGroup"
+  
+  # Optionally you can add more configuration like retention in days
+  # retention_in_days = 30
+}
+
+
 resource "aws_ecs_cluster" "solsticestreets-cluster" {
-  name               = "solsticestreets-cluster"
+  name = "solsticestreets-cluster"
+}
+
+resource "aws_ecs_cluster_capacity_providers" "solsticestreets-cluster" {
+  cluster_name = aws_ecs_cluster.solsticestreets-cluster.name
+
   capacity_providers = ["FARGATE"]
+
+  default_capacity_provider_strategy {
+    base              = 1
+    weight            = 100
+    capacity_provider = "FARGATE"
+  }
 }
 
 
@@ -187,13 +206,14 @@ data "template_file" "solsticestreets-task-template" {
 
   vars = {
     SECRET_ARN = aws_secretsmanager_secret.git-token.arn
+    LOG_GROUP_NAME = aws_cloudwatch_log_group.solstice_group.name
   }
 }
 
 resource "aws_ecs_task_definition" "solsticestreets-extractor" {
   family = "solsticestreets-extractor"
 
-  container_definitions = data.template_file.solsticestreets-task-template.rendered //file("container-defs/test.json")
+  container_definitions = data.template_file.solsticestreets-task-template.rendered
   cpu                   = 4096
   memory                = 12288 // 12 GB
 

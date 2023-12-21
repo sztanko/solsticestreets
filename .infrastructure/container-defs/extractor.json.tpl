@@ -19,6 +19,14 @@
                 "name": "GIT_TOKEN",
                 "valueFrom": "${SECRET_ARN}:GIT_TOKEN::"
             }
-        ]
+        ],
+        "logConfiguration": {
+            "logDriver": "awslogs",
+            "options": {
+                "awslogs-group": "${LOG_GROUP_NAME}",
+                "awslogs-region": "eu-west-2",
+                "awslogs-stream-prefix": "ecs"
+            }
+        }
     }
 ]
