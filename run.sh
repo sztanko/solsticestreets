@@ -13,7 +13,7 @@ geojson_destination="$data_dir/cities/"
 # Function to send notification on failure
 send_notification() {
     local error_message="$1"
-    echo "$error_message" | ./send_notification.sh
+    echo "$error_message" | scripts/send_notification.sh
 }
 
 # Trap errors and call send_notification function
@@ -50,4 +50,4 @@ scripts/clone_and_commit.sh $geojson_destination $cities_file $repo_dir
 echo "All done, cleaning up"
 rm -rf $data_dir
 
-echo "Hello, your new PR for solsticestreets data should be ready. Have a look at https://github.com/sztanko/solsticestreets/pulls" | ./send_notification.sh
+echo "Hello, your new PR for solsticestreets data should be ready. Have a look at https://github.com/sztanko/solsticestreets/pulls" | scripts/send_notification.sh
