@@ -29,6 +29,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -93.4319344,
+            45.0487917
+          ],
+          [
+            -93.4302944,
+            45.0494822
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "53rd Avenue North",
+        "type": "residential",
+        "slope": 59.20714855080672,
+        "sun_diff": 2.3685905521870723,
+        "length": 150.0277146692609
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -93.4083406,
             45.0073508
           ],
@@ -834,12 +857,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.430061,
-            45.047886
+            -93.4300731,
+            45.0479173
           ],
           [
-            -93.428383,
-            45.048599
+            -93.4284031,
+            45.0486293
           ]
         ]
       },
@@ -847,9 +870,9 @@
       "properties": {
         "name": "52nd Avenue North",
         "type": "residential",
-        "slope": 58.97625978795156,
-        "sun_diff": 2.1377017893319135,
-        "length": 153.8771467615671
+        "slope": 58.89076010609753,
+        "sun_diff": 2.052202107477882,
+        "length": 153.28117860134262
       }
     },
     {
@@ -3472,29 +3495,6 @@
         "slope": 53.91843375066634,
         "sun_diff": 2.7278954039524876,
         "length": 121.44014429895441
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.219477,
-            45.188618
-          ],
-          [
-            -93.2180253,
-            45.189329
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Cloud Drive Northeast",
-        "type": "residential",
-        "slope": 55.203001954370166,
-        "sun_diff": 1.5078041860135727,
-        "length": 138.5821388407341
       }
     },
     {
@@ -13381,7 +13381,7 @@
       "type": "Feature",
       "properties": {
         "name": "Broadway Street East",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 125.37239748864457,
         "sun_diff": 2.0172139837333134,
         "length": 108.35026024507636
@@ -13404,7 +13404,7 @@
       "type": "Feature",
       "properties": {
         "name": "Broadway Street East",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 123.01361922287933,
         "sun_diff": 0.3415642820319249,
         "length": 151.88977471169423
@@ -13427,7 +13427,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Kellogg Boulevard",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 55.79632120492926,
         "sun_diff": 1.0422367936903925,
         "length": 194.56651462545014
@@ -13450,7 +13450,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Kellogg Boulevard",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 55.81304466956499,
         "sun_diff": 1.025513329054661,
         "length": 249.82085741626088
@@ -16708,8 +16708,8 @@
             44.9167414
           ],
           [
-            -93.311287,
-            44.916199
+            -93.3112877,
+            44.916227
           ]
         ]
       },
@@ -16717,9 +16717,9 @@
       "properties": {
         "name": "West Lake Harriet Parkway",
         "type": "tertiary",
-        "slope": 125.37231467838245,
-        "sun_diff": 2.272634889943049,
-        "length": 104.21869507967423
+        "slope": 123.96912850451145,
+        "sun_diff": 0.8694487160720428,
+        "length": 102.40151488756676
       }
     },
     {
@@ -19752,7 +19752,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Kellogg Boulevard",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 56.33900371329412,
         "sun_diff": 0.5628291577965285,
         "length": 104.15074976073572
@@ -25306,8 +25306,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.2122906,
-            45.1917256
+            -93.2135141,
+            45.1911795
+          ],
+          [
+            -93.212306,
+            45.191742
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Cloud Drive Northeast",
+        "type": "residential",
+        "slope": 56.54795282022951,
+        "sun_diff": 0.16285332015422682,
+        "length": 113.50250902269852
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.212306,
+            45.191742
           ],
           [
             -93.2101889,
@@ -25319,9 +25342,9 @@
       "properties": {
         "name": "Cloud Drive Northeast",
         "type": "residential",
-        "slope": 55.91307735677657,
-        "sun_diff": 0.7977287836071696,
-        "length": 198.92289939639346
+        "slope": 56.54313638010393,
+        "sun_diff": 0.16766976027980718,
+        "length": 198.91231558723283
       }
     },
     {
@@ -26675,7 +26698,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Kellogg Boulevard",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 55.570393790161916,
         "sun_diff": 1.2681642084577334,
         "length": 116.72033221458837
@@ -30642,6 +30665,75 @@
         "type": "LineString",
         "coordinates": [
           [
+            -93.2688242,
+            45.1266072
+          ],
+          [
+            -93.267545,
+            45.126029
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 122.64512787584832,
+        "sun_diff": 0.5815251292616352,
+        "length": 119.22281422352269
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.2689991,
+            45.1265032
+          ],
+          [
+            -93.2676711,
+            45.125891
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 123.15984298786617,
+        "sun_diff": 0.06681001724378177,
+        "length": 124.49279329272306
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.2691575,
+            45.1263586
+          ],
+          [
+            -93.267807,
+            45.1257424
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 122.89041491234889,
+        "sun_diff": 0.3362380927610644,
+        "length": 126.2159728173001
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -93.2692961,
             45.1262072
           ],
@@ -31551,7 +31643,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Kellogg Boulevard",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 55.643705759532224,
         "sun_diff": 1.1948522390874246,
         "length": 102.17596686791315
@@ -31601,6 +31693,75 @@
         "slope": 121.69093262492427,
         "sun_diff": 1.5997875546003968,
         "length": 118.7176805748558
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.0916013,
+            44.7346976
+          ],
+          [
+            -93.0895395,
+            44.7338185
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 120.97232572524382,
+        "sun_diff": 2.001897148520797,
+        "length": 190.00590840311457
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.0911393,
+            44.7352537
+          ],
+          [
+            -93.0890941,
+            44.7343667
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 121.40482839123845,
+        "sun_diff": 1.5693944825261639,
+        "length": 189.33755957015157
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.0906635,
+            44.7357994
+          ],
+          [
+            -93.0886185,
+            44.7349521
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 120.25312615946115,
+        "sun_diff": 2.7210967143034708,
+        "length": 187.0594956904147
       }
     }
   ]

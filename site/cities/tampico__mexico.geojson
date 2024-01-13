@@ -64,7 +64,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Francisco I. Madero",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 115.9075842854644,
         "sun_diff": 0.8645907362969325,
         "length": 101.01611618622809
@@ -305,21 +305,21 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.8596218,
-            22.2280348
-          ],
-          [
             -97.8605243,
             22.2283802
+          ],
+          [
+            -97.8596218,
+            22.2280348
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Calle Arenal",
-        "type": "residential",
-        "slope": 112.46216763353584,
-        "sun_diff": 2.580825915631621,
+        "type": "tertiary",
+        "slope": 112.46211779421742,
+        "sun_diff": 2.5808757549500427,
         "length": 100.5535419894682
       }
     },
@@ -2134,7 +2134,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Marqu\u00e9s de Guadalupe",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 113.93692188780898,
         "sun_diff": 1.1234749833636783,
         "length": 138.17028495872736
@@ -2157,7 +2157,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Marqu\u00e9s de Guadalupe",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 116.37383242503466,
         "sun_diff": 1.313435553862007,
         "length": 198.45969386097966
@@ -2387,7 +2387,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Campo Misi\u00f3n",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 64.0054248497616,
         "sun_diff": 0.9355406744340655,
         "length": 120.90269831931647
@@ -2460,6 +2460,29 @@
         "slope": 65.97300886035345,
         "sun_diff": 1.032043336157784,
         "length": 101.26768158360504
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.8891964,
+            22.3607253
+          ],
+          [
+            -97.8880824,
+            22.3602194
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle General L\u00e1zaro C\u00e1rdenas",
+        "type": "residential",
+        "slope": 116.15340258483636,
+        "sun_diff": 1.0754931086317896,
+        "length": 127.66369327952354
       }
     },
     {
@@ -3644,8 +3667,8 @@
             22.2067375
           ],
           [
-            -97.8399401,
-            22.2071785
+            -97.8399374,
+            22.2072058
           ]
         ]
       },
@@ -3653,9 +3676,9 @@
       "properties": {
         "name": "Calle Insurgentes",
         "type": "residential",
-        "slope": 63.723918227224345,
-        "sun_diff": 1.234450618976524,
-        "length": 110.8036154060819
+        "slope": 62.39891084631404,
+        "sun_diff": 2.559457999886831,
+        "length": 112.42726301630559
       }
     },
     {
@@ -4066,7 +4089,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Marqu\u00e9s de Guadalupe",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 116.60363174456529,
         "sun_diff": 1.5432348733926347,
         "length": 196.99212927784106
@@ -4089,7 +4112,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Marqu\u00e9s de Guadalupe",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.1501623455843,
         "sun_diff": 0.9102345255883506,
         "length": 140.14851703666207
@@ -4940,7 +4963,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Sebasti\u00e1n Lerdo de Tejada",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 66.44877377309155,
         "sun_diff": 1.5078082488958842,
         "length": 126.02037835485395
@@ -4963,7 +4986,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Sebasti\u00e1n Lerdo de Tejada",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 66.44481503636672,
         "sun_diff": 1.5038495121710582,
         "length": 118.40196192244149
@@ -4986,7 +5009,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Sebasti\u00e1n Lerdo de Tejada",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 65.73248898630314,
         "sun_diff": 0.7915234621074774,
         "length": 114.72183382058998
@@ -6757,7 +6780,7 @@
       "type": "Feature",
       "properties": {
         "name": "Prolongaci\u00f3n Miguel Hidalgo y Costilla",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 67.55672122681077,
         "sun_diff": 2.615755702615104,
         "length": 127.93338761503112
@@ -6849,7 +6872,7 @@
       "type": "Feature",
       "properties": {
         "name": "Prolongaci\u00f3n Miguel Hidalgo y Costilla",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 62.41887824271399,
         "sun_diff": 2.5220872814816744,
         "length": 160.18848836004372
@@ -8735,7 +8758,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle H\u00e9roe de Nacozari",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 112.31749904443188,
         "sun_diff": 2.725494504735579,
         "length": 103.30977161077216
@@ -8758,7 +8781,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle H\u00e9roe de Nacozari",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 112.47608936051151,
         "sun_diff": 2.566904188655954,
         "length": 100.69814988559366
@@ -8781,7 +8804,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle H\u00e9roe de Nacozari",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 112.10485367103652,
         "sun_diff": 2.93813987813094,
         "length": 109.72165612842932

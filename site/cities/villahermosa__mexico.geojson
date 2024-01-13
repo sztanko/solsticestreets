@@ -6,98 +6,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -92.947715,
-            17.989908
-          ],
-          [
-            -92.9512937,
-            17.9884079
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 66.21608467544115,
-        "sun_diff": 0.6216066514586771,
-        "length": 413.736842619358
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -92.9518435,
-            17.9881774
-          ],
-          [
-            -92.9533458,
-            17.9875683
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 66.91241610195752,
-        "sun_diff": 1.3179380779750431,
-        "length": 172.7708878558323
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -92.9533115,
-            17.987465
-          ],
-          [
-            -92.9518003,
-            17.9880909
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 66.46884492815582,
-        "sun_diff": 0.8743669041733426,
-        "length": 174.3751104066997
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -92.9512151,
-            17.9883384
-          ],
-          [
-            -92.94765,
-            17.9898464
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 66.02375828803201,
-        "sun_diff": 0.4292802640495381,
-        "length": 412.77708496077884
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -92.9347114,
             17.9900311
           ],
@@ -110,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Coronel Gregorio M\u00e9ndez Maga\u00f1a",
-        "type": "primary",
+        "type": "secondary",
         "slope": 66.00444173130916,
         "sun_diff": 0.40996370732668197,
         "length": 112.36049038767018
@@ -639,7 +547,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Esperanza Iris",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 113.18319878296197,
         "sun_diff": 1.223630946910518,
         "length": 115.39092687212138
@@ -662,7 +570,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Esperanza Iris",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 113.12942486212222,
         "sun_diff": 1.2774048677502634,
         "length": 160.63920767947258
@@ -685,7 +593,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Esperanza Iris",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 112.89232162151953,
         "sun_diff": 1.5145081083529561,
         "length": 231.12373844400673
@@ -708,7 +616,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Esperanza Iris",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 112.89253462015441,
         "sun_diff": 1.514295109718077,
         "length": 208.41838138364596
@@ -1678,29 +1586,6 @@
         "slope": 63.506592826632755,
         "sun_diff": 2.0878851973497206,
         "length": 100.88355317716798
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -92.9034179,
-            17.9630501
-          ],
-          [
-            -92.9021681,
-            17.9635536
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Monal Segunda",
-        "type": "residential",
-        "slope": 67.0468899312337,
-        "sun_diff": 1.4524119072512178,
-        "length": 143.608962157406
       }
     },
     {
@@ -4369,6 +4254,29 @@
         "slope": 116.66930824049524,
         "sun_diff": 2.2624785106227563,
         "length": 102.67027044428849
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -92.9034179,
+            17.9630501
+          ],
+          [
+            -92.9021681,
+            17.9635536
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Monal Segunda",
+        "type": "residential",
+        "slope": 67.0468899312337,
+        "sun_diff": 1.4524119072512178,
+        "length": 143.608962157406
       }
     }
   ]
