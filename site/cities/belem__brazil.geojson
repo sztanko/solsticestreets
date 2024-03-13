@@ -374,8 +374,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.448606,
-            -1.3464429
+            -48.4486145,
+            -1.3464281
           ],
           [
             -48.4477008,
@@ -386,10 +386,10 @@
       "type": "Feature",
       "properties": {
         "name": "Alameda Murure",
-        "type": "living_street",
-        "slope": 66.49379975415923,
-        "sun_diff": 0.03851788437935966,
-        "length": 109.7661911350355
+        "type": "residential",
+        "slope": 67.47658041812537,
+        "sun_diff": 0.9442627795867793,
+        "length": 109.99254473717036
       }
     },
     {
@@ -546,7 +546,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Travessa D",
+        "name": "Rua D",
         "type": "residential",
         "slope": 63.63959776273475,
         "sun_diff": 2.889987800135856,
@@ -569,7 +569,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Rua Macaratiba",
+        "name": "Rua Muiracaratiba",
         "type": "residential",
         "slope": 68.2031031576816,
         "sun_diff": 1.6735175948109884,
@@ -592,7 +592,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Rua Macaratiba",
+        "name": "Rua Muiracaratiba",
         "type": "residential",
         "slope": 69.42142146365427,
         "sun_diff": 2.8918359007836614,
@@ -857,6 +857,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -48.425615,
+            -1.3833969
+          ],
+          [
+            -48.4240085,
+            -1.3827558
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Nova Rep\u00fablica",
+        "type": "tertiary",
+        "slope": 68.23897881965144,
+        "sun_diff": 1.709393256780828,
+        "length": 192.34555035813855
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -48.4251529,
             -1.3837366
           ],
@@ -949,12 +972,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4142216,
-            -1.3686608
+            -48.4156609,
+            -1.3679928
           ],
           [
-            -48.4128917,
-            -1.3693196
+            -48.4147275,
+            -1.3684413
           ]
         ]
       },
@@ -962,9 +985,32 @@
       "properties": {
         "name": "Alameda Vila Nova",
         "type": "residential",
-        "slope": 116.3592018182058,
-        "sun_diff": 2.887944080084992,
-        "length": 165.04205816417257
+        "slope": 115.67073005828189,
+        "sun_diff": 2.199472320161078,
+        "length": 115.15866327965435
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4122307,
+            -1.3415347
+          ],
+          [
+            -48.4112888,
+            -1.3411168
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua S\u00e3o Jos\u00e9",
+        "type": "residential",
+        "slope": 66.06838806705949,
+        "sun_diff": 0.46392957147909897,
+        "length": 114.58993774773278
       }
     },
     {
@@ -1018,8 +1064,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4186996,
-            -1.355628
+            -48.4188459,
+            -1.3555695
           ],
           [
             -48.4173806,
@@ -1031,9 +1077,9 @@
       "properties": {
         "name": "Alameda Par\u00e1",
         "type": "residential",
-        "slope": 114.88970732835051,
-        "sun_diff": 1.4184495902296987,
-        "length": 161.68877783178166
+        "slope": 114.58775096747084,
+        "sun_diff": 1.1164932293500271,
+        "length": 179.1872207276053
       }
     },
     {
@@ -1087,58 +1133,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4268566,
-            -1.3602019
-          ],
-          [
-            -48.4256287,
-            -1.3596097
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua G\u00eanova",
-        "type": "residential",
-        "slope": 64.24628579934705,
-        "sun_diff": 2.2832997635235586,
-        "length": 151.59896021666478
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -48.4265244,
-            -1.3606807
-          ],
-          [
-            -48.4253533,
-            -1.3601046
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Floren\u00e7a",
-        "type": "residential",
-        "slope": 63.79961729114058,
-        "sun_diff": 2.72996827173003,
-        "length": 145.1365378727122
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -48.4227209,
             -1.3413801
           ],
           [
-            -48.4239386,
-            -1.341841
+            -48.4239644,
+            -1.3418582
           ]
         ]
       },
@@ -1146,9 +1146,9 @@
       "properties": {
         "name": "Passagem Santa L\u00facia",
         "type": "residential",
-        "slope": 69.26312005389292,
-        "sun_diff": 2.730802415354333,
-        "length": 144.7872912673292
+        "slope": 68.96401764669534,
+        "sun_diff": 2.431700008156753,
+        "length": 148.14979508368006
       }
     },
     {
@@ -1156,22 +1156,45 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4239386,
-            -1.341841
+            -48.4246723,
+            -1.3426233
           ],
           [
-            -48.4248027,
-            -1.3421693
+            -48.4237826,
+            -1.3422732
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Passagem Santa L\u00facia",
+        "name": "Rua Turmalina",
         "type": "residential",
-        "slope": 69.1913493098094,
-        "sun_diff": 2.65903167127081,
-        "length": 102.79226340874125
+        "slope": 68.51483377892583,
+        "sun_diff": 1.982516140387247,
+        "length": 106.32208544252308
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4237826,
+            -1.3422732
+          ],
+          [
+            -48.4225536,
+            -1.3417889
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Turmalina",
+        "type": "residential",
+        "slope": 68.48721343026767,
+        "sun_diff": 1.9548957917290863,
+        "length": 146.8974708969917
       }
     },
     {
@@ -1271,8 +1294,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.398567,
-            -1.3427276
+            -48.3985857,
+            -1.3427118
           ],
           [
             -48.3974232,
@@ -1284,9 +1307,9 @@
       "properties": {
         "name": "Rua Santa Madelena",
         "type": "residential",
-        "slope": 67.0119345053314,
-        "sun_diff": 0.47961686679281,
-        "length": 138.1617066775021
+        "slope": 68.01066461405,
+        "sun_diff": 1.478346975511414,
+        "length": 139.4108316701456
       }
     },
     {
@@ -1318,7 +1341,7 @@
         "coordinates": [
           [
             -48.3977131,
-            -1.3416653
+            -1.3417034
           ],
           [
             -48.3988335,
@@ -1330,9 +1353,9 @@
       "properties": {
         "name": "Rua Cristo Redentor",
         "type": "residential",
-        "slope": 65.3965507458712,
-        "sun_diff": 1.135766892667391,
-        "length": 137.02838824156757
+        "slope": 67.02822674464466,
+        "sun_diff": 0.495909106106069,
+        "length": 135.3188855267332
       }
     },
     {
@@ -1551,8 +1574,8 @@
             -1.3311769
           ],
           [
-            -48.4075964,
-            -1.331746
+            -48.4075913,
+            -1.3318082
           ]
         ]
       },
@@ -1560,9 +1583,9 @@
       "properties": {
         "name": "Rua Carlos Santos",
         "type": "residential",
-        "slope": 110.74519545370171,
-        "sun_diff": 2.7233438691294367,
-        "length": 178.7087775984027
+        "slope": 112.7213554439077,
+        "sun_diff": 0.7471838789234511,
+        "length": 181.7978657312169
       }
     },
     {
@@ -1570,12 +1593,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4053687,
-            -1.3325821
+            -48.4055175,
+            -1.3325661
           ],
           [
-            -48.4044247,
-            -1.3329609
+            -48.4044412,
+            -1.3330142
           ]
         ]
       },
@@ -1583,9 +1606,9 @@
       "properties": {
         "name": "Rua Carlos Santos",
         "type": "residential",
-        "slope": 111.86952952636665,
-        "sun_diff": 1.5990097964645003,
-        "length": 113.11277498219641
+        "slope": 112.60911255370175,
+        "sun_diff": 0.8594267691293993,
+        "length": 129.64783460076
       }
     },
     {
@@ -1662,8 +1685,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4152146,
-            -1.3269414
+            -48.4170552,
+            -1.3262816
+          ],
+          [
+            -48.4161095,
+            -1.3266711
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Alameda B",
+        "type": "residential",
+        "slope": 112.39041992798877,
+        "sun_diff": 1.0781193948423748,
+        "length": 113.73648676303137
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4152293,
+            -1.3270179
           ],
           [
             -48.4133593,
@@ -1675,9 +1721,9 @@
       "properties": {
         "name": "Alameda B",
         "type": "residential",
-        "slope": 114.04868060667755,
-        "sun_diff": 0.5801412838464017,
-        "length": 225.91921863561345
+        "slope": 111.8912047176047,
+        "sun_diff": 1.5773346052264543,
+        "length": 224.1032691953341
       }
     },
     {
@@ -1689,8 +1735,8 @@
             -1.3241183
           ],
           [
-            -48.4184362,
-            -1.3244762
+            -48.418459,
+            -1.3245169
           ]
         ]
       },
@@ -1698,9 +1744,9 @@
       "properties": {
         "name": "Rua 21 de Abril",
         "type": "residential",
-        "slope": 111.02491012016654,
-        "sun_diff": 2.44362920266461,
-        "length": 110.95893720218301
+        "slope": 113.69254552666331,
+        "sun_diff": 0.22400620383216108,
+        "length": 110.33612342373024
       }
     },
     {
@@ -1708,31 +1754,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4195919,
-            -1.3259774
-          ],
-          [
-            -48.4184869,
-            -1.3265272
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Alameda Bacelar",
-        "type": "residential",
-        "slope": 116.45906814782413,
-        "sun_diff": 2.9905288249929782,
-        "length": 137.25287852381513
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -48.4184869,
-            -1.3265272
+            -48.4217732,
+            -1.325353
           ],
           [
             -48.417365,
@@ -1744,9 +1767,9 @@
       "properties": {
         "name": "Alameda Bacelar",
         "type": "residential",
-        "slope": 114.60387848812724,
-        "sun_diff": 1.135339165296088,
-        "length": 137.21315803399037
+        "slope": 110.95584470253692,
+        "sun_diff": 2.5126946202942264,
+        "length": 524.9115661139864
       }
     },
     {
@@ -1754,12 +1777,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4186995,
-            -1.3249217
+            -48.4168426,
+            -1.3257046
           ],
           [
-            -48.4195631,
-            -1.3245651
+            -48.4180214,
+            -1.3252213
           ]
         ]
       },
@@ -1767,9 +1790,55 @@
       "properties": {
         "name": "Rua Cabral",
         "type": "residential",
-        "slope": 112.44224127126205,
-        "sun_diff": 1.0262980515690998,
-        "length": 103.90139971920475
+        "slope": 112.29867653197576,
+        "sun_diff": 1.1698627908553902,
+        "length": 141.67750451969135
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4187158,
+            -1.3249624
+          ],
+          [
+            -48.4195615,
+            -1.3246074
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Cabral",
+        "type": "residential",
+        "slope": 112.77669773838758,
+        "sun_diff": 0.6918415844435657,
+        "length": 101.99546410575869
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4213977,
+            -1.326417
+          ],
+          [
+            -48.4204871,
+            -1.3267642
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Ayrton Senna",
+        "type": "residential",
+        "slope": 110.87631655240472,
+        "sun_diff": 2.5922227704264316,
+        "length": 108.37324017820525
       }
     },
     {
@@ -1846,6 +1915,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -48.4027072,
+            -1.3371039
+          ],
+          [
+            -48.4004888,
+            -1.33798
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Izalandia",
+        "type": "residential",
+        "slope": 111.55560466713516,
+        "sun_diff": 1.9129346556959916,
+        "length": 265.2351888718516
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -48.4049785,
             -1.3365844
           ],
@@ -1915,29 +2007,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4019384,
-            -1.3379481
-          ],
-          [
-            -48.4010152,
-            -1.3383718
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Santo Andre",
-        "type": "residential",
-        "slope": 114.65854820515074,
-        "sun_diff": 1.1900088823195887,
-        "length": 112.96018597788125
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -48.4041934,
             -1.3378344
           ],
@@ -1961,12 +2030,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4029816,
-            -1.3378873
+            -48.402993,
+            -1.337919
           ],
           [
-            -48.4040328,
-            -1.3374257
+            -48.4040455,
+            -1.3374485
           ]
         ]
       },
@@ -1974,9 +2043,9 @@
       "properties": {
         "name": "Rua S\u00e3o Pedro",
         "type": "residential",
-        "slope": 113.71285145749809,
-        "sun_diff": 0.24431213466694146,
-        "length": 127.67197517849864
+        "slope": 114.09193483770446,
+        "sun_diff": 0.6233955148733088,
+        "length": 128.20524437358037
       }
     },
     {
@@ -1984,12 +2053,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4040328,
-            -1.3374257
+            -48.4040455,
+            -1.3374485
           ],
           [
-            -48.4051393,
-            -1.3369089
+            -48.4051355,
+            -1.3369444
           ]
         ]
       },
@@ -1997,9 +2066,9 @@
       "properties": {
         "name": "Rua S\u00e3o Pedro",
         "type": "residential",
-        "slope": 115.04129784126769,
-        "sun_diff": 1.5727585184365438,
-        "length": 135.80783483382055
+        "slope": 114.82540257152729,
+        "sun_diff": 1.3568632486961434,
+        "length": 133.54853306404385
       }
     },
     {
@@ -2007,12 +2076,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4055522,
-            -1.3377834
+            -48.4055801,
+            -1.3378215
           ],
           [
-            -48.4043614,
-            -1.3382413
+            -48.4043728,
+            -1.3382806
           ]
         ]
       },
@@ -2020,9 +2089,9 @@
       "properties": {
         "name": "Rua Primeiro de Maio",
         "type": "residential",
-        "slope": 111.03855591191825,
-        "sun_diff": 2.4299834109128966,
-        "length": 141.87381066265206
+        "slope": 110.82550240210247,
+        "sun_diff": 2.643036920728676,
+        "length": 143.63520190904592
       }
     },
     {
@@ -2030,8 +2099,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4043614,
-            -1.3382413
+            -48.4043728,
+            -1.3382806
           ],
           [
             -48.4033,
@@ -2043,9 +2112,9 @@
       "properties": {
         "name": "Rua Primeiro de Maio",
         "type": "residential",
-        "slope": 115.47256077025398,
-        "sun_diff": 2.0040214474228293,
-        "length": 130.73577698581053
+        "slope": 113.49373725329778,
+        "sun_diff": 0.0251979304666321,
+        "length": 130.07777500753218
       }
     },
     {
@@ -2092,6 +2161,29 @@
         "slope": 113.19505229589913,
         "sun_diff": 0.2734870269320169,
         "length": 246.62672558392705
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.3990107,
+            -1.3333656
+          ],
+          [
+            -48.4010078,
+            -1.3325813
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Passagem Jesus de Nazar\u00e9",
+        "type": "residential",
+        "slope": 111.44617485586059,
+        "sun_diff": 2.022364466970558,
+        "length": 238.59710735515716
       }
     },
     {
@@ -2168,29 +2260,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4029841,
-            -1.3283348
-          ],
-          [
-            -48.4046184,
-            -1.327698
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Travessa Segunda",
-        "type": "residential",
-        "slope": 111.29342836448151,
-        "sun_diff": 2.1751109583496344,
-        "length": 195.0495628544249
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -48.4030329,
             -1.3273508
           ],
@@ -2218,8 +2287,8 @@
             -1.3281183
           ],
           [
-            -48.4031464,
-            -1.328775
+            -48.4031387,
+            -1.3287768
           ]
         ]
       },
@@ -2227,9 +2296,9 @@
       "properties": {
         "name": "Travessa Primeira",
         "type": "residential",
-        "slope": 112.08386353032955,
-        "sun_diff": 1.3846757925015964,
-        "length": 194.2866197222034
+        "slope": 112.04382081382388,
+        "sun_diff": 1.4247185090072634,
+        "length": 195.1553614516677
       }
     },
     {
@@ -2391,6 +2460,29 @@
         "slope": 66.0248593516425,
         "sun_diff": 0.5047262112281032,
         "length": 121.10066831082275
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.3954754,
+            -1.3879074
+          ],
+          [
+            -48.3942846,
+            -1.3873663
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Presidente Jo\u00e3o Figueiredo",
+        "type": "residential",
+        "slope": 65.55660583664334,
+        "sun_diff": 0.9729797262272655,
+        "length": 145.45027650891754
       }
     },
     {
@@ -2724,8 +2816,8 @@
             -1.3391588
           ],
           [
-            -48.3854922,
-            -1.3381137
+            -48.385497,
+            -1.3381509
           ]
         ]
       },
@@ -2733,9 +2825,9 @@
       "properties": {
         "name": "Alameda Antares",
         "type": "residential",
-        "slope": 116.19362340922373,
-        "sun_diff": 2.7250840863925845,
-        "length": 263.3545554196248
+        "slope": 115.33024378785885,
+        "sun_diff": 1.8617044650276995,
+        "length": 262.0368202273095
       }
     },
     {
@@ -2931,8 +3023,8 @@
             -1.3393122
           ],
           [
-            -48.3916352,
-            -1.3398392
+            -48.3916498,
+            -1.3398672
           ]
         ]
       },
@@ -2940,9 +3032,9 @@
       "properties": {
         "name": "Avenida Rio Tapaj\u00f3s",
         "type": "residential",
-        "slope": 113.05611266230329,
-        "sun_diff": 0.41242666052785637,
-        "length": 149.67638467827595
+        "slope": 114.39868484079929,
+        "sun_diff": 0.9301455179681426,
+        "length": 149.4432950097535
       }
     },
     {
@@ -3414,8 +3506,8 @@
             -1.3414393
           ],
           [
-            -48.3751228,
-            -1.3421539
+            -48.3751443,
+            -1.3421378
           ]
         ]
       },
@@ -3423,9 +3515,32 @@
       "properties": {
         "name": "Rua do Porto",
         "type": "residential",
-        "slope": 114.71509951225579,
-        "sun_diff": 1.2465601894246419,
-        "length": 190.106710689653
+        "slope": 114.52313382314017,
+        "sun_diff": 1.0545945003090225,
+        "length": 187.1872316630239
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.3756895,
+            -1.3410399
+          ],
+          [
+            -48.374501,
+            -1.341606
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Rafael Pinto",
+        "type": "residential",
+        "slope": 115.47524497084501,
+        "sun_diff": 2.006705648013863,
+        "length": 146.39415783735458
       }
     },
     {
@@ -3663,22 +3778,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.3703379,
-            -1.3250228
+            -48.3703558,
+            -1.3250631
           ],
           [
             -48.3694186,
-            -1.3253803
+            -1.325443
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Rua Jo\u00e3o Xavante",
+        "name": "Rua Chavantes",
         "type": "residential",
-        "slope": 111.25538398823517,
-        "sun_diff": 2.2131553345959816,
-        "length": 109.68788446521229
+        "slope": 112.0708255737357,
+        "sun_diff": 1.3977137490954448,
+        "length": 112.4575982463023
       }
     },
     {
@@ -4790,6 +4905,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -48.4003882,
+            -1.3344267
+          ],
+          [
+            -48.3995487,
+            -1.33475
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Taide Moura",
+        "type": "residential",
+        "slope": 111.06741856034893,
+        "sun_diff": 2.401120762482222,
+        "length": 100.03890453657621
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -48.3853545,
             -1.3346604
           ],
@@ -4813,12 +4951,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4087331,
-            -1.3318718
+            -48.4087356,
+            -1.331939
           ],
           [
-            -48.4077671,
-            -1.3322532
+            -48.4077823,
+            -1.3323027
           ]
         ]
       },
@@ -4826,9 +4964,9 @@
       "properties": {
         "name": "Rua Jovelina Carneiro",
         "type": "residential",
-        "slope": 111.55058882732231,
-        "sun_diff": 1.9179504955088333,
-        "length": 115.4926557866723
+        "slope": 110.88785480346567,
+        "sun_diff": 2.5806845193654766,
+        "length": 113.46355801129805
       }
     },
     {
@@ -4859,31 +4997,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4001425,
-            -1.3339227
-          ],
-          [
-            -48.39931,
-            -1.3342785
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Rodolfo Dias",
-        "type": "residential",
-        "slope": 113.14686779096095,
-        "sun_diff": 0.32167153187019437,
-        "length": 100.67831239417325
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -48.3710888,
-            -1.3303992
+            -48.3711045,
+            -1.330425
           ],
           [
             -48.3728088,
@@ -4895,9 +5010,9 @@
       "properties": {
         "name": "Rua Malacache",
         "type": "residential",
-        "slope": 111.1314888034359,
-        "sun_diff": 2.337050519395248,
-        "length": 205.0524068753641
+        "slope": 112.05789557323561,
+        "sun_diff": 1.4106437495955362,
+        "length": 204.48525982552138
       }
     },
     {
@@ -4905,8 +5020,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.380046,
-            -1.3298017
+            -48.3802637,
+            -1.329739
           ],
           [
             -48.3791636,
@@ -4918,9 +5033,9 @@
       "properties": {
         "name": "Rua da Palmeira",
         "type": "residential",
-        "slope": 115.93389251543951,
-        "sun_diff": 2.4653531926083616,
-        "length": 109.11024540222637
+        "slope": 114.08845661730521,
+        "sun_diff": 0.6199172944740639,
+        "length": 134.00018799513376
       }
     },
     {
@@ -4951,12 +5066,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.3802043,
-            -1.3331575
+            -48.3801939,
+            -1.3331627
           ],
           [
-            -48.379177,
-            -1.3336683
+            -48.3792,
+            -1.3336453
           ]
         ]
       },
@@ -4964,9 +5079,9 @@
       "properties": {
         "name": "Rua dos Trabalhadores",
         "type": "residential",
-        "slope": 116.44393632912852,
-        "sun_diff": 2.9753970062973707,
-        "length": 127.58456799528732
+        "slope": 115.90554416205683,
+        "sun_diff": 2.437004839225679,
+        "length": 122.86769073170343
       }
     },
     {
@@ -4974,8 +5089,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.3789369,
-            -1.3337877
+            -48.3789254,
+            -1.3337616
           ],
           [
             -48.377966,
@@ -4987,9 +5102,9 @@
       "properties": {
         "name": "Rua dos Trabalhadores",
         "type": "residential",
-        "slope": 114.63453068838794,
-        "sun_diff": 1.165991365556792,
-        "length": 118.77398001879293
+        "slope": 116.16366297889547,
+        "sun_diff": 2.6951236560643252,
+        "length": 118.86399753786198
       }
     },
     {
@@ -5020,22 +5135,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.3786121,
-            -1.3298787
+            -48.3709748,
+            -1.3296394
           ],
           [
-            -48.3800618,
-            -1.3292861
+            -48.3726719,
+            -1.3289749
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Rua da Estrela",
+        "name": "Rua Anemutu",
         "type": "residential",
-        "slope": 112.23888058497252,
-        "sun_diff": 1.2296587378586281,
-        "length": 174.16167268678555
+        "slope": 111.38807525901314,
+        "sun_diff": 2.080464063818013,
+        "length": 202.67524303549058
       }
     },
     {
@@ -5089,12 +5204,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4123036,
-            -1.3267196
+            -48.4122873,
+            -1.3267863
           ],
           [
-            -48.413478,
-            -1.3262632
+            -48.4134894,
+            -1.3263023
           ]
         ]
       },
@@ -5102,9 +5217,9 @@
       "properties": {
         "name": "Rua Leonardo da Silva",
         "type": "residential",
-        "slope": 111.24250359670745,
-        "sun_diff": 2.2260357261236976,
-        "length": 140.11326750192782
+        "slope": 111.9364519584802,
+        "sun_diff": 1.532087364350943,
+        "length": 144.10707901858498
       }
     },
     {
@@ -5112,8 +5227,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.413478,
-            -1.3262632
+            -48.4134894,
+            -1.3263023
           ],
           [
             -48.4146394,
@@ -5125,9 +5240,9 @@
       "properties": {
         "name": "Rua Leonardo da Silva",
         "type": "residential",
-        "slope": 111.829666147095,
-        "sun_diff": 1.6388731757361512,
-        "length": 139.12382898037106
+        "slope": 113.67995873916968,
+        "sun_diff": 0.21141941633852923,
+        "length": 139.63705636120883
       }
     },
     {
@@ -5181,12 +5296,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4125091,
-            -1.3272757
+            -48.4137083,
+            -1.3268684
           ],
           [
-            -48.4137055,
-            -1.3268077
+            -48.41602,
+            -1.32589
           ]
         ]
       },
@@ -5194,9 +5309,9 @@
       "properties": {
         "name": "Alameda A",
         "type": "residential",
-        "slope": 111.36933437377226,
-        "sun_diff": 2.099204949058887,
-        "length": 142.861254661036
+        "slope": 112.94545053434538,
+        "sun_diff": 0.5230887884857651,
+        "length": 279.148327034268
       }
     },
     {
@@ -5204,35 +5319,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4137055,
-            -1.3268077
+            -48.3792158,
+            -1.332465
           ],
           [
-            -48.4147363,
-            -1.3263708
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Alameda A",
-        "type": "residential",
-        "slope": 112.97496068560989,
-        "sun_diff": 0.49357863722126183,
-        "length": 124.50095615050695
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -48.3792179,
-            -1.3324831
-          ],
-          [
-            -48.3800702,
-            -1.3321546
+            -48.380073,
+            -1.3321408
           ]
         ]
       },
@@ -5240,9 +5332,55 @@
       "properties": {
         "name": "Rua Jos\u00e9 de Alencar",
         "type": "residential",
-        "slope": 111.08324076941821,
-        "sun_diff": 2.3852985534129374,
-        "length": 101.57511931612495
+        "slope": 110.72215006258321,
+        "sun_diff": 2.7463892602479376,
+        "length": 101.91349603660845
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4169136,
+            -1.3259003
+          ],
+          [
+            -48.4156278,
+            -1.3264008
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Alameda A",
+        "type": "residential",
+        "slope": 111.273757242525,
+        "sun_diff": 2.1947820803061546,
+        "length": 153.4365596731807
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.415081,
+            -1.3266136
+          ],
+          [
+            -48.414037,
+            -1.32702
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Alameda A",
+        "type": "residential",
+        "slope": 111.27476751891544,
+        "sun_diff": 2.193771803915709,
+        "length": 124.58300307109417
       }
     },
     {
@@ -5254,8 +5392,8 @@
             -1.3265533
           ],
           [
-            -48.4188337,
-            -1.3269673
+            -48.4182953,
+            -1.3272064
           ]
         ]
       },
@@ -5263,9 +5401,9 @@
       "properties": {
         "name": "Rua Airton Sena",
         "type": "residential",
-        "slope": 112.36206229365027,
-        "sun_diff": 1.1064770291808799,
-        "length": 121.03606764540443
+        "slope": 112.92019110442592,
+        "sun_diff": 0.5483482184052235,
+        "length": 186.53095944131334
       }
     },
     {
@@ -5542,6 +5680,29 @@
         "slope": 112.27213971733471,
         "sun_diff": 1.199118020786102,
         "length": 128.57254112026595
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4046677,
+            -1.3784067
+          ],
+          [
+            -48.40383,
+            -1.3779966
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Passagem Haiti",
+        "type": "residential",
+        "slope": 63.909176893901275,
+        "sun_diff": 2.6204086689693327,
+        "length": 103.71949938295425
       }
     },
     {
@@ -6607,35 +6768,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.3980141,
-            -1.364927
+            -48.4239785,
+            -1.3446095
           ],
           [
-            -48.3972001,
-            -1.3645253
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Arterial 4-A",
-        "type": "secondary",
-        "slope": 63.72772099711631,
-        "sun_diff": 2.8018645657543004,
-        "length": 100.9427155436484
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -48.4239567,
-            -1.3445535
-          ],
-          [
-            -48.4228219,
-            -1.3440997
+            -48.4228099,
+            -1.3441136
           ]
         ]
       },
@@ -6643,9 +6781,9 @@
       "properties": {
         "name": "Rua 12 de Outubro",
         "type": "secondary",
-        "slope": 68.19837737139827,
-        "sun_diff": 1.6660597328596793,
-        "length": 135.90977927658085
+        "slope": 67.00019872641772,
+        "sun_diff": 0.4678810878791353,
+        "length": 141.1695056871783
       }
     },
     {
@@ -6653,8 +6791,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4013869,
-            -1.3449656
+            -48.4228099,
+            -1.3441136
+          ],
+          [
+            -48.4216139,
+            -1.3435889
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua 12 de Outubro",
+        "type": "secondary",
+        "slope": 66.3065472021421,
+        "sun_diff": 0.22577043639648764,
+        "length": 145.2364922448608
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.401384,
+            -1.3449828
           ],
           [
             -48.4023939,
@@ -6666,9 +6827,9 @@
       "properties": {
         "name": "Arterial 5-B",
         "type": "primary",
-        "slope": 68.09999070921015,
-        "sun_diff": 1.5676730706715603,
-        "length": 120.68679100776396
+        "slope": 69.00284022495165,
+        "sun_diff": 2.470522586413068,
+        "length": 120.28734773388227
       }
     },
     {
@@ -6906,29 +7067,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.3816757,
-            -1.3860805
-          ],
-          [
-            -48.3806268,
-            -1.3856822
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 69.20110852549914,
-        "sun_diff": 2.6715229626285293,
-        "length": 124.76549486497416
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -48.4562292,
             -1.4118621
           ],
@@ -6998,6 +7136,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            -48.3612196,
+            -1.3379627
+          ],
+          [
+            -48.3602501,
+            -1.3375046
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Travessa Oliveira",
+        "type": "residential",
+        "slope": 64.70269086438506,
+        "sun_diff": 1.8296267741535246,
+        "length": 119.24302829951587
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.3713896,
+            -1.3263671
+          ],
+          [
+            -48.3701447,
+            -1.3268334
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 110.53940140476533,
+        "sun_diff": 2.9291379180658197,
+        "length": 147.8303082932215
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -48.4275471,
             -1.3528226
           ],
@@ -7033,7 +7217,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "living_street",
+        "type": "service",
         "slope": 64.54310714861407,
         "sun_diff": 1.9864784142565384,
         "length": 179.5123291380341
@@ -7083,6 +7267,52 @@
         "slope": 111.47369013566384,
         "sun_diff": 1.9948491871673042,
         "length": 105.19123526084367
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4117115,
+            -1.3250539
+          ],
+          [
+            -48.4125606,
+            -1.3246921
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Alameda A",
+        "type": "residential",
+        "slope": 113.08429112015787,
+        "sun_diff": 0.38424820267327675,
+        "length": 102.6383567839866
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4137118,
+            -1.3256829
+          ],
+          [
+            -48.4123663,
+            -1.3262388
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 112.45362772561438,
+        "sun_diff": 1.0149115972167664,
+        "length": 161.89293610287928
       }
     },
     {
@@ -7481,12 +7711,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.375839,
-            -1.3414205
+            -48.3758611,
+            -1.3413965
           ],
           [
-            -48.3749498,
-            -1.3418348
+            -48.3749619,
+            -1.3418321
           ]
         ]
       },
@@ -7494,9 +7724,9 @@
       "properties": {
         "name": "Avenida Rio Trombetas",
         "type": "residential",
-        "slope": 114.98797768853251,
-        "sun_diff": 1.5194383657013617,
-        "length": 109.08962965103859
+        "slope": 115.85313394454232,
+        "sun_diff": 2.384594621711173,
+        "length": 111.11101832835622
       }
     },
     {
@@ -7623,8 +7853,8 @@
             -1.3443685
           ],
           [
-            -48.4013869,
-            -1.3449656
+            -48.401384,
+            -1.3449828
           ]
         ]
       },
@@ -7632,9 +7862,9 @@
       "properties": {
         "name": "Arterial 5-B",
         "type": "primary",
-        "slope": 69.06844199637149,
-        "sun_diff": 2.536124357832904,
-        "length": 185.905882055349
+        "slope": 68.48344028479116,
+        "sun_diff": 1.9511226462525713,
+        "length": 186.29787398055697
       }
     },
     {
@@ -7642,12 +7872,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4022449,
-            -1.329436
+            -48.4022886,
+            -1.3294797
           ],
           [
-            -48.4032365,
-            -1.3290174
+            -48.4032393,
+            -1.3290644
           ]
         ]
       },
@@ -7655,9 +7885,9 @@
       "properties": {
         "name": "Rua Paulo Assun\u00e7\u00e3o",
         "type": "tertiary",
-        "slope": 112.89237008547832,
-        "sun_diff": 0.5761692373528291,
-        "length": 119.69319337554286
+        "slope": 113.6030940733591,
+        "sun_diff": 0.13455475052795407,
+        "length": 115.36942445190535
       }
     },
     {
@@ -7665,12 +7895,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4037292,
-            -1.3288254
+            -48.4037306,
+            -1.3288764
           ],
           [
-            -48.404881,
-            -1.3283799
+            -48.404889,
+            -1.3284201
           ]
         ]
       },
@@ -7678,9 +7908,9 @@
       "properties": {
         "name": "Rua Paulo Assun\u00e7\u00e3o",
         "type": "tertiary",
-        "slope": 111.15094959716126,
-        "sun_diff": 2.3175897256698903,
-        "length": 137.3316996765188
+        "slope": 111.50499988796156,
+        "sun_diff": 1.9635394348695883,
+        "length": 138.45227263110553
       }
     },
     {
@@ -8194,6 +8424,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -48.3880846,
+            -1.3584491
+          ],
+          [
+            -48.3872204,
+            -1.3580628
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 65.90921558430733,
+        "sun_diff": 0.620369978563275,
+        "length": 105.26654737179531
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -48.4560075,
             -1.3416578
           ],
@@ -8516,8 +8769,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4188694,
-            -1.3253027
+            -48.4188731,
+            -1.3253525
           ],
           [
             -48.4202073,
@@ -8529,9 +8782,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 110.80431663534952,
-        "sun_diff": 2.664222687481626,
-        "length": 159.1514484332707
+        "slope": 112.70150741874724,
+        "sun_diff": 0.7670319040839075,
+        "length": 160.82240446100707
       }
     },
     {
@@ -8723,12 +8976,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4215573,
-            -1.3268173
+            -48.4224038,
+            -1.3264759
           ],
           [
-            -48.4207002,
-            -1.3271421
+            -48.4215573,
+            -1.3268173
           ]
         ]
       },
@@ -8736,9 +8989,32 @@
       "properties": {
         "name": "Rua Santa Maria",
         "type": "residential",
-        "slope": 110.75941160941127,
-        "sun_diff": 2.709127713419875,
-        "length": 101.92692352965426
+        "slope": 111.96993181054282,
+        "sun_diff": 1.4986075122883307,
+        "length": 101.50184636919916
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4215573,
+            -1.3268173
+          ],
+          [
+            -48.4207083,
+            -1.3271649
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Santa Maria",
+        "type": "residential",
+        "slope": 112.27070470770153,
+        "sun_diff": 1.1978346151296222,
+        "length": 102.01905406919684
       }
     },
     {
@@ -8838,12 +9114,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4089314,
-            -1.3306272
+            -48.4089111,
+            -1.3307033
           ],
           [
-            -48.4077843,
-            -1.3310973
+            -48.407797,
+            -1.3311518
           ]
         ]
       },
@@ -8851,9 +9127,9 @@
       "properties": {
         "name": "Rua Jader Barbalho",
         "type": "residential",
-        "slope": 112.29003255441285,
-        "sun_diff": 1.178506768418302,
-        "length": 137.85871500500082
+        "slope": 111.93345130194862,
+        "sun_diff": 1.535088020882526,
+        "length": 133.55463074770708
       }
     },
     {
@@ -8861,12 +9137,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4073808,
-            -1.3312626
+            -48.4073935,
+            -1.3313159
           ],
           [
-            -48.4063033,
-            -1.3317137
+            -48.4053875,
+            -1.3320852
           ]
         ]
       },
@@ -8874,9 +9150,9 @@
       "properties": {
         "name": "Rua Jader Barbalho",
         "type": "residential",
-        "slope": 112.72234645808479,
-        "sun_diff": 0.7461928647463623,
-        "length": 129.89961575852885
+        "slope": 110.98697199031426,
+        "sun_diff": 2.4815673325168888,
+        "length": 238.91601226230054
       }
     },
     {
@@ -8884,12 +9160,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4063033,
-            -1.3317137
+            -48.4053393,
+            -1.3321055
           ],
           [
-            -48.4053812,
-            -1.33207
+            -48.4042724,
+            -1.3325466
           ]
         ]
       },
@@ -8897,32 +9173,9 @@
       "properties": {
         "name": "Rua Jader Barbalho",
         "type": "residential",
-        "slope": 111.13176924969486,
-        "sun_diff": 2.336770073136293,
-        "length": 109.92967271591391
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -48.4053342,
-            -1.3320865
-          ],
-          [
-            -48.4042572,
-            -1.3325124
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Jader Barbalho",
-        "type": "residential",
-        "slope": 111.58163567219745,
-        "sun_diff": 1.8869036506336982,
-        "length": 128.79111880689797
+        "slope": 112.46767056198553,
+        "sun_diff": 1.00086876084562,
+        "length": 128.3839693566886
       }
     },
     {
@@ -9233,8 +9486,8 @@
             -1.3413852
           ],
           [
-            -48.4086321,
-            -1.3407942
+            -48.4085304,
+            -1.3407726
           ]
         ]
       },
@@ -9242,9 +9495,9 @@
       "properties": {
         "name": "Rua Perimetral",
         "type": "residential",
-        "slope": 64.19491282074569,
-        "sun_diff": 2.337404817792901,
-        "length": 151.01116142919687
+        "slope": 65.1695149272544,
+        "sun_diff": 1.3628027112841892,
+        "length": 162.26174440423821
       }
     },
     {
@@ -9360,6 +9613,29 @@
         "slope": 112.24594374850639,
         "sun_diff": 1.2225955743247567,
         "length": 113.43833504961273
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4141646,
+            -1.3250612
+          ],
+          [
+            -48.4122069,
+            -1.3258334
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 111.53161841078622,
+        "sun_diff": 1.9369209120449256,
+        "length": 234.02797792940024
       }
     },
     {
@@ -9850,29 +10126,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4228219,
-            -1.3440997
-          ],
-          [
-            -48.4216476,
-            -1.3436048
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua 12 de Outubro",
-        "type": "secondary",
-        "slope": 67.14173240195996,
-        "sun_diff": 0.6094147634213698,
-        "length": 141.7099520450547
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -48.3963673,
             -1.3319616
           ],
@@ -9889,6 +10142,29 @@
         "slope": 112.61290909834457,
         "sun_diff": 0.8556302244865748,
         "length": 110.24530783406739
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.4164874,
+            -1.3590114
+          ],
+          [
+            -48.4179912,
+            -1.3583284
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 114.43279228568875,
+        "sun_diff": 0.9615345475679362,
+        "length": 183.66844668432768
       }
     },
     {
@@ -10103,29 +10379,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -48.4075794,
-            -1.397298
-          ],
-          [
-            -48.4065918,
-            -1.396825
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Passagem Natal",
-        "type": "residential",
-        "slope": 64.40179487253701,
-        "sun_diff": 2.1277906903335975,
-        "length": 121.77015125964674
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -48.3848476,
             -1.3379227
           ],
@@ -10310,6 +10563,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -48.4195238,
+            -1.3566232
+          ],
+          [
+            -48.4182033,
+            -1.3572416
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 115.10021861260276,
+        "sun_diff": 1.6289608744819475,
+        "length": 162.1500929292149
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -48.415643,
             -1.3225388
           ],
@@ -10471,6 +10747,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -48.4356299,
+            -1.3527081
+          ],
+          [
+            -48.4366571,
+            -1.3522477
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 114.14829560903024,
+        "sun_diff": 0.6770378709094302,
+        "length": 125.17780820882228
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -48.4355698,
             -1.3526068
           ],
@@ -10483,7 +10782,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 115.41471875671635,
         "sun_diff": 1.943461018595542,
         "length": 140.93989689643752

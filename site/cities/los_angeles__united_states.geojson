@@ -309,8 +309,8 @@
             34.0201749
           ],
           [
-            -118.1779285,
-            34.019214
+            -118.1779442,
+            34.0192178
           ]
         ]
       },
@@ -318,9 +318,9 @@
       "properties": {
         "name": "Telegraph Road",
         "type": "secondary",
-        "slope": 118.62536582160783,
-        "sun_diff": 0.633929871907597,
-        "length": 223.09461271280333
+        "slope": 118.70872267302354,
+        "sun_diff": 0.717286723323312,
+        "length": 221.62184680648792
       }
     },
     {
@@ -332,8 +332,8 @@
             34.0174294
           ],
           [
-            -118.1749197,
-            34.0178538
+            -118.1749377,
+            34.0178689
           ]
         ]
       },
@@ -341,9 +341,9 @@
       "properties": {
         "name": "Telegraph Road",
         "type": "secondary",
-        "slope": 117.90122154516948,
-        "sun_diff": 0.09021440453075513,
-        "length": 100.87866003890743
+        "slope": 118.2944305748911,
+        "sun_diff": 0.3029946251908626,
+        "length": 103.13362783580581
       }
     },
     {
@@ -351,12 +351,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.1749197,
-            34.0178538
+            -118.1749377,
+            34.0178689
           ],
           [
-            -118.1758808,
-            34.0182891
+            -118.1758967,
+            34.018295
           ]
         ]
       },
@@ -364,9 +364,9 @@
       "properties": {
         "name": "Telegraph Road",
         "type": "secondary",
-        "slope": 118.6537869355883,
-        "sun_diff": 0.6623509858880681,
-        "length": 100.97359837315415
+        "slope": 118.19391731301087,
+        "sun_diff": 0.20248136331063904,
+        "length": 100.31622820721178
       }
     },
     {
@@ -2778,7 +2778,7 @@
       "type": "Feature",
       "properties": {
         "name": "West 28th Street",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 117.98085451129242,
         "sun_diff": 0.01058143840781156,
         "length": 113.84347681960752
@@ -3368,8 +3368,8 @@
             34.0328663
           ],
           [
-            -118.2040906,
-            34.0320352
+            -118.204106,
+            34.0320421
           ]
         ]
       },
@@ -3377,9 +3377,9 @@
       "properties": {
         "name": "Inez Street",
         "type": "residential",
-        "slope": 118.32473199780097,
-        "sun_diff": 0.33329604810073477,
-        "length": 194.83446573971304
+        "slope": 118.3241222435569,
+        "sun_diff": 0.3326862938566677,
+        "length": 193.22072239433675
       }
     },
     {
@@ -4449,8 +4449,8 @@
             33.9829036
           ],
           [
-            -118.3196675,
-            33.9824291
+            -118.3196725,
+            33.9824475
           ]
         ]
       },
@@ -4458,9 +4458,9 @@
       "properties": {
         "name": "Southwest Drive",
         "type": "tertiary",
-        "slope": 59.48303848702599,
-        "sun_diff": 2.526027354806672,
-        "length": 103.93684763324816
+        "slope": 60.59076072985036,
+        "sun_diff": 1.4183051119823062,
+        "length": 103.31416191601096
       }
     },
     {
@@ -4472,8 +4472,8 @@
             33.9810643
           ],
           [
-            -118.323626,
-            33.980588
+            -118.3235777,
+            33.980622
           ]
         ]
       },
@@ -4481,9 +4481,32 @@
       "properties": {
         "name": "Southwest Drive",
         "type": "tertiary",
-        "slope": 60.64132453444262,
-        "sun_diff": 1.3677413073900482,
-        "length": 108.0590042781467
+        "slope": 61.263936785059684,
+        "sun_diff": 0.7451290567729814,
+        "length": 102.32812844154088
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.3235777,
+            33.980622
+          ],
+          [
+            -118.3245553,
+            33.9801545
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Southwest Drive",
+        "type": "tertiary",
+        "slope": 60.0282462222622,
+        "sun_diff": 1.9808196195704681,
+        "length": 104.08857157322353
       }
     },
     {
@@ -4507,29 +4530,6 @@
         "slope": 60.642068660001854,
         "sun_diff": 1.3669971818308113,
         "length": 103.45590616668827
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.3255329,
-            33.9796985
-          ],
-          [
-            -118.3265182,
-            33.9792476
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Southwest Drive",
-        "type": "tertiary",
-        "slope": 61.10730777415358,
-        "sun_diff": 0.9017580676790828,
-        "length": 103.80064008518997
       }
     },
     {
@@ -6554,29 +6554,6 @@
         "slope": 116.01636105908028,
         "sun_diff": 1.8736329210669282,
         "length": 127.78225172240549
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.2780157,
-            34.0397334
-          ],
-          [
-            -118.2790427,
-            34.0402003
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "West 17th Street",
-        "type": "residential",
-        "slope": 118.7507915963505,
-        "sun_diff": 0.7593556466502633,
-        "length": 107.9692802677086
       }
     },
     {
@@ -8953,7 +8930,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.1974921,
+            -118.1974919,
             34.0322217
           ],
           [
@@ -8966,9 +8943,9 @@
       "properties": {
         "name": "East 5th Street",
         "type": "residential",
-        "slope": 117.84062853201519,
-        "sun_diff": 0.15080741768504424,
-        "length": 190.5611035667722
+        "slope": 117.84321745042672,
+        "sun_diff": 0.14821849927351138,
+        "length": 190.54480189470698
       }
     },
     {
@@ -10820,8 +10797,8 @@
             34.0456713
           ],
           [
-            -118.2164584,
-            34.0449884
+            -118.2165884,
+            34.0450456
           ]
         ]
       },
@@ -10829,9 +10806,9 @@
       "properties": {
         "name": "East 2nd Street",
         "type": "residential",
-        "slope": 117.87981405086614,
-        "sun_diff": 0.11162189883408757,
-        "length": 162.43717129300597
+        "slope": 117.87169611455633,
+        "sun_diff": 0.1197398351439034,
+        "length": 148.87127536604828
       }
     },
     {
@@ -13829,8 +13806,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.1667404,
-            34.0146885
+            -118.1667706,
+            34.0146949
           ],
           [
             -118.1678491,
@@ -13842,9 +13819,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 118.95208545824639,
-        "sun_diff": 0.9606495085461546,
-        "length": 116.81872073479393
+        "slope": 119.31631209038551,
+        "sun_diff": 1.3248761406852765,
+        "length": 114.0400319601998
       }
     },
     {
@@ -15393,8 +15370,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.1691013,
-            34.0152281
+            -118.168992,
+            34.0151795
           ],
           [
             -118.1679865,
@@ -15406,9 +15383,9 @@
       "properties": {
         "name": "Telegraph Road",
         "type": "secondary",
-        "slope": 118.21580956505892,
-        "sun_diff": 0.2243736153586866,
-        "length": 116.64199448792094
+        "slope": 118.2163678591397,
+        "sun_diff": 0.22493190943946217,
+        "length": 105.20646278838933
       }
     },
     {
@@ -15420,8 +15397,8 @@
             34.0147323
           ],
           [
-            -118.166875,
-            34.014235
+            -118.1669071,
+            34.0142483
           ]
         ]
       },
@@ -15429,32 +15406,9 @@
       "properties": {
         "name": "Telegraph Road",
         "type": "secondary",
-        "slope": 118.35877814922847,
-        "sun_diff": 0.3673421995282382,
-        "length": 116.45367044215975
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.3661837,
-            34.1382991
-          ],
-          [
-            -118.3677998,
-            34.138949
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 115.91353294473811,
-        "sun_diff": 2.1120949319472118,
-        "length": 165.4145008981501
+        "slope": 118.41141896842015,
+        "sun_diff": 0.4199830187199183,
+        "length": 113.14664931435814
       }
     },
     {
@@ -15473,34 +15427,11 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Alley 81436",
         "type": "service",
         "slope": 115.22666966693808,
         "sun_diff": 2.7989582097472407,
         "length": 105.46226990120887
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.3705498,
-            34.1400111
-          ],
-          [
-            -118.3716954,
-            34.1404587
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 115.2704110901854,
-        "sun_diff": 2.755216786499915,
-        "length": 116.62600269347675
       }
     },
     {
@@ -15979,7 +15910,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Alley 81425",
         "type": "service",
         "slope": 115.5270857580866,
         "sun_diff": 2.4985421185987207,
@@ -16002,7 +15933,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Alley 90810",
         "type": "service",
         "slope": 115.32026540411758,
         "sun_diff": 2.7053624725677423,
@@ -16145,6 +16076,29 @@
         "slope": 61.072492588530054,
         "sun_diff": 0.9365732533026119,
         "length": 115.23070431646678
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.6577443,
+            34.1844769
+          ],
+          [
+            -118.6587423,
+            34.1840242
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Victory Boulevard",
+        "type": "primary",
+        "slope": 61.26228299524345,
+        "sun_diff": 0.6782350680789762,
+        "length": 104.72869630241065
       }
     },
     {
@@ -16808,7 +16762,7 @@
       "type": "Feature",
       "properties": {
         "name": "West Florence Avenue",
-        "type": "primary",
+        "type": "secondary",
         "slope": 64.77515083414937,
         "sun_diff": 2.7660849923167063,
         "length": 178.62742406868415
@@ -16973,6 +16927,29 @@
         "slope": 61.12050260768149,
         "sun_diff": 0.888563234151178,
         "length": 183.62092181478056
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.179176,
+            33.9967359
+          ],
+          [
+            -118.1803601,
+            33.9962518
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "South Atlantic Boulevard",
+        "type": "primary",
+        "slope": 63.75113473689069,
+        "sun_diff": 1.7420688950580256,
+        "length": 121.74944246152913
       }
     },
     {
@@ -17797,7 +17774,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Jefferson Boulevard",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 117.78485797982512,
         "sun_diff": 0.2065779698751129,
         "length": 171.8730564524253
@@ -17958,7 +17935,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Adams Boulevard",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 118.40052164284612,
         "sun_diff": 0.40908569314588306,
         "length": 129.4628033799597
@@ -18004,7 +17981,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Adams Boulevard",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 118.88601868670605,
         "sun_diff": 0.8945827370058197,
         "length": 198.48053802034732
@@ -18027,7 +18004,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Adams Boulevard",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 118.6088293830258,
         "sun_diff": 0.6173934333255744,
         "length": 195.8251331113552
@@ -18165,7 +18142,7 @@
       "type": "Feature",
       "properties": {
         "name": "East 23rd Street",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 117.98212154255057,
         "sun_diff": 0.009314407149659587,
         "length": 199.8922128421209
@@ -18188,7 +18165,7 @@
       "type": "Feature",
       "properties": {
         "name": "East 23rd Street",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 118.29089588225116,
         "sun_diff": 0.2994599325509313,
         "length": 255.08078843620552
@@ -18809,7 +18786,7 @@
       "type": "Feature",
       "properties": {
         "name": "Bandini Boulevard",
-        "type": "primary",
+        "type": "secondary",
         "slope": 119.69829707537431,
         "sun_diff": 1.7068611256740809,
         "length": 103.81340098657805
@@ -19499,7 +19476,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Adams Boulevard",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 118.25133320512805,
         "sun_diff": 0.2598972554278163,
         "length": 115.68492975647798
@@ -19775,7 +19752,7 @@
       "type": "Feature",
       "properties": {
         "name": "East 29th Street",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 119.31084492411486,
         "sun_diff": 1.3194089744146282,
         "length": 189.90097000735585
@@ -19798,7 +19775,7 @@
       "type": "Feature",
       "properties": {
         "name": "East 29th Street",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 119.93584772546612,
         "sun_diff": 1.9444117757658859,
         "length": 159.18901042713279
@@ -19821,7 +19798,7 @@
       "type": "Feature",
       "properties": {
         "name": "East 29th Street",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 120.33474161260057,
         "sun_diff": 2.3433056629003346,
         "length": 104.89763016032259
@@ -20078,29 +20055,6 @@
         "slope": 60.359276192246654,
         "sun_diff": 1.6156113829792673,
         "length": 107.10037375423411
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.1741069,
-            34.1366807
-          ],
-          [
-            -118.1728054,
-            34.1372854
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Nithsdale Road",
-        "type": "residential",
-        "slope": 60.69279889459793,
-        "sun_diff": 1.282088680627993,
-        "length": 137.40951020938954
       }
     },
     {
@@ -20706,12 +20660,35 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.1970217,
-            34.0340319
+            -118.178736,
+            33.9968536
           ],
           [
-            -118.19814,
-            34.0345287
+            -118.1776347,
+            33.9973105
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "South Atlantic Boulevard",
+        "type": "primary",
+        "slope": 63.41607570423841,
+        "sun_diff": 1.4070098624057437,
+        "length": 113.56444596829215
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.1970238,
+            34.0340349
+          ],
+          [
+            -118.1981413,
+            34.0345293
           ]
         ]
       },
@@ -20719,9 +20696,9 @@
       "properties": {
         "name": "East 4th Street",
         "type": "secondary",
-        "slope": 118.19465430861712,
-        "sun_diff": 0.20321835891688522,
-        "length": 116.95827863941071
+        "slope": 118.09630319242177,
+        "sun_diff": 0.10486724272153936,
+        "length": 116.76733114217714
       }
     },
     {
@@ -20756,18 +20733,18 @@
             34.0204661
           ],
           [
-            -118.2122593,
-            34.0209558
+            -118.2121883,
+            34.0209234
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "East Olympic Boulevard",
-        "type": "primary",
-        "slope": 118.87257277673567,
-        "sun_diff": 0.8811368270354336,
-        "length": 112.80496114250701
+        "type": "secondary",
+        "slope": 118.87513972958811,
+        "sun_diff": 0.8837037798878811,
+        "length": 105.33287772068185
       }
     },
     {
@@ -20787,7 +20764,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Olympic Boulevard",
-        "type": "primary",
+        "type": "secondary",
         "slope": 117.23283279255028,
         "sun_diff": 0.758603157149949,
         "length": 159.1615373353446
@@ -23110,7 +23087,7 @@
       "type": "Feature",
       "properties": {
         "name": "West 33rd Street",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 118.53490096130292,
         "sun_diff": 0.5434650116026916,
         "length": 131.14002606683894
@@ -25732,7 +25709,7 @@
       "type": "Feature",
       "properties": {
         "name": "West Adams Boulevard",
-        "type": "residential",
+        "type": "secondary",
         "slope": 117.97654371102539,
         "sun_diff": 0.01489223867484668,
         "length": 167.87314086924337
@@ -26606,7 +26583,7 @@
       "type": "Feature",
       "properties": {
         "name": "West Adams Boulevard",
-        "type": "residential",
+        "type": "secondary",
         "slope": 118.37954421719985,
         "sun_diff": 0.3881082674996179,
         "length": 121.45421895429601
@@ -26790,7 +26767,7 @@
       "type": "Feature",
       "properties": {
         "name": "West Alondra Boulevard",
-        "type": "primary",
+        "type": "secondary",
         "slope": 62.40390351298885,
         "sun_diff": 0.36082332908949866,
         "length": 197.46983420643883
@@ -26928,7 +26905,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Jefferson Boulevard",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 117.13375949357368,
         "sun_diff": 0.8576764561265549,
         "length": 149.6500924063191
@@ -26951,7 +26928,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Jefferson Boulevard",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 117.2564849534375,
         "sun_diff": 0.7349509962627252,
         "length": 126.48877436328297
@@ -30746,7 +30723,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Adams Boulevard",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 118.19808841944669,
         "sun_diff": 0.20665246974645868,
         "length": 126.21924666017969
@@ -30769,7 +30746,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Adams Boulevard",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 117.65872399201754,
         "sun_diff": 0.33271195768269024,
         "length": 107.15519350042509
@@ -31045,7 +31022,7 @@
       "type": "Feature",
       "properties": {
         "name": "West 30th Street",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 117.89013230135208,
         "sun_diff": 0.10130364834814998,
         "length": 129.3308134368293
@@ -31739,29 +31716,6 @@
         "slope": 118.2301371201996,
         "sun_diff": 0.23870117049936823,
         "length": 128.46273639056594
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.2052198,
-            34.0329575
-          ],
-          [
-            -118.2039458,
-            34.0323774
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 118.78640942200425,
-        "sun_diff": 0.7949734723040223,
-        "length": 133.99401837411784
       }
     },
     {
@@ -35323,7 +35277,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Adams Boulevard",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 118.27645574815097,
         "sun_diff": 0.2850197984507332,
         "length": 145.26889198318293
@@ -35346,7 +35300,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Adams Boulevard",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 118.31755604742352,
         "sun_diff": 0.3261200977232903,
         "length": 134.7347318556019
@@ -35645,7 +35599,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Olympic Boulevard",
-        "type": "primary",
+        "type": "secondary",
         "slope": 118.84986101202017,
         "sun_diff": 0.8584250623199381,
         "length": 188.08234142541318
@@ -35737,7 +35691,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Adams Boulevard",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 120.5388827659144,
         "sun_diff": 2.547446816214162,
         "length": 101.74608115900661
@@ -36047,8 +36001,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.2766344,
-            33.7467633
+            -118.2772063,
+            33.7470405
           ],
           [
             -118.2781698,
@@ -36060,9 +36014,9 @@
       "properties": {
         "name": "North Front Street",
         "type": "unclassified",
-        "slope": 120.21532042146055,
-        "sun_diff": 2.3253264413133365,
-        "length": 164.33080907855054
+        "slope": 120.20122355284349,
+        "sun_diff": 2.311229572696277,
+        "length": 103.10659432881629
       }
     },
     {
@@ -36822,6 +36776,75 @@
         "slope": 117.51721808699239,
         "sun_diff": 0.44023084139786306,
         "length": 192.88764185066168
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.2096218,
+            34.0146665
+          ],
+          [
+            -118.2085999,
+            34.0142625
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "East Washington Boulevard",
+        "type": "primary",
+        "slope": 115.49874867209627,
+        "sun_diff": 2.492687277603963,
+        "length": 104.384819640429
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.3705498,
+            34.1400111
+          ],
+          [
+            -118.3716954,
+            34.1404587
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Alley 87733",
+        "type": "service",
+        "slope": 115.2704110901854,
+        "sun_diff": 2.755216786499915,
+        "length": 116.62600269347675
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.3661837,
+            34.1382991
+          ],
+          [
+            -118.3677998,
+            34.138949
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Alley 81439",
+        "type": "service",
+        "slope": 115.91353294473811,
+        "sun_diff": 2.1120949319472118,
+        "length": 165.4145008981501
       }
     }
   ]
