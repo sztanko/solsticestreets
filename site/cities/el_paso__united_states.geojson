@@ -5032,7 +5032,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Isla Chimalpa",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 115.02060619099552,
         "sun_diff": 2.2340026114220706,
         "length": 137.62202902581177
@@ -6941,7 +6941,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera San Jer\u00f3nimo-Anapra",
-        "type": "secondary",
+        "type": "primary",
         "slope": 114.40523783024446,
         "sun_diff": 2.879519427169569,
         "length": 199.17989933488184
@@ -6964,7 +6964,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera San Jer\u00f3nimo-Anapra",
-        "type": "secondary",
+        "type": "primary",
         "slope": 115.15946183808498,
         "sun_diff": 2.125295419329049,
         "length": 207.55168805041345
@@ -10218,8 +10218,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            -106.3320957,
-            31.8716291
+            -106.3319168,
+            31.8717047
+          ],
+          [
+            -106.3306976,
+            31.8722219
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 63.45661255231866,
+        "sun_diff": 0.7710028128178692,
+        "length": 128.7343224422894
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.3306976,
+            31.8722219
           ],
           [
             -106.3292053,
@@ -10231,9 +10254,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 63.45914702533426,
-        "sun_diff": 0.7735372858334699,
-        "length": 305.1870510905887
+        "slope": 63.451117066291374,
+        "sun_diff": 0.7655073267905834,
+        "length": 157.57727332522512
       }
     },
     {
@@ -10475,6 +10498,29 @@
             31.8812691
           ],
           [
+            -106.3266838,
+            31.880572
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 62.68622471256171,
+        "sun_diff": 0.0006149730609195103,
+        "length": 168.9786573844013
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.3266838,
+            31.880572
+          ],
+          [
             -106.3277615,
             31.8800997
           ]
@@ -10484,9 +10530,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 62.69258356104703,
-        "sun_diff": 0.006973821546239378,
-        "length": 283.52563036785426
+        "slope": 62.701787447382145,
+        "sun_diff": 0.01617770788135431,
+        "length": 114.54697574460452
       }
     },
     {
@@ -11081,7 +11127,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 61.81374387427269,
         "sun_diff": 0.9323266997610347,
         "length": 106.36933114382875
@@ -11104,7 +11150,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 116.88227794938118,
         "sun_diff": 0.37233085303641644,
         "length": 135.88920268076333
@@ -11644,12 +11690,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -106.5035666,
-            31.729025
+            -106.4983435,
+            31.7333226
           ],
           [
-            -106.5047626,
-            31.7285287
+            -106.4996678,
+            31.7327055
           ]
         ]
       },
@@ -11657,9 +11703,32 @@
       "properties": {
         "name": "Viaducto Gustavo D\u00edaz Ordaz",
         "type": "primary",
-        "slope": 63.99314842338407,
-        "sun_diff": 1.2470778493503474,
-        "length": 125.89723611203212
+        "slope": 61.282336762998796,
+        "sun_diff": 1.4637338110349276,
+        "length": 142.85250394981009
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.5028622,
+            31.7292673
+          ],
+          [
+            -106.5050295,
+            31.728377
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Viaducto Gustavo D\u00edaz Ordaz",
+        "type": "primary",
+        "slope": 64.22100853045816,
+        "sun_diff": 1.4749379564244407,
+        "length": 227.70135206736518
       }
     },
     {
@@ -12154,8 +12223,8 @@
             31.810629
           ],
           [
-            -106.5532845,
-            31.8097601
+            -106.5533273,
+            31.8097808
           ]
         ]
       },
@@ -12163,9 +12232,9 @@
       "properties": {
         "name": "Doniphan Drive",
         "type": "secondary",
-        "slope": 119.42833098770896,
-        "sun_diff": 2.143573730294932,
-        "length": 196.70359164143892
+        "slope": 119.42307695377124,
+        "sun_diff": 2.1383196963572146,
+        "length": 192.04871303981005
       }
     },
     {
@@ -12177,6 +12246,29 @@
             31.8097601
           ],
           [
+            -106.5521508,
+            31.8092156
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Doniphan Drive",
+        "type": "secondary",
+        "slope": 119.47382314762285,
+        "sun_diff": 2.1890658902088234,
+        "length": 123.09212365990764
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.5521508,
+            31.8092156
+          ],
+          [
             -106.5504999,
             31.8084219
           ]
@@ -12186,9 +12278,9 @@
       "properties": {
         "name": "Doniphan Drive",
         "type": "secondary",
-        "slope": 119.48822088970638,
-        "sun_diff": 2.2034636322923546,
-        "length": 302.38410012238205
+        "slope": 119.49825042135447,
+        "sun_diff": 2.2134931639404414,
+        "length": 179.2919827203432
       }
     },
     {
@@ -12269,8 +12361,8 @@
             31.805876
           ],
           [
-            -106.542827,
-            31.804778
+            -106.5434498,
+            31.8050739
           ]
         ]
       },
@@ -12278,9 +12370,9 @@
       "properties": {
         "name": "Doniphan Drive",
         "type": "secondary",
-        "slope": 119.20794086855551,
-        "sun_diff": 1.9231836111414822,
-        "length": 250.27592254291534
+        "slope": 119.20814410139673,
+        "sun_diff": 1.9233868439826978,
+        "length": 182.8281318047998
       }
     },
     {
@@ -13254,29 +13346,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -106.5721037,
-            31.8853853
-          ],
-          [
-            -106.5734189,
-            31.8848049
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Paseo del Norte",
-        "type": "secondary",
-        "slope": 62.53812799299814,
-        "sun_diff": 0.147481746502649,
-        "length": 139.99020123615816
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -106.4806388,
             31.6525138
           ],
@@ -13960,29 +14029,6 @@
         "slope": 120.16599527861607,
         "sun_diff": 2.911386476198473,
         "length": 100.2495324424354
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.5050483,
-            31.7283342
-          ],
-          [
-            -106.5037099,
-            31.7288789
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Viaducto Gustavo D\u00edaz Ordaz",
-        "type": "primary",
-        "slope": 64.42931548523609,
-        "sun_diff": 1.6832449112023653,
-        "length": 140.3698529829983
       }
     },
     {
@@ -18031,6 +18077,29 @@
         "slope": 60.07774148681287,
         "sun_diff": 2.607868252687922,
         "length": 110.04233864059655
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.3305747,
+            31.872011
+          ],
+          [
+            -106.3317917,
+            31.8714982
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 63.610807056657734,
+        "sun_diff": 0.9251973171569432,
+        "length": 128.33040654758364
       }
     }
   ]
