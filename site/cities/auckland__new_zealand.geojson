@@ -466,8 +466,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            174.772226,
-            -36.7935807
+            174.772217,
+            -36.7935846
           ],
           [
             174.7705741,
@@ -479,9 +479,9 @@
       "properties": {
         "name": "Tennyson Avenue",
         "type": "residential",
-        "slope": 61.45105733523036,
-        "sun_diff": 2.008776583488469,
-        "length": 167.5054331637897
+        "slope": 61.45034759383668,
+        "sun_diff": 2.0080668420947916,
+        "length": 166.5939375447838
       }
     },
     {
@@ -2318,7 +2318,7 @@
       "type": "Feature",
       "properties": {
         "name": "Haverstock Road",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 121.92884089434676,
         "sun_diff": 1.3254176626285954,
         "length": 147.74773943506378
@@ -3414,8 +3414,8 @@
             -36.7855288
           ],
           [
-            174.7636019,
-            -36.7862579
+            174.7635866,
+            -36.7862496
           ]
         ]
       },
@@ -3423,9 +3423,9 @@
       "properties": {
         "name": "Lake View Road",
         "type": "residential",
-        "slope": 118.05105357566214,
-        "sun_diff": 2.5062795395367914,
-        "length": 172.4541625810852
+        "slope": 117.99274689961283,
+        "sun_diff": 2.564586215586104,
+        "length": 170.8172709898306
       }
     },
     {
@@ -3433,8 +3433,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            174.7675998,
-            -36.7874672
+            174.767526,
+            -36.7875055
           ],
           [
             174.7663461,
@@ -3446,9 +3446,9 @@
       "properties": {
         "name": "Lomond Street",
         "type": "residential",
-        "slope": 57.02916663933976,
-        "sun_diff": 2.413114112402127,
-        "length": 133.11761280731514
+        "slope": 57.0274908443441,
+        "sun_diff": 2.4147899073977896,
+        "length": 125.28389870203193
       }
     },
     {
@@ -3610,6 +3610,29 @@
         "slope": 57.38899187429831,
         "sun_diff": 2.0532888774435776,
         "length": 105.0729498849812
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            174.7768581,
+            -36.7946937
+          ],
+          [
+            174.7790281,
+            -36.7935592
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Cameron Street",
+        "type": "residential",
+        "slope": 56.8610060446772,
+        "sun_diff": 2.5812747070646935,
+        "length": 230.83238055194158
       }
     },
     {
@@ -6412,7 +6435,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Coast Road",
-        "type": "primary",
+        "type": "secondary",
         "slope": 121.8057196901031,
         "sun_diff": 1.248386574904174,
         "length": 110.16575640380407
@@ -6435,7 +6458,7 @@
       "type": "Feature",
       "properties": {
         "name": "East Coast Road",
-        "type": "primary",
+        "type": "secondary",
         "slope": 121.7595959069609,
         "sun_diff": 1.2022627917619673,
         "length": 191.28641410566817
@@ -6745,8 +6768,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            174.8648527,
-            -37.0022137
+            174.8649243,
+            -37.0021851
           ],
           [
             174.8632118,
@@ -6757,10 +6780,10 @@
       "type": "Feature",
       "properties": {
         "name": "Wiri Station Road",
-        "type": "secondary",
-        "slope": 58.30118330284637,
-        "sun_diff": 1.048671329046897,
-        "length": 171.31592344794637
+        "type": "primary",
+        "slope": 58.50523383903865,
+        "sun_diff": 0.844620792854613,
+        "length": 178.4000040499714
       }
     },
     {
@@ -6872,7 +6895,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hendon Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 59.61856410213187,
         "sun_diff": 0.22237346690923232,
         "length": 130.35206107829012
@@ -7125,7 +7148,7 @@
       "type": "Feature",
       "properties": {
         "name": "Old Mill Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 123.0324325378009,
         "sun_diff": 2.429009306082733,
         "length": 102.30986989942411
@@ -7148,7 +7171,7 @@
       "type": "Feature",
       "properties": {
         "name": "Old Mill Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 57.91949377812463,
         "sun_diff": 1.4766968570980055,
         "length": 117.63650302060813
@@ -7217,7 +7240,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kitchener Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 119.05668484916771,
         "sun_diff": 1.5467383825504584,
         "length": 248.94477052370468
@@ -8206,7 +8229,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hillsborough Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 120.93134488715998,
         "sun_diff": 0.32792165544181273,
         "length": 120.7053593460677
@@ -8229,7 +8252,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ash Street",
-        "type": "secondary",
+        "type": "primary",
         "slope": 58.16480457521752,
         "sun_diff": 1.2313860600051214,
         "length": 272.6757933136601
@@ -8252,7 +8275,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ash Street",
-        "type": "secondary",
+        "type": "primary",
         "slope": 58.603095368479075,
         "sun_diff": 0.7930952667435633,
         "length": 130.85861662060694
@@ -8321,7 +8344,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mount Albert Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 122.925972262584,
         "sun_diff": 2.3225490308658294,
         "length": 128.018661161859
@@ -8574,7 +8597,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mount Albert Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 121.76605262753836,
         "sun_diff": 1.1626293958201899,
         "length": 234.479469486619
@@ -8601,6 +8624,29 @@
         "slope": 58.56239974331339,
         "sun_diff": 0.7874548885798731,
         "length": 120.15023866636511
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            174.8631843,
+            -37.0029544
+          ],
+          [
+            174.8642414,
+            -37.0023931
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Wiri Station Road",
+        "type": "primary",
+        "slope": 56.380815584209756,
+        "sun_diff": 2.969039047683509,
+        "length": 112.76229480147508
       }
     },
     {
@@ -8769,29 +8815,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            174.780605,
-            -36.7953152
-          ],
-          [
-            174.781592,
-            -36.7958146
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 122.28715105881022,
-        "sun_diff": 1.7298179436112946,
-        "length": 103.99134896050357
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             174.8034621,
             -36.9553152
           ],
@@ -8896,7 +8919,7 @@
       "type": "Feature",
       "properties": {
         "name": "Marlborough Avenue",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 57.89747147364605,
         "sun_diff": 1.5448092780958405,
         "length": 119.71958731744819
@@ -9241,7 +9264,7 @@
       "type": "Feature",
       "properties": {
         "name": "Haverstock Road",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 121.85071942132132,
         "sun_diff": 1.2472961896031478,
         "length": 110.23722687730665
@@ -9256,8 +9279,8 @@
             -36.6932653
           ],
           [
-            174.7546743,
-            -36.6942312
+            174.7547109,
+            -36.6942133
           ]
         ]
       },
@@ -9265,9 +9288,9 @@
       "properties": {
         "name": "Toroa Street",
         "type": "residential",
-        "slope": 58.68925755960839,
-        "sun_diff": 0.7988947425992876,
-        "length": 206.73786173201455
+        "slope": 58.690580760574676,
+        "sun_diff": 0.7975715416330047,
+        "length": 202.91429520483348
       }
     },
     {
@@ -9762,8 +9785,8 @@
             -36.7933609
           ],
           [
-            174.778493,
-            -36.7927706
+            174.7784232,
+            -36.7928069
           ]
         ]
       },
@@ -9771,9 +9794,9 @@
       "properties": {
         "name": "Rewiti Avenue",
         "type": "residential",
-        "slope": 56.98655499617573,
-        "sun_diff": 2.4557257555661636,
-        "length": 120.51115220223767
+        "slope": 56.98568503059775,
+        "sun_diff": 2.45659572114414,
+        "length": 113.097796551581
       }
     },
     {
@@ -9816,7 +9839,7 @@
       "type": "Feature",
       "properties": {
         "name": "Edmonton Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 56.79729671932995,
         "sun_diff": 2.5988939158926883,
         "length": 168.2448254548807
@@ -10023,7 +10046,7 @@
       "type": "Feature",
       "properties": {
         "name": "Clonbern Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 122.23990834181564,
         "sun_diff": 1.6364851100974676,
         "length": 160.92416119057182

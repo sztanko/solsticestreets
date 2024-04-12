@@ -201,7 +201,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Amaravathi Road",
+        "name": null,
         "type": "secondary",
         "slope": 63.79366080730418,
         "sun_diff": 2.0074440994495433,
@@ -339,7 +339,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "LIC Colony Road",
         "type": "secondary",
         "slope": 111.92429947485331,
         "sun_diff": 2.2740592211720383,
@@ -362,7 +362,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "LIC Colony Road",
         "type": "secondary",
         "slope": 111.62734473450035,
         "sun_diff": 2.571013961524997,
@@ -7423,80 +7423,11 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "secondary",
+        "name": "Mahatma Gandhi Inner Ring Road",
+        "type": "primary",
         "slope": 64.454828234356,
         "sun_diff": 1.346276672397721,
         "length": 107.48396827125313
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.3830238,
-            16.331092
-          ],
-          [
-            80.3839833,
-            16.3307096
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 112.55292346053739,
-        "sun_diff": 1.645435235487966,
-        "length": 110.90010093532769
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.3839833,
-            16.3307096
-          ],
-          [
-            80.385207,
-            16.3301926
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 113.76149721777713,
-        "sun_diff": 0.4368614782482183,
-        "length": 142.71885899321308
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.3863189,
-            16.3298607
-          ],
-          [
-            80.3880383,
-            16.3291601
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 113.00582923229263,
-        "sun_diff": 1.1925294637327255,
-        "length": 199.39243181532058
       }
     },
     {
@@ -12840,29 +12771,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.4457613,
-            16.2921908
-          ],
-          [
-            80.4448654,
-            16.2925584
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "primary",
-        "slope": 113.14576448815893,
-        "sun_diff": 1.05259420786642,
-        "length": 104.02203998785379
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             80.5813575,
             16.2649867
           ],
@@ -13886,7 +13794,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Ringroad",
+        "name": "Gujjanagundla Road",
         "type": "primary",
         "slope": 116.9717855373147,
         "sun_diff": 2.77342684128935,
@@ -16002,7 +15910,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Ringroad",
+        "name": "Gujjanagundla Road",
         "type": "primary",
         "slope": 117.15866324547608,
         "sun_diff": 2.9603045494507256,
@@ -17893,6 +17801,121 @@
         "slope": 111.99882552535323,
         "sun_diff": 2.199533170672126,
         "length": 114.2623980385532
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.4457613,
+            16.2921908
+          ],
+          [
+            80.4448654,
+            16.2925584
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 113.14576448815893,
+        "sun_diff": 1.05259420786642,
+        "length": 104.02203998785379
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.3830238,
+            16.331092
+          ],
+          [
+            80.3839833,
+            16.3307096
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Peda Palakaluru Road",
+        "type": "primary",
+        "slope": 112.55292346053739,
+        "sun_diff": 1.645435235487966,
+        "length": 110.90010093532769
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.3839833,
+            16.3307096
+          ],
+          [
+            80.385207,
+            16.3301926
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Peda Palakaluru Road",
+        "type": "primary",
+        "slope": 113.76149721777713,
+        "sun_diff": 0.4368614782482183,
+        "length": 142.71885899321308
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.3863189,
+            16.3298607
+          ],
+          [
+            80.3880383,
+            16.3291601
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Peda Palakaluru Road",
+        "type": "primary",
+        "slope": 113.00582923229263,
+        "sun_diff": 1.1925294637327255,
+        "length": 199.39243181532058
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.4924452,
+            16.351054
+          ],
+          [
+            80.4914861,
+            16.3514625
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 113.93516978258754,
+        "sun_diff": 0.2746704614326063,
+        "length": 111.99685373762935
       }
     }
   ]
