@@ -1743,7 +1743,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 99",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 69.25518553551711,
         "sun_diff": 2.680329478827673,
         "length": 125.07636844267408
@@ -1996,7 +1996,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 63.90185386700094,
         "sun_diff": 2.6721006047180538,
         "length": 123.13638274908409
@@ -2180,7 +2180,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 100",
-        "type": "primary",
+        "type": "trunk",
         "slope": 115.48246924760983,
         "sun_diff": 2.0561814749843705,
         "length": 110.18665618199682
@@ -2778,7 +2778,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 100",
-        "type": "primary",
+        "type": "trunk",
         "slope": 115.7389014759377,
         "sun_diff": 2.3126137033122376,
         "length": 163.5646607485861
@@ -3491,7 +3491,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 100",
-        "type": "primary",
+        "type": "trunk",
         "slope": 116.38088856789298,
         "sun_diff": 2.954600795267524,
         "length": 106.89003246185365
@@ -4652,6 +4652,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -76.4707812,
+            3.4496028
+          ],
+          [
+            -76.4723278,
+            3.4502589
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 113.02506501954511,
+        "sun_diff": 0.40122275308034716,
+        "length": 186.5804446822424
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -76.5445199,
             3.4207829
           ],
@@ -5565,29 +5588,6 @@
         "slope": 66.49610204106796,
         "sun_diff": 0.07875401562148454,
         "length": 124.47452063655143
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -76.4722679,
-            3.4501202
-          ],
-          [
-            -76.4710742,
-            3.449581
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carrera 8",
-        "type": "primary",
-        "slope": 114.34792642516541,
-        "sun_diff": 0.9207234071911756,
-        "length": 145.47300264340964
       }
     }
   ]
