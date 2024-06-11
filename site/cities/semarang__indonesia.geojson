@@ -190,21 +190,21 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.5493146,
-            -7.130755
-          ],
-          [
             110.5484831,
             -7.1311691
+          ],
+          [
+            110.5493146,
+            -7.130755
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
-        "slope": 63.34801510589432,
-        "sun_diff": 2.898664021554339,
+        "type": "secondary",
+        "slope": 63.34803587541347,
+        "sun_diff": 2.8986432520351855,
         "length": 102.68246308972395
       }
     },
@@ -1352,33 +1352,10 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Mlatiharjo II",
-        "type": "residential",
+        "type": "living_street",
         "slope": 66.65731383231514,
         "sun_diff": 0.40347666661631365,
         "length": 100.80680780618266
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            110.4371231,
-            -6.9590769
-          ],
-          [
-            110.4381551,
-            -6.9586832
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Jalan Purnasari Raya III",
-        "type": "residential",
-        "slope": 68.9770710360769,
-        "sun_diff": 2.723233870378067,
-        "length": 122.0688604419704
       }
     },
     {
@@ -1804,8 +1781,8 @@
             -7.0557407
           ],
           [
-            110.4428285,
-            -7.0549891
+            110.442295,
+            -7.0552442
           ]
         ]
       },
@@ -1813,9 +1790,9 @@
       "properties": {
         "name": "Jalan Profesor Soedarto",
         "type": "tertiary",
-        "slope": 64.27260207551328,
-        "sun_diff": 1.9740770519353816,
-        "length": 192.5874906931317
+        "slope": 64.27150060986764,
+        "sun_diff": 1.9751785175810141,
+        "length": 127.2164659728622
       }
     },
     {
@@ -2214,22 +2191,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.4262379,
-            -7.0506736
+            110.4269639,
+            -7.048322
           ],
           [
-            110.4272137,
-            -7.0511463
+            110.4259849,
+            -7.0478669
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Jalan Sumurboto Utara",
+        "name": "Jalan Bukit Tanjung",
         "type": "residential",
-        "slope": 116.01768185060456,
-        "sun_diff": 2.2654096394619074,
-        "length": 119.86445611912845
+        "slope": 115.09845505319518,
+        "sun_diff": 1.3533203897352024,
+        "length": 119.33913169453092
       }
     },
     {
@@ -2253,29 +2230,6 @@
         "slope": 113.48547874640019,
         "sun_diff": 0.2596559170597885,
         "length": 111.05768494138589
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            110.3986423,
-            -7.0536796
-          ],
-          [
-            110.397751,
-            -7.0533021
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Gang Cempakasari III",
-        "type": "residential",
-        "slope": 113.11125232209565,
-        "sun_diff": 0.6410198890470014,
-        "length": 106.97413623137011
       }
     },
     {
@@ -2352,12 +2306,35 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.5081687,
-            -6.9675601
+            110.4585075,
+            -6.9816851
           ],
           [
-            110.5093163,
-            -6.9679993
+            110.4612001,
+            -6.9828324
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Jalan Parang Barong IV",
+        "type": "residential",
+        "slope": 113.2327763325699,
+        "sun_diff": 0.5123583308900805,
+        "length": 323.5097294032827
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.5102413,
+            -6.9668464
+          ],
+          [
+            110.5118541,
+            -6.9674643
           ]
         ]
       },
@@ -2365,9 +2342,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 111.08461729880256,
-        "sun_diff": 2.660517364657423,
-        "length": 135.7961440569212
+        "slope": 111.10523460557147,
+        "sun_diff": 2.639900057888511,
+        "length": 190.87026093847692
       }
     },
     {
@@ -2628,8 +2605,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.5082932,
-            -7.0513906
+            110.5082878,
+            -7.0514106
           ],
           [
             110.5091757,
@@ -2640,10 +2617,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
-        "slope": 113.06839980418002,
-        "sun_diff": 0.6838724069626352,
-        "length": 105.88461422344845
+        "type": "living_street",
+        "slope": 111.83091843608617,
+        "sun_diff": 1.9213537750564882,
+        "length": 105.58600783323958
       }
     },
     {
@@ -3100,7 +3077,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Kampung Ngembun",
-        "type": "living_street",
+        "type": "residential",
         "slope": 64.31986652685728,
         "sun_diff": 1.9339706388415436,
         "length": 130.00663287339694
@@ -3215,7 +3192,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Graha Beringin Mas Selatan II",
-        "type": "residential",
+        "type": "living_street",
         "slope": 116.08958488622937,
         "sun_diff": 2.344450222769396,
         "length": 107.72032108805274
@@ -4411,7 +4388,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Anggrek",
-        "type": "residential",
+        "type": "living_street",
         "slope": 116.57026903637978,
         "sun_diff": 2.8251343729198055,
         "length": 161.2391287833009
@@ -4687,7 +4664,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Ganginsari V",
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.81458908819656,
         "sun_diff": 0.06945442473657693,
         "length": 103.5776504958368
@@ -5047,8 +5024,8 @@
             -7.0148942
           ],
           [
-            110.4765388,
-            -7.0155596
+            110.4765557,
+            -7.0155621
           ]
         ]
       },
@@ -5056,9 +5033,9 @@
       "properties": {
         "name": "Jalan Sapta Prasetya Utara XII",
         "type": "residential",
-        "slope": 113.4899362576192,
-        "sun_diff": 0.2551984058407726,
-        "length": 185.68641864265254
+        "slope": 113.3406322639282,
+        "sun_diff": 0.40450239953177913,
+        "length": 187.5089924384743
       }
     },
     {
@@ -5358,6 +5335,29 @@
         "slope": 113.80920442698343,
         "sun_diff": 0.06406976352344884,
         "length": 124.5677239138184
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3667203,
+            -7.0752424
+          ],
+          [
+            110.367947,
+            -7.0757054
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Jalan Jedung Raya",
+        "type": "residential",
+        "slope": 110.82340642594443,
+        "sun_diff": 2.9288657851982265,
+        "length": 144.86935013766995
       }
     },
     {
@@ -5760,8 +5760,8 @@
             -7.0411268
           ],
           [
-            110.3589574,
-            -7.0406219
+            110.3590003,
+            -7.0406113
           ]
         ]
       },
@@ -5769,9 +5769,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 114.45976788310335,
-        "sun_diff": 0.7146332196433747,
-        "length": 135.63422378568563
+        "slope": 115.77838924486554,
+        "sun_diff": 2.033254581405558,
+        "length": 131.84657524816296
       }
     },
     {
@@ -6013,8 +6013,8 @@
             -7.046784
           ],
           [
-            110.3685249,
-            -7.0473467
+            110.3680868,
+            -7.0471527
           ]
         ]
       },
@@ -6022,9 +6022,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 113.8102677845466,
-        "sun_diff": 0.06513312108661751,
-        "length": 155.034985988189
+        "slope": 113.68793393877428,
+        "sun_diff": 0.05720072468569981,
+        "length": 102.0782808330301
       }
     },
     {
@@ -6094,29 +6094,6 @@
         "slope": 114.79480437358498,
         "sun_diff": 1.049669710125002,
         "length": 107.36551997495165
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            110.5417503,
-            -7.0331983
-          ],
-          [
-            110.5429514,
-            -7.0336523
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 110.84948500442911,
-        "sun_diff": 2.895649659030866,
-        "length": 141.8835311642531
       }
     },
     {
@@ -6531,29 +6508,6 @@
         "slope": 116.36312595732923,
         "sun_diff": 2.6179912938692524,
         "length": 124.6411729236175
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            110.533196,
-            -6.8998579
-          ],
-          [
-            110.5341703,
-            -6.9003184
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 115.45891107196078,
-        "sun_diff": 1.7208319939134213,
-        "length": 119.15720602216173
       }
     },
     {
@@ -7113,12 +7067,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.5723192,
-            -6.9010526
+            110.5710684,
+            -6.9006287
           ],
           [
-            110.571226,
-            -6.9006406
+            110.5702305,
+            -6.9002711
           ]
         ]
       },
@@ -7126,9 +7080,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 110.78802558148985,
-        "sun_diff": 2.9500534965575156,
-        "length": 129.12138151458564
+        "slope": 113.26263054589523,
+        "sun_diff": 0.4754485321521287,
+        "length": 100.71183521489148
       }
     },
     {
@@ -7416,8 +7370,8 @@
             -7.0833202
           ],
           [
-            110.5276778,
-            -7.0828624
+            110.5276791,
+            -7.0829023
           ]
         ]
       },
@@ -7425,9 +7379,9 @@
       "properties": {
         "name": null,
         "type": "tertiary",
-        "slope": 63.89345776831033,
-        "sun_diff": 2.353221359138331,
-        "length": 115.71857046861946
+        "slope": 65.92920208285543,
+        "sun_diff": 0.31747704459323245,
+        "length": 113.96641391295648
       }
     },
     {
@@ -7462,8 +7416,8 @@
             -7.0470595
           ],
           [
-            110.4942497,
-            -7.0475215
+            110.4942443,
+            -7.0475288
           ]
         ]
       },
@@ -7471,9 +7425,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 114.41737719495299,
-        "sun_diff": 0.672242531493012,
-        "length": 124.31208133830378
+        "slope": 114.87247082898762,
+        "sun_diff": 1.1273361655276375,
+        "length": 124.1088642598821
       }
     },
     {
@@ -7723,7 +7677,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 112.39497433570929,
         "sun_diff": 1.3431047423380704,
         "length": 115.23271996737358
@@ -7746,7 +7700,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 114.87753622886572,
         "sun_diff": 1.1394571508183589,
         "length": 116.86694554151632
@@ -8286,8 +8240,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.4269451,
-            -7.0450409
+            110.4269505,
+            -7.0450389
           ],
           [
             110.4277696,
@@ -8299,9 +8253,9 @@
       "properties": {
         "name": "Jalan Bukit Mulia",
         "type": "residential",
-        "slope": 116.14129361127769,
-        "sun_diff": 2.3961589478177103,
-        "length": 101.38744532551827
+        "slope": 116.40369964033087,
+        "sun_diff": 2.658564976870892,
+        "length": 100.95138631837455
       }
     },
     {
@@ -9026,8 +8980,8 @@
             -7.0484069
           ],
           [
-            110.5077732,
-            -7.0479763
+            110.5077986,
+            -7.0479883
           ]
         ]
       },
@@ -9035,9 +8989,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 111.20527750709641,
-        "sun_diff": 2.539857156363567,
-        "length": 132.41405532983876
+        "slope": 111.10329105317126,
+        "sun_diff": 2.641843610288717,
+        "length": 129.3174244219614
       }
     },
     {
@@ -9080,7 +9034,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 110.92329171511906,
         "sun_diff": 2.8218429483409153,
         "length": 109.44899079117863
@@ -9636,6 +9590,144 @@
         "slope": 115.90014216396867,
         "sun_diff": 2.155007500508688,
         "length": 135.31813665659908
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4371231,
+            -6.9590769
+          ],
+          [
+            110.4381551,
+            -6.9586832
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Jalan Purnasari Raya III",
+        "type": "living_street",
+        "slope": 68.9770710360769,
+        "sun_diff": 2.723233870378067,
+        "length": 122.0688604419704
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4262379,
+            -7.0506736
+          ],
+          [
+            110.4272137,
+            -7.0511463
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Jalan Sumurboto Utara",
+        "type": "living_street",
+        "slope": 116.01768185060456,
+        "sun_diff": 2.2654096394619074,
+        "length": 119.86445611912845
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3986423,
+            -7.0536796
+          ],
+          [
+            110.397751,
+            -7.0533021
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Gang Cempakasari III",
+        "type": "living_street",
+        "slope": 113.11125232209565,
+        "sun_diff": 0.6410198890470014,
+        "length": 106.97413623137011
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.5081687,
+            -6.9675601
+          ],
+          [
+            110.5093163,
+            -6.9679993
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 111.08461729880256,
+        "sun_diff": 2.660517364657423,
+        "length": 135.7961440569212
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.5627622,
+            -6.8847131
+          ],
+          [
+            110.5636119,
+            -6.8843657
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 67.61718730522136,
+        "sun_diff": 1.3563013842990586,
+        "length": 101.47568389775478
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.5759399,
+            -6.910982
+          ],
+          [
+            110.5769469,
+            -6.9114502
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 115.09598240642697,
+        "sun_diff": 1.3579033283796065,
+        "length": 122.78570676426709
       }
     }
   ]

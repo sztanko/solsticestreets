@@ -1075,7 +1075,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle 72H1",
+        "name": "Calle 72H 1",
         "type": "tertiary",
         "slope": 67.62237674462108,
         "sun_diff": 1.0475206879316374,
@@ -1098,7 +1098,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle 72H4",
+        "name": "Calle 72H 4",
         "type": "residential",
         "slope": 63.847944125345094,
         "sun_diff": 2.726911931344347,
@@ -1121,7 +1121,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle 72H2",
+        "name": "Calle 72H 2",
         "type": "residential",
         "slope": 63.749237677965766,
         "sun_diff": 2.825618378723675,
@@ -1604,7 +1604,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle 72J2",
+        "name": "Calle 72J 2",
         "type": "residential",
         "slope": 65.93702501983466,
         "sun_diff": 0.6378310368547773,
@@ -2156,7 +2156,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle 72J1",
+        "name": "Calle 72J 1",
         "type": "residential",
         "slope": 65.90436192068725,
         "sun_diff": 0.6704941360021905,
@@ -2180,7 +2180,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 100",
-        "type": "trunk",
+        "type": "primary",
         "slope": 115.48246924760983,
         "sun_diff": 2.0561814749843705,
         "length": 110.18665618199682
@@ -2778,7 +2778,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 100",
-        "type": "trunk",
+        "type": "primary",
         "slope": 115.7389014759377,
         "sun_diff": 2.3126137033122376,
         "length": 163.5646607485861
@@ -2816,18 +2816,18 @@
             3.4450322
           ],
           [
-            -76.4892474,
-            3.4445692
+            -76.4892458,
+            3.4445698
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Carrera 23",
-        "type": "secondary",
-        "slope": 69.46675508854557,
-        "sun_diff": 2.891899031856127,
-        "length": 146.82618044687666
+        "type": "primary",
+        "slope": 69.46682869453872,
+        "sun_diff": 2.8919726378492783,
+        "length": 146.6364119319587
       }
     },
     {
@@ -2839,8 +2839,8 @@
             3.4449852
           ],
           [
-            -76.4901031,
-            3.4441597
+            -76.4892218,
+            3.4445058
           ]
         ]
       },
@@ -2848,9 +2848,32 @@
       "properties": {
         "name": "MIO Carrera 15",
         "type": "service",
-        "slope": 68.60609351379435,
-        "sun_diff": 2.0312374571049077,
-        "length": 251.71543387525838
+        "slope": 68.66495502596428,
+        "sun_diff": 2.090098969274834,
+        "length": 146.5653872877297
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.4892218,
+            3.4445058
+          ],
+          [
+            -76.490091,
+            3.4441691
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "MIO Carrera 15",
+        "type": "service",
+        "slope": 68.79032979268337,
+        "sun_diff": 2.2154737359939247,
+        "length": 103.51838235257256
       }
     },
     {
@@ -3491,7 +3514,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 100",
-        "type": "trunk",
+        "type": "primary",
         "slope": 116.38088856789298,
         "sun_diff": 2.954600795267524,
         "length": 106.89003246185365
@@ -3709,6 +3732,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -76.4900587,
+            3.4440724
+          ],
+          [
+            -76.4891855,
+            3.444409
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carrera 23",
+        "type": "primary",
+        "slope": 68.88462071134063,
+        "sun_diff": 2.3097646546511896,
+        "length": 103.92854066307436
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -76.5297126,
             3.484382
           ],
@@ -3755,12 +3801,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -76.4900823,
-            3.4441102
+            -76.4900776,
+            3.4441129
           ],
           [
-            -76.4879639,
-            3.4449054
+            -76.4892001,
+            3.4444478
           ]
         ]
       },
@@ -3768,9 +3814,9 @@
       "properties": {
         "name": "MIO Carrera 15",
         "type": "service",
-        "slope": 69.3908698872286,
-        "sun_diff": 2.8160138305391627,
-        "length": 251.28496075961112
+        "slope": 69.07598935449951,
+        "sun_diff": 2.501133297810071,
+        "length": 104.3063679012039
       }
     },
     {
@@ -5128,29 +5174,6 @@
         "slope": 110.86158738098615,
         "sun_diff": 2.563853448182215,
         "length": 104.54200134107636
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -76.5370039,
-            3.4054538
-          ],
-          [
-            -76.5361556,
-            3.4050377
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 116.16848213033231,
-        "sun_diff": 2.7421943577068504,
-        "length": 104.94658475932113
       }
     },
     {
