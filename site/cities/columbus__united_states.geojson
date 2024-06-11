@@ -316,7 +316,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Waterloo Street",
+        "name": "East Waterloo Street",
         "type": "secondary",
         "slope": 120.19105313319847,
         "sun_diff": 0.12834351207389716,
@@ -730,7 +730,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Hardy Parkway",
+        "name": "Hardy Parkway Street",
         "type": "secondary",
         "slope": 59.05442169725461,
         "sun_diff": 0.5804430683249393,
@@ -846,7 +846,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kimberly Parkway North",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 56.78632886534501,
         "sun_diff": 2.8485359002345376,
         "length": 121.22839517895099
@@ -1064,8 +1064,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -82.921691,
-            40.002991
+            -82.9216202,
+            40.0030181
           ],
           [
             -82.920524,
@@ -1076,10 +1076,10 @@
       "type": "Feature",
       "properties": {
         "name": "Ole Country Lane",
-        "type": "residential",
-        "slope": 60.634192336951884,
-        "sun_diff": 1.0466471219421578,
-        "length": 114.09179507288208
+        "type": "unclassified",
+        "slope": 60.45745458363234,
+        "sun_diff": 0.8699093686226149,
+        "length": 107.35686216016065
       }
     },
     {
@@ -1444,7 +1444,7 @@
       "type": "Feature",
       "properties": {
         "name": "Paris Boulevard",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 61.89246363070097,
         "sun_diff": 2.3525111738279065,
         "length": 232.78603502614268
@@ -1770,6 +1770,29 @@
         "slope": 121.05225576559891,
         "sun_diff": 0.6857991169451623,
         "length": 183.50630978568424
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.1701573,
+            39.9704147
+          ],
+          [
+            -83.1715567,
+            39.9698449
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "George Fox Drive",
+        "type": "residential",
+        "slope": 62.01855922708873,
+        "sun_diff": 2.431014012079004,
+        "length": 135.0820695819513
       }
     },
     {
@@ -4065,7 +4088,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Driveway",
+        "name": null,
         "type": "service",
         "slope": 57.34939473336922,
         "sun_diff": 2.2381504816405027,
@@ -4594,7 +4617,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Cassady Avenue",
+        "name": "North Cassady Avenue",
         "type": "secondary",
         "slope": 123.39743163068465,
         "sun_diff": 2.9836554314610595,
@@ -5238,7 +5261,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Heritage Boulevard",
         "type": "residential",
         "slope": 60.511663591448524,
         "sun_diff": 0.9241183764387984,
@@ -5933,29 +5956,6 @@
         "slope": 120.7598027480521,
         "sun_diff": 0.3933460993983431,
         "length": 143.69192125998188
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -82.9567485,
-            40.0365993
-          ],
-          [
-            -82.9554414,
-            40.036072
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 117.78454844434444,
-        "sun_diff": 2.629227754879153,
-        "length": 125.82120889320356
       }
     },
     {
