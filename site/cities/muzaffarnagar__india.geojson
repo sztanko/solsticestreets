@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "Old NH58",
-        "type": "trunk",
+        "type": "primary",
         "slope": 61.092337730454716,
         "sun_diff": 2.2759903977238594,
         "length": 136.5175548326589
@@ -41,7 +41,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shamli - Muzaffarnagar Bypass",
-        "type": "primary",
+        "type": "trunk",
         "slope": 64.51553315546079,
         "sun_diff": 1.1206492517892173,
         "length": 198.69438159063156
@@ -64,7 +64,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shamli - Muzaffarnagar Bypass",
-        "type": "primary",
+        "type": "trunk",
         "slope": 62.47837246378444,
         "sun_diff": 0.916511439887131,
         "length": 132.031777975012
@@ -363,7 +363,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shamli - Muzaffarnagar Bypass",
-        "type": "primary",
+        "type": "trunk",
         "slope": 116.15206630864645,
         "sun_diff": 0.45251339046103567,
         "length": 128.57818714580227
@@ -501,7 +501,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shamli - Muzaffarnagar Bypass",
-        "type": "primary",
+        "type": "trunk",
         "slope": 119.54507371110546,
         "sun_diff": 2.94049401199797,
         "length": 195.49990016354417
@@ -524,7 +524,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shamli - Muzaffarnagar Bypass",
-        "type": "primary",
+        "type": "trunk",
         "slope": 115.12717248269342,
         "sun_diff": 1.4774072164140648,
         "length": 125.20995432506007
@@ -6285,6 +6285,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            77.3604047,
+            29.2975797
+          ],
+          [
+            77.3594141,
+            29.2980577
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 118.95629510424124,
+        "sun_diff": 2.378120916465022,
+        "length": 109.81885468653991
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             77.586565,
             29.3046445
           ],
@@ -7056,7 +7079,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.69508446589737,
         "sun_diff": 2.673243662281209,
         "length": 155.18956065482283
@@ -7631,7 +7654,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 118.42758234335597,
         "sun_diff": 1.8494081555797521,
         "length": 143.1360045636533
@@ -7654,7 +7677,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 116.88289615340636,
         "sun_diff": 0.30472196563015075,
         "length": 103.51360979059729
@@ -7677,7 +7700,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 118.86964059565543,
         "sun_diff": 2.291466407879213,
         "length": 147.6023309043783
@@ -7895,8 +7918,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.2839484,
-            29.2526043
+            77.2839644,
+            29.2525872
           ],
           [
             77.2855695,
@@ -7908,9 +7931,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 115.45632235211866,
-        "sun_diff": 1.1218518356575515,
-        "length": 174.23651308249077
+        "slope": 115.10660200451471,
+        "sun_diff": 1.4715721832615003,
+        "length": 172.02021411651776
       }
     },
     {
@@ -8003,6 +8026,75 @@
         "slope": 117.04513207261445,
         "sun_diff": 0.49322679238611045,
         "length": 119.54927179328055
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.3414941,
+            29.2566281
+          ],
+          [
+            77.3424231,
+            29.2562032
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 117.66552950740058,
+        "sun_diff": 1.0873553196243648,
+        "length": 101.78878683614188
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.3424231,
+            29.2562032
+          ],
+          [
+            77.3434908,
+            29.2557163
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 117.59600639573836,
+        "sun_diff": 1.0178322079621438,
+        "length": 116.91213007930862
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.3446714,
+            29.2550887
+          ],
+          [
+            77.3459745,
+            29.2544752
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 118.3524257242569,
+        "sun_diff": 1.7742515364806906,
+        "length": 143.69395000959906
       }
     },
     {
@@ -8804,7 +8896,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shamli - Muzaffarnagar Bypass",
-        "type": "primary",
+        "type": "trunk",
         "slope": 61.56580536698283,
         "sun_diff": 1.8290785366887405,
         "length": 135.48940852472577
@@ -8827,7 +8919,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shamli - Muzaffarnagar Bypass",
-        "type": "primary",
+        "type": "trunk",
         "slope": 66.1049473153762,
         "sun_diff": 2.710063411704624,
         "length": 195.678738104371
@@ -8919,7 +9011,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shamli - Muzaffarnagar Bypass",
-        "type": "primary",
+        "type": "trunk",
         "slope": 115.35803351519678,
         "sun_diff": 1.2465461839107093,
         "length": 125.46948022839243
@@ -8942,7 +9034,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shamli - Muzaffarnagar Bypass",
-        "type": "primary",
+        "type": "trunk",
         "slope": 119.54633801420414,
         "sun_diff": 2.9417583150966493,
         "length": 195.29054768462672
@@ -8965,7 +9057,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shamli - Muzaffarnagar Bypass",
-        "type": "primary",
+        "type": "trunk",
         "slope": 115.30390939882167,
         "sun_diff": 1.300670300285816,
         "length": 127.56780043561388
@@ -16766,6 +16858,52 @@
         "slope": 114.10814877695051,
         "sun_diff": 2.5229866976499835,
         "length": 336.77016235847765
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.319213,
+            29.271006
+          ],
+          [
+            77.3202401,
+            29.2705547
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 116.7346338331169,
+        "sun_diff": 0.15645964534068924,
+        "length": 111.58594675419363
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.3232018,
+            29.5144342
+          ],
+          [
+            77.3206476,
+            29.5156867
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 119.40122725120258,
+        "sun_diff": 2.7700917766020865,
+        "length": 283.7841913411107
       }
     }
   ]

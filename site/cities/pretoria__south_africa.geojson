@@ -13289,7 +13289,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 61.77010495067239,
         "sun_diff": 1.5286918517554398,
         "length": 105.32517067642857
@@ -14289,6 +14289,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            28.2585162,
+            -25.8670903
+          ],
+          [
+            28.2571042,
+            -25.8663918
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Nellmapius Drive",
+        "type": "secondary",
+        "slope": 118.80056428151985,
+        "sun_diff": 2.0732324226489,
+        "length": 161.27011488134707
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             28.2726479,
             -25.7452353
           ],
@@ -14979,29 +15002,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            28.2581852,
-            -25.865563
-          ],
-          [
-            28.2591386,
-            -25.8660008
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 117.03633895389484,
-        "sun_diff": 0.3090070950238868,
-        "length": 107.12991242006493
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             28.3383268,
             -25.6418842
           ],
@@ -15685,6 +15685,52 @@
         "slope": 62.52380004171144,
         "sun_diff": 0.8268242361384637,
         "length": 132.20888403484818
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.1760424,
+            -25.7817471
+          ],
+          [
+            28.1747778,
+            -25.781235
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 114.21412437940668,
+        "sun_diff": 2.4870888360781436,
+        "length": 138.87843599241276
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.1747778,
+            -25.781235
+          ],
+          [
+            28.1733783,
+            -25.7805407
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 118.85225976013604,
+        "sun_diff": 2.1510465446512086,
+        "length": 160.03783769313813
       }
     }
   ]

@@ -282,8 +282,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8484782,
-            18.9869502
+            72.8483065,
+            18.9870263
           ],
           [
             72.8466404,
@@ -295,9 +295,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 114.85764868875563,
-        "sun_diff": 0.3160456661804574,
-        "length": 213.0321651048324
+        "slope": 114.83123510169054,
+        "sun_diff": 0.28963207911536415,
+        "length": 193.08797051567157
       }
     },
     {
@@ -1034,29 +1034,6 @@
         "slope": 67.07094412563015,
         "sun_diff": 1.6130152435345622,
         "length": 147.948016569812
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.8479936,
-            18.9883467
-          ],
-          [
-            72.8489445,
-            18.9879435
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 114.15237783476064,
-        "sun_diff": 0.38922518781453164,
-        "length": 109.60822312828853
       }
     },
     {
@@ -2065,7 +2042,7 @@
       "type": "Feature",
       "properties": {
         "name": "C V Raman Road",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 66.36423956034668,
         "sun_diff": 0.9063106782510886,
         "length": 105.31455244295641
@@ -2271,7 +2248,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Brig Usman Marg (Erskine Road)",
+        "name": "Brig. Usman Marg",
         "type": "tertiary",
         "slope": 63.5633089860074,
         "sun_diff": 1.8946198960881873,
@@ -5388,29 +5365,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8573063,
-            19.1736839
-          ],
-          [
-            72.8552956,
-            19.1729085
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Goregaon Mulund Link Road",
-        "type": "secondary",
-        "slope": 67.7906109342959,
-        "sun_diff": 2.3609043938508023,
-        "length": 228.17235204837277
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             72.8559074,
             19.1732359
           ],
@@ -6301,29 +6255,6 @@
         "slope": 113.24404810223905,
         "sun_diff": 1.3116182798371767,
         "length": 352.2232987352295
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.920891,
-            19.1488463
-          ],
-          [
-            72.9218421,
-            19.1493116
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Pipeline Road",
-        "type": "residential",
-        "slope": 62.621317698176,
-        "sun_diff": 2.822540994229371,
-        "length": 112.54346495905985
       }
     },
     {
@@ -7734,8 +7665,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8311298,
-            19.004936
+            72.8310695,
+            19.0049626
           ],
           [
             72.8334057,
@@ -7747,9 +7678,9 @@
       "properties": {
         "name": "Balasheth Mandurkar Marg",
         "type": "residential",
-        "slope": 66.86021099639859,
-        "sun_diff": 1.4022821143030058,
-        "length": 260.28879133097973
+        "slope": 67.98729952328458,
+        "sun_diff": 2.52937064118899,
+        "length": 265.00870160580575
       }
     },
     {
@@ -9643,29 +9574,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8787986,
-            19.0523993
-          ],
-          [
-            72.8800701,
-            19.0528956
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Bhagwan Swaminarayan Flyover",
-        "type": "primary",
-        "slope": 67.56188554906225,
-        "sun_diff": 2.1180268566568827,
-        "length": 144.63075665069158
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             72.874129,
             19.2628618
           ],
@@ -10050,6 +9958,52 @@
         "slope": 62.979660084215595,
         "sun_diff": 2.4782687978799913,
         "length": 102.21837748244178
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8787986,
+            19.0523993
+          ],
+          [
+            72.8800701,
+            19.0528956
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Bhagwan Swaminarayan Flyover",
+        "type": "primary",
+        "slope": 67.56188554906225,
+        "sun_diff": 2.1180268566568827,
+        "length": 144.63075665069158
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8573063,
+            19.1736839
+          ],
+          [
+            72.8552956,
+            19.1729085
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Goregaon Mulund Link Road",
+        "type": "secondary",
+        "slope": 67.7906109342959,
+        "sun_diff": 2.3609043938508023,
+        "length": 228.17235204837277
       }
     }
   ]
