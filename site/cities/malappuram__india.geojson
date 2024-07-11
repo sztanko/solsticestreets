@@ -547,7 +547,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 114.93879608438024,
         "sun_diff": 1.229362819711909,
         "length": 101.42976120172574
@@ -570,7 +570,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 116.45994106639588,
         "sun_diff": 2.74370493331422,
         "length": 141.99181658503664
@@ -1328,7 +1328,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Ponnani - Kuttippuram Road",
+        "name": "Ponnani - Tirur Road",
         "type": "secondary",
         "slope": 66.18127443388755,
         "sun_diff": 0.11551096131233862,
@@ -1351,7 +1351,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Ponnani - Kuttippuram Road",
+        "name": "Ponnani - Tirur Road",
         "type": "secondary",
         "slope": 113.42289590971612,
         "sun_diff": 0.27981644880891565,
@@ -1398,7 +1398,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 63.809919842347,
         "sun_diff": 2.4868655528528905,
         "length": 175.30634718369672
@@ -1490,7 +1490,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mundikkal Tazham-PerinGHolam Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 65.41197962513553,
         "sun_diff": 0.8503816166474962,
         "length": 132.7785043162452
@@ -2276,29 +2276,6 @@
         "slope": 114.7808519667501,
         "sun_diff": 1.0646158336684408,
         "length": 154.9764373597084
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.3002259,
-            10.9572804
-          ],
-          [
-            76.3013846,
-            10.9567576
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calicut-Malappuram-Palakkad Road",
-        "type": "trunk",
-        "slope": 114.68222967430654,
-        "sun_diff": 0.9660003714140544,
-        "length": 139.25518281796943
       }
     },
     {
@@ -3467,7 +3444,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Karma Road",
         "type": "tertiary",
         "slope": 65.02888769428282,
         "sun_diff": 1.267897700917075,
@@ -4675,22 +4652,45 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.9868515,
-            10.8014147
+            75.9868262,
+            10.8013848
           ],
           [
-            75.9879366,
-            10.8009272
+            75.9878149,
+            10.8009338
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
-        "slope": 114.57793587468618,
-        "sun_diff": 0.8752235161611424,
-        "length": 130.36911545101106
+        "type": "tertiary",
+        "slope": 114.90928053651356,
+        "sun_diff": 1.2065681779885296,
+        "length": 119.10418108489257
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.9888856,
+            10.8004803
+          ],
+          [
+            75.9898973,
+            10.8000285
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 114.44786589778582,
+        "sun_diff": 0.7451535392607838,
+        "length": 121.42509467445453
       }
     },
     {
@@ -17187,6 +17187,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            75.9190327,
+            10.7830469
+          ],
+          [
+            75.9199232,
+            10.783411
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 67.4018823188299,
+        "sun_diff": 1.1050969236300148,
+        "length": 105.39290321553872
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             75.9187421,
             10.7839615
           ],
@@ -20101,6 +20124,29 @@
         "slope": 112.59685349851526,
         "sun_diff": 1.1193826345664064,
         "length": 140.0486893722643
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.3002259,
+            10.9572804
+          ],
+          [
+            76.3013846,
+            10.9567576
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calicut-Malappuram-Palakkad Road",
+        "type": "trunk",
+        "slope": 114.68222967430654,
+        "sun_diff": 0.9660003714140544,
+        "length": 139.25518281796943
       }
     }
   ]

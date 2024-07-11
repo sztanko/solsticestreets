@@ -6,8 +6,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -117.094322,
-            32.612957
+            -117.0949195,
+            32.6132737
           ],
           [
             -117.095863,
@@ -19,9 +19,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 120.44778882593226,
-        "sun_diff": 2.9158606828338094,
-        "length": 167.47534535603668
+        "slope": 119.31738586571294,
+        "sun_diff": 1.7854577226144812,
+        "length": 101.38316686853366
       }
     },
     {
@@ -29,8 +29,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            -117.096893,
-            32.615658
+            -117.0969413,
+            32.6155496
+          ],
+          [
+            -117.0954805,
+            32.6149172
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 117.2012835947815,
+        "sun_diff": 0.330644548316954,
+        "length": 153.88055760622802
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.0954805,
+            32.6149172
           ],
           [
             -117.094383,
@@ -42,9 +65,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 120.16957633442667,
-        "sun_diff": 2.6376481913282106,
-        "length": 272.00832724962004
+        "slope": 117.83862537331729,
+        "sun_diff": 0.30669723021883044,
+        "length": 116.28325752416347
       }
     },
     {
@@ -167,8 +190,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -117.024094,
-            32.624897
+            -117.0241268,
+            32.6249078
           ],
           [
             -117.022743,
@@ -180,9 +203,9 @@
       "properties": {
         "name": "Sesame Street",
         "type": "residential",
-        "slope": 115.9200737982147,
-        "sun_diff": 1.6118543448837528,
-        "length": 140.71736996437298
+        "slope": 115.81555462302066,
+        "sun_diff": 1.716373520077795,
+        "length": 144.00630972746055
       }
     },
     {
@@ -213,8 +236,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -117.0190778,
-            32.6405498
+            -117.0190905,
+            32.6405523
           ],
           [
             -117.0174805,
@@ -226,9 +249,9 @@
       "properties": {
         "name": "Duoro Drive",
         "type": "residential",
-        "slope": 64.46691901280175,
-        "sun_diff": 1.9983180436106238,
-        "length": 165.80057053694946
+        "slope": 64.72929936119112,
+        "sun_diff": 2.260698391999995,
+        "length": 166.75580737139654
       }
     },
     {
@@ -413,29 +436,6 @@
         "slope": 63.21393290942859,
         "sun_diff": 0.7453319402374632,
         "length": 191.40580989673134
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.0733322,
-            32.5865117
-          ],
-          [
-            -117.0721864,
-            32.586034
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Agno Court",
-        "type": "residential",
-        "slope": 116.32639827825383,
-        "sun_diff": 1.205529864844621,
-        "length": 119.8112109059583
       }
     },
     {
@@ -6262,29 +6262,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -117.037933,
-            32.551712
-          ],
-          [
-            -117.0394162,
-            32.552415
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "East Beyer Boulevard",
-        "type": "secondary",
-        "slope": 119.34970712663807,
-        "sun_diff": 1.8177789835396112,
-        "length": 159.53603351346533
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -117.0179686,
             32.6164581
           ],
@@ -6343,7 +6320,7 @@
       "type": "Feature",
       "properties": {
         "name": "Telegraph Canyon Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 116.05384577189855,
         "sun_diff": 1.4780823711999034,
         "length": 127.9151132994034
@@ -7814,7 +7791,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Toluca",
+        "name": "Calle Oaxaca",
         "type": "residential",
         "slope": 61.92965488073537,
         "sun_diff": 0.5704469209078695,
@@ -9264,7 +9241,7 @@
       "type": "Feature",
       "properties": {
         "name": "Telegraph Canyon Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 117.70395488929256,
         "sun_diff": 0.1720267461941063,
         "length": 100.67817156282383
@@ -9333,7 +9310,7 @@
       "type": "Feature",
       "properties": {
         "name": "Otay Lakes Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 62.41553587540241,
         "sun_diff": 0.05306509378871738,
         "length": 214.55322252344067
@@ -9356,7 +9333,7 @@
       "type": "Feature",
       "properties": {
         "name": "Otay Lakes Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 62.59911884293672,
         "sun_diff": 0.13051787374558899,
         "length": 145.0630594085386
@@ -9379,7 +9356,7 @@
       "type": "Feature",
       "properties": {
         "name": "Otay Lakes Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 62.43978019767039,
         "sun_diff": 0.028820771520742028,
         "length": 105.36845115609792
@@ -9402,7 +9379,7 @@
       "type": "Feature",
       "properties": {
         "name": "Otay Lakes Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 64.71260803315948,
         "sun_diff": 2.244007063968354,
         "length": 116.44818543463819
@@ -10356,8 +10333,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -116.9804974,
-            32.5692087
+            -116.9801849,
+            32.5693726
           ],
           [
             -116.9820088,
@@ -10369,9 +10346,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 60.484392047584606,
-        "sun_diff": 1.9842089216065233,
-        "length": 162.8049468594775
+        "slope": 60.06822852020207,
+        "sun_diff": 2.40037244898906,
+        "length": 197.28312097120036
       }
     },
     {
@@ -11978,7 +11955,7 @@
       "type": "Feature",
       "properties": {
         "name": "Otay Lakes Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 62.55073043294189,
         "sun_diff": 0.08212946375076058,
         "length": 226.04964732730764
@@ -12001,7 +11978,7 @@
       "type": "Feature",
       "properties": {
         "name": "Otay Lakes Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 62.44177031526419,
         "sun_diff": 0.026830653926936066,
         "length": 208.5643158165048
@@ -16992,7 +16969,7 @@
       "type": "Feature",
       "properties": {
         "name": "Otay Lakes Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 60.44085440225717,
         "sun_diff": 2.0277465669339563,
         "length": 163.98568699876677
@@ -17176,7 +17153,7 @@
       "type": "Feature",
       "properties": {
         "name": "Telegraph Canyon Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 117.59093395223317,
         "sun_diff": 0.059005809134717424,
         "length": 161.91297010410207
@@ -17617,6 +17594,29 @@
         "slope": 117.3244791265474,
         "sun_diff": 0.14462493656527897,
         "length": 104.2927419324815
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.0968516,
+            32.6133516
+          ],
+          [
+            -117.0979057,
+            32.6137707
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 115.26808711912958,
+        "sun_diff": 2.2638410239688795,
+        "length": 109.20944035996209
       }
     }
   ]

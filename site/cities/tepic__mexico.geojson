@@ -823,7 +823,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida de los Insurgentes Poniente",
-        "type": "secondary",
+        "type": "primary",
         "slope": 111.95441808589203,
         "sun_diff": 2.969757492473903,
         "length": 111.0307209046216
@@ -1386,12 +1386,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -104.8951589,
-            21.51554
-          ],
-          [
             -104.8938235,
             21.5150257
+          ],
+          [
+            -104.8951589,
+            21.51554
           ]
         ]
       },
@@ -1399,8 +1399,8 @@
       "properties": {
         "name": "Calle Nicol\u00e1s Bravo Poniente",
         "type": "residential",
-        "slope": 112.48823963554341,
-        "sun_diff": 2.4359359428225247,
+        "slope": 112.4883112879636,
+        "sun_diff": 2.4358642904023355,
         "length": 149.55907284701965
       }
     },
@@ -1651,7 +1651,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Insurgentes",
-        "type": "primary",
+        "type": "trunk",
         "slope": 115.28487234859529,
         "sun_diff": 0.3606967702293531,
         "length": 101.01654247283749
@@ -3146,7 +3146,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida de los Insurgentes Poniente",
-        "type": "secondary",
+        "type": "primary",
         "slope": 113.70969677860018,
         "sun_diff": 1.2144787997657573,
         "length": 104.61773338865402
@@ -4491,29 +4491,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -104.8854286,
-            21.5089918
-          ],
-          [
-            -104.8841754,
-            21.5084544
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Sebasti\u00e1n Lerdo de Tejada Oriente",
-        "type": "residential",
-        "slope": 114.74587454625339,
-        "sun_diff": 0.1783010321125431,
-        "length": 142.79892119570047
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -104.8960305,
             21.5132763
           ],
@@ -5676,7 +5653,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Insurgentes",
-        "type": "primary",
+        "type": "trunk",
         "slope": 114.88408811961727,
         "sun_diff": 0.04008745874865838,
         "length": 136.34654754464242
@@ -6412,7 +6389,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida de los Insurgentes Poniente",
-        "type": "secondary",
+        "type": "primary",
         "slope": 115.8429927127425,
         "sun_diff": 0.9188171343765674,
         "length": 105.38491473143768
@@ -6607,12 +6584,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -104.8887797,
-            21.5129514
-          ],
-          [
             -104.8875841,
             21.5124323
+          ],
+          [
+            -104.8887797,
+            21.5129514
           ]
         ]
       },
@@ -6620,8 +6597,8 @@
       "properties": {
         "name": "Calle Nicol\u00e1s Bravo Oriente",
         "type": "residential",
-        "slope": 115.01778184439436,
-        "sun_diff": 0.0936062660284307,
+        "slope": 115.01786025614192,
+        "sun_diff": 0.09368467777598255,
         "length": 136.53201208185772
       }
     },
@@ -8302,6 +8279,29 @@
         "slope": 64.55893973618487,
         "sun_diff": 0.5340111574219293,
         "length": 243.36471482171387
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -104.8854286,
+            21.5089918
+          ],
+          [
+            -104.8841754,
+            21.5084544
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Sebasti\u00e1n Lerdo de Tejada Oriente",
+        "type": "residential",
+        "slope": 114.74587454625339,
+        "sun_diff": 0.1783010321125431,
+        "length": 142.79892119570047
       }
     }
   ]
