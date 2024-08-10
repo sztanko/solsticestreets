@@ -593,7 +593,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 61.183389235690896,
         "sun_diff": 2.987076308613979,
         "length": 156.0881512998868
@@ -777,7 +777,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "living_street",
         "slope": 112.83407239171049,
         "sun_diff": 2.9947890629803027,
         "length": 114.1353358149579
@@ -2272,33 +2272,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 64.17122635556174,
         "sun_diff": 0.021259718627248958,
         "length": 100.38374848567439
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            91.7433312,
-            26.1882299
-          ],
-          [
-            91.7423033,
-            26.1878212
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "M.G. Road",
-        "type": "primary",
-        "slope": 66.1024009756753,
-        "sun_diff": 1.9319354313704196,
-        "length": 112.21722713816949
       }
     },
     {
@@ -2755,7 +2732,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 63.274434454358754,
         "sun_diff": 0.9180516198302371,
         "length": 101.67830293510806
@@ -3111,8 +3088,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            91.7400144,
-            26.1835142
+            91.7406012,
+            26.183242
           ],
           [
             91.7385307,
@@ -3124,9 +3101,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 116.32627214518658,
-        "sun_diff": 0.49741069049578357,
-        "length": 165.23409070007725
+        "slope": 116.61404980704401,
+        "sun_diff": 0.7851883523532166,
+        "length": 231.16141423381904
       }
     },
     {
@@ -3863,6 +3840,29 @@
         "slope": 66.37212459893513,
         "sun_diff": 2.1796385247461387,
         "length": 107.29029546635087
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.7433312,
+            26.1882299
+          ],
+          [
+            91.7423033,
+            26.1878212
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "M.G. Road",
+        "type": "primary",
+        "slope": 66.1024009756753,
+        "sun_diff": 1.9319354313704196,
+        "length": 112.21722713816949
       }
     }
   ]

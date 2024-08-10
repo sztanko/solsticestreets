@@ -4825,7 +4825,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Anhanguera",
-        "type": "primary",
+        "type": "trunk",
         "slope": 114.4016408668335,
         "sun_diff": 0.43094187476255286,
         "length": 110.57535264499374
@@ -33897,7 +33897,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 116.565425366905,
         "sun_diff": 1.7638380237624602,
         "length": 331.18876948344194
@@ -33920,7 +33920,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 116.93899865894105,
         "sun_diff": 2.137411315798502,
         "length": 147.4091405341035
@@ -37140,7 +37140,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Dona Leopoldina",
-        "type": "service",
+        "type": "tertiary",
         "slope": 114.97733185316298,
         "sun_diff": 0.16029462211787404,
         "length": 444.32803945040484
@@ -37163,7 +37163,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Dona Leopoldina",
-        "type": "service",
+        "type": "tertiary",
         "slope": 113.98836711743064,
         "sun_diff": 0.8286701136144643,
         "length": 102.54283398961314
@@ -37186,7 +37186,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Dona Leopoldina",
-        "type": "service",
+        "type": "tertiary",
         "slope": 114.0885164349942,
         "sun_diff": 0.7285207960509013,
         "length": 232.59848049193215
@@ -37209,7 +37209,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Dona Leopoldina",
-        "type": "service",
+        "type": "tertiary",
         "slope": 113.60978365343726,
         "sun_diff": 1.207253577607844,
         "length": 643.7045306638195
@@ -37232,56 +37232,10 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Dona Leopoldina",
-        "type": "service",
+        "type": "tertiary",
         "slope": 111.93831456263979,
         "sun_diff": 2.8787226684053167,
         "length": 147.37019398609323
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -49.3142688,
-            -16.5513742
-          ],
-          [
-            -49.3155657,
-            -16.550869
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Dona Leopoldina",
-        "type": "service",
-        "slope": 112.11593162389048,
-        "sun_diff": 2.7011056071546307,
-        "length": 149.2588402529552
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -49.3155657,
-            -16.550869
-          ],
-          [
-            -49.3172112,
-            -16.5502082
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Dona Leopoldina",
-        "type": "service",
-        "slope": 112.7305840798669,
-        "sun_diff": 2.0864531511782047,
-        "length": 190.2196298899066
       }
     },
     {
@@ -38704,7 +38658,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 63.271095656184684,
         "sun_diff": 1.9282969054475814,
         "length": 113.83392871037688
@@ -49272,12 +49226,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -49.2822875,
-            -16.6248568
+            -49.2809893,
+            -16.6242272
           ],
           [
-            -49.280996,
-            -16.6242336
+            -49.2796091,
+            -16.6235609
           ]
         ]
       },
@@ -49285,32 +49239,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 63.27068369640995,
-        "sun_diff": 1.9132726376980997,
-        "length": 154.1174605797964
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -49.280996,
-            -16.6242336
-          ],
-          [
-            -49.2796066,
-            -16.6235672
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 63.40964899910725,
-        "sun_diff": 1.774307335000799,
-        "length": 165.59886145529543
+        "slope": 63.260441451845054,
+        "sun_diff": 1.9235148822629924,
+        "length": 164.717615007255
       }
     },
     {
@@ -51450,6 +51381,52 @@
         "slope": 117.26193926992815,
         "sun_diff": 2.429356528332093,
         "length": 105.46033712350672
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.3142688,
+            -16.5513742
+          ],
+          [
+            -49.3155657,
+            -16.550869
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Dona Leopoldina",
+        "type": "unclassified",
+        "slope": 112.11593162389048,
+        "sun_diff": 2.7011056071546307,
+        "length": 149.2588402529552
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.3155657,
+            -16.550869
+          ],
+          [
+            -49.3172112,
+            -16.5502082
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Dona Leopoldina",
+        "type": "unclassified",
+        "slope": 112.7305840798669,
+        "sun_diff": 2.0864531511782047,
+        "length": 190.2196298899066
       }
     }
   ]
