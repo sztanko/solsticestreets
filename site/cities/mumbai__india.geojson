@@ -121,29 +121,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            72.8402666,
-            19.0195413
-          ],
-          [
-            72.8391985,
-            19.0199593
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Raobahadur S.K. Bole Marg",
-        "type": "primary",
-        "slope": 112.4870410611305,
-        "sun_diff": 2.0545619614446764,
-        "length": 121.56137125663065
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             72.8420203,
             18.9997195
           ],
@@ -409,7 +386,7 @@
       "type": "Feature",
       "properties": {
         "name": "P L Patil Marg",
-        "type": "residential",
+        "type": "living_street",
         "slope": 64.00176695439583,
         "sun_diff": 1.4561619276997533,
         "length": 151.28622445689368
@@ -2617,7 +2594,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "residential",
         "slope": 65.6797000581648,
         "sun_diff": 0.24999351771970169,
         "length": 118.4310954994349
@@ -2640,7 +2617,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "residential",
         "slope": 64.25464550330054,
         "sun_diff": 1.175061037144559,
         "length": 186.2402746325627
@@ -2663,7 +2640,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "residential",
         "slope": 63.96701489593195,
         "sun_diff": 1.4626916445131428,
         "length": 129.04908440230113
@@ -5772,29 +5749,6 @@
         "slope": 115.72517464035255,
         "sun_diff": 1.1553492761268842,
         "length": 147.39909833085653
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            72.9739385,
-            19.2013021
-          ],
-          [
-            72.9749804,
-            19.2017388
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Lal Bahadur Shastri Marg",
-        "type": "primary",
-        "slope": 66.06691687176922,
-        "sun_diff": 0.6372103313241269,
-        "length": 119.73819040415012
       }
     },
     {
@@ -10004,6 +9958,52 @@
         "slope": 67.7906109342959,
         "sun_diff": 2.3609043938508023,
         "length": 228.17235204837277
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.9739385,
+            19.2013021
+          ],
+          [
+            72.9749804,
+            19.2017388
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Lal Bahadur Shastri Marg",
+        "type": "primary",
+        "slope": 66.06691687176922,
+        "sun_diff": 0.6372103313241269,
+        "length": 119.73819040415012
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.8402666,
+            19.0195413
+          ],
+          [
+            72.8391985,
+            19.0199593
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Raobahadur S.K. Bole Marg",
+        "type": "primary",
+        "slope": 112.4870410611305,
+        "sun_diff": 2.0545619614446764,
+        "length": 121.56137125663065
       }
     }
   ]
