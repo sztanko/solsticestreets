@@ -363,7 +363,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "service",
+        "type": "unclassified",
         "slope": 113.2172554004124,
         "sun_diff": 0.27962920747430076,
         "length": 165.7363556373327
@@ -386,7 +386,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "service",
+        "type": "unclassified",
         "slope": 112.64136968864958,
         "sun_diff": 0.8555149192371232,
         "length": 114.3035626463717
@@ -742,6 +742,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.7321384,
+            6.6200807
+          ],
+          [
+            -1.7312431,
+            6.6196968
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 113.34853878408262,
+        "sun_diff": 0.14497171035409906,
+        "length": 107.74310934719021
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.7308721,
             6.6195889
           ],
@@ -811,12 +834,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.7493899,
-            6.6008789
+            -1.7472366,
+            6.6012942
           ],
           [
-            -1.7503029,
-            6.6012655
+            -1.7482397,
+            6.6008759
           ]
         ]
       },
@@ -824,9 +847,9 @@
       "properties": {
         "name": null,
         "type": "tertiary",
-        "slope": 113.08686682910152,
-        "sun_diff": 0.4066436653351957,
-        "length": 109.66229833888055
+        "slope": 67.22781991503007,
+        "sun_diff": 0.7209925424739652,
+        "length": 120.20479820081282
       }
     },
     {
@@ -834,12 +857,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.7504794,
-            6.6013368
+            -1.7494226,
+            6.6008173
           ],
           [
-            -1.7516636,
-            6.601851
+            -1.7503345,
+            6.6011903
           ]
         ]
       },
@@ -847,9 +870,55 @@
       "properties": {
         "name": null,
         "type": "tertiary",
-        "slope": 113.61089304823716,
-        "sun_diff": 0.11738255380043938,
-        "length": 142.79921595074913
+        "slope": 112.38019507755035,
+        "sun_diff": 1.1133154168863655,
+        "length": 108.96561213139188
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.7505974,
+            6.6013155
+          ],
+          [
+            -1.7519009,
+            6.601915
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 114.84346215155418,
+        "sun_diff": 1.3499516571174581,
+        "length": 158.71430683464996
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.7529722,
+            6.6344298
+          ],
+          [
+            -1.7521195,
+            6.6348208
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 65.2202928360663,
+        "sun_diff": 1.2865345364897962,
+        "length": 103.76451873574763
       }
     },
     {
@@ -907,8 +976,8 @@
             6.6588081
           ],
           [
-            -1.6312755,
-            6.6592262
+            -1.631301,
+            6.6592209
           ]
         ]
       },
@@ -916,9 +985,9 @@
       "properties": {
         "name": "Adu Poku Boahene Road",
         "type": "tertiary",
-        "slope": 68.53617570438433,
-        "sun_diff": 2.0327361056565394,
-        "length": 127.09338347417142
+        "slope": 68.31381660868789,
+        "sun_diff": 1.8103770099600922,
+        "length": 124.25675879754898
       }
     },
     {
@@ -1294,8 +1363,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.6473477,
-            6.6514758
+            -1.6474741,
+            6.6515431
           ],
           [
             -1.6486134,
@@ -1307,9 +1376,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 115.45009014583559,
-        "sun_diff": 1.9532055379488895,
-        "length": 154.8638985688601
+        "slope": 115.13759428934313,
+        "sun_diff": 1.6407096814564284,
+        "length": 139.03947568042193
       }
     },
     {
@@ -3054,7 +3123,7 @@
       "type": "Feature",
       "properties": {
         "name": "Poku Transport Road",
-        "type": "service",
+        "type": "unclassified",
         "slope": 69.47921816741624,
         "sun_diff": 2.9757785686884404,
         "length": 132.72801800942074
@@ -4836,8 +4905,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.7316671,
-            6.7419932
+            -1.7315866,
+            6.7419599
           ],
           [
             -1.7325455,
@@ -4849,32 +4918,9 @@
       "properties": {
         "name": null,
         "type": "tertiary",
-        "slope": 111.08271793100658,
-        "sun_diff": 2.4141666768801144,
-        "length": 103.98944743586031
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.7330678,
-            6.7425191
-          ],
-          [
-            -1.7341246,
-            6.7429134
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 110.591513744298,
-        "sun_diff": 2.9053708635887006,
-        "length": 124.70163360947026
+        "slope": 111.21252050346345,
+        "sun_diff": 2.284364104423247,
+        "length": 113.61897445109103
       }
     },
     {
@@ -7336,6 +7382,29 @@
         "slope": 63.94586665809621,
         "sun_diff": 2.5609607144598954,
         "length": 104.58977784848965
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.7077817,
+            6.7029466
+          ],
+          [
+            -1.7066954,
+            6.7025133
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 111.88146976459387,
+        "sun_diff": 1.6154148432928253,
+        "length": 129.3197221774293
       }
     },
     {
@@ -10793,8 +10862,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.7278093,
-            6.7625907
+            -1.727761,
+            6.7625694
           ],
           [
             -1.726318,
@@ -10806,9 +10875,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 115.31483613223463,
-        "sun_diff": 1.814495448627909,
-        "length": 182.22151219903515
+        "slope": 115.36016000448979,
+        "sun_diff": 1.8598193208830622,
+        "length": 176.38580751417723
       }
     },
     {
@@ -10993,6 +11062,29 @@
         "slope": 66.65795923946558,
         "sun_diff": 0.15796205607949787,
         "length": 109.31550070881157
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.6662821,
+            6.8075333
+          ],
+          [
+            -1.6650108,
+            6.8070566
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 110.68816439719447,
+        "sun_diff": 2.812176286412253,
+        "length": 150.08774375713074
       }
     }
   ]

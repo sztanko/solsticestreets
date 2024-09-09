@@ -397,29 +397,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -61.4118305,
-            10.513518
-          ],
-          [
-            -61.4108947,
-            10.5131342
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Manic Street",
-        "type": "tertiary",
-        "slope": 112.64261454062054,
-        "sun_diff": 1.0409801184176217,
-        "length": 110.88830686876881
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -61.3749531,
             10.5730458
           ],
@@ -1938,8 +1915,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -61.6095435,
-            10.6899661
+            -61.6096089,
+            10.6899443
           ],
           [
             -61.6086695,
@@ -1950,10 +1927,10 @@
       "type": "Feature",
       "properties": {
         "name": "Western Main Road",
-        "type": "primary",
-        "slope": 68.64467152717225,
-        "sun_diff": 2.3403182823719817,
-        "length": 102.57014361329695
+        "type": "secondary",
+        "slope": 68.8240304626712,
+        "sun_diff": 2.5196772178709352,
+        "length": 110.11107067075773
       }
     },
     {
@@ -2019,7 +1996,7 @@
       "type": "Feature",
       "properties": {
         "name": "Western Main Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 116.00912690967431,
         "sun_diff": 2.3125002496997524,
         "length": 147.0163221280908
@@ -2364,7 +2341,7 @@
       "type": "Feature",
       "properties": {
         "name": "Western Main Road",
-        "type": "primary",
+        "type": "secondary",
         "slope": 65.02537853483943,
         "sun_diff": 1.2789747099608348,
         "length": 165.25760401536093
@@ -2437,6 +2414,29 @@
         "slope": 111.14435655739541,
         "sun_diff": 2.5522701025791434,
         "length": 130.80450845737008
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -61.4118305,
+            10.513518
+          ],
+          [
+            -61.4108947,
+            10.5131342
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Manic Street",
+        "type": "residential",
+        "slope": 112.64261454062054,
+        "sun_diff": 1.0409801184176217,
+        "length": 110.88830686876881
       }
     }
   ]
