@@ -18,7 +18,7 @@ You only need to add name and country:
 ```
 
 Then run 
-`python ./python/one_offs.py enrich-cities config/cities.json `
+`python ./python/one_offs.py enrich-cities config/cities.json`
 
 It will enrich the json with coordinates and everythign else.
 Then commit.
