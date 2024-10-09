@@ -1455,6 +1455,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            17.0319481,
+            51.1667781
+          ],
+          [
+            17.0301497,
+            51.1658643
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Polanowicka",
+        "type": "unclassified",
+        "slope": 50.98186778472265,
+        "sun_diff": 1.029249112315398,
+        "length": 161.44640164233553
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             17.1079368,
             51.0513285
           ],
@@ -1536,7 +1559,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sadownicza",
-        "type": "residential",
+        "type": "living_street",
         "slope": 125.76296576993118,
         "sun_diff": 2.226104935861855,
         "length": 106.67439995601718
@@ -1835,7 +1858,7 @@
       "type": "Feature",
       "properties": {
         "name": "Pasieczna",
-        "type": "residential",
+        "type": "living_street",
         "slope": 125.60616728792684,
         "sun_diff": 2.3829034178662027,
         "length": 102.99328634646375
@@ -1858,7 +1881,7 @@
       "type": "Feature",
       "properties": {
         "name": "Pasieczna",
-        "type": "residential",
+        "type": "living_street",
         "slope": 126.33331546766053,
         "sun_diff": 1.6557552381325138,
         "length": 104.71843753980983
@@ -2414,29 +2437,6 @@
         "slope": 51.99700312654289,
         "sun_diff": 0.014113770495157496,
         "length": 176.87824590643598
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            17.14469,
-            51.1056785
-          ],
-          [
-            17.1459361,
-            51.1050114
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 130.4512812391533,
-        "sun_diff": 2.5570408797967303,
-        "length": 114.36647668719345
       }
     },
     {
@@ -3490,7 +3490,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Wschodnia Obwodnica Wroc\u0142awia",
+        "name": "Rotmistrza Witolda Pileckiego",
         "type": "primary",
         "slope": 50.22840095730413,
         "sun_diff": 1.8775189654136852,
@@ -3541,29 +3541,6 @@
         "slope": 126.43631839795239,
         "sun_diff": 1.4579219614041818,
         "length": 134.2214741239424
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            17.0472798,
-            51.0976672
-          ],
-          [
-            17.0460541,
-            51.0982627
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 127.72749651794427,
-        "sun_diff": 0.16674384141229837,
-        "length": 108.24793144959031
       }
     },
     {
@@ -3725,6 +3702,75 @@
         "slope": 54.60049240513581,
         "sun_diff": 2.4945724824179933,
         "length": 181.2809538570203
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.14469,
+            51.1056785
+          ],
+          [
+            17.1458967,
+            51.1050325
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 130.45097894230054,
+        "sun_diff": 2.5567385829439644,
+        "length": 110.74982894588445
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.1647565,
+            51.1650828
+          ],
+          [
+            17.1666313,
+            51.1659954
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 52.17892743498845,
+        "sun_diff": 0.1678105379504018,
+        "length": 165.54038884526105
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.1647363,
+            51.1652098
+          ],
+          [
+            17.166521,
+            51.1660749
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 52.29540683041833,
+        "sun_diff": 0.2842899333802791,
+        "length": 157.3364836900237
       }
     }
   ]
