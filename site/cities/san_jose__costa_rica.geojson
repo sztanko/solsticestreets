@@ -75,12 +75,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -84.0925039,
-            9.9724275
+            -84.0925116,
+            9.972382
           ],
           [
-            -84.0934052,
-            9.9720475
+            -84.0933809,
+            9.9720291
           ]
         ]
       },
@@ -88,9 +88,32 @@
       "properties": {
         "name": "Calle Zamora",
         "type": "residential",
-        "slope": 66.82517641184009,
-        "sun_diff": 0.47639961667806574,
-        "length": 107.40339315821642
+        "slope": 67.5992312047712,
+        "sun_diff": 1.2504544096091763,
+        "length": 103.00384022786713
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.0933809,
+            9.9720291
+          ],
+          [
+            -84.0942276,
+            9.9716779
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Zamora",
+        "type": "residential",
+        "slope": 67.1616599223029,
+        "sun_diff": 0.8128831271408785,
+        "length": 100.6458161049723
       }
     },
     {
@@ -569,7 +592,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle G\u00fc\u00edzaro",
+        "name": "Calle Picacho",
         "type": "residential",
         "slope": 115.60337204659055,
         "sun_diff": 1.9569336166372437,
@@ -1655,29 +1678,6 @@
         "slope": 111.57507546292379,
         "sun_diff": 2.071362967029515,
         "length": 102.45174636140855
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -83.9376868,
-            9.8834996
-          ],
-          [
-            -83.9390346,
-            9.8828675
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Autopista Florencio del Castillo",
-        "type": "trunk",
-        "slope": 64.54318073047929,
-        "sun_diff": 1.8115793103956435,
-        "length": 163.57211142834785
       }
     },
     {
@@ -3030,7 +3030,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle Finca Los Fallas",
         "type": "residential",
         "slope": 113.27756994666649,
         "sun_diff": 0.36886848328681765,
@@ -3249,22 +3249,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -84.0437732,
-            9.8617582
+            -84.0437974,
+            9.8617344
           ],
           [
-            -84.0428182,
-            9.8613088
+            -84.0428918,
+            9.861319
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle Los Alpes 3",
         "type": "residential",
-        "slope": 115.53067323136315,
-        "sun_diff": 1.8842348014098462,
-        "length": 115.97987969526143
+        "slope": 114.96575837980208,
+        "sun_diff": 1.3193199498487758,
+        "length": 109.47030519108046
       }
     },
     {
@@ -3276,8 +3276,8 @@
             9.8752959
           ],
           [
-            -84.0624484,
-            9.8757965
+            -84.0624699,
+            9.8758124
           ]
         ]
       },
@@ -3285,9 +3285,9 @@
       "properties": {
         "name": "Calle San Mart\u00edn",
         "type": "residential",
-        "slope": 68.56701901125669,
-        "sun_diff": 2.212258970381754,
-        "length": 152.3802993297027
+        "slope": 67.61473046369446,
+        "sun_diff": 1.2599704228195208,
+        "length": 150.8543050682652
       }
     },
     {
@@ -3467,7 +3467,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle La Julieta",
+        "name": "Calle Empedrado",
         "type": "residential",
         "slope": 116.56243521889698,
         "sun_diff": 2.9100067130415823,
@@ -3905,7 +3905,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "service",
         "slope": 111.8003290702539,
         "sun_diff": 1.8461093596994118,
         "length": 183.56929235779327
@@ -3973,7 +3973,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle Los Alpes 4",
         "type": "residential",
         "slope": 113.15892011932434,
         "sun_diff": 0.4875183106289711,
@@ -4134,7 +4134,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle Chato",
         "type": "residential",
         "slope": 111.50325761536627,
         "sun_diff": 2.1431808145870406,
@@ -5158,6 +5158,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -84.0531263,
+            9.8548071
+          ],
+          [
+            -84.0517491,
+            9.8542941
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Rodillal Valverde",
+        "type": "residential",
+        "slope": 110.71024889988871,
+        "sun_diff": 2.9361895300645955,
+        "length": 161.35198472328167
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -84.0573386,
             9.8498479
           ],
@@ -6135,7 +6158,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle El Mortal",
         "type": "residential",
         "slope": 113.20537888396234,
         "sun_diff": 0.43515826254807166,
@@ -6204,7 +6227,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle La Minilla",
+        "name": "Calle Tabl\u00f3n",
         "type": "residential",
         "slope": 115.4156647983011,
         "sun_diff": 1.775127651790683,
@@ -6975,12 +6998,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -84.2300969,
-            9.9566291
+            -84.2301111,
+            9.9566361
           ],
           [
-            -84.2312022,
-            9.9561838
+            -84.2312588,
+            9.9561733
           ]
         ]
       },
@@ -6988,9 +7011,9 @@
       "properties": {
         "name": "Acceso 2",
         "type": "residential",
-        "slope": 67.75362046148254,
-        "sun_diff": 1.4048436663205166,
-        "length": 130.82912501439773
+        "slope": 67.73547299827527,
+        "sun_diff": 1.386696203113246,
+        "length": 135.86542236134855
       }
     },
     {
@@ -7561,7 +7584,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle El Buen Pastor",
+        "name": "Calle Joaqu\u00edn Guti\u00e9rrez",
         "type": "residential",
         "slope": 115.38994259356548,
         "sun_diff": 1.7435041636121724,
@@ -7750,6 +7773,29 @@
         "slope": 114.33697878560994,
         "sun_diff": 0.690540355656637,
         "length": 141.21605245865396
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.9974639,
+            9.9222193
+          ],
+          [
+            -83.9966095,
+            9.9218762
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "V\u00eda 221",
+        "type": "secondary",
+        "slope": 112.17903004436027,
+        "sun_diff": 1.467408385593032,
+        "length": 101.09336899157658
       }
     },
     {
@@ -8389,7 +8435,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle Monte Le\u00f3n",
         "type": "residential",
         "slope": 64.14906885669845,
         "sun_diff": 2.211592467619397,
@@ -8440,6 +8486,29 @@
         "slope": 112.21056364978622,
         "sun_diff": 1.4418648560691736,
         "length": 102.36957980652714
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.9689397,
+            9.995845
+          ],
+          [
+            -83.9703041,
+            9.99638
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Canoa",
+        "type": "unclassified",
+        "slope": 111.71038489542119,
+        "sun_diff": 1.9420436104342116,
+        "length": 160.8693288506506
       }
     },
     {
@@ -8930,12 +8999,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -83.9576657,
-            9.9772558
-          ],
-          [
             -83.9564696,
             9.9766736
+          ],
+          [
+            -83.9576657,
+            9.9772558
           ]
         ]
       },
@@ -8943,8 +9012,8 @@
       "properties": {
         "name": "Calle Fanguillo",
         "type": "unclassified",
-        "slope": 116.29959755414984,
-        "sun_diff": 2.647169048294444,
+        "slope": 116.29963823421383,
+        "sun_diff": 2.6472097283584333,
         "length": 146.15909155566513
       }
     },
@@ -9643,12 +9712,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -84.2337781,
-            9.9919363
+            -84.2337895,
+            9.9919687
           ],
           [
-            -84.2348013,
-            9.991536
+            -84.2347674,
+            9.9915712
           ]
         ]
       },
@@ -9656,9 +9725,9 @@
       "properties": {
         "name": "Calle San Ram\u00f3n",
         "type": "living_street",
-        "slope": 68.33462274463972,
-        "sun_diff": 1.9858459494776923,
-        "length": 120.60417000839637
+        "slope": 67.57194356466482,
+        "sun_diff": 1.2231667695027966,
+        "length": 115.8877150239603
       }
     },
     {
@@ -9666,8 +9735,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -84.2337233,
-            9.9910046
+            -84.2336683,
+            9.9910799
           ],
           [
             -84.2346894,
@@ -9679,9 +9748,9 @@
       "properties": {
         "name": "Calle Zarcero",
         "type": "living_street",
-        "slope": 69.17484962073351,
-        "sun_diff": 2.8260728255714866,
-        "length": 113.2267255479623
+        "slope": 66.50260396306169,
+        "sun_diff": 0.15382716789966366,
+        "length": 121.9682824872276
       }
     },
     {
@@ -10425,12 +10494,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -84.0555442,
-            9.8574627
+            -84.055563,
+            9.8575182
           ],
           [
-            -84.0544137,
-            9.8579185
+            -84.0543874,
+            9.8579777
           ]
         ]
       },
@@ -10438,9 +10507,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 67.74432045186066,
-        "sun_diff": 1.3895604109857231,
-        "length": 133.8610646553668
+        "slope": 68.36069448260812,
+        "sun_diff": 2.0059344417331886,
+        "length": 138.59914306822898
       }
     },
     {
@@ -10529,7 +10598,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "service",
         "slope": 115.1659690378622,
         "sun_diff": 1.5135405320068003,
         "length": 123.66963340099953
@@ -10781,7 +10850,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle Gonz\u00e1lez",
         "type": "residential",
         "slope": 66.30524588682223,
         "sun_diff": 0.043530908339789676,
@@ -11724,7 +11793,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle La Julieta",
+        "name": "Calle Empedrado",
         "type": "unclassified",
         "slope": 111.84364456760275,
         "sun_diff": 1.8087839382526454,
@@ -11989,29 +12058,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -84.0268707,
-            9.8174983
-          ],
-          [
-            -84.0259789,
-            9.8171191
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "V\u00eda 228",
-        "type": "secondary",
-        "slope": 113.34146737866533,
-        "sun_diff": 0.2990697678450829,
-        "length": 106.45445572479906
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -84.0232404,
             9.8141253
           ],
@@ -12138,7 +12184,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle Llano",
         "type": "unclassified",
         "slope": 114.50022691845112,
         "sun_diff": 0.8537884884978126,
@@ -12414,7 +12460,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle Los Brenes",
         "type": "unclassified",
         "slope": 67.33421249243989,
         "sun_diff": 0.973551168122043,
@@ -12437,11 +12483,34 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle San Mart\u00edn",
         "type": "unclassified",
         "slope": 66.84018489631984,
         "sun_diff": 0.4795235720019946,
         "length": 168.189188502374
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.9973235,
+            9.7764141
+          ],
+          [
+            -83.9984715,
+            9.7759489
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Las E\u00f3licas",
+        "type": "unclassified",
+        "slope": 67.64766401570154,
+        "sun_diff": 1.287002691383691,
+        "length": 136.06083364185335
       }
     },
     {
@@ -12460,7 +12529,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Calle Garita",
         "type": "unclassified",
         "slope": 66.15725590325752,
         "sun_diff": 0.20340542106032444,
@@ -12529,8 +12598,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "service",
+        "name": "Calle Finca Trinidad",
+        "type": "unclassified",
         "slope": 113.69120642642955,
         "sun_diff": 0.044767996476238636,
         "length": 104.94387661978868
@@ -12978,12 +13047,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -83.939038,
-            9.8827174
+            -83.938959,
+            9.8826887
           ],
           [
-            -83.9379838,
-            9.8831983
+            -83.9378814,
+            9.8831696
           ]
         ]
       },
@@ -12991,9 +13060,9 @@
       "properties": {
         "name": "Autopista Florencio del Castillo",
         "type": "trunk",
-        "slope": 65.15364329588408,
-        "sun_diff": 1.2011167449908555,
-        "length": 127.30173586136283
+        "slope": 65.62985464268522,
+        "sun_diff": 0.7249053981897191,
+        "length": 129.63303329607228
       }
     },
     {

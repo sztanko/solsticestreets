@@ -1409,8 +1409,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -86.8181928,
-            21.1834833
+            -86.8183154,
+            21.1834492
           ],
           [
             -86.8167152,
@@ -1422,9 +1422,9 @@
       "properties": {
         "name": "Calle Francisco Villa",
         "type": "residential",
-        "slope": 62.18388053234909,
-        "sun_diff": 2.94242900516403,
-        "length": 173.26826474497204
+        "slope": 62.976974596342586,
+        "sun_diff": 2.1493349411705367,
+        "length": 186.30207909488868
       }
     },
     {
@@ -7883,11 +7883,34 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Andador 2",
+        "name": "Calle 6 Norte",
         "type": "residential",
         "slope": 62.381848346851854,
         "sun_diff": 2.7444611906612693,
         "length": 102.57351784453151
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.8156384,
+            21.1843336
+          ],
+          [
+            -86.8165351,
+            21.1838958
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle 16 Norte",
+        "type": "residential",
+        "slope": 62.36264046355214,
+        "sun_diff": 2.7636690739609833,
+        "length": 104.9776171770683
       }
     },
     {
@@ -19291,7 +19314,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 63.49567605113114,
         "sun_diff": 1.6468620158499334,
@@ -19314,7 +19337,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.315040982850405,
         "sun_diff": 2.8274970841306697,
@@ -19337,7 +19360,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.17426150270802,
         "sun_diff": 2.9682765642730544,
@@ -19360,7 +19383,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.37584572086976,
         "sun_diff": 2.750463816643361,
@@ -19521,7 +19544,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.74584508380141,
         "sun_diff": 2.38046445371171,
@@ -19568,7 +19591,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "residential",
         "slope": 62.55901644535683,
         "sun_diff": 2.567293092156291,
         "length": 140.4993666224862
@@ -20706,6 +20729,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -86.8794858,
+            21.1124694
+          ],
+          [
+            -86.8808088,
+            21.1129675
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 111.97824589689219,
+        "sun_diff": 2.880469148468336,
+        "length": 148.0373785003703
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -86.8809068,
             21.1141788
           ],
@@ -20786,7 +20832,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Andador 9",
+        "name": "Calle 12 Norte",
         "type": "residential",
         "slope": 62.155046767573225,
         "sun_diff": 2.971262769939898,
@@ -20809,7 +20855,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Andador 13",
+        "name": "Calle 14 Norte",
         "type": "residential",
         "slope": 62.13017185862259,
         "sun_diff": 2.996137678890534,
@@ -23294,7 +23340,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 63.243917493049565,
         "sun_diff": 1.8823920444635576,
         "length": 110.83605596269675
@@ -26088,29 +26134,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -86.9198708,
-            21.1510936
-          ],
-          [
-            -86.9238603,
-            21.1491366
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida 20 de Noviembre",
-        "type": "primary",
-        "slope": 62.25723343791506,
-        "sun_diff": 2.869076099598061,
-        "length": 467.61407686511103
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -86.8615046,
             21.1893174
           ],
@@ -27104,7 +27127,7 @@
             21.1154313
           ],
           [
-            -86.881208,
+            -86.8812078,
             21.1165291
           ]
         ]
@@ -27113,32 +27136,9 @@
       "properties": {
         "name": "Avenida Robles",
         "type": "secondary",
-        "slope": 111.96617547468989,
-        "sun_diff": 2.8925395706706354,
-        "length": 326.4416719157441
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -86.8808088,
-            21.1129675
-          ],
-          [
-            -86.8794858,
-            21.1124694
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 111.97817914845021,
-        "sun_diff": 2.8805358969103168,
-        "length": 148.0373785003703
+        "slope": 111.96753800846261,
+        "sun_diff": 2.891177036897915,
+        "length": 326.4224262890885
       }
     },
     {
@@ -27238,8 +27238,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -86.8770983,
-            21.1090172
+            -86.8781331,
+            21.1094273
           ],
           [
             -86.8791391,
@@ -27251,9 +27251,9 @@
       "properties": {
         "name": "Avenida Mallorca",
         "type": "secondary",
-        "slope": 113.01951781823453,
-        "sun_diff": 1.839197227125993,
-        "length": 230.08629277088417
+        "slope": 113.02249883789199,
+        "sun_diff": 1.8362162074685386,
+        "length": 113.42201920349075
       }
     },
     {
@@ -27456,7 +27456,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.26753691780354,
         "sun_diff": 2.8750011491775354,
@@ -27548,7 +27548,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.184048638513616,
         "sun_diff": 2.958489428467459,
@@ -27640,7 +27640,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.37673137279029,
         "sun_diff": 2.765806694190786,
@@ -27744,12 +27744,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -86.8308547,
-            21.1273854
+            -86.8305084,
+            21.1284345
           ],
           [
-            -86.8290979,
-            21.1266035
+            -86.8288712,
+            21.1277359
           ]
         ]
       },
@@ -27757,9 +27757,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 115.5077231511437,
-        "sun_diff": 0.6490081057831674,
-        "length": 201.95960139269545
+        "slope": 114.58194429607124,
+        "sun_diff": 0.2767707492892839,
+        "length": 186.79347486422486
       }
     },
     {
@@ -29331,52 +29331,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -86.8353013,
-            21.1282783
-          ],
-          [
-            -86.8363619,
-            21.1287042
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida de las Am\u00e9ricas",
-        "type": "residential",
-        "slope": 113.29220680942674,
-        "sun_diff": 1.5665082359337816,
-        "length": 119.8036885303634
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -86.8156384,
-            21.1843336
-          ],
-          [
-            -86.8165351,
-            21.1838958
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Andador 15",
-        "type": "residential",
-        "slope": 62.36264046355214,
-        "sun_diff": 2.7636690739609833,
-        "length": 104.9776171770683
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -86.9086388,
             21.1791963
           ],
@@ -30607,7 +30561,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.1422926605388,
         "sun_diff": 2.984016876974323,
@@ -30630,7 +30584,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.14227659037948,
         "sun_diff": 2.9840329471336418,
@@ -30653,7 +30607,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.27507657775624,
         "sun_diff": 2.851232959756885,
@@ -31389,7 +31343,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.267274846351626,
         "sun_diff": 2.859034691161497,
@@ -31412,7 +31366,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.22656919732776,
         "sun_diff": 2.8997403401853603,
@@ -31435,7 +31389,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.135989584510554,
         "sun_diff": 2.990319953002569,
@@ -31780,7 +31734,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.93804320040991,
         "sun_diff": 2.204494866571167,
@@ -31803,7 +31757,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.235901406235314,
         "sun_diff": 2.906636660745761,
@@ -31849,7 +31803,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Avenida L\u00f3pez Portillo",
+        "name": "Avenida Jos\u00e9 L\u00f3pez Portillo",
         "type": "primary",
         "slope": 62.54423795351482,
         "sun_diff": 2.5983001134662516,
@@ -31877,29 +31831,6 @@
         "slope": 114.45487754298574,
         "sun_diff": 0.40383750237478466,
         "length": 106.18473014605028
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -86.8317035,
-            21.1303977
-          ],
-          [
-            -86.8308126,
-            21.1300485
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Kabah",
-        "type": "primary",
-        "slope": 112.79295485610996,
-        "sun_diff": 2.065760189250568,
-        "length": 100.26121648780388
       }
     },
     {
@@ -32160,29 +32091,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -86.9276868,
-            21.1469745
-          ],
-          [
-            -86.923871,
-            21.148844
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida 20 de Noviembre",
-        "type": "primary",
-        "slope": 62.28621264492108,
-        "sun_diff": 2.856325422059996,
-        "length": 447.1410092561341
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -86.8380591,
             21.1177089
           ],
@@ -32275,8 +32183,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -86.8316258,
-            21.125416
+            -86.8316623,
+            21.125432
           ],
           [
             -86.8303424,
@@ -32288,9 +32196,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 117.05394199669735,
-        "sun_diff": 2.1952269513368208,
-        "length": 149.51945979245983
+        "slope": 117.0026783331908,
+        "sun_diff": 2.1439632878302746,
+        "length": 153.70162702313934
       }
     },
     {

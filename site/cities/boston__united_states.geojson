@@ -524,7 +524,7 @@
       "type": "Feature",
       "properties": {
         "name": "River Street",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 55.598729026961024,
         "sun_diff": 2.822711651430751,
         "length": 100.48323348574034
@@ -1099,7 +1099,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cummins Highway",
-        "type": "secondary",
+        "type": "primary",
         "slope": 124.1567991979521,
         "sun_diff": 2.577014084758943,
         "length": 122.62947860667231
@@ -4169,29 +4169,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -71.0809323,
-            42.3732752
-          ],
-          [
-            -71.081964,
-            42.3737991
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Monsignor O'Brien Highway",
-        "type": "trunk",
-        "slope": 124.50339683581021,
-        "sun_diff": 2.8693390394721376,
-        "length": 102.8739527627285
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -71.027751,
             42.2861221
           ],
@@ -5404,6 +5381,52 @@
         "slope": 119.52188873864017,
         "sun_diff": 2.1121690576978978,
         "length": 263.83140009805203
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.1539401,
+            42.2442826
+          ],
+          [
+            -71.1527309,
+            42.2436955
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Proposed Dedham Heritage Rail Trail",
+        "type": "path",
+        "slope": 123.25924687546924,
+        "sun_diff": 1.7334202567191994,
+        "length": 119.07269522539004
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.1517542,
+            42.2432212
+          ],
+          [
+            -71.1503315,
+            42.2425304
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Proposed Dedham Heritage Rail Trail",
+        "type": "path",
+        "slope": 123.260277568676,
+        "sun_diff": 1.7344509499259573,
+        "length": 140.100689116297
       }
     }
   ]
