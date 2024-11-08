@@ -121,29 +121,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -89.273204,
-            13.6782876
-          ],
-          [
-            -89.2709784,
-            13.677341
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Cuyagualo",
-        "type": "residential",
-        "slope": 113.64075173571868,
-        "sun_diff": 0.29121592229783744,
-        "length": 262.5680791772305
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -89.2384481,
             13.7017329
           ],
@@ -501,7 +478,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Panamericana",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 63.60705535291419,
         "sun_diff": 2.46223010141091,
         "length": 125.61125643569851
@@ -1950,7 +1927,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Panamericana",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.88898032954896,
         "sun_diff": 2.1803051247761402,
         "length": 201.09763440743134
@@ -2736,6 +2713,29 @@
         "slope": 114.6171755655352,
         "sun_diff": 0.6852079075186879,
         "length": 105.74166836288892
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.2730144,
+            13.6782053
+          ],
+          [
+            -89.2708644,
+            13.6772908
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Cuyagualo",
+        "type": "residential",
+        "slope": 113.6420006590429,
+        "sun_diff": 0.2899669989736111,
+        "length": 253.65155894998472
       }
     }
   ]
