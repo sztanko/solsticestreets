@@ -110,7 +110,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kingston Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 55.142304910452964,
         "sun_diff": 2.4310175183200045,
         "length": 129.37904022928524
@@ -1283,7 +1283,7 @@
       "type": "Feature",
       "properties": {
         "name": "Eastern Avenue",
-        "type": "trunk",
+        "type": "secondary",
         "slope": 57.55163279770022,
         "sun_diff": 0.08059318247492797,
         "length": 100.37966293737743
@@ -1674,7 +1674,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kingston Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 54.77373497525923,
         "sun_diff": 2.7995874535137375,
         "length": 271.6326571685655
@@ -1747,29 +1747,6 @@
         "slope": 55.92911482087439,
         "sun_diff": 1.7031111593007608,
         "length": 108.62560052532686
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -79.529646,
-            43.7053376
-          ],
-          [
-            -79.5308433,
-            43.7058911
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Weston Road",
-        "type": "secondary",
-        "slope": 122.59880776089005,
-        "sun_diff": 0.22969866645354386,
-        "length": 114.27478885195507
       }
     },
     {
@@ -3115,8 +3092,8 @@
             43.759996
           ],
           [
-            -79.5600825,
-            43.7608469
+            -79.559623,
+            43.760655
           ]
         ]
       },
@@ -3124,9 +3101,9 @@
       "properties": {
         "name": "Toryork Drive",
         "type": "tertiary",
-        "slope": 120.03795711485628,
-        "sun_diff": 2.3900555309824085,
-        "length": 189.07502760925203
+        "slope": 120.0377350940802,
+        "sun_diff": 2.390277551758487,
+        "length": 146.43451457113534
       }
     },
     {
@@ -6182,7 +6159,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kingston Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 55.82279511606538,
         "sun_diff": 1.7505273127075895,
         "length": 104.94202669314629
@@ -6427,8 +6404,8 @@
             43.6895235
           ],
           [
-            -79.497806,
-            43.690004
+            -79.4978201,
+            43.6900156
           ]
         ]
       },
@@ -6436,9 +6413,9 @@
       "properties": {
         "name": "Weston Road",
         "type": "secondary",
-        "slope": 119.41908070399174,
-        "sun_diff": 2.9500283904447713,
-        "length": 108.8085616760552
+        "slope": 119.71318891158927,
+        "sun_diff": 2.6559201828472396,
+        "length": 110.43159485543823
       }
     },
     {
@@ -8233,6 +8210,29 @@
         "slope": 58.04168941325909,
         "sun_diff": 0.3509150515185979,
         "length": 112.19570339434019
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5031958,
+            43.6087155
+          ],
+          [
+            -79.5021228,
+            43.6082072
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 123.1943708156588,
+        "sun_diff": 0.883823763165978,
+        "length": 103.26925655483016
       }
     }
   ]

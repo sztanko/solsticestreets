@@ -363,7 +363,7 @@
       "type": "Feature",
       "properties": {
         "name": "Killarney Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 120.58891980265915,
         "sun_diff": 1.3774266968000433,
         "length": 119.9562487399466
@@ -547,7 +547,7 @@
       "type": "Feature",
       "properties": {
         "name": "Glenora Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 57.144601969338765,
         "sun_diff": 0.8904139265703748,
         "length": 143.70199475896038
@@ -570,7 +570,7 @@
       "type": "Feature",
       "properties": {
         "name": "Glenora Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 55.761225900142506,
         "sun_diff": 2.2737899957666343,
         "length": 187.68947387030116
@@ -1229,6 +1229,29 @@
             42.9661017
           ],
           [
+            -81.2896968,
+            42.9651893
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Springbank Drive",
+        "type": "secondary",
+        "slope": 55.77276896335428,
+        "sun_diff": 2.2622469325548593,
+        "length": 180.4263876391405
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.2896968,
+            42.9651893
+          ],
+          [
             -81.2907138,
             42.964683
           ]
@@ -1238,9 +1261,9 @@
       "properties": {
         "name": "Springbank Drive",
         "type": "secondary",
-        "slope": 55.77262098232373,
-        "sun_diff": 2.2623949135854104,
-        "length": 280.5449630457925
+        "slope": 55.77195908940624,
+        "sun_diff": 2.2630568065029024,
+        "length": 100.11857540726118
       }
     },
     {
@@ -1788,8 +1811,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Fanshawe Conservation Area",
-        "type": "residential",
+        "name": "Clarke Road",
+        "type": "unclassified",
         "slope": 57.72834042586254,
         "sun_diff": 0.30667547004659923,
         "length": 253.6120781540438
