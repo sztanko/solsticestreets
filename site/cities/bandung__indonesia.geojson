@@ -29,29 +29,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.583972,
-            -6.9093888
-          ],
-          [
-            107.5828975,
-            -6.9089401
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Jalan Komodor Udara Supadio",
-        "type": "secondary",
-        "slope": 112.81376643614314,
-        "sun_diff": 0.9242784909583719,
-        "length": 128.71816956393647
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5819854,
             -6.9085731
           ],
@@ -1225,12 +1202,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5422155,
-            -6.8747219
-          ],
-          [
             107.5431153,
             -6.8751564
+          ],
+          [
+            107.5422155,
+            -6.8747219
           ]
         ]
       },
@@ -1238,8 +1215,8 @@
       "properties": {
         "name": "Jalan Asem Timur",
         "type": "living_street",
-        "slope": 115.93747736635632,
-        "sun_diff": 2.1994324392548066,
+        "slope": 115.93745676066689,
+        "sun_diff": 2.199411833565378,
         "length": 110.49491185943975
       }
     },
@@ -1260,7 +1237,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Raya Bandung - Soreang",
-        "type": "trunk",
+        "type": "primary",
         "slope": 68.33383528360758,
         "sun_diff": 2.079998117908758,
         "length": 106.01835583262871
@@ -7378,7 +7355,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Raya Bandung - Soreang",
-        "type": "trunk",
+        "type": "primary",
         "slope": 68.80369670279651,
         "sun_diff": 2.5498595370976886,
         "length": 161.75451022007056
@@ -7401,7 +7378,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Raya Bandung - Soreang",
-        "type": "trunk",
+        "type": "primary",
         "slope": 68.85587721981321,
         "sun_diff": 2.602040054114383,
         "length": 190.56608863763955
@@ -7424,7 +7401,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Raya Bandung - Soreang",
-        "type": "trunk",
+        "type": "primary",
         "slope": 67.8539979626685,
         "sun_diff": 1.600160796969675,
         "length": 140.39168395339615
@@ -7447,7 +7424,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Raya Bandung - Soreang",
-        "type": "trunk",
+        "type": "primary",
         "slope": 69.18151844944819,
         "sun_diff": 2.927681283749365,
         "length": 240.60605656897422
@@ -7470,7 +7447,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Raya Bandung - Soreang",
-        "type": "trunk",
+        "type": "primary",
         "slope": 68.56735390768947,
         "sun_diff": 2.3135167419906395,
         "length": 289.2098572974491
@@ -7493,7 +7470,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Raya Bandung - Soreang",
-        "type": "trunk",
+        "type": "primary",
         "slope": 69.03270472368132,
         "sun_diff": 2.778867557982494,
         "length": 164.2483686156705
@@ -9701,7 +9678,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Sentra Niaga II",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 66.61338765093703,
         "sun_diff": 0.3595504852382021,
         "length": 121.11237774682614
@@ -9724,10 +9701,33 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Sentra Niaga II",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 66.09342709211597,
         "sun_diff": 0.16041007358285242,
         "length": 121.20799990092183
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6888148,
+            -6.9514058
+          ],
+          [
+            107.6902521,
+            -6.9521126
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Jalan Gedebage Raya",
+        "type": "secondary",
+        "slope": 116.35370944435292,
+        "sun_diff": 2.608602101649609,
+        "length": 177.10132968870627
       }
     },
     {
@@ -9862,33 +9862,10 @@
       "type": "Feature",
       "properties": {
         "name": "Grand Bulevar",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 66.94943114647347,
         "sun_diff": 0.6955939807746461,
         "length": 121.35912791801293
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6985778,
-            -6.9557495
-          ],
-          [
-            107.6974125,
-            -6.95627
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 65.77328191000225,
-        "sun_diff": 0.4805552556965722,
-        "length": 141.087829402294
       }
     },
     {
@@ -9908,7 +9885,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Sentra Raya Selatan",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 66.13331184307799,
         "sun_diff": 0.1205253226208356,
         "length": 132.72470874032183
@@ -10184,7 +10161,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Emily Raya",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 113.09129266411816,
         "sun_diff": 0.6538146785851495,
         "length": 102.69406028974791
@@ -10322,7 +10299,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Raya Bandung - Soreang",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.03670474854019,
         "sun_diff": 0.21713241715863774,
         "length": 119.5412600797992
@@ -10345,7 +10322,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Raya Bandung - Soreang",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.55793441903563,
         "sun_diff": 0.30409725333680626,
         "length": 123.02285284621287
@@ -10441,29 +10418,6 @@
         "slope": 115.56303735596612,
         "sun_diff": 1.8249924288646042,
         "length": 108.00671863723122
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.7304866,
-            -7.0703833
-          ],
-          [
-            107.7315876,
-            -7.0708045
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 111.08130509629686,
-        "sun_diff": 2.670939794089108,
-        "length": 130.2502561854818
       }
     },
     {
@@ -11947,18 +11901,18 @@
             -6.955658
           ],
           [
-            107.7001046,
-            -6.9552557
+            107.7001097,
+            -6.9552648
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Grand Bulevar",
-        "type": "residential",
-        "slope": 65.79775767429783,
-        "sun_diff": 0.4560794914009989,
-        "length": 109.15183081743947
+        "type": "tertiary",
+        "slope": 66.40298025433657,
+        "sun_diff": 0.14914308863774295,
+        "length": 109.25657176754609
       }
     },
     {
@@ -11978,7 +11932,7 @@
       "type": "Feature",
       "properties": {
         "name": "Grand Bulevar",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 66.46446234340613,
         "sun_diff": 0.21062517770729983,
         "length": 176.93483887642566
@@ -12001,7 +11955,7 @@
       "type": "Feature",
       "properties": {
         "name": "Grand Bulevar",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 65.7352843723632,
         "sun_diff": 0.5185527933356298,
         "length": 121.47366598794133

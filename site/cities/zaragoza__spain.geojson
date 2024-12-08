@@ -685,7 +685,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida R\u00edo Ebro",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 122.72727248903476,
         "sun_diff": 1.5187354779884856,
         "length": 120.29482476516617
@@ -769,8 +769,8 @@
             41.5977265
           ],
           [
-            -0.9288496,
-            41.5970913
+            -0.9288279,
+            41.5970987
           ]
         ]
       },
@@ -778,9 +778,9 @@
       "properties": {
         "name": "Calle R\u00edo Arba",
         "type": "residential",
-        "slope": 122.35401655800763,
-        "sun_diff": 1.1454795469613543,
-        "length": 132.0248050646359
+        "slope": 121.63897342722149,
+        "sun_diff": 0.4304364161752119,
+        "length": 133.11948804915184
       }
     },
     {
@@ -815,8 +815,8 @@
             41.5983936
           ],
           [
-            -0.9275973,
-            41.5974296
+            -0.9276451,
+            41.5974504
           ]
         ]
       },
@@ -824,9 +824,9 @@
       "properties": {
         "name": "Calle R\u00edo Arag\u00f3n",
         "type": "residential",
-        "slope": 122.50037705408266,
-        "sun_diff": 1.2918400430363874,
-        "length": 199.5606926831183
+        "slope": 122.55478241302572,
+        "sun_diff": 1.346245401979445,
+        "length": 194.9643404113044
       }
     },
     {
@@ -2835,29 +2835,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.0060053,
-            41.5294596
-          ],
-          [
-            -1.0072428,
-            41.5288414
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avendia de Zaragoza",
-        "type": "residential",
-        "slope": 56.28481554747614,
-        "sun_diff": 2.5588401046491356,
-        "length": 123.88111131063047
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.018578,
             41.7164244
           ],
@@ -3537,7 +3514,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida del Rosario",
-        "type": "secondary",
+        "type": "residential",
         "slope": 122.52994732512627,
         "sun_diff": 1.3214103140799978,
         "length": 187.9418768289074
@@ -7194,7 +7171,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 61.53668751346598,
         "sun_diff": 2.744859336762744,
         "length": 254.32012635384768
@@ -7217,7 +7194,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 61.53743422322452,
         "sun_diff": 2.7456060465212886,
         "length": 317.13228595952216
@@ -8022,7 +7999,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arcosur - Feria de muestras",
-        "type": "trunk",
+        "type": "primary",
         "slope": 121.3144359183168,
         "sun_diff": 0.10589890727052875,
         "length": 107.02812664668376
@@ -8045,7 +8022,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arcosur - Feria de muestras",
-        "type": "trunk",
+        "type": "primary",
         "slope": 121.83558740746736,
         "sun_diff": 0.6270503964210832,
         "length": 208.12866342916158
@@ -8068,7 +8045,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arcosur - Feria de muestras",
-        "type": "trunk",
+        "type": "primary",
         "slope": 121.95815166865262,
         "sun_diff": 0.7496146576063438,
         "length": 112.51211531411928
@@ -8091,7 +8068,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arcosur - Feria de muestras",
-        "type": "trunk",
+        "type": "primary",
         "slope": 122.07177315711007,
         "sun_diff": 0.8632361460637981,
         "length": 117.81181057272542
@@ -8286,29 +8263,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.0062847,
-            41.5305473
-          ],
-          [
-            -1.00806,
-            41.5297297
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 58.400398166565935,
-        "sun_diff": 0.44325748555934297,
-        "length": 173.55833621466152
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.0213626,
             41.7251808
           ],
@@ -8417,6 +8371,52 @@
         "slope": 122.32798692355189,
         "sun_diff": 1.1194499125056154,
         "length": 150.50641011181264
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.1047678,
+            41.5762188
+          ],
+          [
+            -1.1062076,
+            41.5768058
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Camino de Maria de Huerva",
+        "type": "unclassified",
+        "slope": 118.59033145262785,
+        "sun_diff": 2.618205558418424,
+        "length": 136.4392463692812
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.1062076,
+            41.5768058
+          ],
+          [
+            -1.107801,
+            41.5774554
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Camino de Maria de Huerva",
+        "type": "unclassified",
+        "slope": 118.58975711909258,
+        "sun_diff": 2.618779891953693,
+        "length": 150.99250045404762
       }
     },
     {
@@ -8578,52 +8578,6 @@
         "slope": 59.128532493053285,
         "sun_diff": 0.2848768409280069,
         "length": 105.46092221687215
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.0970339,
-            41.4595268
-          ],
-          [
-            -1.0939333,
-            41.4608359
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 60.6035613784818,
-        "sun_diff": 1.7599057263565214,
-        "length": 296.6531708915225
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.0939333,
-            41.4608359
-          ],
-          [
-            -1.0925045,
-            41.4614713
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 59.31430253590696,
-        "sun_diff": 0.47064688378168285,
-        "length": 138.49064927639384
       }
     },
     {
@@ -9356,7 +9310,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 59.621915275030375,
         "sun_diff": 0.7782596229050966,
         "length": 101.77084865048535
@@ -9866,52 +9820,6 @@
         "slope": 56.364594976201914,
         "sun_diff": 2.322676664686753,
         "length": 109.5414753793779
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.0498759,
-            41.4822866
-          ],
-          [
-            -1.0484867,
-            41.4816094
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 123.05156697824827,
-        "sun_diff": 1.8948437822457151,
-        "length": 138.11046283172834
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.0384767,
-            41.4787559
-          ],
-          [
-            -1.0371463,
-            41.4781049
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 123.14952882465144,
-        "sun_diff": 1.9928056286488811,
-        "length": 132.41941260518348
       }
     },
     {
@@ -10429,8 +10337,8 @@
             41.6164059
           ],
           [
-            -0.8901392,
-            41.6157409
+            -0.8899911,
+            41.6158102
           ]
         ]
       },
@@ -10438,9 +10346,9 @@
       "properties": {
         "name": null,
         "type": "path",
-        "slope": 57.94948549680859,
-        "sun_diff": 0.8423426798946423,
-        "length": 139.38609729068128
+        "slope": 57.94848366669322,
+        "sun_diff": 0.843344510010013,
+        "length": 124.8571600110076
       }
     },
     {
@@ -12683,8 +12591,8 @@
             41.527035
           ],
           [
-            -1.0167463,
-            41.5275178
+            -1.0167515,
+            41.5275109
           ]
         ]
       },
@@ -12692,9 +12600,9 @@
       "properties": {
         "name": "Carretera de Alicante a Francia por Zaragoza",
         "type": "trunk",
-        "slope": 58.824664804746305,
-        "sun_diff": 0.01899084737897283,
-        "length": 103.7399849707442
+        "slope": 59.065318628153875,
+        "sun_diff": 0.22166297602859686,
+        "length": 102.97312458198196
       }
     },
     {
@@ -12856,6 +12764,29 @@
         "slope": 119.63436428400857,
         "sun_diff": 1.678715602473929,
         "length": 123.94820819690355
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.6927013,
+            41.6591074
+          ],
+          [
+            -0.6941388,
+            41.6584573
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 58.812832139538585,
+        "sun_diff": 0.07313196658088827,
+        "length": 139.63943715983558
       }
     }
   ]
