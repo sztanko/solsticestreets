@@ -10805,7 +10805,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boutwell Road North",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 122.60110282687845,
         "sun_diff": 0.6255501782315065,
         "length": 103.44922208812423
@@ -12695,29 +12695,6 @@
         "slope": 55.54652607008089,
         "sun_diff": 1.4182265036439219,
         "length": 132.71265277936493
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.2854383,
-            44.9726805
-          ],
-          [
-            -93.284136,
-            44.9732224
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Hennepin Avenue",
-        "type": "secondary",
-        "slope": 59.53623348973494,
-        "sun_diff": 2.697675491115291,
-        "length": 118.88845387588893
       }
     },
     {
@@ -17210,29 +17187,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.1687054,
-            44.9026037
-          ],
-          [
-            -93.1704632,
-            44.9017824
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "7th Street West",
-        "type": "primary",
-        "slope": 56.58973030280728,
-        "sun_diff": 0.3121025682833647,
-        "length": 165.90550110670932
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -93.2042635,
             44.8889768
           ],
@@ -19135,29 +19089,6 @@
         "slope": 56.29675498223537,
         "sun_diff": 0.605077888855277,
         "length": 175.67633232261005
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -93.1597562,
-            44.9067729
-          ],
-          [
-            -93.1618667,
-            44.9057846
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "7th Street West",
-        "type": "primary",
-        "slope": 56.52898397038399,
-        "sun_diff": 0.3728489007066571,
-        "length": 199.31963881032746
       }
     },
     {
@@ -21883,8 +21814,8 @@
             44.904787
           ],
           [
-            -93.1620634,
-            44.9056911
+            -93.1627832,
+            44.9053565
           ]
         ]
       },
@@ -21892,9 +21823,9 @@
       "properties": {
         "name": "7th Street West",
         "type": "primary",
-        "slope": 56.722013486948754,
-        "sun_diff": 0.17981938414189358,
-        "length": 183.27527217867032
+        "slope": 56.72198517885482,
+        "sun_diff": 0.17984769223582475,
+        "length": 115.4462743320381
       }
     },
     {
@@ -27955,8 +27886,8 @@
             44.9099709
           ],
           [
-            -93.1556813,
-            44.908692
+            -93.1548035,
+            44.9091054
           ]
         ]
       },
@@ -27964,9 +27895,9 @@
       "properties": {
         "name": "7th Street West",
         "type": "primary",
-        "slope": 56.3748091182714,
-        "sun_diff": 0.5270237528192467,
-        "length": 256.88263325311146
+        "slope": 56.373344241995284,
+        "sun_diff": 0.5284886290953636,
+        "length": 173.83996120883924
       }
     },
     {
@@ -30366,8 +30297,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -93.071593,
-            44.9544083
+            -93.0715894,
+            44.9544092
           ],
           [
             -93.0705028,
@@ -30379,9 +30310,9 @@
       "properties": {
         "name": "3rd Street East",
         "type": "tertiary",
-        "slope": 56.0040461952658,
-        "sun_diff": 0.8345118033538483,
-        "length": 103.5047515024418
+        "slope": 55.96216566931912,
+        "sun_diff": 0.8763923293005291,
+        "length": 103.21387055878428
       }
     },
     {
@@ -31302,6 +31233,75 @@
         "slope": 123.39588272231197,
         "sun_diff": 0.16922971720201474,
         "length": 109.93195385970355
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.085872,
+            44.7415209
+          ],
+          [
+            -93.0870251,
+            44.7409602
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 55.605254821476365,
+        "sun_diff": 1.4220349642890824,
+        "length": 110.40417622840724
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.08702,
+            44.741168
+          ],
+          [
+            -93.0858694,
+            44.7417475
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 54.66030219762965,
+        "sun_diff": 2.3669875881357996,
+        "length": 111.43731940549691
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.1597562,
+            44.9067729
+          ],
+          [
+            -93.1615454,
+            44.9059351
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "7th Street West",
+        "type": "primary",
+        "slope": 56.530248543246074,
+        "sun_diff": 0.3715843278445732,
+        "length": 168.972700811239
       }
     }
   ]

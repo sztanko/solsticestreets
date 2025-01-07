@@ -86,7 +86,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Border Patrol Road",
+        "name": null,
         "type": "service",
         "slope": 114.93242602941072,
         "sun_diff": 2.568001281235638,
@@ -574,6 +574,29 @@
         "slope": 61.01607151234484,
         "sun_diff": 1.4840029685417164,
         "length": 101.8038828596823
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.021214,
+            32.5376305
+          ],
+          [
+            -117.0232178,
+            32.5384995
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "secondary",
+        "slope": 117.22243286947088,
+        "sun_diff": 0.27800810155382294,
+        "length": 211.30159386150768
       }
     },
     {
@@ -12518,29 +12541,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -117.0595166,
-            32.4504916
-          ],
-          [
-            -117.0607368,
-            32.450974
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Justicia",
-        "type": "residential",
-        "slope": 115.10313949128789,
-        "sun_diff": 2.3972878193584677,
-        "length": 126.47615901084103
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -117.0620942,
             32.4515531
           ],
@@ -17509,29 +17509,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -117.0500469,
-            32.436425
-          ],
-          [
-            -117.0510339,
-            32.4368554
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 117.3244791265474,
-        "sun_diff": 0.14462493656527897,
-        "length": 104.2927419324815
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -117.0968516,
             32.6133516
           ],
@@ -17617,6 +17594,98 @@
         "slope": 117.43327806346969,
         "sun_diff": 0.0986500796287686,
         "length": 103.66960720331946
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.0445302,
+            32.4308491
+          ],
+          [
+            -117.0455812,
+            32.4313312
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 118.52266968477099,
+        "sun_diff": 1.0535656216583078,
+        "length": 112.3000847521795
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.0441205,
+            32.4349376
+          ],
+          [
+            -117.0428124,
+            32.4344061
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 115.70671534274913,
+        "sun_diff": 1.7623887203635462,
+        "length": 136.2916714115877
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.0443244,
+            32.4346469
+          ],
+          [
+            -117.0430585,
+            32.4341364
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 115.53864359096269,
+        "sun_diff": 1.9304604721499885,
+        "length": 131.7098054167831
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.0595166,
+            32.4504916
+          ],
+          [
+            -117.0607368,
+            32.450974
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Justicia",
+        "type": "residential",
+        "slope": 115.10313949128789,
+        "sun_diff": 2.3972878193584677,
+        "length": 126.47615901084103
       }
     }
   ]
