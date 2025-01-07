@@ -1329,7 +1329,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "service",
         "slope": 54.30320323648405,
         "sun_diff": 0.8924757006940922,
         "length": 336.726579023139
@@ -4572,7 +4572,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kaufman Avenue",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 55.615921746233596,
         "sun_diff": 0.20123962350814395,
         "length": 129.18447363130286
@@ -4622,6 +4622,29 @@
         "slope": 125.52931919292413,
         "sun_diff": 0.8708126509693983,
         "length": 128.60524391027386
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.6158431,
+            47.0876109
+          ],
+          [
+            -122.6172428,
+            47.0882003
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Stryker Avenue",
+        "type": "residential",
+        "slope": 121.73503053202819,
+        "sun_diff": 2.850939400941016,
+        "length": 124.63907974803558
       }
     },
     {
@@ -7554,8 +7577,8 @@
             47.1000718
           ],
           [
-            -122.6507811,
-            47.1007125
+            -122.6508815,
+            47.1006599
           ]
         ]
       },
@@ -7563,9 +7586,9 @@
       "properties": {
         "name": "Charles Street",
         "type": "residential",
-        "slope": 52.42265051492791,
-        "sun_diff": 2.992031607797543,
-        "length": 116.86043821458601
+        "slope": 52.42321833168364,
+        "sun_diff": 2.9914637910418094,
+        "length": 107.26781261861674
       }
     },
     {
@@ -8164,29 +8187,6 @@
         "slope": 126.6486054527594,
         "sun_diff": 1.9900989108046616,
         "length": 164.16823979674461
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.5896595,
-            47.0777985
-          ],
-          [
-            -122.5885009,
-            47.0784
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "South 17th Street",
-        "type": "residential",
-        "slope": 52.6797545602912,
-        "sun_diff": 2.734927562434251,
-        "length": 110.35519657089499
       }
     },
     {
@@ -10130,8 +10130,8 @@
             47.178554
           ],
           [
-            -122.3650805,
-            47.1775608
+            -122.3657929,
+            47.177917
           ]
         ]
       },
@@ -10139,9 +10139,9 @@
       "properties": {
         "name": "Pipeline Road East",
         "type": "unclassified",
-        "slope": 126.16088432617835,
-        "sun_diff": 1.5023777842236115,
-        "length": 187.22469591738061
+        "slope": 126.0628179255832,
+        "sun_diff": 1.4043113836284675,
+        "length": 120.360981067862
       }
     },
     {
@@ -11598,8 +11598,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.5599387,
-            47.1731119
+            -122.5600055,
+            47.1730814
           ],
           [
             -122.5613817,
@@ -11611,9 +11611,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 56.15903715140254,
-        "sun_diff": 0.8168916376626214,
-        "length": 131.36455082047573
+        "slope": 56.16129585045471,
+        "sun_diff": 0.8191503367147845,
+        "length": 125.28007797122824
       }
     },
     {
@@ -13070,121 +13070,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.140948,
-            47.156602
-          ],
-          [
-            -122.139607,
-            47.155936
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "South Prairie Road East",
-        "type": "secondary",
-        "slope": 126.14265377407088,
-        "sun_diff": 1.4841472321161433,
-        "length": 125.60029658745754
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.139607,
-            47.155936
-          ],
-          [
-            -122.138304,
-            47.155258
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "South Prairie Road East",
-        "type": "secondary",
-        "slope": 127.42273418211599,
-        "sun_diff": 2.764227640161252,
-        "length": 124.09846929306089
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.1368149,
-            47.1544933
-          ],
-          [
-            -122.134906,
-            47.153538
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "South Prairie Road East",
-        "type": "secondary",
-        "slope": 126.34971987682223,
-        "sun_diff": 1.6912133348674985,
-        "length": 179.2728722518828
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.134906,
-            47.153538
-          ],
-          [
-            -122.133591,
-            47.15288
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "South Prairie Road East",
-        "type": "secondary",
-        "slope": 126.34582552116129,
-        "sun_diff": 1.6873189792065517,
-        "length": 123.49278790816436
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.133591,
-            47.15288
-          ],
-          [
-            -122.132295,
-            47.152251
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "South Prairie Road East",
-        "type": "secondary",
-        "slope": 125.5146690723432,
-        "sun_diff": 0.8561625303884597,
-        "length": 120.43711737701621
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -122.1114375,
             48.0008257
           ],
@@ -13362,29 +13247,6 @@
         "slope": 55.63883754612016,
         "sun_diff": 0.7417744794549606,
         "length": 108.90326573559916
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.6158431,
-            47.0876109
-          ],
-          [
-            -122.6172428,
-            47.0882003
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Stryker Avenue",
-        "type": "unclassified",
-        "slope": 121.73503053202819,
-        "sun_diff": 2.850939400941016,
-        "length": 124.63907974803558
       }
     },
     {
@@ -13576,29 +13438,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.5673402,
-            47.0538354
-          ],
-          [
-            -122.5654989,
-            47.0530584
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "East Gate Road",
-        "type": "tertiary",
-        "slope": 121.77251591643022,
-        "sun_diff": 2.8134540165389836,
-        "length": 164.135305576536
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -122.6245247,
             47.0332351
           ],
@@ -13615,52 +13454,6 @@
         "slope": 125.20523861139276,
         "sun_diff": 0.6913544949238712,
         "length": 119.89183808406618
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.430798,
-            47.027749
-          ],
-          [
-            -122.429343,
-            47.027095
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rice Kandle Road South",
-        "type": "unclassified",
-        "slope": 123.40102948866462,
-        "sun_diff": 1.1128546278042677,
-        "length": 132.14271244711847
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.426007,
-            47.025567
-          ],
-          [
-            -122.424145,
-            47.024715
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rice Kandle Road South",
-        "type": "unclassified",
-        "slope": 123.87107618315684,
-        "sun_diff": 0.6428079333120422,
-        "length": 170.03924215891564
       }
     },
     {
@@ -13718,8 +13511,8 @@
             47.2729027
           ],
           [
-            -122.3765223,
-            47.2734632
+            -122.3765304,
+            47.2734559
           ]
         ]
       },
@@ -13727,9 +13520,9 @@
       "properties": {
         "name": "Norpoint Way Northeast",
         "type": "primary",
-        "slope": 127.32023679172732,
-        "sun_diff": 2.588729187923491,
-        "length": 102.83306115395804
+        "slope": 126.75393497905486,
+        "sun_diff": 2.022427375251027,
+        "length": 102.83196039024635
       }
     },
     {
@@ -13891,6 +13684,190 @@
         "slope": 56.68123476123637,
         "sun_diff": 1.8600414358716648,
         "length": 111.73635881983488
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5896595,
+            47.0777985
+          ],
+          [
+            -122.5885009,
+            47.0784
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "South 17th Street",
+        "type": "residential",
+        "slope": 52.6797545602912,
+        "sun_diff": 2.734927562434251,
+        "length": 110.35519657089499
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.430798,
+            47.027749
+          ],
+          [
+            -122.429343,
+            47.027095
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rice Kandle Road East",
+        "type": "unclassified",
+        "slope": 123.40102948866462,
+        "sun_diff": 1.1128546278042677,
+        "length": 132.14271244711847
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.426007,
+            47.025567
+          ],
+          [
+            -122.424145,
+            47.024715
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rice Kandle Road East",
+        "type": "unclassified",
+        "slope": 123.87107618315684,
+        "sun_diff": 0.6428079333120422,
+        "length": 170.03924215891564
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.140948,
+            47.156602
+          ],
+          [
+            -122.139607,
+            47.155936
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "South Prairie Road East",
+        "type": "secondary",
+        "slope": 126.14265377407088,
+        "sun_diff": 1.4841472321161433,
+        "length": 125.60029658745754
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.139607,
+            47.155936
+          ],
+          [
+            -122.138304,
+            47.155258
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "South Prairie Road East",
+        "type": "secondary",
+        "slope": 127.42273418211599,
+        "sun_diff": 2.764227640161252,
+        "length": 124.09846929306089
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.1368149,
+            47.1544933
+          ],
+          [
+            -122.134906,
+            47.153538
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "South Prairie Road East",
+        "type": "secondary",
+        "slope": 126.34971987682223,
+        "sun_diff": 1.6912133348674985,
+        "length": 179.2728722518828
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.134906,
+            47.153538
+          ],
+          [
+            -122.133591,
+            47.15288
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "South Prairie Road East",
+        "type": "secondary",
+        "slope": 126.34582552116129,
+        "sun_diff": 1.6873189792065517,
+        "length": 123.49278790816436
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.133591,
+            47.15288
+          ],
+          [
+            -122.132295,
+            47.152251
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "South Prairie Road East",
+        "type": "secondary",
+        "slope": 125.5146690723432,
+        "sun_diff": 0.8561625303884597,
+        "length": 120.43711737701621
       }
     }
   ]

@@ -328,12 +328,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            98.683905,
-            3.775027
+            98.6838735,
+            3.7749761
           ],
           [
-            98.6825078,
-            3.7755873
+            98.6824857,
+            3.7755572
           ]
         ]
       },
@@ -341,9 +341,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 111.89463071625991,
-        "sun_diff": 1.5345667169519714,
-        "length": 167.12779256262797
+        "slope": 112.76443256990561,
+        "sun_diff": 0.6647648633062744,
+        "length": 167.04174273185396
       }
     },
     {
@@ -351,12 +351,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            98.682519,
-            3.7759543
+            98.6825173,
+            3.7759379
           ],
           [
-            98.6840085,
-            3.7753572
+            98.6840001,
+            3.7753405
           ]
         ]
       },
@@ -364,9 +364,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 111.88752898358686,
-        "sun_diff": 1.5416684496250213,
-        "length": 178.15944191711392
+        "slope": 111.98701560269387,
+        "sun_diff": 1.4421818305180096,
+        "length": 177.4821317431908
       }
     },
     {
@@ -374,12 +374,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            98.6841432,
-            3.7757476
+            98.6841291,
+            3.7757275
           ],
           [
-            98.6825565,
-            3.7763922
+            98.6825424,
+            3.7763721
           ]
         ]
       },
@@ -387,32 +387,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 112.15300711129245,
-        "sun_diff": 1.2761903219194295,
-        "length": 190.14142940964732
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            98.6835793,
-            3.7768119
-          ],
-          [
-            98.6826235,
-            3.7771907
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 111.66198549495735,
-        "sun_diff": 1.7672119382545333,
-        "length": 114.14364597596283
+        "slope": 112.15300664778184,
+        "sun_diff": 1.276190785430046,
+        "length": 190.14143318743203
       }
     },
     {
@@ -482,6 +459,29 @@
         "slope": 112.36420113125013,
         "sun_diff": 1.0649963019617559,
         "length": 116.99088502568587
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.6784938,
+            3.7953179
+          ],
+          [
+            98.6769524,
+            3.7959374
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 111.93913298497742,
+        "sun_diff": 1.4900644482344632,
+        "length": 184.4297506221231
       }
     },
     {
@@ -869,7 +869,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Kemiri",
-        "type": "residential",
+        "type": "living_street",
         "slope": 64.32317928740014,
         "sun_diff": 2.2486168445411465,
         "length": 130.17620582751064
@@ -892,7 +892,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 110.94686083818476,
         "sun_diff": 2.479126406117203,
         "length": 130.33267991005016
@@ -1973,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.72591483127712,
         "sun_diff": 0.29992758697515853,
         "length": 101.23314183466677
@@ -2019,7 +2019,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 112.89297932233052,
         "sun_diff": 0.5350706391007947,
         "length": 118.6036788041517
@@ -2042,7 +2042,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 114.72257126534737,
         "sun_diff": 1.2933738321354866,
         "length": 118.51039538928381
@@ -2099,29 +2099,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            98.6825808,
-            3.7768218
-          ],
-          [
-            98.6834492,
-            3.776479
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 111.58414733591553,
-        "sun_diff": 1.845050097296351,
-        "length": 103.65036977859633
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             98.6851093,
             3.7121992
           ],
@@ -2157,33 +2134,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 112.53990415704988,
         "sun_diff": 0.8881458043814376,
         "length": 173.84064144166598
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            98.6736953,
-            3.6824767
-          ],
-          [
-            98.6725156,
-            3.6829304
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 111.07592437400126,
-        "sun_diff": 2.352125587430052,
-        "length": 140.33459373722033
       }
     },
     {
@@ -2203,7 +2157,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 111.34160470377927,
         "sun_diff": 2.086445257652045,
         "length": 161.77380971331155
@@ -2755,7 +2709,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 111.02757272423298,
         "sun_diff": 2.4004772371983307,
         "length": 126.04201742636732
@@ -2904,29 +2858,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            98.6097453,
-            3.4947712
-          ],
-          [
-            98.610754,
-            3.4943526
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 112.57571280873162,
-        "sun_diff": 0.8502744355703413,
-        "length": 121.28241887290629
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             98.7449649,
             3.4917931
           ],
@@ -2939,7 +2870,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.83390800501246,
         "sun_diff": 0.4079207607104962,
         "length": 111.59131378613644
@@ -2962,7 +2893,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 115.7296310339402,
         "sun_diff": 2.3036437896382296,
         "length": 117.14199037215425
@@ -3008,33 +2939,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 116.1970376577147,
         "sun_diff": 2.7710504134127376,
         "length": 106.1504494759779
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            98.7416236,
-            3.4934733
-          ],
-          [
-            98.7425141,
-            3.4930369
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 116.14983285973594,
-        "sun_diff": 2.723845615433973,
-        "length": 110.13950684513762
       }
     },
     {
@@ -3594,29 +3502,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            98.615944,
-            3.7261287
-          ],
-          [
-            98.616803,
-            3.7264853
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 67.41203196097825,
-        "sun_diff": 0.8413013385475097,
-        "length": 103.26585894672073
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             98.6388474,
             3.7222611
           ],
@@ -3905,7 +3790,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 115.65662789455922,
         "sun_diff": 2.2285779331279088,
         "length": 148.6654223324518
@@ -4779,7 +4664,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "living_street",
         "slope": 111.10163376576051,
         "sun_diff": 2.327563667451372,
         "length": 131.2426964822712
@@ -5070,8 +4955,8 @@
             3.5230836
           ],
           [
-            98.6267797,
-            3.5234428
+            98.6267556,
+            3.5234488
           ]
         ]
       },
@@ -5079,9 +4964,9 @@
       "properties": {
         "name": "Jalan Jamin Ginting",
         "type": "trunk",
-        "slope": 67.33264003994091,
-        "sun_diff": 0.7598330400024906,
-        "length": 103.67356349199123
+        "slope": 66.40268875783508,
+        "sun_diff": 0.17011824210334225,
+        "length": 101.47521848687703
       }
     },
     {
@@ -5089,8 +4974,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            98.6267797,
-            3.5234428
+            98.6267556,
+            3.5234488
           ],
           [
             98.6280525,
@@ -5102,9 +4987,9 @@
       "properties": {
         "name": "Jalan Jamin Ginting",
         "type": "trunk",
-        "slope": 66.89498906595603,
-        "sun_diff": 0.3221820660176036,
-        "length": 153.62866135275075
+        "slope": 67.50671844815491,
+        "sun_diff": 0.9339114482164916,
+        "length": 155.8366078048638
       }
     },
     {
@@ -5611,6 +5496,75 @@
         "slope": 111.50357476657138,
         "sun_diff": 1.9244751948599372,
         "length": 116.94694056706051
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.6835793,
+            3.7768119
+          ],
+          [
+            98.6826235,
+            3.7771907
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 111.66198549495735,
+        "sun_diff": 1.7672119382545333,
+        "length": 114.14364597596283
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.6736953,
+            3.6824767
+          ],
+          [
+            98.6725156,
+            3.6829304
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 111.07592437400126,
+        "sun_diff": 2.352125587430052,
+        "length": 140.33459373722033
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.7416236,
+            3.4934733
+          ],
+          [
+            98.7425141,
+            3.4930369
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "living_street",
+        "slope": 116.14983285973594,
+        "sun_diff": 2.723845615433973,
+        "length": 110.13950684513762
       }
     }
   ]
