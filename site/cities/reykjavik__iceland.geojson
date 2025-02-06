@@ -846,7 +846,7 @@
       "type": "Feature",
       "properties": {
         "name": "Seljavogur",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 149.4906257223684,
         "sun_diff": 1.2575915243909321,
         "length": 178.0368003054182
@@ -2471,6 +2471,29 @@
             63.9609948
           ],
           [
+            -22.6333419,
+            63.9618935
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 26.93885773082451,
+        "sun_diff": 1.948995240593888,
+        "length": 112.12972219518208
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -22.6333419,
+            63.9618935
+          ],
+          [
             -22.6318027,
             63.963223
           ]
@@ -2480,9 +2503,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 26.938429811421145,
-        "sun_diff": 1.9494231599972522,
-        "length": 278.010144146719
+        "slope": 26.938883498920006,
+        "sun_diff": 1.9489694724983906,
+        "length": 165.88042196083106
       }
     },
     {
@@ -2598,29 +2621,6 @@
         "slope": 31.055115858508714,
         "sun_diff": 2.167262887090317,
         "length": 107.04014095089732
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -22.7040889,
-            64.0616863
-          ],
-          [
-            -22.7054072,
-            64.0606299
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "N\u00e1tthagi",
-        "type": "residential",
-        "slope": 28.628528841281025,
-        "sun_diff": 0.11274359470991158,
-        "length": 133.86889071402436
       }
     },
     {
@@ -4599,6 +4599,29 @@
         "slope": 153.14052790287354,
         "sun_diff": 2.0274965921655053,
         "length": 181.06230558473936
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -22.7040889,
+            64.0616863
+          ],
+          [
+            -22.7054072,
+            64.0606299
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "N\u00e1tthagi",
+        "type": "tertiary",
+        "slope": 28.628528841281025,
+        "sun_diff": 0.11274359470991158,
+        "length": 133.86889071402436
       }
     }
   ]
