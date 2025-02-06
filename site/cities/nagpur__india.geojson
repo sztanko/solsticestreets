@@ -248,7 +248,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 62.34585347446651,
         "sun_diff": 2.795427837707308,
         "length": 112.70754133918517
@@ -271,7 +271,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 63.49621443738775,
         "sun_diff": 1.6450668747860675,
         "length": 146.60900049795015
@@ -1329,7 +1329,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 113.25901088626392,
         "sun_diff": 1.599185064719677,
         "length": 108.13458139229948
@@ -1352,7 +1352,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 62.778222813913374,
         "sun_diff": 2.3630584982604432,
         "length": 189.73764509327407
@@ -1375,7 +1375,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 63.458277423945646,
         "sun_diff": 1.6830038882281713,
         "length": 100.88746325809169
@@ -1858,10 +1858,33 @@
       "type": "Feature",
       "properties": {
         "name": "Kingsway Road",
-        "type": "tertiary",
+        "type": "primary",
         "slope": 116.66952695258192,
         "sun_diff": 1.79511613250871,
         "length": 110.50045308417525
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.0335248,
+            21.0886651
+          ],
+          [
+            79.0344707,
+            21.0882519
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 115.08845213058297,
+        "sun_diff": 0.2302561795993654,
+        "length": 108.3921769676071
       }
     },
     {
@@ -2019,7 +2042,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 113.88981021451727,
         "sun_diff": 0.9683857364663311,
         "length": 184.51412599860652
@@ -2042,7 +2065,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 113.64996444511948,
         "sun_diff": 1.20823150586412,
         "length": 178.37377690717045
@@ -2065,7 +2088,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 117.26380282857542,
         "sun_diff": 2.405606877591822,
         "length": 128.73974387302084
@@ -2115,29 +2138,6 @@
         "slope": 112.05065369609022,
         "sun_diff": 2.8075422548933773,
         "length": 382.1977297325494
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            79.1584729,
-            21.0930493
-          ],
-          [
-            79.1573846,
-            21.0935343
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Umred Road",
-        "type": "trunk",
-        "slope": 115.5316995985734,
-        "sun_diff": 0.6735173079681402,
-        "length": 125.16296859215166
       }
     },
     {
@@ -5078,7 +5078,7 @@
       "type": "Feature",
       "properties": {
         "name": "LIC- Automotive Double Decker Flyover",
-        "type": "trunk",
+        "type": "primary",
         "slope": 67.42805401189253,
         "sun_diff": 2.3030012291866626,
         "length": 187.28402564037663
@@ -5239,7 +5239,7 @@
       "type": "Feature",
       "properties": {
         "name": "Inner Ring Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 116.46388380909332,
         "sun_diff": 1.5894729890201091,
         "length": 105.03126296009484
@@ -5285,7 +5285,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 115.99631282979229,
         "sun_diff": 1.1381168788086882,
         "length": 160.73684491612852
@@ -5538,7 +5538,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kingsway Road;Bhandara Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 116.5743934605558,
         "sun_diff": 1.6999826404825882,
         "length": 121.68248812465698
@@ -6596,7 +6596,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 113.39173529680292,
         "sun_diff": 1.466460654180679,
         "length": 223.93636142585828
@@ -6619,7 +6619,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kamptee Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.91395456986044,
         "sun_diff": 0.7889017871545718,
         "length": 125.4273062951014
@@ -6642,7 +6642,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kamptee Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.35289386382493,
         "sun_diff": 2.7721589188809332,
         "length": 183.1835821061702
@@ -7309,7 +7309,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.64938850845493,
         "sun_diff": 2.4756642742509314,
         "length": 100.52051655728873
@@ -7700,7 +7700,7 @@
       "type": "Feature",
       "properties": {
         "name": "Inner Ring Road Flyover",
-        "type": "primary",
+        "type": "trunk",
         "slope": 115.24213774697532,
         "sun_diff": 0.3677269269021082,
         "length": 178.56433249707672
@@ -7723,7 +7723,7 @@
       "type": "Feature",
       "properties": {
         "name": "Inner Ring Road Flyover",
-        "type": "primary",
+        "type": "trunk",
         "slope": 114.79698438661,
         "sun_diff": 0.07742643346320222,
         "length": 129.44838043604554
@@ -7746,7 +7746,7 @@
       "type": "Feature",
       "properties": {
         "name": "Inner Ring Road Flyover",
-        "type": "primary",
+        "type": "trunk",
         "slope": 115.77635004335886,
         "sun_diff": 0.9019392232856518,
         "length": 191.81237890548047
@@ -7872,8 +7872,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            79.1669494,
-            21.1172451
+            79.1669828,
+            21.1172334
           ],
           [
             79.1690362,
@@ -7885,9 +7885,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 112.23475946594806,
-        "sun_diff": 2.6234228246571973,
-        "length": 233.9216002530497
+        "slope": 112.26133296188613,
+        "sun_diff": 2.5968493287191308,
+        "length": 230.22128175985472
       }
     },
     {
@@ -8160,7 +8160,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.50810253890535,
         "sun_diff": 2.6169502438005168,
         "length": 167.55892616509593
