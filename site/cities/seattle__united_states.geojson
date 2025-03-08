@@ -581,6 +581,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -122.5463717,
+            47.5338473
+          ],
+          [
+            -122.547761,
+            47.533252
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Cole Street Southeast",
+        "type": "residential",
+        "slope": 57.59889896975278,
+        "sun_diff": 2.477177320907515,
+        "length": 123.57136200146606
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -122.7136398,
             48.0379347
           ],
@@ -2122,29 +2145,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.5114989,
-            47.3343906
-          ],
-          [
-            -122.5127754,
-            47.3349515
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Southwest Pohl Road",
-        "type": "residential",
-        "slope": 122.95798600762973,
-        "sun_diff": 1.7735215961741062,
-        "length": 114.68070800739763
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -122.1361888,
             47.5381455
           ],
@@ -2801,7 +2801,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southeast 267th Street",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 52.51591602195097,
         "sun_diff": 2.6797629152271725,
         "length": 104.9350227887916
@@ -2824,7 +2824,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southeast 267th Street",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 54.986895243519626,
         "sun_diff": 0.20878369365851768,
         "length": 234.12649256354865
@@ -4392,29 +4392,6 @@
         "slope": 52.626462647645724,
         "sun_diff": 2.7882194750797282,
         "length": 103.62399127229884
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.130764,
-            47.129092
-          ],
-          [
-            -122.132346,
-            47.128332
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "South Prairie Carbon River Road East",
-        "type": "residential",
-        "slope": 54.773895011814716,
-        "sun_diff": 0.6407871109107361,
-        "length": 146.55617479540192
       }
     },
     {
@@ -10230,7 +10207,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "service",
         "slope": 125.5791467399572,
         "sun_diff": 0.39967434924889744,
         "length": 116.86383085303211

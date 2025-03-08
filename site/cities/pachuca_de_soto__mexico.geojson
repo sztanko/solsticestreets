@@ -731,7 +731,7 @@
       "type": "Feature",
       "properties": {
         "name": "Viaducto R\u00edo de las Avenidas",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.22539756639014,
         "sun_diff": 0.07300541745064493,
         "length": 117.58719681440235
@@ -754,7 +754,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida R\u00edo de las Avenidas",
-        "type": "trunk",
+        "type": "tertiary",
         "slope": 64.11986345311519,
         "sun_diff": 1.178539530725601,
         "length": 113.88274922766598
@@ -777,7 +777,7 @@
       "type": "Feature",
       "properties": {
         "name": "Viaducto R\u00edo de las Avenidas",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.01166530263026,
         "sun_diff": 1.286737681210525,
         "length": 108.49124693702042
@@ -1467,7 +1467,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Luis Donaldo Colosio",
-        "type": "trunk",
+        "type": "primary",
         "slope": 114.44668378050793,
         "sun_diff": 0.25559261210263173,
         "length": 107.13195766453687
@@ -1490,7 +1490,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Luis Donaldo Colosio",
-        "type": "trunk",
+        "type": "primary",
         "slope": 113.67368216599823,
         "sun_diff": 1.0285942266123271,
         "length": 101.66512943924721
@@ -2881,6 +2881,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -98.6443778,
+            20.1872424
+          ],
+          [
+            -98.6433607,
+            20.1876711
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 65.81607094460068,
+        "sun_diff": 0.5321479618003195,
+        "length": 116.39761944385141
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -98.7562543,
             20.0496423
           ],
@@ -3145,8 +3168,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Carretera Entronque Colonia - Portezuelo",
+        "type": "primary",
         "slope": 112.33965766172238,
         "sun_diff": 2.3626187308881725,
         "length": 209.00090059293157
@@ -3168,8 +3191,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Carretera Entronque Colonia - Portezuelo",
+        "type": "primary",
         "slope": 112.93269229621868,
         "sun_diff": 1.7695840963918812,
         "length": 154.20639145111352
@@ -3191,8 +3214,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Carretera Entronque Colonia - Portezuelo",
+        "type": "primary",
         "slope": 113.9822353604574,
         "sun_diff": 0.7200410321531621,
         "length": 108.01352355159011
@@ -3214,8 +3237,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Carretera Entronque Colonia - Portezuelo",
+        "type": "primary",
         "slope": 111.87410327042451,
         "sun_diff": 2.828173122186044,
         "length": 228.15145497523943
@@ -4963,7 +4986,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Luis Donaldo Colosio",
-        "type": "trunk",
+        "type": "primary",
         "slope": 115.14280241795862,
         "sun_diff": 0.4405260253480634,
         "length": 121.02740067453742
@@ -7470,7 +7493,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.39160121770348,
         "sun_diff": 0.09319823386269377,
         "length": 142.45144626249075
@@ -7493,7 +7516,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.84845577793664,
         "sun_diff": 0.44994720590415227,
         "length": 115.98915480206645
@@ -7516,7 +7539,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.59520437533132,
         "sun_diff": 0.29680139149053275,
         "length": 303.2303407161029
@@ -7539,7 +7562,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.46907663173965,
         "sun_diff": 0.17067364789886597,
         "length": 184.6128044902087
@@ -7562,7 +7585,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.18896735619265,
         "sun_diff": 0.8905643723518608,
         "length": 183.32490285419212
@@ -7585,7 +7608,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.05077737332022,
         "sun_diff": 0.24762561052057208,
         "length": 298.0782114038702
@@ -7608,7 +7631,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.56695023089557,
         "sun_diff": 1.2685472470547836,
         "length": 193.57916964020978
@@ -7631,7 +7654,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.45400268620611,
         "sun_diff": 1.155599702365322,
         "length": 145.50926599115004
@@ -7654,7 +7677,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.29543483377321,
         "sun_diff": 0.0029681500675735606,
         "length": 217.91477703690566
@@ -7677,7 +7700,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.3849633078571,
         "sun_diff": 0.08656032401631819,
         "length": 141.7749128501069
@@ -7700,7 +7723,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.38424568769983,
         "sun_diff": 0.08584270385904347,
         "length": 258.4139970459807
@@ -7723,7 +7746,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.49556984938044,
         "sun_diff": 0.197166865539657,
         "length": 290.2750299156313
@@ -7746,7 +7769,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.32416948363286,
         "sun_diff": 0.025766499792069908,
         "length": 160.81686346810105
@@ -7769,7 +7792,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.2526321507732,
         "sun_diff": 0.045770833067592775,
         "length": 191.17671377960696
@@ -7792,7 +7815,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.55305226342574,
         "sun_diff": 0.7453507204150469,
         "length": 154.85602568684828
@@ -7815,7 +7838,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Pachuca-Actopan",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.11033021586675,
         "sun_diff": 0.8119272320259654,
         "length": 122.88183876539648
@@ -8735,7 +8758,7 @@
       "type": "Feature",
       "properties": {
         "name": "Viaducto R\u00edo de las Avenidas",
-        "type": "trunk",
+        "type": "tertiary",
         "slope": 63.35044595861379,
         "sun_diff": 1.947957025226998,
         "length": 112.3376420373871
@@ -8758,7 +8781,7 @@
       "type": "Feature",
       "properties": {
         "name": "Viaducto R\u00edo de las Avenidas",
-        "type": "trunk",
+        "type": "primary",
         "slope": 63.65978103125272,
         "sun_diff": 1.6386219525880676,
         "length": 113.91222141614689
@@ -11701,8 +11724,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Autopista Actopan-Pachuca",
-        "type": "trunk",
+        "name": "Carretera Entronque Colonia - Portezuelo",
+        "type": "primary",
         "slope": 112.93061355534095,
         "sun_diff": 1.7716628372696022,
         "length": 105.60127674587594
@@ -12115,8 +12138,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Pachuca - T\u00faxpam",
-        "type": "trunk",
+        "name": "Carretera Pachuca - T\u00faxpam",
+        "type": "primary",
         "slope": 117.4066071216495,
         "sun_diff": 2.7043307290389436,
         "length": 142.86046291015955
@@ -12138,8 +12161,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Pachuca - T\u00faxpam",
-        "type": "trunk",
+        "name": "Carretera Pachuca - T\u00faxpam",
+        "type": "primary",
         "slope": 113.2319067707918,
         "sun_diff": 1.4703696218187616,
         "length": 258.9457391261965
@@ -12909,12 +12932,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -98.7988418,
-            20.0836112
+            -98.7998101,
+            20.0831401
           ],
           [
-            -98.7979572,
-            20.0839662
+            -98.7988418,
+            20.0835079
           ]
         ]
       },
@@ -12922,9 +12945,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 66.86322511192267,
-        "sun_diff": 1.564822128081886,
-        "length": 100.49344216386612
+        "slope": 67.97995323963616,
+        "sun_diff": 2.681550255795372,
+        "length": 109.11441466965248
       }
     },
     {
@@ -12967,7 +12990,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Luis Donaldo Colosio",
-        "type": "trunk",
+        "type": "primary",
         "slope": 112.88243805419165,
         "sun_diff": 1.8198383384189043,
         "length": 135.67541483293607
@@ -12990,7 +13013,7 @@
       "type": "Feature",
       "properties": {
         "name": "Viaducto R\u00edo de las Avenidas",
-        "type": "trunk",
+        "type": "primary",
         "slope": 64.61965555967762,
         "sun_diff": 0.6787474241631628,
         "length": 132.5283677665975
@@ -13058,8 +13081,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Carretera Entronque Colonia - Portezuelo",
+        "type": "primary",
         "slope": 117.36566429322338,
         "sun_diff": 2.6633879006128183,
         "length": 116.77911566297327
@@ -13104,8 +13127,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Pachuca - T\u00faxpam",
-        "type": "trunk",
+        "name": "Carretera Pachuca - T\u00faxpam",
+        "type": "primary",
         "slope": 116.38149319154007,
         "sun_diff": 1.6792167989295166,
         "length": 316.6070807692966
@@ -13128,7 +13151,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Luis Donaldo Colosio",
-        "type": "trunk",
+        "type": "primary",
         "slope": 114.26003803198668,
         "sun_diff": 0.44223836062387534,
         "length": 119.46542060051499
@@ -13151,7 +13174,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Luis Donaldo Colosio",
-        "type": "trunk",
+        "type": "primary",
         "slope": 114.34310918931394,
         "sun_diff": 0.35916720329662155,
         "length": 103.37747325537168
@@ -13174,7 +13197,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Luis Donaldo Colosio",
-        "type": "trunk",
+        "type": "primary",
         "slope": 114.10727341249063,
         "sun_diff": 0.5950029801199292,
         "length": 246.09881336899642
@@ -13197,7 +13220,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Luis Donaldo Colosio",
-        "type": "trunk",
+        "type": "primary",
         "slope": 114.44023079263235,
         "sun_diff": 0.2620455999782081,
         "length": 272.4122880798531
@@ -13219,8 +13242,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Carretera Entronque Colonia - Portezuelo",
+        "type": "primary",
         "slope": 113.43279743763046,
         "sun_diff": 1.2694789549801015,
         "length": 145.4726132856757
@@ -13242,8 +13265,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Carretera Entronque Colonia - Portezuelo",
+        "type": "primary",
         "slope": 112.26386261646519,
         "sun_diff": 2.4384137761453673,
         "length": 101.54962121833856
@@ -13634,7 +13657,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Luis Donaldo Colosio",
-        "type": "trunk",
+        "type": "primary",
         "slope": 115.065396637482,
         "sun_diff": 0.363120244871439,
         "length": 119.30274046384862

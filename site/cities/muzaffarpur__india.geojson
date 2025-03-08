@@ -13116,29 +13116,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            85.1683411,
-            26.2625899
-          ],
-          [
-            85.1708946,
-            26.2614846
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 115.76552549139785,
-        "sun_diff": 0.0855477384738208,
-        "length": 282.82697285772264
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             85.2680759,
             26.2352802
           ],
@@ -13201,52 +13178,6 @@
         "slope": 118.81001538689196,
         "sun_diff": 2.9810992906878084,
         "length": 111.87434726111525
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            85.1708892,
-            26.2614016
-          ],
-          [
-            85.1698552,
-            26.2618502
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 115.81699109703305,
-        "sun_diff": 0.03408213283861983,
-        "length": 114.57635450448186
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            85.1698552,
-            26.2618502
-          ],
-          [
-            85.1686107,
-            26.2623866
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 115.67025748698543,
-        "sun_diff": 0.1808157428862387,
-        "length": 137.73083216129763
       }
     },
     {
@@ -15558,6 +15489,29 @@
             26.1679735
           ],
           [
+            85.4423916,
+            26.1685628
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "East-West Corridor",
+        "type": "trunk",
+        "slope": 63.647968348398734,
+        "sun_diff": 0.5224971959061406,
+        "length": 147.66855095920906
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4423916,
+            26.1685628
+          ],
+          [
             85.4453809,
             26.1698919
           ]
@@ -15567,9 +15521,9 @@
       "properties": {
         "name": "East-West Corridor",
         "type": "trunk",
-        "slope": 63.64656527227666,
-        "sun_diff": 0.5239002720282144,
-        "length": 480.69682833331484
+        "slope": 63.64605832666774,
+        "sun_diff": 0.5244072176371333,
+        "length": 333.0282774953246
       }
     },
     {
@@ -15577,8 +15531,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            85.4453809,
-            26.1698919
+            85.4458605,
+            26.170088
           ],
           [
             85.4482388,
@@ -15590,9 +15544,9 @@
       "properties": {
         "name": "East-West Corridor",
         "type": "trunk",
-        "slope": 62.39300819682521,
-        "sun_diff": 1.7774573474796682,
-        "length": 321.950593518978
+        "slope": 61.78532987484317,
+        "sun_diff": 2.385135669461704,
+        "length": 269.43157645098086
       }
     },
     {
@@ -15646,8 +15600,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            85.4454617,
-            26.1697976
+            85.4454742,
+            26.1697637
+          ],
+          [
+            85.4424635,
+            26.1684327
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "East-West Corridor",
+        "type": "trunk",
+        "slope": 63.77613695222786,
+        "sun_diff": 0.39432859207701654,
+        "length": 335.0375472169803
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4424635,
+            26.1684327
           ],
           [
             85.4411,
@@ -15659,9 +15636,9 @@
       "properties": {
         "name": "East-West Corridor",
         "type": "trunk",
-        "slope": 63.313611223114634,
-        "sun_diff": 0.8568543211902409,
-        "length": 487.335061558758
+        "slope": 63.7758606538558,
+        "sun_diff": 0.39460489044907376,
+        "length": 151.734908958908
       }
     },
     {
@@ -15984,6 +15961,75 @@
         "slope": 116.7870898762294,
         "sun_diff": 0.9801943099093648,
         "length": 128.68464138778972
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.1708892,
+            26.2614016
+          ],
+          [
+            85.1698552,
+            26.2618502
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 115.81699109703305,
+        "sun_diff": 0.03408213283861983,
+        "length": 114.57635450448186
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.1698552,
+            26.2618502
+          ],
+          [
+            85.1686107,
+            26.2623866
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 115.67025748698543,
+        "sun_diff": 0.1808157428862387,
+        "length": 137.73083216129763
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.1683411,
+            26.2625899
+          ],
+          [
+            85.1708946,
+            26.2614846
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 115.76552549139785,
+        "sun_diff": 0.0855477384738208,
+        "length": 282.82697285772264
       }
     }
   ]
