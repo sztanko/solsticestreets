@@ -501,7 +501,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 18C",
-        "type": "service",
+        "type": "residential",
         "slope": 67.53946424658062,
         "sun_diff": 1.2483342480135207,
         "length": 108.10087767929163
@@ -685,7 +685,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 18",
-        "type": "service",
+        "type": "residential",
         "slope": 65.23602211561172,
         "sun_diff": 1.055107882955383,
         "length": 106.61434573934412
@@ -800,7 +800,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 18B",
-        "type": "service",
+        "type": "residential",
         "slope": 66.69066957798725,
         "sun_diff": 0.39953957942014995,
         "length": 109.51645115670351
@@ -1850,8 +1850,8 @@
             11.0231446
           ],
           [
-            -74.866107,
-            11.0237016
+            -74.866566,
+            11.0235174
           ]
         ]
       },
@@ -1859,9 +1859,9 @@
       "properties": {
         "name": "Transversal 3B",
         "type": "residential",
-        "slope": 67.77048623459575,
-        "sun_diff": 1.486159104441981,
-        "length": 163.7646699110151
+        "slope": 67.77432407359274,
+        "sun_diff": 1.4899969434389675,
+        "length": 109.62560212611625
       }
     },
     {
@@ -2943,29 +2943,6 @@
         "slope": 116.41274706099631,
         "sun_diff": 2.6959713429702106,
         "length": 144.6274804740932
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -74.8361407,
-            10.9737101
-          ],
-          [
-            -74.8352701,
-            10.9740762
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carrera 26B",
-        "type": "residential",
-        "slope": 66.81224469071296,
-        "sun_diff": 0.5279175605591888,
-        "length": 103.42027059168991
       }
     },
     {
@@ -4507,6 +4484,29 @@
         "slope": 115.8476509497018,
         "sun_diff": 2.1376781000890475,
         "length": 141.4673525435702
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.8134946,
+            10.9381396
+          ],
+          [
+            -74.8117312,
+            10.9372743
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carrera 2B",
+        "type": "residential",
+        "slope": 116.55487493649562,
+        "sun_diff": 2.8449020868828683,
+        "length": 215.29145272147403
       }
     },
     {
@@ -6791,52 +6791,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -74.695706,
-            10.873352
-          ],
-          [
-            -74.6940874,
-            10.8726827
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 112.83421342668893,
-        "sun_diff": 0.8757594229238208,
-        "length": 191.83864917124473
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -74.6915742,
-            10.8733939
-          ],
-          [
-            -74.6889333,
-            10.874607
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 64.9321269964079,
-        "sun_diff": 1.3590030021591986,
-        "length": 318.47018203417036
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -74.6942578,
             10.8834332
           ],
@@ -8348,29 +8302,6 @@
         "slope": 110.71923142483041,
         "sun_diff": 2.9975442931956877,
         "length": 106.73743361999462
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -74.8183173,
-            11.023009
-          ],
-          [
-            -74.8193279,
-            11.0234478
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carrera 72",
-        "type": "residential",
-        "slope": 113.86265659796254,
-        "sun_diff": 0.14588087993644194,
-        "length": 120.64815102807033
       }
     },
     {
@@ -9931,7 +9862,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 14",
-        "type": "service",
+        "type": "residential",
         "slope": 112.1063987058134,
         "sun_diff": 1.6035741437993494,
         "length": 156.8572081937749
@@ -10655,6 +10586,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            -74.7804487,
+            11.0066996
+          ],
+          [
+            -74.7818649,
+            11.0060572
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 65.19797339497288,
+        "sun_diff": 1.086353735180893,
+        "length": 170.33771994316507
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.7818649,
+            11.0060572
+          ],
+          [
+            -74.7845162,
+            11.0047707
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 63.69572468916883,
+        "sun_diff": 2.5886024409849426,
+        "length": 322.91724541843536
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -74.7921109,
             10.9249271
           ],
@@ -10782,7 +10759,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 12A",
-        "type": "service",
+        "type": "residential",
         "slope": 110.87987521407709,
         "sun_diff": 2.8300976355356653,
         "length": 181.1646458848334
@@ -10805,7 +10782,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 12B",
-        "type": "service",
+        "type": "residential",
         "slope": 110.87427005198495,
         "sun_diff": 2.8357027976278033,
         "length": 182.02274508985005
@@ -10828,7 +10805,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 12C",
-        "type": "service",
+        "type": "residential",
         "slope": 110.79918204274006,
         "sun_diff": 2.910790806872697,
         "length": 181.52292915950747
@@ -10851,7 +10828,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carrera 12D",
-        "type": "service",
+        "type": "residential",
         "slope": 111.06924806749623,
         "sun_diff": 2.6407247821165214,
         "length": 173.23595085421056
@@ -11230,12 +11207,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -74.8592061,
-            10.9524165
+            -74.8610638,
+            10.9533248
           ],
           [
-            -74.8600467,
-            10.952816
+            -74.8600437,
+            10.9528219
           ]
         ]
       },
@@ -11243,9 +11220,9 @@
       "properties": {
         "name": "Carrera 8",
         "type": "residential",
-        "slope": 115.830401551244,
-        "sun_diff": 2.1136258332178954,
-        "length": 101.9863436052803
+        "slope": 116.66295889113783,
+        "sun_diff": 2.9461831731117343,
+        "length": 124.65409132694431
       }
     },
     {
@@ -11253,12 +11230,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -74.8600467,
-            10.952816
+            -74.8600437,
+            10.9528219
           ],
           [
-            -74.8610696,
-            10.9533137
+            -74.8592092,
+            10.9524105
           ]
         ]
       },
@@ -11266,9 +11243,9 @@
       "properties": {
         "name": "Carrera 8",
         "type": "residential",
-        "slope": 116.36238283030292,
-        "sun_diff": 2.6456071122768208,
-        "length": 124.66951504523175
+        "slope": 116.6628771411132,
+        "sun_diff": 2.9461014230871,
+        "length": 101.97423984996828
       }
     },
     {
@@ -11706,6 +11683,29 @@
         "slope": 66.59334676134716,
         "sun_diff": 0.3090196311933937,
         "length": 132.52240368051545
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.9261119,
+            11.0153152
+          ],
+          [
+            -74.9252549,
+            11.0149154
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle 9",
+        "type": "residential",
+        "slope": 115.4201843928754,
+        "sun_diff": 1.7034086748492996,
+        "length": 103.59770981226345
       }
     },
     {
@@ -12679,29 +12679,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -74.8590811,
-            10.9526576
-          ],
-          [
-            -74.8609699,
-            10.9535744
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carrera 8",
-        "type": "residential",
-        "slope": 116.30754717074078,
-        "sun_diff": 2.5907714527146766,
-        "length": 230.0950040476095
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -74.8379968,
             10.8545662
           ],
@@ -13392,8 +13369,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -74.8307315,
-            11.0323551
+            -74.8307347,
+            11.0323533
           ],
           [
             -74.8298135,
@@ -13405,9 +13382,9 @@
       "properties": {
         "name": "Carrera 75A",
         "type": "unclassified",
-        "slope": 112.24327302676664,
-        "sun_diff": 1.4735026912594549,
-        "length": 108.27964560623342
+        "slope": 112.07562081485193,
+        "sun_diff": 1.6411549031741686,
+        "length": 108.52768181074354
       }
     },
     {
@@ -13799,6 +13776,52 @@
         "slope": 114.17003550792685,
         "sun_diff": 0.45325978990075555,
         "length": 101.70932380630464
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.8589885,
+            10.9523016
+          ],
+          [
+            -74.8569303,
+            10.9512869
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carrera 8",
+        "type": "residential",
+        "slope": 116.66343224291629,
+        "sun_diff": 2.9466565248901873,
+        "length": 251.50991880802005
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.8193279,
+            11.0234478
+          ],
+          [
+            -74.8183173,
+            11.023009
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carrera 72",
+        "type": "residential",
+        "slope": 113.8626249739174,
+        "sun_diff": 0.14584925589130648,
+        "length": 120.64815102807033
       }
     }
   ]

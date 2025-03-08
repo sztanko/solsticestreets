@@ -443,12 +443,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            79.0603854,
-            21.1513641
+            79.0759591,
+            21.1480879
           ],
           [
-            79.0593712,
-            21.1518144
+            79.076862,
+            21.1484774
           ]
         ]
       },
@@ -456,9 +456,9 @@
       "properties": {
         "name": null,
         "type": "secondary",
-        "slope": 115.45768024803823,
-        "sun_diff": 0.5832694279650212,
-        "length": 116.52324921985617
+        "slope": 65.17754733333473,
+        "sun_diff": 0.03626602116091249,
+        "length": 103.19977059392106
       }
     },
     {
@@ -1754,29 +1754,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            79.0410405,
-            21.1154504
-          ],
-          [
-            79.0399627,
-            21.1158932
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 113.76911175825839,
-        "sun_diff": 1.0890841927252097,
-        "length": 122.1992049722361
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             79.0366422,
             21.1173369
           ],
@@ -2030,8 +2007,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            79.0407994,
-            21.1147987
+            79.0407694,
+            21.114812
           ],
           [
             79.0391735,
@@ -2042,10 +2019,10 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "trunk",
-        "slope": 113.88981021451727,
-        "sun_diff": 0.9683857364663311,
-        "length": 184.51412599860652
+        "type": "primary",
+        "slope": 113.86070543285624,
+        "sun_diff": 0.9974905181273641,
+        "length": 181.06887406139103
       }
     },
     {
@@ -2065,7 +2042,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 113.64996444511948,
         "sun_diff": 1.20823150586412,
         "length": 178.37377690717045
@@ -2088,7 +2065,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ring Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 117.26380282857542,
         "sun_diff": 2.405606877591822,
         "length": 128.73974387302084
@@ -5388,29 +5365,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            79.0840101,
-            21.0603577
-          ],
-          [
-            79.0830606,
-            21.0599172
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 63.566448748027994,
-        "sun_diff": 1.5748325641458223,
-        "length": 110.06542795241423
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             79.1488391,
             21.1923096
           ],
@@ -5538,7 +5492,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kingsway Road;Bhandara Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 116.5743934605558,
         "sun_diff": 1.6999826404825882,
         "length": 121.68248812465698
@@ -5928,7 +5882,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Wankhede Road",
+        "name": "Shaniwar Bazar Road",
         "type": "secondary",
         "slope": 114.17576802867305,
         "sun_diff": 0.682427922310552,
@@ -5951,7 +5905,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Wankhede Road",
+        "name": "Shaniwar Bazar Road",
         "type": "secondary",
         "slope": 113.90513593041459,
         "sun_diff": 0.9530600205690121,
@@ -5974,7 +5928,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Wankhede Road",
+        "name": "Shaniwar Bazar Road",
         "type": "secondary",
         "slope": 113.73309397649405,
         "sun_diff": 1.125101974489553,
@@ -5997,7 +5951,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Wankhede Road",
+        "name": "Shaniwar Bazar Road",
         "type": "secondary",
         "slope": 114.06516860922716,
         "sun_diff": 0.7930273417564422,
@@ -6020,7 +5974,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Wankhede Road",
+        "name": "Shaniwar Bazar Road",
         "type": "secondary",
         "slope": 113.15035056421667,
         "sun_diff": 1.7078453867669339,
@@ -6043,7 +5997,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Wankhede Road",
+        "name": "Shaniwar Bazar Road",
         "type": "secondary",
         "slope": 114.04452203341603,
         "sun_diff": 0.81367391756757,
@@ -8233,6 +8187,29 @@
         "slope": 65.96184269459181,
         "sun_diff": 0.8367899118859441,
         "length": 109.82482661440781
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.0603854,
+            21.1513641
+          ],
+          [
+            79.0593712,
+            21.1518144
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "secondary",
+        "slope": 115.45768024803823,
+        "sun_diff": 0.5832694279650212,
+        "length": 116.52324921985617
       }
     }
   ]
