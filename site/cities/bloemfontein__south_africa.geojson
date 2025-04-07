@@ -1812,7 +1812,7 @@
       "type": "Feature",
       "properties": {
         "name": "Eland Street",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 65.33960856017106,
         "sun_diff": 2.978514768515936,
         "length": 112.41890125751631
@@ -5722,7 +5722,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kruger Avenue",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 119.65571770625064,
         "sun_diff": 1.985806081539593,
         "length": 185.80056401888862
@@ -5745,7 +5745,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kruger Avenue",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 118.89328732911139,
         "sun_diff": 1.2233757044003397,
         "length": 282.41532854562774
@@ -5768,7 +5768,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kruger Avenue",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 118.84870433114395,
         "sun_diff": 1.1787927064329011,
         "length": 231.01389082979097
@@ -5791,7 +5791,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kruger Avenue",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 118.51051722056724,
         "sun_diff": 0.8406055958561893,
         "length": 370.4731055260801
@@ -5814,7 +5814,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kruger Avenue",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 118.49145249326602,
         "sun_diff": 0.8215408685549761,
         "length": 105.62742086913148
@@ -8332,12 +8332,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            26.1087513,
-            -29.2611304
+            26.1078066,
+            -29.2607351
           ],
           [
-            26.1031133,
-            -29.2586337
+            26.1030991,
+            -29.2586532
           ]
         ]
       },
@@ -8345,32 +8345,9 @@
       "properties": {
         "name": null,
         "type": "tertiary",
-        "slope": 116.91197056647647,
-        "sun_diff": 0.7890867208498378,
-        "length": 613.5482393319481
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            26.062156,
-            -29.2538599
-          ],
-          [
-            26.0593852,
-            -29.2524803
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 119.71267672940081,
-        "sun_diff": 2.0116194420745046,
-        "length": 309.5967655044016
+        "slope": 116.88154279100848,
+        "sun_diff": 0.8195144963178222,
+        "length": 512.1504914174412
       }
     },
     {
@@ -9624,8 +9601,8 @@
             -29.0269514
           ],
           [
-            26.1041231,
-            -29.0263029
+            26.1041464,
+            -29.0262845
           ]
         ]
       },
@@ -9633,9 +9610,9 @@
       "properties": {
         "name": "Valencia Street",
         "type": "residential",
-        "slope": 61.55694460597135,
-        "sun_diff": 0.8349669992188637,
-        "length": 151.44788828849383
+        "slope": 61.28970064727636,
+        "sun_diff": 1.1022109579138544,
+        "length": 154.4169446203327
       }
     },
     {
@@ -11437,29 +11414,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            26.0961194,
-            -29.2293511
-          ],
-          [
-            26.0948695,
-            -29.2298561
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 65.15655770407582,
-        "sun_diff": 2.826445650495856,
-        "length": 133.69625978745373
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             26.1853673,
             -29.1886127
           ],
@@ -11909,7 +11863,7 @@
       "type": "Feature",
       "properties": {
         "name": "Vereeninging Drive Extension",
-        "type": "tertiary",
+        "type": "primary",
         "slope": 118.04495956647406,
         "sun_diff": 0.3750479417630146,
         "length": 101.68043037469351
@@ -11959,6 +11913,29 @@
         "slope": 114.93392232194003,
         "sun_diff": 2.7050075646958476,
         "length": 127.83311341929598
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            26.062156,
+            -29.2538599
+          ],
+          [
+            26.0593567,
+            -29.2524998
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 119.11294830672463,
+        "sun_diff": 1.4118910193983254,
+        "length": 310.9408419982375
       }
     }
   ]
