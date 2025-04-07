@@ -363,7 +363,7 @@
       "type": "Feature",
       "properties": {
         "name": "E. Rodriguez Highway",
-        "type": "secondary",
+        "type": "primary",
         "slope": 113.75116997362139,
         "sun_diff": 0.27532067231894075,
         "length": 106.9036778808706
@@ -386,7 +386,7 @@
       "type": "Feature",
       "properties": {
         "name": "E. Rodriguez Highway",
-        "type": "secondary",
+        "type": "primary",
         "slope": 113.39884869100234,
         "sun_diff": 0.6276419549379852,
         "length": 236.33575037122088
@@ -3491,7 +3491,7 @@
       "type": "Feature",
       "properties": {
         "name": "E. Rodriguez Highway",
-        "type": "secondary",
+        "type": "primary",
         "slope": 113.59827850487548,
         "sun_diff": 0.4282121410648472,
         "length": 218.08578417725712
@@ -12564,29 +12564,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            120.938058,
-            14.4288766
-          ],
-          [
-            120.9368614,
-            14.428303
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Captain l. Bella Street",
-        "type": "residential",
-        "slope": 63.66599727379776,
-        "sun_diff": 2.3360244775810486,
-        "length": 143.8253258796143
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             120.9477794,
             14.4291814
           ],
@@ -16164,7 +16141,7 @@
       "type": "Feature",
       "properties": {
         "name": "E. Rodriguez Highway",
-        "type": "secondary",
+        "type": "primary",
         "slope": 113.410465876943,
         "sun_diff": 0.6160247689973346,
         "length": 215.89974264461924
@@ -16651,29 +16628,6 @@
         "slope": 111.29264009154411,
         "sun_diff": 2.74389093247612,
         "length": 115.17162054924408
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            121.0659125,
-            14.8084906
-          ],
-          [
-            121.0669182,
-            14.8080818
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 112.80418350868479,
-        "sun_diff": 1.232347515335448,
-        "length": 117.31869447941725
       }
     },
     {
@@ -17279,12 +17233,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            121.1959173,
-            14.6214525
+            121.1959321,
+            14.6214862
           ],
           [
-            121.1949533,
-            14.6218208
+            121.1949681,
+            14.6218545
           ]
         ]
       },
@@ -17292,9 +17246,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 111.54617064777835,
-        "sun_diff": 2.4703752427304266,
-        "length": 111.54766701041402
+        "slope": 111.54617365082112,
+        "sun_diff": 2.470372239687663,
+        "length": 111.54765220232547
       }
     },
     {
@@ -17313,7 +17267,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Cleveland",
+        "name": "Cleveland Street",
         "type": "residential",
         "slope": 111.82455800965735,
         "sun_diff": 2.1919878808514284,
@@ -18192,29 +18146,6 @@
         "slope": 68.98544400408136,
         "sun_diff": 2.9641337984864435,
         "length": 206.66839360462558
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            120.8895597,
-            14.2818605
-          ],
-          [
-            120.8905576,
-            14.2823073
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Governor's Drive",
-        "type": "primary",
-        "slope": 65.20209965056844,
-        "sun_diff": 0.8096209694317906,
-        "length": 118.49141776974815
       }
     },
     {
@@ -22734,8 +22665,8 @@
             14.3213028
           ],
           [
-            121.0966148,
-            14.3218085
+            121.0966064,
+            14.3218277
           ]
         ]
       },
@@ -22743,9 +22674,9 @@
       "properties": {
         "name": "Mercado Street",
         "type": "residential",
-        "slope": 64.68934553252038,
-        "sun_diff": 1.3223750874798554,
-        "length": 131.56856360261278
+        "slope": 63.68088250160477,
+        "sun_diff": 2.3308381183954623,
+        "length": 131.68359615603245
       }
     },
     {
@@ -27594,7 +27525,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Illinois",
+        "name": "Illinois Street",
         "type": "residential",
         "slope": 112.77767127814005,
         "sun_diff": 1.2388746123687326,
@@ -27617,7 +27548,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Canada",
+        "name": "Canada Street",
         "type": "residential",
         "slope": 111.29734203380232,
         "sun_diff": 2.719203856706457,
@@ -33413,8 +33344,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Indang-Maragondon Road via Banaba-Malainen Road",
-        "type": "secondary",
+        "name": "Banaba-Malainen Road",
+        "type": "tertiary",
         "slope": 111.53712104549058,
         "sun_diff": 2.440506427127474,
         "length": 134.13477318295594
@@ -33459,8 +33390,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Malainen-Banaba Road",
-        "type": "secondary",
+        "name": "Banaba-Malainen Road",
+        "type": "tertiary",
         "slope": 112.35774862713103,
         "sun_diff": 1.6294752612708834,
         "length": 195.18419117873367
@@ -33482,8 +33413,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Malainen-Banaba Road",
-        "type": "secondary",
+        "name": "Banaba-Malainen Road",
+        "type": "tertiary",
         "slope": 112.96884062476778,
         "sun_diff": 1.018383263634135,
         "length": 208.16169403060476
@@ -34058,7 +33989,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "service",
         "slope": 65.9803502100091,
         "sun_diff": 0.002055238073438659,
         "length": 170.84138843437643
@@ -34081,7 +34012,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "service",
         "slope": 65.29891047073463,
         "sun_diff": 0.6834949773479195,
         "length": 172.21419037549634
@@ -35047,7 +34978,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 68.20951789468745,
         "sun_diff": 2.1977972746872183,
         "length": 236.29445592410875
@@ -37507,7 +37438,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Acacia",
+        "name": "Acacia Street",
         "type": "residential",
         "slope": 111.43008075383767,
         "sun_diff": 2.576602343509606,
@@ -38443,8 +38374,8 @@
             14.6034125
           ],
           [
-            121.175511,
-            14.6029264
+            121.175517,
+            14.602918
           ]
         ]
       },
@@ -38452,9 +38383,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 63.87177986301043,
-        "sun_diff": 2.110625585072114,
-        "length": 122.77714405962577
+        "slope": 63.34689044716774,
+        "sun_diff": 2.6355150009148076,
+        "length": 122.61392974185108
       }
     },
     {
@@ -38731,29 +38662,6 @@
         "slope": 64.37874034057947,
         "sun_diff": 1.6425698650154459,
         "length": 138.28466042940414
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            121.1749179,
-            14.600464
-          ],
-          [
-            121.1737509,
-            14.5999136
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Sumulong Highway",
-        "type": "primary",
-        "slope": 64.01659011805535,
-        "sun_diff": 1.9658153300271977,
-        "length": 139.73822842923343
       }
     },
     {
@@ -40670,6 +40578,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            121.1197774,
+            14.3047198
+          ],
+          [
+            121.1208254,
+            14.304326
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 111.1955880687805,
+        "sun_diff": 2.791635819621419,
+        "length": 121.15043137013774
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             121.0410583,
             14.4997331
           ],
@@ -41210,7 +41141,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Valinda Street",
+        "name": "Pasadena Street",
         "type": "residential",
         "slope": 67.5117826824933,
         "sun_diff": 1.5000620624930718,
@@ -41302,7 +41233,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "San Francisco Barangay Road",
+        "name": "San Francisco Road",
         "type": "secondary",
         "slope": 67.12200549855893,
         "sun_diff": 1.1102848785587014,
@@ -41325,7 +41256,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "San Francisco Barangay Road",
+        "name": "San Francisco Road",
         "type": "secondary",
         "slope": 68.19034851651867,
         "sun_diff": 2.178627896518435,
@@ -41348,7 +41279,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "San Francisco Barangay Road",
+        "name": "San Francisco Road",
         "type": "secondary",
         "slope": 67.7371598698125,
         "sun_diff": 1.7254392498122684,
@@ -41371,7 +41302,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "San Francisco Barangay Road",
+        "name": "San Francisco Road",
         "type": "secondary",
         "slope": 66.95299961099812,
         "sun_diff": 0.9412789909978869,
@@ -41394,7 +41325,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "San Francisco Barangay Road",
+        "name": "San Francisco Road",
         "type": "secondary",
         "slope": 67.71631933398157,
         "sun_diff": 1.7045987139813406,
@@ -46799,7 +46730,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Queensway St",
         "type": "residential",
         "slope": 114.79842842684303,
         "sun_diff": 0.8208009542249783,
@@ -49180,8 +49111,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            120.8336331,
-            14.3684194
+            120.8336291,
+            14.3683934
           ],
           [
             120.8355904,
@@ -49193,9 +49124,9 @@
       "properties": {
         "name": "Micara Avenue",
         "type": "tertiary",
-        "slope": 115.82442445721864,
-        "sun_diff": 1.827515360573642,
-        "length": 234.29946055471956
+        "slope": 115.13941660541892,
+        "sun_diff": 1.1425075087739174,
+        "length": 233.44432593063007
       }
     },
     {
@@ -50208,29 +50139,6 @@
         "slope": 114.73713006741522,
         "sun_diff": 0.7005990433949876,
         "length": 151.85724303840186
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            121.0591664,
-            14.2609699
-          ],
-          [
-            121.0582766,
-            14.2605867
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 66.04197864106584,
-        "sun_diff": 0.030258021065606044,
-        "length": 104.96597783243956
       }
     },
     {
@@ -52025,6 +51933,29 @@
         "slope": 112.37032806242729,
         "sun_diff": 1.6462178280814896,
         "length": 152.29400343764982
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.8688475,
+            14.2002651
+          ],
+          [
+            120.8697469,
+            14.2006124
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 68.2817261557635,
+        "sun_diff": 2.2604159501685785,
+        "length": 104.3936484067387
       }
     },
     {
@@ -56885,22 +56816,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            121.1510975,
-            14.7291276
+            121.1510606,
+            14.729114
           ],
           [
-            121.1519478,
-            14.7287392
+            121.1519532,
+            14.7286951
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
-        "slope": 115.28134527617158,
-        "sun_diff": 1.2548478000420857,
-        "length": 101.15975116588841
+        "type": "service",
+        "slope": 115.8848945076376,
+        "sun_diff": 1.8583970315081046,
+        "length": 106.72908312289752
       }
     },
     {
@@ -59898,29 +59829,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            120.9148385,
-            14.4455567
-          ],
-          [
-            120.9159989,
-            14.446009
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Daang Bakal",
-        "type": "residential",
-        "slope": 68.07495158581202,
-        "sun_diff": 2.0729298344332108,
-        "length": 134.73537787119736
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             120.9161193,
             14.4460555
           ],
@@ -59932,7 +59840,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Daang Bakal",
+        "name": "Daang Bakal Street",
         "type": "residential",
         "slope": 68.27561606384211,
         "sun_diff": 2.2735943124633025,
@@ -64222,29 +64130,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            120.9364835,
-            14.4281245
-          ],
-          [
-            120.9355123,
-            14.4276788
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Captain l. Bella Street",
-        "type": "residential",
-        "slope": 64.64555154723033,
-        "sun_diff": 1.3564702041484793,
-        "length": 115.77101447539236
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             120.934663,
             14.4272851
           ],
@@ -64256,7 +64141,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Captain l. Bella Street",
+        "name": "Captain I. Bella Street",
         "type": "residential",
         "slope": 64.3773562439111,
         "sun_diff": 1.6246655074677108,
@@ -65268,7 +65153,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Maragondon - Magallanes Road",
+        "name": "Maragondon-Magallanes Road",
         "type": "secondary",
         "slope": 64.73326853407866,
         "sun_diff": 1.288041671516254,
@@ -67929,8 +67814,8 @@
             14.4371015
           ],
           [
-            120.9737719,
-            14.4375336
+            120.9737732,
+            14.4375485
           ]
         ]
       },
@@ -67938,9 +67823,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 67.7272348385381,
-        "sun_diff": 1.7252130871592897,
-        "length": 126.80839089858014
+        "slope": 67.06225899841183,
+        "sun_diff": 1.0602372470330295,
+        "length": 127.57471648705499
       }
     },
     {
@@ -69597,6 +69482,121 @@
         "slope": 67.04366578831994,
         "sun_diff": 1.0223555827250266,
         "length": 157.10722834898726
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.8339332,
+            14.3678979
+          ],
+          [
+            120.8350262,
+            14.367412
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.65081119300527,
+        "sun_diff": 0.6539020963602695,
+        "length": 129.58095723382505
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.8345675,
+            14.3673354
+          ],
+          [
+            120.8336475,
+            14.367742
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.52369942925722,
+        "sun_diff": 0.5267903326122223,
+        "length": 108.9602430899676
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.1749179,
+            14.600464
+          ],
+          [
+            121.1737509,
+            14.5999136
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Sumulong Highway",
+        "type": "primary",
+        "slope": 64.01659011805535,
+        "sun_diff": 1.9658153300271977,
+        "length": 139.73822842923343
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.848315,
+            14.22441
+          ],
+          [
+            120.8471517,
+            14.2238603
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 64.01170899144748,
+        "sun_diff": 2.0096012141474375,
+        "length": 139.53612296031633
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.8430387,
+            14.2216986
+          ],
+          [
+            120.8416155,
+            14.2210604
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 65.17462177815045,
+        "sun_diff": 0.8466884274444624,
+        "length": 169.07490620095416
       }
     }
   ]

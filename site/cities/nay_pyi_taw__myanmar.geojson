@@ -673,12 +673,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            96.1592577,
-            19.8175964
-          ],
-          [
             96.1605845,
             19.8169896
+          ],
+          [
+            96.1592577,
+            19.8175964
           ]
         ]
       },
@@ -686,8 +686,8 @@
       "properties": {
         "name": "\u1000\u103b\u102d\u102f\u1004\u103a\u1038\u1010\u102f\u1036\u101c\u1019\u103a\u1038",
         "type": "residential",
-        "slope": 115.92574987731547,
-        "sun_diff": 1.2690445068472371,
+        "slope": 115.9258358591697,
+        "sun_diff": 1.2691304887014638,
         "length": 154.37609497776936
       }
     },
@@ -2755,7 +2755,7 @@
       "type": "Feature",
       "properties": {
         "name": "Thiriyadanar Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 62.82617180300602,
         "sun_diff": 2.501546352752456,
         "length": 158.62806928835795
@@ -2869,7 +2869,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Ka Thar Street",
+        "name": "Kathar Street",
         "type": "residential",
         "slope": 112.80925906956645,
         "sun_diff": 1.8474463009017796,
@@ -2893,7 +2893,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kalaw Street",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 117.53924769294346,
         "sun_diff": 2.8825423224752313,
         "length": 156.56386443012642
@@ -2916,7 +2916,7 @@
       "type": "Feature",
       "properties": {
         "name": "Thara Phe Street",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 62.56560925536547,
         "sun_diff": 2.776971392026951,
         "length": 104.31725444401901
@@ -4732,7 +4732,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "\u1019\u103c\u101d\u1010\u102e\u101c\u1019\u103a\u1038",
         "type": "residential",
         "slope": 115.615049295647,
         "sun_diff": 0.9583439251787667,
@@ -4755,7 +4755,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "\u1019\u103c\u101d\u1010\u102e\u101c\u1019\u103a\u1038",
         "type": "residential",
         "slope": 115.61134423176395,
         "sun_diff": 0.9546388612957202,
@@ -5606,7 +5606,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "NayKyar (2) Street",
+        "name": "Naykyar street (2)",
         "type": "residential",
         "slope": 113.31926040282039,
         "sun_diff": 1.3374449676478406,
@@ -8923,6 +8923,75 @@
         "slope": 113.99797120652227,
         "sun_diff": 0.6736103159582427,
         "length": 181.9810161937196
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.2099415,
+            19.6222914
+          ],
+          [
+            96.2116522,
+            19.6229682
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 67.21656524657018,
+        "sun_diff": 1.8445601442333555,
+        "length": 194.39811989329138
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.2115784,
+            19.6177279
+          ],
+          [
+            96.2128776,
+            19.6182373
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 67.40045443319224,
+        "sun_diff": 2.028449330855409,
+        "length": 147.44294257889922
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.2097147,
+            19.6165198
+          ],
+          [
+            96.208264,
+            19.6159491
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 67.3329217365984,
+        "sun_diff": 1.9609166342615652,
+        "length": 164.71909817772482
       }
     }
   ]
