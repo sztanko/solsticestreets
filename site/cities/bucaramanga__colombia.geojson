@@ -121,12 +121,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -73.1127601,
-            7.1194771
+            -73.1127331,
+            7.1194644
           ],
           [
-            -73.1136248,
-            7.1191085
+            -73.113623,
+            7.1190759
           ]
         ]
       },
@@ -134,9 +134,32 @@
       "properties": {
         "name": "Calle 44",
         "type": "residential",
-        "slope": 66.75227654870949,
-        "sun_diff": 0.26244268680835603,
-        "length": 103.8726607846183
+        "slope": 66.2525380578511,
+        "sun_diff": 0.23729580405003503,
+        "length": 107.30597379312175
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.113623,
+            7.1190759
+          ],
+          [
+            -73.1144609,
+            7.1187072
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle 44",
+        "type": "residential",
+        "slope": 66.08525417115811,
+        "sun_diff": 0.40457969074302014,
+        "length": 101.16617129045557
       }
     },
     {
@@ -282,29 +305,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -73.1131004,
-            7.1230063
-          ],
-          [
-            -73.1122463,
-            7.1233385
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle 37",
-        "type": "residential",
-        "slope": 68.59616800632233,
-        "sun_diff": 2.106334144421197,
-        "length": 101.25132364030388
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -73.1367788,
             7.1534642
           ],
@@ -363,7 +363,7 @@
       "type": "Feature",
       "properties": {
         "name": "Autopista Gir\u00f3n-Bucaramanga",
-        "type": "primary",
+        "type": "trunk",
         "slope": 68.42561921743959,
         "sun_diff": 1.9357853555384565,
         "length": 102.63637122433988
@@ -386,7 +386,7 @@
       "type": "Feature",
       "properties": {
         "name": "Autopista Gir\u00f3n-Bucaramanga",
-        "type": "primary",
+        "type": "trunk",
         "slope": 65.96867789025063,
         "sun_diff": 0.5211559716505008,
         "length": 133.09806221994242
@@ -604,22 +604,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -73.1285683,
-            7.1234116
+            -73.1219292,
+            7.1249845
           ],
           [
-            -73.1276102,
-            7.1237906
+            -73.12109,
+            7.125356
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle 28",
+        "name": "Calle 30",
         "type": "residential",
-        "slope": 68.26520524491298,
-        "sun_diff": 1.7753713830118443,
-        "length": 113.83979728142364
+        "slope": 65.9569688452514,
+        "sun_diff": 0.5328650166497368,
+        "length": 101.42268406837027
       }
     },
     {
@@ -627,12 +627,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -73.1261071,
-            7.1244178
+            -73.1285286,
+            7.1234564
           ],
           [
-            -73.1252255,
-            7.1247551
+            -73.1276008,
+            7.1238213
           ]
         ]
       },
@@ -640,9 +640,9 @@
       "properties": {
         "name": "Calle 28",
         "type": "residential",
-        "slope": 68.9145043080367,
-        "sun_diff": 2.424670446135565,
-        "length": 104.28555139381562
+        "slope": 68.37882143291907,
+        "sun_diff": 1.8889875710179354,
+        "length": 110.15273347696115
       }
     },
     {
@@ -650,22 +650,114 @@
         "type": "LineString",
         "coordinates": [
           [
-            -73.1194597,
-            7.1232076
+            -73.126121,
+            7.1244032
           ],
           [
-            -73.118597,
-            7.1235777
+            -73.1252276,
+            7.1247546
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle 28",
+        "type": "residential",
+        "slope": 68.377140358747,
+        "sun_diff": 1.8873064968458664,
+        "length": 106.06962165285432
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.1221878,
+            7.1259548
+          ],
+          [
+            -73.1213283,
+            7.1262955
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle 28",
+        "type": "residential",
+        "slope": 68.22431966727919,
+        "sun_diff": 1.734485805378057,
+        "length": 102.1528385157415
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.1125728,
+            7.1246904
+          ],
+          [
+            -73.1134896,
+            7.1242386
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle 35",
+        "type": "residential",
+        "slope": 63.589383249530414,
+        "sun_diff": 2.9004506123707188,
+        "length": 112.97996736740907
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.1141658,
+            7.126874
+          ],
+          [
+            -73.1130913,
+            7.1273076
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle 32",
+        "type": "tertiary",
+        "slope": 67.86945831486165,
+        "sun_diff": 1.3796244529605133,
+        "length": 128.02484261010508
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.1194799,
+            7.1232195
+          ],
+          [
+            -73.1186011,
+            7.1235644
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Calle 33",
-        "type": "residential",
-        "slope": 66.61927933785626,
-        "sun_diff": 0.1294454759551229,
-        "length": 103.73519132884937
+        "type": "tertiary",
+        "slope": 68.42021145047389,
+        "sun_diff": 1.9303775885727532,
+        "length": 104.30544402159373
       }
     },
     {
@@ -685,7 +777,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle 33",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 67.14554923964607,
         "sun_diff": 0.65571537774494,
         "length": 111.1750304609285
@@ -700,18 +792,18 @@
             7.1211401
           ],
           [
-            -73.1239666,
-            7.1214954
+            -73.1239619,
+            7.1214896
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Calle 33",
-        "type": "residential",
-        "slope": 67.4756320705576,
-        "sun_diff": 0.9857982086564618,
-        "length": 103.16474891730262
+        "type": "tertiary",
+        "slope": 67.91596159606513,
+        "sun_diff": 1.4261277341639982,
+        "length": 103.39984355151273
       }
     },
     {
@@ -719,35 +811,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -73.1224984,
-            7.1220353
+            -73.1255742,
+            7.1230101
           ],
           [
-            -73.1215856,
-            7.1223859
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle 33",
-        "type": "residential",
-        "slope": 68.83958724828659,
-        "sun_diff": 2.3497533863854585,
-        "length": 108.03135472105862
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -73.1255561,
-            7.1230161
-          ],
-          [
-            -73.1247097,
-            7.1233856
+            -73.1247126,
+            7.123414
           ]
         ]
       },
@@ -755,9 +824,9 @@
       "properties": {
         "name": "Calle 30",
         "type": "residential",
-        "slope": 66.25287589544743,
-        "sun_diff": 0.23695796645370137,
-        "length": 102.05950107274772
+        "slope": 64.71275494997829,
+        "sun_diff": 1.7770789119228425,
+        "length": 105.17395003536495
       }
     },
     {
@@ -765,8 +834,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -73.1272988,
-            7.1222381
+            -73.1272696,
+            7.1222604
           ],
           [
             -73.1264306,
@@ -778,9 +847,9 @@
       "properties": {
         "name": "Calle 30",
         "type": "residential",
-        "slope": 64.90851652711515,
-        "sun_diff": 1.5813173347859788,
-        "length": 105.80960630672202
+        "slope": 65.40340876430105,
+        "sun_diff": 1.0864250976000847,
+        "length": 101.84282816139384
       }
     },
     {
@@ -792,8 +861,8 @@
             7.1226415
           ],
           [
-            -73.1255561,
-            7.1230161
+            -73.1255742,
+            7.1230101
           ]
         ]
       },
@@ -801,55 +870,9 @@
       "properties": {
         "name": "Calle 30",
         "type": "residential",
-        "slope": 66.65058863999843,
-        "sun_diff": 0.16075477809729932,
-        "length": 105.1293879339005
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -73.1217987,
-            7.120338
-          ],
-          [
-            -73.120952,
-            7.1206581
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle 35",
-        "type": "residential",
-        "slope": 69.14343584183825,
-        "sun_diff": 2.6536019799371218,
-        "length": 100.0048104847598
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -73.1177772,
-            7.1217834
-          ],
-          [
-            -73.1168574,
-            7.1221739
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle 35",
-        "type": "residential",
-        "slope": 66.836334846552,
-        "sun_diff": 0.34650098465087353,
-        "length": 110.42144995643608
+        "slope": 66.55101971070636,
+        "sun_diff": 0.061185848805223486,
+        "length": 103.03091757451446
       }
     },
     {
@@ -873,29 +896,6 @@
         "slope": 65.60417712777607,
         "sun_diff": 0.8856567341250638,
         "length": 109.8730656597739
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -73.1172735,
-            7.1229231
-          ],
-          [
-            -73.1181584,
-            7.1225781
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle 34",
-        "type": "residential",
-        "slope": 68.5498108101728,
-        "sun_diff": 2.059976948271668,
-        "length": 104.93600373100166
       }
     },
     {
@@ -1409,22 +1409,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -73.1410619,
-            7.1222237
+            -73.130822,
+            7.1985326
           ],
           [
-            -73.1402148,
-            7.121883
+            -73.1299535,
+            7.198112
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle 26",
-        "type": "residential",
-        "slope": 112.06384105036537,
-        "sun_diff": 1.4474142755350385,
-        "length": 100.88394816023191
+        "name": null,
+        "type": "unclassified",
+        "slope": 116.01840458199834,
+        "sun_diff": 2.503385821865251,
+        "length": 106.65040785290537
       }
     },
     {
@@ -1689,8 +1689,8 @@
             7.0899544
           ],
           [
-            -73.1155023,
-            7.0903205
+            -73.1155358,
+            7.0903338
           ]
         ]
       },
@@ -1698,9 +1698,32 @@
       "properties": {
         "name": "Calle 92",
         "type": "residential",
-        "slope": 111.07349732633301,
-        "sun_diff": 2.4377579995673955,
-        "length": 113.25137515278692
+        "slope": 111.09835056409045,
+        "sun_diff": 2.412904761809955,
+        "length": 117.23371312425147
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.1155681,
+            7.0903467
+          ],
+          [
+            -73.1167949,
+            7.0908375
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle 92",
+        "type": "residential",
+        "slope": 111.95675972849617,
+        "sun_diff": 1.554495597404241,
+        "length": 146.00331885955617
       }
     },
     {
@@ -1731,12 +1754,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -73.1255215,
-            7.1254996
+            -73.1255252,
+            7.125517
           ],
           [
-            -73.126398,
-            7.1251629
+            -73.1264206,
+            7.1251533
           ]
         ]
       },
@@ -1744,9 +1767,9 @@
       "properties": {
         "name": "Calle 24",
         "type": "residential",
-        "slope": 68.83703134945304,
-        "sun_diff": 2.3471974875519095,
-        "length": 103.73628642103562
+        "slope": 67.73834240569951,
+        "sun_diff": 1.2485085437983798,
+        "length": 106.78546395150344
       }
     },
     {
@@ -1800,11 +1823,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            -73.1218302,
-            7.1230205
+            -73.1218372,
+            7.1230282
           ],
           [
-            -73.1227242,
+            -73.1227241,
             7.1226168
           ]
         ]
@@ -1813,9 +1836,9 @@
       "properties": {
         "name": "Calle 32",
         "type": "residential",
-        "slope": 65.5307719952126,
-        "sun_diff": 0.9590618666885291,
-        "length": 108.40894006132095
+        "slope": 64.94530630279246,
+        "sun_diff": 1.5445275591086727,
+        "length": 108.05608040687027
       }
     },
     {
@@ -1835,7 +1858,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle 36",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 67.07404997880272,
         "sun_diff": 0.5842161169015867,
         "length": 114.30197120196925
@@ -1858,7 +1881,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle 36",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 67.17724219655153,
         "sun_diff": 0.6874083346503994,
         "length": 115.22102800497943
@@ -1904,7 +1927,7 @@
       "type": "Feature",
       "properties": {
         "name": "Autopista Bucaramanga-Gir\u00f3n",
-        "type": "primary",
+        "type": "trunk",
         "slope": 69.40797741361405,
         "sun_diff": 2.918143551712916,
         "length": 103.35151759957292
@@ -1927,7 +1950,7 @@
       "type": "Feature",
       "properties": {
         "name": "Autopista Bucaramanga-Gir\u00f3n",
-        "type": "primary",
+        "type": "trunk",
         "slope": 68.9752380712844,
         "sun_diff": 2.485404209383262,
         "length": 135.97902795984564
@@ -1950,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "name": "Autopista Bucaramanga-Gir\u00f3n",
-        "type": "primary",
+        "type": "trunk",
         "slope": 69.40927061661748,
         "sun_diff": 2.919436754716344,
         "length": 133.97285496722884
@@ -1996,10 +2019,33 @@
       "type": "Feature",
       "properties": {
         "name": "Autopista Bucaramanga-Gir\u00f3n",
-        "type": "primary",
+        "type": "trunk",
         "slope": 65.43830811752011,
         "sun_diff": 1.0515257443810242,
         "length": 159.32293443684046
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.063746,
+            7.1122268
+          ],
+          [
+            -73.064624,
+            7.1125631
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "V\u00eda Bucaramanga - C\u00facuta",
+        "type": "trunk",
+        "slope": 111.10658603820093,
+        "sun_diff": 2.404669287699477,
+        "length": 103.87721314296243
       }
     },
     {
@@ -2023,29 +2069,6 @@
         "slope": 64.72840645346744,
         "sun_diff": 1.7614274084336898,
         "length": 109.42960669313436
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -73.1303527,
-            7.1216065
-          ],
-          [
-            -73.1314344,
-            7.1210992
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Calle 31",
-        "type": "primary",
-        "slope": 64.70319070536516,
-        "sun_diff": 1.7866431565359733,
-        "length": 132.0521329220733
       }
     },
     {
@@ -2179,8 +2202,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "V\u00eda Bucaramanga-Cucuta",
-        "type": "primary",
+        "name": "V\u00eda Bucaramanga - C\u00facuta",
+        "type": "trunk",
         "slope": 111.1402477545503,
         "sun_diff": 2.3710075713501055,
         "length": 124.29053553133454
@@ -2249,7 +2272,7 @@
       "type": "Feature",
       "properties": {
         "name": "Autopista Bucaramanga-Gir\u00f3n",
-        "type": "primary",
+        "type": "trunk",
         "slope": 66.43716794423702,
         "sun_diff": 0.05266591766411466,
         "length": 101.39257379313983
@@ -2272,7 +2295,7 @@
       "type": "Feature",
       "properties": {
         "name": "Autopista Bucaramanga-Gir\u00f3n",
-        "type": "primary",
+        "type": "trunk",
         "slope": 68.65996991298817,
         "sun_diff": 2.1701360510870416,
         "length": 146.62440989337574
@@ -2341,7 +2364,7 @@
       "type": "Feature",
       "properties": {
         "name": "Autopista Gir\u00f3n-Bucaramanga",
-        "type": "primary",
+        "type": "trunk",
         "slope": 65.84240747218931,
         "sun_diff": 0.6474263897118249,
         "length": 102.46520514018823
@@ -2364,7 +2387,7 @@
       "type": "Feature",
       "properties": {
         "name": "Autopista Gir\u00f3n-Bucaramanga",
-        "type": "primary",
+        "type": "trunk",
         "slope": 68.71032660508803,
         "sun_diff": 2.2204927431868953,
         "length": 133.72094449308105
@@ -2414,29 +2437,6 @@
         "slope": 66.47609333736105,
         "sun_diff": 0.013740524540082788,
         "length": 118.55032343961211
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -73.1157893,
-            7.0904297
-          ],
-          [
-            -73.1167949,
-            7.0908375
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle 92",
-        "type": "residential",
-        "slope": 112.2276033197659,
-        "sun_diff": 1.2836520061345027,
-        "length": 119.90781431951127
       }
     }
   ]
