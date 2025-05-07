@@ -29,8 +29,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -115.4887396,
-            32.6614651
+            -115.4886483,
+            32.6614248
           ],
           [
             -115.4867323,
@@ -42,9 +42,9 @@
       "properties": {
         "name": "Boulevard Adolfo L\u00f3pez Mateos",
         "type": "primary",
-        "slope": 117.66217242767368,
-        "sun_diff": 0.09856586720471228,
-        "length": 212.2249524105645
+        "slope": 117.66188577343857,
+        "sun_diff": 0.09827921296960085,
+        "length": 202.57162077484017
       }
     },
     {
@@ -309,8 +309,8 @@
             32.6607798
           ],
           [
-            -115.4885868,
-            32.661609
+            -115.4885103,
+            32.6615748
           ]
         ]
       },
@@ -318,9 +318,9 @@
       "properties": {
         "name": "Boulevard Adolfo L\u00f3pez Mateos",
         "type": "primary",
-        "slope": 118.01175097268765,
-        "sun_diff": 0.4481444122186815,
-        "length": 196.38367472528432
+        "slope": 118.01355770918431,
+        "sun_diff": 0.4499511487153427,
+        "length": 188.27272573571332
       }
     },
     {
@@ -1260,7 +1260,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calzada Nuevo Mundo",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 114.94786472548117,
         "sun_diff": 2.58407707799563,
         "length": 119.11665464277529
@@ -2149,8 +2149,8 @@
             32.5862535
           ],
           [
-            -115.5788732,
-            32.5854327
+            -115.5789371,
+            32.5854359
           ]
         ]
       },
@@ -2158,9 +2158,9 @@
       "properties": {
         "name": "Avenida Tonatiuh",
         "type": "residential",
-        "slope": 117.22424742835045,
-        "sun_diff": 0.3076943751263457,
-        "length": 199.56775632151297
+        "slope": 117.93958224211639,
+        "sun_diff": 0.4076404386395893,
+        "length": 194.09472121942252
       }
     },
     {
@@ -2295,7 +2295,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Murla",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 117.06239236930438,
         "sun_diff": 0.46954943417242134,
         "length": 128.74413159145604
@@ -2835,6 +2835,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -115.5745626,
+            32.5903219
+          ],
+          [
+            -115.5734445,
+            32.5898014
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Tonatiuh",
+        "type": "residential",
+        "slope": 118.9213766185072,
+        "sun_diff": 1.3894348150303983,
+        "length": 119.71448410668198
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -115.5734445,
             32.5898014
           ],
@@ -2847,7 +2870,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Tonatiuh",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 119.40898090360307,
         "sun_diff": 1.877039100126268,
         "length": 131.94684251907296
@@ -2862,18 +2885,18 @@
             32.5892189
           ],
           [
-            -115.570974,
-            32.5886277
+            -115.5711587,
+            32.5887155
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Avenida Tonatiuh",
-        "type": "unclassified",
-        "slope": 119.4249433491214,
-        "sun_diff": 1.8930015456446085,
-        "length": 133.8513951454197
+        "type": "residential",
+        "slope": 119.42384926115324,
+        "sun_diff": 1.8919074576764388,
+        "length": 113.9768243945739
       }
     },
     {
@@ -2893,33 +2916,10 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Quetzalcoatl",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 119.8623126486687,
         "sun_diff": 2.330370845191908,
         "length": 133.7209926579434
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5742664,
-            32.5885631
-          ],
-          [
-            -115.5730374,
-            32.5879669
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Quetzalcoatl",
-        "type": "unclassified",
-        "slope": 119.93132587288599,
-        "sun_diff": 2.3993840694091944,
-        "length": 132.9061328003449
       }
     },
     {
@@ -2939,7 +2939,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Quetzalcoatl",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 119.9091646176289,
         "sun_diff": 2.3772228141521055,
         "length": 131.61244543067653
@@ -2954,41 +2954,18 @@
             32.5877752
           ],
           [
-            -115.5727741,
-            32.5883693
+            -115.57272,
+            32.5883431
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Calle Tonanzin",
-        "type": "unclassified",
-        "slope": 119.95717154400063,
-        "sun_diff": 2.4252297405238323,
-        "length": 132.33498819272924
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5727741,
-            32.5883693
-          ],
-          [
-            -115.5740028,
-            32.5889662
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Tonanzin",
-        "type": "unclassified",
-        "slope": 119.96673500900351,
-        "sun_diff": 2.4347932055267165,
-        "length": 132.920193732386
+        "type": "residential",
+        "slope": 119.96029467573985,
+        "sun_diff": 2.428352872263048,
+        "length": 126.4869966215648
       }
     },
     {
@@ -3008,7 +2985,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Tonanzin",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 119.54546212145902,
         "sun_diff": 2.013520317982227,
         "length": 131.14448930259192
@@ -3031,7 +3008,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida L\u00e1zaro C\u00e1rdenas",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 119.60902170903015,
         "sun_diff": 2.0770799055533473,
         "length": 125.91251201455658
@@ -5365,8 +5342,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -115.5749367,
-            32.5899614
+            -115.5749179,
+            32.589967
           ],
           [
             -115.5739321,
@@ -5378,124 +5355,9 @@
       "properties": {
         "name": "Calle Aztlan",
         "type": "residential",
-        "slope": 119.2591776265835,
-        "sun_diff": 1.727235823106696,
-        "length": 107.9158968045872
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5737305,
-            32.5893702
-          ],
-          [
-            -115.5724969,
-            32.5887928
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Aztlan",
-        "type": "residential",
-        "slope": 119.0532172732199,
-        "sun_diff": 1.5212754697431023,
-        "length": 132.25096418869046
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5724969,
-            32.5887928
-          ],
-          [
-            -115.5712622,
-            32.5881919
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Aztlan",
-        "type": "residential",
-        "slope": 120.01135727195211,
-        "sun_diff": 2.4794154684753096,
-        "length": 133.62980106076827
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5737892,
-            32.591652
-          ],
-          [
-            -115.5725936,
-            32.5910803
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Palenque",
-        "type": "unclassified",
-        "slope": 119.57648591728201,
-        "sun_diff": 2.044544113805216,
-        "length": 128.83281312575724
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5725936,
-            32.5910803
-          ],
-          [
-            -115.5713815,
-            32.590497
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Palenque",
-        "type": "unclassified",
-        "slope": 119.73352477744925,
-        "sun_diff": 2.2015829739724495,
-        "length": 130.81560682494376
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5711816,
-            32.5903049
-          ],
-          [
-            -115.5701681,
-            32.589819
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Palenque",
-        "type": "unclassified",
-        "slope": 119.64079297321356,
-        "sun_diff": 2.1088511697367665,
-        "length": 109.28174171871922
+        "slope": 120.01346864514903,
+        "sun_diff": 2.4815268416722347,
+        "length": 106.69249610616858
       }
     },
     {
@@ -5515,33 +5377,10 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Texcoco",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 120.16891745620086,
         "sun_diff": 2.636975652724061,
         "length": 130.78383134243725
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5719184,
-            32.5896767
-          ],
-          [
-            -115.5706761,
-            32.589068
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Texcoco",
-        "type": "unclassified",
-        "slope": 120.17964912357624,
-        "sun_diff": 2.6477073200994425,
-        "length": 134.68009910686587
       }
     },
     {
@@ -5572,75 +5411,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -115.5776418,
-            32.5859275
-          ],
-          [
-            -115.5764338,
-            32.5853395
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Coatlicue",
-        "type": "unclassified",
-        "slope": 120.01454667910417,
-        "sun_diff": 2.4826048756273735,
-        "length": 130.74847031583653
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5764338,
-            32.5853395
-          ],
-          [
-            -115.5753565,
-            32.5848121
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Coatlicue",
-        "type": "unclassified",
-        "slope": 120.1570668877325,
-        "sun_diff": 2.6251250842557,
-        "length": 116.77096575116184
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5773789,
-            32.5863173
-          ],
-          [
-            -115.576171,
-            32.5857299
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Machu Pichu",
-        "type": "unclassified",
-        "slope": 119.99137817654957,
-        "sun_diff": 2.4594363730727764,
-        "length": 130.7065554419508
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -115.576171,
             32.5857299
           ],
@@ -5653,7 +5423,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Machu Pichu",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 118.80174680638336,
         "sun_diff": 1.2698050029065655,
         "length": 113.79680484886208
@@ -5691,8 +5461,8 @@
             32.5861387
           ],
           [
-            -115.5771187,
-            32.5867263
+            -115.5771133,
+            32.5866947
           ]
         ]
       },
@@ -5700,32 +5470,9 @@
       "properties": {
         "name": "Calle Montealban",
         "type": "residential",
-        "slope": 119.69081831120297,
-        "sun_diff": 2.158876507726177,
-        "length": 131.95284360605308
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.576719,
-            32.5849161
-          ],
-          [
-            -115.5757039,
-            32.5844144
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle  Tazumal",
-        "type": "unclassified",
-        "slope": 120.39429197803454,
-        "sun_diff": 2.862350174557747,
-        "length": 110.29574062219476
+        "slope": 118.45356693255951,
+        "sun_diff": 0.9216251290827131,
+        "length": 129.8025031490477
       }
     },
     {
@@ -5745,33 +5492,10 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Coyucan",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 119.67190107976103,
         "sun_diff": 2.1399592762842303,
         "length": 132.41062500141956
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5745438,
-            32.5881614
-          ],
-          [
-            -115.5733057,
-            32.5875571
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Coyucan",
-        "type": "unclassified",
-        "slope": 120.08300716389147,
-        "sun_diff": 2.5510653604146682,
-        "length": 134.09569089920728
       }
     },
     {
@@ -5818,29 +5542,6 @@
         "slope": 119.83691466341924,
         "sun_diff": 2.3049728599424384,
         "length": 109.79144029562026
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5760539,
-            32.5883286
-          ],
-          [
-            -115.5748214,
-            32.5877437
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Tlaloc",
-        "type": "residential",
-        "slope": 119.38975027407841,
-        "sun_diff": 1.8578084706016114,
-        "length": 132.56942970009803
       }
     },
     {
@@ -6324,29 +6025,6 @@
         "slope": 63.45484705358862,
         "sun_diff": 0.9547452519453827,
         "length": 167.4280415151278
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5772573,
-            32.5841165
-          ],
-          [
-            -115.5784939,
-            32.5846994
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Mixcoac",
-        "type": "unclassified",
-        "slope": 119.22393267248577,
-        "sun_diff": 1.6919908690089756,
-        "length": 132.7996954774537
       }
     },
     {
@@ -7182,8 +6860,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -115.5740656,
-            32.5912636
+            -115.5738483,
+            32.5911455
           ],
           [
             -115.5728561,
@@ -7195,9 +6873,9 @@
       "properties": {
         "name": "Calle Tlacolpan",
         "type": "residential",
-        "slope": 120.30896503411626,
-        "sun_diff": 2.7770232306394576,
-        "length": 131.29451785991438
+        "slope": 119.73991138227731,
+        "sun_diff": 2.2079695788005154,
+        "length": 107.08961326143603
       }
     },
     {
@@ -7209,8 +6887,8 @@
             32.5906679
           ],
           [
-            -115.5716502,
-            32.5900863
+            -115.5716475,
+            32.5900682
           ]
         ]
       },
@@ -7218,32 +6896,9 @@
       "properties": {
         "name": "Calle Tlacolpan",
         "type": "residential",
-        "slope": 119.78796287013296,
-        "sun_diff": 2.25602106665616,
-        "length": 130.21779608362948
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5716502,
-            32.5900863
-          ],
-          [
-            -115.5703991,
-            32.5894829
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Tlacolpan",
-        "type": "residential",
-        "slope": 119.7878067447557,
-        "sun_diff": 2.255864941278901,
-        "length": 135.09935522140825
+        "slope": 120.4947770959449,
+        "sun_diff": 2.9628352924680996,
+        "length": 131.44758066999196
       }
     },
     {
@@ -8424,8 +8079,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -115.489504,
-            32.6620285
+            -115.4896225,
+            32.6620792
           ],
           [
             -115.4907015,
@@ -8437,9 +8092,9 @@
       "properties": {
         "name": "Boulevard Adolfo L\u00f3pez Mateos",
         "type": "primary",
-        "slope": 116.92916867269722,
-        "sun_diff": 0.6344378877717531,
-        "length": 125.77247551532697
+        "slope": 116.92793771237015,
+        "sun_diff": 0.6356688480988169,
+        "length": 113.32525219406888
       }
     },
     {
@@ -8758,7 +8413,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Tiahunaco",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 118.2949210472726,
         "sun_diff": 0.7629792437957974,
         "length": 111.90818594008947
@@ -8781,33 +8436,10 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Tiahunaco",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 119.32698926731982,
         "sun_diff": 1.7950474638430194,
         "length": 132.91933140904231
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.5763131,
-            32.5879383
-          ],
-          [
-            -115.5750386,
-            32.5874111
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Tlaloc",
-        "type": "residential",
-        "slope": 116.14830808766936,
-        "sun_diff": 1.3836337158074343,
-        "length": 133.06271494639938
       }
     },
     {
@@ -9107,6 +8739,29 @@
         "slope": 119.74171545671163,
         "sun_diff": 2.2097736532348335,
         "length": 243.8524838748784
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.5711816,
+            32.5903049
+          ],
+          [
+            -115.5701681,
+            32.589819
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Palenque",
+        "type": "residential",
+        "slope": 119.64079297321356,
+        "sun_diff": 2.1088511697367665,
+        "length": 109.28174171871922
       }
     }
   ]

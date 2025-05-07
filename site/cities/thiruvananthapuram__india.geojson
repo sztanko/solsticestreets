@@ -87,7 +87,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mullassery - Kummi Road",
-        "type": "unclassified",
+        "type": "residential",
         "slope": 68.46186581828661,
         "sun_diff": 2.037765696957706,
         "length": 101.2253011651692
@@ -512,8 +512,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.8954499,
-            8.6794051
+            76.8954925,
+            8.679429
           ],
           [
             76.896714,
@@ -525,9 +525,9 @@
       "properties": {
         "name": "Attingal - Nedumangad Road",
         "type": "primary",
-        "slope": 114.29133047596508,
-        "sun_diff": 0.7109946167991694,
-        "length": 152.4967875756424
+        "slope": 115.9599820613499,
+        "sun_diff": 2.3796462021839915,
+        "length": 149.3843087080269
       }
     },
     {
@@ -754,7 +754,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 115.72140652448752,
         "sun_diff": 2.1410706653216067,
         "length": 110.64140857231986
@@ -777,7 +777,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 113.00425283998214,
         "sun_diff": 0.5760830191837698,
         "length": 100.67050006016352
@@ -788,22 +788,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.9409101,
-            8.6625965
+            76.924873,
+            8.6834786
           ],
           [
-            76.9417673,
-            8.6622257
+            76.9258215,
+            8.6838388
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
-        "slope": 113.63237186406175,
-        "sun_diff": 0.05203600489583948,
-        "length": 102.88707970442226
+        "type": "secondary",
+        "slope": 68.9851548150614,
+        "sun_diff": 2.5659997506915886,
+        "length": 111.72310353814123
       }
     },
     {
@@ -988,6 +988,29 @@
         "slope": 66.25447205046044,
         "sun_diff": 0.15965599468026426,
         "length": 104.11005473538056
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.8956251,
+            8.700495
+          ],
+          [
+            76.8947086,
+            8.7001242
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "secondary",
+        "slope": 67.74109992354929,
+        "sun_diff": 1.3219448591794674,
+        "length": 108.882877815397
       }
     },
     {
@@ -1628,7 +1651,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 110.65976332363732,
         "sun_diff": 2.9156274785695047,
         "length": 115.38561359944056
@@ -1777,12 +1800,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.0666809,
-            8.5928157
+            77.0666483,
+            8.5928648
           ],
           [
-            77.0654417,
-            8.5933514
+            77.0657374,
+            8.5932096
           ]
         ]
       },
@@ -1790,9 +1813,9 @@
       "properties": {
         "name": null,
         "type": "tertiary",
-        "slope": 113.61510240024435,
-        "sun_diff": 0.03971159803752755,
-        "length": 148.74503548118156
+        "slope": 110.9480592775106,
+        "sun_diff": 2.627331524696231,
+        "length": 107.27204969281536
       }
     },
     {
@@ -1835,33 +1858,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 65.17371025654538,
         "sun_diff": 1.2503898647835285,
         "length": 132.53746620923368
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.8144187,
-            8.60644
-          ],
-          [
-            76.8133198,
-            8.606031
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 69.37222114802617,
-        "sun_diff": 2.9481210266972653,
-        "length": 129.13303785192312
       }
     },
     {
@@ -2191,29 +2191,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.0424069,
-            8.5034546
-          ],
-          [
-            77.0414301,
-            8.503926
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "tachottukavu moongodu road",
-        "type": "unclassified",
-        "slope": 116.01057142665778,
-        "sun_diff": 2.440043719139993,
-        "length": 119.56521965736663
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             77.0371789,
             8.5052514
           ],
@@ -2226,7 +2203,7 @@
       "type": "Feature",
       "properties": {
         "name": "tachottukavu moongodu road",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 110.95534537603066,
         "sun_diff": 2.6151823314871194,
         "length": 148.5075472081723
@@ -2375,6 +2352,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            77.1965391,
+            8.3832691
+          ],
+          [
+            77.195556,
+            8.3836678
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 112.29041367750236,
+        "sun_diff": 1.2753260674072493,
+        "length": 116.91852250567216
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.1854138,
+            8.3927865
+          ],
+          [
+            77.184317,
+            8.3932105
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 111.34378700677027,
+        "sun_diff": 2.2219527381393362,
+        "length": 129.57760103545573
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             77.0565699,
             8.4619468
           ],
@@ -2414,29 +2437,6 @@
         "slope": 114.95019023064847,
         "sun_diff": 1.3796625231306905,
         "length": 102.96860474546901
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            77.1984655,
-            8.4190953
-          ],
-          [
-            77.1974402,
-            8.419484
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 110.96877447715747,
-        "sun_diff": 2.5969652677521395,
-        "length": 120.81585845520367
       }
     },
     {
@@ -2985,7 +2985,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 63.98640703946157,
         "sun_diff": 2.4376930818673372,
         "length": 172.32881962932373
@@ -3104,29 +3104,6 @@
         "slope": 114.63410975256735,
         "sun_diff": 1.05871212017135,
         "length": 114.8798874647658
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.8494128,
-            8.5870433
-          ],
-          [
-            76.8485668,
-            8.5873839
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Karichara Kadavu Road",
-        "type": "tertiary",
-        "slope": 112.15443720309477,
-        "sun_diff": 1.420960429301232,
-        "length": 100.4626204318436
       }
     },
     {
@@ -3744,7 +3721,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 64.03432839637921,
         "sun_diff": 2.3946348196387532,
         "length": 115.94677006375673
@@ -5158,29 +5135,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.7753631,
-            8.6708268
-          ],
-          [
-            76.7764,
-            8.67044
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 110.67386914077474,
-        "sun_diff": 2.906473548580351,
-        "length": 121.86348097538047
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             76.7854375,
             8.705587
           ],
@@ -5285,7 +5239,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 111.130968213487,
         "sun_diff": 2.4444225887198314,
         "length": 100.1528122906894
@@ -5342,29 +5296,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.972836,
-            8.6575346
-          ],
-          [
-            76.9738484,
-            8.6580302
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Thekkada - Cheeranikkara Road",
-        "type": "tertiary",
-        "slope": 63.6566471463741,
-        "sun_diff": 2.7625079179957197,
-        "length": 124.22672727845966
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             77.0555935,
             8.6246628
           ],
@@ -5400,7 +5331,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 114.75831536234065,
         "sun_diff": 1.1779795031747398,
         "length": 141.13840285474635
@@ -5584,7 +5515,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 115.33023112739286,
         "sun_diff": 1.7548403251860378,
         "length": 170.34106035212392
@@ -6055,29 +5986,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.8255336,
-            8.6232481
-          ],
-          [
-            76.8265509,
-            8.622864
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 110.90108950952663,
-        "sun_diff": 2.674308122869377,
-        "length": 119.75520606681754
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             76.9112633,
             8.5062686
           ],
@@ -6519,8 +6427,8 @@
             8.4165936
           ],
           [
-            77.020171,
-            8.4170055
+            77.0202713,
+            8.4170143
           ]
         ]
       },
@@ -6528,9 +6436,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 111.66485829106998,
-        "sun_diff": 1.9008814538396308,
-        "length": 124.10202238416817
+        "slope": 114.16366092154644,
+        "sun_diff": 0.5979211766368309,
+        "length": 114.31549109486063
       }
     },
     {
@@ -7297,29 +7205,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.8701599,
-            8.5494772
-          ],
-          [
-            76.8710353,
-            8.5498134
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 68.77537561199858,
-        "sun_diff": 2.3464123959806216,
-        "length": 103.29524410483903
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             76.8715107,
             8.5584025
           ],
@@ -7416,8 +7301,8 @@
             8.5500352
           ],
           [
-            76.8611899,
-            8.5504039
+            76.8612688,
+            8.550422
           ]
         ]
       },
@@ -7425,9 +7310,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 66.0805554870152,
-        "sun_diff": 0.34354463431370164,
-        "length": 101.14754108374534
+        "slope": 66.95551317925009,
+        "sun_diff": 0.5314130579211849,
+        "length": 109.90979033874568
       }
     },
     {
@@ -7527,8 +7412,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.8263248,
-            8.6106717
+            76.8262627,
+            8.6106416
           ],
           [
             76.8253819,
@@ -7540,9 +7425,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 63.89087849256461,
-        "sun_diff": 2.533221628764295,
-        "length": 115.4804581499681
+        "slope": 63.891317336623246,
+        "sun_diff": 2.5327827847056597,
+        "length": 107.8744394871212
       }
     },
     {
@@ -7589,6 +7474,52 @@
         "slope": 64.14860416393904,
         "sun_diff": 2.2803590520789214,
         "length": 102.13878025003474
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.9197117,
+            8.5897357
+          ],
+          [
+            76.9208024,
+            8.5901873
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 67.27881871377627,
+        "sun_diff": 0.8547185924473695,
+        "length": 130.0499679374221
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.9209012,
+            8.5897111
+          ],
+          [
+            76.9198585,
+            8.5893057
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 68.53482954633157,
+        "sun_diff": 2.11072942500266,
+        "length": 123.22539145001919
       }
     },
     {
@@ -8436,7 +8367,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "residential",
         "slope": 113.2223364820826,
         "sun_diff": 0.35306115031340823,
         "length": 105.08007760651991
@@ -8976,22 +8907,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.8799382,
-            8.6941229
+            76.8803917,
+            8.6929911
           ],
           [
-            76.8810278,
-            8.6936888
+            76.8813896,
+            8.692551
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
-        "slope": 111.9510969520357,
-        "sun_diff": 1.6292389071302154,
-        "length": 129.16773055549828
+        "type": "residential",
+        "slope": 114.04407996110035,
+        "sun_diff": 0.46374410193443794,
+        "length": 120.14604288488783
       }
     },
     {
@@ -9137,6 +9068,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            77.0198108,
+            8.4972243
+          ],
+          [
+            77.020795,
+            8.4967449
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 116.22032414409063,
+        "sun_diff": 2.649796436572842,
+        "length": 120.68955681349328
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             77.1632485,
             8.4292538
           ],
@@ -9229,6 +9183,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            76.9584662,
+            8.6402819
+          ],
+          [
+            76.9573939,
+            8.640725
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 112.68336249473387,
+        "sun_diff": 0.8920283074729554,
+        "length": 127.80365484368058
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.944927,
+            8.578076
+          ],
+          [
+            76.9462036,
+            8.5775227
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Tiger Hills Road",
+        "type": "residential",
+        "slope": 113.6687766487398,
+        "sun_diff": 0.09337901634378909,
+        "length": 153.30333633733807
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             76.9866996,
             8.6745103
           ],
@@ -9241,7 +9241,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 115.01889791201245,
         "sun_diff": 1.4385620528465353,
         "length": 117.16920106752154
@@ -9360,29 +9360,6 @@
         "slope": 111.20142503364912,
         "sun_diff": 2.3643147112604908,
         "length": 175.64969078837314
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            77.0713128,
-            8.4963678
-          ],
-          [
-            77.0704644,
-            8.4967676
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 115.4763808944328,
-        "sun_diff": 1.9058531869150102,
-        "length": 103.38450504274765
       }
     },
     {
@@ -11552,29 +11529,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.8914016,
-            8.6545768
-          ],
-          [
-            76.8926899,
-            8.654017
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 113.72693838577399,
-        "sun_diff": 0.1466025266080777,
-        "length": 154.74599550657416
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             76.888935,
             8.7903638
           ],
@@ -11736,29 +11690,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.9693241,
-            8.690332
-          ],
-          [
-            76.9677829,
-            8.6909799
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 113.0385837662761,
-        "sun_diff": 0.5417520928898085,
-        "length": 184.1463962955325
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             76.950077,
             8.7034843
           ],
@@ -11874,52 +11805,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.9235845,
-            8.6289043
-          ],
-          [
-            76.9226643,
-            8.6292962
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 113.30454071923933,
-        "sun_diff": 0.2708569131566776,
-        "length": 110.18446814881369
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.9229914,
-            8.6358712
-          ],
-          [
-            76.9238497,
-            8.6354682
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 115.40382063195872,
-        "sun_diff": 1.8284229995627186,
-        "length": 104.48971358218924
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             77.0307068,
             8.3674198
           ],
@@ -11959,6 +11844,29 @@
         "slope": 64.12078428091729,
         "sun_diff": 2.3081789351006705,
         "length": 104.25361902008717
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.944958,
+            8.6930519
+          ],
+          [
+            76.945908,
+            8.6926494
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.2003366794714,
+        "sun_diff": 0.3799991796945079,
+        "length": 113.64460769662159
       }
     },
     {
@@ -12442,29 +12350,6 @@
         "slope": 69.3051796566931,
         "sun_diff": 2.8762164406751367,
         "length": 120.23481606983266
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            77.020795,
-            8.4967449
-          ],
-          [
-            77.0198108,
-            8.4972243
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 116.22035253189023,
-        "sun_diff": 2.6498248243724447,
-        "length": 120.68955681349328
       }
     },
     {
@@ -14178,18 +14063,18 @@
             8.678784
           ],
           [
-            76.9605911,
-            8.6791446
+            76.9606102,
+            8.6791761
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Thekkada - Cheeranikkara Road",
-        "type": "unclassified",
-        "slope": 112.8347334681302,
-        "sun_diff": 0.7456023910357175,
-        "length": 103.35517689348498
+        "type": "tertiary",
+        "slope": 115.08804993928399,
+        "sun_diff": 1.5077140801180775,
+        "length": 102.85884921081019
       }
     },
     {
@@ -14374,29 +14259,6 @@
         "slope": 63.44366040756631,
         "sun_diff": 2.9804397137625926,
         "length": 144.5986542852586
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.8995257,
-            8.5633108
-          ],
-          [
-            76.9005347,
-            8.5637884
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 64.42064052337565,
-        "sun_diff": 2.0034595979532526,
-        "length": 123.03893857696686
       }
     },
     {
@@ -14749,29 +14611,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.8256942,
-            8.6762476
-          ],
-          [
-            76.8271774,
-            8.6769073
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 65.77553680368547,
-        "sun_diff": 0.6436182606843488,
-        "length": 178.83536482190715
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             76.8061293,
             8.6765875
           ],
@@ -14972,29 +14811,6 @@
         "slope": 113.42487893591695,
         "sun_diff": 0.15546375343814134,
         "length": 100.72466453809814
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.9014705,
-            8.6939045
-          ],
-          [
-            76.9004754,
-            8.6935093
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 68.11162046429772,
-        "sun_diff": 1.6924653999278974,
-        "length": 117.91324526174566
       }
     },
     {
@@ -15531,6 +15347,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            76.9259545,
+            8.6934913
+          ],
+          [
+            76.9274232,
+            8.6941893
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 64.3229299450656,
+        "sun_diff": 2.096225119304222,
+        "length": 179.18015820537778
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             76.9532214,
             8.6999204
           ],
@@ -15692,8 +15531,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            76.8760969,
-            8.6814409
+            76.8761441,
+            8.681472
           ],
           [
             76.8769989,
@@ -15704,10 +15543,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
-        "slope": 65.34880897898765,
-        "sun_diff": 1.0703460853821696,
-        "length": 109.12499113541584
+        "type": "residential",
+        "slope": 65.89374139958534,
+        "sun_diff": 0.5254136647844803,
+        "length": 102.96990946178916
       }
     },
     {
@@ -15796,7 +15635,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 115.68003909044722,
         "sun_diff": 2.0997032312813104,
         "length": 118.2768125340597
@@ -15819,7 +15658,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 112.0079645614046,
         "sun_diff": 1.5723712977613076,
         "length": 103.91743389568438
@@ -15911,7 +15750,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 111.12807851686344,
         "sun_diff": 2.447319115532565,
         "length": 111.30570740566753
@@ -16612,29 +16451,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            77.0500352,
-            8.495171
-          ],
-          [
-            77.0511913,
-            8.4946298
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 115.32903774702214,
-        "sun_diff": 1.7585100395043582,
-        "length": 140.70897501538664
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             77.0859792,
             8.472272
           ],
@@ -16651,29 +16467,6 @@
         "slope": 63.59336499255838,
         "sun_diff": 2.8355982234595842,
         "length": 113.54610077794807
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            77.071089,
-            8.4980014
-          ],
-          [
-            77.0701661,
-            8.4976416
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 68.4863629004997,
-        "sun_diff": 2.0573996844817373,
-        "length": 109.13009020346058
       }
     },
     {
@@ -16716,33 +16509,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 64.84415572924613,
         "sun_diff": 1.5799443920827798,
         "length": 192.32529531285473
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            77.0829901,
-            8.571742
-          ],
-          [
-            77.0821402,
-            8.5720884
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 112.40056530384598,
-        "sun_diff": 1.1748254983608462,
-        "length": 101.10758886554393
       }
     },
     {
@@ -17444,8 +17214,8 @@
             8.6616914
           ],
           [
-            76.915791,
-            8.6621953
+            76.9159251,
+            8.6621242
           ]
         ]
       },
@@ -17453,9 +17223,9 @@
       "properties": {
         "name": "MC Road",
         "type": "primary",
-        "slope": 111.74241460682137,
-        "sun_diff": 1.8379212523445432,
-        "length": 151.3054265654521
+        "slope": 110.94118538657264,
+        "sun_diff": 2.639150472593272,
+        "length": 134.6922929346294
       }
     },
     {
@@ -17525,6 +17295,98 @@
         "slope": 115.81648266487841,
         "sun_diff": 2.245954957360624,
         "length": 105.53661039293176
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.8458131,
+            8.5893796
+          ],
+          [
+            76.8448602,
+            8.589016
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 68.89840350694516,
+        "sun_diff": 2.4743033856162526,
+        "length": 112.33496894891489
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.8494128,
+            8.5870433
+          ],
+          [
+            76.8485668,
+            8.5873839
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Karichara Kadavu Road",
+        "type": "tertiary",
+        "slope": 112.15443720309477,
+        "sun_diff": 1.420960429301232,
+        "length": 100.4626204318436
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.972836,
+            8.6575346
+          ],
+          [
+            76.9738484,
+            8.6580302
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Thekkada - Cheeranikkara Road",
+        "type": "tertiary",
+        "slope": 63.6566471463741,
+        "sun_diff": 2.7625079179957197,
+        "length": 124.22672727845966
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.7956732,
+            8.6758595
+          ],
+          [
+            76.7947834,
+            8.6762709
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 115.06564607152959,
+        "sun_diff": 1.485303382174493,
+        "length": 108.01200315494918
       }
     }
   ]
