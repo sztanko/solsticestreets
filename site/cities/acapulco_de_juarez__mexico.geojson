@@ -52,52 +52,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -99.829858,
-            16.8037537
-          ],
-          [
-            -99.828845,
-            16.8042094
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Miguel Alem\u00e1n",
-        "type": "secondary",
-        "slope": 64.83031196833377,
-        "sun_diff": 0.9130915003116797,
-        "length": 119.18039178807592
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -99.8282141,
-            16.8044875
-          ],
-          [
-            -99.8272022,
-            16.8049621
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Miguel Alem\u00e1n",
-        "type": "secondary",
-        "slope": 63.897829938104564,
-        "sun_diff": 1.8455735305408894,
-        "length": 119.98397686168629
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -99.9119731,
             16.8558947
           ],
@@ -137,52 +91,6 @@
         "slope": 112.80717671799832,
         "sun_diff": 1.46199054915256,
         "length": 120.08749301978345
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -99.8269191,
-            16.8051865
-          ],
-          [
-            -99.8282283,
-            16.8045705
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Miguel Alem\u00e1n",
-        "type": "secondary",
-        "slope": 63.82563516533489,
-        "sun_diff": 1.9177683033105666,
-        "length": 155.3316948083776
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -99.8282283,
-            16.8045705
-          ],
-          [
-            -99.8291384,
-            16.8041624
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Miguel Alem\u00e1n",
-        "type": "secondary",
-        "slope": 64.90093853618865,
-        "sun_diff": 0.8424649324568065,
-        "length": 107.01203222413756
       }
     },
     {
@@ -604,29 +512,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -99.8951668,
-            16.8652937
-          ],
-          [
-            -99.8941248,
-            16.865792
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Canchas Durango",
-        "type": "tertiary",
-        "slope": 63.448290417713395,
-        "sun_diff": 2.283173880262865,
-        "length": 123.9937936085152
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -99.8949234,
             16.8666638
           ],
@@ -685,7 +570,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Durango",
-        "type": "tertiary",
+        "type": "primary",
         "slope": 63.36759065309218,
         "sun_diff": 2.3638736448840802,
         "length": 120.8660520670306
@@ -1593,8 +1478,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -99.8358975,
-            16.8792918
+            -99.8359424,
+            16.8793113
           ],
           [
             -99.8348719,
@@ -1605,10 +1490,10 @@
       "type": "Feature",
       "properties": {
         "name": "Margarita Maza de Ju\u00e1rez",
-        "type": "residential",
-        "slope": 114.71436423926409,
-        "sun_diff": 0.44519697211320874,
-        "length": 120.17002574781519
+        "type": "tertiary",
+        "slope": 114.70166630811642,
+        "sun_diff": 0.4324990409655385,
+        "length": 125.41818435999302
       }
     },
     {
@@ -1628,7 +1513,7 @@
       "type": "Feature",
       "properties": {
         "name": "Margarita Maza de Ju\u00e1rez",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 114.34335637426662,
         "sun_diff": 0.07418910711574256,
         "length": 129.52391358549912
@@ -2111,7 +1996,7 @@
       "type": "Feature",
       "properties": {
         "name": "Libramiento Norte de Acapulco",
-        "type": "primary",
+        "type": "trunk",
         "slope": 117.00038458944229,
         "sun_diff": 2.7191756987846816,
         "length": 117.20861426762157
@@ -2134,7 +2019,7 @@
       "type": "Feature",
       "properties": {
         "name": "Margarita Maza de Ju\u00e1rez",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 111.58982181818732,
         "sun_diff": 2.6793454489635593,
         "length": 122.69872696237422
@@ -2640,7 +2525,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Costera de las Palmas",
-        "type": "residential",
+        "type": "primary",
         "slope": 111.32341359656155,
         "sun_diff": 2.9338076697309674,
         "length": 118.62239667461766
@@ -2663,7 +2548,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Costera de las Palmas",
-        "type": "residential",
+        "type": "primary",
         "slope": 112.14542379436875,
         "sun_diff": 2.111797471923765,
         "length": 107.96681572308852
@@ -3525,8 +3410,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -99.8849876,
-            16.8743963
+            -99.8849862,
+            16.8743952
           ],
           [
             -99.8869363,
@@ -3537,10 +3422,10 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Adolfo Ruiz Cortines",
-        "type": "secondary",
-        "slope": 64.17464540545592,
-        "sun_diff": 1.5568188925203401,
-        "length": 230.43604215929875
+        "type": "primary",
+        "slope": 64.21815446424665,
+        "sun_diff": 1.5133098337296076,
+        "length": 230.51694284563428
       }
     },
     {
@@ -3560,7 +3445,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Adolfo Ruiz Cortines",
-        "type": "secondary",
+        "type": "primary",
         "slope": 63.50581681564148,
         "sun_diff": 2.2256474823347787,
         "length": 105.99198014505863
@@ -3583,7 +3468,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Adolfo Ruiz Cortines",
-        "type": "secondary",
+        "type": "primary",
         "slope": 114.96589739411687,
         "sun_diff": 0.6967301269659885,
         "length": 133.767278482637
@@ -3606,7 +3491,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Adolfo Ruiz Cortines",
-        "type": "secondary",
+        "type": "primary",
         "slope": 115.3883960771795,
         "sun_diff": 1.1192288100286163,
         "length": 131.3217361245075
@@ -3629,7 +3514,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Adolfo Ruiz Cortines",
-        "type": "secondary",
+        "type": "primary",
         "slope": 64.19813851484378,
         "sun_diff": 1.533325783132483,
         "length": 142.90251206053904
@@ -3652,7 +3537,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Adolfo Ruiz Cortines",
-        "type": "secondary",
+        "type": "primary",
         "slope": 64.30778344340149,
         "sun_diff": 1.4236808545747692,
         "length": 149.08943340635957
@@ -3675,7 +3560,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle R\u00edo Coyuca",
-        "type": "tertiary",
+        "type": "primary",
         "slope": 114.87999219213853,
         "sun_diff": 0.6108249249876536,
         "length": 110.11450043511537
@@ -4054,8 +3939,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            -99.8353919,
-            16.8806385
+            -99.836441,
+            16.8810281
+          ],
+          [
+            -99.8354281,
+            16.8806484
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Francisco Gonz\u00e1lez Bocanegra",
+        "type": "residential",
+        "slope": 111.39245540238804,
+        "sun_diff": 2.8767118647628394,
+        "length": 115.78737955049566
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -99.8354281,
+            16.8806484
           ],
           [
             -99.8342527,
@@ -4067,9 +3975,9 @@
       "properties": {
         "name": "Calle Francisco Gonz\u00e1lez Bocanegra",
         "type": "residential",
-        "slope": 115.06343748446159,
-        "sun_diff": 0.7942702173107108,
-        "length": 133.8574919028015
+        "slope": 114.79954855577404,
+        "sun_diff": 0.5303812886231611,
+        "length": 137.81565744081217
       }
     },
     {
@@ -4273,7 +4181,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Bella Vista",
-        "type": "residential",
+        "type": "secondary",
         "slope": 114.252064039428,
         "sun_diff": 0.01710322772287043,
         "length": 128.11335811455345
@@ -4388,7 +4296,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle del Rastro",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 66.29839675716735,
         "sun_diff": 0.5669324591910936,
         "length": 136.11322403591188
@@ -4583,8 +4491,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -99.8351457,
-            16.8812867
+            -99.8351663,
+            16.8813003
           ],
           [
             -99.8339501,
@@ -4596,9 +4504,9 @@
       "properties": {
         "name": "Calle Aldama",
         "type": "residential",
-        "slope": 112.96458774503694,
-        "sun_diff": 1.30457952211394,
-        "length": 138.2096334547495
+        "slope": 113.18322783043828,
+        "sun_diff": 1.085939436712593,
+        "length": 140.8196913220918
       }
     },
     {
@@ -5128,6 +5036,121 @@
         "slope": 112.49245310330895,
         "sun_diff": 1.7767141638419304,
         "length": 105.94922010528076
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -99.8951668,
+            16.8652937
+          ],
+          [
+            -99.8941248,
+            16.865792
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Canchas Durango",
+        "type": "primary",
+        "slope": 63.448290417713395,
+        "sun_diff": 2.283173880262865,
+        "length": 123.9937936085152
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -99.8269191,
+            16.8051865
+          ],
+          [
+            -99.8282283,
+            16.8045705
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Miguel Alem\u00e1n",
+        "type": "primary",
+        "slope": 63.82563516533489,
+        "sun_diff": 1.9177683033105666,
+        "length": 155.3316948083776
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -99.8282283,
+            16.8045705
+          ],
+          [
+            -99.8291384,
+            16.8041624
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Miguel Alem\u00e1n",
+        "type": "primary",
+        "slope": 64.90093853618865,
+        "sun_diff": 0.8424649324568065,
+        "length": 107.01203222413756
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -99.829858,
+            16.8037537
+          ],
+          [
+            -99.828845,
+            16.8042094
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Miguel Alem\u00e1n",
+        "type": "primary",
+        "slope": 64.83031196833377,
+        "sun_diff": 0.9130915003116797,
+        "length": 119.18039178807592
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -99.8282141,
+            16.8044875
+          ],
+          [
+            -99.8272022,
+            16.8049621
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Miguel Alem\u00e1n",
+        "type": "primary",
+        "slope": 63.897829938104564,
+        "sun_diff": 1.8455735305408894,
+        "length": 119.98397686168629
       }
     }
   ]

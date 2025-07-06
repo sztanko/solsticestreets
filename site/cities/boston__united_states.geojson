@@ -420,29 +420,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -71.0477093,
-            42.3102753
-          ],
-          [
-            -71.0495463,
-            42.3095034
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Grampian Way",
-        "type": "residential",
-        "slope": 60.39470217078201,
-        "sun_diff": 1.9732888131469224,
-        "length": 173.7936059332308
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -71.085199,
             42.306346
           ],
@@ -459,29 +436,6 @@
         "slope": 120.86593467354228,
         "sun_diff": 0.7138504396508694,
         "length": 100.81654616919003
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -71.0291199,
-            42.3658732
-          ],
-          [
-            -71.0302246,
-            42.3663548
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Maverick Street",
-        "type": "tertiary",
-        "slope": 120.5425185368529,
-        "sun_diff": 1.0915392594851738,
-        "length": 105.41282617771569
       }
     },
     {
@@ -1482,8 +1436,8 @@
             42.390289
           ],
           [
-            -71.0124068,
-            42.3908934
+            -71.0124026,
+            42.3908916
           ]
         ]
       },
@@ -1491,9 +1445,9 @@
       "properties": {
         "name": "Leyden Street",
         "type": "residential",
-        "slope": 119.94090222800111,
-        "sun_diff": 1.6931555683369623,
-        "length": 134.69581755245372
+        "slope": 119.94035276805337,
+        "sun_diff": 1.6937050282846968,
+        "length": 134.29690641808347
       }
     },
     {
@@ -2686,7 +2640,7 @@
       "type": "Feature",
       "properties": {
         "name": "Merrymount Parkway",
-        "type": "secondary",
+        "type": "primary",
         "slope": 120.82582816875825,
         "sun_diff": 0.7539569444349041,
         "length": 103.3870380287606
@@ -2962,7 +2916,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southern Artery",
-        "type": "secondary",
+        "type": "primary",
         "slope": 121.64954645191517,
         "sun_diff": 0.06976133872201729,
         "length": 101.83419025746836
@@ -2985,7 +2939,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southern Artery",
-        "type": "secondary",
+        "type": "primary",
         "slope": 121.38258123717358,
         "sun_diff": 0.19720387601957157,
         "length": 140.1180562543665
@@ -3928,7 +3882,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sumner Street",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 120.5400104792642,
         "sun_diff": 1.0940473170738727,
         "length": 161.89482657374558
@@ -3951,7 +3905,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sumner Street",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 120.49764155058733,
         "sun_diff": 1.1364162457507376,
         "length": 105.07020051949756
@@ -4192,6 +4146,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -71.087258,
+            42.3638747
+          ],
+          [
+            -71.085107,
+            42.3629643
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Broadway",
+        "type": "primary",
+        "slope": 119.80456054351043,
+        "sun_diff": 1.829497252827636,
+        "length": 203.73102836076924
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -71.0505675,
             42.354196
           ],
@@ -4273,7 +4250,7 @@
       "type": "Feature",
       "properties": {
         "name": "Quincy Shore Drive",
-        "type": "primary",
+        "type": "secondary",
         "slope": 61.22071974267851,
         "sun_diff": 2.7993063850434226,
         "length": 107.27090987352769
@@ -4438,6 +4415,29 @@
         "slope": 57.43548710541208,
         "sun_diff": 0.9316672294564512,
         "length": 162.48919448442763
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.1331704,
+            42.3493169
+          ],
+          [
+            -71.1342252,
+            42.3488155
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Commonwealth Avenue",
+        "type": "primary",
+        "slope": 57.25147695528406,
+        "sun_diff": 1.1699637231077133,
+        "length": 103.09676178389411
       }
     },
     {
@@ -5266,29 +5266,6 @@
         "slope": 59.47544125610281,
         "sun_diff": 1.0000694040246003,
         "length": 143.33244923694005
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -71.1331704,
-            42.3493169
-          ],
-          [
-            -71.1342252,
-            42.3488155
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Commonwealth Avenue",
-        "type": "primary",
-        "slope": 57.25147695528406,
-        "sun_diff": 1.1699637231077133,
-        "length": 103.09676178389411
       }
     },
     {

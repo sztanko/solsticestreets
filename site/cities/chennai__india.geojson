@@ -2329,6 +2329,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            80.1542965,
+            13.0532666
+          ],
+          [
+            80.1521825,
+            13.0522356
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Chennai Bypass Expressway",
+        "type": "trunk",
+        "slope": 63.4058425167396,
+        "sun_diff": 2.715352375277604,
+        "length": 256.1670489574694
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             80.1522344,
             13.116636
           ],
@@ -2989,6 +3012,29 @@
         "slope": 113.59242170117321,
         "sun_diff": 0.27727512218029915,
         "length": 104.5799675204873
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1858944,
+            13.1381664
+          ],
+          [
+            80.1897636,
+            13.1400264
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Chennai Bypass",
+        "type": "trunk",
+        "slope": 63.72700679721072,
+        "sun_diff": 2.3941880948064806,
+        "length": 467.3868421309816
       }
     },
     {
@@ -4859,8 +4905,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.1497279,
-            13.1187641
+            80.1497467,
+            13.1187576
           ],
           [
             80.1486307,
@@ -4872,9 +4918,9 @@
       "properties": {
         "name": "Pallam Street",
         "type": "residential",
-        "slope": 113.18701344482002,
-        "sun_diff": 0.6912484357526836,
-        "length": 129.30046761881297
+        "slope": 113.12718790895684,
+        "sun_diff": 0.7510739716158668,
+        "length": 131.4572493499452
       }
     },
     {
@@ -4932,8 +4978,8 @@
             12.9371718
           ],
           [
-            80.2408209,
-            12.9367455
+            80.240804,
+            12.9367574
           ]
         ]
       },
@@ -4941,9 +4987,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 111.17245922988346,
-        "sun_diff": 2.6887681588992365,
-        "length": 131.28555765489523
+        "slope": 110.91834142795221,
+        "sun_diff": 2.9428859608304805,
+        "length": 129.10035852265204
       }
     },
     {
@@ -6768,6 +6814,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            80.1715366,
+            13.2131995
+          ],
+          [
+            80.1700916,
+            13.2125892
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 66.54700755627277,
+        "sun_diff": 0.4344460233664904,
+        "length": 170.56302777744546
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1698752,
+            13.2128886
+          ],
+          [
+            80.1710633,
+            13.2134069
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 65.86255518246017,
+        "sun_diff": 0.25000635044611386,
+        "length": 140.9798855251087
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             80.2111337,
             13.0644824
           ],
@@ -8125,29 +8217,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.2385269,
-            12.9312303
-          ],
-          [
-            80.2394807,
-            12.9308731
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 111.0190811089098,
-        "sun_diff": 2.8421462798728925,
-        "length": 110.77116187215624
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             80.2972566,
             13.1795096
           ],
@@ -9356,7 +9425,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 67.40379162474736,
         "sun_diff": 1.2912300918410722,
         "length": 122.04655344483581
@@ -9379,7 +9448,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.53046978897288,
         "sun_diff": 0.4179082560665961,
         "length": 247.92407995364405
@@ -9402,7 +9471,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 67.09442679670505,
         "sun_diff": 0.9818652637987668,
         "length": 160.95169418775336
@@ -9425,7 +9494,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.8083343605004,
         "sun_diff": 0.6957728275941122,
         "length": 263.607090855992
@@ -9448,7 +9517,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.4868319987869,
         "sun_diff": 0.6257295341193867,
         "length": 485.95938803254865
@@ -9471,7 +9540,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.47604416692516,
         "sun_diff": 0.6365173659811205,
         "length": 165.90419308384827
@@ -9482,8 +9551,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.17502,
-            13.2152009
+            80.1755899,
+            13.2154559
           ],
           [
             80.1766827,
@@ -9494,10 +9563,10 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
-        "slope": 65.31467467746441,
-        "sun_diff": 0.7978868554418739,
-        "length": 198.15203370437598
+        "type": "primary",
+        "slope": 65.31421740007897,
+        "sun_diff": 0.7983441328273102,
+        "length": 130.2347046187671
       }
     },
     {
@@ -9517,7 +9586,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.03427802472314,
         "sun_diff": 0.07828350818314789,
         "length": 110.90403630761018
@@ -9540,7 +9609,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.9478441970187,
         "sun_diff": 0.8352826641124125,
         "length": 212.98994607524003
@@ -9563,7 +9632,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 67.56784033722022,
         "sun_diff": 1.4552788043139344,
         "length": 162.3897934152401
@@ -9586,7 +9655,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.63378979441308,
         "sun_diff": 0.478771738493208,
         "length": 111.34657222683512
@@ -9609,7 +9678,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 65.78538142552375,
         "sun_diff": 0.32718010738253156,
         "length": 260.58619009145144
@@ -9632,7 +9701,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 67.96839234727307,
         "sun_diff": 1.855830814366783,
         "length": 248.80993432791522
@@ -9655,7 +9724,7 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.79992672855701,
         "sun_diff": 0.6873651956507274,
         "length": 232.31791771756357
@@ -9678,10 +9747,447 @@
       "type": "Feature",
       "properties": {
         "name": "ORR Service Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 66.7579426905169,
         "sun_diff": 0.6453811576106148,
         "length": 121.20341093737284
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1918546,
+            13.2217856
+          ],
+          [
+            80.190875,
+            13.221385
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 67.2138365302356,
+        "sun_diff": 1.1012749973293126,
+        "length": 115.05151305751833
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1898588,
+            13.2209693
+          ],
+          [
+            80.188134,
+            13.2202445
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 66.65195431472742,
+        "sun_diff": 0.5393927818211353,
+        "length": 203.42195983593484
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.188134,
+            13.2202445
+          ],
+          [
+            80.186213,
+            13.2194692
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 67.48219569926448,
+        "sun_diff": 1.3696341663581961,
+        "length": 225.17758400181043
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1860754,
+            13.2197849
+          ],
+          [
+            80.1880898,
+            13.2206125
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 67.11893953736734,
+        "sun_diff": 1.0063780044610553,
+        "length": 236.75242745004297
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1880898,
+            13.2206125
+          ],
+          [
+            80.1897336,
+            13.2212928
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 66.96836683972901,
+        "sun_diff": 0.8558053068227309,
+        "length": 193.4103970914472
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1834575,
+            13.2186911
+          ],
+          [
+            80.1847635,
+            13.2192592
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 65.92335747177898,
+        "sun_diff": 0.18920406112729893,
+        "length": 154.89262064256232
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1849008,
+            13.2189359
+          ],
+          [
+            80.183504,
+            13.2183275
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 65.89525206209734,
+        "sun_diff": 0.21730947080894225,
+        "length": 165.69821002125192
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1812515,
+            13.217728
+          ],
+          [
+            80.1834575,
+            13.2186911
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 65.84546372718569,
+        "sun_diff": 0.2670978057205957,
+        "length": 261.79338284376314
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.183504,
+            13.2183275
+          ],
+          [
+            80.1814103,
+            13.2174268
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 66.15928872830662,
+        "sun_diff": 0.04672719540033654,
+        "length": 247.86174481860226
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1849419,
+            13.2193315
+          ],
+          [
+            80.1860754,
+            13.2197849
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 67.66280071827353,
+        "sun_diff": 1.5502391853672464,
+        "length": 132.6950345907695
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.186213,
+            13.2194692
+          ],
+          [
+            80.1850741,
+            13.2190105
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 67.52417451725293,
+        "sun_diff": 1.4116129843466467,
+        "length": 133.46047332577334
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1743162,
+            13.2147888
+          ],
+          [
+            80.1756385,
+            13.2153736
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 65.56815758363439,
+        "sun_diff": 0.5444039492718957,
+        "length": 157.2669788663867
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1756385,
+            13.2153736
+          ],
+          [
+            80.1771935,
+            13.2160614
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 65.56539341013172,
+        "sun_diff": 0.5471681227745648,
+        "length": 184.94658220962535
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1814103,
+            13.2174268
+          ],
+          [
+            80.1804872,
+            13.2170624
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 67.92753952445202,
+        "sun_diff": 1.8149779915457316,
+        "length": 107.86163759028767
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1774068,
+            13.2157714
+          ],
+          [
+            80.1744657,
+            13.2144711
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 65.57537048004926,
+        "sun_diff": 0.5371910528570254,
+        "length": 349.77818479790824
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1798756,
+            13.2168065
+          ],
+          [
+            80.1774068,
+            13.2157714
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 66.69948915557191,
+        "sun_diff": 0.5869276226656268,
+        "length": 291.069953012578
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1771935,
+            13.2160614
+          ],
+          [
+            80.1797439,
+            13.2171244
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 66.82236907055497,
+        "sun_diff": 0.7098075376486861,
+        "length": 300.41317714292904
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1744657,
+            13.2144711
+          ],
+          [
+            80.1718628,
+            13.2133396
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 65.9378538381377,
+        "sun_diff": 0.1747076947685855,
+        "length": 308.677681184938
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.171738,
+            13.2136868
+          ],
+          [
+            80.1743162,
+            13.2147888
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Outer Ring Road",
+        "type": "trunk",
+        "slope": 66.29582460029735,
+        "sun_diff": 0.18326306739106712,
+        "length": 304.90319889689766
       }
     },
     {
@@ -10724,29 +11230,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.1632517,
-            12.9805206
-          ],
-          [
-            80.1623664,
-            12.9801614
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 67.39425417640177,
-        "sun_diff": 1.264507887543715,
-        "length": 103.94117798090242
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             80.162648,
             12.9809367
           ],
@@ -10954,6 +11437,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            80.2030992,
+            13.1468678
+          ],
+          [
+            80.2040214,
+            13.1472474
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Chennai Bypass",
+        "type": "trunk",
+        "slope": 67.08602582684256,
+        "sun_diff": 0.9648309348253576,
+        "length": 108.44490304193846
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2034318,
+            13.1468625
+          ],
+          [
+            80.2024681,
+            13.1465007
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Chennai Bypass",
+        "type": "trunk",
+        "slope": 68.91674359701082,
+        "sun_diff": 2.795548704993621,
+        "length": 111.87163074037893
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             80.2017396,
             13.1460401
           ],
@@ -11023,6 +11552,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            80.193479,
+            13.1411725
+          ],
+          [
+            80.1944828,
+            13.141577
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Chennai Bypass",
+        "type": "trunk",
+        "slope": 67.51994552014787,
+        "sun_diff": 1.3987506281306707,
+        "length": 117.66996608924792
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1945367,
+            13.1414309
+          ],
+          [
+            80.1935944,
+            13.1410452
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Chennai Bypass",
+        "type": "trunk",
+        "slope": 67.20179066810323,
+        "sun_diff": 1.080595776086028,
+        "length": 110.7168573720507
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             80.1876568,
             13.0135682
           ],
@@ -11039,6 +11614,236 @@
         "slope": 113.39323137215487,
         "sun_diff": 0.47646545119863504,
         "length": 106.93244153218104
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.2771295,
+            13.1088228
+          ],
+          [
+            80.2757408,
+            13.1082261
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 66.19398173738958,
+        "sun_diff": 0.07278684537237723,
+        "length": 164.43004633031305
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1623664,
+            12.9801614
+          ],
+          [
+            80.1632517,
+            12.9805206
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 67.39422479500038,
+        "sun_diff": 1.264478506142325,
+        "length": 103.94117798090242
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1897891,
+            13.1399066
+          ],
+          [
+            80.1856539,
+            13.1378981
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Chennai Bypass",
+        "type": "trunk",
+        "slope": 63.49168753564183,
+        "sun_diff": 2.6295073563753704,
+        "length": 500.5389884221474
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.3113815,
+            13.1603672
+          ],
+          [
+            80.3081813,
+            13.1616919
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Tiruvottiyur Southern Breakwater Access Road",
+        "type": "service",
+        "slope": 113.0308270920844,
+        "sun_diff": 0.8560749777883814,
+        "length": 376.6272467250416
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.3107172,
+            13.1670386
+          ],
+          [
+            80.3131645,
+            13.1660181
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Tiruvottiyur Northern Breakwater Access Road",
+        "type": "service",
+        "slope": 113.18288379753594,
+        "sun_diff": 0.7040182723368389,
+        "length": 288.33952089322327
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.303203,
+            13.1782642
+          ],
+          [
+            80.302237,
+            13.1786716
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.41968206125665,
+        "sun_diff": 0.467220008616124,
+        "length": 114.01074024948666
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.3030813,
+            13.1779921
+          ],
+          [
+            80.302122,
+            13.178402
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.69416392686927,
+        "sun_diff": 0.19273814300350978,
+        "length": 113.45683558958115
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.3024853,
+            13.1792755
+          ],
+          [
+            80.3033807,
+            13.178897
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.468092008994,
+        "sun_diff": 0.41881006087876926,
+        "length": 105.71676510104973
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.3043542,
+            13.1787924
+          ],
+          [
+            80.3034935,
+            13.1791617
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.78193291672557,
+        "sun_diff": 0.10496915314720923,
+        "length": 101.86364431355294
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.3034935,
+            13.1791617
+          ],
+          [
+            80.3026026,
+            13.179544
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.78429478952478,
+        "sun_diff": 0.10260728034799627,
+        "length": 105.43956035245702
       }
     }
   ]
