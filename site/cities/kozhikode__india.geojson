@@ -294,7 +294,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kakkancheri - Kottappuram Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 111.59221127954336,
         "sun_diff": 2.137876477175084,
         "length": 188.33584791556086
@@ -317,7 +317,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kakkancheri - Kottappuram Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 66.29752387278532,
         "sun_diff": 0.028113875778842612,
         "length": 173.5186240164052
@@ -1973,7 +1973,7 @@
       "type": "Feature",
       "properties": {
         "name": "Perumanna Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 67.89993829269366,
         "sun_diff": 1.630528295687185,
         "length": 156.3379592982988
@@ -2513,6 +2513,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            75.8335565,
+            11.2498982
+          ],
+          [
+            75.8320549,
+            11.2505663
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 114.40108296144223,
+        "sun_diff": 0.6709952047237806,
+        "length": 179.88097295312463
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8312855,
+            11.2509172
+          ],
+          [
+            75.8290582,
+            11.2519632
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 115.58653050161166,
+        "sun_diff": 1.849393989669764,
+        "length": 269.39952577680583
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             75.8021815,
             11.2187996
           ],
@@ -2904,35 +2950,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.8323017,
-            11.2503401
+            75.8291249,
+            11.252059
           ],
           [
-            75.8313418,
-            11.2507778
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 114.93463654763889,
-        "sun_diff": 1.19750003569699,
-        "length": 115.48189921509395
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            75.8311949,
-            11.2511862
-          ],
-          [
-            75.8323017,
-            11.2506414
+            75.8313478,
+            11.2510073
           ]
         ]
       },
@@ -2940,9 +2963,32 @@
       "properties": {
         "name": "Kannur-Calicut-Valanchery Highway",
         "type": "trunk",
-        "slope": 116.65089935560886,
-        "sun_diff": 2.9137628436669587,
-        "length": 135.09648697117225
+        "slope": 115.75226021054948,
+        "sun_diff": 2.0151236986075816,
+        "length": 269.2414615253801
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8320952,
+            11.2506756
+          ],
+          [
+            75.8335946,
+            11.2499902
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Kannur-Calicut-Valanchery Highway",
+        "type": "trunk",
+        "slope": 114.98888950187276,
+        "sun_diff": 1.2517529899308641,
+        "length": 180.46681348598122
       }
     },
     {
@@ -3433,22 +3479,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.830963,
-            11.2509864
+            75.8335242,
+            11.2497966
           ],
           [
-            75.8291872,
-            11.2517986
+            75.8319926,
+            11.2505043
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Kannur-Calicut-Valanchery Highway",
-        "type": "trunk",
-        "slope": 115.00127130901012,
-        "sun_diff": 1.2641347970682233,
-        "length": 213.75478735622625
+        "name": null,
+        "type": "tertiary",
+        "slope": 115.22601760682136,
+        "sun_diff": 1.495929850102911,
+        "length": 184.70027302470464
       }
     },
     {
@@ -3456,12 +3502,35 @@
         "type": "LineString",
         "coordinates": [
           [
-            75.8290958,
-            11.2519158
+            75.8319926,
+            11.2505043
           ],
           [
-            75.8276022,
-            11.2526277
+            75.8290395,
+            11.2518775
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 115.3663745027601,
+        "sun_diff": 1.629237990818197,
+        "length": 356.5344356885527
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8290582,
+            11.2519632
+          ],
+          [
+            75.8272562,
+            11.2528303
           ]
         ]
       },
@@ -3469,9 +3538,78 @@
       "properties": {
         "name": "Kannur-Calicut-Valanchery Highway",
         "type": "trunk",
-        "slope": 115.91863376783277,
-        "sun_diff": 2.181497255890875,
-        "length": 181.16135083451258
+        "slope": 116.13346544135939,
+        "sun_diff": 2.3963289294174928,
+        "length": 218.96815486799414
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8272703,
+            11.2529544
+          ],
+          [
+            75.8291249,
+            11.252059
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Kannur-Calicut-Valanchery Highway",
+        "type": "trunk",
+        "slope": 116.20925442654863,
+        "sun_diff": 2.472117914606727,
+        "length": 225.50638257323826
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8280297,
+            11.2526905
+          ],
+          [
+            75.8290476,
+            11.2522037
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 115.99444184408372,
+        "sun_diff": 2.2573053321418257,
+        "length": 123.54238684472156
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8301455,
+            11.2516838
+          ],
+          [
+            75.8328804,
+            11.2504254
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 115.13322804616672,
+        "sun_diff": 1.3960915342248228,
+        "length": 329.55801465327943
       }
     }
   ]
