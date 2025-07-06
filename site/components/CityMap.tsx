@@ -61,9 +61,8 @@ const StreetStatsControl = (props: {
     const p0 = xyFunc(R, deg);
     const p1 = xyFunc(R, deg + step);
     // console.log([maxLength, R, deg, p0, p1]);
-    const shape = `M0,0 L${p0[0]},${p0[1]} L${p1[0]},${
-      p1[1]
-    } L${-p1[0]},${-p1[1]} L${-p0[0]},${-p0[1]} L0,0`;
+    const shape = `M0,0 L${p0[0]},${p0[1]} L${p1[0]},${p1[1]
+      } L${-p1[0]},${-p1[1]} L${-p0[0]},${-p0[1]} L0,0`;
     // const shape = `M0,0 L${p0[0]},${p0[1]} L${p1[0]},${p1[1]} L0.0`;
     return <path d={shape} key={i} id={`path_${i}`} />;
   });
@@ -150,9 +149,10 @@ const CityMap = (props: {
     >
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        // url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
-        // url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+      // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      // url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
+      // url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
       />
       <GeoJSON
         data={props.streets}
