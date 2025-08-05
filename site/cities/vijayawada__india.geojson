@@ -972,8 +972,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.6236407,
-            16.5306035
+            80.6236236,
+            16.5306119
           ],
           [
             80.6247223,
@@ -985,9 +985,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 115.5056309094436,
-        "sun_diff": 1.2842134947802748,
-        "length": 127.78766085544186
+        "slope": 115.53127418069249,
+        "sun_diff": 1.3098567660291707,
+        "length": 129.83570687264162
       }
     },
     {
@@ -1812,7 +1812,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 113.82129367611086,
         "sun_diff": 0.4001237385524661,
         "length": 171.10597255918498
@@ -2812,6 +2812,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            80.6385082,
+            16.5263838
+          ],
+          [
+            80.6398542,
+            16.5258283
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.2912512960907,
+        "sun_diff": 0.9301661185726147,
+        "length": 156.2652400042141
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             80.6509288,
             16.5007265
           ],
@@ -3421,7 +3444,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "gudavalli-uppuluru road",
         "type": "secondary",
         "slope": 114.62344762744357,
         "sun_diff": 0.40203021278024664,
@@ -6830,29 +6853,6 @@
         "slope": 112.96983741787449,
         "sun_diff": 1.2632527900803865,
         "length": 123.15922995370792
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.5253807,
-            16.5932564
-          ],
-          [
-            80.5241723,
-            16.5937151
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 111.60794315302664,
-        "sun_diff": 2.6251470549282345,
-        "length": 138.5490818725582
       }
     },
     {
@@ -13166,8 +13166,8 @@
             16.590772
           ],
           [
-            80.5182126,
-            16.590295
+            80.5193239,
+            16.5898246
           ]
         ]
       },
@@ -13175,32 +13175,9 @@
       "properties": {
         "name": null,
         "type": "trunk",
-        "slope": 114.21115306248882,
-        "sun_diff": 0.02193714546605463,
-        "length": 129.37454532267486
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.5182126,
-            16.590295
-          ],
-          [
-            80.5199319,
-            16.5895697
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 113.75815521538664,
-        "sun_diff": 0.4749349925682367,
-        "length": 200.24691710389328
+        "slope": 114.02034225282074,
+        "sun_diff": 0.2127479551341338,
+        "length": 258.87750802670575
       }
     },
     {
@@ -16122,6 +16099,29 @@
         "slope": 113.02769125548167,
         "sun_diff": 1.1821489885384722,
         "length": 132.79032853863836
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.5169095,
+            16.5910234
+          ],
+          [
+            80.5181663,
+            16.5904895
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 113.90589236382226,
+        "sun_diff": 0.32719784413261266,
+        "length": 146.54570811437216
       }
     }
   ]

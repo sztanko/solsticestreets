@@ -397,12 +397,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -66.1456588,
-            -17.3624184
+            -66.1456712,
+            -17.3624223
           ],
           [
-            -66.1447677,
-            -17.3628302
+            -66.1447758,
+            -17.3628267
           ]
         ]
       },
@@ -410,9 +410,9 @@
       "properties": {
         "name": "Calle Flor de Naranjo",
         "type": "residential",
-        "slope": 115.83570442075285,
-        "sun_diff": 0.8915300484971169,
-        "length": 105.10629154174399
+        "slope": 115.32368368883968,
+        "sun_diff": 0.37950931658394893,
+        "length": 105.16265747657191
       }
     },
     {
@@ -420,8 +420,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -66.1447677,
-            -17.3628302
+            -66.1447758,
+            -17.3628267
           ],
           [
             -66.143801,
@@ -433,9 +433,9 @@
       "properties": {
         "name": "Calle Flor de Naranjo",
         "type": "residential",
-        "slope": 114.48583039165439,
-        "sun_diff": 0.4583439806013416,
-        "length": 112.76817218446719
+        "slope": 114.48476619058079,
+        "sun_diff": 0.4594081816749451,
+        "length": 113.71209814150421
       }
     },
     {
@@ -459,29 +459,6 @@
         "slope": 114.59057473658049,
         "sun_diff": 0.3535996356752378,
         "length": 108.68228574705023
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -66.1452835,
-            -17.3638993
-          ],
-          [
-            -66.1443402,
-            -17.3643063
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Los Para\u00edsos",
-        "type": "residential",
-        "slope": 114.32612165405021,
-        "sun_diff": 0.6180527182055187,
-        "length": 109.89877469789111
       }
     },
     {
@@ -535,8 +512,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            -66.1922735,
-            -17.375549
+            -66.1910426,
+            -17.3754628
+          ],
+          [
+            -66.1919787,
+            -17.3749889
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Guarasuwe",
+        "type": "residential",
+        "slope": 117.94387199529871,
+        "sun_diff": 2.9996976230429766,
+        "length": 112.48622793844034
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.1922802,
+            -17.3755469
           ],
           [
             -66.1912767,
@@ -548,9 +548,9 @@
       "properties": {
         "name": "Calle Apurimak",
         "type": "residential",
-        "slope": 117.48951124838456,
-        "sun_diff": 2.545336876128829,
-        "length": 119.28177849553896
+        "slope": 117.43170756059607,
+        "sun_diff": 2.487533188340336,
+        "length": 120.02058934069677
       }
     },
     {
@@ -7056,7 +7056,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 62.861777868171885,
         "sun_diff": 2.1952462304006417,
         "length": 143.8718577471605
@@ -7520,29 +7520,6 @@
         "slope": 113.9759449020961,
         "sun_diff": 0.9519872803133325,
         "length": 110.58583765446969
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -66.2330219,
-            -17.4267369
-          ],
-          [
-            -66.2339603,
-            -17.4262933
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 116.35655844198303,
-        "sun_diff": 1.4123840697272954,
-        "length": 111.14055060911257
       }
     },
     {
@@ -10023,7 +10000,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 62.253765530663344,
         "sun_diff": 2.8032585679091824,
         "length": 100.46514528549206
@@ -10119,6 +10096,29 @@
         "slope": 113.15446942431419,
         "sun_diff": 1.8060427604362133,
         "length": 113.03711990749923
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.1452835,
+            -17.3638993
+          ],
+          [
+            -66.1443402,
+            -17.3643063
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Los Para\u00edsos",
+        "type": "residential",
+        "slope": 114.32612165405021,
+        "sun_diff": 0.6180527182055187,
+        "length": 109.89877469789111
       }
     }
   ]
