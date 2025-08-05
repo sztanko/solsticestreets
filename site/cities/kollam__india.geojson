@@ -110,7 +110,7 @@
       "type": "Feature",
       "properties": {
         "name": "Dalavapuram Bridge",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 68.64949550219274,
         "sun_diff": 2.24566738232042,
         "length": 522.675265569625
@@ -156,7 +156,7 @@
       "type": "Feature",
       "properties": {
         "name": "Koottikkada Mayyanad Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 69.24777552287611,
         "sun_diff": 2.8336474777354113,
         "length": 137.05679562292653
@@ -367,6 +367,29 @@
         "slope": 110.62762519184582,
         "sun_diff": 2.9577376865492226,
         "length": 125.43990597946782
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.6131799,
+            8.8599749
+          ],
+          [
+            76.6122259,
+            8.8604096
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 114.75743459380297,
+        "sun_diff": 1.166962733908747,
+        "length": 115.45898157554646
       }
     },
     {
@@ -827,29 +850,6 @@
         "slope": 67.00368574401253,
         "sun_diff": 0.5946666803710059,
         "length": 120.88970042010938
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            76.6288448,
-            9.0413737
-          ],
-          [
-            76.6297192,
-            9.0410214
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 112.19415668189549,
-        "sun_diff": 1.4014924613895943,
-        "length": 103.73694621860227
       }
     },
     {
@@ -4526,7 +4526,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sasthamcotta",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 66.79699311303662,
         "sun_diff": 0.3931649931643051,
         "length": 123.54166871780228
@@ -4541,18 +4541,18 @@
             9.0436656
           ],
           [
-            76.6262344,
-            9.0429762
+            76.6261399,
+            9.0430172
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Sasthamcotta",
-        "type": "secondary",
-        "slope": 113.7141017928887,
-        "sun_diff": 0.11845264960361135,
-        "length": 190.6685946674794
+        "type": "trunk",
+        "slope": 113.71392197840268,
+        "sun_diff": 0.1182728351175939,
+        "length": 179.33044092389034
       }
     }
   ]

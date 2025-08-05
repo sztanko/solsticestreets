@@ -3836,7 +3836,7 @@
       "type": "Feature",
       "properties": {
         "name": "Most Marii Sk\u0142odowskiej-Curie",
-        "type": "primary",
+        "type": "trunk",
         "slope": 51.76733382944644,
         "sun_diff": 0.8456594257821166,
         "length": 799.9331932670852
@@ -3859,7 +3859,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 52.07520315107524,
         "sun_diff": 1.1535287474109168,
         "length": 126.84221632836699
@@ -3882,7 +3882,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 52.22482880509284,
         "sun_diff": 1.3031544014285146,
         "length": 127.97862938839305
@@ -3905,7 +3905,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 50.784126049140866,
         "sun_diff": 0.13754835452346015,
         "length": 130.52212591936515
@@ -3928,7 +3928,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 50.7763789240432,
         "sun_diff": 0.14529547962112588,
         "length": 132.22298953388434
@@ -4710,7 +4710,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 52.86201831855121,
         "sun_diff": 1.9403439148868813,
         "length": 155.422180445379
@@ -4733,7 +4733,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 52.37525168440061,
         "sun_diff": 1.4535772807362832,
         "length": 218.18077020570203
@@ -4756,7 +4756,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "primary",
+        "type": "trunk",
         "slope": 51.735309323611745,
         "sun_diff": 0.8136349199474182,
         "length": 172.78319211398647
@@ -4779,7 +4779,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "secondary",
+        "type": "trunk",
         "slope": 51.84771024687802,
         "sun_diff": 0.9260358432136968,
         "length": 126.45220333706338
@@ -5864,6 +5864,29 @@
         "slope": 52.78698095703069,
         "sun_diff": 1.8653065533663664,
         "length": 103.17830920267812
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.1852889,
+            52.2681362
+          ],
+          [
+            21.184156,
+            52.2687388
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 130.99689194203017,
+        "sun_diff": 1.918447044755112,
+        "length": 102.17303181520047
       }
     },
     {
@@ -7136,29 +7159,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            20.9473469,
-            52.3206242
-          ],
-          [
-            20.9487308,
-            52.3199495
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 128.57592104989456,
-        "sun_diff": 0.5025375077588308,
-        "length": 120.35327744960709
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             20.9487308,
             52.3199495
           ],
@@ -8344,7 +8344,7 @@
       "type": "Feature",
       "properties": {
         "name": "Most Marii Sk\u0142odowskiej-Curie",
-        "type": "primary",
+        "type": "trunk",
         "slope": 51.738242448435756,
         "sun_diff": 0.8165680447714294,
         "length": 799.979200064994
@@ -9436,29 +9436,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            21.1852889,
-            52.2681362
-          ],
-          [
-            21.184156,
-            52.2687388
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 130.99689194203017,
-        "sun_diff": 1.918447044755112,
-        "length": 102.17303181520047
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             21.2636867,
             52.142815
           ],
@@ -10172,12 +10149,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            20.9593394,
-            52.3627962
+            20.9594172,
+            52.3627995
           ],
           [
-            20.9606034,
-            52.3621188
+            20.9606211,
+            52.3621447
           ]
         ]
       },
@@ -10185,9 +10162,9 @@
       "properties": {
         "name": null,
         "type": "path",
-        "slope": 131.26990931706018,
-        "sun_diff": 2.088014374616108,
-        "length": 114.22977570323812
+        "slope": 131.69022867659717,
+        "sun_diff": 2.508333734153098,
+        "length": 109.50633591114745
       }
     },
     {
@@ -14201,8 +14178,8 @@
             52.3016489
           ],
           [
-            20.9278597,
-            52.3023444
+            20.927908,
+            52.3023378
           ]
         ]
       },
@@ -14210,9 +14187,9 @@
       "properties": {
         "name": "Improwizacji",
         "type": "residential",
-        "slope": 127.74514465981702,
-        "sun_diff": 1.3333138978363763,
-        "length": 126.37538892846099
+        "slope": 128.4097117491711,
+        "sun_diff": 0.6687468084822967,
+        "length": 123.33653585832252
       }
     },
     {
@@ -14949,6 +14926,29 @@
         "slope": 129.97867156616627,
         "sun_diff": 1.0029117328732013,
         "length": 153.24467588114908
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.1094744,
+            52.1171483
+          ],
+          [
+            21.1113527,
+            52.1181016
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 50.42445232452104,
+        "sun_diff": 0.7018272259201979,
+        "length": 166.43680692932008
       }
     }
   ]
