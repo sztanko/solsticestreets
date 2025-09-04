@@ -512,8 +512,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            103.6301159,
-            -1.6101542
+            103.6301521,
+            -1.6101502
           ],
           [
             103.6312115,
@@ -525,9 +525,9 @@
       "properties": {
         "name": "Jalan Haji Mohammad Yusuf Nasri",
         "type": "tertiary",
-        "slope": 113.02345180480427,
-        "sun_diff": 0.4523411789254368,
-        "length": 132.35829175108316
+        "slope": 113.90560811390762,
+        "sun_diff": 0.4298151301779143,
+        "length": 128.84325103126326
       }
     },
     {
@@ -574,29 +574,6 @@
         "slope": 112.1404359029406,
         "sun_diff": 1.3324884013376987,
         "length": 299.1190673822702
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            103.6172419,
-            -1.574862
-          ],
-          [
-            103.6163264,
-            -1.5752446
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 67.31157527647525,
-        "sun_diff": 0.7884920536945117,
-        "length": 110.33022749044096
       }
     },
     {
@@ -815,8 +792,8 @@
             -1.6009592
           ],
           [
-            103.615437,
-            -1.6003653
+            103.6150897,
+            -1.6005312
           ]
         ]
       },
@@ -824,9 +801,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 64.46020739849803,
-        "sun_diff": 2.062875824282713,
-        "length": 153.221041239678
+        "slope": 64.46098416133256,
+        "sun_diff": 2.06209906144818,
+        "length": 110.42341889527677
       }
     },
     {
@@ -961,7 +938,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 112.73762032046417,
         "sun_diff": 0.7381726632655301,
         "length": 111.88834938912511
@@ -1448,29 +1425,6 @@
         "slope": 66.10119478988946,
         "sun_diff": 0.4247571123426894,
         "length": 114.82037527944014
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            103.5389207,
-            -1.6222032
-          ],
-          [
-            103.5402551,
-            -1.6227957
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Jalan Raya Jambi 3",
-        "type": "tertiary",
-        "slope": 113.95069390641365,
-        "sun_diff": 0.4749077528731078,
-        "length": 162.34420355250623
       }
     },
     {
@@ -2985,7 +2939,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Panglima Polim",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 116.0413707915884,
         "sun_diff": 2.565577807858702,
         "length": 131.11348659107358
@@ -3008,7 +2962,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jalan Panglima Polim",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 115.36339208571374,
         "sun_diff": 1.887599101984037,
         "length": 136.79188622802923
@@ -6469,29 +6423,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            103.4788647,
-            -1.6143997
-          ],
-          [
-            103.4779461,
-            -1.6147912
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 66.90847397677007,
-        "sun_diff": 0.3853907539893271,
-        "length": 111.0310154324682
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             103.6171607,
             -1.6230102
           ],
@@ -7474,6 +7405,52 @@
         "slope": 114.75772827447864,
         "sun_diff": 1.278991479216657,
         "length": 106.7989736460427
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.6172419,
+            -1.574862
+          ],
+          [
+            103.6163264,
+            -1.5752446
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 67.31157527647525,
+        "sun_diff": 0.7884920536945117,
+        "length": 110.33022749044096
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.5389207,
+            -1.6222032
+          ],
+          [
+            103.5402551,
+            -1.6227957
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.95069390641365,
+        "sun_diff": 0.4749077528731078,
+        "length": 162.34420355250623
       }
     }
   ]

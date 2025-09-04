@@ -558,22 +558,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -116.8941334,
-            32.4574043
+            -116.8940238,
+            32.4573514
           ],
           [
-            -116.8922635,
-            32.4564885
+            -116.8917875,
+            32.4562676
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Boulevard de los Insurgentes",
-        "type": "primary",
-        "slope": 120.13178014559179,
-        "sun_diff": 2.6313391745670884,
-        "length": 202.91995066940132
+        "type": "trunk",
+        "slope": 119.87103441211059,
+        "sun_diff": 2.3705934410858873,
+        "length": 242.04495162791466
       }
     },
     {
@@ -585,18 +585,18 @@
             32.4467947
           ],
           [
-            -116.8521893,
-            32.4474862
+            -116.8523012,
+            32.4474406
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Carretera Libre Tijuana-Tecate",
-        "type": "primary",
-        "slope": 64.21107104214931,
-        "sun_diff": 1.6796596533507397,
-        "length": 176.79441226946483
+        "type": "trunk",
+        "slope": 64.2101437243812,
+        "sun_diff": 1.6787323355826231,
+        "length": 165.13038700058573
       }
     },
     {
@@ -616,7 +616,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Libre Tijuana-Tecate",
-        "type": "primary",
+        "type": "trunk",
         "slope": 64.4196865354597,
         "sun_diff": 1.8882751466611296,
         "length": 216.49637112999073
@@ -639,7 +639,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Libre Tijuana-Tecate",
-        "type": "primary",
+        "type": "trunk",
         "slope": 64.24192708646075,
         "sun_diff": 1.7105156976621743,
         "length": 646.6201666363916
@@ -662,7 +662,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Libre Tijuana-Tecate",
-        "type": "primary",
+        "type": "trunk",
         "slope": 64.24244967639018,
         "sun_diff": 1.7423478747469403,
         "length": 694.0368083448984
@@ -685,7 +685,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Libre Tijuana-Tecate",
-        "type": "primary",
+        "type": "trunk",
         "slope": 63.99714662982282,
         "sun_diff": 1.4970448281795825,
         "length": 190.68793590275877
@@ -708,7 +708,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Libre Tijuana-Tecate",
-        "type": "primary",
+        "type": "trunk",
         "slope": 64.55160776817488,
         "sun_diff": 2.0515059665316357,
         "length": 126.37371371399846
@@ -5860,7 +5860,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corredor 2000 Tijuana-Rosarito",
-        "type": "primary",
+        "type": "trunk",
         "slope": 65.01969411641304,
         "sun_diff": 2.488282727614461,
         "length": 115.17908993986975
@@ -5883,7 +5883,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corredor 2000 Tijuana-Rosarito",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.11450552390028,
         "sun_diff": 2.416905864898297,
         "length": 242.14174865132804
@@ -5906,7 +5906,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corredor 2000 Tijuana-Rosarito",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.115298302891574,
         "sun_diff": 2.416113085907,
         "length": 257.6181310607751
@@ -5929,7 +5929,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corredor 2000 Tijuana-Rosarito",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.5960132827384,
         "sun_diff": 1.9353981060601768,
         "length": 131.89993261656156
@@ -8286,22 +8286,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -116.8922635,
-            32.4564885
+            -116.8965451,
+            32.4564742
           ],
           [
-            -116.89109,
-            32.4559439
+            -116.8953349,
+            32.4570369
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": "Boulevard de los Insurgentes",
-        "type": "primary",
-        "slope": 118.81024219050312,
-        "sun_diff": 1.309801219478416,
-        "length": 125.6989624932714
+        "name": "Boulevard V\u00eda R\u00e1pida Poniente",
+        "type": "trunk",
+        "slope": 61.14346900443783,
+        "sun_diff": 1.3566327972054069,
+        "length": 129.68677239546506
       }
     },
     {
@@ -9344,6 +9344,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -116.8959581,
+            32.4568618
+          ],
+          [
+            -116.8972399,
+            32.4562998
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 62.54324087939554,
+        "sun_diff": 0.043139077752300636,
+        "length": 135.575475805362
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -117.0162926,
             32.5193862
           ],
@@ -9494,7 +9517,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Libre Tecate-Tijuana",
-        "type": "primary",
+        "type": "trunk",
         "slope": 63.542095820152525,
         "sun_diff": 1.0419940185092855,
         "length": 172.3339946528697
@@ -9517,7 +9540,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Libre Tecate-Tijuana",
-        "type": "primary",
+        "type": "trunk",
         "slope": 65.18861669735458,
         "sun_diff": 2.688514895711336,
         "length": 150.74202438992782
@@ -9540,7 +9563,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Libre Tecate-Tijuana",
-        "type": "primary",
+        "type": "trunk",
         "slope": 64.45189976758721,
         "sun_diff": 1.9517979659439675,
         "length": 1080.042192734736
@@ -9563,7 +9586,7 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Libre Tecate-Tijuana",
-        "type": "primary",
+        "type": "trunk",
         "slope": 64.21478469003821,
         "sun_diff": 1.6833733012396408,
         "length": 154.4688514539281
@@ -9597,8 +9620,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -116.8923012,
-            32.4567692
+            -116.8921906,
+            32.456715
           ],
           [
             -116.8937299,
@@ -9609,10 +9632,10 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard de los Insurgentes",
-        "type": "primary",
-        "slope": 119.36111957005471,
-        "sun_diff": 1.8606785990300097,
-        "length": 153.85350661696063
+        "type": "trunk",
+        "slope": 119.41800017100024,
+        "sun_diff": 1.9175591999755426,
+        "length": 165.85652319445552
       }
     },
     {
@@ -9655,10 +9678,33 @@
       "type": "Feature",
       "properties": {
         "name": "Corredor 2000 Tijuana-Rosarito",
-        "type": "primary",
+        "type": "trunk",
         "slope": 62.35914479434729,
         "sun_diff": 0.1722665944512869,
         "length": 100.48224040169286
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.8923213,
+            32.4566928
+          ],
+          [
+            -116.8934977,
+            32.4572023
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 117.17047665763519,
+        "sun_diff": 0.32996431338951027,
+        "length": 124.10603636293142
       }
     },
     {
@@ -10080,8 +10126,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -116.8522788,
-            32.4475975
+            -116.8523761,
+            32.4475577
           ],
           [
             -116.8540179,
@@ -10092,10 +10138,10 @@
       "type": "Feature",
       "properties": {
         "name": "Carretera Libre Tecate-Tijuana",
-        "type": "primary",
-        "slope": 64.15157935848782,
-        "sun_diff": 1.6201679696892484,
-        "length": 181.38909546478396
+        "type": "trunk",
+        "slope": 64.15227036902354,
+        "sun_diff": 1.6208589802249662,
+        "length": 171.23968155763174
       }
     },
     {
@@ -10632,8 +10678,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -116.8972021,
-            32.4591954
+            -116.8971866,
+            32.4591784
           ],
           [
             -116.8993494,
@@ -10645,9 +10691,9 @@
       "properties": {
         "name": "Boulevard de los Insurgentes",
         "type": "primary",
-        "slope": 117.196311935068,
-        "sun_diff": 0.3041290359567057,
-        "length": 226.5780786878389
+        "slope": 117.45105823279121,
+        "sun_diff": 0.04938273823348993,
+        "length": 228.7384627765511
       }
     },
     {
@@ -10659,8 +10705,8 @@
             32.4602768
           ],
           [
-            -116.896433,
-            32.4585021
+            -116.8972266,
+            32.4588772
           ]
         ]
       },
@@ -10668,32 +10714,9 @@
       "properties": {
         "name": "Boulevard de los Insurgentes",
         "type": "primary",
-        "slope": 119.25431364051391,
-        "sun_diff": 1.753872669489212,
-        "length": 403.93571751096295
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -116.896433,
-            32.4585021
-          ],
-          [
-            -116.8950819,
-            32.4578635
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Boulevard de los Insurgentes",
-        "type": "primary",
-        "slope": 119.25562614062355,
-        "sun_diff": 1.755185169598846,
-        "length": 145.3451503953372
+        "slope": 119.25395714906418,
+        "sun_diff": 1.753516178039476,
+        "length": 318.56404249517806
       }
     },
     {
@@ -11426,7 +11449,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corredor 2000 Tijuana-Rosarito",
-        "type": "primary",
+        "type": "trunk",
         "slope": 62.56839022382471,
         "sun_diff": 0.03697883502613308,
         "length": 307.30918213024285
@@ -11449,7 +11472,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corredor 2000 Tijuana-Rosarito",
-        "type": "primary",
+        "type": "trunk",
         "slope": 61.91233357296733,
         "sun_diff": 0.6190778158312469,
         "length": 204.84971596772328
@@ -14082,6 +14105,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -116.8955485,
+            32.457123
+          ],
+          [
+            -116.8966314,
+            32.456616
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "V\u00eda R\u00e1pida Oriente",
+        "type": "trunk",
+        "slope": 60.97598833549256,
+        "sun_diff": 1.5241134661506806,
+        "length": 116.23285298702378
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -116.8991816,
             32.4665775
           ],
@@ -14623,7 +14669,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Alberto Lim\u00f3n Padilla",
-        "type": "primary",
+        "type": "trunk",
         "slope": 62.21971626580094,
         "sun_diff": 0.2803855358422993,
         "length": 154.71627552771062
@@ -14680,29 +14726,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -116.8916441,
-            32.4591876
-          ],
-          [
-            -116.892607,
-            32.4588002
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Boulevard del Refugio",
-        "type": "primary",
-        "slope": 64.50746610138273,
-        "sun_diff": 2.0073642997394927,
-        "length": 100.11852873795203
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -116.8943592,
             32.4577554
           ],
@@ -14715,7 +14738,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard de los Insurgentes",
-        "type": "primary",
+        "type": "trunk",
         "slope": 119.32960919696922,
         "sun_diff": 1.829168225944514,
         "length": 152.64161031283587
@@ -14738,7 +14761,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Alberto Lim\u00f3n Padilla",
-        "type": "primary",
+        "type": "trunk",
         "slope": 62.917075590695475,
         "sun_diff": 0.4169737890522356,
         "length": 123.98758101853551
@@ -14761,7 +14784,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boulevard Alberto Lim\u00f3n Padilla",
-        "type": "primary",
+        "type": "trunk",
         "slope": 62.419201246990525,
         "sun_diff": 0.08090055465271462,
         "length": 115.1937495978151
@@ -15014,7 +15037,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corredor 2000 Tijuana-Rosarito",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.52306952987098,
         "sun_diff": 2.0083418589275936,
         "length": 172.94518828316336
@@ -15037,7 +15060,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corredor 2000 Tijuana-Rosarito",
-        "type": "primary",
+        "type": "trunk",
         "slope": 59.89686423906585,
         "sun_diff": 2.6345471497327253,
         "length": 667.6038409037457
@@ -15060,7 +15083,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corredor 2000 Tijuana-Rosarito",
-        "type": "primary",
+        "type": "trunk",
         "slope": 59.89832550006193,
         "sun_diff": 2.6330858887366446,
         "length": 140.5627507495783
@@ -15083,7 +15106,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corredor 2000 Tijuana-Rosarito",
-        "type": "primary",
+        "type": "trunk",
         "slope": 65.38034655597147,
         "sun_diff": 2.848935167172897,
         "length": 158.54359155833797
@@ -15106,7 +15129,7 @@
       "type": "Feature",
       "properties": {
         "name": "Corredor 2000 Tijuana-Rosarito",
-        "type": "primary",
+        "type": "trunk",
         "slope": 65.37891500843097,
         "sun_diff": 2.8475036196323913,
         "length": 179.33291752346153
@@ -17962,6 +17985,29 @@
         "slope": 119.9852636648933,
         "sun_diff": 2.484822693868594,
         "length": 142.79335626963808
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.8972266,
+            32.4588772
+          ],
+          [
+            -116.8950819,
+            32.4578635
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Boulevard de los Insurgentes",
+        "type": "trunk",
+        "slope": 119.2557090820498,
+        "sun_diff": 1.755268111025103,
+        "length": 230.71682541260336
       }
     }
   ]
