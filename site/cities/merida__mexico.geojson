@@ -340,7 +340,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 63.64402825259921,
         "sun_diff": 1.5306663449943017,
         "length": 218.15136713661616
@@ -390,29 +390,6 @@
         "slope": 112.89592428798835,
         "sun_diff": 1.9466715109309405,
         "length": 166.41971926630893
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -89.5771558,
-            20.9595218
-          ],
-          [
-            -89.5760719,
-            20.9590531
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Quetzalc\u00f3atl",
-        "type": "primary",
-        "slope": 114.84685265854097,
-        "sun_diff": 0.004256859621676767,
-        "length": 124.06965137015122
       }
     },
     {
@@ -8056,29 +8033,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -89.5917422,
-            21.017451
-          ],
-          [
-            -89.5908041,
-            21.0170042
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida C\u00e1mara de Comercio",
-        "type": "secondary",
-        "slope": 117.03181414580772,
-        "sun_diff": 2.189218346888424,
-        "length": 109.34884907096946
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -89.6927338,
             20.9983107
           ],
@@ -9578,6 +9532,29 @@
             21.0543441
           ],
           [
+            -89.5760484,
+            21.0537098
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.98283875341951,
+        "sun_diff": 0.8758762919410117,
+        "length": 173.5778110534155
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.5760484,
+            21.0537098
+          ],
+          [
             -89.5740443,
             21.0528778
           ]
@@ -9587,9 +9564,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 113.9820451786344,
-        "sun_diff": 0.8766698667261323,
-        "length": 401.2682876798993
+        "slope": 113.98153087146133,
+        "sun_diff": 0.8771841738991952,
+        "length": 227.69047668225556
       }
     },
     {
@@ -11633,7 +11610,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 62.508093986412035,
         "sun_diff": 2.6666006111814795,
         "length": 144.81338914309063
@@ -17705,7 +17682,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "residential",
         "slope": 113.02305009185608,
         "sun_diff": 1.819545707063213,
         "length": 110.20546367710831
@@ -18261,29 +18238,6 @@
         "slope": 115.52231322478696,
         "sun_diff": 0.6797174258676648,
         "length": 110.05185045396078
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -89.6918181,
-            20.9229628
-          ],
-          [
-            -89.6906715,
-            20.9235244
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Internacional",
-        "type": "primary",
-        "slope": 62.328640831221406,
-        "sun_diff": 2.8460537663721084,
-        "length": 134.51086748827626
       }
     },
     {
@@ -19844,7 +19798,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 114.1116207568403,
         "sun_diff": 0.7149650786644912,
         "length": 174.6666864202824
@@ -20948,7 +20902,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 112.60084125515436,
         "sun_diff": 2.2257445803504226,
         "length": 110.99560031083763
@@ -21182,6 +21136,98 @@
         "slope": 112.66184505421995,
         "sun_diff": 2.1968699911405736,
         "length": 144.2004458617055
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.5771558,
+            20.9595218
+          ],
+          [
+            -89.5760719,
+            20.9590531
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Quetzalc\u00f3atl",
+        "type": "primary",
+        "slope": 114.84685265854097,
+        "sun_diff": 0.004256859621676767,
+        "length": 124.06965137015122
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.6918181,
+            20.9229628
+          ],
+          [
+            -89.6906715,
+            20.9235244
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Internacional",
+        "type": "primary",
+        "slope": 62.328640831221406,
+        "sun_diff": 2.8460537663721084,
+        "length": 134.51086748827626
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.5727325,
+            21.0519415
+          ],
+          [
+            -89.5762235,
+            21.0534279
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 114.52419049622296,
+        "sun_diff": 0.33452454913756924,
+        "length": 398.3177823176478
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.5766018,
+            21.0528486
+          ],
+          [
+            -89.5749176,
+            21.0520805
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 116.04381093255762,
+        "sun_diff": 1.1850958871970931,
+        "length": 194.5879657710349
       }
     }
   ]
