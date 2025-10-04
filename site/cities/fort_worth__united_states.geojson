@@ -351,29 +351,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.076978,
-            32.999609
-          ],
-          [
-            -97.078081,
-            33.000117
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Sentinel Oak Drive",
-        "type": "service",
-        "slope": 118.77374504090574,
-        "sun_diff": 1.1139967376796704,
-        "length": 117.38784131957449
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -97.078081,
             33.000117
           ],
@@ -15646,29 +15623,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -97.2172564,
-            33.0214925
-          ],
-          [
-            -97.2183375,
-            33.0220132
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 119.8744430941311,
-        "sun_diff": 2.2146947909050283,
-        "length": 116.27662206472583
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -97.197016,
             33.0117045
           ],
@@ -16881,29 +16835,6 @@
         "slope": 60.93772210189252,
         "sun_diff": 1.531671169242344,
         "length": 174.163547251419
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.0454868,
-            32.5989725
-          ],
-          [
-            -97.0441727,
-            32.5996218
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Cove Drive",
-        "type": "residential",
-        "slope": 59.60827523598351,
-        "sun_diff": 2.8611180351513497,
-        "length": 142.75630380047647
       }
     },
     {
@@ -18491,52 +18422,6 @@
         "slope": 62.275647236305986,
         "sun_diff": 0.16208127783667692,
         "length": 149.241437646511
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.11977,
-            32.6046732
-          ],
-          [
-            -97.121025,
-            32.6040724
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "East Debbie Lane",
-        "type": "secondary",
-        "slope": 60.39139896399385,
-        "sun_diff": 2.0779943071410116,
-        "length": 135.25693042847885
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.1213783,
-            32.6039006
-          ],
-          [
-            -97.1229412,
-            32.603144
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "East Debbie Lane",
-        "type": "secondary",
-        "slope": 60.11607966632255,
-        "sun_diff": 2.353313604812314,
-        "length": 168.90549964190998
       }
     },
     {
@@ -23362,7 +23247,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "West Reno Road",
+        "name": "East Reno Road",
         "type": "tertiary",
         "slope": 120.25029300224696,
         "sun_diff": 2.6227422107683225,
@@ -26920,8 +26805,8 @@
             32.748016
           ],
           [
-            -97.492993,
-            32.747553
+            -97.493105,
+            32.7476013
           ]
         ]
       },
@@ -26929,9 +26814,9 @@
       "properties": {
         "name": "Westpoint Boulevard",
         "type": "secondary",
-        "slope": 117.13807249007328,
-        "sun_diff": 0.42561603266572945,
-        "length": 112.90331812554058
+        "slope": 117.13713475284055,
+        "sun_diff": 0.4265537698984616,
+        "length": 101.12853383304866
       }
     },
     {
@@ -39559,6 +39444,75 @@
         "slope": 60.14070457399123,
         "sun_diff": 2.328688697143633,
         "length": 122.22822870714087
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.11977,
+            32.6046732
+          ],
+          [
+            -97.1209803,
+            32.6040938
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "East Debbie Lane",
+        "type": "secondary",
+        "slope": 60.391435054592904,
+        "sun_diff": 2.0779582165419583,
+        "length": 130.43934659018828
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.1213747,
+            32.6039023
+          ],
+          [
+            -97.1229412,
+            32.603144
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "East Debbie Lane",
+        "type": "secondary",
+        "slope": 60.11747533812644,
+        "sun_diff": 2.351917933008423,
+        "length": 169.2921873910586
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.069109,
+            33.001158
+          ],
+          [
+            -97.0680897,
+            33.0015558
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 65.04512191718825,
+        "sun_diff": 2.7034531835326447,
+        "length": 104.87520568336659
       }
     }
   ]
