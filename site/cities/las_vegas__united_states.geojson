@@ -455,7 +455,7 @@
       "type": "Feature",
       "properties": {
         "name": "Red Gable Lane",
-        "type": "service",
+        "type": "residential",
         "slope": 59.01147878035488,
         "sun_diff": 2.2007771929040985,
         "length": 113.20331442455715
@@ -574,29 +574,6 @@
         "slope": 59.85725879327157,
         "sun_diff": 1.3933282016095347,
         "length": 239.44765000527624
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.1373405,
-            36.1722858
-          ],
-          [
-            -115.136187,
-            36.17179
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "East Mesquite Avenue",
-        "type": "residential",
-        "slope": 118.03315126832544,
-        "sun_diff": 0.755203832975198,
-        "length": 117.33975674538394
       }
     },
     {
@@ -811,12 +788,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -115.1462547,
-            36.1716532
+            -115.1439698,
+            36.1706676
           ],
           [
-            -115.1451986,
-            36.1711888
+            -115.1429335,
+            36.1702187
           ]
         ]
       },
@@ -824,55 +801,9 @@
       "properties": {
         "name": "Fremont Street Experience",
         "type": "pedestrian",
-        "slope": 118.57812018841383,
-        "sun_diff": 0.21023491288680418,
-        "length": 107.98434184861812
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.1451986,
-            36.1711888
-          ],
-          [
-            -115.14406,
-            36.1707
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Fremont Street Experience",
-        "type": "pedestrian",
-        "slope": 118.00388401570774,
-        "sun_diff": 0.784471085592898,
-        "length": 115.79419073556929
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.1439729,
-            36.170662
-          ],
-          [
-            -115.1429387,
-            36.1702108
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Fremont Street Experience",
-        "type": "pedestrian",
-        "slope": 118.38854618771785,
-        "sun_diff": 0.39980891358278825,
-        "length": 105.55676287459384
+        "slope": 118.21779458360086,
+        "sun_diff": 0.570560517699775,
+        "length": 105.60147827616548
       }
     },
     {
@@ -2053,8 +1984,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -115.150272,
-            36.1659909
+            -115.1502661,
+            36.1659885
           ],
           [
             -115.1512778,
@@ -2066,9 +1997,9 @@
       "properties": {
         "name": "West Bonneville Avenue",
         "type": "secondary",
-        "slope": 117.40027781188692,
-        "sun_diff": 1.3880772894137152,
-        "length": 101.73037777599625
+        "slope": 117.39646297576672,
+        "sun_diff": 1.3918921255339143,
+        "length": 102.32359585291448
       }
     },
     {
@@ -2345,29 +2276,6 @@
         "slope": 120.21169064033919,
         "sun_diff": 1.42334919941689,
         "length": 116.29233048793363
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.149395,
-            36.1670187
-          ],
-          [
-            -115.148236,
-            36.166531
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Clark Avenue",
-        "type": "tertiary",
-        "slope": 117.52999529295181,
-        "sun_diff": 1.2583598083488283,
-        "length": 117.36291914618903
       }
     },
     {
@@ -3265,6 +3173,52 @@
         "slope": 118.15938479953351,
         "sun_diff": 0.6289703017671258,
         "length": 138.39877296767946
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.1451929,
+            36.1711974
+          ],
+          [
+            -115.1441778,
+            36.1707577
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Fremont Street Experience",
+        "type": "pedestrian",
+        "slope": 118.21705351768233,
+        "sun_diff": 0.5713015836183075,
+        "length": 103.4397223381941
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.1373405,
+            36.1722858
+          ],
+          [
+            -115.136187,
+            36.17179
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "East Mesquite Avenue",
+        "type": "unclassified",
+        "slope": 118.03315126832544,
+        "sun_diff": 0.755203832975198,
+        "length": 117.33975674538394
       }
     }
   ]

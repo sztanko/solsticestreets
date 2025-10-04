@@ -2651,6 +2651,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            153.3229834,
+            -28.0480413
+          ],
+          [
+            153.3239567,
+            -28.0485034
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Albert Evans Drive",
+        "type": "residential",
+        "slope": 118.27847494446044,
+        "sun_diff": 0.9702491570582481,
+        "length": 108.49306440112169
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             153.3696312,
             -28.1034015
           ],
@@ -2874,29 +2897,6 @@
         "slope": 65.43144209209953,
         "sun_diff": 2.7695467693970386,
         "length": 161.98282718049438
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            153.3966075,
-            -28.1385823
-          ],
-          [
-            153.3984743,
-            -28.1393581
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Monday Drive",
-        "type": "residential",
-        "slope": 115.23363283376469,
-        "sun_diff": 2.1038808047985214,
-        "length": 202.41675876521026
       }
     },
     {
@@ -3219,29 +3219,6 @@
         "slope": 116.56402056283477,
         "sun_diff": 0.7734930757284388,
         "length": 107.30040312637092
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            153.37081,
-            -28.1753964
-          ],
-          [
-            153.3717456,
-            -28.1749198
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Tallebudgera Creek Road",
-        "type": "unclassified",
-        "slope": 59.97730973645369,
-        "sun_diff": 2.6551611313043963,
-        "length": 105.95143338904022
       }
     },
     {
@@ -6584,29 +6561,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            153.3619664,
-            -28.1745048
-          ],
-          [
-            153.3608604,
-            -28.1740514
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Dalton Road",
-        "type": "unclassified",
-        "slope": 114.94057442963708,
-        "sun_diff": 2.4263636638705464,
-        "length": 119.59721400931984
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             153.42177,
             -28.1929695
           ],
@@ -6692,29 +6646,6 @@
         "slope": 60.956384418723246,
         "sun_diff": 1.676086449034841,
         "length": 222.6306044896777
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            153.4092836,
-            -28.2009911
-          ],
-          [
-            153.4103855,
-            -28.2004242
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Currumbin Creek Road",
-        "type": "tertiary",
-        "slope": 59.72497081360845,
-        "sun_diff": 2.9075000541496365,
-        "length": 125.07370140827565
       }
     },
     {
@@ -9321,8 +9252,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            153.4381084,
-            -28.1756039
+            153.4381441,
+            -28.1755963
           ],
           [
             153.4390788,
@@ -9334,9 +9265,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 64.68647625581616,
-        "sun_diff": 2.054005388058073,
-        "length": 105.25385286612475
+        "slope": 64.27393009294576,
+        "sun_diff": 1.641459225187674,
+        "length": 101.73077031207667
       }
     },
     {
@@ -10257,6 +10188,98 @@
         "slope": 118.27526251345068,
         "sun_diff": 0.9377488748874754,
         "length": 126.27881720977535
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.3619664,
+            -28.1745048
+          ],
+          [
+            153.3608604,
+            -28.1740514
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Dalton Road",
+        "type": "unclassified",
+        "slope": 114.94057442963708,
+        "sun_diff": 2.4263636638705464,
+        "length": 119.59721400931984
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.37081,
+            -28.1753964
+          ],
+          [
+            153.3717456,
+            -28.1749198
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Tallebudgera Creek Road",
+        "type": "unclassified",
+        "slope": 59.97730973645369,
+        "sun_diff": 2.6551611313043963,
+        "length": 105.95143338904022
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.3966075,
+            -28.1385823
+          ],
+          [
+            153.3976732,
+            -28.1390252
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Monday Drive",
+        "type": "residential",
+        "slope": 115.23451715982549,
+        "sun_diff": 2.1029964787377224,
+        "length": 115.5546952176466
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            153.2961725,
+            -27.8274145
+          ],
+          [
+            153.2951745,
+            -27.8269806
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 116.17964683694456,
+        "sun_diff": 1.0704813613775173,
+        "length": 109.39247275239524
       }
     }
   ]

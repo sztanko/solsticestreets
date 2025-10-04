@@ -742,8 +742,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            21.2333494,
-            52.1328857
+            21.2338377,
+            52.1331526
           ],
           [
             21.2352972,
@@ -755,9 +755,9 @@
       "properties": {
         "name": "Le\u015bna",
         "type": "residential",
-        "slope": 48.3143010296987,
-        "sun_diff": 2.8119785207425423,
-        "length": 178.07422892620343
+        "slope": 48.313839740794435,
+        "sun_diff": 2.812439809646804,
+        "length": 133.43298402906103
       }
     },
     {
@@ -2172,8 +2172,8 @@
             52.3435628
           ],
           [
-            20.889016,
-            52.3428147
+            20.8889409,
+            52.3428486
           ]
         ]
       },
@@ -2181,9 +2181,9 @@
       "properties": {
         "name": "Spacerowa",
         "type": "residential",
-        "slope": 127.25376035211463,
-        "sun_diff": 1.8246982055387662,
-        "length": 137.45950381779406
+        "slope": 127.29222542766686,
+        "sun_diff": 1.7862331299865275,
+        "length": 131.11487606207717
       }
     },
     {
@@ -3387,8 +3387,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            20.9042114,
-            52.3507493
+            20.9042632,
+            52.3507242
           ],
           [
             20.905614,
@@ -3400,9 +3400,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 128.3770837379089,
-        "sun_diff": 0.8048248649135132,
-        "length": 121.5607580963261
+        "slope": 128.37528979146953,
+        "sun_diff": 0.8066188113528767,
+        "length": 117.06846517237922
       }
     },
     {
@@ -3755,6 +3755,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            20.9498125,
+            52.3192327
+          ],
+          [
+            20.9485987,
+            52.3198306
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "living_street",
+        "slope": 128.8639970683322,
+        "sun_diff": 0.21446148932119513,
+        "length": 105.98781669065156
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             20.8597426,
             52.1902936
           ],
@@ -3836,7 +3859,7 @@
       "type": "Feature",
       "properties": {
         "name": "Most Marii Sk\u0142odowskiej-Curie",
-        "type": "trunk",
+        "type": "primary",
         "slope": 51.76733382944644,
         "sun_diff": 0.8456594257821166,
         "length": 799.9331932670852
@@ -3859,7 +3882,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "trunk",
+        "type": "secondary",
         "slope": 52.07520315107524,
         "sun_diff": 1.1535287474109168,
         "length": 126.84221632836699
@@ -3882,7 +3905,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "trunk",
+        "type": "secondary",
         "slope": 52.22482880509284,
         "sun_diff": 1.3031544014285146,
         "length": 127.97862938839305
@@ -3905,7 +3928,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "trunk",
+        "type": "secondary",
         "slope": 50.784126049140866,
         "sun_diff": 0.13754835452346015,
         "length": 130.52212591936515
@@ -3928,7 +3951,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "trunk",
+        "type": "secondary",
         "slope": 50.7763789240432,
         "sun_diff": 0.14529547962112588,
         "length": 132.22298953388434
@@ -4710,7 +4733,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "trunk",
+        "type": "secondary",
         "slope": 52.86201831855121,
         "sun_diff": 1.9403439148868813,
         "length": 155.422180445379
@@ -4733,7 +4756,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "trunk",
+        "type": "secondary",
         "slope": 52.37525168440061,
         "sun_diff": 1.4535772807362832,
         "length": 218.18077020570203
@@ -4756,7 +4779,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "trunk",
+        "type": "primary",
         "slope": 51.735309323611745,
         "sun_diff": 0.8136349199474182,
         "length": 172.78319211398647
@@ -4779,7 +4802,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aleja Genera\u0142 Marii Wittek",
-        "type": "trunk",
+        "type": "secondary",
         "slope": 51.84771024687802,
         "sun_diff": 0.9260358432136968,
         "length": 126.45220333706338
@@ -8275,7 +8298,7 @@
       "type": "Feature",
       "properties": {
         "name": "Most Marii Sk\u0142odowskiej-Curie",
-        "type": "trunk",
+        "type": "primary",
         "slope": 51.738242448435756,
         "sun_diff": 0.8165680447714294,
         "length": 799.979200064994
@@ -10655,29 +10678,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            21.0544007,
-            52.1455885
-          ],
-          [
-            21.0556187,
-            52.1461901
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 51.169497136743104,
-        "sun_diff": 0.04321758630186423,
-        "length": 106.7211395848928
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             20.944435,
             52.2838782
           ],
@@ -11372,8 +11372,8 @@
             52.256341
           ],
           [
-            20.9101656,
-            52.2557572
+            20.910189,
+            52.2557421
           ]
         ]
       },
@@ -11381,9 +11381,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 128.26776685245565,
-        "sun_diff": 0.8106917051977405,
-        "length": 104.84706586242565
+        "slope": 128.44525498804774,
+        "sun_diff": 0.633203569605655,
+        "length": 107.13871215611613
       }
     },
     {
@@ -12258,29 +12258,6 @@
         "slope": 128.81899313396931,
         "sun_diff": 0.15676669932375376,
         "length": 157.10550331879128
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            20.9006659,
-            52.3454583
-          ],
-          [
-            20.8994078,
-            52.3461145
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Spokojna",
-        "type": "residential",
-        "slope": 130.49082216581178,
-        "sun_diff": 1.4123636081583868,
-        "length": 112.40779420777515
       }
     },
     {
@@ -13369,6 +13346,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            20.9457868,
+            52.320571
+          ],
+          [
+            20.9471351,
+            52.3199663
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "living_street",
+        "slope": 126.26844919620689,
+        "sun_diff": 2.810009361446504,
+        "length": 113.69822994364523
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             21.1449131,
             52.2439434
           ],
@@ -13925,8 +13925,8 @@
             52.1470382
           ],
           [
-            21.1382768,
-            52.1461689
+            21.1380573,
+            52.1462833
           ]
         ]
       },
@@ -13934,9 +13934,9 @@
       "properties": {
         "name": "Bruzdowa",
         "type": "tertiary",
-        "slope": 130.34413737097418,
-        "sun_diff": 1.4703112808543608,
-        "length": 149.35892119860216
+        "slope": 130.34454748959075,
+        "sun_diff": 1.470721399470932,
+        "length": 129.70227032261778
       }
     },
     {
@@ -14657,29 +14657,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            21.2420354,
-            52.1197064
-          ],
-          [
-            21.243528,
-            52.1204548
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Zaciszna",
-        "type": "residential",
-        "slope": 50.76426832054625,
-        "sun_diff": 0.36201122989498913,
-        "length": 131.60978066743172
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             21.1961182,
             52.3595967
           ],
@@ -14765,29 +14742,6 @@
         "slope": 50.42445232452104,
         "sun_diff": 0.7018272259201979,
         "length": 166.43680692932008
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            20.9487308,
-            52.3199495
-          ],
-          [
-            20.9500321,
-            52.3192925
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "living_street",
-        "slope": 129.55550802571415,
-        "sun_diff": 0.47704946806075554,
-        "length": 114.75307035858368
       }
     },
     {
