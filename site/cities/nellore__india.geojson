@@ -64,7 +64,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "primary",
+        "type": "secondary",
         "slope": 68.29926215905897,
         "sun_diff": 2.306966597058249,
         "length": 121.65062556727004
@@ -110,7 +110,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mini BiPass Road",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.60025527537493,
         "sun_diff": 0.6028612352988745,
         "length": 108.7488740471895
@@ -202,7 +202,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 63.19540492996293,
         "sun_diff": 2.816343010793986,
         "length": 120.4674648687965
@@ -953,8 +953,8 @@
             14.411497
           ],
           [
-            79.9558108,
-            14.4109345
+            79.9558209,
+            14.410973
           ]
         ]
       },
@@ -962,9 +962,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 113.8207438555655,
-        "sun_diff": 0.1766501845105637,
-        "length": 154.91545196945148
+        "slope": 112.20206267159256,
+        "sun_diff": 1.7953313684835024,
+        "length": 154.24283136494347
       }
     },
     {
@@ -4526,7 +4526,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 68.51407275740172,
         "sun_diff": 2.5119963645095424,
         "length": 120.6523120556506
@@ -4756,7 +4756,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 64.65665583557944,
         "sun_diff": 1.3454205573127354,
         "length": 102.8775030012233
@@ -5312,29 +5312,6 @@
         "slope": 112.36493007753594,
         "sun_diff": 1.6422379632424082,
         "length": 120.46601899539702
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            80.0191268,
-            14.3152383
-          ],
-          [
-            80.019982,
-            14.3156553
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "secondary",
-        "slope": 63.28702029006078,
-        "sun_diff": 2.7247276506961384,
-        "length": 103.18280263031754
       }
     },
     {
@@ -6853,6 +6830,29 @@
         "slope": 65.73711025791224,
         "sun_diff": 0.27463768284468415,
         "length": 106.43234871408144
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.0191268,
+            14.3152383
+          ],
+          [
+            80.019982,
+            14.3156553
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "secondary",
+        "slope": 63.28702029006078,
+        "sun_diff": 2.7247276506961384,
+        "length": 103.18280263031754
       }
     }
   ]

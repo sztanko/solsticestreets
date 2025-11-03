@@ -6849,7 +6849,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle La Paz",
-        "type": "secondary",
+        "type": "residential",
         "slope": 64.30892536826576,
         "sun_diff": 1.1214368703396644,
         "length": 105.55484352604945
@@ -9080,7 +9080,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 111.57502608409578,
         "sun_diff": 2.9952500726151072,
         "length": 100.00187596675056
@@ -9494,7 +9494,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle A Calimaya De Diaz Gonzalez",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 116.9165751157966,
         "sun_diff": 2.346298959085715,
         "length": 120.66693017344332
@@ -10253,10 +10253,33 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Morelos",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 113.52249090760006,
         "sun_diff": 1.0477852491108308,
         "length": 121.06513090530957
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -99.6164446,
+            19.2036567
+          ],
+          [
+            -99.6154913,
+            19.203272
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Morelos",
+        "type": "unclassified",
+        "slope": 113.13812581921744,
+        "sun_diff": 1.4321503374934537,
+        "length": 108.89470091446815
       }
     },
     {
@@ -10276,7 +10299,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Morelos",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 113.89430659840508,
         "sun_diff": 0.675969558305809,
         "length": 163.473396243641
@@ -10299,7 +10322,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Morelos",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 116.0001140802809,
         "sun_diff": 1.4298379235700054,
         "length": 140.745696975519
@@ -10310,22 +10333,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            -99.6190211,
-            19.1995243
+            -99.6064783,
+            19.1994923
           ],
           [
-            -99.6180894,
-            19.1999745
+            -99.60536,
+            19.1990033
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 62.9028431098954,
-        "sun_diff": 2.5275191287100256,
-        "length": 109.93555356149045
+        "name": "Calle Morelos",
+        "type": "unclassified",
+        "slope": 114.84523318269947,
+        "sun_diff": 0.2749570259885843,
+        "length": 129.45117798909388
       }
     },
     {
@@ -12001,7 +12024,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Morelos",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 111.65503307242247,
         "sun_diff": 2.91524308428842,
         "length": 159.36138696239445
@@ -12967,7 +12990,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Agustin de Iturbide",
-        "type": "secondary",
+        "type": "residential",
         "slope": 112.94163970541359,
         "sun_diff": 1.6286364512972966,
         "length": 114.57028545682014
@@ -17866,7 +17889,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "unclassified",
         "slope": 63.724589501977164,
         "sun_diff": 1.705772736628262,
         "length": 224.7022300111412
@@ -20032,29 +20055,6 @@
         "slope": 113.5491214550195,
         "sun_diff": 1.0497731943137438,
         "length": 184.88387420100412
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -99.6064783,
-            19.1994923
-          ],
-          [
-            -99.60536,
-            19.1990033
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Morelos",
-        "type": "unclassified",
-        "slope": 114.84523318269947,
-        "sun_diff": 0.2749570259885843,
-        "length": 129.45117798909388
       }
     },
     {
