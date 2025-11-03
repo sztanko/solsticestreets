@@ -1939,11 +1939,11 @@
         "coordinates": [
           [
             -83.495728,
-            33.85512
+            33.8551362
           ],
           [
-            -83.494405,
-            33.855649
+            -83.494411,
+            33.8556665
           ]
         ]
       },
@@ -1951,9 +1951,9 @@
       "properties": {
         "name": "Maxey Road",
         "type": "unclassified",
-        "slope": 64.28973640609667,
-        "sun_diff": 2.2460551655503593,
-        "length": 135.6338185185293
+        "slope": 64.13262464646891,
+        "sun_diff": 2.088943405922606,
+        "length": 135.19768059505907
       }
     },
     {
@@ -1961,12 +1961,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -83.494405,
-            33.855649
+            -83.494411,
+            33.8556665
           ],
           [
-            -83.493227,
-            33.856125
+            -83.4931586,
+            33.8561727
           ]
         ]
       },
@@ -1974,9 +1974,9 @@
       "properties": {
         "name": "Maxey Road",
         "type": "unclassified",
-        "slope": 64.05339304078859,
-        "sun_diff": 2.009711800242286,
-        "length": 121.00909735103282
+        "slope": 64.04728530849084,
+        "sun_diff": 2.0036040679445364,
+        "length": 128.65839785575594
       }
     },
     {
@@ -2437,29 +2437,6 @@
         "slope": 61.71236788446845,
         "sun_diff": 0.29732633476785963,
         "length": 124.46775581730104
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -83.275626,
-            33.921725
-          ],
-          [
-            -83.2738961,
-            33.9210507
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Lexington Road",
-        "type": "trunk",
-        "slope": 115.16118772569152,
-        "sun_diff": 2.7963978064821333,
-        "length": 176.40636156951737
       }
     },
     {
@@ -3449,52 +3426,6 @@
         "slope": 60.22601791000173,
         "sun_diff": 1.8176633305445762,
         "length": 254.8367906367282
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -83.464674,
-            33.865451
-          ],
-          [
-            -83.4659943,
-            33.8660904
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Hog Mountain Road",
-        "type": "secondary",
-        "slope": 120.25219330816773,
-        "sun_diff": 2.2946077759940806,
-        "length": 141.16625569348633
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -83.4659943,
-            33.8660904
-          ],
-          [
-            -83.467992,
-            33.867058
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Hog Mountain Road",
-        "type": "secondary",
-        "slope": 120.25624142361193,
-        "sun_diff": 2.2986558914382726,
-        "length": 213.60043854153113
       }
     },
     {
@@ -4622,6 +4553,75 @@
         "slope": 61.271101697199214,
         "sun_diff": 0.738592522037095,
         "length": 101.00931239525018
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.275626,
+            33.921725
+          ],
+          [
+            -83.2738961,
+            33.9210507
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Lexington Road",
+        "type": "trunk",
+        "slope": 115.16118772569152,
+        "sun_diff": 2.7963978064821333,
+        "length": 176.40636156951737
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.464674,
+            33.865451
+          ],
+          [
+            -83.4659943,
+            33.8660904
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Hog Mountain Road",
+        "type": "secondary",
+        "slope": 120.25219330816773,
+        "sun_diff": 2.2946077759940806,
+        "length": 141.16625569348633
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.4659943,
+            33.8660904
+          ],
+          [
+            -83.467992,
+            33.867058
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Hog Mountain Road",
+        "type": "secondary",
+        "slope": 120.25624142361193,
+        "sun_diff": 2.2986558914382726,
+        "length": 213.60043854153113
       }
     }
   ]

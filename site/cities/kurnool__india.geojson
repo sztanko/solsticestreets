@@ -87,7 +87,7 @@
       "type": "Feature",
       "properties": {
         "name": "Budhwarpet Bridge",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.98014130061966,
         "sun_diff": 0.123001521915171,
         "length": 272.98240081491366
@@ -892,7 +892,7 @@
       "type": "Feature",
       "properties": {
         "name": "Raj Talkies Road",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 113.28662585029141,
         "sun_diff": 0.8557116341614943,
         "length": 154.01591088271283
@@ -2663,7 +2663,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 113.5524270707038,
         "sun_diff": 0.6009343390695108,
         "length": 170.94143792179793
@@ -2686,7 +2686,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.76275068793481,
         "sun_diff": 0.6093892781615011,
         "length": 400.133375906677
@@ -2709,7 +2709,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 116.27525835539379,
         "sun_diff": 2.1218969456204775,
         "length": 456.416426015646
@@ -2732,7 +2732,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 115.87751519670991,
         "sun_diff": 1.7351845424461771,
         "length": 406.3856978666283
@@ -2755,7 +2755,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 116.15144054546431,
         "sun_diff": 2.0091098912005805,
         "length": 248.75828264411174
@@ -5434,12 +5434,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            78.0885311,
-            15.809306
-          ],
-          [
             78.0875772,
             15.8097506
+          ],
+          [
+            78.0885311,
+            15.809306
           ]
         ]
       },
@@ -5447,8 +5447,8 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 115.8460613014301,
-        "sun_diff": 1.7037238169771882,
+        "slope": 115.84601190947939,
+        "sun_diff": 1.7036744250264775,
         "length": 113.43569148065268
       }
     },
@@ -6607,29 +6607,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            78.1649244,
-            15.7944267
-          ],
-          [
-            78.1661057,
-            15.7949567
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 65.00208040699647,
-        "sun_diff": 0.8550593717080233,
-        "length": 139.5028826291295
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             78.1001383,
             15.7688222
           ],
@@ -7221,6 +7198,52 @@
         "slope": 115.91411014442912,
         "sun_diff": 1.7827077928373996,
         "length": 195.64686941632175
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.0331975,
+            15.8261917
+          ],
+          [
+            78.034416,
+            15.8267591
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 64.17289326270526,
+        "sun_diff": 1.6842465159992344,
+        "length": 144.8659843559274
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.0107371,
+            15.8226899
+          ],
+          [
+            78.0117676,
+            15.8231513
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "primary",
+        "slope": 65.04376921184175,
+        "sun_diff": 0.8133705668627442,
+        "length": 121.63630153762693
       }
     }
   ]
