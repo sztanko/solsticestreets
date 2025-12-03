@@ -271,7 +271,7 @@
       "type": "Feature",
       "properties": {
         "name": "South Columbia Drive",
-        "type": "unclassified",
+        "type": "service",
         "slope": 60.814707969757706,
         "sun_diff": 1.7789127820013277,
         "length": 108.62116139002009
@@ -3042,6 +3042,75 @@
         "type": "LineString",
         "coordinates": [
           [
+            -110.7868307,
+            32.2527667
+          ],
+          [
+            -110.7879174,
+            32.2532882
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 119.57286554288615,
+        "sun_diff": 2.1348798216320546,
+        "length": 117.53384880767055
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -110.7887421,
+            32.2537045
+          ],
+          [
+            -110.7896607,
+            32.2541597
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 120.36843090662333,
+        "sun_diff": 2.930445185369237,
+        "length": 100.1504653156942
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -110.7904741,
+            32.2545437
+          ],
+          [
+            -110.7914793,
+            32.2550421
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 120.3830475369011,
+        "sun_diff": 2.9450618156470085,
+        "length": 109.60738193990319
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -111.0120235,
             32.236771
           ],
@@ -3364,52 +3433,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -110.8482439,
-            32.1503617
-          ],
-          [
-            -110.8452495,
-            32.1491711
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Yuma Street",
-        "type": "tertiary",
-        "slope": 115.15556617424875,
-        "sun_diff": 2.251424148551834,
-        "length": 311.5421184654284
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -110.8452495,
-            32.1491711
-          ],
-          [
-            -110.8423063,
-            32.1480055
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Yuma Street",
-        "type": "tertiary",
-        "slope": 115.06776754639156,
-        "sun_diff": 2.3084049628739223,
-        "length": 305.999289780788
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -110.803196,
             32.2492172
           ],
@@ -3518,6 +3541,52 @@
         "slope": 116.21137813045013,
         "sun_diff": 1.1956121923504526,
         "length": 256.1386985926928
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -110.8482439,
+            32.1503617
+          ],
+          [
+            -110.8452495,
+            32.1491711
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Yuma Street",
+        "type": "tertiary",
+        "slope": 115.15556617424875,
+        "sun_diff": 2.251424148551834,
+        "length": 311.5421184654284
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -110.8452495,
+            32.1491711
+          ],
+          [
+            -110.8423063,
+            32.1480055
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Yuma Street",
+        "type": "tertiary",
+        "slope": 115.06776754639156,
+        "sun_diff": 2.3084049628739223,
+        "length": 305.999289780788
       }
     }
   ]
