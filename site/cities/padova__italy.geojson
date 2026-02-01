@@ -328,8 +328,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.930982,
-            45.4520008
+            11.9316574,
+            45.4516643
           ],
           [
             11.9328447,
@@ -341,32 +341,9 @@
       "properties": {
         "name": "Via Zangrossi",
         "type": "residential",
-        "slope": 125.38438267670819,
-        "sun_diff": 1.8990294265948364,
-        "length": 178.27518314823567
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            11.9307227,
-            45.4455524
-          ],
-          [
-            11.9325209,
-            45.4447085
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Via Barcarola",
-        "type": "residential",
-        "slope": 123.77880374991537,
-        "sun_diff": 0.3587061271323222,
-        "length": 168.8280039949445
+        "slope": 125.38536921180724,
+        "sun_diff": 1.9000159616938959,
+        "length": 113.63565431232108
       }
     },
     {
@@ -420,8 +397,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.9517606,
-            45.4349931
+            11.9513574,
+            45.4348321
           ],
           [
             11.9538008,
@@ -433,9 +410,9 @@
       "properties": {
         "name": "Via Trevisan",
         "type": "secondary",
-        "slope": 57.361966015899895,
-        "sun_diff": 0.7818350547168222,
-        "length": 189.09988365299418
+        "slope": 57.8433256174396,
+        "sun_diff": 1.2631946562565304,
+        "length": 225.267363970012
       }
     },
     {
@@ -1064,22 +1041,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.949626,
-            45.4377132
+            11.949649,
+            45.4377265
           ],
           [
-            11.9474348,
-            45.4388238
+            11.9474615,
+            45.4388463
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Via Spagna",
-        "type": "residential",
-        "slope": 125.84213871141267,
-        "sun_diff": 2.4220410886296264,
-        "length": 210.96713062965145
+        "type": "unclassified",
+        "slope": 126.11289357937596,
+        "sun_diff": 2.692795956592917,
+        "length": 211.3345564338362
       }
     },
     {
@@ -1087,22 +1064,45 @@
         "type": "LineString",
         "coordinates": [
           [
-            11.9448974,
-            45.4401495
+            11.9474615,
+            45.4388463
           ],
           [
-            11.9436222,
-            45.440804
+            11.9462439,
+            45.4394689
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Via Spagna",
-        "type": "residential",
-        "slope": 126.18541291137933,
-        "sun_diff": 2.765315288596284,
-        "length": 123.30653112159749
+        "type": "unclassified",
+        "slope": 126.08255051961868,
+        "sun_diff": 2.6624528968356316,
+        "length": 117.5853868977995
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.943469,
+            45.4409271
+          ],
+          [
+            11.9422781,
+            45.4415383
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Via Spagna",
+        "type": "unclassified",
+        "slope": 126.1843036890476,
+        "sun_diff": 2.764206066264549,
+        "length": 115.15191389583445
       }
     },
     {
@@ -1777,6 +1777,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            11.9398906,
+            45.4382927
+          ],
+          [
+            11.9411888,
+            45.4376252
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Via Manara",
+        "type": "primary",
+        "slope": 126.23281718692354,
+        "sun_diff": 2.812719564140494,
+        "length": 125.61271567600224
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             11.9245553,
             45.3689121
           ],
@@ -2065,33 +2088,10 @@
       "type": "Feature",
       "properties": {
         "name": "Via Germania",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 125.67194220326559,
         "sun_diff": 2.2518445804825404,
         "length": 210.88549630768736
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            11.9423037,
-            45.4398133
-          ],
-          [
-            11.9411335,
-            45.4403629
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Via Germania",
-        "type": "residential",
-        "slope": 123.79710793154311,
-        "sun_diff": 0.37701030876006314,
-        "length": 109.89971889078485
       }
     },
     {
@@ -2115,6 +2115,29 @@
         "slope": 125.7165725823719,
         "sun_diff": 2.231219332258547,
         "length": 101.61205176306309
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.8521912,
+            45.4282365
+          ],
+          [
+            11.8501211,
+            45.4273337
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 58.1427451984523,
+        "sun_diff": 1.56261423726923,
+        "length": 190.2553952889068
       }
     }
   ]

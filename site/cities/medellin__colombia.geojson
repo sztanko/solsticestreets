@@ -822,7 +822,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle 37",
+        "name": "Avenida 33",
         "type": "primary",
         "slope": 112.55932442690036,
         "sun_diff": 0.9215570477609987,
@@ -2421,6 +2421,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            -75.5457485,
+            6.3334876
+          ],
+          [
+            -75.5482359,
+            6.33255
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Regional",
+        "type": "trunk",
+        "slope": 69.2305771085837,
+        "sun_diff": 2.7133951692458425,
+        "length": 294.09658632568386
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.5481064,
+            6.3325016
+          ],
+          [
+            -75.5457122,
+            6.3334028
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Regional",
+        "type": "trunk",
+        "slope": 69.25726773990579,
+        "sun_diff": 2.7400858005679254,
+        "length": 283.02712863940144
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -75.5870868,
             6.2060438
           ],
@@ -2547,7 +2593,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "V\u00eda Las Palmas",
+        "name": "Avenida de Las Palmas",
         "type": "primary",
         "slope": 64.07062351986642,
         "sun_diff": 2.4496183442196013,
@@ -2931,18 +2977,18 @@
             6.2860138
           ],
           [
-            -75.5665514,
-            6.2864382
+            -75.5665748,
+            6.286426
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Calle 94",
-        "type": "secondary",
-        "slope": 113.84958729268752,
-        "sun_diff": 0.3656390630888211,
-        "length": 116.74903967848945
+        "type": "tertiary",
+        "slope": 112.7444629032492,
+        "sun_diff": 0.7394853263494952,
+        "length": 118.58862647225361
       }
     },
     {
@@ -2989,29 +3035,6 @@
         "slope": 113.1915632503563,
         "sun_diff": 0.28931822430506315,
         "length": 113.34637501189613
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -75.7079564,
-            6.3475152
-          ],
-          [
-            -75.7067682,
-            6.3470621
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "V\u00eda San Jer\u00f3nimo-Medell\u00edn",
-        "type": "trunk",
-        "slope": 110.99105447531056,
-        "sun_diff": 2.492893754288133,
-        "length": 140.68982893125965
       }
     },
     {
@@ -3605,7 +3628,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "V\u00eda Las Palmas",
+        "name": "Avenida de Las Palmas",
         "type": "primary",
         "slope": 64.04712598741011,
         "sun_diff": 2.473115876675905,
@@ -4008,29 +4031,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -75.5664854,
-            6.2838328
-          ],
-          [
-            -75.5653872,
-            6.2843604
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle 92",
-        "type": "secondary",
-        "slope": 64.20427310624115,
-        "sun_diff": 2.3129088330967136,
-        "length": 134.85695168972708
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -75.5750544,
             6.2048893
           ],
@@ -4238,8 +4238,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -75.7067024,
-            6.3472055
+            -75.7067254,
+            6.3472148
           ],
           [
             -75.7079792,
@@ -4251,9 +4251,9 @@
       "properties": {
         "name": "V\u00eda Medell\u00edn - San Jer\u00f3nimo",
         "type": "trunk",
-        "slope": 112.18227203585496,
-        "sun_diff": 1.301676193743731,
-        "length": 152.42930998816914
+        "slope": 112.18307363031607,
+        "sun_diff": 1.300874599282622,
+        "length": 149.68433395974128
       }
     },
     {
@@ -4261,12 +4261,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -75.6909581,
-            6.3365349
+            -75.6909904,
+            6.3365817
           ],
           [
-            -75.690093,
-            6.3369135
+            -75.6901273,
+            6.3369653
           ]
         ]
       },
@@ -4274,9 +4274,9 @@
       "properties": {
         "name": "V\u00eda Medell\u00edn - San Jer\u00f3nimo",
         "type": "trunk",
-        "slope": 66.2347795519625,
-        "sun_diff": 0.28240238737535606,
-        "length": 104.49799264201967
+        "slope": 65.9069183498078,
+        "sun_diff": 0.6102635895300637,
+        "length": 104.52146571239763
       }
     },
     {
@@ -4392,29 +4392,6 @@
         "slope": 63.66341883090513,
         "sun_diff": 2.8568230331808877,
         "length": 135.36311449187394
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -75.5613819,
-            6.3316651
-          ],
-          [
-            -75.5604474,
-            6.3312833
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 112.34598920818036,
-        "sun_diff": 1.1379590214183395,
-        "length": 111.69827873889555
       }
     },
     {

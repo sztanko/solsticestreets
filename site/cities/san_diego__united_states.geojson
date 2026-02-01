@@ -2272,7 +2272,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hidden Mesa Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 62.60627107734132,
         "sun_diff": 0.20119086743130765,
         "length": 107.43393781797538
@@ -3203,29 +3203,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -116.9174645,
-            32.7461055
-          ],
-          [
-            -116.9158477,
-            32.7467658
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Sawgrass Street",
-        "type": "residential",
-        "slope": 64.10011698579717,
-        "sun_diff": 1.6631807735982136,
-        "length": 168.14397266131294
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -116.981312,
             32.7148139
           ],
@@ -3491,7 +3468,7 @@
       "type": "Feature",
       "properties": {
         "name": "Wind River Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 62.24673684762155,
         "sun_diff": 0.15834336228846269,
         "length": 175.61219200171163
@@ -4250,7 +4227,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boundary Road",
-        "type": "service",
+        "type": "unclassified",
         "slope": 65.2715602413559,
         "sun_diff": 2.8029592721647703,
         "length": 293.4994907392445
@@ -4273,7 +4250,7 @@
       "type": "Feature",
       "properties": {
         "name": "Boundary Road",
-        "type": "service",
+        "type": "unclassified",
         "slope": 63.21393290942859,
         "sun_diff": 0.7453319402374632,
         "length": 191.40580989673134
@@ -4484,29 +4461,6 @@
         "slope": 59.83473961440973,
         "sun_diff": 2.473761720636304,
         "length": 131.24089454027413
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.0509379,
-            32.778188
-          ],
-          [
-            -117.049873,
-            32.777771
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Colorado Avenue",
-        "type": "residential",
-        "slope": 114.9734312233605,
-        "sun_diff": 2.6220176790190663,
-        "length": 109.86019982176055
       }
     },
     {
@@ -5020,29 +4974,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -117.051613,
-            32.7775267
-          ],
-          [
-            -117.049912,
-            32.776831
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Airoso Avenue",
-        "type": "residential",
-        "slope": 115.94030522322345,
-        "sun_diff": 1.6551436791561258,
-        "length": 176.90043543551718
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -117.1209137,
             32.9617623
           ],
@@ -5124,7 +5055,7 @@
       "type": "Feature",
       "properties": {
         "name": "Saint Andrews Drive",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 63.6142185101034,
         "sun_diff": 1.2733420783914937,
         "length": 160.43215073388018
@@ -5710,8 +5641,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -117.0264756,
-            32.5405221
+            -117.0264802,
+            32.5405338
           ],
           [
             -117.0277577,
@@ -5723,9 +5654,9 @@
       "properties": {
         "name": "Calle Frontera",
         "type": "tertiary",
-        "slope": 64.49697266076902,
-        "sun_diff": 1.996870859125778,
-        "length": 133.19892598874296
+        "slope": 63.91260879801595,
+        "sun_diff": 1.4125069963727128,
+        "length": 133.37687601700466
       }
     },
     {
@@ -6826,7 +6757,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tower Road",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 61.956367375066066,
         "sun_diff": 0.4166929080149373,
         "length": 214.18119902651654
@@ -7493,7 +7424,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mesa College Drive",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 116.95998975999959,
         "sun_diff": 0.635459142379986,
         "length": 133.68601921545044
@@ -7516,7 +7447,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mesa College Drive",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 116.24316650672972,
         "sun_diff": 1.3522823956498513,
         "length": 155.30517007896285
@@ -8735,7 +8666,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ashwood Street",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 61.23701942279527,
         "sun_diff": 1.136040860285732,
         "length": 115.23201498748053
@@ -9712,6 +9643,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -116.9748859,
+            32.6267739
+          ],
+          [
+            -116.9759301,
+            32.6271901
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "East Palomar Street",
+        "type": "tertiary",
+        "slope": 115.32658108009042,
+        "sun_diff": 2.205347063008034,
+        "length": 108.21974512393423
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -117.259491,
             32.939701
           ],
@@ -9839,7 +9793,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mesa College Drive",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 116.96490287722631,
         "sun_diff": 0.6305460251532651,
         "length": 120.73678235614645
@@ -9954,7 +9908,7 @@
       "type": "Feature",
       "properties": {
         "name": "Balboa Avenue",
-        "type": "primary",
+        "type": "secondary",
         "slope": 65.26146792818,
         "sun_diff": 2.8563877182699855,
         "length": 105.57403818335773
@@ -10437,7 +10391,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Aldrete",
-        "type": "residential",
+        "type": "secondary",
         "slope": 118.58638217273176,
         "sun_diff": 1.0859412017070582,
         "length": 120.50876801936072
@@ -14623,7 +14577,7 @@
       "type": "Feature",
       "properties": {
         "name": "Otay Lakes Road",
-        "type": "primary",
+        "type": "secondary",
         "slope": 64.96532245733516,
         "sun_diff": 2.4967214881440327,
         "length": 132.8978204691061
@@ -14853,7 +14807,7 @@
       "type": "Feature",
       "properties": {
         "name": "Balboa Avenue",
-        "type": "primary",
+        "type": "secondary",
         "slope": 115.58001238347259,
         "sun_diff": 2.0154365189069807,
         "length": 121.10411030811495
@@ -15198,7 +15152,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brabham Street",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 116.7382229121423,
         "sun_diff": 0.8572259902372679,
         "length": 199.75640728754104
@@ -15221,7 +15175,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rancho San Diego Parkway",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 61.796925443500044,
         "sun_diff": 0.6400107686989145,
         "length": 127.79981136533843
@@ -15363,29 +15317,6 @@
         "slope": 115.26808711912958,
         "sun_diff": 2.2638410239688795,
         "length": 109.20944035996209
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.0015888,
-            32.5795507
-          ],
-          [
-            -117.0025705,
-            32.5799801
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida de Las Vistas",
-        "type": "residential",
-        "slope": 117.43327806346969,
-        "sun_diff": 0.0986500796287686,
-        "length": 103.66960720331946
       }
     },
     {
@@ -15593,29 +15524,6 @@
         "slope": 115.8434542608266,
         "sun_diff": 1.7840145683819912,
         "length": 155.72747962396258
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -116.9686511,
-            32.9967052
-          ],
-          [
-            -116.9675162,
-            32.997149
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Highway 67",
-        "type": "primary",
-        "slope": 65.00243964439505,
-        "sun_diff": 2.6615632126831485,
-        "length": 116.8156098241004
       }
     },
     {
@@ -16030,6 +15938,98 @@
         "slope": 62.147732044225336,
         "sun_diff": 0.2573481656846752,
         "length": 119.23118495289107
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.9174645,
+            32.7461055
+          ],
+          [
+            -116.9158477,
+            32.7467658
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Sawgrass Street",
+        "type": "residential",
+        "slope": 64.10011698579717,
+        "sun_diff": 1.6631807735982136,
+        "length": 168.14397266131294
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.0509379,
+            32.778188
+          ],
+          [
+            -117.049873,
+            32.777771
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Colorado Avenue",
+        "type": "tertiary",
+        "slope": 114.9734312233605,
+        "sun_diff": 2.6220176790190663,
+        "length": 109.86019982176055
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.051613,
+            32.7775267
+          ],
+          [
+            -117.049912,
+            32.776831
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Airoso Avenue",
+        "type": "tertiary",
+        "slope": 115.94030522322345,
+        "sun_diff": 1.6551436791561258,
+        "length": 176.90043543551718
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.2333226,
+            32.8859259
+          ],
+          [
+            -117.2342817,
+            32.8854965
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Old El Camino Real",
+        "type": "path",
+        "slope": 61.935969375244696,
+        "sun_diff": 0.437090907836307,
+        "length": 101.5223461967085
       }
     }
   ]
