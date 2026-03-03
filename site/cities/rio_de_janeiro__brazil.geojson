@@ -110,7 +110,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Atl\u00e2ntica",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.8470679984514,
         "sun_diff": 1.8694869963076712,
         "length": 167.83382179887911
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Atl\u00e2ntica",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 66.92970733707944,
         "sun_diff": 2.9521263349357127,
         "length": 132.24591583153932
@@ -363,7 +363,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Ministro Viveiros de Castro",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 63.54465496373126,
         "sun_diff": 0.4329260384124609,
         "length": 101.74229571523996
@@ -6964,7 +6964,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Atl\u00e2ntica",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 66.84791117411766,
         "sun_diff": 2.870330171973933,
         "length": 160.4628084000204
@@ -6987,7 +6987,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Atl\u00e2ntica",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.75157481937043,
         "sun_diff": 1.7739938172267102,
         "length": 116.45876428252362
@@ -14968,33 +14968,10 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Gustavo Sampaio",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 65.96039029863846,
         "sun_diff": 1.982809296494736,
         "length": 282.27304886391227
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -43.1700618,
-            -22.96288
-          ],
-          [
-            -43.1682718,
-            -22.962171
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Gustavo Sampaio",
-        "type": "residential",
-        "slope": 66.72381673514067,
-        "sun_diff": 2.7462357329969507,
-        "length": 199.56736830652534
       }
     },
     {
@@ -20418,7 +20395,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Rua Abahia",
+        "name": "Rua Bahia",
         "type": "residential",
         "slope": 65.20838109886992,
         "sun_diff": 1.2083970762485592,
@@ -37201,8 +37178,8 @@
             -22.9009386
           ],
           [
-            -43.6942551,
-            -22.8993647
+            -43.694762,
+            -22.899085
           ]
         ]
       },
@@ -37210,9 +37187,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 118.20999975131127,
-        "sun_diff": 2.2089902087794826,
-        "length": 370.3451516654334
+        "slope": 118.59081910541005,
+        "sun_diff": 2.5898095628782585,
+        "length": 430.8306971989884
       }
     },
     {
@@ -42039,7 +42016,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Miguel Lemos",
-        "type": "secondary",
+        "type": "primary",
         "slope": 116.14712762862118,
         "sun_diff": 0.12372872599007678,
         "length": 103.31003499976897
@@ -42062,7 +42039,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Ministro Viveiros de Castro",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 66.33219121236661,
         "sun_diff": 2.354610210222887,
         "length": 118.61885942757446
@@ -42085,7 +42062,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Ministro Viveiros de Castro",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 64.38260329188927,
         "sun_diff": 0.40502228974554555,
         "length": 109.3880898833628
@@ -42108,7 +42085,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Ministro Viveiros de Castro",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 63.71126624274456,
         "sun_diff": 0.26631475939916527,
         "length": 111.65820340251913
@@ -43952,6 +43929,29 @@
         "slope": 62.28451983127724,
         "sun_diff": 1.715436870587439,
         "length": 185.08800682423865
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.7048899,
+            -22.9038857
+          ],
+          [
+            -43.7040123,
+            -22.9043092
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Ang\u00e9lica",
+        "type": "residential",
+        "slope": 117.64869545956697,
+        "sun_diff": 1.6476859170351759,
+        "length": 101.51058863806625
       }
     },
     {
@@ -49403,6 +49403,98 @@
         "slope": 62.891460681430715,
         "sun_diff": 1.108496020433961,
         "length": 106.10938972941833
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.1700618,
+            -22.96288
+          ],
+          [
+            -43.1682718,
+            -22.962171
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Gustavo Sampaio",
+        "type": "tertiary",
+        "slope": 66.72381673514067,
+        "sun_diff": 2.7462357329969507,
+        "length": 199.56736830652534
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.6991669,
+            -22.9017206
+          ],
+          [
+            -43.6968035,
+            -22.9029088
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 118.62466072867329,
+        "sun_diff": 2.623651186141501,
+        "length": 275.8757900538566
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.6939092,
+            -22.9039375
+          ],
+          [
+            -43.6952812,
+            -22.9032491
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 118.57672707978136,
+        "sun_diff": 2.5757175372495738,
+        "length": 160.07701022893423
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.6947949,
+            -22.898977
+          ],
+          [
+            -43.6963378,
+            -22.8982009
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 118.63645210009935,
+        "sun_diff": 2.6354425575675577,
+        "length": 180.1256583484567
       }
     }
   ]

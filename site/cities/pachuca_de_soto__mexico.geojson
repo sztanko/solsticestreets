@@ -478,7 +478,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cerrada Primera del Valle Grande",
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.5411733192847,
         "sun_diff": 1.1611030733258616,
         "length": 100.25513719622147
@@ -501,7 +501,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cerrada Primera del Mayo",
-        "type": "residential",
+        "type": "living_street",
         "slope": 112.93832638722566,
         "sun_diff": 1.763950005384899,
         "length": 101.97150522832487
@@ -524,7 +524,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Real del Rosario",
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.39234187949518,
         "sun_diff": 1.3099345131153797,
         "length": 126.35115195412955
@@ -547,7 +547,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Real del Norte",
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.84194346461362,
         "sun_diff": 0.8603329279969358,
         "length": 125.36954878166488
@@ -570,7 +570,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Real del Monte",
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.44440902780823,
         "sun_diff": 1.2578673648023226,
         "length": 125.63901571847056
@@ -593,7 +593,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Real del Catorce",
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.62060258815694,
         "sun_diff": 1.0816738044536152,
         "length": 125.47701858645647
@@ -616,7 +616,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Real del Catorce",
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.94920946983993,
         "sun_diff": 0.7530669227706284,
         "length": 126.32057750079468
@@ -639,7 +639,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Real de Pachuca",
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.47464438473125,
         "sun_diff": 1.2276320078793077,
         "length": 125.542178899074
@@ -7619,29 +7619,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -98.8218541,
-            20.1205535
-          ],
-          [
-            -98.8235547,
-            20.1198614
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carretera Pachuca-Actopan",
-        "type": "primary",
-        "slope": 66.56695023089557,
-        "sun_diff": 1.2685472470547836,
-        "length": 193.57916964020978
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -98.8260039,
             20.1186889
           ],
@@ -9540,7 +9517,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Valle Tranquilo",
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.15862480737295,
         "sun_diff": 1.5436515852376118,
         "length": 132.928732810132
@@ -9586,7 +9563,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle San Javier",
-        "type": "residential",
+        "type": "living_street",
         "slope": 113.93724614115868,
         "sun_diff": 0.7650302514518756,
         "length": 111.96032049073337
@@ -9774,6 +9751,29 @@
         "slope": 67.1787965985161,
         "sun_diff": 1.880393614675313,
         "length": 138.19981689251594
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.8252104,
+            20.1026204
+          ],
+          [
+            -98.8236964,
+            20.1032213
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 67.08887663552287,
+        "sun_diff": 1.7904736516820776,
+        "length": 171.68671498716097
       }
     },
     {
@@ -13776,6 +13776,52 @@
         "slope": 117.31923333906607,
         "sun_diff": 2.6169569464555167,
         "length": 125.75990736766447
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.8218979,
+            20.1205357
+          ],
+          [
+            -98.8235547,
+            20.1198614
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carretera Pachuca-Actopan",
+        "type": "primary",
+        "slope": 66.56616079320312,
+        "sun_diff": 1.2677578093623367,
+        "length": 188.59455425885668
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.7471687,
+            20.0837558
+          ],
+          [
+            -98.7458206,
+            20.0843132
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 66.2388555755588,
+        "sun_diff": 0.9404525917180138,
+        "length": 153.87390956223538
       }
     }
   ]
