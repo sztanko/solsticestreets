@@ -41,7 +41,7 @@
       "type": "Feature",
       "properties": {
         "name": "Zhongshan Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 64.27913867462954,
         "sun_diff": 0.7280073635047302,
         "length": 140.2206795476538
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u4e1c\u697c\u8857",
-        "type": "primary",
+        "type": "secondary",
         "slope": 62.533051001179416,
         "sun_diff": 1.0180803099453897,
         "length": 169.4595607324967
@@ -661,8 +661,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Renmin Road",
-        "type": "secondary",
+        "name": "\u4eba\u6c11\u8def",
+        "type": "primary",
         "slope": 60.56639314118459,
         "sun_diff": 2.984738169940215,
         "length": 163.60344520688156
@@ -3479,21 +3479,21 @@
         "type": "LineString",
         "coordinates": [
           [
-            104.6180038,
-            28.7582401
-          ],
-          [
             104.6160772,
             28.7572928
+          ],
+          [
+            104.6180038,
+            28.7582401
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
-        "slope": 60.71324955382693,
-        "sun_diff": 2.837881757297879,
+        "type": "tertiary",
+        "slope": 60.713027746680126,
+        "sun_diff": 2.8381035644446797,
         "length": 215.39615406678251
       }
     },
@@ -5254,8 +5254,8 @@
             28.8243253
           ],
           [
-            104.6112115,
-            28.82245
+            104.6110501,
+            28.8223441
           ]
         ]
       },
@@ -5263,9 +5263,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 62.17696041950498,
-        "sun_diff": 1.3741708916198263,
-        "length": 446.90149961234675
+        "slope": 61.79900264254212,
+        "sun_diff": 1.7521286685826851,
+        "length": 466.3197688901956
       }
     },
     {
@@ -7612,6 +7612,75 @@
         "slope": 116.50321089758069,
         "sun_diff": 0.05587581354524218,
         "length": 261.9666465794657
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.6090518,
+            28.8273061
+          ],
+          [
+            104.6142604,
+            28.8294801
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 64.5251498149544,
+        "sun_diff": 0.9740185038295976,
+        "length": 562.2119421387956
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.78976,
+            28.7801329
+          ],
+          [
+            104.7887335,
+            28.7797099
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 64.81921624425831,
+        "sun_diff": 1.2680849331335082,
+        "length": 110.58241445294368
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.7523605,
+            28.7541302
+          ],
+          [
+            104.7510032,
+            28.7535974
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 65.87938025337775,
+        "sun_diff": 2.328248942252941,
+        "length": 145.0185531053801
       }
     }
   ]

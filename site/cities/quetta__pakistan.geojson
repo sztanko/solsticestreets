@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "Samungli Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 117.21102038894878,
         "sun_diff": 0.3896914667201088,
         "length": 107.17494237854363
@@ -41,7 +41,7 @@
       "type": "Feature",
       "properties": {
         "name": "Samungli Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 116.30506663799002,
         "sun_diff": 0.5162622842386497,
         "length": 103.53645668778238
@@ -719,29 +719,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            67.023164,
-            30.193123
-          ],
-          [
-            67.0241268,
-            30.1926567
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Alamdar Road",
-        "type": "tertiary",
-        "slope": 119.26328648786111,
-        "sun_diff": 2.4419575656324355,
-        "length": 106.10449792604936
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             67.0116332,
             30.193093
           ],
@@ -777,7 +754,7 @@
       "type": "Feature",
       "properties": {
         "name": "Spini Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 117.53647960275663,
         "sun_diff": 0.7151506805279553,
         "length": 134.29931291127087
@@ -857,8 +834,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            66.980589,
-            30.1867754
+            66.981394,
+            30.1784651
+          ],
+          [
+            66.9829722,
+            30.1778609
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 113.88677109420433,
+        "sun_diff": 2.9345578280243387,
+        "length": 165.96649384404319
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            66.9806477,
+            30.1867558
           ],
           [
             66.9816051,
@@ -870,9 +870,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 116.94704222977151,
-        "sun_diff": 0.1257133075428385,
-        "length": 109.5932788869473
+        "slope": 117.2867932514051,
+        "sun_diff": 0.4654643291764273,
+        "length": 103.57614121418816
       }
     },
     {
@@ -880,8 +880,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            66.980416,
-            30.1847249
+            66.9805051,
+            30.1846803
           ],
           [
             66.982294,
@@ -893,9 +893,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 115.87236144448752,
-        "sun_diff": 0.9489674777411494,
-        "length": 200.68154270365625
+        "slope": 115.65456665711983,
+        "sun_diff": 1.1667622651088436,
+        "length": 190.81004062943958
       }
     },
     {
@@ -2157,7 +2157,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sibi Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 119.73032038611333,
         "sun_diff": 2.908991463884661,
         "length": 127.80109311511212
@@ -2755,7 +2755,7 @@
       "type": "Feature",
       "properties": {
         "name": "Raisani street",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 113.88272375562303,
         "sun_diff": 2.91099754198045,
         "length": 276.4896443176868
@@ -3307,7 +3307,7 @@
       "type": "Feature",
       "properties": {
         "name": "Samungli Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 118.62009864143667,
         "sun_diff": 1.7987697192079963,
         "length": 174.11358282045953
@@ -3905,7 +3905,7 @@
       "type": "Feature",
       "properties": {
         "name": "Samungli Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 116.04626894778403,
         "sun_diff": 0.7750599744446447,
         "length": 140.26086185735528
@@ -3928,7 +3928,7 @@
       "type": "Feature",
       "properties": {
         "name": "Samungli Road",
-        "type": "secondary",
+        "type": "primary",
         "slope": 117.08799834306046,
         "sun_diff": 0.26666942083178924,
         "length": 113.80502394886506
@@ -3951,7 +3951,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "secondary",
+        "type": "primary",
         "slope": 118.28966840850651,
         "sun_diff": 1.4683394862778414,
         "length": 180.06011018564084
@@ -8873,7 +8873,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 118.97379924974913,
         "sun_diff": 2.180077952145652,
         "length": 154.6031282484186
@@ -8896,7 +8896,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 114.28196682190381,
         "sun_diff": 2.511754475699675,
         "length": 125.72050602112346
@@ -9379,7 +9379,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kirani Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 63.04324452013668,
         "sun_diff": 0.1350131038187783,
         "length": 119.07746558573959
@@ -11828,8 +11828,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            66.9812335,
-            30.1921277
+            66.9812809,
+            30.1920834
           ],
           [
             66.982481,
@@ -11841,9 +11841,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 118.59611409926637,
-        "sun_diff": 1.7747851770376997,
-        "length": 136.59910565021997
+        "slope": 117.65245894817491,
+        "sun_diff": 0.8311300259462371,
+        "length": 130.2571458983379
       }
     },
     {
@@ -12396,6 +12396,29 @@
         "slope": 117.52182415728333,
         "sun_diff": 0.7004952350546603,
         "length": 160.33795337086988
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            66.9857416,
+            30.1708906
+          ],
+          [
+            66.9844082,
+            30.1715297
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Sabzal Road",
+        "type": "primary",
+        "slope": 119.00442052450637,
+        "sun_diff": 2.183091602277699,
+        "length": 146.60862101688957
       }
     }
   ]

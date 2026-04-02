@@ -87,7 +87,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 114.58862648671112,
         "sun_diff": 0.3672090720477996,
         "length": 110.24078603101935
@@ -109,8 +109,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Old NH16 Road",
+        "type": "primary",
         "slope": 67.6443767095906,
         "sun_diff": 1.8663305214748505,
         "length": 225.52819881779766
@@ -121,22 +121,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.7628557,
-            16.5167107
+            80.7628995,
+            16.5167069
           ],
           [
-            80.7619022,
-            16.5163364
+            80.7619838,
+            16.5163326
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
-        "slope": 67.7334468207668,
-        "sun_diff": 1.955400632651049,
-        "length": 109.87472780046569
+        "type": "primary",
+        "slope": 66.90902088858954,
+        "sun_diff": 1.1309747004737858,
+        "length": 106.15530542669828
       }
     },
     {
@@ -144,22 +144,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.7619022,
-            16.5163364
+            80.7619838,
+            16.5163326
           ],
           [
-            80.7609174,
-            16.5159644
+            80.7609605,
+            16.5159384
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
-        "slope": 68.49566880945505,
-        "sun_diff": 2.717622621339302,
-        "length": 112.87690613665734
+        "type": "primary",
+        "slope": 68.10962195996646,
+        "sun_diff": 2.3315757718507086,
+        "length": 117.60462167488214
       }
     },
     {
@@ -179,7 +179,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 68.26966538848714,
         "sun_diff": 2.491619200371389,
         "length": 120.80175553264891
@@ -201,8 +201,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Old NH16 Road",
+        "type": "primary",
         "slope": 67.77761707425256,
         "sun_diff": 1.9995708861368087,
         "length": 132.7868694931121
@@ -224,8 +224,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Old NH16 Road",
+        "type": "primary",
         "slope": 67.87380668079578,
         "sun_diff": 2.0957604926800286,
         "length": 141.45614935988476
@@ -535,8 +535,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.5967788,
-            16.5277717
+            80.5967634,
+            16.5277658
           ],
           [
             80.5954421,
@@ -548,9 +548,32 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 113.8825168895386,
-        "sun_diff": 0.33890052512471414,
-        "length": 155.88470205310713
+        "slope": 114.35114467039062,
+        "sun_diff": 0.12972725572730326,
+        "length": 154.65401401063176
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.629414,
+            16.5240879
+          ],
+          [
+            80.6283601,
+            16.5245169
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 113.00588847604635,
+        "sun_diff": 1.2155289386169699,
+        "length": 122.09442656255055
       }
     },
     {
@@ -811,12 +834,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.6618387,
-            16.5080181
+            80.6618277,
+            16.5079915
           ],
           [
-            80.6631749,
-            16.5074775
+            80.6631231,
+            16.5074117
           ]
         ]
       },
@@ -824,9 +847,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 112.87841932485372,
-        "sun_diff": 1.3429980898095977,
-        "length": 154.6665145164514
+        "slope": 115.02433712528324,
+        "sun_diff": 0.8029197106199177,
+        "length": 152.45979107012488
       }
     },
     {
@@ -1524,6 +1547,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            80.6626224,
+            16.5069005
+          ],
+          [
+            80.661626,
+            16.5073407
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 114.73941633071044,
+        "sun_diff": 0.5179989160471195,
+        "length": 116.99965854861014
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             80.6381695,
             16.5448144
           ],
@@ -2214,8 +2260,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.6761022,
-            16.5089055
+            80.6761361,
+            16.508925
           ],
           [
             80.6771674,
@@ -2227,9 +2273,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 113.26984823415302,
-        "sun_diff": 0.9515691805103046,
-        "length": 123.65674597421302
+        "slope": 114.88665588774865,
+        "sun_diff": 0.6652384730853242,
+        "length": 121.24072699382512
       }
     },
     {
@@ -4411,7 +4457,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 116.91554756226205,
         "sun_diff": 2.705707318241906,
         "length": 245.71533930718277
@@ -4434,7 +4480,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 116.93029020684594,
         "sun_diff": 2.7204499628257963,
         "length": 113.04560321596415
@@ -4457,7 +4503,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "tertiary",
         "slope": 116.93089412297658,
         "sun_diff": 2.7210538789564396,
         "length": 119.77230870059164
@@ -5814,7 +5860,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 112.73826222501955,
         "sun_diff": 1.4831551896437674,
         "length": 239.48259355816845
@@ -8228,8 +8274,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Chennai-Kolkata Hwy",
-        "type": "trunk",
+        "name": "Old NH16 Road",
+        "type": "primary",
         "slope": 111.4854021389277,
         "sun_diff": 2.7360152757356246,
         "length": 172.31204576037894
@@ -8251,8 +8297,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Chennai-Kolkata Hwy",
-        "type": "trunk",
+        "name": "Old NH16 Road",
+        "type": "primary",
         "slope": 116.5265953465059,
         "sun_diff": 2.3051779318425787,
         "length": 199.01699741796727
@@ -8274,8 +8320,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Old NH16 Road",
+        "type": "primary",
         "slope": 112.96612836105993,
         "sun_diff": 1.2552890536033914,
         "length": 122.89297373269322
@@ -8297,8 +8343,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "trunk",
+        "name": "Old NH16 Road",
+        "type": "primary",
         "slope": 111.32955533150306,
         "sun_diff": 2.8918620831602624,
         "length": 105.96040527218042
@@ -8969,6 +9015,29 @@
         "slope": 112.8546059016555,
         "sun_diff": 1.3668115130078178,
         "length": 132.0801761683661
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.6697357,
+            16.512833
+          ],
+          [
+            80.6706494,
+            16.5124123
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 115.65225661062718,
+        "sun_diff": 1.4308391959638556,
+        "length": 108.09303648742613
       }
     },
     {
@@ -12461,7 +12530,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "tertiary",
         "slope": 67.29072484877719,
         "sun_diff": 1.501121980585765,
         "length": 192.7224183641716
@@ -12484,7 +12553,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "service",
+        "type": "tertiary",
         "slope": 67.29094280277323,
         "sun_diff": 1.5013399345818073,
         "length": 223.32257367399356
@@ -13714,22 +13783,45 @@
         "type": "LineString",
         "coordinates": [
           [
-            80.599607,
-            16.53376
+            80.5061683,
+            16.4923898
           ],
           [
-            80.6008503,
-            16.5332523
+            80.5041959,
+            16.4931847
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
-        "slope": 113.0720736232023,
-        "sun_diff": 1.1493437914610212,
-        "length": 144.10039728030142
+        "type": "service",
+        "slope": 112.79729114926391,
+        "sun_diff": 1.4241262653994085,
+        "length": 228.1887422707907
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.503475,
+            16.4934579
+          ],
+          [
+            80.5016576,
+            16.4941866
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 112.69300064989332,
+        "sun_diff": 1.5284167647700002,
+        "length": 210.09514898830395
       }
     },
     {
