@@ -1627,7 +1627,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Jefferson Road",
+        "name": null,
         "type": "trunk",
         "slope": 116.1601568011412,
         "sun_diff": 1.8314294127207802,
@@ -1650,7 +1650,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Jefferson Road",
+        "name": null,
         "type": "trunk",
         "slope": 115.4624941837161,
         "sun_diff": 2.5290920301458755,
@@ -2524,7 +2524,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Jefferson Road",
+        "name": null,
         "type": "trunk",
         "slope": 116.14404764512005,
         "sun_diff": 1.8475385687419248,
@@ -3835,8 +3835,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "service",
+        "name": "Horizon Boulevard",
+        "type": "residential",
         "slope": 64.65696956303168,
         "sun_diff": 2.6472753437953713,
         "length": 124.2915567132965
@@ -4070,29 +4070,6 @@
         "slope": 62.94927234051437,
         "sun_diff": 0.9055910999680634,
         "length": 173.16311567061754
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -83.4682104,
-            33.9072326
-          ],
-          [
-            -83.4698054,
-            33.907894
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Mars Hill Road",
-        "type": "tertiary",
-        "slope": 116.54865294546124,
-        "sun_diff": 1.4089325867124103,
-        "length": 164.5964669845928
       }
     },
     {
@@ -4553,6 +4530,52 @@
         "slope": 63.645968892638706,
         "sun_diff": 1.6362746734023972,
         "length": 131.32134787183602
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.2949623,
+            34.0359095
+          ],
+          [
+            -83.2927357,
+            34.035041
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Spratlin Mill Drive",
+        "type": "residential",
+        "slope": 115.20578034484618,
+        "sun_diff": 2.785805869015803,
+        "length": 226.83583059586633
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.4682104,
+            33.9072326
+          ],
+          [
+            -83.4698054,
+            33.907894
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Mars Hill Road",
+        "type": "tertiary",
+        "slope": 116.54865294546124,
+        "sun_diff": 1.4089325867124103,
+        "length": 164.5964669845928
       }
     }
   ]
