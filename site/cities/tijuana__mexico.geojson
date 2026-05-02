@@ -225,7 +225,7 @@
       "type": "Feature",
       "properties": {
         "name": "Blanche Street",
-        "type": "service",
+        "type": "living_street",
         "slope": 118.38716830304585,
         "sun_diff": 0.8552401599473995,
         "length": 102.0291265996728
@@ -248,7 +248,7 @@
       "type": "Feature",
       "properties": {
         "name": "Blanche Street",
-        "type": "service",
+        "type": "living_street",
         "slope": 117.62046910054039,
         "sun_diff": 0.08854095744193557,
         "length": 148.84663422298132
@@ -1218,29 +1218,6 @@
         "slope": 61.691274159392435,
         "sun_diff": 0.8088276422508045,
         "length": 105.03263131119174
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -116.9180234,
-            32.5234396
-          ],
-          [
-            -116.9195965,
-            32.5226752
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Calle Emiliano Zapata",
-        "type": "tertiary",
-        "slope": 60.045376238493816,
-        "sun_diff": 2.454725563149424,
-        "length": 170.28125821195695
       }
     },
     {
@@ -2651,12 +2628,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -116.8938199,
-            32.5428329
-          ],
-          [
             -116.8976896,
             32.5412239
+          ],
+          [
+            -116.8938199,
+            32.5428329
           ]
         ]
       },
@@ -2664,8 +2641,8 @@
       "properties": {
         "name": "Calle Durazno",
         "type": "residential",
-        "slope": 63.74613920056436,
-        "sun_diff": 1.2460373989211178,
+        "slope": 63.74573188587411,
+        "sun_diff": 1.2456300842308679,
         "length": 404.58430302164436
       }
     },
@@ -4824,7 +4801,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Pda del Tucan",
+        "name": "Privada del Tuc\u00e1n",
         "type": "residential",
         "slope": 114.65169414720916,
         "sun_diff": 2.848746823815546,
@@ -14266,29 +14243,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -116.8955734,
-            32.5270427
-          ],
-          [
-            -116.8940944,
-            32.5276168
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Camino Viejo",
-        "type": "residential",
-        "slope": 65.27924346292235,
-        "sun_diff": 2.7791416612791124,
-        "length": 152.6967962548644
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -116.8700944,
             32.4555442
           ],
@@ -14807,7 +14761,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calle Libertad",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 116.69923189204303,
         "sun_diff": 0.801209078981671,
         "length": 159.94809355499763
@@ -16210,7 +16164,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "service",
         "slope": 120.03495587639472,
         "sun_diff": 2.534514905370017,
         "length": 159.22365019613648
@@ -16233,7 +16187,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "service",
         "slope": 120.03643447440899,
         "sun_diff": 2.53599350338429,
         "length": 183.0822771005346
@@ -16938,8 +16892,8 @@
             32.3873455
           ],
           [
-            -116.9660227,
-            32.3878571
+            -116.9660012,
+            32.3878752
           ]
         ]
       },
@@ -16947,9 +16901,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 64.67625766098058,
-        "sun_diff": 2.144846272182008,
-        "length": 133.0395033728933
+        "slope": 64.27268192555661,
+        "sun_diff": 1.7412705367580372,
+        "length": 135.72937577337873
       }
     },
     {
@@ -18008,6 +17962,29 @@
         "slope": 119.2557090820498,
         "sun_diff": 1.755268111025103,
         "length": 230.71682541260336
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.9180234,
+            32.5234396
+          ],
+          [
+            -116.9195965,
+            32.5226752
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Emiliano Zapata",
+        "type": "tertiary",
+        "slope": 60.045376238493816,
+        "sun_diff": 2.454725563149424,
+        "length": 170.28125821195695
       }
     }
   ]

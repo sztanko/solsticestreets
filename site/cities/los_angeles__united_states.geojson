@@ -1283,7 +1283,7 @@
       "type": "Feature",
       "properties": {
         "name": "Starlight Crest Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 117.77581425054291,
         "sun_diff": 0.2841831380459183,
         "length": 175.88674510415123
@@ -5434,6 +5434,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -118.597221,
+            34.1354055
+          ],
+          [
+            -118.5958018,
+            34.1348343
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Viewridge Road",
+        "type": "residential",
+        "slope": 115.93143569993123,
+        "sun_diff": 2.094192176754092,
+        "length": 145.28926182859138
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -118.1849522,
             34.207606
           ],
@@ -6423,8 +6446,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.3727005,
-            33.8463279
+            -118.3727098,
+            33.8463192
           ],
           [
             -118.3736903,
@@ -6436,9 +6459,9 @@
       "properties": {
         "name": "Sara Drive",
         "type": "residential",
-        "slope": 64.12674944251953,
-        "sun_diff": 2.049873482606955,
-        "length": 101.6248935999834
+        "slope": 64.40959593056886,
+        "sun_diff": 2.332719970656285,
+        "length": 100.43081533503924
       }
     },
     {
@@ -9666,8 +9689,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.3680542,
-            33.806595
+            -118.3682016,
+            33.8066371
           ],
           [
             -118.3701248,
@@ -9679,9 +9702,9 @@
       "properties": {
         "name": "Paseo del Pavon",
         "type": "residential",
-        "slope": 117.39172577203229,
-        "sun_diff": 0.5319000595880539,
-        "length": 215.53560444478128
+        "slope": 117.99226411630991,
+        "sun_diff": 0.06863828468956967,
+        "length": 201.29650318279653
       }
     },
     {
@@ -11874,35 +11897,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.597221,
-            34.1354055
+            -118.597148,
+            34.1355104
           ],
-          [
-            -118.5958018,
-            34.1348343
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Viewridge Road",
-        "type": "residential",
-        "slope": 115.93143569993123,
-        "sun_diff": 2.094192176754092,
-        "length": 145.28926182859138
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [
             -118.5957878,
             34.1349554
-          ],
-          [
-            -118.597148,
-            34.1355104
           ]
         ]
       },
@@ -11910,8 +11910,8 @@
       "properties": {
         "name": "Viewridge Road",
         "type": "residential",
-        "slope": 116.24139646567605,
-        "sun_diff": 1.784231411009273,
+        "slope": 116.24124724634072,
+        "sun_diff": 1.7843806303446001,
         "length": 139.61813983972948
       }
     },
@@ -12932,12 +12932,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.3678703,
-            33.9647598
+            -118.3680006,
+            33.9647189
           ],
           [
-            -118.3665308,
-            33.9653132
+            -118.3665311,
+            33.9653137
           ]
         ]
       },
@@ -12945,9 +12945,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 63.520606391525405,
-        "sun_diff": 1.5115405496927394,
-        "length": 138.0535416989279
+        "slope": 63.98605841838213,
+        "sun_diff": 1.9769925765494634,
+        "length": 150.84638646841628
       }
     },
     {
@@ -24168,7 +24168,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calabasas Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 62.48894300167336,
         "sun_diff": 0.5484249383509336,
         "length": 114.21072564238305
@@ -24191,7 +24191,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calabasas Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 62.48848164872777,
         "sun_diff": 0.5479635854053413,
         "length": 100.53223445013704
@@ -24214,7 +24214,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calabasas Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 62.99123278636023,
         "sun_diff": 1.0507147230377996,
         "length": 176.79194457779866
@@ -24237,7 +24237,7 @@
       "type": "Feature",
       "properties": {
         "name": "Calabasas Road",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 62.303481100007986,
         "sun_diff": 0.3629630366855565,
         "length": 116.88016478818498
@@ -26364,8 +26364,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.1638913,
-            33.9169856
+            -118.1639326,
+            33.9170023
           ],
           [
             -118.1612024,
@@ -26377,9 +26377,9 @@
       "properties": {
         "name": "Main Street",
         "type": "tertiary",
-        "slope": 119.36814643902599,
-        "sun_diff": 1.4106975106357424,
-        "length": 284.7981560780144
+        "slope": 119.31843821263377,
+        "sun_diff": 1.3609892842435158,
+        "length": 289.0314721759087
       }
     },
     {
@@ -28848,8 +28848,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.3681507,
-            33.8074018
+            -118.3684747,
+            33.8075468
           ],
           [
             -118.3700681,
@@ -28861,9 +28861,9 @@
       "properties": {
         "name": "Paseo de Las Tortugas",
         "type": "tertiary",
-        "slope": 117.89878298453507,
-        "sun_diff": 0.024842847085267294,
-        "length": 200.51402316408124
+        "slope": 117.81535308656223,
+        "sun_diff": 0.10827274505811602,
+        "length": 166.50310229650037
       }
     },
     {
@@ -32091,8 +32091,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -118.2602489,
-            33.7439026
+            -118.2603244,
+            33.7438721
           ],
           [
             -118.2616881,
@@ -32104,9 +32104,9 @@
       "properties": {
         "name": "Terminal Way",
         "type": "secondary",
-        "slope": 64.12742718841278,
-        "sun_diff": 2.0169193770270795,
-        "length": 147.94200328034813
+        "slope": 64.12957028405535,
+        "sun_diff": 2.0190624726696456,
+        "length": 140.1784875755179
       }
     },
     {
