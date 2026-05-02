@@ -1788,7 +1788,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Loren Avenue",
+        "name": "Loren Avenue Northwest",
         "type": "residential",
         "slope": 118.55678495105954,
         "sun_diff": 0.14250565022216222,
@@ -3088,6 +3088,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -106.6119756,
+            35.1308687
+          ],
+          [
+            -106.6108284,
+            35.1313384
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Pan American Freeway Northeast",
+        "type": "secondary",
+        "slope": 63.40614188030821,
+        "sun_diff": 1.7825719152310455,
+        "length": 116.7055255133874
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -106.6370859,
             35.0900964
           ],
@@ -3127,29 +3150,6 @@
         "slope": 118.29512742509846,
         "sun_diff": 0.08285625048947054,
         "length": 114.84066778242587
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.5807435,
-            35.1465927
-          ],
-          [
-            -106.5817172,
-            35.1470291
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Academy Road Northeast",
-        "type": "secondary",
-        "slope": 118.7281337842166,
-        "sun_diff": 0.350150108628668,
-        "length": 100.98903774195627
       }
     },
     {
@@ -5680,6 +5680,29 @@
         "slope": 63.439361047435625,
         "sun_diff": 1.852100367986253,
         "length": 106.2189415909476
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.5807435,
+            35.1465927
+          ],
+          [
+            -106.5817172,
+            35.1470291
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Academy Road Northeast",
+        "type": "secondary",
+        "slope": 118.7281337842166,
+        "sun_diff": 0.350150108628668,
+        "length": 100.98903774195627
       }
     }
   ]

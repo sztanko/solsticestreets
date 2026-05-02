@@ -6,6 +6,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            12.2070705,
+            45.4848597
+          ],
+          [
+            12.2055315,
+            45.4855997
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Ciclabile Valsugana",
+        "type": "path",
+        "slope": 124.4437308928581,
+        "sun_diff": 0.9583776427447503,
+        "length": 145.52853310124732
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2035172,
+            45.4865718
+          ],
+          [
+            12.1991064,
+            45.4886925
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Ciclabile Valsugana",
+        "type": "path",
+        "slope": 124.44327649225838,
+        "sun_diff": 0.9579232421450286,
+        "length": 417.0655427814875
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             12.2606595,
             45.4958704
           ],
@@ -340,7 +386,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Alipio Cappelletto",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 121.85859083372003,
         "sun_diff": 1.6267624163933192,
         "length": 122.22443017715165
@@ -363,7 +409,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Alipio Cappelletto",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 121.79978205426153,
         "sun_diff": 1.6855711958518214,
         "length": 187.22805075743253
@@ -386,7 +432,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Eugenio Bacchion",
-        "type": "trunk",
+        "type": "primary",
         "slope": 121.84385542585952,
         "sun_diff": 1.6414978242538325,
         "length": 117.9751903851877
@@ -838,8 +884,8 @@
             45.4421381
           ],
           [
-            12.2005426,
-            45.4426965
+            12.2005625,
+            45.4427158
           ]
         ]
       },
@@ -847,9 +893,9 @@
       "properties": {
         "name": "Via Benaco",
         "type": "residential",
-        "slope": 54.761272666295724,
-        "sun_diff": 1.8188582948873488,
-        "length": 107.64750698654694
+        "slope": 54.31536160162173,
+        "sun_diff": 2.264769359561342,
+        "length": 110.15790699685878
       }
     },
     {
@@ -984,7 +1030,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Teodoro Ticozzi",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 55.36720141706826,
         "sun_diff": 1.1476602564061693,
         "length": 194.7999683376361
@@ -1386,12 +1432,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            12.1989157,
-            45.5232452
+            12.1989988,
+            45.5232208
           ],
           [
-            12.1970475,
-            45.5241871
+            12.1970455,
+            45.5241824
           ]
         ]
       },
@@ -1399,9 +1445,9 @@
       "properties": {
         "name": "Via Lorenzo Lotto",
         "type": "residential",
-        "slope": 125.73973613833914,
-        "sun_diff": 2.2543828882257912,
-        "length": 179.36516250576912
+        "slope": 125.09449402414927,
+        "sun_diff": 1.6091407740359216,
+        "length": 186.0397736227959
       }
     },
     {
@@ -1720,7 +1766,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Martiri della Libert\u00e0",
-        "type": "trunk",
+        "type": "primary",
         "slope": 124.32088473006459,
         "sun_diff": 0.8355314799512428,
         "length": 163.81756711596316
@@ -1743,7 +1789,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Martiri della Libert\u00e0",
-        "type": "trunk",
+        "type": "primary",
         "slope": 124.58568500509224,
         "sun_diff": 1.100331754978896,
         "length": 228.2433254357025
@@ -1789,7 +1835,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Martiri della Libert\u00e0",
-        "type": "trunk",
+        "type": "primary",
         "slope": 124.58209297552898,
         "sun_diff": 1.096739725415631,
         "length": 143.70532596915183
@@ -2134,7 +2180,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Martiri della Libert\u00e0",
-        "type": "trunk",
+        "type": "primary",
         "slope": 124.47949229163845,
         "sun_diff": 0.9941390415251021,
         "length": 150.34759600948806
@@ -2157,7 +2203,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Martiri della Libert\u00e0",
-        "type": "trunk",
+        "type": "primary",
         "slope": 125.36411659470568,
         "sun_diff": 1.878763344592329,
         "length": 103.18269865756356
@@ -2180,7 +2226,7 @@
       "type": "Feature",
       "properties": {
         "name": "Via Martiri della Libert\u00e0",
-        "type": "trunk",
+        "type": "primary",
         "slope": 124.95951932977479,
         "sun_diff": 1.474166079661444,
         "length": 165.23511437695012
@@ -2437,29 +2483,6 @@
         "slope": 124.8167567822045,
         "sun_diff": 1.3314035320911444,
         "length": 110.53714752559299
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            12.2215436,
-            45.4956504
-          ],
-          [
-            12.2226734,
-            45.4951027
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 124.66690798983345,
-        "sun_diff": 1.1815547397200987,
-        "length": 107.10247529865494
       }
     },
     {
@@ -2759,6 +2782,98 @@
         "slope": 58.02899875793469,
         "sun_diff": 1.514137084460259,
         "length": 100.87518969107256
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.1910442,
+            45.4925638
+          ],
+          [
+            12.1895301,
+            45.493292
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Ciclabile Valsugana",
+        "type": "path",
+        "slope": 124.45372055213434,
+        "sun_diff": 0.9683673020209937,
+        "length": 143.1715380657391
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.1987516,
+            45.4888602
+          ],
+          [
+            12.1975716,
+            45.4894274
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Ciclabile Valsugana",
+        "type": "path",
+        "slope": 124.43700074804042,
+        "sun_diff": 0.9516474979270697,
+        "length": 111.56464623767289
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.1968319,
+            45.4897844
+          ],
+          [
+            12.1942545,
+            45.4910278
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Ciclabile Valsugana",
+        "type": "path",
+        "slope": 124.53472431688357,
+        "sun_diff": 1.0493710667702203,
+        "length": 243.96338865045644
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.1942545,
+            45.4910278
+          ],
+          [
+            12.1911463,
+            45.4925136
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Ciclabile Valsugana",
+        "type": "path",
+        "slope": 124.29076292250548,
+        "sun_diff": 0.8054096723921305,
+        "length": 293.3419748723993
       }
     },
     {

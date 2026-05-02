@@ -5009,7 +5009,7 @@
       "type": "Feature",
       "properties": {
         "name": "Grens Street",
-        "type": "unclassified",
+        "type": "service",
         "slope": 118.56346181743316,
         "sun_diff": 1.6494062470324025,
         "length": 105.96472492640251
@@ -5032,7 +5032,7 @@
       "type": "Feature",
       "properties": {
         "name": "Grens Street",
-        "type": "unclassified",
+        "type": "service",
         "slope": 117.97828989438452,
         "sun_diff": 1.0642343239837544,
         "length": 100.17231610639193
@@ -5055,7 +5055,7 @@
       "type": "Feature",
       "properties": {
         "name": "Grens Street",
-        "type": "unclassified",
+        "type": "service",
         "slope": 118.09982983863392,
         "sun_diff": 1.1857742682331605,
         "length": 147.21691580952142
@@ -5078,7 +5078,7 @@
       "type": "Feature",
       "properties": {
         "name": "Grens Street",
-        "type": "unclassified",
+        "type": "service",
         "slope": 118.15317678362032,
         "sun_diff": 1.239121213219562,
         "length": 154.85800792696335
@@ -5101,7 +5101,7 @@
       "type": "Feature",
       "properties": {
         "name": "Grens Street",
-        "type": "unclassified",
+        "type": "service",
         "slope": 119.01855257603597,
         "sun_diff": 2.10449700563521,
         "length": 157.50305262719706
@@ -6239,29 +6239,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            28.0134347,
-            -26.5691329
-          ],
-          [
-            28.0144488,
-            -26.569589
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Arrie Norval Avenue",
-        "type": "service",
-        "slope": 116.69622713341832,
-        "sun_diff": 0.21782843698244392,
-        "length": 112.92344818180136
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             28.0144488,
             -26.569589
           ],
@@ -7359,29 +7336,6 @@
         "slope": 114.64601288103609,
         "sun_diff": 2.268042689364677,
         "length": 241.2592229468088
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            28.0214772,
-            -26.5628915
-          ],
-          [
-            28.0205277,
-            -26.5624968
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Reitz Street",
-        "type": "residential",
-        "slope": 114.92655258947784,
-        "sun_diff": 1.987502980922926,
-        "length": 104.16826558304268
       }
     },
     {
@@ -9544,52 +9498,6 @@
         "slope": 114.39086761270161,
         "sun_diff": 2.5504130917308174,
         "length": 112.96480459913813
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            27.9622033,
-            -26.6993248
-          ],
-          [
-            27.961168,
-            -26.6997753
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 64.0304525558393,
-        "sun_diff": 0.9717232423590758,
-        "length": 114.43223953750072
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            27.961168,
-            -26.6997753
-          ],
-          [
-            27.9598752,
-            -26.7003408
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 63.91211284823535,
-        "sun_diff": 0.8533835347551246,
-        "length": 143.03739734651526
       }
     },
     {
@@ -13097,8 +13005,8 @@
             -26.6765931
           ],
           [
-            27.9936523,
-            -26.6775332
+            27.993781,
+            -26.6774853
           ]
         ]
       },
@@ -13106,9 +13014,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 64.00605162500733,
-        "sun_diff": 0.9473223115271026,
-        "length": 238.58815822205545
+        "slope": 63.79773197580474,
+        "sun_diff": 0.7390026623245092,
+        "length": 224.75712695880426
       }
     },
     {
@@ -18353,6 +18261,75 @@
         "slope": 117.28078525385169,
         "sun_diff": 0.36672968345092727,
         "length": 194.72187050095607
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.9622033,
+            -26.6993248
+          ],
+          [
+            27.961168,
+            -26.6997753
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 64.0304525558393,
+        "sun_diff": 0.9717232423590758,
+        "length": 114.43223953750072
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.961168,
+            -26.6997753
+          ],
+          [
+            27.9598752,
+            -26.7003408
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 63.91211284823535,
+        "sun_diff": 0.8533835347551246,
+        "length": 143.03739734651526
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.7981245,
+            -26.6828639
+          ],
+          [
+            27.7993275,
+            -26.6823451
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 64.23557982223909,
+        "sun_diff": 1.1768505087588608,
+        "length": 132.75743583437549
       }
     }
   ]
