@@ -9804,6 +9804,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -122.2863009,
+            47.9510269
+          ],
+          [
+            -122.2851323,
+            47.9515982
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "West Mukilteo Boulevard",
+        "type": "secondary",
+        "slope": 53.87322773272888,
+        "sun_diff": 0.8716040777150624,
+        "length": 107.7826538596843
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -122.2984218,
             47.4411299
           ],
@@ -10068,8 +10091,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Fisk Road East",
-        "type": "residential",
+        "name": null,
+        "type": "service",
         "slope": 53.03906583203536,
         "sun_diff": 2.447688446812066,
         "length": 101.93058716371125
@@ -10092,7 +10115,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
+        "type": "service",
         "slope": 124.95259614244546,
         "sun_diff": 0.4387120259765709,
         "length": 105.98836164393504
@@ -13419,8 +13442,8 @@
             47.223174
           ],
           [
-            -122.3548276,
-            47.2221838
+            -122.3552912,
+            47.2223901
           ]
         ]
       },
@@ -13428,9 +13451,9 @@
       "properties": {
         "name": "North Levee Road East",
         "type": "tertiary",
-        "slope": 123.23930586525742,
-        "sun_diff": 1.419200676697315,
-        "length": 200.933407911458
+        "slope": 123.24093108241055,
+        "sun_diff": 1.4175754595441816,
+        "length": 159.0639222399581
       }
     },
     {
@@ -13714,29 +13737,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.0914193,
-            47.0800632
-          ],
-          [
-            -122.0896712,
-            47.0792327
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "250th Avenue East",
-        "type": "unclassified",
-        "slope": 124.9013914384681,
-        "sun_diff": 0.3154215054988896,
-        "length": 161.44951992288983
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -122.0792275,
             47.5546761
           ],
@@ -13753,6 +13753,52 @@
         "slope": 122.34904195657543,
         "sun_diff": 2.604296531092075,
         "length": 187.60769162759345
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3538971,
+            47.2233538
+          ],
+          [
+            -122.3552803,
+            47.2239793
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 123.65829109442498,
+        "sun_diff": 1.0002154475297544,
+        "length": 125.5317446305144
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3548058,
+            47.2229237
+          ],
+          [
+            -122.3563438,
+            47.2235986
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 122.86798498762408,
+        "sun_diff": 1.7905215543306525,
+        "length": 138.32436054815773
       }
     }
   ]

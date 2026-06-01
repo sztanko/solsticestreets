@@ -110,7 +110,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u041d\u0435\u0440\u0447\u0438\u043d\u0441\u043a\u0430\u044f \u0443\u043b\u0438\u0446\u0430",
-        "type": "unclassified",
+        "type": "tertiary",
         "slope": 60.366220987969115,
         "sun_diff": 2.389125096221676,
         "length": 157.8063956633708
@@ -455,7 +455,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u041c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u0430\u044f \u0443\u043b\u0438\u0446\u0430",
-        "type": "secondary",
+        "type": "primary",
         "slope": 122.92720231233875,
         "sun_diff": 0.7918359516784221,
         "length": 117.08808107783183
@@ -478,33 +478,10 @@
       "type": "Feature",
       "properties": {
         "name": "2-\u044f \u041b\u0438\u043d\u0435\u0439\u043d\u0430\u044f \u0443\u043b\u0438\u0446\u0430",
-        "type": "secondary",
+        "type": "primary",
         "slope": 123.56322689329986,
         "sun_diff": 1.427860532639528,
         "length": 121.53907467607955
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            131.940152,
-            43.2040524
-          ],
-          [
-            131.9412722,
-            43.2035342
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 122.4002916378812,
-        "sun_diff": 0.3221076209522096,
-        "length": 107.56957902733652
       }
     },
     {
@@ -2483,6 +2460,29 @@
         "slope": 58.99289631042373,
         "sun_diff": 1.072654913327483,
         "length": 195.8597265897843
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            131.940152,
+            43.2040524
+          ],
+          [
+            131.9412722,
+            43.2035342
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 122.4002916378812,
+        "sun_diff": 0.3221076209522096,
+        "length": 107.56957902733652
       }
     }
   ]

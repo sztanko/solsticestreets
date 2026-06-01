@@ -2471,8 +2471,8 @@
             35.202393
           ],
           [
-            -106.5681137,
-            35.2028269
+            -106.5680356,
+            35.202796
           ]
         ]
       },
@@ -2480,9 +2480,9 @@
       "properties": {
         "name": "Tramway Road Northeast",
         "type": "primary",
-        "slope": 115.81747630422518,
-        "sun_diff": 2.5968029966121975,
-        "length": 110.81997280747836
+        "slope": 115.81603327491254,
+        "sun_diff": 2.598246025924837,
+        "length": 102.93331930402377
       }
     },
     {
@@ -2575,29 +2575,6 @@
         "slope": 63.97081512932459,
         "sun_diff": 2.311154444673093,
         "length": 127.09002299336963
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.5976475,
-            35.0384881
-          ],
-          [
-            -106.5989773,
-            35.0379032
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Southgate Road Southeast",
-        "type": "tertiary",
-        "slope": 61.755523476404704,
-        "sun_diff": 0.09586279175320556,
-        "length": 137.47542735538025
       }
     },
     {
@@ -3099,7 +3076,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Pan American Freeway Northeast",
+        "name": null,
         "type": "secondary",
         "slope": 63.40614188030821,
         "sun_diff": 1.7825719152310455,
@@ -4495,6 +4472,29 @@
             35.0297096
           ],
           [
+            -106.538713,
+            35.0321753
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 60.73877095642342,
+        "sun_diff": 0.9208897282280759,
+        "length": 561.1025158050498
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.538713,
+            35.0321753
+          ],
+          [
             -106.5362096,
             35.0333238
           ]
@@ -4504,9 +4504,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 60.73845293014935,
-        "sun_diff": 0.9212077545021486,
-        "length": 822.4550705213757
+        "slope": 60.73850729424558,
+        "sun_diff": 0.9211533904059195,
+        "length": 261.352554917482
       }
     },
     {
@@ -5284,7 +5284,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Vince Gilligan Crossing",
         "type": "service",
         "slope": 120.32535605978387,
         "sun_diff": 1.9834767641486195,
@@ -5307,7 +5307,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Vince Gilligan Crossing",
         "type": "service",
         "slope": 120.32595747106006,
         "sun_diff": 1.9840781754248127,
@@ -5703,6 +5703,52 @@
         "slope": 118.7281337842166,
         "sun_diff": 0.350150108628668,
         "length": 100.98903774195627
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.6687013,
+            35.0035289
+          ],
+          [
+            -106.6697401,
+            35.0039544
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "path",
+        "slope": 116.56790564196618,
+        "sun_diff": 1.7739736536690742,
+        "length": 105.81895924725683
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.5976475,
+            35.0384881
+          ],
+          [
+            -106.5989773,
+            35.0379032
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Southgate Road Southeast",
+        "type": "tertiary",
+        "slope": 61.755523476404704,
+        "sun_diff": 0.09586279175320556,
+        "length": 137.47542735538025
       }
     }
   ]
