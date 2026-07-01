@@ -4710,7 +4710,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arlington Expressway Service Road",
-        "type": "unclassified",
+        "type": "service",
         "slope": 115.71785600414506,
         "sun_diff": 1.1316679389774151,
         "length": 178.99257645578007
@@ -7263,7 +7263,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arlington Expressway Service Road",
-        "type": "tertiary",
+        "type": "service",
         "slope": 115.83444966529675,
         "sun_diff": 1.0150742778257325,
         "length": 140.412008594842
@@ -12518,6 +12518,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -81.7643034,
+            30.3519561
+          ],
+          [
+            -81.7633608,
+            30.3515504
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 116.50843422146076,
+        "sun_diff": 0.36899787461038613,
+        "length": 101.10437170428173
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -81.9616928,
             30.2294999
           ],
@@ -15221,7 +15244,7 @@
       "type": "Feature",
       "properties": {
         "name": "Old Saint Augustine Road",
-        "type": "primary",
+        "type": "secondary",
         "slope": 118.11546045172096,
         "sun_diff": 1.2937080577637516,
         "length": 185.1425592268118
@@ -15520,7 +15543,7 @@
       "type": "Feature",
       "properties": {
         "name": "Atlantic Boulevard",
-        "type": "primary",
+        "type": "trunk",
         "slope": 65.6682998098276,
         "sun_diff": 2.5165979613651643,
         "length": 100.56112151197131
@@ -15796,7 +15819,7 @@
       "type": "Feature",
       "properties": {
         "name": "Emerson Street",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 64.38598193053687,
         "sun_diff": 1.2342800820744344,
         "length": 106.51989460150841
@@ -15819,7 +15842,7 @@
       "type": "Feature",
       "properties": {
         "name": "Emerson Street",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 64.39041551675038,
         "sun_diff": 1.238713668287943,
         "length": 117.29375427305087
@@ -15980,7 +16003,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arlington Expressway Service Road",
-        "type": "tertiary",
+        "type": "service",
         "slope": 115.88797445345375,
         "sun_diff": 0.9615494896687267,
         "length": 176.95310245345746
@@ -16214,6 +16237,52 @@
         "slope": 65.4803059527438,
         "sun_diff": 2.300818894737745,
         "length": 161.53513767851982
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.4863479,
+            30.1461411
+          ],
+          [
+            -81.4888087,
+            30.1451162
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 64.28324509263544,
+        "sun_diff": 1.0761640703825321,
+        "length": 262.7173239056285
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.4865888,
+            30.1447627
+          ],
+          [
+            -81.4882245,
+            30.1440738
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 64.03260540013568,
+        "sun_diff": 0.8255243778827719,
+        "length": 175.00133899879253
       }
     }
   ]

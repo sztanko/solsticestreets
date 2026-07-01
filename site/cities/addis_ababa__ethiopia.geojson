@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jimma Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 64.61528014321851,
         "sun_diff": 1.7886845804372058,
         "length": 116.91349313630961
@@ -41,7 +41,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jimma Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 66.77889072591125,
         "sun_diff": 0.37492600225553474,
         "length": 159.98355008905418
@@ -229,6 +229,52 @@
         "slope": 116.0898363707839,
         "sun_diff": 2.4939140199320065,
         "length": 101.82619660847433
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            38.7900922,
+            8.9876942
+          ],
+          [
+            38.7883494,
+            8.9884022
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 112.35704791767495,
+        "sun_diff": 1.238874433176946,
+        "length": 207.03341891659085
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            38.7879864,
+            8.9885749
+          ],
+          [
+            38.7900922,
+            8.9876942
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 112.94899912236772,
+        "sun_diff": 0.6469232284841695,
+        "length": 251.23646663837442
       }
     },
     {
@@ -1616,6 +1662,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            38.753972,
+            9.0355871
+          ],
+          [
+            38.7529961,
+            9.0351091
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Dejazemach Belay Zeleke Street",
+        "type": "tertiary",
+        "slope": 63.620520638319846,
+        "sun_diff": 2.783444085335873,
+        "length": 119.66264895281259
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             38.6652894,
             9.1107073
           ],
@@ -1839,29 +1908,6 @@
         "slope": 116.5076161912551,
         "sun_diff": 2.9116938404032027,
         "length": 206.47629287815727
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            38.7420335,
-            9.0049268
-          ],
-          [
-            38.7411524,
-            9.00529
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 112.65352890505596,
-        "sun_diff": 0.9423934457959291,
-        "length": 104.88871427071301
       }
     },
     {
@@ -3985,29 +4031,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            38.7890771,
-            8.9890525
-          ],
-          [
-            38.7902951,
-            8.9885638
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 112.10797760381908,
-        "sun_diff": 1.487944747032813,
-        "length": 144.4334168457657
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             38.67915,
             9.0536097
           ],
@@ -4974,12 +4997,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            38.7250548,
-            9.0093507
+            38.7255426,
+            9.0091027
           ],
           [
-            38.7227312,
-            9.010464
+            38.72276,
+            9.0104386
           ]
         ]
       },
@@ -4987,9 +5010,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 115.87865607166046,
-        "sun_diff": 2.282733720808565,
-        "length": 283.71543819394583
+        "slope": 115.9238761494631,
+        "sun_diff": 2.3279537986112047,
+        "length": 339.89045243812535
       }
     },
     {
@@ -6818,8 +6841,8 @@
             8.904052
           ],
           [
-            38.7434457,
-            8.9036505
+            38.7435664,
+            8.9036346
           ]
         ]
       },
@@ -6827,9 +6850,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 114.24210819223157,
-        "sun_diff": 0.6513699549597192,
-        "length": 108.76641565240492
+        "slope": 112.43629087713617,
+        "sun_diff": 1.154447360135677,
+        "length": 121.64703701264156
       }
     },
     {
@@ -7267,29 +7290,6 @@
         "slope": 67.61291990313998,
         "sun_diff": 1.203764235715056,
         "length": 101.22376933147248
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            38.7541786,
-            9.0354506
-          ],
-          [
-            38.7550527,
-            9.0350946
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Dejazemach Belay Zeleke Street",
-        "type": "tertiary",
-        "slope": 112.41090260142929,
-        "sun_diff": 1.185019749422608,
-        "length": 103.86410079489559
       }
     },
     {
@@ -10073,29 +10073,6 @@
         "slope": 114.64654684042603,
         "sun_diff": 1.0558086031541762,
         "length": 107.67717865259272
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            38.7429591,
-            8.9022785
-          ],
-          [
-            38.7419786,
-            8.9026674
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 111.87403093497255,
-        "sun_diff": 1.716707302299298,
-        "length": 116.10603722683268
       }
     },
     {
@@ -14669,7 +14646,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jimma Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 64.72369259836668,
         "sun_diff": 1.685463069058244,
         "length": 103.00212433109647
@@ -14692,7 +14669,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jimma Road",
-        "type": "primary",
+        "type": "trunk",
         "slope": 63.568058019036016,
         "sun_diff": 2.84109764838891,
         "length": 113.76993245849309
@@ -15708,6 +15685,52 @@
         "slope": 68.34721730818308,
         "sun_diff": 1.9432525845273574,
         "length": 105.86978917852116
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            38.72276,
+            9.0104386
+          ],
+          [
+            38.7216653,
+            9.0109737
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 116.33162781668645,
+        "sun_diff": 2.735705465834556,
+        "length": 134.18323358717365
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            38.7226052,
+            9.0101191
+          ],
+          [
+            38.7214995,
+            9.0106408
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 115.53489096789471,
+        "sun_diff": 1.9389686170428178,
+        "length": 134.61826570589585
       }
     }
   ]

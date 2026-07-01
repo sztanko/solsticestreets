@@ -1513,7 +1513,7 @@
       "type": "Feature",
       "properties": {
         "name": "Pearl Street",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 59.85059977381604,
         "sun_diff": 1.429159095424268,
         "length": 103.06787374166522
@@ -2341,7 +2341,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tremont Street",
-        "type": "primary",
+        "type": "secondary",
         "slope": 123.2916006653193,
         "sun_diff": 1.6575428689812242,
         "length": 101.25954512593013
@@ -3437,8 +3437,8 @@
             42.3720623
           ],
           [
-            -71.1334804,
-            42.3715356
+            -71.1335996,
+            42.3714812
           ]
         ]
       },
@@ -3446,9 +3446,9 @@
       "properties": {
         "name": "Eliot Bridge",
         "type": "trunk",
-        "slope": 58.34389515043085,
-        "sun_diff": 0.02325918443767705,
-        "length": 111.62800796756484
+        "slope": 58.33934247202188,
+        "sun_diff": 0.027811862846647273,
+        "length": 123.14155414193506
       }
     },
     {
@@ -4974,6 +4974,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -71.12667,
+            42.303503
+          ],
+          [
+            -71.1254689,
+            42.3029303
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Westchester Road",
+        "type": "residential",
+        "slope": 122.80959911255525,
+        "sun_diff": 1.2298139993620936,
+        "length": 117.56248982176123
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -71.0249999,
             42.3591822
           ],
@@ -5262,7 +5285,7 @@
       "type": "Feature",
       "properties": {
         "name": "Columbia Road",
-        "type": "residential",
+        "type": "secondary",
         "slope": 56.94175812671449,
         "sun_diff": 1.4796552309205993,
         "length": 107.74511023543842
