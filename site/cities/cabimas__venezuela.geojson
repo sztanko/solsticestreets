@@ -40,57 +40,11 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Avenida Libertador",
         "type": "residential",
         "slope": 111.89059286967773,
         "sun_diff": 1.78660873229731,
         "length": 102.86583323357634
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -71.4336541,
-            10.4019635
-          ],
-          [
-            -71.4320433,
-            10.4027505
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 63.58447205088291,
-        "sun_diff": 2.739415534943589,
-        "length": 196.76851713957947
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -71.4320433,
-            10.4027505
-          ],
-          [
-            -71.430929,
-            10.4032748
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 64.43430819251444,
-        "sun_diff": 1.8895793933120615,
-        "length": 135.13712806848545
       }
     },
     {
@@ -454,8 +408,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Calle Wilmer",
-        "type": "residential",
+        "name": "Calle Cadalso",
+        "type": "living_street",
         "slope": 66.8543516495238,
         "sun_diff": 0.530464063697309,
         "length": 147.3180796113085
@@ -477,8 +431,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "residential",
+        "name": "Calle Santa Teresa",
+        "type": "tertiary",
         "slope": 68.96363195780097,
         "sun_diff": 2.639744371974473,
         "length": 107.30683224914584
@@ -500,8 +454,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "residential",
+        "name": "Callejon Miranda",
+        "type": "living_street",
         "slope": 66.23334349117977,
         "sun_diff": 0.09054409464673085,
         "length": 112.85474767543874
@@ -523,8 +477,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "residential",
+        "name": "Calle Santa Cruz",
+        "type": "tertiary",
         "slope": 68.93536985355743,
         "sun_diff": 2.611482267730935,
         "length": 106.11719522784743
@@ -615,8 +569,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "residential",
+        "name": "Calle Carrasquero",
+        "type": "living_street",
         "slope": 66.75487562100983,
         "sun_diff": 0.43098803518333284,
         "length": 124.06298676624263
@@ -638,8 +592,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "residential",
+        "name": "Calle Carrasquero",
+        "type": "living_street",
         "slope": 64.75108942074067,
         "sun_diff": 1.5727981650858283,
         "length": 145.32459786970185
@@ -684,8 +638,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "residential",
+        "name": "Calle Andres",
+        "type": "living_street",
         "slope": 67.04350627914997,
         "sun_diff": 0.7196186933234685,
         "length": 118.86361818120822
@@ -719,29 +673,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -71.4482959,
-            10.4139919
-          ],
-          [
-            -71.4474135,
-            10.4136173
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 113.34665360477095,
-        "sun_diff": 0.3305479972040928,
-        "length": 105.1410214467078
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -71.4472227,
             10.4113684
           ],
@@ -753,8 +684,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "residential",
+        "name": "Calle Porvenir",
+        "type": "living_street",
         "slope": 66.70245534698506,
         "sun_diff": 0.37856776115856405,
         "length": 152.79462492133598
@@ -776,8 +707,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "residential",
+        "name": "Calle Porvenir",
+        "type": "living_street",
         "slope": 66.40322492457418,
         "sun_diff": 0.07933733874767768,
         "length": 119.34435388605463
@@ -822,8 +753,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "residential",
+        "name": "Calle Santa Elena",
+        "type": "secondary",
         "slope": 66.22273558354803,
         "sun_diff": 0.10115200227846799,
         "length": 120.66976329139949
@@ -845,11 +776,34 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "residential",
+        "name": "Calle Santa Elena",
+        "type": "secondary",
         "slope": 64.64732301568657,
         "sun_diff": 1.6765645701399308,
         "length": 161.05612071083144
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.4284069,
+            10.4244927
+          ],
+          [
+            -71.4275694,
+            10.4248626
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Callejon Casa Blanca",
+        "type": "living_street",
+        "slope": 65.81588291744569,
+        "sun_diff": 0.5080046683808064,
+        "length": 100.43185630410497
       }
     },
     {
@@ -1225,6 +1179,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -71.4564166,
+            10.4196289
+          ],
+          [
+            -71.4555052,
+            10.4200089
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "residential",
+        "slope": 67.02634319325523,
+        "sun_diff": 0.7024556074287318,
+        "length": 108.292357462371
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -71.454068,
             10.423844
           ],
@@ -1328,8 +1305,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "residential",
+        "name": "Calle Santa Rosa",
+        "type": "living_street",
         "slope": 65.06720856296639,
         "sun_diff": 1.2566790228601121,
         "length": 117.62713042278058
@@ -1471,6 +1448,75 @@
         "slope": 64.86166586238969,
         "sun_diff": 1.4622217234368122,
         "length": 120.31415090906977
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.4482959,
+            10.4139919
+          ],
+          [
+            -71.4474135,
+            10.4136173
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Bruzual",
+        "type": "living_street",
+        "slope": 113.34665360477095,
+        "sun_diff": 0.3305479972040928,
+        "length": 105.1410214467078
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.4320433,
+            10.4027505
+          ],
+          [
+            -71.430929,
+            10.4032748
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle Venezuela",
+        "type": "living_street",
+        "slope": 64.43430819251444,
+        "sun_diff": 1.8895793933120615,
+        "length": 135.13712806848545
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.4336541,
+            10.4019635
+          ],
+          [
+            -71.4320433,
+            10.4027505
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Calle San Jose",
+        "type": "tertiary",
+        "slope": 63.58447205088291,
+        "sun_diff": 2.739415534943589,
+        "length": 196.76851713957947
       }
     }
   ]
