@@ -2065,7 +2065,7 @@
       "type": "Feature",
       "properties": {
         "name": "Santa Cruz",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 117.75532747691585,
         "sun_diff": 1.1823305725305033,
         "length": 143.04516442754073
@@ -2226,7 +2226,7 @@
       "type": "Feature",
       "properties": {
         "name": "Santa Cruz",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 114.63135208752357,
         "sun_diff": 1.941644816861782,
         "length": 219.74971021970723
@@ -2249,7 +2249,7 @@
       "type": "Feature",
       "properties": {
         "name": "Santa Cruz",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 114.37279222228628,
         "sun_diff": 2.20020468209907,
         "length": 134.09425801213277
@@ -2318,7 +2318,7 @@
       "type": "Feature",
       "properties": {
         "name": "Doctor Sosa",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 117.99205754885921,
         "sun_diff": 1.4190606444738592,
         "length": 117.75884586547738
@@ -2341,7 +2341,7 @@
       "type": "Feature",
       "properties": {
         "name": "Doctor Sosa",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 118.98598526005671,
         "sun_diff": 2.4129883556713594,
         "length": 103.51843050564486
@@ -9344,29 +9344,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -57.52938,
-            -25.2366659
-          ],
-          [
-            -57.5304314,
-            -25.2361612
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Coronel F\u00e9lix Bogado",
-        "type": "residential",
-        "slope": 117.95378625039697,
-        "sun_diff": 1.406115687454033,
-        "length": 119.75786514162918
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -57.5542787,
             -25.2304824
           ],
@@ -14381,29 +14358,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -57.6051981,
-            -25.332545
-          ],
-          [
-            -57.6037209,
-            -25.3318171
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Rep\u00fablica Argentina",
-        "type": "secondary",
-        "slope": 61.4017482162221,
-        "sun_diff": 2.0264670105991343,
-        "length": 169.14542807584507
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -57.6028927,
             -25.3314088
           ],
@@ -15600,29 +15554,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -57.5532628,
-            -25.3700389
-          ],
-          [
-            -57.551896,
-            -25.3706209
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "01 de Mayo",
-        "type": "tertiary",
-        "slope": 115.2327683045581,
-        "sun_diff": 1.365664224296367,
-        "length": 151.85641742708606
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -57.554416,
             -25.2504244
           ],
@@ -16727,8 +16658,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -57.6272037,
-            -25.3097074
+            -57.6272064,
+            -25.3097098
           ],
           [
             -57.6281145,
@@ -16740,9 +16671,9 @@
       "properties": {
         "name": "Teniente Primero Eugenio Alejandrino Garay Arga\u00f1a",
         "type": "tertiary",
-        "slope": 117.02040017676433,
-        "sun_diff": 0.4474032723789776,
-        "length": 102.80552431521876
+        "slope": 117.22191458174271,
+        "sun_diff": 0.6489176773573604,
+        "length": 102.68557865060039
       }
     },
     {
@@ -16904,6 +16835,75 @@
         "slope": 117.63678379846138,
         "sun_diff": 1.0637868940760313,
         "length": 101.43073336575058
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -57.52938,
+            -25.2366659
+          ],
+          [
+            -57.5304314,
+            -25.2361612
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Coronel F\u00e9lix Bogado",
+        "type": "residential",
+        "slope": 117.95378625039697,
+        "sun_diff": 1.406115687454033,
+        "length": 119.75786514162918
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -57.5532628,
+            -25.3700389
+          ],
+          [
+            -57.551896,
+            -25.3706209
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "01 de Mayo",
+        "type": "tertiary",
+        "slope": 115.2327683045581,
+        "sun_diff": 1.365664224296367,
+        "length": 151.85641742708606
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -57.6051981,
+            -25.332545
+          ],
+          [
+            -57.6037209,
+            -25.3318171
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Rep\u00fablica Argentina",
+        "type": "secondary",
+        "slope": 61.4017482162221,
+        "sun_diff": 2.0264670105991343,
+        "length": 169.14542807584507
       }
     }
   ]

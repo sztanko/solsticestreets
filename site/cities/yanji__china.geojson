@@ -1110,8 +1110,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            129.6043772,
-            42.7299817
+            129.6044573,
+            42.729941
           ],
           [
             129.6027871,
@@ -1123,9 +1123,9 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 120.12305230574006,
-        "sun_diff": 1.6741104079779205,
-        "length": 150.2031428314372
+        "slope": 120.35177080972403,
+        "sun_diff": 1.4453919039939507,
+        "length": 158.13707056010892
       }
     },
     {
@@ -1133,12 +1133,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            129.4120235,
-            42.7728509
-          ],
-          [
             129.4142019,
             42.7738138
+          ],
+          [
+            129.4120235,
+            42.7728509
           ]
         ]
       },
@@ -1146,8 +1146,8 @@
       "properties": {
         "name": null,
         "type": "residential",
-        "slope": 58.944646442598355,
-        "sun_diff": 0.7989541613783331,
+        "slope": 58.94504011951037,
+        "sun_diff": 0.7993478382903447,
         "length": 207.61947639701407
       }
     },
@@ -1329,33 +1329,10 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "residential",
+        "type": "unclassified",
         "slope": 59.30453541312866,
         "sun_diff": 1.1588431319086396,
         "length": 112.58660827839245
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            129.6282164,
-            42.7532655
-          ],
-          [
-            129.6296514,
-            42.7539505
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "\u5ef6\u5fb7\u7ebf",
-        "type": "secondary",
-        "slope": 56.972144262430874,
-        "sun_diff": 1.1735480187891483,
-        "length": 139.79119632791824
       }
     },
     {
@@ -2690,6 +2667,52 @@
         "slope": 59.41777451713219,
         "sun_diff": 1.384151979813737,
         "length": 101.00359412231514
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            129.4528672,
+            42.7367076
+          ],
+          [
+            129.451494,
+            42.7360283
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 56.03939694952919,
+        "sun_diff": 2.161838430021362,
+        "length": 135.2579090433244
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            129.451494,
+            42.7360283
+          ],
+          [
+            129.448386,
+            42.7344909
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 56.04139698395559,
+        "sun_diff": 2.15983839559496,
+        "length": 306.1317500496062
       }
     }
   ]

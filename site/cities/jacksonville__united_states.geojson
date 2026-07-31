@@ -4710,7 +4710,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arlington Expressway Service Road",
-        "type": "service",
+        "type": "unclassified",
         "slope": 115.71785600414506,
         "sun_diff": 1.1316679389774151,
         "length": 178.99257645578007
@@ -7263,7 +7263,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arlington Expressway Service Road",
-        "type": "service",
+        "type": "tertiary",
         "slope": 115.83444966529675,
         "sun_diff": 1.0150742778257325,
         "length": 140.412008594842
@@ -10299,7 +10299,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kit Fox Parkway",
-        "type": "service",
+        "type": "residential",
         "slope": 63.0956955643513,
         "sun_diff": 0.08379149365475769,
         "length": 104.3960511182092
@@ -10322,7 +10322,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kit Fox Parkway",
-        "type": "service",
+        "type": "residential",
         "slope": 62.78753079265866,
         "sun_diff": 0.39195626534740313,
         "length": 104.54273042006865
@@ -14684,6 +14684,29 @@
             30.2648577
           ],
           [
+            -81.8523782,
+            30.2655454
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Normandy Boulevard",
+        "type": "primary",
+        "slope": 61.66513300918729,
+        "sun_diff": 1.4865688392751508,
+        "length": 161.16541744024664
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.8523782,
+            30.2655454
+          ],
+          [
             -81.8493066,
             30.2669758
           ]
@@ -14693,9 +14716,9 @@
       "properties": {
         "name": "Normandy Boulevard",
         "type": "primary",
-        "slope": 61.66639658041365,
-        "sun_diff": 1.4853052680487906,
-        "length": 496.4088398299543
+        "slope": 61.66717166907756,
+        "sun_diff": 1.4845301793848762,
+        "length": 335.2434224057268
       }
     },
     {
@@ -16003,7 +16026,7 @@
       "type": "Feature",
       "properties": {
         "name": "Arlington Expressway Service Road",
-        "type": "service",
+        "type": "tertiary",
         "slope": 115.88797445345375,
         "sun_diff": 0.9615494896687267,
         "length": 176.95310245345746
