@@ -52,6 +52,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -100.2880207,
+            25.6482288
+          ],
+          [
+            -100.2890442,
+            25.6486486
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Montevideo",
+        "type": "residential",
+        "slope": 114.46524485620617,
+        "sun_diff": 1.23393862690277,
+        "length": 112.7498375040028
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -100.3598758,
             25.7036316
           ],
@@ -1386,52 +1409,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -100.3671652,
-            25.6743589
-          ],
-          [
-            -100.3680712,
-            25.6739573
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Boulevard Licenciado Gustavo D\u00edaz Ordaz",
-        "type": "primary",
-        "slope": 63.810989356769966,
-        "sun_diff": 0.46982472376564033,
-        "length": 101.21555493260469
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -100.3681142,
-            25.6739383
-          ],
-          [
-            -100.3691068,
-            25.6735263
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Boulevard Licenciado Gustavo D\u00edaz Ordaz",
-        "type": "primary",
-        "slope": 65.27218130211094,
-        "sun_diff": 0.9913672215753309,
-        "length": 109.55231944580017
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -100.3691068,
             25.6735263
           ],
@@ -1862,75 +1839,6 @@
         "slope": 63.522263035570546,
         "sun_diff": 0.7585510449650599,
         "length": 174.9336502332408
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -100.2901371,
-            25.671917
-          ],
-          [
-            -100.2918633,
-            25.6712266
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Constituci\u00f3n",
-        "type": "trunk",
-        "slope": 66.0705254559029,
-        "sun_diff": 1.7897113753672897,
-        "length": 189.32605372884248
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -100.292223,
-            25.6710804
-          ],
-          [
-            -100.2941321,
-            25.6703055
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Constituci\u00f3n",
-        "type": "trunk",
-        "slope": 65.75574584613483,
-        "sun_diff": 1.474931765599223,
-        "length": 209.90260664421575
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -100.2943775,
-            25.6702045
-          ],
-          [
-            -100.2959452,
-            25.6695599
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Constituci\u00f3n",
-        "type": "trunk",
-        "slope": 65.47756925911591,
-        "sun_diff": 1.196755178580304,
-        "length": 172.747102130102
       }
     },
     {
@@ -3491,7 +3399,7 @@
       "type": "Feature",
       "properties": {
         "name": "Callej\u00f3n de Santo Domingo",
-        "type": "service",
+        "type": "residential",
         "slope": 61.4491901593297,
         "sun_diff": 2.831623921205903,
         "length": 117.80742489824735
@@ -18188,7 +18096,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida las Misiones",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 64.90245113698685,
         "sun_diff": 0.5789620345170192,
         "length": 111.26620608887171
@@ -18234,7 +18142,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida las Misiones",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 64.44464609838519,
         "sun_diff": 0.12115699591535645,
         "length": 104.6335620236683
@@ -21803,29 +21711,6 @@
         "slope": 113.8936241866204,
         "sun_diff": 1.8269651093473556,
         "length": 110.25758456984619
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -100.1995539,
-            25.6619512
-          ],
-          [
-            -100.1967067,
-            25.660819
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Pablo Livas",
-        "type": "secondary",
-        "slope": 113.80536441503685,
-        "sun_diff": 1.9152248809309071,
-        "length": 312.0026199688619
       }
     },
     {
@@ -26456,29 +26341,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -100.2027719,
-            25.6631463
-          ],
-          [
-            -100.2041632,
-            25.663696
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Avenida Pablo Livas",
-        "type": "secondary",
-        "slope": 113.66974250607296,
-        "sun_diff": 2.0508467898947913,
-        "length": 152.30041124846397
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -100.204994,
             25.6640275
           ],
@@ -29761,6 +29623,167 @@
         "slope": 65.9116969323826,
         "sun_diff": 1.6308828518469909,
         "length": 107.78384008803616
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.2901371,
+            25.671917
+          ],
+          [
+            -100.2918633,
+            25.6712266
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Constituci\u00f3n",
+        "type": "trunk",
+        "slope": 66.0705254559029,
+        "sun_diff": 1.7897113753672897,
+        "length": 189.32605372884248
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.292223,
+            25.6710804
+          ],
+          [
+            -100.2941321,
+            25.6703055
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Constituci\u00f3n",
+        "type": "trunk",
+        "slope": 65.75574584613483,
+        "sun_diff": 1.474931765599223,
+        "length": 209.90260664421575
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.2943775,
+            25.6702045
+          ],
+          [
+            -100.2959452,
+            25.6695599
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Constituci\u00f3n",
+        "type": "trunk",
+        "slope": 65.47756925911591,
+        "sun_diff": 1.196755178580304,
+        "length": 172.747102130102
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.3671652,
+            25.6743589
+          ],
+          [
+            -100.3680712,
+            25.6739573
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Boulevard Licenciado Gustavo D\u00edaz Ordaz",
+        "type": "primary",
+        "slope": 63.810989356769966,
+        "sun_diff": 0.46982472376564033,
+        "length": 101.21555493260469
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.3681142,
+            25.6739383
+          ],
+          [
+            -100.3691068,
+            25.6735263
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Boulevard Licenciado Gustavo D\u00edaz Ordaz",
+        "type": "primary",
+        "slope": 65.27218130211094,
+        "sun_diff": 0.9913672215753309,
+        "length": 109.55231944580017
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.2027719,
+            25.6631463
+          ],
+          [
+            -100.2041632,
+            25.663696
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Pablo Livas",
+        "type": "secondary",
+        "slope": 113.66974250607296,
+        "sun_diff": 2.0508467898947913,
+        "length": 152.30041124846397
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.1995539,
+            25.6619512
+          ],
+          [
+            -100.1967067,
+            25.660819
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Avenida Pablo Livas",
+        "type": "secondary",
+        "slope": 113.80536441503685,
+        "sun_diff": 1.9152248809309071,
+        "length": 312.0026199688619
       }
     }
   ]

@@ -1547,8 +1547,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.2040768,
-            41.4294482
+            2.2041384,
+            41.4294188
           ],
           [
             2.2066175,
@@ -1560,9 +1560,9 @@
       "properties": {
         "name": "Passeig de la Verneda",
         "type": "residential",
-        "slope": 122.46135824227633,
-        "sun_diff": 1.3561756537506824,
-        "length": 251.12672167192184
+        "slope": 122.46092897448008,
+        "sun_diff": 1.3557463859544328,
+        "length": 245.03695396419548
       }
     },
     {
@@ -1712,8 +1712,8 @@
             41.3795539
           ],
           [
-            2.1024925,
-            41.3802301
+            2.1023994,
+            41.3801846
           ]
         ]
       },
@@ -1721,9 +1721,9 @@
       "properties": {
         "name": "Carrer dels Jocs Ol\u00edmpics",
         "type": "service",
-        "slope": 56.9298133270336,
-        "sun_diff": 1.9653419514335724,
-        "length": 137.83869525021058
+        "slope": 56.93036531320453,
+        "sun_diff": 1.9647899652626393,
+        "length": 128.56570540189503
       }
     },
     {
@@ -2575,6 +2575,29 @@
         "slope": 57.35232561827763,
         "sun_diff": 1.5428296601895397,
         "length": 111.31783836608142
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.1600546,
+            41.4269366
+          ],
+          [
+            2.1612198,
+            41.4274327
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Carrer d'Aiguafreda",
+        "type": "pedestrian",
+        "slope": 60.410322415131276,
+        "sun_diff": 1.515167136664104,
+        "length": 111.7515845643283
       }
     },
     {
@@ -5031,7 +5054,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Carretera de Sant Cugat del Vall\u00e8s a les Planes i Vallvidrera",
+        "name": "Carretera de Vallvidrera a Sant Cugat",
         "type": "secondary",
         "slope": 122.28022587317997,
         "sun_diff": 1.175043284654322,
@@ -5128,29 +5151,6 @@
         "slope": 61.77412337309221,
         "sun_diff": 2.878968094625037,
         "length": 119.35536459969161
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.0976965,
-            41.3509746
-          ],
-          [
-            2.0995328,
-            41.3517778
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Carretera del Mig",
-        "type": "tertiary",
-        "slope": 59.77136220737222,
-        "sun_diff": 0.8762069289050487,
-        "length": 177.45532197876702
       }
     },
     {
@@ -5296,12 +5296,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.1613594,
-            41.4276753
+            2.1613109,
+            41.4276401
           ],
           [
-            2.1600542,
-            41.4270902
+            2.1600686,
+            41.4271038
           ]
         ]
       },
@@ -5309,9 +5309,9 @@
       "properties": {
         "name": "Carrer de Granollers",
         "type": "residential",
-        "slope": 59.125957661906824,
-        "sun_diff": 0.2308023834396522,
-        "length": 126.82460864613161
+        "slope": 60.06864303764053,
+        "sun_diff": 1.173487759173355,
+        "length": 119.55291646345079
       }
     },
     {
@@ -5779,68 +5779,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            2.1775509,
-            41.3740416
+            2.0976965,
+            41.3509746
           ],
           [
-            2.1788624,
-            41.3734328
+            2.0995328,
+            41.3517778
           ]
         ]
       },
       "type": "Feature",
       "properties": {
-        "name": null,
-        "type": "pedestrian",
-        "slope": 121.74054580835099,
-        "sun_diff": 0.6353632198253365,
-        "length": 128.72056866329888
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.1792498,
-            41.3732789
-          ],
-          [
-            2.1829571,
-            41.3715277
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "pedestrian",
-        "slope": 122.18842453648156,
-        "sun_diff": 1.083241947955912,
-        "length": 365.65020650665195
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            2.1788087,
-            41.3731634
-          ],
-          [
-            2.1804052,
-            41.3724518
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "pedestrian",
-        "slope": 120.70863159631045,
-        "sun_diff": 0.39655099221519663,
-        "length": 154.99334165233262
+        "name": "Carretera del Mig",
+        "type": "tertiary",
+        "slope": 59.77136220737222,
+        "sun_diff": 0.8762069289050487,
+        "length": 177.45532197876702
       }
     }
   ]
