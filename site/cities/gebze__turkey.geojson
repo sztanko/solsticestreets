@@ -501,7 +501,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u015eile Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 58.905032812255484,
         "sun_diff": 0.24316731458233676,
         "length": 265.5069179152422
@@ -524,7 +524,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u015eile Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.4180809961498,
         "sun_diff": 1.2698808693119759,
         "length": 224.56846758117987
@@ -547,7 +547,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u015eile Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.63531052539568,
         "sun_diff": 1.48711039855786,
         "length": 146.07790738325696
@@ -570,7 +570,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u015eile Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.636359592748704,
         "sun_diff": 1.4881594659108828,
         "length": 334.15115578745025
@@ -593,7 +593,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u015eile Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.495626558914665,
         "sun_diff": 1.347426432076844,
         "length": 267.4746705170039
@@ -731,7 +731,7 @@
       "type": "Feature",
       "properties": {
         "name": "Anadolu Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 56.60622406919504,
         "sun_diff": 2.541976057642785,
         "length": 240.4110302125412
@@ -754,7 +754,7 @@
       "type": "Feature",
       "properties": {
         "name": "Anadolu Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 57.11252885909204,
         "sun_diff": 2.0356712677457836,
         "length": 219.41245728638268
@@ -777,7 +777,7 @@
       "type": "Feature",
       "properties": {
         "name": "Anadolu Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 56.75022972422343,
         "sun_diff": 2.3979704026143907,
         "length": 103.03634313317444
@@ -995,8 +995,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            29.4163804,
-            40.8492347
+            29.4163278,
+            40.8492367
           ],
           [
             29.4175548,
@@ -1008,9 +1008,9 @@
       "properties": {
         "name": null,
         "type": "unclassified",
-        "slope": 57.60747642857066,
-        "sun_diff": 1.5905294376948973,
-        "length": 117.01956274453441
+        "slope": 58.822542809893946,
+        "sun_diff": 0.3754630563716148,
+        "length": 120.66452181598068
       }
     },
     {
@@ -1179,29 +1179,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            29.3778635,
-            40.8600712
-          ],
-          [
-            29.3764305,
-            40.8594076
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "\u00c7etin Soka\u011f\u0131",
-        "type": "tertiary",
-        "slope": 58.52133541938721,
-        "sun_diff": 0.6268647074506077,
-        "length": 141.35298765254217
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             29.4098637,
             40.9520334
           ],
@@ -1237,7 +1214,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u0130stanbul Park Formula-1",
-        "type": "tertiary",
+        "type": "service",
         "slope": 61.228312649087655,
         "sun_diff": 2.130164148487694,
         "length": 137.89368958011482
@@ -1310,29 +1287,6 @@
         "slope": 57.51654299411561,
         "sun_diff": 1.581605506484351,
         "length": 129.09227047514125
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            29.4105888,
-            40.9520786
-          ],
-          [
-            29.4063456,
-            40.9503283
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "G\u00f6\u00e7beyli Bulvar\u0131",
-        "type": "primary",
-        "slope": 61.35882922951254,
-        "sun_diff": 2.2606807289125754,
-        "length": 406.16399122962144
       }
     },
     {
@@ -1420,7 +1374,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "\u0130n\u00f6n\u00fc Caddesi",
         "type": "residential",
         "slope": 122.75555846653833,
         "sun_diff": 1.95356797526955,
@@ -2904,22 +2858,45 @@
         "type": "LineString",
         "coordinates": [
           [
-            29.3537381,
-            40.798633
+            29.3538163,
+            40.7986891
           ],
           [
-            29.3526375,
-            40.798139
+            29.3524728,
+            40.798111
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": "Burak Reis Caddesi",
-        "type": "unclassified",
-        "slope": 59.33567487364911,
-        "sun_diff": 0.13766900738355048,
-        "length": 107.73840211398456
+        "type": "tertiary",
+        "slope": 60.38576973637598,
+        "sun_diff": 1.187763870110416,
+        "length": 130.12392908553943
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.3521626,
+            40.7979302
+          ],
+          [
+            29.3510837,
+            40.7974845
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Burak Reis Caddesi",
+        "type": "tertiary",
+        "slope": 61.37881438125564,
+        "sun_diff": 2.180808514990076,
+        "length": 103.4933281713619
       }
     },
     {
@@ -3318,29 +3295,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            29.403778,
-            40.8663017
-          ],
-          [
-            29.4054168,
-            40.865489
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 123.25497638466274,
-        "sun_diff": 2.4031938143445615,
-        "length": 164.84632572876444
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             29.5529236,
             40.8129197
           ],
@@ -3433,29 +3387,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            29.3695859,
-            40.8056272
-          ],
-          [
-            29.3682322,
-            40.8061924
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "residential",
-        "slope": 118.88129296538429,
-        "sun_diff": 1.920697525884492,
-        "length": 130.16099399869344
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             29.3504803,
             40.86202
           ],
@@ -3479,12 +3410,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            29.3488209,
-            40.9016586
+            29.3491603,
+            40.9018397
           ],
           [
-            29.3503189,
-            40.9023747
+            29.3503533,
+            40.902397
           ]
         ]
       },
@@ -3492,9 +3423,9 @@
       "properties": {
         "name": "\u00d6z\u00e7i\u00e7ek Soka\u011f\u0131",
         "type": "service",
-        "slope": 57.6878799067797,
-        "sun_diff": 1.4603475408148086,
-        "length": 149.01281807942289
+        "slope": 58.28167786608927,
+        "sun_diff": 0.8665495815052395,
+        "length": 117.90645381447445
       }
     },
     {
@@ -5169,7 +5100,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Mimar Sinan Caddesi",
         "type": "tertiary",
         "slope": 57.822040580999555,
         "sun_diff": 1.3759652852660054,
@@ -5192,7 +5123,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "108.sk",
+        "name": "108. Sokak",
         "type": "residential",
         "slope": 59.696252874857265,
         "sun_diff": 0.49824700859170434,
@@ -5215,7 +5146,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "107.sk",
+        "name": "105. Sokak",
         "type": "residential",
         "slope": 59.91289683606453,
         "sun_diff": 0.7148909697989723,
@@ -5238,7 +5169,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "108.sk",
+        "name": "107. Sokak",
         "type": "residential",
         "slope": 58.93244987896935,
         "sun_diff": 0.2655559872962101,
@@ -5492,7 +5423,7 @@
       "type": "Feature",
       "properties": {
         "name": "K\u0131l\u0131\u00e7 Ali Reis Bulvar\u0131",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 56.42996092301439,
         "sun_diff": 2.7182392038234298,
         "length": 105.6066509319986
@@ -6021,7 +5952,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "primary",
         "slope": 56.982822398019266,
         "sun_diff": 2.1153261025806955,
         "length": 232.44705383706105
@@ -6044,7 +5975,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "primary",
         "slope": 59.849016423904345,
         "sun_diff": 0.7508679233043836,
         "length": 127.09038963993534
@@ -6113,7 +6044,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "residential",
         "slope": 123.53283672555605,
         "sun_diff": 2.6810541552378737,
         "length": 115.57640432730429
@@ -6527,7 +6458,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kanuni Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 122.13479923246746,
         "sun_diff": 1.2830166621492793,
         "length": 132.38979031318144
@@ -6733,8 +6664,8 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Tepe\u00f6ren Sahipsiz Hayvanlar Bar\u0131na\u011f\u0131",
-        "type": "service",
+        "name": null,
+        "type": "unclassified",
         "slope": 60.20739397964559,
         "sun_diff": 1.1092454790456259,
         "length": 131.4304977007624
@@ -6803,7 +6734,7 @@
       "type": "Feature",
       "properties": {
         "name": "Anadolu Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 56.87859544870267,
         "sun_diff": 2.2696046781351527,
         "length": 230.75759265489532
@@ -6826,7 +6757,7 @@
       "type": "Feature",
       "properties": {
         "name": "Anadolu Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 56.69489259817789,
         "sun_diff": 2.453307528659934,
         "length": 566.0693937939577
@@ -7976,7 +7907,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u00dcniversite Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 121.7417086220151,
         "sun_diff": 0.8899260516969179,
         "length": 111.422370341317
@@ -8045,7 +7976,7 @@
       "type": "Feature",
       "properties": {
         "name": "Muhsin Yaz\u0131c\u0131\u011flu Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 120.91610596231027,
         "sun_diff": 0.06432339199209025,
         "length": 139.8760413187117
@@ -8068,7 +7999,7 @@
       "type": "Feature",
       "properties": {
         "name": "Muhsin Yaz\u0131c\u0131\u011flu Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 121.14344503633632,
         "sun_diff": 0.2916624660181384,
         "length": 164.39932068010464
@@ -8091,7 +8022,7 @@
       "type": "Feature",
       "properties": {
         "name": "Muhsin Yaz\u0131c\u0131\u011flu Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 121.18480294736224,
         "sun_diff": 0.33302037704406473,
         "length": 127.06189002434121
@@ -8114,33 +8045,10 @@
       "type": "Feature",
       "properties": {
         "name": "Muhsin Yaz\u0131c\u0131\u011flu Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 121.43616717856253,
         "sun_diff": 0.5843846082443491,
         "length": 148.90464504699432
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            29.3852204,
-            40.8626081
-          ],
-          [
-            29.3838179,
-            40.8631932
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Muhsin Yaz\u0131c\u0131\u011flu Caddesi",
-        "type": "primary",
-        "slope": 118.88245931279738,
-        "sun_diff": 1.9693232575207986,
-        "length": 134.73884720303428
       }
     },
     {
@@ -8160,7 +8068,7 @@
       "type": "Feature",
       "properties": {
         "name": "Muhsin Yaz\u0131c\u0131\u011flu Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 120.9505199700138,
         "sun_diff": 0.09873739969562223,
         "length": 187.50970900980371
@@ -8183,7 +8091,7 @@
       "type": "Feature",
       "properties": {
         "name": "Muhsin Yaz\u0131c\u0131\u011flu Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 122.27950221070418,
         "sun_diff": 1.4277196403860017,
         "length": 162.03812392492165
@@ -8206,7 +8114,7 @@
       "type": "Feature",
       "properties": {
         "name": "Muhsin Yaz\u0131c\u0131\u011flu Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 119.70610103590718,
         "sun_diff": 1.145681534410997,
         "length": 170.7435567355779
@@ -8896,7 +8804,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u0130stanbul Park Formula-1",
-        "type": "tertiary",
+        "type": "service",
         "slope": 59.101765907017324,
         "sun_diff": 0.00361740641736219,
         "length": 133.3848515165312
@@ -8919,7 +8827,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u0130stanbul Park Formula-1",
-        "type": "tertiary",
+        "type": "service",
         "slope": 61.56488779858353,
         "sun_diff": 2.4667392979835654,
         "length": 106.49614825269323
@@ -9555,8 +9463,8 @@
             40.8718166
           ],
           [
-            29.4076215,
-            40.8727173
+            29.4076248,
+            40.8727132
           ]
         ]
       },
@@ -9564,9 +9472,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 56.395393291145126,
-        "sun_diff": 2.752806835692695,
-        "length": 181.01660842953572
+        "slope": 56.56426166964286,
+        "sun_diff": 2.583938457194961,
+        "length": 180.9961717883548
       }
     },
     {
@@ -10084,8 +9992,8 @@
             40.8599821
           ],
           [
-            29.3942523,
-            40.859433
+            29.394304,
+            40.859435
           ]
         ]
       },
@@ -10093,9 +10001,9 @@
       "properties": {
         "name": "Metin Oktay Caddesi",
         "type": "tertiary",
-        "slope": 60.88323433827256,
-        "sun_diff": 1.735034211434737,
-        "length": 125.51835787216717
+        "slope": 59.97779392880483,
+        "sun_diff": 0.8295938019670075,
+        "length": 121.62566984648724
       }
     },
     {
@@ -10138,7 +10046,7 @@
       "type": "Feature",
       "properties": {
         "name": "Plevne Caddesi",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 58.22028361220762,
         "sun_diff": 0.9279165146301978,
         "length": 117.32229429053652
@@ -10161,7 +10069,7 @@
       "type": "Feature",
       "properties": {
         "name": "Plevne Caddesi",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 56.452207717325166,
         "sun_diff": 2.6959924095126553,
         "length": 184.10506347647964
@@ -10395,29 +10303,6 @@
         "slope": 58.058658164439635,
         "sun_diff": 1.1393477018259262,
         "length": 115.10901745849223
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            29.3522531,
-            40.7979771
-          ],
-          [
-            29.3510837,
-            40.7974845
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 60.90649232160558,
-        "sun_diff": 1.7084864553400223,
-        "length": 112.68523750132171
       }
     },
     {
@@ -11150,7 +11035,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u015eile Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.084383761030836,
         "sun_diff": 0.9361836341930143,
         "length": 272.2977937567408
@@ -11173,7 +11058,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u015eile Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 59.37396610913419,
         "sun_diff": 0.22576598229636602,
         "length": 120.45892760580513
@@ -11196,7 +11081,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u015eile Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.63277817336339,
         "sun_diff": 1.48457804652557,
         "length": 239.1520942459732
@@ -11219,7 +11104,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u015eile Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.082759751340234,
         "sun_diff": 0.9345596245024126,
         "length": 154.50737462523344
@@ -11242,7 +11127,7 @@
       "type": "Feature",
       "properties": {
         "name": "\u015eile Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.08168948229428,
         "sun_diff": 0.9334893554564587,
         "length": 245.3578068457474
@@ -11265,33 +11150,10 @@
       "type": "Feature",
       "properties": {
         "name": "\u015eile Caddesi",
-        "type": "primary",
+        "type": "trunk",
         "slope": 60.18501547934733,
         "sun_diff": 1.0368153525095067,
         "length": 206.77814019646053
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            29.3767765,
-            40.8594753
-          ],
-          [
-            29.3779441,
-            40.8600136
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "tertiary",
-        "slope": 58.634373213302894,
-        "sun_diff": 0.5138269135349276,
-        "length": 115.03455817726208
       }
     },
     {
@@ -11982,6 +11844,75 @@
         "slope": 59.154406022179046,
         "sun_diff": 0.04359984408651485,
         "length": 231.55831081405694
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.3852204,
+            40.8626081
+          ],
+          [
+            29.3838179,
+            40.8631932
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Muhsin Yaz\u0131c\u0131\u011flu Caddesi",
+        "type": "trunk",
+        "slope": 118.88245931279738,
+        "sun_diff": 1.9693232575207986,
+        "length": 134.73884720303428
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.4105888,
+            40.9520786
+          ],
+          [
+            29.4063456,
+            40.9503283
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "G\u00f6\u00e7beyli Bulvar\u0131",
+        "type": "primary",
+        "slope": 61.35882922951254,
+        "sun_diff": 2.2606807289125754,
+        "length": 406.16399122962144
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.403778,
+            40.8663017
+          ],
+          [
+            29.4054168,
+            40.865489
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "tertiary",
+        "slope": 123.25497638466274,
+        "sun_diff": 2.4031938143445615,
+        "length": 164.84632572876444
       }
     }
   ]

@@ -1202,8 +1202,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.1538557,
-            47.8741994
+            -122.1540119,
+            47.8742679
           ],
           [
             -122.1556598,
@@ -1215,9 +1215,9 @@
       "properties": {
         "name": "136th Street Southeast",
         "type": "residential",
-        "slope": 123.19112118670995,
-        "sun_diff": 1.9883512039983486,
-        "length": 160.84145243446153
+        "slope": 123.19247072808145,
+        "sun_diff": 1.9870016626268523,
+        "length": 146.9179040996824
       }
     },
     {
@@ -2582,8 +2582,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.4978662,
-            47.4605758
+            -122.4976404,
+            47.4606466
           ],
           [
             -122.4961233,
@@ -2595,9 +2595,9 @@
       "properties": {
         "name": "Westside Highway Southwest",
         "type": "tertiary",
-        "slope": 54.24972407553693,
-        "sun_diff": 0.8719975733083345,
-        "length": 161.4996863015515
+        "slope": 52.83693560371785,
+        "sun_diff": 2.2847860451274187,
+        "length": 143.16119212016122
       }
     },
     {
@@ -3272,8 +3272,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.3056481,
-            47.5565392
+            -122.3056699,
+            47.5565491
           ],
           [
             -122.3042825,
@@ -3285,9 +3285,9 @@
       "properties": {
         "name": "South Pearl Street",
         "type": "residential",
-        "slope": 123.84036336447303,
-        "sun_diff": 1.1129751231944738,
-        "length": 123.41711909756047
+        "slope": 123.84188491605232,
+        "sun_diff": 1.1114535716151863,
+        "length": 125.38953480068172
       }
     },
     {
@@ -4990,6 +4990,29 @@
         "slope": 53.38774302184535,
         "sun_diff": 1.8814014300454573,
         "length": 124.97523780596782
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5487509,
+            47.2165147
+          ],
+          [
+            -122.550005,
+            47.2159191
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Elwood Drive West",
+        "type": "tertiary",
+        "slope": 55.038785227528166,
+        "sun_diff": 0.30336028621175615,
+        "length": 115.61207478168188
       }
     },
     {
@@ -9379,7 +9402,7 @@
       "type": "Feature",
       "properties": {
         "name": "Lake Hills Connector",
-        "type": "secondary",
+        "type": "primary",
         "slope": 122.32175582278003,
         "sun_diff": 2.6315826648874747,
         "length": 276.7283814223416
@@ -11483,29 +11506,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.2230374,
-            47.1088985
-          ],
-          [
-            -122.2217253,
-            47.1095024
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Lane Boulevard Northwest",
-        "type": "residential",
-        "slope": 55.931520922992604,
-        "sun_diff": 0.516838800267152,
-        "length": 119.91066297485449
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -122.7184043,
             47.7233159
           ],
@@ -13346,52 +13346,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.7240439,
-            47.0845542
-          ],
-          [
-            -122.7251999,
-            47.0839645
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 53.160987620114895,
-        "sun_diff": 2.253694502610557,
-        "length": 109.3986444859265
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.6941507,
-            47.0882943
-          ],
-          [
-            -122.6925196,
-            47.0891143
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "path",
-        "slope": 53.558865356925736,
-        "sun_diff": 1.855816765799716,
-        "length": 153.55124656044725
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -122.1536164,
             48.0503146
           ],
@@ -13661,6 +13615,29 @@
         "slope": 56.62583242862786,
         "sun_diff": 1.2111503059024074,
         "length": 101.34116562020009
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.5159671,
+            47.7784644
+          ],
+          [
+            -122.5145901,
+            47.7790972
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 55.633214418251555,
+        "sun_diff": 0.7361513515863578,
+        "length": 124.69079382832005
       }
     }
   ]
