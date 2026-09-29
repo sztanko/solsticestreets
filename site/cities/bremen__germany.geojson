@@ -7757,6 +7757,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            8.5298777,
+            53.5354152
+          ],
+          [
+            8.5286378,
+            53.5359978
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Schlengenstra\u00dfe",
+        "type": "residential",
+        "slope": 128.33043579388016,
+        "sun_diff": 2.042329951112322,
+        "length": 104.48760368276066
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             8.8283744,
             53.5212135
           ],
@@ -8578,29 +8601,6 @@
         "slope": 132.20534200418277,
         "sun_diff": 2.1672828492775977,
         "length": 232.06837331445698
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            8.718304,
-            53.4940924
-          ],
-          [
-            8.7171066,
-            53.4946954
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Ackerstra\u00dfe",
-        "type": "residential",
-        "slope": 130.24851058181954,
-        "sun_diff": 0.12425516317293273,
-        "length": 103.80968514808978
       }
     },
     {
@@ -14289,29 +14289,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.4904606,
-            53.1817952
-          ],
-          [
-            8.489292,
-            53.1812059
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 49.92054921126663,
-        "sun_diff": 0.041674859307676115,
-        "length": 101.80562807323942
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             8.9470459,
             53.3754825
           ],
@@ -14818,12 +14795,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.5136173,
-            53.191545
+            8.5147344,
+            53.1907654
           ],
           [
-            8.5151461,
-            53.1906971
+            8.5179549,
+            53.1890411
           ]
         ]
       },
@@ -14831,9 +14808,9 @@
       "properties": {
         "name": null,
         "type": "path",
-        "slope": 132.78947947356858,
-        "sun_diff": 2.7514203186634063,
-        "length": 138.83462634813108
+        "slope": 131.78341116010054,
+        "sun_diff": 1.7453520051953717,
+        "length": 287.83832774110243
       }
     },
     {
@@ -22166,11 +22143,34 @@
       },
       "type": "Feature",
       "properties": {
-        "name": null,
+        "name": "Wendeweg",
         "type": "path",
         "slope": 47.23922444121388,
         "sun_diff": 2.832883712727579,
         "length": 145.13686653607104
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.718304,
+            53.4940924
+          ],
+          [
+            8.7171066,
+            53.4946954
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Ackerstra\u00dfe",
+        "type": "residential",
+        "slope": 130.24851058181954,
+        "sun_diff": 0.12425516317293273,
+        "length": 103.80968514808978
       }
     }
   ]

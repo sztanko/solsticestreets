@@ -2249,7 +2249,7 @@
       "type": "Feature",
       "properties": {
         "name": "Conzelman Road",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 60.51970988643774,
         "sun_diff": 0.049552078356242646,
         "length": 143.9967908652739
@@ -3157,6 +3157,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -122.4116575,
+            37.7343268
+          ],
+          [
+            -122.4128023,
+            37.7337637
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Alemany Boulevard",
+        "type": "primary",
+        "slope": 58.12050323606101,
+        "sun_diff": 2.4906141279668077,
+        "length": 118.5935546338342
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -122.7085309,
             37.8985997
           ],
@@ -3721,7 +3744,7 @@
       "type": "Feature",
       "properties": {
         "name": "McCullough Road",
-        "type": "residential",
+        "type": "unclassified",
         "slope": 119.59487611409773,
         "sun_diff": 0.1636499477371558,
         "length": 105.65262687367996
