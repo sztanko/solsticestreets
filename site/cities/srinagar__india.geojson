@@ -765,29 +765,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            74.7962643,
-            34.0298269
-          ],
-          [
-            74.795288,
-            34.0302259
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "trunk",
-        "slope": 116.24973870095519,
-        "sun_diff": 1.741369399664876,
-        "length": 100.34441035404902
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             74.826961,
             34.166219
           ],
@@ -846,7 +823,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "trunk",
+        "type": "primary",
         "slope": 60.17883428530533,
         "sun_diff": 1.82954853761035,
         "length": 110.850583075775
@@ -1582,7 +1559,7 @@
       "type": "Feature",
       "properties": {
         "name": "Alamdar Road",
-        "type": "trunk",
+        "type": "primary",
         "slope": 62.99013611132506,
         "sun_diff": 0.9817532884093794,
         "length": 111.53771999465776
@@ -1954,29 +1931,6 @@
         "slope": 119.40539185707408,
         "sun_diff": 1.380105489847267,
         "length": 102.7152214009723
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            74.7100718,
-            34.0166882
-          ],
-          [
-            74.7087894,
-            34.017227
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 116.88022022522279,
-        "sun_diff": 1.1108878753972817,
-        "length": 132.55304395396539
       }
     },
     {
@@ -3939,29 +3893,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            74.801783,
-            34.0275062
-          ],
-          [
-            74.8007852,
-            34.0278952
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 115.19266268597991,
-        "sun_diff": 2.798445414640156,
-        "length": 101.64953045485338
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             74.7962174,
             34.0301048
           ],
@@ -3974,7 +3905,7 @@
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 117.61354850698126,
         "sun_diff": 0.3775595936388072,
         "length": 114.68388331139667
@@ -3985,45 +3916,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            74.7989506,
-            34.0289645
+            74.7988632,
+            34.0289902
           ],
           [
-            74.8021003,
-            34.0277376
+            74.8015211,
+            34.0279419
           ]
         ]
       },
       "type": "Feature",
       "properties": {
         "name": null,
-        "type": "unclassified",
-        "slope": 115.17402185259724,
-        "sun_diff": 2.8170862480228323,
-        "length": 320.8204542072251
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            74.8021003,
-            34.0277376
-          ],
-          [
-            74.8038753,
-            34.0270462
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "unclassified",
-        "slope": 115.17338717057498,
-        "sun_diff": 2.817720930045084,
-        "length": 180.79799760544662
+        "type": "secondary",
+        "slope": 115.4497749628895,
+        "sun_diff": 2.541333137730561,
+        "length": 271.34347848944475
       }
     },
     {
@@ -5128,6 +5036,121 @@
         "slope": 61.795813831234,
         "sun_diff": 0.1783907250749337,
         "length": 161.52100533489102
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.6756394,
+            34.1225896
+          ],
+          [
+            74.676734,
+            34.1221261
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Srinagar Baramulla National Highway",
+        "type": "trunk",
+        "slope": 117.08975859034237,
+        "sun_diff": 0.9355277768844417,
+        "length": 113.21151916885212
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.676734,
+            34.1221261
+          ],
+          [
+            74.6780168,
+            34.1215593
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Srinagar Baramulla National Highway",
+        "type": "trunk",
+        "slope": 118.09006762744264,
+        "sun_diff": 0.06478126021582398,
+        "length": 133.89339701337957
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.7100718,
+            34.0167038
+          ],
+          [
+            74.7089441,
+            34.0171494
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "unclassified",
+        "slope": 115.48815974901916,
+        "sun_diff": 2.5029483516009066,
+        "length": 115.17845706995699
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.7977145,
+            34.0293399
+          ],
+          [
+            74.7988135,
+            34.0289086
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 115.33936400501224,
+        "sun_diff": 2.6517440956078246,
+        "length": 112.09274093972586
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.7962643,
+            34.0298269
+          ],
+          [
+            74.795288,
+            34.0302259
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "trunk",
+        "slope": 116.24973870095519,
+        "sun_diff": 1.741369399664876,
+        "length": 100.34441035404902
       }
     }
   ]

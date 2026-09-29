@@ -1076,7 +1076,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rogers Road",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 116.40841690132629,
         "sun_diff": 1.1551896591426782,
         "length": 103.03514312232797
@@ -1398,7 +1398,7 @@
       "type": "Feature",
       "properties": {
         "name": "McCain Boulevard",
-        "type": "secondary",
+        "type": "unclassified",
         "slope": 117.12474386984024,
         "sun_diff": 0.4388626906287243,
         "length": 135.56984386383246
@@ -1421,7 +1421,7 @@
       "type": "Feature",
       "properties": {
         "name": "McCain Boulevard",
-        "type": "secondary",
+        "type": "unclassified",
         "slope": 116.73620414894773,
         "sun_diff": 0.8274024115212342,
         "length": 109.9727839765495
@@ -1444,7 +1444,7 @@
       "type": "Feature",
       "properties": {
         "name": "McCain Boulevard",
-        "type": "secondary",
+        "type": "unclassified",
         "slope": 117.06322917837676,
         "sun_diff": 0.5003773820922106,
         "length": 105.0997783165986
@@ -3088,8 +3088,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -117.1089641,
-            32.8034266
+            -117.1086372,
+            32.8032975
           ],
           [
             -117.1074128,
@@ -3101,9 +3101,9 @@
       "properties": {
         "name": "Yorktown Drive",
         "type": "residential",
-        "slope": 115.16823517507368,
-        "sun_diff": 2.4272137273058974,
-        "length": 160.24904238481744
+        "slope": 115.16878783506229,
+        "sun_diff": 2.4266610673172835,
+        "length": 126.4809730707357
       }
     },
     {
@@ -6365,7 +6365,7 @@
       },
       "type": "Feature",
       "properties": {
-        "name": "Fire Road",
+        "name": null,
         "type": "service",
         "slope": 116.43887391545348,
         "sun_diff": 1.253153861790068,
@@ -7378,7 +7378,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mesa College Drive",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 116.95998975999959,
         "sun_diff": 0.635459142379986,
         "length": 133.68601921545044
@@ -7401,7 +7401,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mesa College Drive",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 116.24316650672972,
         "sun_diff": 1.3522823956498513,
         "length": 155.30517007896285
@@ -8045,7 +8045,7 @@
       "type": "Feature",
       "properties": {
         "name": "McCain Boulevard",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 116.12319212443964,
         "sun_diff": 1.4404144360293287,
         "length": 110.7241437451598
@@ -8068,7 +8068,7 @@
       "type": "Feature",
       "properties": {
         "name": "McCain Boulevard",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 117.31572084469073,
         "sun_diff": 0.2478857157782386,
         "length": 110.38331098638042
@@ -8091,7 +8091,7 @@
       "type": "Feature",
       "properties": {
         "name": "McCain Boulevard",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 116.44929235072914,
         "sun_diff": 1.114314209739831,
         "length": 134.70310284967726
@@ -9701,7 +9701,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mesa College Drive",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 116.96490287722631,
         "sun_diff": 0.6305460251532651,
         "length": 120.73678235614645
@@ -9862,7 +9862,7 @@
       "type": "Feature",
       "properties": {
         "name": "Stockdale Boulevard",
-        "type": "secondary",
+        "type": "unclassified",
         "slope": 117.31159452946622,
         "sun_diff": 0.2520120310027494,
         "length": 101.3806123605218
@@ -10694,29 +10694,6 @@
         "slope": 115.28462469913578,
         "sun_diff": 2.3750416418202605,
         "length": 181.7733613555564
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.1722047,
-            32.7095359
-          ],
-          [
-            -117.1732501,
-            32.7090783
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Market Street Pier",
-        "type": "living_street",
-        "slope": 62.515594481051465,
-        "sun_diff": 0.07868558960919358,
-        "length": 110.28792580107864
       }
     },
     {
@@ -12587,6 +12564,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            -117.1832089,
+            32.6998282
+          ],
+          [
+            -117.1842171,
+            32.700274
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 117.71987802277812,
+        "sun_diff": 0.15627146230914946,
+        "length": 106.60312303308311
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -117.1876721,
             32.7419501
           ],
@@ -12833,6 +12833,29 @@
         "slope": 64.82605246647537,
         "sun_diff": 2.4209722565653635,
         "length": 129.51675978505355
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.1865516,
+            32.7009691
+          ],
+          [
+            -117.1879582,
+            32.7015521
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 116.22231572162184,
+        "sun_diff": 1.3412908388471294,
+        "length": 146.76108962979012
       }
     },
     {
@@ -15704,7 +15727,7 @@
       "type": "Feature",
       "properties": {
         "name": "McCain Boulevard",
-        "type": "tertiary",
+        "type": "unclassified",
         "slope": 116.320074253705,
         "sun_diff": 1.2435323067639672,
         "length": 104.68615212600456
