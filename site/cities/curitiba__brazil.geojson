@@ -305,29 +305,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -49.2690435,
-            -25.4534941
-          ],
-          [
-            -49.2680446,
-            -25.4530921
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Conselheiro Dantas",
-        "type": "secondary",
-        "slope": 65.97728336786199,
-        "sun_diff": 2.6001852767891194,
-        "length": 109.8365536161021
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -49.2680446,
             -25.4530921
           ],
@@ -1904,7 +1881,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Francisco Mota Machado",
-        "type": "secondary",
+        "type": "primary",
         "slope": 116.24001538622409,
         "sun_diff": 0.35840348225204366,
         "length": 179.37315592625492
@@ -1927,7 +1904,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Francisco Mota Machado",
-        "type": "secondary",
+        "type": "primary",
         "slope": 116.24428084359377,
         "sun_diff": 0.35413802488236,
         "length": 100.86654845719865
@@ -4618,7 +4595,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Jos\u00e9 Hauer",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.87691702985182,
         "sun_diff": 2.499818938778958,
         "length": 130.33549138493032
@@ -4641,7 +4618,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Jos\u00e9 Hauer",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.87894894751176,
         "sun_diff": 2.5018508564388924,
         "length": 129.36597666594972
@@ -5285,7 +5262,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Desembargador Ant\u00f4nio de Paula",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.97963015113598,
         "sun_diff": 2.602532060063112,
         "length": 121.73339736048406
@@ -5308,7 +5285,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Desembargador Ant\u00f4nio de Paula",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.97743129357744,
         "sun_diff": 2.6003332025045722,
         "length": 158.49943032001036
@@ -5331,7 +5308,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Desembargador Ant\u00f4nio de Paula",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.98290701887385,
         "sun_diff": 2.605808927800979,
         "length": 130.5215249796563
@@ -5354,7 +5331,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Desembargador Ant\u00f4nio de Paula",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.97945059393629,
         "sun_diff": 2.6023525028634253,
         "length": 107.96076019032499
@@ -5377,7 +5354,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Desembargador Ant\u00f4nio de Paula",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.97857718942686,
         "sun_diff": 2.601479098353991,
         "length": 130.8546056362776
@@ -5400,7 +5377,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Desembargador Ant\u00f4nio de Paula",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.98445862395343,
         "sun_diff": 2.6073605328805627,
         "length": 119.40601370474252
@@ -5561,7 +5538,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua XV de Novembro",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 114.46122078738318,
         "sun_diff": 2.1627839697238187,
         "length": 142.74544177882015
@@ -5584,7 +5561,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Ver\u00edssimo Marques",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.59980724686523,
         "sun_diff": 2.024197510241777,
         "length": 110.38058244966676
@@ -5607,7 +5584,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Ver\u00edssimo Marques",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.59452158013048,
         "sun_diff": 2.0294831769765267,
         "length": 118.17992262583903
@@ -5630,10 +5607,56 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Ver\u00edssimo Marques",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.59762459211615,
         "sun_diff": 2.0263801649908544,
         "length": 148.04139817034562
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.2463427,
+            -25.4805328
+          ],
+          [
+            -49.2453621,
+            -25.4801338
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Alcino Guanabara",
+        "type": "residential",
+        "slope": 65.7372592780153,
+        "sun_diff": 2.3601611869424346,
+        "length": 108.0027028673671
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.2453621,
+            -25.4801338
+          ],
+          [
+            -49.2441731,
+            -25.4796501
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Alcino Guanabara",
+        "type": "residential",
+        "slope": 65.74163402793778,
+        "sun_diff": 2.364535936864911,
+        "length": 130.9517374963311
       }
     },
     {
@@ -5906,7 +5929,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Colombo",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 114.96152013561638,
         "sun_diff": 1.66248462149062,
         "length": 155.08600494898795
@@ -8217,8 +8240,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -49.2520302,
-            -25.4800973
+            -49.2517739,
+            -25.4799931
           ],
           [
             -49.2508616,
@@ -8230,9 +8253,9 @@
       "properties": {
         "name": "Rua Frei Henrique de Coimbra",
         "type": "residential",
-        "slope": 65.76426135497772,
-        "sun_diff": 2.387163263904853,
-        "length": 128.68210469169227
+        "slope": 65.76679835275746,
+        "sun_diff": 2.3897002616845953,
+        "length": 100.4572877810865
       }
     },
     {
@@ -9965,29 +9988,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -49.2957322,
-            -25.5240305
-          ],
-          [
-            -49.2944928,
-            -25.5245337
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Marechal Oct\u00e1vio Saldanha Mazza",
-        "type": "primary",
-        "slope": 114.22365409269241,
-        "sun_diff": 2.4003506644145887,
-        "length": 136.4148420146532
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -49.2423484,
             -25.5457833
           ],
@@ -10839,8 +10839,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -49.2381495,
-            -25.4728889
+            -49.2382351,
+            -25.4728473
           ],
           [
             -49.239164,
@@ -10852,9 +10852,9 @@
       "properties": {
         "name": "Rua Moys\u00e9s Martins",
         "type": "residential",
-        "slope": 118.3023165753566,
-        "sun_diff": 1.6783118182495969,
-        "length": 115.70493956948941
+        "slope": 118.30308506098496,
+        "sun_diff": 1.679080303877953,
+        "length": 105.94293649164565
       }
     },
     {
@@ -11460,29 +11460,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -49.2493157,
-            -25.4776446
-          ],
-          [
-            -49.25031,
-            -25.4780499
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua S\u00e3o Bento",
-        "type": "residential",
-        "slope": 65.69914949010496,
-        "sun_diff": 2.322051399032091,
-        "length": 109.5466817080458
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -49.25031,
             -25.4780499
           ],
@@ -11660,29 +11637,6 @@
         "slope": 65.68258236360117,
         "sun_diff": 2.305484272528304,
         "length": 130.1402180841698
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -49.2596544,
-            -25.4818608
-          ],
-          [
-            -49.2608339,
-            -25.4823418
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua S\u00e3o Bento",
-        "type": "residential",
-        "slope": 65.6890798726609,
-        "sun_diff": 2.311981781588031,
-        "length": 129.95674201362198
       }
     },
     {
@@ -12507,7 +12461,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Nat\u00e1lio Scuissiato",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 63.71237509447349,
         "sun_diff": 0.33527700340061983,
         "length": 109.00005523324056
@@ -14979,29 +14933,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -49.2297224,
-            -25.4133849
-          ],
-          [
-            -49.230963,
-            -25.4138963
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Fagundes Varela",
-        "type": "secondary",
-        "slope": 65.46882311027846,
-        "sun_diff": 2.066152790953055,
-        "length": 137.00538487787352
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -49.2002801,
             -25.4729969
           ],
@@ -15754,75 +15685,6 @@
         "slope": 66.0893992382168,
         "sun_diff": 2.7123011471439327,
         "length": 129.11957789523262
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -49.223869,
-            -25.5154519
-          ],
-          [
-            -49.222679,
-            -25.5149758
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Maestro Carlos Frank",
-        "type": "tertiary",
-        "slope": 66.09134177801974,
-        "sun_diff": 2.7142436869468725,
-        "length": 130.66637859229388
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -49.222679,
-            -25.5149758
-          ],
-          [
-            -49.2214953,
-            -25.5145022
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Maestro Carlos Frank",
-        "type": "tertiary",
-        "slope": 66.0905053020565,
-        "sun_diff": 2.7134072109836325,
-        "length": 129.97597056724965
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -49.2214953,
-            -25.5145022
-          ],
-          [
-            -49.2203169,
-            -25.5140308
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": "Rua Maestro Carlos Frank",
-        "type": "tertiary",
-        "slope": 66.09416664648967,
-        "sun_diff": 2.7170685554168017,
-        "length": 129.39084866386605
       }
     },
     {
@@ -16961,8 +16823,8 @@
             -25.4412117
           ],
           [
-            -49.2116921,
-            -25.4419239
+            -49.2122014,
+            -25.4416967
           ]
         ]
       },
@@ -16970,9 +16832,9 @@
       "properties": {
         "name": "Rua Delegado Leopoldo Belczak",
         "type": "tertiary",
-        "slope": 116.28837403616657,
-        "sun_diff": 0.3100448323095577,
-        "length": 178.86654764354998
+        "slope": 116.28762422752084,
+        "sun_diff": 0.31079464095529374,
+        "length": 121.80919420896171
       }
     },
     {
@@ -16992,7 +16854,7 @@
       "type": "Feature",
       "properties": {
         "name": "Avenida Presidente Affonso Camargo",
-        "type": "primary",
+        "type": "tertiary",
         "slope": 116.30426137110047,
         "sun_diff": 0.29415749737566443,
         "length": 180.2462801216205
@@ -20350,7 +20212,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Ver\u00edssimo Marques",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.59736111329121,
         "sun_diff": 2.026643643815788,
         "length": 104.24469709715856
@@ -24275,8 +24137,8 @@
             -25.4401227
           ],
           [
-            -49.2210373,
-            -25.4407665
+            -49.221037,
+            -25.4407666
           ]
         ]
       },
@@ -24284,9 +24146,9 @@
       "properties": {
         "name": "Avenida Prefeito Maur\u00edcio Fruet",
         "type": "primary",
-        "slope": 116.2607820668297,
-        "sun_diff": 0.3376368016464255,
-        "length": 161.8458887354229
+        "slope": 116.2595936554857,
+        "sun_diff": 0.3388252129904288,
+        "length": 161.8778333390656
       }
     },
     {
@@ -26698,7 +26560,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Francisco Mota Machado",
-        "type": "secondary",
+        "type": "primary",
         "slope": 116.24014883276394,
         "sun_diff": 0.35827003571219507,
         "length": 180.65533311932543
@@ -27204,7 +27066,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Adelino Vessossi",
-        "type": "tertiary",
+        "type": "residential",
         "slope": 64.96576748273006,
         "sun_diff": 1.5886693916571915,
         "length": 109.11145738007959
@@ -28216,7 +28078,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Judith Ferreira Wallbach",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.59707572323646,
         "sun_diff": 2.0269290338705446,
         "length": 109.45677945855621
@@ -29481,7 +29343,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Ver\u00edssimo Marques",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.5964824393638,
         "sun_diff": 2.0275223177432053,
         "length": 109.48597879727886
@@ -29504,7 +29366,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Bras\u00edlio Itiber\u00ea",
-        "type": "secondary",
+        "type": "primary",
         "slope": 65.9811299795015,
         "sun_diff": 2.578459660176094,
         "length": 119.39008467695206
@@ -29987,7 +29849,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Ver\u00edssimo Marques",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 114.59455647013058,
         "sun_diff": 2.029448286976418,
         "length": 123.79209269476458
@@ -33690,7 +33552,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Colombo",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 114.96176170766142,
         "sun_diff": 1.6622430494455784,
         "length": 214.1508063220959
@@ -34920,8 +34782,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -49.2168559,
-            -25.4438386
+            -49.216865,
+            -25.4438346
           ],
           [
             -49.2159325,
@@ -34933,9 +34795,9 @@
       "properties": {
         "name": "Rua Pandi\u00e1 Cal\u00f3geras",
         "type": "residential",
-        "slope": 116.23887491400382,
-        "sun_diff": 0.3595439544723149,
-        "length": 103.40199298963913
+        "slope": 116.23611813200765,
+        "sun_diff": 0.3623007364684838,
+        "length": 104.41853277769758
       }
     },
     {
@@ -36289,7 +36151,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Desembargador Ant\u00f4nio de Paula",
-        "type": "secondary",
+        "type": "tertiary",
         "slope": 65.04684209183958,
         "sun_diff": 1.6697440007667126,
         "length": 119.46205956584335
@@ -36312,7 +36174,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Jos\u00e9 Hauer",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.8769199621193,
         "sun_diff": 2.4998218710464357,
         "length": 129.60068632627429
@@ -36335,7 +36197,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Jos\u00e9 Hauer",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.88539940748004,
         "sun_diff": 2.50830131640717,
         "length": 106.6660042457767
@@ -36358,7 +36220,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Jos\u00e9 Hauer",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.87701265491489,
         "sun_diff": 2.499914563842026,
         "length": 118.95983266231516
@@ -36381,7 +36243,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Jos\u00e9 Hauer",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.87953426895558,
         "sun_diff": 2.502436177882714,
         "length": 129.91329479248168
@@ -36404,7 +36266,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Jos\u00e9 Hauer",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.87795030349236,
         "sun_diff": 2.5008522124194883,
         "length": 131.04837330558516
@@ -36427,7 +36289,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rua Jos\u00e9 Hauer",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 65.87525083108707,
         "sun_diff": 2.4981527400142056,
         "length": 128.88469737278663
@@ -36668,6 +36530,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            -49.2430035,
+            -25.4791742
+          ],
+          [
+            -49.2419227,
+            -25.4787346
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Alcino Guanabara",
+        "type": "residential",
+        "slope": 65.74584368268478,
+        "sun_diff": 2.368745591611912,
+        "length": 119.03200295008361
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.2441731,
+            -25.4796501
+          ],
+          [
+            -49.2430035,
+            -25.4791742
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Alcino Guanabara",
+        "type": "residential",
+        "slope": 65.73756213340948,
+        "sun_diff": 2.3604640423366163,
+        "length": 128.8197378463378
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -49.2441553,
             -25.4906439
           ],
@@ -36776,6 +36684,98 @@
         "slope": 65.91466216710984,
         "sun_diff": 2.537564076036972,
         "length": 127.33863025232897
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.223869,
+            -25.5154519
+          ],
+          [
+            -49.222679,
+            -25.5149758
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Maestro Carlos Frank",
+        "type": "residential",
+        "slope": 66.09134177801974,
+        "sun_diff": 2.7142436869468725,
+        "length": 130.66637859229388
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.222679,
+            -25.5149758
+          ],
+          [
+            -49.2214953,
+            -25.5145022
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Maestro Carlos Frank",
+        "type": "residential",
+        "slope": 66.0905053020565,
+        "sun_diff": 2.7134072109836325,
+        "length": 129.97597056724965
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.2214953,
+            -25.5145022
+          ],
+          [
+            -49.2203169,
+            -25.5140308
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Maestro Carlos Frank",
+        "type": "residential",
+        "slope": 66.09416664648967,
+        "sun_diff": 2.7170685554168017,
+        "length": 129.39084866386605
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.2956423,
+            -25.5240692
+          ],
+          [
+            -49.2944928,
+            -25.5245337
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Rua Marechal Oct\u00e1vio Saldanha Mazza",
+        "type": "secondary",
+        "slope": 114.1224982590779,
+        "sun_diff": 2.5015064980291015,
+        "length": 126.41974027028455
       }
     }
   ]

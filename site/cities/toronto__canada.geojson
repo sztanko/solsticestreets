@@ -110,7 +110,7 @@
       "type": "Feature",
       "properties": {
         "name": "Starspray Boulevard",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 125.37794294306258,
         "sun_diff": 2.9499166368455434,
         "length": 118.78674093196214
@@ -133,7 +133,7 @@
       "type": "Feature",
       "properties": {
         "name": "Charlottetown Boulevard",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 124.022333155236,
         "sun_diff": 1.5943068490189631,
         "length": 167.5250129291278
@@ -1030,7 +1030,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kingslake Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 59.36788604921426,
         "sun_diff": 1.794563620441295,
         "length": 107.53567444572212
@@ -1053,7 +1053,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kingslake Road",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 59.13627100795546,
         "sun_diff": 1.562948579182489,
         "length": 106.22198302898822
@@ -1536,7 +1536,7 @@
       "type": "Feature",
       "properties": {
         "name": "Friendship Avenue",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 120.18283390258071,
         "sun_diff": 2.2451924036363238,
         "length": 119.55661003753778
@@ -2594,7 +2594,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ellendale Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 120.63200316434478,
         "sun_diff": 1.7960094814939112,
         "length": 133.3395296203433
@@ -2617,7 +2617,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ellendale Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 120.69849139908479,
         "sun_diff": 1.7295212467539045,
         "length": 163.16767650035163
@@ -2640,7 +2640,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shropshire Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 121.68140382491035,
         "sun_diff": 0.7466088209283441,
         "length": 102.14540519158442
@@ -2663,7 +2663,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shropshire Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 120.84110343828698,
         "sun_diff": 1.586909207551713,
         "length": 121.45828387165601
@@ -2686,7 +2686,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shropshire Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 121.27440130967705,
         "sun_diff": 1.1536113361616458,
         "length": 132.79822307614322
@@ -3261,7 +3261,7 @@
       "type": "Feature",
       "properties": {
         "name": "The Kingsway",
-        "type": "tertiary",
+        "type": "secondary",
         "slope": 124.73422468204606,
         "sun_diff": 2.3651155876095515,
         "length": 171.83060849079433
@@ -5806,8 +5806,8 @@
             43.6354138
           ],
           [
-            -79.4697379,
-            43.6360649
+            -79.4699862,
+            43.6359547
           ]
         ]
       },
@@ -5815,9 +5815,9 @@
       "properties": {
         "name": null,
         "type": "service",
-        "slope": 58.47439540029518,
-        "sun_diff": 0.7836210385546849,
-        "length": 138.50614408824353
+        "slope": 58.47287089244929,
+        "sun_diff": 0.7820965307087988,
+        "length": 115.05862989096075
       }
     },
     {
@@ -6400,29 +6400,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -79.2944544,
-            43.7634528
-          ],
-          [
-            -79.2964616,
-            43.7643085
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "name": null,
-        "type": "service",
-        "slope": 120.55369308294343,
-        "sun_diff": 1.8743195628952662,
-        "length": 187.23457982832863
-      }
-    },
-    {
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -79.2464139,
             43.7776116
           ],
@@ -6504,7 +6481,7 @@
       "type": "Feature",
       "properties": {
         "name": "Bannatyne Drive",
-        "type": "residential",
+        "type": "tertiary",
         "slope": 123.91517372670003,
         "sun_diff": 1.4871610808613411,
         "length": 141.47751911805508
@@ -7658,6 +7635,29 @@
         "slope": 60.277022220931286,
         "sun_diff": 2.703699792158318,
         "length": 103.46576748774248
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.2945594,
+            43.7634975
+          ],
+          [
+            -79.2956472,
+            43.7639613
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "type": "service",
+        "slope": 120.5564818139919,
+        "sun_diff": 1.8715308318467976,
+        "length": 101.47484834594535
       }
     }
   ]
